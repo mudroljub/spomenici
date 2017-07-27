@@ -4,4 +4,4 @@ const prevedi = data => new Blob([JSON.stringify(data, null, 2)], {type : 'appli
 
 fetch('../spomenici2.json')
   .then(response => response.json())
-  .then(data => saveAs(prevedi(sortiraj(data))), "spomenici.json")
+  .then(data => saveAs(prevedi(sortiraj(data))), 'spomenici.json')
