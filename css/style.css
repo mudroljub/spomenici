@@ -1,0 +1,23 @@
+html, body, #map-canvas {
+  height: 100%;
+  margin: 0px;
+  padding: 0px
+}
+
+#map-canvas {
+  position: absolute;
+  width: 100%;
+}
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+}
+
+img {
+  position: relative;
+  height: 75px;
+  cursor: pointer;
+}
