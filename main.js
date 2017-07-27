@@ -65,7 +65,7 @@ function praviMarker(map, prozor, s) {
     infoWindow: prozor,
     position: new google.maps.LatLng(s.koordinate.lat, s.koordinate.lng),
     title: s.naziv || s.mesto,
-    icon: 'slike/obelisk.png'
+    icon: 'obelisk.png'
   })
 }
 
