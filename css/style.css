@@ -4,20 +4,25 @@ html, body, #map-canvas {
   padding: 0px
 }
 
-#map-canvas {
+h1 {
+  bottom: 0;
+  color: #822323;
+  margin-bottom: 75px;
   position: absolute;
-  width: 100%;
+  z-index: 1;
 }
 
-body {
+.gm-style-iw img {
+  height: 200px;
+}
+
+#slike {
+  position: fixed;
+  bottom: 0;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-content: space-between;
+  overflow: hidden;
 }
 
-img {
-  position: relative;
+#slike img {
   height: 75px;
-  cursor: pointer;
 }
