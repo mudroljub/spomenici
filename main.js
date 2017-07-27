@@ -80,19 +80,21 @@ function initialize(spomenici) {
     const prozor = praviProzor(s, url)
     const marker = praviMarker(map, prozor, s)
 
-    marker.addListener('click', () => {
+    function otvori() {
       prozor.open(map, marker)
-      if (s.slika)
-        prozor.setContent(prozor.getContent() + `<br><img src="${s.slika}">`)
-    })
+      if (!s.slika || prozor.ubacenaSlika) return
+      prozor.setContent(prozor.getContent() + `<p><img src="${s.slika}"></p>`)
+      prozor.ubacenaSlika = true
+    }
+
+    marker.addListener('click', otvori)
     marker.addListener('dblclick', () => window.open(url, '_self'))
 
     if (!s.slika || i % Math.ceil(Math.random() * nasumicnost) != 0) return
-
     const slika = document.createElement('img')
     slika.src = s.slika
+    slika.addEventListener('click', otvori)
     document.getElementById('slike').appendChild(slika)
-    return marker
   })
 }
 
