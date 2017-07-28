@@ -1,4 +1,6 @@
-# Spomenici NOB
+# Spomenici
+
+Yugoslav monuments map.
 
 Poseti: [mudroljub.github.io/spomenici](https://mudroljub.github.io/spomenici/)
 
