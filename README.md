@@ -2,4 +2,4 @@
 
 Poseti: [mudroljub.github.io/spomenici](https://mudroljub.github.io/spomenici/)
 
-![](screen.png)
+[![](screen.png)](https://mudroljub.github.io/spomenici/)
