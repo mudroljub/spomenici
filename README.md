@@ -2,6 +2,6 @@
 
 Yugoslav monuments map.
 
-Poseti: [mudroljub.github.io/spomenici](https://mudroljub.github.io/spomenici/)
+See: [mudroljub.github.io/spomenici](https://mudroljub.github.io/spomenici/)
 
 [![](screen.png)](https://mudroljub.github.io/spomenici/)
