@@ -5,7 +5,9 @@ $('#slike').style.marginLeft = 0
 
 const slike = []
 const pomak = 200
-const inicijalnoSlika = window.innerWidth > 600 ? 20 : 10
+const ucitajSlika =
+  window.innerWidth > 1200 ? 30 :
+  window.innerWidth > 600 ? 20 : 10
 
 let brojacSlika = 0
 let ucitaneSlike = false
@@ -211,7 +213,7 @@ function initialize(spomenici) {
     slike.push(slika)
     $('#slike').appendChild(slika)
     slika.izvor = s.slika // za kasnije
-    if (brojacSlika > inicijalnoSlika) return
+    if (brojacSlika > ucitajSlika) return
     slika.src = s.slika
     brojacSlika++
   })
