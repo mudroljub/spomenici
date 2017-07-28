@@ -17,7 +17,7 @@
       "lat": 45.049869,
       "lng": 19.1821549
     },
-    "info": "//www.spomenici.heritage.gov.rs/lat/nkd/pregled/sremski_front",
+    "info": "http://www.spomenici.heritage.gov.rs/lat/nkd/pregled/sremski_front",
     "tip": "kompleks",
     "slika": "//www.spomenici.heritage.gov.rs/files/nkd/Adasevci,_Spomen_obelezje_Sremski_front_-_Adasevci_066.JPG",
     "place_id": "ChIJuR_fNemFW0cRSzpM68TkkFo"
@@ -28,7 +28,7 @@
       "lat": 43.534908,
       "lng": 21.71153
     },
-    "slika": "//www.milivojomorac.edu.rs/images/2015/8-FOTOKONKURS/11aleksinac/7.jpg",
+    "slika": "http://www.milivojomorac.edu.rs/images/2015/8-FOTOKONKURS/11aleksinac/7.jpg",
     "tip": "spomenik"
   },
   {
@@ -46,7 +46,7 @@
     "mesto": "Aradac, Zrenjanin",
     "tip": "spomenik",
     "place_id": "ChIJ4ZCzVKveWkcRW_TZdateM7I",
-    "slika": "//www.listzrenjanin.com/wp-content/uploads/2016/03/03-zd-20160325-aradac-spomenik.jpg",
+    "slika": "http://www.listzrenjanin.com/wp-content/uploads/2016/03/03-zd-20160325-aradac-spomenik.jpg",
     "koordinate": {
       "lat": 45.37993989999999,
       "lng": 20.297167400000035
@@ -83,7 +83,7 @@
     },
     "info": "//www.spomenikdatabase.org/kragujevac",
     "tip": "spomenik",
-    "slika": "//www.skulpture-srbija.com/media/skulpture/logo-oto-bajina-b-dusan.500x360.jpg"
+    "slika": "http://www.skulpture-srbija.com/media/skulpture/logo-oto-bajina-b-dusan.500x360.jpg"
   },
   {
     "mesto": "Bajmok",
@@ -92,7 +92,7 @@
       "lat": 45.967639,
       "lng": 19.424128
     },
-    "slika": "//www.skulpture-srbija.com/media/skulpture/ana-beslic-06.500x360.jpg",
+    "slika": "http://www.skulpture-srbija.com/media/skulpture/ana-beslic-06.500x360.jpg",
     "tip": "spomenik",
     "info": "//www.skulpture-srbija.com/skulpture/baklja-secanja-68/"
   },
@@ -122,7 +122,7 @@
     "mesto": "Bečej",
     "place_id": "ChIJH3_OxZozW0cRjDaJwO5rdpM",
     "info": "//www.skulpture-srbija.com/skulpture/spomenik-streljanim-borcima-nor-a-277/",
-    "slika": "//www.skulpture-srbija.com/media/skulpture/kis-julijana-spomnik-becej.500x360.jpg",
+    "slika": "http://www.skulpture-srbija.com/media/skulpture/kis-julijana-spomnik-becej.500x360.jpg",
     "tip": "spomenik",
     "koordinate": {
       "lat": 45.6162764,
@@ -138,7 +138,7 @@
     "info": "//www.spomenikdatabase.org/begunje",
     "tip": "kompleks",
     "place_id": "ChIJ4yUSoMWXekcRCBLDPUtNNNA",
-    "slika": "//www.radolca.si/db/radolca/image/slike_v_modulih/galleryitem/1761_file.jpg"
+    "slika": "http://www.radolca.si/db/radolca/image/slike_v_modulih/galleryitem/1761_file.jpg"
   },
   {
     "mesto": "Bela Crkva",
