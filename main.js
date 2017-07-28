@@ -1,15 +1,14 @@
-// proveriti koje nemaju sliku
-
 const $ = s => document.querySelectorAll(s).length > 1 ? document.querySelectorAll(s) : document.querySelector(s)
 EventTarget.prototype.on = EventTarget.prototype.addEventListener
 
 $('#slike').style.marginLeft = 0
 
-const korak = 200
 const slike = []
-let ucitaneSlike = false
+const pomak = 200
+const inicijalnoSlika = window.innerWidth > 600 ? 20 : 10
+
 let brojacSlika = 0
-const inicijalnoSlika = 20
+let ucitaneSlike = false
 
 const stilMape = [
   {
@@ -205,6 +204,7 @@ function initialize(spomenici) {
     marker.addListener('click', otvori)
     marker.addListener('dblclick', () => window.open(url, '_self'))
 
+    // if (!s.slika) console.log(s)
     if (!s.slika) return
     const slika = document.createElement('img')
     slika.addEventListener('click', otvori)
@@ -222,12 +222,12 @@ fetch('spomenici.json')
   .then(data => initialize(data))
 
 $('#strelica-leva').on('click', function() {
-  if (parseInt($('#slike').style.marginLeft) + korak > 0) return
-  $('#slike').style.marginLeft = `${parseInt($('#slike').style.marginLeft) + korak}px`
+  if (parseInt($('#slike').style.marginLeft) + pomak > 0) return
+  $('#slike').style.marginLeft = `${parseInt($('#slike').style.marginLeft) + pomak}px`
 })
 
 $('#strelica-desna').on('click', function() {
   if (!ucitaneSlike) slike.map(slika => slika.src = slika.izvor)
-  $('#slike').style.marginLeft = `${parseInt($('#slike').style.marginLeft) - korak}px`
+  $('#slike').style.marginLeft = `${parseInt($('#slike').style.marginLeft) - pomak}px`
   ucitaneSlike = true
 })

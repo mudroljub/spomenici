@@ -7,12 +7,23 @@ html, body, #map-canvas {
 h1 {
   bottom: 0;
   color: #822323;
-  font-size: 74px;
   line-height: 80%;
   margin-bottom: 60px;
   opacity: 0.2;
   position: absolute;
   z-index: 1;
+}
+
+@media (min-width: 400px) {
+  h1 {
+    font-size: 52px;
+  }
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 74px;
+  }
 }
 
 .gm-style-iw img {
@@ -38,6 +49,7 @@ h1 {
 #slike {
   display: flex;
   overflow: hidden;
+  transition: margin-left 0.4s ease;
 }
 
 #slike img {

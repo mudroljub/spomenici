@@ -39,7 +39,8 @@
     },
     "info": "http://www.spomenikdatabase.org/andrijevica",
     "tip": "kompleks",
-    "place_id": "ChIJA3_g8v5aVEcRQieVCLJOw_U"
+    "place_id": "ChIJA3_g8v5aVEcRQieVCLJOw_U",
+    "slika": "http://static.wixstatic.com/media/e73a14_e78ea75315c8483183113fed0ec313e8~mv2.jpg/v1/fill/w_653,h_437,al_c,q_80,usm_0.66_1.00_0.01/e73a14_e78ea75315c8483183113fed0ec313e8~mv2.webp"
   },
   {
     "mesto": "Aradac, Zrenjanin",
@@ -59,7 +60,8 @@
     },
     "info": "http://www.spomenikdatabase.org/avala",
     "tip": "kompleks",
-    "place_id": "ChIJl1fINUV0WkcRjPUF54Jp8zA"
+    "place_id": "ChIJl1fINUV0WkcRjPUF54Jp8zA",
+    "slika": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Avala_soviet.jpg/200px-Avala_soviet.jpg"
   },
   {
     "mesto": "Baćina",
@@ -80,8 +82,8 @@
       "lng": 19.568981
     },
     "info": "http://www.spomenikdatabase.org/kragujevac",
-    "tip": "kompleks",
-    "spomenik": "http://www.skulpture-srbija.com/media/skulpture/logo-oto-bajina-b-dusan.500x360.jpg"
+    "tip": "spomenik",
+    "slika": "http://www.skulpture-srbija.com/media/skulpture/logo-oto-bajina-b-dusan.500x360.jpg"
   },
   {
     "mesto": "Bajmok",
@@ -113,7 +115,8 @@
       "lng": 18.849317400000018
     },
     "place_id": "ChIJoxYKuT_TXEcRoa0Ysiwb4Io",
-    "tip": "kompleks"
+    "tip": "kompleks",
+    "slika": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Batina1.jpg/200px-Batina1.jpg"
   },
   {
     "mesto": "Bečej",
@@ -223,7 +226,8 @@
       "lng": 20.4169938
     },
     "place_id": "ChIJNWikvdFvWkcRpfToE9Lyd1A",
-    "tip": "spomenik"
+    "tip": "spomenik",
+    "slika": "http://scontent.cdninstagram.com/t51.2885-15/s480x480/e35/11950720_1027266140640083_1754465047_n.jpg"
   },
   {
     "mesto": "Beograd, Dorćol",
@@ -256,7 +260,8 @@
       "lng": 15.870810399999982
     },
     "tip": "spomenik",
-    "place_id": "ChIJZfLmDmxAYUcR710unkN4Dwo"
+    "place_id": "ChIJZfLmDmxAYUcR710unkN4Dwo",
+    "slika": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Djevojka_sa_Une%2C_Bihac%2C_2006.jpg/200px-Djevojka_sa_Une%2C_Bihac%2C_2006.jpg"
   },
   {
     "mesto": "Bihać",
@@ -329,9 +334,10 @@
       "lat": 44.18333333333333,
       "lng": 19.316666666666666
     },
-    "place_id": "ID ChIJ9VbPvwoKWUcRWSakbhYoUno",
+    "place_id": "ChIJ9VbPvwoKWUcRWSakbhYoUno",
     "info": "http://www.spomenikdatabase.org/bratunac",
-    "tip": "kompleks"
+    "tip": "kompleks",
+    "slika": "https://mw2.google.com/mw-panoramio/photos/medium/19576345.jpg"
   },
   {
     "mesto": "Bravsko",
@@ -416,7 +422,8 @@
       "lng": 13.872583
     },
     "info": "http://www.spomenikdatabase.org/crni-kal",
-    "tip": "kompleks"
+    "tip": "kompleks",
+    "slika": "http://static.wixstatic.com/media/e73a14_511c14ecec0d4afb8c34b64b1dffa497~mv2.jpg_srz_457_288_85_22_0.50_1.20_0.00_jpg_srz"
   },
   {
     "mesto": "Danilovgrad",
@@ -426,7 +433,8 @@
       "lng": 19.10569529999998
     },
     "place_id": "ChIJKYpBNh28TRMRoQl-aeYsr0A",
-    "tip": "spomenik"
+    "tip": "spomenik",
+    "slika": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Danilovgrad.jpg/200px-Danilovgrad.jpg"
   },
   {
     "mesto": "Dolenji Novaki, Cerkno",
@@ -479,7 +487,8 @@
     },
     "info": "http://www.spomenikdatabase.org/dotrscina",
     "tip": "kompleks",
-    "place_id": "ChIJpRWDSYvXZUcR2s8kAYsDDlY"
+    "place_id": "ChIJpRWDSYvXZUcR2s8kAYsDDlY",
+    "slika": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Dotrscina_spomenik_2.jpg/200px-Dotrscina_spomenik_2.jpg"
   },
   {
     "mesto": "Draginac",
@@ -541,7 +550,8 @@
       "lng": 16.366666666666667
     },
     "info": "http://www.spomenikdatabase.org/drvar",
-    "tip": "kompleks"
+    "tip": "kompleks",
+    "slika": "https://upload.wikimedia.org/wikipedia/hr/thumb/c/ca/Spomenik_Drvar.jpg/200px-Spomenik_Drvar.jpg"
   },
   {
     "mesto": "Foča",
@@ -560,7 +570,8 @@
       "lng": 19.843029
     },
     "tip": "spomenik",
-    "place_id": "ChIJ93g1IGgQW0cRnjxhKcQOB0c"
+    "place_id": "ChIJ93g1IGgQW0cRnjxhKcQOB0c",
+    "slika": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Spomenik_borcima_NOB_u_Futogu.JPG/200px-Spomenik_borcima_NOB_u_Futogu.JPG"
   },
   {
     "mesto": "Gajdobra",
@@ -592,7 +603,8 @@
       "lng": 16.8190934
     },
     "info": "http://www.spomenikdatabase.org/glamoc",
-    "tip": "kompleks"
+    "tip": "kompleks",
+    "slika": "https://mw2.google.com/mw-panoramio/photos/medium/86279073.jpg"
   },
   {
     "mesto": "Gligino Brdo",
@@ -654,7 +666,8 @@
     },
     "tip": "kompleks",
     "place_id": "ChIJOxUXaeROTBMRwm3QZdKNj70",
-    "info": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D0%BF%D0%B0%D1%80%D0%BA_%D0%A3%D1%81%D1%82%D0%B0%D0%BD%D0%BA%D0%B0_%D0%B8_%D0%A0%D0%B5%D0%B2%D0%BE%D0%BB%D1%83%D1%86%D0%B8%D1%98%D0%B5_(%D0%93%D1%80%D0%B0%D1%85%D0%BE%D0%B2%D0%BE)"
+    "info": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D0%BF%D0%B0%D1%80%D0%BA_%D0%A3%D1%81%D1%82%D0%B0%D0%BD%D0%BA%D0%B0_%D0%B8_%D0%A0%D0%B5%D0%B2%D0%BE%D0%BB%D1%83%D1%86%D0%B8%D1%98%D0%B5_(%D0%93%D1%80%D0%B0%D1%85%D0%BE%D0%B2%D0%BE)",
+    "slika": "http://www.masina.rs/wp-content/uploads/2016/05/Grahovo.jpg"
   },
   {
     "mesto": "Grmeč",
@@ -2338,7 +2351,8 @@
       "lng": 20.99871159999998
     },
     "place_id": "ChIJH_jYPrBYVkcRQA3BpLKilhs",
-    "tip": "spomenik"
+    "tip": "spomenik",
+    "slika": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Trstenik_-_Monument.jpg/200px-Trstenik_-_Monument.jpg"
   },
   {
     "mesto": "Tuzla",
@@ -2367,6 +2381,7 @@
       "lat": 41.9240193,
       "lng": 19.205786
     },
+    "slika": "http://photos.wikimapia.org/p/00/00/65/83/82_big.jpg",
     "info": "http://www.spomenikdatabase.org/ulcinj",
     "tip": "kompleks"
   },
@@ -2401,7 +2416,8 @@
     },
     "place_id": "ChIJ_86_QwftWUcRFhvOMfyF-TQ",
     "tip": "kompleks",
-    "info": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%B1%D0%BE%D1%80%D1%86%D0%B8%D0%BC%D0%B0_%D0%A0%D0%B5%D0%B2%D0%BE%D0%BB%D1%83%D1%86%D0%B8%D1%98%D0%B5"
+    "info": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%B1%D0%BE%D1%80%D1%86%D0%B8%D0%BC%D0%B0_%D0%A0%D0%B5%D0%B2%D0%BE%D0%BB%D1%83%D1%86%D0%B8%D1%98%D0%B5",
+    "slika": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Stjepan_Filipovi%C4%87.JPG/200px-Stjepan_Filipovi%C4%87.JPG"
   },
   {
     "mesto": "Valjevo",
@@ -2411,7 +2427,8 @@
       "lng": 19.890376
     },
     "tip": "kompleks",
-    "info": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD_%D0%B3%D1%80%D0%BE%D0%B1%D1%99%D0%B5_%D0%BD%D0%B0_%D0%9A%D1%80%D1%83%D1%88%D0%B8%D0%BA%D1%83"
+    "info": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD_%D0%B3%D1%80%D0%BE%D0%B1%D1%99%D0%B5_%D0%BD%D0%B0_%D0%9A%D1%80%D1%83%D1%88%D0%B8%D0%BA%D1%83",
+    "slika": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Spomen_groblje_na_Kru%C5%A1iku%2C_Valjevo_036.jpg/200px-Spomen_groblje_na_Kru%C5%A1iku%2C_Valjevo_036.jpg"
   },
   {
     "mesto": "Velanija, Priština",
@@ -2442,7 +2459,8 @@
       "lat": 42.245905,
       "lng": 19.0916606
     },
-    "tip": "spomenik"
+    "tip": "spomenik",
+    "slika": "http://mw2.google.com/mw-panoramio/photos/medium/49365182.jpg"
   },
   {
     "mesto": "Vlasotince",
@@ -2485,13 +2503,26 @@
     "tip": "spomenik"
   },
   {
+    "mesto": "Vrbas",
+    "naziv": "Spomenik Savi Kovačeviću",
+    "koordinate": {
+      "lat": 45.5939513,
+      "lng": 19.6520519
+    },
+    "info": "https://sr.wikipedia.org/wiki/%D0%94%D0%B0%D1%82%D0%BE%D1%82%D0%B5%D0%BA%D0%B0:Spomenik_Savi_Kovacevicu_u_Vrbasu.jpg",
+    "tip": "spomenik",
+    "page_id": "ChIJH4j_SR9QW0cRZ0ZUkb76dVk",
+    "slika": "https://upload.wikimedia.org/wikipedia/sr/thumb/e/ef/Spomenik_Savi_Kovacevicu_u_Vrbasu.jpg/200px-Spomenik_Savi_Kovacevicu_u_Vrbasu.jpg"
+  },
+  {
     "mesto": "Vrtoče",
     "koordinate": {
       "lat": 44.635639,
       "lng": 16.178361
     },
     "info": "http://www.spomenikdatabase.org/vrtoce",
-    "tip": "kompleks"
+    "tip": "kompleks",
+    "slika": "http://3.bp.blogspot.com/-xgbjDExxqpU/UsfAjlr3UDI/AAAAAAAANvU/aRQdeeLRPIA/s1600/Vrtoce+-+Spominski+park+NOB+2.jpg"
   },
   {
     "mesto": "Vukosavci, Lopare",
@@ -2570,9 +2601,9 @@
       "lat": 45.8168825,
       "lng": 15.980178600000045
     },
-    "info": "http://www.spomenikdatabase.org/zagreb",
-    "tip": "kompleks",
-    "place_id": "ChIJWfsdgQHXZUcRxq82I-M2rNY"
+    "tip": "spomenik",
+    "place_id": "ChIJWfsdgQHXZUcRxq82I-M2rNY",
+    "slika": "https://i1.wp.com/slikepartizana.com/wp-content/uploads/2016/11/ivan-goran-kovacic-spomenik.jpg?fit=1022%2C1089&resize=350%2C200"
   },
   {
     "mesto": "Zagreb, park Tuškanac",
@@ -2593,7 +2624,8 @@
       "lng": 17.278333
     },
     "info": "http://www.spomenikdatabase.org/zaostrog",
-    "tip": "kompleks"
+    "tip": "kompleks",
+    "slika": "http://static.wixstatic.com/media/e73a14_5413114a9f8e4331872c541336c7e600~mv2.jpg_srz_388_581_85_22_0.50_1.20_0.00_jpg_srz"
   },
   {
     "mesto": "Zemun",
@@ -2644,6 +2676,7 @@
       "lat": 45.836056,
       "lng": 14.931694
     },
+    "slika": "http://www.euparky.si/portals/1/euparky/Slovenija/Zuzemberk/zgodovina/spomenik.jpg",
     "info": "http://www.spomenikdatabase.org/zuzemberk",
     "tip": "kompleks"
   }
