@@ -1088,11 +1088,11 @@
   {
     "mesto": "Kraljevo",
     "koordinate": {
-      "lat": 44.0158552,
-      "lng": 20.879600200000027
+      "lat": 43.7308921,
+      "lng": 20.6900836
     },
     "info": "http://www.spomenikdatabase.org/kraljevo",
-    "place_id": "ChIJXxocQkQhV0cRHRRvJlSCLxM",
+    "place_id": "ChIJKVJb1AIBV0cRxEXIFmgdtUk",
     "tip": "kompleks",
     "slika": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Spomen_groblje_Kraljevo_04.jpg/200px-Spomen_groblje_Kraljevo_04.jpg"
   },
