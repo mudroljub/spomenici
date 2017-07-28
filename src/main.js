@@ -186,18 +186,20 @@ function praviMarker(map, prozor, s) {
   })
 }
 
+function praviUrl(s) {
+  const placeUrl = `https://www.google.com/maps/place/?q=place_id:${s.place_id}`
+  const koordUrl = `https://www.google.com/maps/place/${s.koordinate.lat},${s.koordinate.lng}`
+  const androidUrl = s.place_id ? `geo:0,0?q=place_id:${s.place_id}` : `geo:${s.koordinate.lat},${s.koordinate.lng}`
+  const browserUrl = s.place_id ? placeUrl : koordUrl
+  const url = isAndroid ? androidUrl : browserUrl
+  return url
+}
+
 function initialize(spomenici) {
   const map = praviMapu()
 
   spomenici.map((s) => {
-    const placeUrl = `https://www.google.com/maps/place/?q=place_id:${s.place_id}`
-    const koordUrl = `https://www.google.com/maps/place/${s.koordinate.lat},${s.koordinate.lng}`
-    const androidUrl = `geo:${s.koordinate.lat},${s.koordinate.lng}`
-
-    const url =
-      isAndroid ? androidUrl :
-      s.place_id ? placeUrl : koordUrl
-
+    const url = praviUrl(s)
     const prozor = praviProzor(s, url)
     const marker = praviMarker(map, prozor, s)
 
