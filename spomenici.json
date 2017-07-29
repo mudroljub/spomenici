@@ -1180,7 +1180,8 @@
       "lng": 20.666666666666668
     },
     "info": "http://www.spomenikdatabase.org/landovica",
-    "tip": "kompleks"
+    "tip": "kompleks",
+    "slika": "https://upload.wikimedia.org/wikipedia/sr/5/5d/Spomenik_Bori_Vukmirovi%27u_i_Ramiyu_Sadiku.jpg"
   },
   {
     "mesto": "Ledinci",
@@ -1321,7 +1322,8 @@
       "lng": 17
     },
     "info": "http://www.spomenikdatabase.org/makarska",
-    "tip": "kompleks"
+    "tip": "kompleks",
+    "slika": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Spomenik_Revolucije%2C_Makarska.JPG/200px-Spomenik_Revolucije%2C_Makarska.JPG"
   },
   {
     "mesto": "Makljen",
@@ -1331,7 +1333,8 @@
       "lng": 17.597102
     },
     "info": "http://www.spomenikdatabase.org/makljen",
-    "tip": "kompleks"
+    "tip": "kompleks",
+    "slika": "http://c1038.r38.cf3.rackcdn.com/group4/building39350/media/vgrz_spomenik_15_makljen.jpg"
   },
   {
     "mesto": "Mali Požarevac",
@@ -1391,7 +1394,8 @@
       "lng": 16.283333333333335
     },
     "info": "http://www.spomenikdatabase.org/medeno-polje",
-    "tip": "kompleks"
+    "tip": "kompleks",
+    "slika": "https://thumbs.dreamstime.com/t/monument-bosnia-photo-x-called-x-spomenik-x-x-bosnian-region-krajina-medeno-polje-monuments-now-78114871.jpg"
   },
   {
     "mesto": "Mirna",
@@ -1466,13 +1470,14 @@
     "tip": "kompleks"
   },
   {
-    "mesto": "Niksic",
+    "mesto": "Nikšić",
     "koordinate": {
       "lat": 42.75,
       "lng": 18.95
     },
     "info": "http://www.spomenikdatabase.org/niksic",
-    "tip": "kompleks"
+    "tip": "kompleks",
+    "slika": "https://c1.staticflickr.com/6/5570/14797402468_7f31b5656c_z.jpg"
   },
   {
     "mesto": "Niš",
@@ -1580,7 +1585,8 @@
       "lat": 44.2472795,
       "lng": 20.682539
     },
-    "tip": "spomenik"
+    "tip": "spomenik",
+    "slika": "https://2.bp.blogspot.com/-ANvlDt2Q-aQ/WEwkAsAkQdI/AAAAAAAAC_Y/AyhViGp9-yUP33V819AlzVxZhTuDDYZNACEw/s1600/DSC_6795.jpg"
   },
   {
     "mesto": "Osankarica",
@@ -1634,7 +1640,8 @@
     },
     "info": "http://www.spomenikdatabase.org/petrova-gora",
     "tip": "kompleks",
-    "place_id": "ChIJ6eVFg7eoZkcRfZsXEDYCQmk"
+    "place_id": "ChIJ6eVFg7eoZkcRfZsXEDYCQmk",
+    "slika": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Petrova_Gora_monument.jpg/200px-Petrova_Gora_monument.jpg"
   },
   {
     "mesto": "Plavno",
@@ -1653,7 +1660,8 @@
       "lng": 16.05
     },
     "info": "http://www.spomenikdatabase.org/pleso",
-    "tip": "kompleks"
+    "tip": "kompleks",
+    "slika": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Spomenik_Pleso_Velika_Gorica.jpg/200px-Spomenik_Pleso_Velika_Gorica.jpg"
   },
   {
     "mesto": "Plovanija",
@@ -1726,7 +1734,8 @@
     },
     "place_id": "ChIJ97CmaLOUTRMRvM9KTioGTZU",
     "tip": "kompleks",
-    "info": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%9F%D0%B0%D1%80%D1%82%D0%B8%D0%B7%D0%B0%D0%BD%D1%83-%D0%B1%D0%BE%D1%80%D1%86%D1%83"
+    "info": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%9F%D0%B0%D1%80%D1%82%D0%B8%D0%B7%D0%B0%D0%BD%D1%83-%D0%B1%D0%BE%D1%80%D1%86%D1%83",
+    "slika": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Spomenik_Partizanu_Borcu.JPG/200px-Spomenik_Partizanu_Borcu.JPG"
   },
   {
     "mesto": "Podhum",
@@ -1836,7 +1845,8 @@
     "koordinate": {
       "lat": 44.872398,
       "lng": 13.847293100000002
-    }
+    },
+    "slika": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Pula_memorejo_pri_la_kontra%C5%ADfa%C5%9Disma_batalo_de_1941-1944.jpg/200px-Pula_memorejo_pri_la_kontra%C5%ADfa%C5%9Disma_batalo_de_1941-1944.jpg"
   },
   {
     "mesto": "Radanovci",
@@ -1910,7 +1920,8 @@
       "lng": 16.625278
     },
     "info": "http://www.spomenikdatabase.org/sinj",
-    "tip": "kompleks"
+    "tip": "kompleks",
+    "slika": "https://farm8.staticflickr.com/7384/27784631070_922e35ced9_m.jpg"
   },
   {
     "mesto": "Ruma",
@@ -1932,7 +1943,8 @@
     },
     "place_id": "ChIJBxgXn0THYEcRobDsgh2yBAw",
     "tip": "kompleks",
-    "info": "http://www.spomenikdatabase.org/sanski"
+    "info": "http://www.spomenikdatabase.org/sanski",
+    "slika": "http://static.panoramio.com/photos/large/66934950.jpg"
   },
   {
     "mesto": "Sarajevo",
@@ -1953,7 +1965,8 @@
     "koordinate": {
       "lat": 43.8559269,
       "lng": 18.4126354
-    }
+    },
+    "slika": "http://sarajevo.travel/assets/photos/places/big/vladimir-walter-peric-monument-1429008948.jpg"
   },
   {
     "mesto": "Sarajevo",
@@ -2021,7 +2034,8 @@
     },
     "tip": "kompleks",
     "place_id": "ChIJkS2GAGgvNRMR4HqhqLHOUl0",
-    "info": "https://sh.wikipedia.org/wiki/Spomen-park_%C5%A0ubi%C4%87evac"
+    "info": "https://sh.wikipedia.org/wiki/Spomen-park_%C5%A0ubi%C4%87evac",
+    "slika": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Spomenik_Radi_Koncaru_i_streljanima-Sibenik.JPG/200px-Spomenik_Radi_Koncaru_i_streljanima-Sibenik.JPG"
   },
   {
     "mesto": "Sićevo",
@@ -2030,7 +2044,8 @@
       "lng": 22.087691800000016
     },
     "place_id": "ChIJzUn5zpyuVUcR6fPbC1RpCqc",
-    "tip": "spomenik"
+    "tip": "spomenik",
+    "slika": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Sicevo-Spomenik-1.jpg/200px-Sicevo-Spomenik-1.jpg"
   },
   {
     "mesto": "Sirig",
@@ -2040,7 +2055,8 @@
       "lng": 19.810478099999955
     },
     "place_id": "ChIJhy7zlhQ_W0cR2iHcUGjbtOo",
-    "tip": "spomenik"
+    "tip": "spomenik",
+    "slika": "http://www.skulpture-srbija.com/media/skulpture/radovanovic-pavle-sirig-11.500x360.jpg"
   },
   {
     "mesto": "Sisak",
@@ -2124,7 +2140,8 @@
       "lng": 16.669278
     },
     "info": "http://www.spomenikdatabase.org/slabinja",
-    "tip": "kompleks"
+    "tip": "kompleks",
+    "slika": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Slabinja.jpg/200px-Slabinja.jpg"
   },
   {
     "mesto": "Šolta",
@@ -2174,7 +2191,8 @@
     },
     "info": "http://www.spomenikdatabase.org/sremska-mitrovica",
     "tip": "kompleks",
-    "place_id": "ChIJQZWX8tykW0cRD9S12S-qEyU"
+    "place_id": "ChIJQZWX8tykW0cRD9S12S-qEyU",
+    "slika": "http://mw2.google.com/mw-panoramio/photos/medium/42618145.jpg"
   },
   {
     "mesto": "Stara Pazova",
@@ -2283,7 +2301,8 @@
     "koordinate": {
       "lat": 46.09889930000001,
       "lng": 19.65905840000005
-    }
+    },
+    "slika": "http://www.skulpture-srbija.com/media/skulpture/rosandic-toma-sub-12_1.500x360.jpg"
   },
   {
     "mesto": "Subotica",
@@ -2422,7 +2441,7 @@
   },
   {
     "mesto": "Valjevo",
-    "naziv": "Spomenik Stjepanu Filipoviću",
+    "naziv": "Spomenik Stjepanu Stevi Filipoviću",
     "koordinate": {
       "lat": 44.2639087,
       "lng": 19.88062089999994

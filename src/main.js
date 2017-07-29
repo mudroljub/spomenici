@@ -182,7 +182,7 @@ function praviMarker(map, prozor, s) {
     infoWindow: prozor,
     position: new google.maps.LatLng(s.koordinate.lat, s.koordinate.lng),
     title: s.naziv || s.mesto,
-    icon: 'obelisk.png'
+    icon: 'slike/obelisk.png'
   })
 }
 
@@ -195,28 +195,33 @@ function praviUrl(s) {
   return url
 }
 
-function initialize(spomenici) {
-  const map = praviMapu()
+function otvori(prozor, map, marker, s) {
+  prozor.open(map, marker)
+  if (!s.slika || prozor.dodataSlika) return
+  prozor.setContent(prozor.getContent() + `<p><img src="${s.slika}"></p>`)
+  prozor.dodataSlika = true
+}
 
+function centriraj(mapa) {
+  navigator.geolocation.getCurrentPosition(function(position) {
+    mapa.setCenter(new google.maps.LatLng(position.coords.latitude, position.coords.longitude))
+    mapa.setZoom(10)
+  })
+}
+
+function initialize(spomenici) {
+  const mapa = praviMapu()
   spomenici.map((s) => {
     const url = praviUrl(s)
     const prozor = praviProzor(s, url)
-    const marker = praviMarker(map, prozor, s)
+    const marker = praviMarker(mapa, prozor, s)
 
-    function otvori() {
-      prozor.open(map, marker)
-      if (!s.slika || prozor.ubacenaSlika) return
-      prozor.setContent(prozor.getContent() + `<p><img src="${s.slika}"></p>`)
-      prozor.ubacenaSlika = true
-    }
+    marker.addListener('click', () => otvori(prozor, mapa, marker, s))
 
-    marker.addListener('click', otvori)
-    marker.addListener('dblclick', () => window.open(url, '_self'))
-
-    // if (!s.slika) console.log(s)
+    if (!s.slika) console.log(s)
     if (!s.slika) return
     const slika = document.createElement('img')
-    slika.addEventListener('click', otvori)
+    slika.addEventListener('click', () => otvori(prozor, mapa, marker, s))
     slike.push(slika)
     $('#slike').appendChild(slika)
     slika.izvor = s.slika // za kasnije
@@ -224,6 +229,7 @@ function initialize(spomenici) {
     slika.src = s.slika
     brojacSlika++
   })
+  $('#lokator').on('click', () => centriraj(mapa))
 }
 
 fetch('spomenici.json')
