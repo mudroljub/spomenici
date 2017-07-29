@@ -1150,6 +1150,18 @@
     }
   },
   {
+    "mesto": "Kumrovec",
+    "naziv": "Spomenik maršalu Titu",
+    "tip": "spomenik",
+    "place_id": "ChIJ81aKrcCVZUcRB8g9vqaNZ74",
+    "slika": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Tito_spomenik1.JPG/200px-Tito_spomenik1.JPG",
+    "koordinate": {
+      "lat": 46.076066,
+      "lng": 15.6775447
+    },
+    "info": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BA%D1%83%D0%BB%D0%BF%D1%82%D1%83%D1%80%D0%B0_%D0%9C%D0%B0%D1%80%D1%88%D0%B0%D0%BB_%D0%A2%D0%B8%D1%82%D0%BE_(%D0%90%D1%83%D0%B3%D1%83%D1%81%D1%82%D0%B8%D0%BD%D1%87%D0%B8%D1%9B)"
+  },
+  {
     "mesto": "Labin",
     "naziv": "Spomenik rudaru borcu",
     "koordinate": {
