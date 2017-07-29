@@ -205,7 +205,6 @@ function otvori(prozor, map, marker, s) {
 function centriraj(mapa) {
   navigator.geolocation.getCurrentPosition(function(position) {
     mapa.setCenter(new google.maps.LatLng(position.coords.latitude, position.coords.longitude))
-    mapa.setZoom(10)
   })
 }
 
