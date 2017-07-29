@@ -40,7 +40,7 @@
     "info": "http://www.spomenikdatabase.org/andrijevica",
     "tip": "kompleks",
     "place_id": "ChIJA3_g8v5aVEcRQieVCLJOw_U",
-    "slika": "http://static.wixstatic.com/media/e73a14_e78ea75315c8483183113fed0ec313e8~mv2.jpg/v1/fill/w_653,h_437,al_c,q_80,usm_0.66_1.00_0.01/e73a14_e78ea75315c8483183113fed0ec313e8~mv2.webp"
+    "slika": "http://static.wixstatic.com/media/e73a14_e78ea75315c8483183113fed0ec313e8~mv2.jpg"
   },
   {
     "mesto": "Aradac, Zrenjanin",
@@ -1087,12 +1087,13 @@
   },
   {
     "mesto": "Kraljevo",
+    "naziv": "Spomen-park Kraljevački oktobar",
     "koordinate": {
-      "lat": 44.0158552,
-      "lng": 20.879600200000027
+      "lat": 43.7308921,
+      "lng": 20.6900836
     },
     "info": "http://www.spomenikdatabase.org/kraljevo",
-    "place_id": "ChIJXxocQkQhV0cRHRRvJlSCLxM",
+    "place_id": "ChIJKVJb1AIBV0cRxEXIFmgdtUk",
     "tip": "kompleks",
     "slika": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Spomen_groblje_Kraljevo_04.jpg/200px-Spomen_groblje_Kraljevo_04.jpg"
   },

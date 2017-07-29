@@ -5,7 +5,8 @@ $('#slike').style.marginLeft = 0
 
 const slike = []
 const pomak = 200
-const ucitajSlika =
+const isAndroid = /(android)/i.test(navigator.userAgent)
+const brojSlika =
   window.innerWidth > 1200 ? 30 :
   window.innerWidth > 600 ? 20 : 10
 
@@ -185,14 +186,20 @@ function praviMarker(map, prozor, s) {
   })
 }
 
+function praviUrl(s) {
+  const placeUrl = `https://www.google.com/maps/place/?q=place_id:${s.place_id}`
+  const koordUrl = `https://www.google.com/maps/place/${s.koordinate.lat},${s.koordinate.lng}`
+  const androidUrl = `geo:${s.koordinate.lat},${s.koordinate.lng}`
+  const browserUrl = s.place_id ? placeUrl : koordUrl
+  const url = isAndroid ? androidUrl : browserUrl
+  return url
+}
+
 function initialize(spomenici) {
   const map = praviMapu()
 
   spomenici.map((s) => {
-    const placeUrl = `https://www.google.com/maps/place/?q=place_id:${s.place_id}`
-    const koordUrl = `https://www.google.com/maps/place/${s.koordinate.lat},${s.koordinate.lng}`
-
-    const url = s.place_id ? placeUrl : koordUrl
+    const url = praviUrl(s)
     const prozor = praviProzor(s, url)
     const marker = praviMarker(map, prozor, s)
 
@@ -213,7 +220,7 @@ function initialize(spomenici) {
     slike.push(slika)
     $('#slike').appendChild(slika)
     slika.izvor = s.slika // za kasnije
-    if (brojacSlika > ucitajSlika) return
+    if (brojacSlika > brojSlika) return
     slika.src = s.slika
     brojacSlika++
   })
