@@ -202,7 +202,7 @@ function otvori(prozor, map, marker, s) {
   prozor.dodataSlika = true
 }
 
-function centriraj(mapa) {
+function nadjiMe(mapa) {
   navigator.geolocation.getCurrentPosition(function(position) {
     mapa.setCenter(new google.maps.LatLng(position.coords.latitude, position.coords.longitude))
   })
@@ -217,10 +217,13 @@ function initialize(spomenici) {
 
     marker.addListener('click', () => otvori(prozor, mapa, marker, s))
 
-    if (!s.slika) console.log(s)
+    // if (!s.slika) console.log(s)
     if (!s.slika) return
     const slika = document.createElement('img')
-    slika.addEventListener('click', () => otvori(prozor, mapa, marker, s))
+    slika.addEventListener('click', () => {
+      otvori(prozor, mapa, marker, s)
+      mapa.panTo(marker.getPosition())
+    })
     slike.push(slika)
     $('#slike').appendChild(slika)
     slika.izvor = s.slika // za kasnije
@@ -228,7 +231,7 @@ function initialize(spomenici) {
     slika.src = s.slika
     brojacSlika++
   })
-  $('#lokator').on('click', () => centriraj(mapa))
+  $('#lokator').on('click', () => nadjiMe(mapa))
 }
 
 fetch('spomenici.json')
