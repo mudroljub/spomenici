@@ -14,4 +14,5 @@ https://babeljs.io/repl/
 
 ## TODO
 
+- bug: kada nije omogucena lokacija na telefonu, ne radi lociranje, cak iako te browser pita i prihvatis
 - url routes for monuments
