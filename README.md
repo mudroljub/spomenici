@@ -16,3 +16,4 @@ https://babeljs.io/repl/
 
 - bug: kada nije omogucena lokacija na telefonu, ne radi lociranje, cak iako te browser pita i prihvatis
 - url routes for monuments
+- srediti strelice za navigaciju i dodati swipe
