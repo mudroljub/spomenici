@@ -1,8 +1,8 @@
 # Spomenici
 
-Yugoslav monuments map. Jedna od aplikacija koje pravimo na [kursevima programiranja](https://skolakoda.org/kursevi/)
+Yugoslav monuments map. Jedna od aplikacija koje pravimo na [kursevima programiranja](https://skolakoda.org/kursevi/) u Školi koda.
 
-Vidi kako radi: [mudroljub.github.io/spomenici](https://mudroljub.github.io/spomenici/)
+Vidi kako radi na: [mudroljub.github.io/spomenici](https://mudroljub.github.io/spomenici/)
 
 [![](screen.png)](https://mudroljub.github.io/spomenici/)
 
