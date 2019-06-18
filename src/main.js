@@ -55,30 +55,33 @@ function locirajMe() {
   })
 }
 
+function praviSlajder(s, prozor, marker, i) {
+  if (!s.slika) return
+  const slika = document.createElement('img')
+  slika.addEventListener('click', () => {
+    otvori(prozor, marker, s.slika)
+    mapa.panTo(marker.getPosition())
+  })
+  slike.push(slika)
+  $('#slike').appendChild(slika)
+  slika.dataset.izvor = s.slika // za kasnije
+  if (i < brojSlika) slika.src = s.slika
+}
+
 function init(spomenici) {
   spomenici.forEach((s, i) => {
     const url = praviUrl(s.place_id, s.koordinate)
     const prozor = noviProzor(s, url)
     const marker = noviMarker(prozor, s)
     marker.addListener('click', () => otvori(prozor, marker, s.slika))
-
-    if (!s.slika) return
-    const slika = document.createElement('img')
-    slika.addEventListener('click', () => {
-      otvori(prozor, marker, s.slika)
-      mapa.panTo(marker.getPosition())
-    })
-    slike.push(slika)
-    $('#slike').appendChild(slika)
-    slika.dataset.izvor = s.slika // za kasnije
-    if (i < brojSlika) slika.src = s.slika
+    praviSlajder(s, prozor, marker, i)
   })
 }
 
 /* INIT */
 
 fetch('data/spomenici.json')
-  .then(response => response.json())
+  .then(res => res.json())
   .then(init)
 
 $('#slike').style.marginLeft = 0 // set start position
