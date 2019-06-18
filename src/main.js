@@ -1,250 +1,95 @@
-const $ = s => document.querySelectorAll(s).length > 1 ? document.querySelectorAll(s) : document.querySelector(s)
-Element.prototype.on = Element.prototype.addEventListener
-
-$('#slike').style.marginLeft = 0
+import {mapa} from '../data/konfigMape.js'
+import {$} from '../utils/helpers.js'
+const {LatLng, InfoWindow, Marker} = google.maps
 
 const slike = []
 const pomak = 200
-const isAndroid = /(android)/i.test(navigator.userAgent)
-const brojSlika =
-  window.innerWidth > 1200 ? 30 :
-  window.innerWidth > 600 ? 20 : 10
+const brojSlika = window.innerWidth / 45
 
-let brojacSlika = 0
 let ucitaneSlike = false
 
-const stilMape = [
-  {
-    'featureType': 'landscape.man_made',
-    'elementType': 'geometry',
-    'stylers': [
-      {
-        'color': '#f7f1df'
-      }
-    ]
-  },
-  {
-    'featureType': 'landscape.natural',
-    'elementType': 'geometry',
-    'stylers': [
-      {
-        'color': '#d0e3b4'
-      }
-    ]
-  },
-  {
-    'featureType': 'landscape.natural.terrain',
-    'elementType': 'geometry',
-    'stylers': [
-      {
-        'visibility': 'off'
-      }
-    ]
-  },
-  {
-    'featureType': 'poi',
-    'elementType': 'labels',
-    'stylers': [
-      {
-        'visibility': 'off'
-      }
-    ]
-  },
-  {
-    'featureType': 'poi.business',
-    'elementType': 'all',
-    'stylers': [
-      {
-        'visibility': 'off'
-      }
-    ]
-  },
-  {
-    'featureType': 'poi.medical',
-    'elementType': 'geometry',
-    'stylers': [
-      {
-        'color': '#fbd3da'
-      }
-    ]
-  },
-  {
-    'featureType': 'poi.park',
-    'elementType': 'geometry',
-    'stylers': [
-      {
-        'color': '#bde6ab'
-      }
-    ]
-  },
-  {
-    'featureType': 'road',
-    'elementType': 'geometry.stroke',
-    'stylers': [
-      {
-        'visibility': 'off'
-      }
-    ]
-  },
-  {
-    'featureType': 'road',
-    'elementType': 'labels',
-    'stylers': [
-      {
-        'visibility': 'off'
-      }
-    ]
-  },
-  {
-    'featureType': 'road.highway',
-    'elementType': 'geometry.fill',
-    'stylers': [
-      {
-        'color': '#ffe15f'
-      }
-    ]
-  },
-  {
-    'featureType': 'road.highway',
-    'elementType': 'geometry.stroke',
-    'stylers': [
-      {
-        'color': '#efd151'
-      }
-    ]
-  },
-  {
-    'featureType': 'road.arterial',
-    'elementType': 'geometry.fill',
-    'stylers': [
-      {
-        'color': '#ffffff'
-      }
-    ]
-  },
-  {
-    'featureType': 'road.local',
-    'elementType': 'geometry.fill',
-    'stylers': [
-      {
-        'color': 'black'
-      }
-    ]
-  },
-  {
-    'featureType': 'transit.station.airport',
-    'elementType': 'geometry.fill',
-    'stylers': [
-      {
-        'color': '#cfb2db'
-      }
-    ]
-  },
-  {
-    'featureType': 'water',
-    'elementType': 'geometry',
-    'stylers': [
-      {
-        'color': '#a2daf2'
-      }
-    ]
-  }
-]
+/* FUNKCIJE */
 
-function praviMapu() {
-  return new google.maps.Map(document.getElementById('map-canvas'), {
-    center: {
-      'lat': 44.341667,
-      'lng': 17.269444
-    },
-    zoom: 8,
-    zoomControlOptions: {
-      position: google.maps.ControlPosition.RIGHT_TOP
-    },
-    streetViewControl: false,
-    styles: stilMape
-  })
-}
-
-function praviProzor(s, url) {
-  let sablon = `
+function noviProzor(s, url) {
+  const content = `
     <h3>${s.mesto}</h3>
     </p>${s.naziv || ''}</p>
     <a href="${url}">Find place</a>
+    ${s.info ? `<a href="${s.info}" target="_blank">Read more</a>` : ''}
   `
-  if (s.info) sablon += `<a href="${s.info}" target="_blank">Read more</a>`
-  return new google.maps.InfoWindow({content: sablon})
+  return new InfoWindow({content})
 }
 
-function praviMarker(map, prozor, s) {
-  return new google.maps.Marker({
-    map,
-    infoWindow: prozor,
-    position: new google.maps.LatLng(s.koordinate.lat, s.koordinate.lng),
+function noviMarker(infoWindow, s) {
+  return new Marker({
+    map: mapa,
+    infoWindow,
+    position: new LatLng(s.koordinate.lat, s.koordinate.lng),
     title: s.naziv || s.mesto,
     icon: 'slike/obelisk.png'
   })
 }
 
-function praviUrl(s) {
-  const placeUrl = `https://www.google.com/maps/place/?q=place_id:${s.place_id}`
-  const koordUrl = `https://www.google.com/maps/place/${s.koordinate.lat},${s.koordinate.lng}`
-  const androidUrl = `geo:${s.koordinate.lat},${s.koordinate.lng}`
-  const browserUrl = s.place_id ? placeUrl : koordUrl
-  const url = isAndroid ? androidUrl : browserUrl
-  return url
+function praviUrl(placeId, koord) {
+  const placeUrl = `?q=place_id:${placeId}`
+  const koordUrl = `${koord.lat},${koord.lng}`
+  const androidUrl = `geo:${koord.lat},${koord.lng}`
+  const browserUrl = `https://www.google.com/maps/place/${placeId ? placeUrl : koordUrl}`
+  return /(android)/i.test(navigator.userAgent) ? androidUrl : browserUrl
 }
 
-function otvori(prozor, map, marker, s) {
-  prozor.open(map, marker)
+function otvori(prozor, marker, s) {
+  prozor.open(mapa, marker)
   if (!s.slika || prozor.dodataSlika) return
   prozor.setContent(prozor.getContent() + `<p><img src="${s.slika}"></p>`)
   prozor.dodataSlika = true
 }
 
-function nadjiMe(mapa) {
-  navigator.geolocation.getCurrentPosition(function(position) {
-    mapa.setCenter(new google.maps.LatLng(position.coords.latitude, position.coords.longitude))
+function nadjiMe() {
+  navigator.geolocation.getCurrentPosition(({coords}) => {
+    mapa.setCenter(new LatLng(coords.latitude, coords.longitude))
   })
 }
 
-function initialize(spomenici) {
-  const mapa = praviMapu()
-  spomenici.map((s) => {
-    const url = praviUrl(s)
-    const prozor = praviProzor(s, url)
-    const marker = praviMarker(mapa, prozor, s)
+function init(spomenici) {
+  spomenici.map((s, i) => {
+    const url = praviUrl(s.place_id, s.koordinate)
+    const prozor = noviProzor(s, url)
+    const marker = noviMarker(prozor, s)
+    marker.addListener('click', () => otvori(prozor, marker, s))
 
-    marker.addListener('click', () => otvori(prozor, mapa, marker, s))
-
-    // if (!s.slika) console.log(s)
     if (!s.slika) return
     const slika = document.createElement('img')
     slika.addEventListener('click', () => {
-      otvori(prozor, mapa, marker, s)
+      otvori(prozor, marker, s)
       mapa.panTo(marker.getPosition())
     })
     slike.push(slika)
     $('#slike').appendChild(slika)
     slika.izvor = s.slika // za kasnije
-    if (brojacSlika > brojSlika) return
-    slika.src = s.slika
-    brojacSlika++
+    if (i < brojSlika) slika.src = s.slika
   })
-  $('#lokator').on('click', () => nadjiMe(mapa))
 }
 
-fetch('spomenici.json')
-  .then(response => response.json())
-  .then(data => initialize(data))
+/* INIT */
 
-$('#strelica-leva').on('click', function() {
+fetch('data/spomenici.json')
+  .then(response => response.json())
+  .then(init)
+
+$('#slike').style.marginLeft = 0 // set start position
+
+/* INIT */
+
+$('#strelica-leva').on('click', () => {
   if (parseInt($('#slike').style.marginLeft) + pomak > 0) return
   $('#slike').style.marginLeft = `${parseInt($('#slike').style.marginLeft) + pomak}px`
 })
 
-$('#strelica-desna').on('click', function() {
+$('#strelica-desna').on('click', () => {
   if (!ucitaneSlike) slike.map(slika => slika.src = slika.izvor)
   $('#slike').style.marginLeft = `${parseInt($('#slike').style.marginLeft) - pomak}px`
   ucitaneSlike = true
 })
+
+$('#lokator').on('click', nadjiMe)
