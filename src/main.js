@@ -38,35 +38,39 @@ function praviUrl(placeId, koord) {
   return /(android)/i.test(navigator.userAgent) ? androidUrl : browserUrl
 }
 
-function otvori(prozor, marker, s) {
-  prozor.open(mapa, marker)
-  if (!s.slika || prozor.dodataSlika) return
-  prozor.setContent(prozor.getContent() + `<p><img src="${s.slika}"></p>`)
-  prozor.dodataSlika = true
+function dodajSliku(prozor, slika) {
+  if (!slika || prozor.imaSliku) return
+  prozor.setContent(prozor.getContent() + `<p><img src="${slika}"></p>`)
+  prozor.imaSliku = true
 }
 
-function nadjiMe() {
+function otvori(prozor, marker, slika) {
+  prozor.open(mapa, marker)
+  dodajSliku(prozor, slika)
+}
+
+function locirajMe() {
   navigator.geolocation.getCurrentPosition(({coords}) => {
     mapa.setCenter(new LatLng(coords.latitude, coords.longitude))
   })
 }
 
 function init(spomenici) {
-  spomenici.map((s, i) => {
+  spomenici.forEach((s, i) => {
     const url = praviUrl(s.place_id, s.koordinate)
     const prozor = noviProzor(s, url)
     const marker = noviMarker(prozor, s)
-    marker.addListener('click', () => otvori(prozor, marker, s))
+    marker.addListener('click', () => otvori(prozor, marker, s.slika))
 
     if (!s.slika) return
     const slika = document.createElement('img')
     slika.addEventListener('click', () => {
-      otvori(prozor, marker, s)
+      otvori(prozor, marker, s.slika)
       mapa.panTo(marker.getPosition())
     })
     slike.push(slika)
     $('#slike').appendChild(slika)
-    slika.izvor = s.slika // za kasnije
+    slika.dataset.izvor = s.slika // za kasnije
     if (i < brojSlika) slika.src = s.slika
   })
 }
@@ -87,9 +91,9 @@ $('#strelica-leva').on('click', () => {
 })
 
 $('#strelica-desna').on('click', () => {
-  if (!ucitaneSlike) slike.map(slika => slika.src = slika.izvor)
+  if (!ucitaneSlike) slike.map(slika => slika.src = slika.dataset.izvor)
   $('#slike').style.marginLeft = `${parseInt($('#slike').style.marginLeft) - pomak}px`
   ucitaneSlike = true
 })
 
-$('#lokator').on('click', nadjiMe)
+$('#lokator').on('click', locirajMe)
