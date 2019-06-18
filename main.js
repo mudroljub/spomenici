@@ -1,4 +1,4 @@
-import {mapa} from './data/konfigMape.js'
+import {mapa} from './data/mapa.js'
 import {$} from './utils/helpers.js'
 const {LatLng, InfoWindow, Marker} = google.maps
 
@@ -58,7 +58,7 @@ function locirajMe() {
 function praviSlajder(s, prozor, marker, i) {
   if (!s.slika) return
   const slika = document.createElement('img')
-  slika.addEventListener('click', () => {
+  slika.on('click', () => {
     otvori(prozor, marker, s.slika)
     mapa.panTo(marker.getPosition())
   })
@@ -100,3 +100,13 @@ $('#strelica-desna').on('click', () => {
 })
 
 $('#lokator').on('click', locirajMe)
+
+// function toggleFullScreen() {
+//   if (!document.fullscreenElement) {
+//     document.body.requestFullscreen()
+//   } else {
+//     document.exitFullscreen()
+//   }
+// }
+
+// document.on('keypress', toggleFullScreen)

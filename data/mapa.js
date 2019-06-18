@@ -138,13 +138,15 @@ const stilMape = [
   }
 ]
 
-export const konfigMape = {
+const konfigMape = {
   center: {
     'lat': 44.341667,
     'lng': 17.269444
   },
   zoom: 8,
   minZoom: 6,
+  mapTypeControl: false,
+  // fullscreenControl: false,
   zoomControlOptions: {
     position: ControlPosition.RIGHT_TOP
   },
