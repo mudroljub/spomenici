@@ -1,3 +1,7 @@
+:root {
+  --visina-slajdera: 64px;
+}
+
 html, body, #map-canvas {
   height: 100%;
   margin: 0px;
@@ -8,7 +12,7 @@ h1 {
   bottom: 0;
   color: #822323;
   line-height: 80%;
-  margin-bottom: 60px;
+  margin-bottom: var(--visina-slajdera);
   opacity: 0.2;
   position: absolute;
   z-index: 1;
@@ -16,11 +20,54 @@ h1 {
 
 .podnaslov {
   font-size: 24px;
+  display: block;
 }
-@media (max-width: 768px) {
-  .podnaslov {
-    display: block;
-  }
+
+.gm-style-iw img {
+  width: 200px;
+}
+
+.okvir-slika {
+  align-items: center;
+  bottom: 0;
+  display: flex;
+  position: fixed;
+  width: 100%;
+}
+
+.strelica {
+  color: #fff;
+  cursor: pointer;
+  font-size: var(--visina-slajdera);
+  position: absolute;
+  text-shadow: 2px 2px #000;
+  user-select: none;
+  -moz-user-select: none;
+}
+
+#strelica-desna {
+  right: 0;
+}
+
+#slike {
+  display: flex;
+  overflow: hidden;
+  transition: margin-left 0.4s ease;
+}
+
+#slike img {
+  height: var(--visina-slajdera);
+  cursor: pointer;
+}
+
+.lokator {
+  bottom: calc(var(--visina-slajdera) + 12px);
+  cursor: pointer;
+  opacity: 0.75;
+  position: absolute;
+  right: 0;
+  width: 32px;
+  z-index: 1;
 }
 
 @media (min-width: 400px) {
@@ -32,47 +79,12 @@ h1 {
 @media (min-width: 768px) {
   h1 {
     font-size: 74px;
+    margin-bottom: calc(var(--visina-slajdera) - 4px);
   }
-}
-
-.gm-style-iw img {
-  width: 200px;
-}
-
-.okvir-slika {
-  bottom: 0;
-  position: fixed;
-}
-
-.strelica {
-  color: #fff;
-  cursor: pointer;
-  font-size: 64px;
-  position: absolute;
-  text-shadow: 2px 2px #000;
-}
-
-#strelica-desna {
-  left: 200px;
-}
-
-#slike {
-  display: flex;
-  overflow: hidden;
-  transition: margin-left 0.4s ease;
-}
-
-#slike img {
-  height: 60px;
-  cursor: pointer;
-}
-
-.lokator {
-  bottom: 75px;
-  cursor: pointer;
-  opacity: 0.75;
-  position: absolute;
-  right: 0;
-  width: 32px;
-  z-index: 1;
+  .podnaslov {
+    display: inline;
+  }
+  :root {
+    --visina-slajdera: 82px;
+  }
 }
