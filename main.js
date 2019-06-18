@@ -1,5 +1,5 @@
-import {mapa} from '../data/konfigMape.js'
-import {$} from '../utils/helpers.js'
+import {mapa} from './data/konfigMape.js'
+import {$} from './utils/helpers.js'
 const {LatLng, InfoWindow, Marker} = google.maps
 
 const slike = []
