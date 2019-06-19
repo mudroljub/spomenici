@@ -1,5 +1,5 @@
-import {mapa} from './data/mapa.js'
-import {$} from './utils/helpers.js'
+import {mapa} from './modules/mapa.js'
+import {$} from './modules/helpers.js'
 const {LatLng, InfoWindow, Marker} = google.maps
 
 const slike = []
@@ -55,6 +55,14 @@ function locirajMe() {
   })
 }
 
+function otvoriPunEkran() {
+  if (!document.fullscreenElement) {
+    document.body.requestFullscreen()
+  } else {
+    document.exitFullscreen()
+  }
+}
+
 function praviSlajder(s, prozor, marker, i) {
   if (!s.slika) return
   const slika = document.createElement('img')
@@ -101,12 +109,4 @@ $('#strelica-desna').on('click', () => {
 
 $('#lokator').on('click', locirajMe)
 
-// function toggleFullScreen() {
-//   if (!document.fullscreenElement) {
-//     document.body.requestFullscreen()
-//   } else {
-//     document.exitFullscreen()
-//   }
-// }
-
-// document.on('keypress', toggleFullScreen)
+$('#punekran').on('click', otvoriPunEkran)

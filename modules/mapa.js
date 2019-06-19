@@ -146,7 +146,7 @@ const konfigMape = {
   zoom: 8,
   minZoom: 6,
   mapTypeControl: false,
-  // fullscreenControl: false,
+  fullscreenControl: false,
   zoomControlOptions: {
     position: ControlPosition.RIGHT_TOP
   },
