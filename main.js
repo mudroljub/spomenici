@@ -3,9 +3,11 @@ import {$} from './modules/helpers.js'
 const {LatLng, InfoWindow, Marker} = google.maps
 
 const slike = []
-const pomak = 200
+const korak = 200
 const brojSlika = window.innerWidth / 45
 
+let dirnutX = 0
+let pustenX = 0
 let ucitaneSlike = false
 
 /* FUNKCIJE */
@@ -76,14 +78,14 @@ function praviSlajder(s, prozor, marker, i) {
   if (i < brojSlika) slika.src = s.slika
 }
 
-function mrdajLevo() {
-  if (parseInt($('#slike').style.marginLeft) + pomak > 0) return
-  $('#slike').style.marginLeft = `${parseInt($('#slike').style.marginLeft) + pomak}px`
+function mrdajDesno() {
+  if (parseInt($('#slike').style.marginLeft) + korak > 0) return
+  $('#slike').style.marginLeft = `${parseInt($('#slike').style.marginLeft) + korak}px`
 }
 
-function mrdajDesno() {
+function mrdajLevo() {
   if (!ucitaneSlike) slike.map(slika => slika.src = slika.dataset.izvor)
-  $('#slike').style.marginLeft = `${parseInt($('#slike').style.marginLeft) - pomak}px`
+  $('#slike').style.marginLeft = `${parseInt($('#slike').style.marginLeft) - korak}px`
   ucitaneSlike = true
 }
 
@@ -99,18 +101,28 @@ function init(spomenici) {
 
 /* INIT */
 
+$('#slike').style.marginLeft = 0 // set start position
+
 fetch('data/spomenici.json')
   .then(res => res.json())
   .then(init)
 
-$('#slike').style.marginLeft = 0 // set start position
+/* DOGADJAJI */
 
-/* INIT */
+$('#strelica-leva').on('click', mrdajDesno)
 
-$('#strelica-leva').on('click', mrdajLevo)
-
-$('#strelica-desna').on('click', mrdajDesno)
+$('#strelica-desna').on('click', mrdajLevo)
 
 $('#lokator').on('click', locirajMe)
 
 $('#punekran').on('click', otvoriPunEkran)
+
+$('#slike').on('touchstart', e => {
+  dirnutX = e.changedTouches[0].screenX
+})
+
+$('#slike').on('touchend', e => {
+  pustenX = e.changedTouches[0].screenX
+  if (pustenX > dirnutX) mrdajDesno()
+  if (pustenX < dirnutX) mrdajLevo()
+})
