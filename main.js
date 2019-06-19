@@ -3,7 +3,6 @@ import {$} from './modules/helpers.js'
 const {LatLng, InfoWindow, Marker} = google.maps
 
 const slike = []
-const korak = 200
 const brojSlika = window.innerWidth / 45
 
 let dirnutX = 0
@@ -79,15 +78,20 @@ function praviSlike(s, prozor, marker, i) {
   if (i < brojSlika) slika.src = s.slika
 }
 
-function mrdajDesno() {
+function mrdaj(napred) {
+  const korak = napred ? 200 : -200
   if (parseInt($('#slike').style.marginLeft) + korak > 0) return
+  if (!ucitaneSlike) slike.map(slika => slika.src = slika.dataset.izvor)
   $('#slike').style.marginLeft = `${parseInt($('#slike').style.marginLeft) + korak}px`
+  ucitaneSlike = true
+}
+
+function mrdajDesno() {
+  mrdaj(true)
 }
 
 function mrdajLevo() {
-  if (!ucitaneSlike) slike.map(slika => slika.src = slika.dataset.izvor)
-  $('#slike').style.marginLeft = `${parseInt($('#slike').style.marginLeft) - korak}px`
-  ucitaneSlike = true
+  mrdaj(false)
 }
 
 function init(spomenici) {
@@ -124,24 +128,14 @@ $('#slike').on('touchstart', e => {
 
 $('#slike').on('touchend', e => {
   pustenX = e.changedTouches[0].screenX
-  if (pustenX > dirnutX) mrdajDesno()
-  if (pustenX < dirnutX) mrdajLevo()
+  mrdaj(pustenX > dirnutX)
 })
 
-let spustenMish = false
-
 $('#slike').on('mousedown', e => {
-  spustenMish = true
   dirnutX = e.clientX
 })
 
-$('#slike').on('mousemove', e => {
-  if (!spustenMish) return
-})
-
 $('#slike').on('mouseup', e => {
-  spustenMish = false
   pustenX = e.clientX
-  if (pustenX > dirnutX) mrdajDesno()
-  if (pustenX < dirnutX) mrdajLevo()
+  mrdaj(pustenX > dirnutX)
 })

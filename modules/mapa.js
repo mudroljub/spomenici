@@ -159,6 +159,7 @@ const konfigMape = {
       south: 39,
     },
   },
+  // gestureHandling: 'greedy', // ne radi https://developers.google.com/maps/documentation/javascript/interaction#gestureHandling
   styles: stilMape
 }
 
