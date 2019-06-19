@@ -35,13 +35,6 @@ h1 {
   z-index: 1;
 }
 
-#punekran {
-  top: 10px;
-  left: 10px;
-  background: white;
-  padding: 4px;
-}
-
 #lokator {
   bottom: var(--visina-slajdera);
   right: 0;

@@ -1,6 +1,7 @@
 import {mapa} from './modules/mapa.js'
 import {$} from './modules/helpers.js'
 const {LatLng, InfoWindow, Marker} = google.maps
+import './komponente/PunEkran.js'
 
 const slike = []
 const brojSlika = window.innerWidth / 45
@@ -54,14 +55,6 @@ function locirajMe() {
   navigator.geolocation.getCurrentPosition(({coords}) => {
     mapa.setCenter(new LatLng(coords.latitude, coords.longitude))
   })
-}
-
-function otvoriPunEkran() {
-  if (!document.fullscreenElement) {
-    document.body.requestFullscreen()
-  } else {
-    document.exitFullscreen()
-  }
 }
 
 function praviSlike(s, prozor, marker, i) {
@@ -119,8 +112,6 @@ $('#strelica-leva').on('click', mrdajDesno)
 $('#strelica-desna').on('click', mrdajLevo)
 
 $('#lokator').on('click', locirajMe)
-
-$('#punekran').on('click', otvoriPunEkran)
 
 $('#slike').on('touchstart', e => {
   dirnutX = e.changedTouches[0].screenX

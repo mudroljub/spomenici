@@ -5,9 +5,7 @@
     "es6": true
   },
   "globals": {
-    "angular": false,
-    "google": false,
-    "THREE": false
+    "google": false
   },
   "rules": {
     "no-undef": "error",
@@ -18,7 +16,6 @@
     "no-dupe-keys": "error",
     "no-unreachable": "error",
     "block-scoped-var": "error",
-    "class-methods-use-this": "warn",
     "no-param-reassign": "error",
     "vars-on-top": "error",
     "no-shadow-restricted-names": "error",
