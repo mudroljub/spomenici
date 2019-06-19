@@ -27,6 +27,26 @@ h1 {
   width: 200px;
 }
 
+.ikonica {
+  cursor: pointer;
+  opacity: 0.75;
+  position: absolute;
+  width: 32px;
+  z-index: 1;
+}
+
+#punekran {
+  top: 10px;
+  left: 10px;
+  background: white;
+  padding: 4px;
+}
+
+#lokator {
+  bottom: calc(var(--visina-slajdera) + 12px);
+  right: 0;
+}
+
 .okvir-slika {
   align-items: center;
   bottom: 0;
@@ -36,13 +56,14 @@ h1 {
 }
 
 .strelica {
+  -moz-user-select: none;
   color: #fff;
   cursor: pointer;
-  font-size: var(--visina-slajdera);
+  font-size: calc(var(--visina-slajdera) * 1.6);
+  padding: 0 10px;
   position: absolute;
   text-shadow: 2px 2px #000;
   user-select: none;
-  -moz-user-select: none;
 }
 
 #strelica-desna {
@@ -58,26 +79,6 @@ h1 {
 #slike img {
   height: var(--visina-slajdera);
   cursor: pointer;
-}
-
-.ikonica {
-  cursor: pointer;
-  opacity: 0.75;
-  position: absolute;
-  width: 32px;
-  z-index: 1;
-}
-
-#lokator {
-  bottom: calc(var(--visina-slajdera) + 12px);
-  right: 0;
-}
-
-#punekran {
-  top: 10px;
-  left: 10px;
-  background: white;
-  padding: 4px;
 }
 
 @media (min-width: 400px) {
