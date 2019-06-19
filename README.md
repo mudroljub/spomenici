@@ -9,7 +9,6 @@ Visit: [mudroljub.github.io/spomenici](https://mudroljub.github.io/spomenici/)
 ## TODO
 
 - dodati swipe dogadjaj
-- dodati full screen dugme (sakriti guglovo)
 - prevesti url slike u base64 https://stackoverflow.com/questions/17124053/node-js-get-image-from-web-and-encode-with-base64
 - utovariti podatke u bazu
 - bug: kada nije omogucena lokacija na telefonu, ne radi lociranje, cak iako te browser pita i prihvatis
