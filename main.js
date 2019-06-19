@@ -57,7 +57,7 @@ function locirajMe() {
   })
 }
 
-function praviSlike(s, prozor, marker, i) {
+function praviSliku(s, prozor, marker, i) {
   if (!s.slika) return
   const slika = document.createElement('img')
   slika.ondragstart = () => false
@@ -93,7 +93,7 @@ function init(spomenici) {
     const prozor = noviProzor(s, url)
     const marker = noviMarker(prozor, s)
     marker.addListener('click', () => otvori(prozor, marker, s.slika))
-    praviSlike(s, prozor, marker, i)
+    praviSliku(s, prozor, marker, i)
   })
 }
 
