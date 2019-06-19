@@ -76,6 +76,17 @@ function praviSlajder(s, prozor, marker, i) {
   if (i < brojSlika) slika.src = s.slika
 }
 
+function mrdajLevo() {
+  if (parseInt($('#slike').style.marginLeft) + pomak > 0) return
+  $('#slike').style.marginLeft = `${parseInt($('#slike').style.marginLeft) + pomak}px`
+}
+
+function mrdajDesno() {
+  if (!ucitaneSlike) slike.map(slika => slika.src = slika.dataset.izvor)
+  $('#slike').style.marginLeft = `${parseInt($('#slike').style.marginLeft) - pomak}px`
+  ucitaneSlike = true
+}
+
 function init(spomenici) {
   spomenici.forEach((s, i) => {
     const url = praviUrl(s.place_id, s.koordinate)
@@ -96,16 +107,9 @@ $('#slike').style.marginLeft = 0 // set start position
 
 /* INIT */
 
-$('#strelica-leva').on('click', () => {
-  if (parseInt($('#slike').style.marginLeft) + pomak > 0) return
-  $('#slike').style.marginLeft = `${parseInt($('#slike').style.marginLeft) + pomak}px`
-})
+$('#strelica-leva').on('click', mrdajLevo)
 
-$('#strelica-desna').on('click', () => {
-  if (!ucitaneSlike) slike.map(slika => slika.src = slika.dataset.izvor)
-  $('#slike').style.marginLeft = `${parseInt($('#slike').style.marginLeft) - pomak}px`
-  ucitaneSlike = true
-})
+$('#strelica-desna').on('click', mrdajDesno)
 
 $('#lokator').on('click', locirajMe)
 
