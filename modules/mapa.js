@@ -151,6 +151,14 @@ const konfigMape = {
     position: ControlPosition.RIGHT_TOP
   },
   streetViewControl: false,
+  restriction: {
+    latLngBounds: {
+      west: 10,
+      east: 26,
+      north: 48,
+      south: 39,
+    },
+  },
   styles: stilMape
 }
 
