@@ -65,9 +65,10 @@ function otvoriPunEkran() {
   }
 }
 
-function praviSlajder(s, prozor, marker, i) {
+function praviSlike(s, prozor, marker, i) {
   if (!s.slika) return
   const slika = document.createElement('img')
+  slika.ondragstart = () => false
   slika.on('click', () => {
     otvori(prozor, marker, s.slika)
     mapa.panTo(marker.getPosition())
@@ -95,7 +96,7 @@ function init(spomenici) {
     const prozor = noviProzor(s, url)
     const marker = noviMarker(prozor, s)
     marker.addListener('click', () => otvori(prozor, marker, s.slika))
-    praviSlajder(s, prozor, marker, i)
+    praviSlike(s, prozor, marker, i)
   })
 }
 
@@ -123,6 +124,24 @@ $('#slike').on('touchstart', e => {
 
 $('#slike').on('touchend', e => {
   pustenX = e.changedTouches[0].screenX
+  if (pustenX > dirnutX) mrdajDesno()
+  if (pustenX < dirnutX) mrdajLevo()
+})
+
+let spustenMish = false
+
+$('#slike').on('mousedown', e => {
+  spustenMish = true
+  dirnutX = e.clientX
+})
+
+$('#slike').on('mousemove', e => {
+  if (!spustenMish) return
+})
+
+$('#slike').on('mouseup', e => {
+  spustenMish = false
+  pustenX = e.clientX
   if (pustenX > dirnutX) mrdajDesno()
   if (pustenX < dirnutX) mrdajLevo()
 })

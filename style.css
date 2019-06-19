@@ -43,8 +43,9 @@ h1 {
 }
 
 #lokator {
-  bottom: calc(var(--visina-slajdera) + 12px);
+  bottom: var(--visina-slajdera);
   right: 0;
+  padding: 8px;
 }
 
 .okvir-slika {
@@ -78,7 +79,7 @@ h1 {
 
 #slike img {
   height: var(--visina-slajdera);
-  cursor: pointer;
+  cursor: all-scroll;
 }
 
 @media (min-width: 400px) {
