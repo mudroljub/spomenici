@@ -2,6 +2,10 @@
 const template = document.createElement('template')
 const style = document.createElement('style')
 
+let dirnutX = 0
+let pustenX = 0
+let ucitaneSlike = false
+
 style.textContent = `
   .okvir {
     align-items: center;
@@ -46,10 +50,6 @@ template.innerHTML = `
   </div>
 `
 
-let dirnutX = 0
-let pustenX = 0
-let ucitaneSlike = false
-
 export default class Slajder extends HTMLElement {
   constructor(podaci) {
     super()
@@ -92,15 +92,18 @@ export default class Slajder extends HTMLElement {
     })
   }
 
-  mrdaj(smer) {
-    const korak = smer ? 200 : -200
-    if (parseInt(this.slike.style.marginLeft) + korak > 0) return
+  ucitajAkoTreba() {
     if (!ucitaneSlike)
       this.shadowRoot.querySelectorAll('#slike img').forEach(slika => {
         if (!slika.src) slika.src = slika.dataset.src
       })
-    this.slike.style.marginLeft = `${parseInt(this.slike.style.marginLeft) + korak}px`
     ucitaneSlike = true
+  }
+
+  mrdaj(smer) {
+    const korak = smer ? 200 : -200
+    if (parseInt(this.slike.style.marginLeft) + korak > 0) return
+    this.slike.style.marginLeft = `${parseInt(this.slike.style.marginLeft) + korak}px`
   }
 
   mrdajDesno() {
@@ -108,6 +111,7 @@ export default class Slajder extends HTMLElement {
   }
 
   mrdajLevo() {
+    this.ucitajAkoTreba()
     this.mrdaj(false)
   }
 }
