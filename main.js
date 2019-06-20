@@ -9,12 +9,15 @@ const inicijalnoSlika = window.innerWidth / 50
 /* FUNKCIJE */
 
 function init(spomenici) {
-  const slike = spomenici.map((spomen, i) => {
+  const slike = []
+  spomenici.forEach((spomen, i) => {
     const prozor = praviProzor(spomen)
     const marker = praviMarker(prozor, spomen)
-    const slika = new Slika(spomen, marker, prozor)
-    if (slika.dataset.src && i < inicijalnoSlika) slika.src = slika.dataset.src
-    return slika
+    if (spomen.slika) {
+      const slika = new Slika(spomen, marker, prozor)
+      if (i < inicijalnoSlika) slika.src = slika.dataset.src
+      slike.push(slika)
+    }
   })
   document.body.appendChild(new Slajder(slike))
 }

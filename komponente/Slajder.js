@@ -66,7 +66,10 @@ export default class Slajder extends HTMLElement {
   connectedCallback() {
     this.traka = this.shadowRoot.querySelector('#traka')
     this.traka.style.marginLeft = 0
-    this.slike.forEach(slika => this.traka.appendChild(slika))
+    this.slike.forEach(slika => {
+      // console.log(slika)
+      this.traka.appendChild(slika)
+    })
 
     this.strelicaLeva = this.shadowRoot.querySelector('#strelica-leva')
     this.strelicaLeva.addEventListener('click', this.mrdajDesno)

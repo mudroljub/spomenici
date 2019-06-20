@@ -10,7 +10,7 @@ export default class Slika extends HTMLImageElement {
       otvoriProzor(prozor, marker, spomen.slika)
       mapa.panTo(marker.getPosition())
     })
-    this.dataset.src = spomen.slika // za kasnije
+    if (spomen.slika) this.dataset.src = spomen.slika // za kasnije
   }
 }
 
