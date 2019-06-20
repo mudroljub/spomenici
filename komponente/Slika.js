@@ -1,5 +1,5 @@
 import {mapa} from '../modules/mapa.js'
-import {otvori} from './modules/helpers.js'
+import {otvoriProzor} from '../modules/helpers.js'
 
 export default class Slika extends HTMLImageElement {
   constructor(spom, marker, prozor) {
@@ -7,7 +7,7 @@ export default class Slika extends HTMLImageElement {
     this.addEventListener('click', this.locirajMe)
     this.ondragstart = () => false
     this.addEventListener('click', () => {
-      otvori(prozor, marker, spom.slika)
+      otvoriProzor(prozor, marker, spom.slika)
       mapa.panTo(marker.getPosition())
     })
     this.dataset.src = spom.slika // za kasnije
