@@ -8,19 +8,14 @@ const inicijalnoSlika = window.innerWidth / 50
 
 /* FUNKCIJE */
 
-function praviSlike(spomenici) {
-  return spomenici.map(spomen => {
+function init(spomenici) {
+  spomenici.forEach((spomen, i) => {
     const prozor = praviProzor(spomen)
     const marker = praviMarker(prozor, spomen)
-    return new Slika(spomen, marker, prozor)
-  })
-}
-
-function init(spomenici) {
-  const slike = praviSlike(spomenici)
-  slike.forEach((slika, i) => {
+    const slika = new Slika(spomen, marker, prozor)
     if (!slika.dataset.src) return
     if (i < inicijalnoSlika) slika.src = slika.dataset.src
+    // TODO: proslediti podatke komponenti na pametniji nacin
     $('nav-slajder').shadowRoot.querySelector('#slike').appendChild(slika)
   })
 }
