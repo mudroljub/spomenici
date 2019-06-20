@@ -1,4 +1,4 @@
-class PunEkran extends HTMLElement {
+class PunekranDugme extends HTMLElement {
   constructor() {
     super()
     this.addEventListener('click', this.obrniPunEkran)
@@ -24,4 +24,4 @@ class PunEkran extends HTMLElement {
   }
 }
 
-customElements.define('pun-ekran', PunEkran)
+customElements.define('punekran-dugme', PunekranDugme)

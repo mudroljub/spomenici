@@ -1,7 +1,8 @@
 import {mapa} from './modules/mapa.js'
 import {$} from './modules/helpers.js'
 const {LatLng, InfoWindow, Marker} = google.maps
-import './komponente/PunEkran.js'
+import './komponente/PunekranDugme.js'
+import './komponente/Slajder.js'
 
 let dirnutX = 0
 let pustenX = 0

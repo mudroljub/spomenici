@@ -12,17 +12,12 @@
 </head>
 
 <body>
-  <pun-ekran></pun-ekran>
+  <punekran-dugme></punekran-dugme>
   <h1>Spomenici <span class="podnaslov">Yugoslav monuments</span></h1>
   <img src="slike/lokator.svg" width="32" class="ikonica" id="lokator" alt="lociraj me" title="Locate me">
 
   <div id="map-canvas"></div>
-
-  <div class="okvir-slika">
-    <span class="strelica" id="strelica-leva">‹</span>
-    <span class="strelica" id="strelica-desna">›</span>
-    <div id="slike"></div>
-  </div>
+  <nav-slajder></nav-slajder>
 
   <script defer src='https://maps.googleapis.com/maps/api/js?key=AIzaSyBJY5wj2lKHZtRFmXcMmKHd0j8mdNkjEas&v=3.exp'></script>
   <script defer src="main.js" type="module"></script>
