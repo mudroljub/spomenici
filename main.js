@@ -4,10 +4,6 @@ const {LatLng, InfoWindow, Marker} = google.maps
 import './komponente/PunekranDugme.js'
 import './komponente/Slajder.js'
 
-let dirnutX = 0
-let pustenX = 0
-let ucitaneSlike = false
-
 /* FUNKCIJE */
 
 function noviProzor(spom, url) {
@@ -83,7 +79,7 @@ function praviSlajder(slike) {
   const brojSlika = window.innerWidth / 50
   slike.forEach((slika, i) => {
     if (i < brojSlika) slika.src = slika.dataset.src
-    $('#slike').appendChild(slika)
+    $('nav-slajder').shadowRoot.querySelector('#slike').appendChild(slika)
   })
 }
 
@@ -92,25 +88,7 @@ function init(spomenici) {
   praviSlajder(slike)
 }
 
-function mrdaj(smer) {
-  const korak = smer ? 200 : -200
-  if (parseInt($('#slike').style.marginLeft) + korak > 0) return
-  if (!ucitaneSlike) [...$('#slike img')].map(slika => slika.src = slika.dataset.src)
-  $('#slike').style.marginLeft = `${parseInt($('#slike').style.marginLeft) + korak}px`
-  ucitaneSlike = true
-}
-
-function mrdajDesno() {
-  mrdaj(true)
-}
-
-function mrdajLevo() {
-  mrdaj(false)
-}
-
 /* INIT */
-
-$('#slike').style.marginLeft = 0 // set start position
 
 fetch('data/spomenici.json')
   .then(res => res.json())
@@ -118,26 +96,4 @@ fetch('data/spomenici.json')
 
 /* DOGADJAJI */
 
-$('#strelica-leva').on('click', mrdajDesno)
-
-$('#strelica-desna').on('click', mrdajLevo)
-
 $('#lokator').on('click', locirajMe)
-
-$('#slike').on('touchstart', e => {
-  dirnutX = e.changedTouches[0].screenX
-})
-
-$('#slike').on('touchend', e => {
-  pustenX = e.changedTouches[0].screenX
-  mrdaj(pustenX > dirnutX)
-})
-
-$('#slike').on('mousedown', e => {
-  dirnutX = e.clientX
-})
-
-$('#slike').on('mouseup', e => {
-  pustenX = e.clientX
-  mrdaj(pustenX > dirnutX)
-})
