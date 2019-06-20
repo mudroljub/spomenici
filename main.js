@@ -3,7 +3,6 @@ import {$} from './modules/helpers.js'
 const {LatLng, InfoWindow, Marker} = google.maps
 import './komponente/PunEkran.js'
 
-const slike = []
 const brojSlika = window.innerWidth / 45
 
 let dirnutX = 0
@@ -12,22 +11,22 @@ let ucitaneSlike = false
 
 /* FUNKCIJE */
 
-function noviProzor(s, url) {
+function noviProzor(spom, url) {
   const content = `
-    <h3>${s.mesto}</h3>
-    </p>${s.naziv || ''}</p>
+    <h3>${spom.mesto}</h3>
+    </p>${spom.naziv || ''}</p>
     <a href="${url}">Find place</a>
-    ${s.info ? `<a href="${s.info}" target="_blank">Read more</a>` : ''}
+    ${spom.info ? `<a href="${spom.info}" target="_blank">Read more</a>` : ''}
   `
   return new InfoWindow({content})
 }
 
-function noviMarker(infoWindow, s) {
+function noviMarker(infoWindow, spom) {
   return new Marker({
     map: mapa,
     infoWindow,
-    position: new LatLng(s.koordinate.lat, s.koordinate.lng),
-    title: s.naziv || s.mesto,
+    position: new LatLng(spom.koordinate.lat, spom.koordinate.lng),
+    title: spom.naziv || spom.mesto,
     icon: 'slike/obelisk.png'
   })
 }
@@ -57,26 +56,35 @@ function locirajMe() {
   })
 }
 
-function praviSliku(s, prozor, marker, i) {
-  if (!s.slika) return
+function novaSlika(spom, prozor, marker) {
   const slika = document.createElement('img')
   slika.ondragstart = () => false
   slika.on('click', () => {
-    otvori(prozor, marker, s.slika)
+    otvori(prozor, marker, spom.slika)
     mapa.panTo(marker.getPosition())
   })
-  slike.push(slika)
-  $('#slike').appendChild(slika)
-  slika.dataset.izvor = s.slika // za kasnije
-  if (i < brojSlika) slika.src = s.slika
+  slika.src = spom.slika // dataset
+  return slika
+}
+
+function init(spomenici) {
+  const slike = spomenici.filter(spom => spom.slika).map(spom => {
+    const url = praviUrl(spom.place_id, spom.koordinate)
+    const prozor = noviProzor(spom, url)
+    const marker = noviMarker(prozor, spom)
+    marker.addListener('click', () => otvori(prozor, marker, spom.slika))
+    const slika = novaSlika(spom, prozor, marker)
+    return slika
+  })
+  slike.map(slika => $('#slike').appendChild(slika))
 }
 
 function mrdaj(napred) {
   const korak = napred ? 200 : -200
   if (parseInt($('#slike').style.marginLeft) + korak > 0) return
-  if (!ucitaneSlike) slike.map(slika => slika.src = slika.dataset.izvor)
+  // if (!ucitaneSlike) slike.map(slika => slika.src = slika.dataset.izvor)
   $('#slike').style.marginLeft = `${parseInt($('#slike').style.marginLeft) + korak}px`
-  ucitaneSlike = true
+  // ucitaneSlike = true
 }
 
 function mrdajDesno() {
@@ -85,16 +93,6 @@ function mrdajDesno() {
 
 function mrdajLevo() {
   mrdaj(false)
-}
-
-function init(spomenici) {
-  spomenici.forEach((s, i) => {
-    const url = praviUrl(s.place_id, s.koordinate)
-    const prozor = noviProzor(s, url)
-    const marker = noviMarker(prozor, s)
-    marker.addListener('click', () => otvori(prozor, marker, s.slika))
-    praviSliku(s, prozor, marker, i)
-  })
 }
 
 /* INIT */
