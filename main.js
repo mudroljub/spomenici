@@ -5,7 +5,7 @@ import './komponente/PunEkran.js'
 
 let dirnutX = 0
 let pustenX = 0
-// let ucitaneSlike = false
+let ucitaneSlike = false
 
 /* FUNKCIJE */
 
@@ -78,8 +78,8 @@ function pripremiSlike(spomenici) {
     })
 }
 
-function inicirajSlajder(slike) {
-  const brojSlika = window.innerWidth / 45
+function praviSlajder(slike) {
+  const brojSlika = window.innerWidth / 50
   slike.forEach((slika, i) => {
     if (i < brojSlika) slika.src = slika.dataset.src
     $('#slike').appendChild(slika)
@@ -88,15 +88,15 @@ function inicirajSlajder(slike) {
 
 function init(spomenici) {
   const slike = pripremiSlike(spomenici)
-  inicirajSlajder(slike)
+  praviSlajder(slike)
 }
 
-function mrdaj(napred) {
-  const korak = napred ? 200 : -200
+function mrdaj(smer) {
+  const korak = smer ? 200 : -200
   if (parseInt($('#slike').style.marginLeft) + korak > 0) return
-  // if (!ucitaneSlike) slike.map(slika => slika.src = slika.dataset.izvor)
+  if (!ucitaneSlike) [...$('#slike img')].map(slika => slika.src = slika.dataset.src)
   $('#slike').style.marginLeft = `${parseInt($('#slike').style.marginLeft) + korak}px`
-  // ucitaneSlike = true
+  ucitaneSlike = true
 }
 
 function mrdajDesno() {
