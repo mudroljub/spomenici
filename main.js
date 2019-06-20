@@ -1,6 +1,7 @@
 import {mapa} from './modules/mapa.js'
-import {$} from './modules/helpers.js'
+import {$, otvori} from './modules/helpers.js'
 const {LatLng, InfoWindow, Marker} = google.maps
+import Slika from './komponente/Slika.js'
 import './komponente/PunEkran.js'
 import './komponente/Slajder.js'
 import './komponente/Lokator.js'
@@ -35,25 +36,8 @@ function praviUrl(placeId, koord) {
   return /(android)/i.test(navigator.userAgent) ? androidUrl : browserUrl
 }
 
-function dodajSliku(prozor, slika) {
-  if (!slika || prozor.imaSliku) return
-  prozor.setContent(prozor.getContent() + `<p><img src="${slika}"></p>`)
-  prozor.imaSliku = true
-}
-
-function otvori(prozor, marker, slika) {
-  prozor.open(mapa, marker)
-  dodajSliku(prozor, slika)
-}
-
 function novaSlika(spom, prozor, marker) {
-  const slika = document.createElement('img')
-  slika.ondragstart = () => false
-  slika.on('click', () => {
-    otvori(prozor, marker, spom.slika)
-    mapa.panTo(marker.getPosition())
-  })
-  slika.dataset.src = spom.slika // za kasnije
+  const slika = new Slika(spom, marker, prozor)
   return slika
 }
 
