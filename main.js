@@ -3,11 +3,9 @@ import {$} from './modules/helpers.js'
 const {LatLng, InfoWindow, Marker} = google.maps
 import './komponente/PunEkran.js'
 
-const brojSlika = window.innerWidth / 45
-
 let dirnutX = 0
 let pustenX = 0
-let ucitaneSlike = false
+// let ucitaneSlike = false
 
 /* FUNKCIJE */
 
@@ -63,20 +61,34 @@ function novaSlika(spom, prozor, marker) {
     otvori(prozor, marker, spom.slika)
     mapa.panTo(marker.getPosition())
   })
-  slika.src = spom.slika // dataset
+  slika.dataset.src = spom.slika // za kasnije
   return slika
 }
 
-function init(spomenici) {
-  const slike = spomenici.filter(spom => spom.slika).map(spom => {
-    const url = praviUrl(spom.place_id, spom.koordinate)
-    const prozor = noviProzor(spom, url)
-    const marker = noviMarker(prozor, spom)
-    marker.addListener('click', () => otvori(prozor, marker, spom.slika))
-    const slika = novaSlika(spom, prozor, marker)
-    return slika
+function pripremiSlike(spomenici) {
+  return spomenici
+    .filter(spom => spom.slika)
+    .map(spom => {
+      const url = praviUrl(spom.place_id, spom.koordinate)
+      const prozor = noviProzor(spom, url)
+      const marker = noviMarker(prozor, spom)
+      marker.addListener('click', () => otvori(prozor, marker, spom.slika))
+      const slika = novaSlika(spom, prozor, marker)
+      return slika
+    })
+}
+
+function inicirajSlajder(slike) {
+  const brojSlika = window.innerWidth / 45
+  slike.forEach((slika, i) => {
+    if (i < brojSlika) slika.src = slika.dataset.src
+    $('#slike').appendChild(slika)
   })
-  slike.map(slika => $('#slike').appendChild(slika))
+}
+
+function init(spomenici) {
+  const slike = pripremiSlike(spomenici)
+  inicirajSlajder(slike)
 }
 
 function mrdaj(napred) {
