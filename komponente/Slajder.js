@@ -30,13 +30,13 @@ style.textContent = `
     right: 0;
   }
 
-  #slike {
+  #traka {
     display: flex;
     overflow: hidden;
     transition: margin-left 0.4s ease;
   }
 
-  #slike img {
+  #traka img {
     height: var(--visina-slajdera);
     cursor: all-scroll;
   }
@@ -46,14 +46,15 @@ template.innerHTML = `
   <div class="okvir">
     <span class="strelica" id="strelica-leva">‹</span>
     <span class="strelica" id="strelica-desna">›</span>
-    <div id="slike"></div>
+    <div id="traka"></div>
   </div>
 `
 
 export default class Slajder extends HTMLElement {
-  constructor(podaci) {
+  constructor(slike) {
     super()
-    this.podaci = podaci
+    this.slike = slike
+
     this.attachShadow({ mode: 'open' })
     this.shadowRoot.appendChild(template.content)
     this.shadowRoot.appendChild(style)
@@ -63,9 +64,9 @@ export default class Slajder extends HTMLElement {
   }
 
   connectedCallback() {
-    this.slike = this.shadowRoot.querySelector('#slike')
-    this.slike.style.marginLeft = 0
-    this.podaci.forEach(slika => this.slike.appendChild(slika))
+    this.traka = this.shadowRoot.querySelector('#traka')
+    this.traka.style.marginLeft = 0
+    this.slike.forEach(slika => this.traka.appendChild(slika))
 
     this.strelicaLeva = this.shadowRoot.querySelector('#strelica-leva')
     this.strelicaLeva.addEventListener('click', this.mrdajDesno)
@@ -73,37 +74,37 @@ export default class Slajder extends HTMLElement {
     this.strelicaDesna = this.shadowRoot.querySelector('#strelica-desna')
     this.strelicaDesna.addEventListener('click', this.mrdajLevo)
 
-    this.slike.addEventListener('touchstart', e => {
+    this.traka.addEventListener('touchstart', e => {
       dirnutX = e.changedTouches[0].screenX
     })
 
-    this.slike.addEventListener('touchend', e => {
+    this.traka.addEventListener('touchend', e => {
       pustenX = e.changedTouches[0].screenX
       this.mrdaj(pustenX > dirnutX)
     })
 
-    this.slike.addEventListener('mousedown', e => {
+    this.traka.addEventListener('mousedown', e => {
       dirnutX = e.clientX
     })
 
-    this.slike.addEventListener('mouseup', e => {
+    this.traka.addEventListener('mouseup', e => {
       pustenX = e.clientX
       this.mrdaj(pustenX > dirnutX)
     })
   }
 
   ucitajAkoTreba() {
-    if (!ucitaneSlike)
-      this.shadowRoot.querySelectorAll('#slike img').forEach(slika => {
-        if (!slika.src) slika.src = slika.dataset.src
-      })
+    if (ucitaneSlike) return
+    this.traka.querySelectorAll('img').forEach(slika => {
+      if (!slika.src) slika.src = slika.dataset.src
+    })
     ucitaneSlike = true
   }
 
   mrdaj(smer) {
     const korak = smer ? 200 : -200
-    if (parseInt(this.slike.style.marginLeft) + korak > 0) return
-    this.slike.style.marginLeft = `${parseInt(this.slike.style.marginLeft) + korak}px`
+    if (parseInt(this.traka.style.marginLeft) + korak > 0) return
+    this.traka.style.marginLeft = `${parseInt(this.traka.style.marginLeft) + korak}px`
   }
 
   mrdajDesno() {
