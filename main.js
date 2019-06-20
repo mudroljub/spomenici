@@ -1,8 +1,9 @@
 import {mapa} from './modules/mapa.js'
 import {$} from './modules/helpers.js'
 const {LatLng, InfoWindow, Marker} = google.maps
-import './komponente/PunekranDugme.js'
+import './komponente/PunEkran.js'
 import './komponente/Slajder.js'
+import './komponente/Lokator.js'
 
 /* FUNKCIJE */
 
@@ -45,12 +46,6 @@ function otvori(prozor, marker, slika) {
   dodajSliku(prozor, slika)
 }
 
-function locirajMe() {
-  navigator.geolocation.getCurrentPosition(({coords}) => {
-    mapa.setCenter(new LatLng(coords.latitude, coords.longitude))
-  })
-}
-
 function novaSlika(spom, prozor, marker) {
   const slika = document.createElement('img')
   slika.ondragstart = () => false
@@ -63,29 +58,29 @@ function novaSlika(spom, prozor, marker) {
 }
 
 function pripremiSlike(spomenici) {
+  const brojSlika = window.innerWidth / 50
   return spomenici
     .filter(spom => spom.slika)
-    .map(spom => {
+    .map((spom, i) => {
       const url = praviUrl(spom.place_id, spom.koordinate)
       const prozor = noviProzor(spom, url)
       const marker = noviMarker(prozor, spom)
       marker.addListener('click', () => otvori(prozor, marker, spom.slika))
       const slika = novaSlika(spom, prozor, marker)
+      if (i < brojSlika) slika.src = slika.dataset.src
       return slika
     })
 }
 
-function praviSlajder(slike) {
-  const brojSlika = window.innerWidth / 50
-  slike.forEach((slika, i) => {
-    if (i < brojSlika) slika.src = slika.dataset.src
+function proslediSlajderu(slike) {
+  slike.forEach(slika => {
     $('nav-slajder').shadowRoot.querySelector('#slike').appendChild(slika)
   })
 }
 
 function init(spomenici) {
   const slike = pripremiSlike(spomenici)
-  praviSlajder(slike)
+  proslediSlajderu(slike)
 }
 
 /* INIT */
@@ -93,7 +88,3 @@ function init(spomenici) {
 fetch('data/spomenici.json')
   .then(res => res.json())
   .then(init)
-
-/* DOGADJAJI */
-
-$('#lokator').on('click', locirajMe)
