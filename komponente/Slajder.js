@@ -51,22 +51,26 @@ let dirnutX = 0
 let pustenX = 0
 let ucitaneSlike = false
 
-class Slajder extends HTMLElement {
-  constructor() {
+export default class Slajder extends HTMLElement {
+  constructor(podaci) {
     super()
+    console.log(podaci)
     this.attachShadow({ mode: 'open' })
     this.shadowRoot.appendChild(template.content)
     this.shadowRoot.appendChild(style)
 
-    this.slike = this.shadowRoot.querySelector('#slike')
-    this.strelicaLeva = this.shadowRoot.querySelector('#strelica-leva')
-    this.strelicaDesna = this.shadowRoot.querySelector('#strelica-desna')
-
     this.mrdajDesno = this.mrdajDesno.bind(this)
     this.mrdajLevo = this.mrdajLevo.bind(this)
+  }
+
+  connectedCallback() {
+    this.slike = this.shadowRoot.querySelector('#slike')
     this.slike.style.marginLeft = 0
 
+    this.strelicaLeva = this.shadowRoot.querySelector('#strelica-leva')
     this.strelicaLeva.addEventListener('click', this.mrdajDesno)
+
+    this.strelicaDesna = this.shadowRoot.querySelector('#strelica-desna')
     this.strelicaDesna.addEventListener('click', this.mrdajLevo)
 
     this.slike.addEventListener('touchstart', e => {
