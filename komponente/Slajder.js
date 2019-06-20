@@ -1,10 +1,9 @@
-// koristi globalnu css var visina-slajdera, proslediti kao props
-// proslediti slike preko atributa
+// TODO: proslediti visina-slajdera kao props
 const template = document.createElement('template')
 const style = document.createElement('style')
 
 style.textContent = `
-  .okvir-slika {
+  .okvir {
     align-items: center;
     bottom: 0;
     display: flex;
@@ -40,7 +39,7 @@ style.textContent = `
 `
 
 template.innerHTML = `
-  <div class="okvir-slika">
+  <div class="okvir">
     <span class="strelica" id="strelica-leva">‹</span>
     <span class="strelica" id="strelica-desna">›</span>
     <div id="slike"></div>
@@ -97,7 +96,9 @@ export default class Slajder extends HTMLElement {
     const korak = smer ? 200 : -200
     if (parseInt(this.slike.style.marginLeft) + korak > 0) return
     if (!ucitaneSlike)
-      this.shadowRoot.querySelectorAll('#slike img').forEach(slika => slika.src = slika.dataset.src)
+      this.shadowRoot.querySelectorAll('#slike img').forEach(slika => {
+        if (!slika.src) slika.src = slika.dataset.src
+      })
     this.slike.style.marginLeft = `${parseInt(this.slike.style.marginLeft) + korak}px`
     ucitaneSlike = true
   }
