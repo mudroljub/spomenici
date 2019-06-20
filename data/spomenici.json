@@ -28,7 +28,8 @@
       "lat": 43.534908,
       "lng": 21.71153
     },
-    "slika": "http://www.milivojomorac.edu.rs/images/2015/8-FOTOKONKURS/11aleksinac/7.jpg",
+    "slika": "https://mapio.net/images-p/33740306.jpg",
+    "place_id": "ChIJjdNa_oItVEcR49WRTKPtNdI",
     "tip": "spomenik"
   },
   {
@@ -227,7 +228,7 @@
     },
     "place_id": "ChIJNWikvdFvWkcRpfToE9Lyd1A",
     "tip": "spomenik",
-    "slika": "http://scontent.cdninstagram.com/t51.2885-15/s480x480/e35/11950720_1027266140640083_1754465047_n.jpg"
+    "slika": "http://beogradskevesti.info/wp-content/uploads/2018/12/Spomenik-palim-borcima-u-narodnooslobodilackom-ratu-sa-Cukarice-1.jpg"
   },
   {
     "mesto": "Beograd, Dorćol",
@@ -337,7 +338,7 @@
     "place_id": "ChIJ9VbPvwoKWUcRWSakbhYoUno",
     "info": "http://www.spomenikdatabase.org/bratunac",
     "tip": "kompleks",
-    "slika": "https://mw2.google.com/mw-panoramio/photos/medium/19576345.jpg"
+    "slika": "https://static.wixstatic.com/media/e73a14_7f30928680b34870b4f06c3b5770dbcf~mv2_d_3840_2160_s_2.jpg/v1/fill/w_956,h_535,al_c,q_85,usm_0.66_1.00_0.01/e73a14_7f30928680b34870b4f06c3b5770dbcf~mv2_d_3840_2160_s_2.webp"
   },
   {
     "mesto": "Bravsko",
