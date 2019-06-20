@@ -1,4 +1,4 @@
-import {praviProzor, praviMarker} from './modules/helpers.js'
+import {praviProzor, praviMarker} from './utils/helpers.js'
 import Slika from './komponente/Slika.js'
 import Slajder from './komponente/Slajder.js'
 import './komponente/PunEkran.js'

@@ -1,5 +1,5 @@
-import {mapa} from '../modules/mapa.js'
-import {otvoriProzor} from '../modules/helpers.js'
+import {mapa} from '../utils/mapa.js'
+import {otvoriProzor} from '../utils/helpers.js'
 
 export default class Slika extends HTMLImageElement {
   constructor(spomen, marker, prozor) {
