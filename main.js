@@ -14,8 +14,7 @@ function pripremiSlike(spomenici) {
     .map(spomen => {
       const prozor = praviProzor(spomen)
       const marker = praviMarker(prozor, spomen)
-      const slika = new Slika(spomen, marker, prozor)
-      return slika
+      return new Slika(spomen, marker, prozor)
     })
 }
 
