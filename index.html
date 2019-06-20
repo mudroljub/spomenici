@@ -1,13 +1,10 @@
-<!DOCTYPE html>
-<html lang="sh">
-
-<head>
+<!DOCTYPE html><html lang="sh"><head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Spomenici</title>
-  <meta name="description" content="Yugoslav World War II monuments map" />
-  <meta property="og:image" content="screen.png" />
-  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <meta name="description" content="Yugoslav World War II monuments map">
+  <meta property="og:image" content="screen.png">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -19,8 +16,393 @@
   <div id="map-canvas"></div>
   <!-- <nav-slajder></nav-slajder> -->
 
-  <script defer src='https://maps.googleapis.com/maps/api/js?key=AIzaSyBJY5wj2lKHZtRFmXcMmKHd0j8mdNkjEas&v=3.exp'></script>
-  <script defer src="main.js" type="module"></script>
-</body>
+  <script defer="" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBJY5wj2lKHZtRFmXcMmKHd0j8mdNkjEas&amp;v=3.exp"></script>
+  <script defer="" type="module">
+const {
+  ControlPosition,
+  Map: Gmap
+} = google.maps;
+const stilMape = [{
+  'featureType': 'landscape.man_made',
+  'elementType': 'geometry',
+  'stylers': [{
+    'color': '#f7f1df'
+  }]
+}, {
+  'featureType': 'landscape.natural',
+  'elementType': 'geometry',
+  'stylers': [{
+    'color': '#d0e3b4'
+  }]
+}, {
+  'featureType': 'landscape.natural.terrain',
+  'elementType': 'geometry',
+  'stylers': [{
+    'visibility': 'off'
+  }]
+}, {
+  'featureType': 'poi',
+  'elementType': 'labels',
+  'stylers': [{
+    'visibility': 'off'
+  }]
+}, {
+  'featureType': 'poi.business',
+  'elementType': 'all',
+  'stylers': [{
+    'visibility': 'off'
+  }]
+}, {
+  'featureType': 'poi.medical',
+  'elementType': 'geometry',
+  'stylers': [{
+    'color': '#fbd3da'
+  }]
+}, {
+  'featureType': 'poi.park',
+  'elementType': 'geometry',
+  'stylers': [{
+    'color': '#bde6ab'
+  }]
+}, {
+  'featureType': 'road',
+  'elementType': 'geometry.stroke',
+  'stylers': [{
+    'visibility': 'off'
+  }]
+}, {
+  'featureType': 'road',
+  'elementType': 'labels',
+  'stylers': [{
+    'visibility': 'off'
+  }]
+}, {
+  'featureType': 'road.highway',
+  'elementType': 'geometry.fill',
+  'stylers': [{
+    'color': '#ffe15f'
+  }]
+}, {
+  'featureType': 'road.highway',
+  'elementType': 'geometry.stroke',
+  'stylers': [{
+    'color': '#efd151'
+  }]
+}, {
+  'featureType': 'road.arterial',
+  'elementType': 'geometry.fill',
+  'stylers': [{
+    'color': '#ffffff'
+  }]
+}, {
+  'featureType': 'road.local',
+  'elementType': 'geometry.fill',
+  'stylers': [{
+    'color': 'black'
+  }]
+}, {
+  'featureType': 'transit.station.airport',
+  'elementType': 'geometry.fill',
+  'stylers': [{
+    'color': '#cfb2db'
+  }]
+}, {
+  'featureType': 'water',
+  'elementType': 'geometry',
+  'stylers': [{
+    'color': '#a2daf2'
+  }]
+}];
+const konfigMape = {
+  center: {
+    'lat': 44.341667,
+    'lng': 17.269444
+  },
+  zoom: 8,
+  minZoom: 6,
+  mapTypeControl: false,
+  fullscreenControl: false,
+  zoomControlOptions: {
+    position: ControlPosition.RIGHT_TOP
+  },
+  streetViewControl: false,
+  restriction: {
+    latLngBounds: {
+      west: 10,
+      east: 26,
+      north: 48,
+      south: 39
+    }
+  },
+  // gestureHandling: 'greedy', // ne radi https://developers.google.com/maps/documentation/javascript/interaction#gestureHandling
+  styles: stilMape
+};
+const mapa = new Gmap(document.getElementById('map-canvas'), konfigMape);
+const {
+  InfoWindow,
+  Marker,
+  LatLng
+} = google.maps;
+Element.prototype.on = Element.prototype.addEventListener;
 
-</html>
+const $ = s => document.querySelectorAll(s).length > 1 ? document.querySelectorAll(s) : document.querySelector(s);
+
+function praviUrl(placeId, koord) {
+  const placeUrl = `?q=place_id:${placeId}`;
+  const koordUrl = `${koord.lat},${koord.lng}`;
+  const androidUrl = `geo:${koord.lat},${koord.lng}`;
+  const browserUrl = `https://www.google.com/maps/place/${placeId ? placeUrl : koordUrl}`;
+  return (/(android)/i.test(navigator.userAgent) ? androidUrl : browserUrl
+  );
+}
+
+function dodajSlikuProzoru(prozor, slika) {
+  if (!slika || prozor.imaSliku) return;
+  prozor.setContent(prozor.getContent() + `<p><img src="${slika}"></p>`);
+  prozor.imaSliku = true;
+}
+
+function otvoriProzor(prozor, marker, slika) {
+  prozor.open(mapa, marker);
+  dodajSlikuProzoru(prozor, slika);
+}
+
+function praviProzor(spomen) {
+  const url = praviUrl(spomen.place_id, spomen.koordinate);
+  const content = `
+    <h3>${spomen.mesto}</h3>
+    </p>${spomen.naziv || ''}</p>
+    <a href="${url}">Find place</a>
+    ${spomen.info ? `<a href="${spomen.info}" target="_blank">Read more</a>` : ''}
+  `;
+  return new InfoWindow({
+    content
+  });
+}
+
+function praviMarker(infoWindow, spomen) {
+  const marker = new Marker({
+    map: mapa,
+    infoWindow,
+    position: new LatLng(spomen.koordinate.lat, spomen.koordinate.lng),
+    title: spomen.naziv || spomen.mesto,
+    icon: 'slike/obelisk.png'
+  });
+  marker.addListener('click', () => otvoriProzor(infoWindow, marker, spomen.slika));
+  return marker;
+}
+
+class Slika extends HTMLImageElement {
+  constructor(spomen, marker, prozor) {
+    super();
+    this.addEventListener('click', this.locirajMe);
+
+    this.ondragstart = () => false; // zaustavlja pomeranje slike ispod misha
+
+
+    this.addEventListener('click', () => {
+      otvoriProzor(prozor, marker, spomen.slika);
+      mapa.panTo(marker.getPosition());
+    });
+    this.dataset.src = spomen.slika; // za kasnije
+  }
+
+}
+
+customElements.define('nav-slika', Slika, {
+  extends: 'img'
+}); // TODO: proslediti visina-slajdera kao props
+
+const template = document.createElement('template');
+const style = document.createElement('style');
+let dirnutX = 0;
+let pustenX = 0;
+let ucitaneSlike = false;
+style.textContent = `
+  .okvir {
+    align-items: center;
+    bottom: 0;
+    display: flex;
+    position: fixed;
+    width: 100%;
+  }
+
+  .strelica {
+    -moz-user-select: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: calc(var(--visina-slajdera) * 1.6);
+    padding: 0 8px;
+    position: absolute;
+    text-shadow: 2px 2px #000;
+    user-select: none;
+  }
+
+  #strelica-desna {
+    right: 0;
+  }
+
+  #traka {
+    display: flex;
+    overflow: hidden;
+    transition: margin-left 0.4s ease;
+  }
+
+  #traka img {
+    height: var(--visina-slajdera);
+    cursor: all-scroll;
+  }
+`;
+template.innerHTML = `
+  <div class="okvir">
+    <span class="strelica" id="strelica-leva">‹</span>
+    <span class="strelica" id="strelica-desna">›</span>
+    <div id="traka"></div>
+  </div>
+`;
+
+class Slajder extends HTMLElement {
+  constructor(slike) {
+    super();
+    this.slike = slike;
+    this.attachShadow({
+      mode: 'open'
+    });
+    this.shadowRoot.appendChild(template.content);
+    this.shadowRoot.appendChild(style);
+    this.mrdajDesno = this.mrdajDesno.bind(this);
+    this.mrdajLevo = this.mrdajLevo.bind(this);
+  }
+
+  connectedCallback() {
+    this.traka = this.shadowRoot.querySelector('#traka');
+    this.traka.style.marginLeft = 0;
+    this.slike.forEach(slika => this.traka.appendChild(slika));
+    this.strelicaLeva = this.shadowRoot.querySelector('#strelica-leva');
+    this.strelicaLeva.addEventListener('click', this.mrdajDesno);
+    this.strelicaDesna = this.shadowRoot.querySelector('#strelica-desna');
+    this.strelicaDesna.addEventListener('click', this.mrdajLevo);
+    this.traka.addEventListener('touchstart', e => {
+      dirnutX = e.changedTouches[0].screenX;
+    });
+    this.traka.addEventListener('touchend', e => {
+      pustenX = e.changedTouches[0].screenX;
+      this.mrdaj(pustenX > dirnutX);
+    });
+    this.traka.addEventListener('mousedown', e => {
+      dirnutX = e.clientX;
+    });
+    this.traka.addEventListener('mouseup', e => {
+      pustenX = e.clientX;
+      this.mrdaj(pustenX > dirnutX);
+    });
+  }
+
+  ucitajAkoTreba() {
+    if (ucitaneSlike) return;
+    this.traka.querySelectorAll('img').forEach(slika => {
+      if (!slika.src) slika.src = slika.dataset.src;
+    });
+    ucitaneSlike = true;
+  }
+
+  mrdaj(smer) {
+    const korak = smer ? 200 : -200;
+    if (parseInt(this.traka.style.marginLeft) + korak > 0) return;
+    this.traka.style.marginLeft = `${parseInt(this.traka.style.marginLeft) + korak}px`;
+  }
+
+  mrdajDesno() {
+    this.mrdaj(true);
+  }
+
+  mrdajLevo() {
+    this.ucitajAkoTreba();
+    this.mrdaj(false);
+  }
+
+}
+
+customElements.define('nav-slajder', Slajder);
+
+class PunEkran extends HTMLElement {
+  constructor() {
+    super();
+    this.addEventListener('click', this.obrniPunEkran);
+  }
+
+  connectedCallback() {
+    this.innerHTML = `
+      <style>
+        #ikonica {
+          top: 10px;
+          left: 10px;
+          background: white;
+          padding: 4px;
+        }
+      </style>
+      <img src="slike/punekran.svg" class="ikonica" id="ikonica" width="32" alt="pun ekran" title="Full screen">
+    `;
+  }
+
+  obrniPunEkran() {
+    if (!document.fullscreenElement) document.body.requestFullscreen();else document.exitFullscreen();
+  }
+
+}
+
+customElements.define('dugme-pun-ekran', PunEkran); // koristi globalnu css var visina-slajdera, proslediti kao props
+
+const {
+  LatLng: LatLng$1
+} = google.maps;
+
+class Lokator extends HTMLElement {
+  constructor() {
+    super();
+    this.addEventListener('click', this.locirajMe);
+  }
+
+  connectedCallback() {
+    this.innerHTML = `
+      <style>
+        #lokator {
+          bottom: var(--visina-slajdera);
+          right: 0;
+          padding: 8px;
+        }
+      </style>
+      <img src="slike/lokator.svg" width="32" class="ikonica" id="lokator" alt="lociraj me" title="Locate me">
+    `;
+  }
+
+  locirajMe() {
+    navigator.geolocation.getCurrentPosition(({
+      coords
+    }) => {
+      mapa.setCenter(new LatLng$1(coords.latitude, coords.longitude));
+    });
+  }
+
+}
+
+customElements.define('dugme-lokator', Lokator);
+const inicijalnoSlika = window.innerWidth / 50; /* FUNKCIJE */
+
+function init(spomenici) {
+  const slike = spomenici.map((spomen, i) => {
+    const prozor = praviProzor(spomen);
+    const marker = praviMarker(prozor, spomen);
+    const slika = new Slika(spomen, marker, prozor);
+    if (slika.dataset.src && i < inicijalnoSlika) slika.src = slika.dataset.src;
+    return slika;
+  });
+  document.body.appendChild(new Slajder(slike));
+} /* INIT */
+
+fetch('data/spomenici.json').then(res => res.json()).then(init);
+</script>
+
+
+
+</body></html>

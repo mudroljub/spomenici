@@ -12,7 +12,7 @@ Visit: [mudroljub.github.io/spomenici](https://mudroljub.github.io/spomenici/)
 
 ```
 npm install -g polymer-bundler
-polymer-bundler --inline-scripts index.html > build.html
+polymer-bundler --inline-scripts original.html > index.html
 ```
 
 ## TODO
