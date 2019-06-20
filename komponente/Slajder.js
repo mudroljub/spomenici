@@ -54,7 +54,7 @@ let ucitaneSlike = false
 export default class Slajder extends HTMLElement {
   constructor(podaci) {
     super()
-    console.log(podaci)
+    this.podaci = podaci
     this.attachShadow({ mode: 'open' })
     this.shadowRoot.appendChild(template.content)
     this.shadowRoot.appendChild(style)
@@ -66,6 +66,7 @@ export default class Slajder extends HTMLElement {
   connectedCallback() {
     this.slike = this.shadowRoot.querySelector('#slike')
     this.slike.style.marginLeft = 0
+    this.podaci.forEach(slika => this.slike.appendChild(slika))
 
     this.strelicaLeva = this.shadowRoot.querySelector('#strelica-leva')
     this.strelicaLeva.addEventListener('click', this.mrdajDesno)
