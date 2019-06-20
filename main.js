@@ -4,24 +4,23 @@ import './komponente/PunEkran.js'
 import './komponente/Slajder.js'
 import './komponente/Lokator.js'
 
-const brojSlika = window.innerWidth / 50
+const inicijalnoSlika = window.innerWidth / 50
 
 /* FUNKCIJE */
 
-function pripremiSlike(spomenici) {
-  return spomenici
-    .filter(spomen => spomen.slika)
-    .map(spomen => {
-      const prozor = praviProzor(spomen)
-      const marker = praviMarker(prozor, spomen)
-      return new Slika(spomen, marker, prozor)
-    })
+function praviSlike(spomenici) {
+  return spomenici.map(spomen => {
+    const prozor = praviProzor(spomen)
+    const marker = praviMarker(prozor, spomen)
+    return new Slika(spomen, marker, prozor)
+  })
 }
 
 function init(spomenici) {
-  const slike = pripremiSlike(spomenici)
+  const slike = praviSlike(spomenici)
   slike.forEach((slika, i) => {
-    if (i < brojSlika) slika.src = slika.dataset.src
+    if (!slika.dataset.src) return
+    if (i < inicijalnoSlika) slika.src = slika.dataset.src
     $('nav-slajder').shadowRoot.querySelector('#slike').appendChild(slika)
   })
 }
