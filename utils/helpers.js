@@ -9,8 +9,8 @@ export const $ = s => document.querySelectorAll(s).length > 1
 
 function praviUrl(placeId, koord) {
   const placeUrl = `?q=place_id:${placeId}`
-  const koordUrl = `${koord.lat},${koord.lng}`
-  const androidUrl = `geo:${koord.lat},${koord.lng}`
+  const koordUrl = `${koord.lat},${koord.lon}`
+  const androidUrl = `geo:${koord.lat},${koord.lon}`
   const browserUrl = `https://www.google.com/maps/place/${placeId ? placeUrl : koordUrl}`
   return /(android)/i.test(navigator.userAgent) ? androidUrl : browserUrl
 }
@@ -27,7 +27,7 @@ export function otvoriProzor(prozor, marker, slika) {
 }
 
 export function praviProzor(spomen) {
-  const url = praviUrl(spomen.place_id, spomen.koordinate)
+  const url = praviUrl(spomen.place_id, spomen.lokacija)
   const content = `
     <h3>${spomen.mesto}</h3>
     </p>${spomen.naziv || ''}</p>
@@ -41,7 +41,7 @@ export function praviMarker(infoWindow, spomen) {
   const marker = new Marker({
     map: mapa,
     infoWindow,
-    position: new LatLng(spomen.koordinate.lat, spomen.koordinate.lng),
+    position: new LatLng(spomen.lokacija.lat, spomen.lokacija.lon),
     title: spomen.naziv || spomen.mesto,
     icon: 'slike/obelisk.png'
   })
