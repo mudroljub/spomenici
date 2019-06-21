@@ -24,4 +24,4 @@ class PunEkran extends HTMLElement {
   }
 }
 
-customElements.define('pun-ekran', PunEkran)
+customElements.define('dugme-pun-ekran', PunEkran)
