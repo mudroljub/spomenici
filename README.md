@@ -16,7 +16,7 @@ Open `original.html` in the browser.
 
 ```
 npm install -g polymer-bundler
-polymer-bundler --inline-scripts original.html > index.html
+polymer-bundler --inline-scripts ulaz.html > izlaz.html
 ```
 
 ## TODO
