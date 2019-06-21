@@ -21,7 +21,7 @@ polymer-bundler --inline-scripts ulaz.html > izlaz.html
 
 ## TODO
 
-- bug: kada nije omogucena lokacija na telefonu, ne radi lociranje, cak iako te browser pita i prihvatis
 - optimizovati dodavanje slika u slajder u paketima na osnovu sirine ekrana
 - isprobati na telefonu
+  - bug: kada nije omogucena lokacija na telefonu, ne radi lociranje, cak iako te browser pita i prihvatis
 - utovariti podatke u bazu

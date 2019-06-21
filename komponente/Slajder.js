@@ -4,7 +4,7 @@ const style = document.createElement('style')
 
 let dirnutX = 0
 let pustenX = 0
-let ucitaneSlike = false
+const paketSlika = window.innerWidth / 60
 
 style.textContent = `
   .okvir {
@@ -69,9 +69,9 @@ export default class Slajder extends HTMLElement {
     this.strelicaLeva = this.shadowRoot.querySelector('#strelica-leva')
     this.strelicaDesna = this.shadowRoot.querySelector('#strelica-desna')
 
+    this.ucitajAkoTreba()
     this.traka.style.marginLeft = 0
-    this.slike.forEach(slika => this.traka.appendChild(slika))
-  
+
     this.strelicaLeva.addEventListener('click', this.mrdajDesno)
     this.strelicaDesna.addEventListener('click', this.mrdajLevo)
 
@@ -83,9 +83,11 @@ export default class Slajder extends HTMLElement {
   }
 
   ucitajAkoTreba() {
-    if (ucitaneSlike) return
-    this.traka.querySelectorAll('img').forEach(slika => slika.dodeliIzvor())
-    ucitaneSlike = true
+    const brojUnetihSlika = this.traka.querySelectorAll('img').length
+    if (brojUnetihSlika == this.slike.length) return
+    this.slike.forEach((slika, i) => {
+      if (i < brojUnetihSlika + paketSlika) this.traka.appendChild(slika)
+    })
   }
 
   mrdaj(smer) {
