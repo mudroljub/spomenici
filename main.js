@@ -15,6 +15,9 @@ function init(spomenici) {
     if (spomen.slika) slike.push(new Slika(spomen, marker, prozor))
   })
   document.body.appendChild(new Slajder(slike))
+
+  const filtrirano = spomenici.filter(s => s.opis)
+  console.log(spomenici.length, filtrirano.length)
 }
 
 /* INIT */

@@ -6,7 +6,7 @@ export default class Slika extends HTMLImageElement {
   constructor(spomen, marker, prozor) {
     super()
     this.src = spomen.slika
-    this.alt = this.title = `Spomenik ${spomen.mesto}`
+    this.alt = this.title = `Spomenik ${spomen.naslov}`
   
     this.addEventListener('click', () => {
       otvoriProzor(prozor, marker, spomen.slika)
