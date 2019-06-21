@@ -2,6 +2,7 @@ import {mapa} from '../utils/mapa.js'
 import {otvoriProzor} from '../utils/helpers.js'
 
 export default class Slika extends HTMLImageElement {
+
   constructor(spomen, marker, prozor) {
     super()
     this.addEventListener('click', this.locirajMe)
@@ -10,7 +11,14 @@ export default class Slika extends HTMLImageElement {
       otvoriProzor(prozor, marker, spomen.slika)
       mapa.panTo(marker.getPosition())
     })
-    if (spomen.slika) this.dataset.src = spomen.slika // za kasnije
+    this.dataset.src = spomen.slika // za kasnije
+    this.alt = this.title = `Spomenik ${spomen.mesto}`
+  }
+
+  dodeliIzvor() {
+    if (this.src) return
+    this.src = this.dataset.src
+    delete this.dataset.src
   }
 }
 

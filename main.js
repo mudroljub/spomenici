@@ -15,7 +15,7 @@ function init(spomenici) {
     const marker = praviMarker(prozor, spomen)
     if (spomen.slika) {
       const slika = new Slika(spomen, marker, prozor)
-      if (i < inicijalnoSlika) slika.src = slika.dataset.src
+      if (i < inicijalnoSlika) slika.dodeliIzvor()
       slike.push(slika)
     }
   })

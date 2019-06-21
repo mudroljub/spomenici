@@ -84,7 +84,7 @@
     },
     "info": "https://sr.wikipedia.org/sr-el/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BD%D0%B0%D1%80%D0%BE%D0%B4%D0%BD%D0%BE%D0%BC_%D1%85%D0%B5%D1%80%D0%BE%D1%98%D1%83_%D0%94%D1%83%D1%88%D0%B0%D0%BD%D1%83_%D0%88%D0%B5%D1%80%D0%BA%D0%BE%D0%B2%D0%B8%D1%9B%D1%83",
     "tip": "spomenik",
-    "slika": "https://static.wixstatic.com/media/e73a14_ed3c9579f0d94ec1ac6b24badefc8442~mv2_d_3840_2160_s_2.jpg/v1/fill/w_954,h_534,al_c,q_85,usm_0.66_1.00_0.01/e73a14_ed3c9579f0d94ec1ac6b24badefc8442~mv2_d_3840_2160_s_2.webp"
+    "slika": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Bajina_Ba%C5%A1ta_015.jpg/320px-Bajina_Ba%C5%A1ta_015.jpg"
   },
   {
     "mesto": "Bajmok",
@@ -122,7 +122,6 @@
   {
     "mesto": "Bečej",
     "place_id": "ChIJH3_OxZozW0cRjDaJwO5rdpM",
-    "info": "http://www.skulpture-srbija.com/skulpture/spomenik-streljanim-borcima-nor-a-277/",
     "slika": "http://www.webinfo.rs/images/Tijana/000/Ustanove/SlobodaSpomenikTrg.jpg",
     "tip": "spomenik",
     "koordinate": {
@@ -578,7 +577,6 @@
     "mesto": "Gajdobra",
     "naziv": "Spomenik ruka (blizu sela Nova Gajdobra)",
     "place_id": "ChIJm7nlYA5lW0cRpJCPnCaqqbI",
-    "info": "http://www.skulpture-srbija.com/skulpture/zelja-766/",
     "slika": "https://s3.amazonaws.com/gs-geo-images/b7540ac2-6e14-4488-820c-3113fa3fb2ff_l.jpg",
     "tip": "spomenik",
     "koordinate": {
@@ -895,7 +893,6 @@
     "tip": "spomenik",
     "place_id": "ChIJS5G1x8PeREcRi9yd571aTtI",
     "slika": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Spomenik_palim_borcima_NOB-a_u_Kikindi.jpg/200px-Spomenik_palim_borcima_NOB-a_u_Kikindi.jpg",
-    "info": "http://www.skulpture-srbija.com/skulpture/spomenik-palim-borcima-nob-a-828/",
     "koordinate": {
       "lat": 45.83972319999999,
       "lng": 20.452787599999965
@@ -909,8 +906,7 @@
       "lat": 45.831391,
       "lng": 20.466087
     },
-    "slika": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Spomenik_internircima_u_Kikindi%2C_rad_Slobodana_Koji%C4%87a.jpg/200px-Spomenik_internircima_u_Kikindi%2C_rad_Slobodana_Koji%C4%87a.jpg",
-    "info": "http://www.skulpture-srbija.com/skulpture/spomenik-internircima-303/"
+    "slika": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Spomenik_internircima_u_Kikindi%2C_rad_Slobodana_Koji%C4%87a.jpg/200px-Spomenik_internircima_u_Kikindi%2C_rad_Slobodana_Koji%C4%87a.jpg"
   },
   {
     "mesto": "Kikinda",
@@ -929,7 +925,6 @@
     "tip": "kompleks",
     "place_id": "ChIJ7aTUyTrZREcRQulq9Mx6FsE",
     "slika": "https://i.ytimg.com/vi/AlOT6SiOv2I/maxresdefault.jpg",
-    "info": "http://www.skulpture-srbija.com/skulpture/obelisk-536/",
     "koordinate": {
       "lat": 45.81485149999999,
       "lng": 20.438560499999994
@@ -1073,7 +1068,6 @@
       "lat": 44.021829,
       "lng": 20.884688
     },
-    "info": "http://www.skulpture-srbija.com/skulpture/spomenik-bola-i-prkosa-185/",
     "tip": "spomenik",
     "slika": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Kragujevac%2C_%C5%A0umarice%2C_Spomenik_bola_i_prkosa.JPG/200px-Kragujevac%2C_%C5%A0umarice%2C_Spomenik_bola_i_prkosa.JPG"
   },
@@ -1240,8 +1234,7 @@
       "lat": 44.225511,
       "lng": 20.240386
     },
-    "slika": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Ljig%2C_spomenici_NOB-a_011.jpg/200px-Ljig%2C_spomenici_NOB-a_011.jpg",
-    "info": "http://www.skulpture-srbija.com/skulpture/spomenik-ljiskoj-borbi-1941-godine-392/"
+    "slika": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Ljig%2C_spomenici_NOB-a_011.jpg/200px-Ljig%2C_spomenici_NOB-a_011.jpg"
   },
   {
     "mesto": "Ljubljana",
@@ -1307,7 +1300,6 @@
     "place_id": "ChIJW2QVGV5SW0cR7GWtO4-BqJY",
     "tip": "spomenik",
     "slika": "https://static.limundoslike.com/originalslika_SPOMENIK-LOVCENAC-186315413.jpg",
-    "info": "http://www.skulpture-srbija.com/skulpture/spomenik-zrtvama-fasistickog-terora-i-30-togodisnj-116/",
     "koordinate": {
       "lat": 45.68395230000001,
       "lng": 19.690986000000066
@@ -1363,7 +1355,6 @@
       "lng": 20.670068
     },
     "tip": "spomenik",
-    "info": "http://www.skulpture-srbija.com/skulpture/spomenik-zrtvama-banjickog-logora-340/",
     "slika": "http://www.grocka.rs/wp-content/uploads/2015/05/DSC_00066.jpg"
   },
   {
@@ -1475,7 +1466,6 @@
     "mesto": "Neštin, obala Dunava",
     "tip": "spomenik",
     "place_id": "ChIJq-7ReNVwW0cRCJU0-Wf7A8Q",
-    "info": "http://www.skulpture-srbija.com/skulpture/spomenik-nob-a-681/",
     "slika": "https://upload.wikimedia.org/wikipedia/sr/thumb/d/db/%D0%9D%D0%B5%D1%88%D1%82%D0%B8%D0%BD_-_%D1%81%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%B8%D0%B7_%D0%9D%D0%9E%D0%91-%D0%B0.jpeg/200px-%D0%9D%D0%B5%D1%88%D1%82%D0%B8%D0%BD_-_%D1%81%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%B8%D0%B7_%D0%9D%D0%9E%D0%91-%D0%B0.jpeg",
     "koordinate": {
       "lat": 45.2131828,
@@ -1521,8 +1511,7 @@
       "lat": 44.956924,
       "lng": 20.282228
     },
-    "slika": "https://www.virtuelnimuzejpazova.rs/img/opsti-postovi/1518132226.jpg",
-    "info": "http://www.skulpture-srbija.com/skulpture/spomenik-bratstvu-i-jedinstvu-473/"
+    "slika": "https://www.virtuelnimuzejpazova.rs/img/opsti-postovi/1518132226.jpg"
   },
   {
     "mesto": "Novi Bečej",
@@ -1531,7 +1520,6 @@
       "lng": 20.131287199999974
     },
     "place_id": "ChIJ-TW-1I8tW0cRguS2c6ybXfw",
-    "info": "http://www.skulpture-srbija.com/skulpture/spomenik-palim-borcima-nob-a-54/",
     "slika": "https://vojvodinaonline.com/media/2017/01/spomenik-banatski-cvet-novi-becej.jpg",
     "tip": "spomenik"
   },
@@ -1583,7 +1571,6 @@
     "naziv": "SPOMEN GROBLJE PALIH BORACA NOR-A",
     "tip": "kompleks",
     "place_id": "ChIJgcH8hp4RW0cR3Mh_BQ-svLU",
-    "info": "http://www.skulpture-srbija.com/skulpture/spomen-groblje-palih-boraca-nor-a-569/",
     "slika": "http://www.skulpture-srbija.com/media/skulpture/radovic-cedomir-11.500x360.jpg",
     "koordinate": {
       "lat": 45.2729411,
@@ -2009,7 +1996,6 @@
     "place_id": "ChIJM57bJUOuW0cRl8WgnPd5Zkk",
     "tip": "spomenik",
     "slika": "http://www.skulpture-srbija.com/media/skulpture/radovanovic-sasin-12.500x360.jpg",
-    "info": "http://www.skulpture-srbija.com/skulpture/susret-kurira-564/",
     "koordinate": {
       "lat": 44.9495945,
       "lng": 19.72090000000003
@@ -2019,7 +2005,6 @@
     "mesto": "Sefkerin, centar sela",
     "tip": "spomenik",
     "place_id": "ChIJY-RgXxGJWkcROzO0_A6siuI",
-    "info": "http://www.skulpture-srbija.com/skulpture/spomenik-palim-borcima-i-zrtvama-fasizma-414/",
     "slika": "https://mw2.google.com/mw-panoramio/photos/medium/46560271.jpg",
     "koordinate": {
       "lat": 45.0189219,
@@ -2232,7 +2217,6 @@
     "mesto": "Stari Žednik, park ispred Zadružnog doma",
     "tip": "spomenik",
     "place_id": "ChIJcVBTMOJYQ0cRXUzXXAm6QMk",
-    "info": "http://www.skulpture-srbija.com/skulpture/spomenik-palim-borcima-i-zrtvama-fasistickog-teror-203/",
     "slika": "http://www.skulpture-srbija.com/media/skulpture/halugin-sava-stari-zednik.500x360.jpg",
     "koordinate": {
       "lat": 45.9472107,
@@ -2321,7 +2305,6 @@
     "naziv": "Spomenik palim borcima i žrtvama fašizma",
     "tip": "spomenik",
     "place_id": "ChIJ3369C8VmQ0cRy5XcJ_retVA",
-    "info": "http://www.skulpture-srbija.com/skulpture/spomenik-palim-borcima-i-zrtvama-fasizma-595/",
     "koordinate": {
       "lat": 46.09889930000001,
       "lng": 19.65905840000005
@@ -2374,8 +2357,7 @@
       "lat": 45.205114,
       "lng": 20.312249
     },
-    "slika": "http://www.skulpture-srbija.com/media/skulpture/soldatovic-titel11.500x360.jpg",
-    "info": "http://www.skulpture-srbija.com/skulpture/spomenik-palim-borcima-i-zrtvama-faszma-680/"
+    "slika": "http://www.skulpture-srbija.com/media/skulpture/soldatovic-titel11.500x360.jpg"
   },
   {
     "mesto": "Tjentište",

@@ -98,9 +98,7 @@ export default class Slajder extends HTMLElement {
 
   ucitajAkoTreba() {
     if (ucitaneSlike) return
-    this.traka.querySelectorAll('img').forEach(slika => {
-      if (!slika.src) slika.src = slika.dataset.src
-    })
+    this.traka.querySelectorAll('img').forEach(slika => slika.dodeliIzvor())
     ucitaneSlike = true
   }
 
