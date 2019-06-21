@@ -2,8 +2,8 @@ const spomenici = require('../data/spomenici.json')
 const fs = require('fs')
 
 const rezultat = spomenici.map(spomen => {
-  if (spomen.info && spomen.info.startsWith('http://www.skulpture-srbija')) {
-    delete spomen.info
+  if (spomen.slika) {
+    delete spomen.slika
   }
   return spomen
 })

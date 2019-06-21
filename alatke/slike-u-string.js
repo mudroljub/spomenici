@@ -13,7 +13,7 @@ spomenici.forEach(s => {
       const data = await sharp(body)
         .resize(280)
         .toBuffer()
-     
+
       const slikaString = 'data:image/jpeg;base64,' + data.toString('base64')
       s.slikaString = slikaString
       console.log(uspesno++)
