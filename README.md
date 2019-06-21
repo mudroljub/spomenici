@@ -21,6 +21,7 @@ polymer-bundler --inline-scripts ulaz.html > izlaz.html
 
 ## TODO
 
-- bug: klik na slajder ga pomera ulevo
 - bug: kada nije omogucena lokacija na telefonu, ne radi lociranje, cak iako te browser pita i prihvatis
+- optimizovati dodavanje slika u slajder u paketima na osnovu sirine ekrana
+- isprobati na telefonu
 - utovariti podatke u bazu
