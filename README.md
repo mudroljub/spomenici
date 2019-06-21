@@ -21,6 +21,10 @@ polymer-bundler --inline-scripts ulaz.html > izlaz.html
 
 ## TODO
 
-- bug: klik na slajder ga pomera ulevo
-- bug: kada nije omogucena lokacija na telefonu, ne radi lociranje, cak iako te browser pita i prihvatis
+- isprobati na telefonu
+  - bug: kada nije omogucena lokacija na telefonu, ne radi lociranje, cak iako te browser pita i prihvatis
+- dodati novu kategoriju spomen-groblje  
 - utovariti podatke u bazu
+- dodati pretragu
+- dodati prijavu
+- preci na open street maps

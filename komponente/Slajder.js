@@ -4,7 +4,7 @@ const style = document.createElement('style')
 
 let dirnutX = 0
 let pustenX = 0
-let ucitaneSlike = false
+const paketSlika = window.innerWidth / 60
 
 style.textContent = `
   .okvir {
@@ -59,53 +59,47 @@ export default class Slajder extends HTMLElement {
     this.shadowRoot.appendChild(template.content)
     this.shadowRoot.appendChild(style)
 
+    this.mrdajAkoTreba = this.mrdajAkoTreba.bind(this)
     this.mrdajDesno = this.mrdajDesno.bind(this)
     this.mrdajLevo = this.mrdajLevo.bind(this)
   }
 
   connectedCallback() {
     this.traka = this.shadowRoot.querySelector('#traka')
-    this.traka.style.marginLeft = 0
-    this.slike.forEach(slika => {
-      // console.log(slika)
-      this.traka.appendChild(slika)
-    })
-
     this.strelicaLeva = this.shadowRoot.querySelector('#strelica-leva')
-    this.strelicaLeva.addEventListener('click', this.mrdajDesno)
-
     this.strelicaDesna = this.shadowRoot.querySelector('#strelica-desna')
+
+    this.ucitajAkoTreba()
+    this.traka.style.marginLeft = 0
+
+    this.strelicaLeva.addEventListener('click', this.mrdajDesno)
     this.strelicaDesna.addEventListener('click', this.mrdajLevo)
 
-    this.traka.addEventListener('touchstart', e => {
-      dirnutX = e.changedTouches[0].screenX
-    })
+    this.traka.addEventListener('touchstart', e => dirnutX = e.changedTouches[0].screenX)
+    this.traka.addEventListener('mousedown', e => dirnutX = e.clientX)
 
-    this.traka.addEventListener('touchend', e => {
-      pustenX = e.changedTouches[0].screenX
-      this.mrdaj(pustenX > dirnutX)
-    })
-
-    this.traka.addEventListener('mousedown', e => {
-      dirnutX = e.clientX
-    })
-
-    this.traka.addEventListener('mouseup', e => {
-      pustenX = e.clientX
-      this.mrdaj(pustenX > dirnutX)
-    })
+    this.traka.addEventListener('touchend', this.mrdajAkoTreba)
+    this.traka.addEventListener('mouseup', this.mrdajAkoTreba)
   }
 
   ucitajAkoTreba() {
-    if (ucitaneSlike) return
-    this.traka.querySelectorAll('img').forEach(slika => slika.dodeliIzvor())
-    ucitaneSlike = true
+    const brojUnetihSlika = this.traka.querySelectorAll('img').length
+    if (brojUnetihSlika == this.slike.length) return
+    this.slike.forEach((slika, i) => {
+      if (i < brojUnetihSlika + paketSlika) this.traka.appendChild(slika)
+    })
   }
 
   mrdaj(smer) {
     const korak = smer ? 200 : -200
     if (parseInt(this.traka.style.marginLeft) + korak > 0) return
     this.traka.style.marginLeft = `${parseInt(this.traka.style.marginLeft) + korak}px`
+  }
+
+  mrdajAkoTreba(e) {
+    pustenX = e.clientX || e.changedTouches[0].screenX
+    if (pustenX == dirnutX) return
+    this.mrdaj(pustenX > dirnutX)
   }
 
   mrdajDesno() {

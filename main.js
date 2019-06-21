@@ -4,22 +4,20 @@ import Slajder from './komponente/Slajder.js'
 import './komponente/PunEkran.js'
 import './komponente/Lokator.js'
 
-const inicijalnoSlika = window.innerWidth / 50
 
 /* FUNKCIJE */
 
 function init(spomenici) {
   const slike = []
-  spomenici.forEach((spomen, i) => {
+  spomenici.forEach(spomen => {
     const prozor = praviProzor(spomen)
     const marker = praviMarker(prozor, spomen)
-    if (spomen.slika) {
-      const slika = new Slika(spomen, marker, prozor)
-      if (i < inicijalnoSlika) slika.dodeliIzvor()
-      slike.push(slika)
-    }
+    if (spomen.slika) slike.push(new Slika(spomen, marker, prozor))
   })
   document.body.appendChild(new Slajder(slike))
+
+  const filtrirano = spomenici.filter(s => !s.slika) // 253
+  console.log(filtrirano)
 }
 
 /* INIT */

@@ -5,9 +5,9 @@ export default class Slika extends HTMLImageElement {
 
   constructor(spomen, marker, prozor) {
     super()
-    this.alt = this.title = `Spomenik ${spomen.mesto}`
-    this.dataset.src = spomen.slika // za kasnije
-
+    this.src = spomen.slika
+    this.alt = this.title = `Spomenik ${spomen.naslov}`
+  
     this.addEventListener('click', () => {
       otvoriProzor(prozor, marker, spomen.slika)
       mapa.panTo(marker.getPosition())
@@ -16,11 +16,6 @@ export default class Slika extends HTMLImageElement {
     this.onerror = () => console.log('Slika nije ucitana: ', spomen)
   }
 
-  dodeliIzvor() {
-    if (this.src) return
-    this.src = this.dataset.src
-    delete this.dataset.src
-  }
 }
 
 customElements.define('nav-slika', Slika, { extends: 'img' })
