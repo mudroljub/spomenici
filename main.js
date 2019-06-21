@@ -16,8 +16,8 @@ function init(spomenici) {
   })
   document.body.appendChild(new Slajder(slike))
 
-  const filtrirano = spomenici.filter(s => s.opis)
-  console.log(spomenici.length, filtrirano.length)
+  const filtrirano = spomenici.filter(s => !s.slika) // 253
+  console.log(filtrirano)
 }
 
 /* INIT */
