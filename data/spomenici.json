@@ -82,7 +82,7 @@
       "lat": 43.970127,
       "lng": 19.568981
     },
-    "info": "http://www.spomenikdatabase.org/kragujevac",
+    "info": "https://sr.wikipedia.org/sr-el/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BD%D0%B0%D1%80%D0%BE%D0%B4%D0%BD%D0%BE%D0%BC_%D1%85%D0%B5%D1%80%D0%BE%D1%98%D1%83_%D0%94%D1%83%D1%88%D0%B0%D0%BD%D1%83_%D0%88%D0%B5%D1%80%D0%BA%D0%BE%D0%B2%D0%B8%D1%9B%D1%83",
     "tip": "spomenik",
     "slika": "https://static.wixstatic.com/media/e73a14_ed3c9579f0d94ec1ac6b24badefc8442~mv2_d_3840_2160_s_2.jpg/v1/fill/w_954,h_534,al_c,q_85,usm_0.66_1.00_0.01/e73a14_ed3c9579f0d94ec1ac6b24badefc8442~mv2_d_3840_2160_s_2.webp"
   },
@@ -1664,12 +1664,12 @@
     "info": "http://www.spomenikdatabase.org/petrova-gora",
     "tip": "kompleks",
     "place_id": "ChIJ6eVFg7eoZkcRfZsXEDYCQmk",
-    "slika": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Petrova_Gora_monument.jpg/200px-Petrova_Gora_monument.jpg"
+    "slika": "https://static1.squarespace.com/static/5764195fb8a79b7fbafd3eb5/t/5a7e62e0c830253b86d8a979/1518232305958/PG.jpg?format=1500w"
   },
   {
     "mesto": "Plavno",
     "naziv": "Spomenik ustanku protiv ustaškog terora na Tromeđi",
-    "slika": "http://static.panoramio.com/photos/large/8910378.jpg",
+    "slika": "https://mapio.net/images-p/8910378.jpg",
     "koordinate": {
       "lat": 44.208722,
       "lng": 16.170556
@@ -1770,7 +1770,7 @@
     "info": "http://www.spomenikdatabase.org/podhum",
     "tip": "kompleks",
     "place_id": "ChIJh-CAbjeiZEcR72DJy46Qy2E",
-    "slika": "http://outdoors.ga/wp/wp-content/uploads/2016/03/Platak-monument-croatia-min-1024x680.jpg"
+    "slika": "https://static.wixstatic.com/media/e73a14_c065cc032a204afabe5e42449590d7a7~mv2_d_3840_2160_s_2.jpg/v1/fill/w_956,h_535,al_c,q_85,usm_0.66_1.00_0.01/e73a14_c065cc032a204afabe5e42449590d7a7~mv2_d_3840_2160_s_2.webp"
   },
   {
     "mesto": "Podljubelj",
