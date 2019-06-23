@@ -1,13 +1,6 @@
 import {mapa} from './mapa.js'
+import {praviUrl} from '../utils/helpers.js'
 const {InfoWindow} = google.maps
-
-function praviUrl(gmapPlaceId, koord) {
-  const placeUrl = `?q=place_id:${gmapPlaceId}`
-  const koordUrl = `${koord.lat},${koord.lon}`
-  const androidUrl = `geo:${koord.lat},${koord.lon}`
-  const browserUrl = `https://www.google.com/maps/place/${gmapPlaceId ? placeUrl : koordUrl}`
-  return /(android)/i.test(navigator.userAgent) ? androidUrl : browserUrl
-}
 
 class Prozor extends InfoWindow {
   constructor(spomen) {

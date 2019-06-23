@@ -1,8 +1,14 @@
-import {mapa} from './mapa.js'
-const {InfoWindow} = google.maps
-
 Element.prototype.on = Element.prototype.addEventListener
 
 export const $ = s => document.querySelectorAll(s).length > 1
   ? document.querySelectorAll(s)
   : document.querySelector(s)
+
+
+export function praviUrl(gmapPlaceId, koord) {
+  const placeUrl = `?q=place_id:${gmapPlaceId}`
+  const koordUrl = `${koord.lat},${koord.lon}`
+  const androidUrl = `geo:${koord.lat},${koord.lon}`
+  const browserUrl = `https://www.google.com/maps/place/${gmapPlaceId ? placeUrl : koordUrl}`
+  return /(android)/i.test(navigator.userAgent) ? androidUrl : browserUrl
+}
