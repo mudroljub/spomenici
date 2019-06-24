@@ -8,9 +8,9 @@ import './komponente/Lokator.js'
 
 function init(spomenici) {
   const slike = []
-  spomenici.forEach(spomen => {
-    const marker = new Marker(spomen)
-    if (spomen.slika) slike.push(new Slika(spomen, marker))
+  spomenici.forEach(spomenik => {
+    const marker = new Marker(spomenik)
+    if (spomenik.slika) slike.push(new Slika(spomenik, marker))
   })
   document.body.appendChild(new Slajder(slike))
 }
