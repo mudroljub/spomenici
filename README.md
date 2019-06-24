@@ -23,8 +23,8 @@ polymer-bundler --inline-scripts ulaz.html > izlaz.html
 
 - isprobati na telefonu
   - bug: kada nije omogucena lokacija na telefonu, ne radi lociranje, cak iako te browser pita i prihvatis
-- dodati novu kategoriju spomen-groblje
+- preci na open street maps
 - utovariti podatke u bazu
 - dodati pretragu
 - dodati prijavu
-- preci na open street maps
+- dodati nove kategorije: spomen-ploca, bista

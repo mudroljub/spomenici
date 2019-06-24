@@ -1,17 +1,14 @@
 const request = require('request').defaults({ encoding: null })
 const sharp = require('sharp')
-// const fs = require('fs')
 
-const url = 'https://www.bastina.ba/images/stories/sadrzaj/2014/20140414/2/SDC13151.JPG'
+const url = 'https://upload.wikimedia.org/wikipedia/sr/3/33/Aleja_narodnih_heroja_Novo_groblje_Bg3.jpg'
 
 request.get(url, async(err, res, body) => {
-  if (!err && res.statusCode == 200) {
-    const data = await sharp(body)
-      .resize(280)
-      .toBuffer()
+  if (!err && res.statusCode == 200) return
+  const data = await sharp(body)
+    .resize(280)
+    .toBuffer()
 
-    const slikaString = 'data:image/jpeg;base64,' + data.toString('base64')
-    console.log(slikaString)
-    // fs.writeFileSync('spomenici2.json', JSON.stringify(spomenici, null, 2))
-  }
+  const slikaString = 'data:image/jpeg;base64,' + data.toString('base64')
+  console.log(slikaString)
 })
