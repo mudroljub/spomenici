@@ -12,6 +12,10 @@ html, body, #mapid {
   z-index: 0;
 }
 
+img {
+  max-width: 100%;
+}
+
 h1 {
   bottom: 0;
   color: #822323;
@@ -27,16 +31,16 @@ h1 {
   display: block;
 }
 
-.gm-style-iw img {
-  width: 200px;
-}
-
 .ikonica {
   cursor: pointer;
   opacity: 0.75;
   position: absolute;
   width: 32px;
   z-index: 1;
+}
+
+.leaflet-popup-content {
+  width: 280px;
 }
 
 @media (min-width: 400px) {
