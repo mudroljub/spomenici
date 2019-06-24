@@ -2,14 +2,14 @@ import {mapa} from '../klase/mapa.js'
 
 export default class Slika extends HTMLImageElement {
 
-  constructor(spomen, marker, prozor) {
+  constructor(spomen, marker) {
     super()
     this.src = spomen.slika
     this.alt = this.title = `Spomenik ${spomen.naslov}`
-  
+
     this.addEventListener('click', () => {
-      prozor.otvori(marker, spomen.slika)
-      mapa.panTo(marker.getPosition())
+      marker.otvoriProzor()
+      mapa.panTo(marker.dajPoziciju())
     })
     this.ondragstart = () => false // sprecava vucenje slike
     this.onerror = () => console.log('Slika nije ucitana: ', spomen)

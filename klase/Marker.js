@@ -3,9 +3,9 @@ import {praviUrl} from '../utils/helpers.js'
 const {marker} = L
 
 export default class Marker {
-  constructor(prozor, spomen) {
+  constructor(spomen) {
     const url = praviUrl(spomen.gmapPlaceId, spomen.lokacija)
-    marker([spomen.lokacija.lat, spomen.lokacija.lon])
+    this.marker = marker([spomen.lokacija.lat, spomen.lokacija.lon])
       .addTo(mapa)
       .bindPopup(`
         <h3>${spomen.naslov}</h3>
@@ -14,5 +14,13 @@ export default class Marker {
         ${spomen.info ? `<a href="${spomen.info}" target="_blank">Read more</a>` : ''}
         <p><img src="${spomen.slika}"></p>
       `)
+  }
+
+  dajPoziciju() {
+    return this.marker.getLatLng()
+  }
+
+  otvoriProzor() {
+    this.marker.openPopup()
   }
 }
