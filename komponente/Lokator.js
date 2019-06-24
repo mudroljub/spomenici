@@ -1,6 +1,6 @@
 // koristi globalnu css var visina-slajdera, proslediti kao props
 import {mapa} from '../klase/mapa.js'
-const {LatLng} = google.maps
+const {LatLng} = L
 
 class Lokator extends HTMLElement {
   constructor() {
@@ -23,7 +23,7 @@ class Lokator extends HTMLElement {
 
   locirajMe() {
     navigator.geolocation.getCurrentPosition(({coords}) => {
-      mapa.setCenter(new LatLng(coords.latitude, coords.longitude))
+      mapa.panTo(new LatLng(coords.latitude, coords.longitude))
     })
   }
 }

@@ -5,7 +5,7 @@
     "es6": true
   },
   "globals": {
-    "google": false
+    "L": false
   },
   "rules": {
     "no-undef": "error",

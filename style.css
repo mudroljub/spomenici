@@ -2,10 +2,14 @@
   --visina-slajdera: 64px;
 }
 
-html, body, #map-canvas {
+html, body, #mapid {
   height: 100%;
   margin: 0px;
   padding: 0px
+}
+
+#mapid {
+  z-index: 0;
 }
 
 h1 {
