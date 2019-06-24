@@ -5,7 +5,7 @@ const {marker} = L
 export default class Marker {
   constructor(spomen) {
     const url = praviUrl(spomen.gmapPlaceId, spomen.lokacija)
-    this.marker = marker([spomen.lokacija.lat, spomen.lokacija.lon])
+    this.element = marker([spomen.lokacija.lat, spomen.lokacija.lon])
       .addTo(mapa)
       .bindPopup(`
         <h3>${spomen.naslov}</h3>
@@ -17,10 +17,10 @@ export default class Marker {
   }
 
   dajPoziciju() {
-    return this.marker.getLatLng()
+    return this.element.getLatLng()
   }
 
   otvoriProzor() {
-    this.marker.openPopup()
+    this.element.openPopup()
   }
 }
