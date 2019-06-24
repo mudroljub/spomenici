@@ -1,4 +1,4 @@
-# Spomenici
+# Spomenici app
 
 Yugoslav monuments map.
 
@@ -21,7 +21,6 @@ polymer-bundler --inline-scripts ulaz.html > izlaz.html
 
 ## TODO
 
-- preci na open street maps
 - prikazivati ikonice u skladu sa kategorijom
 - isprobati na telefonu
   - bug: kada nije omogucena lokacija na telefonu, ne radi lociranje, cak iako te browser pita i prihvatis

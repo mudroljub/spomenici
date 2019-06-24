@@ -1,7 +1,6 @@
 import Slika from './komponente/Slika.js'
 import Slajder from './komponente/Slajder.js'
-import Stecak from './klase/Stecak.js'
-import Prozor from './klase/Prozor.js'
+import Marker from './klase/Marker.js'
 import './komponente/PunEkran.js'
 import './komponente/Lokator.js'
 
@@ -9,10 +8,9 @@ import './komponente/Lokator.js'
 
 function init(spomenici) {
   const slike = []
-  spomenici.forEach(spomen => {
-    const prozor = new Prozor(spomen)
-    const marker = new Stecak(prozor, spomen)
-    if (spomen.slika) slike.push(new Slika(spomen, marker, prozor))
+  spomenici.forEach(spomenik => {
+    const marker = new Marker(spomenik)
+    if (spomenik.slika) slike.push(new Slika(spomenik, marker))
   })
   document.body.appendChild(new Slajder(slike))
 }
