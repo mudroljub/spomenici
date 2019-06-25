@@ -1,12 +1,12 @@
 import {mapa} from './mapa.js'
 import {praviUrl} from '../utils/helpers.js'
 
-const ikonica = L.icon({
-  iconUrl: 'slike/obelisk.png',
-})
-
 export default class Marker {
   constructor(spomen) {
+    const ikonica = L.icon({
+      iconUrl: 'slike/obelisk.png',
+    })
+
     const url = praviUrl(spomen.gmapPlaceId, spomen.lokacija)
     this.element = L.marker([spomen.lokacija.lat, spomen.lokacija.lon], {icon: ikonica})
       .addTo(mapa)

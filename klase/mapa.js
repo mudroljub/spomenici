@@ -1,10 +1,8 @@
 // https://github.com/leaflet-extras/leaflet-providers
 
 const bounds = [
-  // south west
-  [39, 10],
-  // north east
-  [48, 26]
+  [39, 10], // south west
+  [48, 26]  // north east
 ]
 
 export const mapa = L.map('mapid', {
