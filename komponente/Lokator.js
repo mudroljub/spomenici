@@ -16,7 +16,7 @@ class Lokator extends HTMLElement {
           padding: 8px;
         }
       </style>
-      <img src="slike/lokator.svg" width="32" class="ikonica" id="lokator" alt="lociraj me" title="Locate me">
+      <img src="slike/ui/lokator.svg" width="32" class="ikonica" id="lokator" alt="lociraj me" title="Locate me">
     `
   }
 
