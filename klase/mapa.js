@@ -7,6 +7,7 @@ const bounds = [
 
 export const mapa = L.map('mapid', {
   minZoom: 6,
+  scrollWheelZoom: false,
   maxBounds: bounds,
   maxBoundsViscosity: 1.0 // prevent bounce
 })
