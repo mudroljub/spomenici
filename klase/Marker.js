@@ -5,6 +5,8 @@ export default class Marker {
   constructor(spomen) {
     const ikonica = L.icon({
       iconUrl: 'slike/obelisk.png',
+      // iconUrl: `slike/ikone/${spomen.kategorija}.svg`,
+      // iconSize: 40,
     })
 
     const url = praviUrl(spomen.gmapPlaceId, spomen.lokacija)
