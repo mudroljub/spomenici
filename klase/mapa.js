@@ -1,12 +1,16 @@
 // https://github.com/leaflet-extras/leaflet-providers
+
+const bounds = [
+  // south west
+  [39, 10],
+  // north east
+  [48, 26]
+]
+
 export const mapa = L.map('mapid', {
   minZoom: 6,
-  maxBounds: [
-    // south west
-    [39, 10],
-    // north east
-    [48, 26]
-  ],
+  maxBounds: bounds,
+  maxBoundsViscosity: 1.0 // prevent bounce
 })
   .setView([44.341667, 17.269444], 8)
 
