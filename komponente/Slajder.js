@@ -45,6 +45,7 @@ export default class Slajder extends HTMLElement {
   constructor(slike) {
     super()
     this.slike = slike
+    this.style.display = slike.length ? 'flex' : 'none'
 
     this.strelicaLeva = document.createElement('span')
     this.strelicaLeva.innerText = '‹'

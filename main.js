@@ -22,7 +22,11 @@ function init(spomenici) {
 
 $('#pretraga').on('input', e => {
   const fraza = e.target.value
-  filtrirano = spomenici.filter(x => x.naslov.toLowerCase().includes(fraza))
+  if (fraza.length < 1) return
+  filtrirano = spomenici.filter(x =>
+    x.naslov.toLowerCase().includes(fraza) ||
+    (x.opis && x.opis.toLowerCase().includes(fraza))
+  )
   init(filtrirano)
 })
 
