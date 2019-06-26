@@ -3,12 +3,12 @@
   "name": "Yugoslav monuments map",
   "icons": [
     {
-      "src": "/slike/ikone/logo-192.png",
+      "src": "slike/ikone/logo-192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "/slike/ikone/logo-512.png",
+      "src": "slike/ikone/logo-512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
