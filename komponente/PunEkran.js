@@ -9,7 +9,7 @@ class PunEkran extends HTMLElement {
       <style>
         #ikonica {
           top: 10px;
-          right: 10px;
+          left: 10px;
           background: white;
           padding: 4px;
         }

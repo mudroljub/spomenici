@@ -8,10 +8,6 @@ html, body, #mapid {
   padding: 0px
 }
 
-#mapid {
-  z-index: 0;
-}
-
 img {
   max-width: 100%;
 }
@@ -24,6 +20,22 @@ h1 {
   opacity: 0.2;
   position: absolute;
   z-index: 1;
+}
+
+#mapid {
+  z-index: 0;
+}
+
+#pretraga {
+  position: absolute;
+  z-index: 1;
+  right: 10px;
+  top: 4px;
+}
+
+.leaflet-control-container {
+  top: 50px;
+  position: absolute;
 }
 
 .podnaslov {
