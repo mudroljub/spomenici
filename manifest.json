@@ -1,0 +1,18 @@
+{
+  "short_name": "Spomenici",
+  "name": "Yugoslav monuments map",
+  "icons": [
+    {
+      "src": "/slike/ikone/logo-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/slike/ikone/logo-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "display": "standalone",
+  "start_url": "https://mudroljub.github.io/spomenici/"
+}
