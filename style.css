@@ -2,14 +2,10 @@
   --visina-slajdera: 64px;
 }
 
-html, body, #mapid {
+html, body, #mapa {
   height: 100%;
   margin: 0px;
   padding: 0px
-}
-
-#mapid {
-  z-index: 0;
 }
 
 img {
@@ -24,6 +20,22 @@ h1 {
   opacity: 0.2;
   position: absolute;
   z-index: 1;
+}
+
+#mapa {
+  z-index: 0;
+}
+
+#pretraga {
+  position: absolute;
+  z-index: 1;
+  right: 10px;
+  top: 4px;
+}
+
+.leaflet-control-container {
+  top: 50px;
+  position: absolute;
 }
 
 .podnaslov {

@@ -1,5 +1,4 @@
 // TODO: proslediti visina-slajdera kao props
-const template = document.createElement('template')
 const style = document.createElement('style')
 
 let dirnutX = 0
@@ -7,7 +6,7 @@ let pustenX = 0
 const paketSlika = window.innerWidth / 60
 
 style.textContent = `
-  .okvir {
+  :host {
     align-items: center;
     bottom: 0;
     display: flex;
@@ -15,7 +14,7 @@ style.textContent = `
     width: 100%;
   }
 
-  .strelica {
+  span {
     -moz-user-select: none;
     color: #fff;
     cursor: pointer;
@@ -30,59 +29,60 @@ style.textContent = `
     right: 0;
   }
 
-  #traka {
+  div {
     display: flex;
     overflow: hidden;
     transition: margin-left 0.4s ease;
   }
 
-  #traka img {
+  div img {
     height: var(--visina-slajdera);
     cursor: all-scroll;
   }
-`
-
-template.innerHTML = `
-  <div class="okvir">
-    <span class="strelica" id="strelica-leva">‹</span>
-    <span class="strelica" id="strelica-desna">›</span>
-    <div id="traka"></div>
-  </div>
 `
 
 export default class Slajder extends HTMLElement {
   constructor(slike) {
     super()
     this.slike = slike
+    this.style.display = slike.length ? 'flex' : 'none'
+
+    this.strelicaLeva = document.createElement('span')
+    this.strelicaLeva.innerText = '‹'
+    this.strelicaDesna = document.createElement('span')
+    this.strelicaDesna.innerText = '›'
+    this.strelicaDesna.id = 'strelica-desna'
+    this.traka = document.createElement('div')
 
     this.attachShadow({ mode: 'open' })
-    this.shadowRoot.appendChild(template.content)
+    this.shadowRoot.appendChild(this.strelicaLeva)
+    this.shadowRoot.appendChild(this.strelicaDesna)
+    this.shadowRoot.appendChild(this.traka)
     this.shadowRoot.appendChild(style)
 
-    this.mrdajAkoTreba = this.mrdajAkoTreba.bind(this)
-    this.mrdajDesno = this.mrdajDesno.bind(this)
-    this.mrdajLevo = this.mrdajLevo.bind(this)
+    this.traka.style.marginLeft = 0 // pocetni polozaj
+    this.dodajDogadjaje()
   }
 
   connectedCallback() {
-    this.traka = this.shadowRoot.querySelector('#traka')
-    this.strelicaLeva = this.shadowRoot.querySelector('#strelica-leva')
-    this.strelicaDesna = this.shadowRoot.querySelector('#strelica-desna')
+    this.dodajSlikeAkoTreba()
+  }
 
-    this.ucitajAkoTreba()
-    this.traka.style.marginLeft = 0
+  dodajDogadjaje() {
+    this.mrdajAkoTreba = this.mrdajAkoTreba.bind(this)
+    this.mrdajDesno = this.mrdajDesno.bind(this)
+    this.mrdajLevo = this.mrdajLevo.bind(this)
 
     this.strelicaLeva.addEventListener('click', this.mrdajDesno)
     this.strelicaDesna.addEventListener('click', this.mrdajLevo)
 
     this.traka.addEventListener('touchstart', e => dirnutX = e.changedTouches[0].screenX)
     this.traka.addEventListener('mousedown', e => dirnutX = e.clientX)
-
     this.traka.addEventListener('touchend', this.mrdajAkoTreba)
     this.traka.addEventListener('mouseup', this.mrdajAkoTreba)
   }
 
-  ucitajAkoTreba() {
+  dodajSlikeAkoTreba() {
     const brojUnetihSlika = this.traka.querySelectorAll('img').length
     if (brojUnetihSlika == this.slike.length) return
     this.slike.forEach((slika, i) => {
@@ -107,7 +107,7 @@ export default class Slajder extends HTMLElement {
   }
 
   mrdajLevo() {
-    this.ucitajAkoTreba()
+    this.dodajSlikeAkoTreba()
     this.mrdaj(false)
   }
 }
