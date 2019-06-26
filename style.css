@@ -64,6 +64,9 @@ h1 {
   h1 {
     font-size: 52px;
   }
+  .leaflet-popup {
+    width: 280px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -76,8 +79,5 @@ h1 {
   }
   .podnaslov {
     display: inline;
-  }
-  .leaflet-popup {
-    width: 280px;
   }
 }
