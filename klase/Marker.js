@@ -3,7 +3,10 @@ import {praviUrl} from '../utils/helpers.js'
 export default class Marker {
 
   constructor(spomen) {
-    const ikonica = L.icon({ iconUrl: 'slike/obelisk.png' })
+    const ikonica = L.icon({
+      iconUrl: 'slike/obelisk.png',
+      forceZIndex: 999,
+    })
     const url = praviUrl(spomen.gmapPlaceId, spomen.lokacija)
 
     this.element = L

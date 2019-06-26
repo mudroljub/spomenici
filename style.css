@@ -55,6 +55,11 @@ h1 {
   width: 280px;
 }
 
+.leaflet-popup-close-button {
+  font-size: 2em !important;
+  padding: 8px !important;
+}
+
 @media (min-width: 400px) {
   h1 {
     font-size: 52px;
