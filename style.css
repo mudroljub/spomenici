@@ -2,7 +2,7 @@
   --visina-slajdera: 64px;
 }
 
-html, body, #mapid {
+html, body, #mapa {
   height: 100%;
   margin: 0px;
   padding: 0px
@@ -22,7 +22,7 @@ h1 {
   z-index: 1;
 }
 
-#mapid {
+#mapa {
   z-index: 0;
 }
 

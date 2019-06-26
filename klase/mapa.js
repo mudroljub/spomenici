@@ -5,7 +5,7 @@ const bounds = [
   [48, 26]  // north east
 ]
 
-export const mapa = L.map('mapid', {
+export const mapa = L.map('mapa', {
   minZoom: 6,
   scrollWheelZoom: false,
   maxBounds: bounds,
