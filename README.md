@@ -21,8 +21,7 @@ polymer-bundler --inline-scripts ulaz.html > izlaz.html
 
 ## TODO
 
-- dodati pretragu
-- napraviti komponentu Mapa
+- dodati filter kategorija
 - isprobati na telefonu
   - bug: kada nije omogucena lokacija na telefonu, ne radi lociranje, cak iako te browser pita i prihvatis
 - utovariti podatke u bazu
