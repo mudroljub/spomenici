@@ -51,8 +51,8 @@ h1 {
   z-index: 1;
 }
 
-.leaflet-popup-content {
-  width: 280px;
+.leaflet-popup {
+  width: 90vw;
 }
 
 .leaflet-popup-close-button {
@@ -67,6 +67,9 @@ h1 {
 }
 
 @media (min-width: 768px) {
+  :root {
+    --visina-slajdera: 82px;
+  }
   h1 {
     font-size: 74px;
     margin-bottom: calc(var(--visina-slajdera) - 4px);
@@ -74,7 +77,7 @@ h1 {
   .podnaslov {
     display: inline;
   }
-  :root {
-    --visina-slajdera: 82px;
+  .leaflet-popup {
+    width: 280px;
   }
 }

@@ -5,12 +5,20 @@ const konfigMape = {
   scrollWheelZoom: false,
   maxBounds: [
     [39, 10], // jug zapad
-    [48, 26]  // sever istok
+    [49, 26]  // sever istok
   ],
   maxBoundsViscosity: 1.0 // sprecava odskakanje
 }
 
 export const mapa = L.map('mapa', konfigMape) // singlton
+
+const centerMap = e => {
+  const sidro = mapa.project(e.popup._latlng) // projektuje koordinate u pikselima
+  sidro.y -= e.popup._container.clientHeight / 2
+  mapa.panTo(mapa.unproject(sidro), {animate: true})
+}
+
+mapa.on('popupopen', centerMap)
 
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
