@@ -1,17 +1,13 @@
-import {mapa} from './mapa.js'
 import {praviUrl} from '../utils/helpers.js'
 
 export default class Marker {
-  constructor(spomen) {
-    const ikonica = L.icon({
-      iconUrl: 'slike/obelisk.png',
-      // iconUrl: `slike/ikone/${spomen.kategorija}.svg`,
-      // iconSize: 40,
-    })
 
+  constructor(spomen) {
+    const ikonica = L.icon({ iconUrl: 'slike/obelisk.png' })
     const url = praviUrl(spomen.gmapPlaceId, spomen.lokacija)
-    this.element = L.marker([spomen.lokacija.lat, spomen.lokacija.lon], {icon: ikonica})
-      .addTo(mapa)
+
+    this.element = L
+      .marker([spomen.lokacija.lat, spomen.lokacija.lon], {icon: ikonica})
       .bindPopup(`
         <h3>${spomen.naslov}</h3>
         </p>${spomen.opis || ''}</p>

@@ -4,22 +4,29 @@ import Marker from './klase/Marker.js'
 import './komponente/PunEkran.js'
 import './komponente/Lokator.js'
 import {$} from './utils/helpers.js'
+import {mapa} from './klase/mapa.js'
 
 let spomenici = []
 let filtrirano = []
+const markeri = L.layerGroup().addTo(mapa)
 
 /* FUNKCIJE */
 
 function init(spomenici) {
   $('#slajder-okvir').innerHTML = ''
+  markeri.clearLayers()
   const slike = []
+
   spomenici.forEach(spomenik => {
     const marker = new Marker(spomenik)
+    markeri.addLayer(marker.element)
     if (spomenik.slika) slike.push(new Slika(spomenik, marker))
   })
+
   $('#slajder-okvir').appendChild(new Slajder(slike))
 }
 
+// mozda odvojiti u komponentu
 $('#pretraga').on('input', e => {
   const fraza = e.target.value
   if (fraza.length < 1) return
