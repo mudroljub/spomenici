@@ -6,6 +6,10 @@ import './komponente/Lokator.js'
 import {$} from './utils/helpers.js'
 import {mapa} from './klase/mapa.js'
 
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('service-worker.js')
+}
+
 let spomenici = []
 let filtrirano = []
 const markeri = L.layerGroup().addTo(mapa)
