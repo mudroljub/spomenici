@@ -1,17 +1,16 @@
-// https://github.com/leaflet-extras/leaflet-providers
-
-const bounds = [
-  [39, 10], // south west
-  [48, 26]  // north east
-]
-
-export const mapa = L.map('mapa', {
+const konfigMape = {
+  zoom: 8,
   minZoom: 6,
+  center: [44.341667, 17.269444],
   scrollWheelZoom: false,
-  maxBounds: bounds,
-  maxBoundsViscosity: 1.0 // prevent bounce
-})
-  .setView([44.341667, 17.269444], 8)
+  maxBounds: [
+    [39, 10], // jug zapad
+    [48, 26]  // sever istok
+  ],
+  maxBoundsViscosity: 1.0 // sprecava odskakanje
+}
+
+export const mapa = L.map('mapa', konfigMape) // singlton
 
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
