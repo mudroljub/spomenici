@@ -4,7 +4,6 @@ export const $ = s => document.querySelectorAll(s).length > 1
   ? document.querySelectorAll(s)
   : document.querySelector(s)
 
-
 export function praviUrl(gmapPlaceId, koord) {
   const placeUrl = `?q=place_id:${gmapPlaceId}`
   const koordUrl = `${koord.lat},${koord.lon}`

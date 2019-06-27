@@ -1,10 +1,10 @@
 import Slika from './komponente/Slika.js'
 import Slajder from './komponente/Slajder.js'
-import Marker from './klase/Marker.js'
+import Marker from './modeli/Marker.js'
+import {mapa} from './modeli/mapa.js'
 import './komponente/PunEkran.js'
 import './komponente/Lokator.js'
 import {$, jeRazvoj, sadrziFrazu} from './utils/helpers.js'
-import {mapa} from './klase/mapa.js'
 
 let spomenici = []
 let filtrirano = []

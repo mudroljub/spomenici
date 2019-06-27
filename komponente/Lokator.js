@@ -1,5 +1,5 @@
 // koristi globalnu css var visina-slajdera, proslediti kao props
-import {mapa} from '../klase/mapa.js'
+import {mapa} from '../modeli/mapa.js'
 
 class Lokator extends HTMLElement {
   constructor() {
