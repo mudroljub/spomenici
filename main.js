@@ -3,12 +3,8 @@ import Slajder from './komponente/Slajder.js'
 import Marker from './klase/Marker.js'
 import './komponente/PunEkran.js'
 import './komponente/Lokator.js'
-import {$} from './utils/helpers.js'
+import {$, jeRazvoj} from './utils/helpers.js'
 import {mapa} from './klase/mapa.js'
-
-if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('service-worker.js')
-}
 
 let spomenici = []
 let filtrirano = []
@@ -42,6 +38,9 @@ $('#pretraga').on('input', e => {
 })
 
 /* INIT */
+
+if (!jeRazvoj() && 'serviceWorker' in navigator)
+  navigator.serviceWorker.register('utils/service-worker.js')
 
 fetch('data/spomenici.json')
   .then(res => res.json())
