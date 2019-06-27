@@ -4,7 +4,7 @@ import Marker from './modeli/Marker.js'
 import {mapa} from './modeli/mapa.js'
 import './komponente/PunEkran.js'
 import './komponente/Lokator.js'
-import {$, jeRazvoj, sadrziFrazu} from './utils/helpers.js'
+import {$, razvoj, sadrziFrazu} from './utils/helpers.js'
 
 let spomenici = []
 const markeri = L.layerGroup().addTo(mapa)
@@ -35,7 +35,7 @@ $('#pretraga').on('input', e => {
 
 /* INIT */
 
-if (!jeRazvoj() && 'serviceWorker' in navigator)
+if (!razvoj() && 'serviceWorker' in navigator)
   navigator.serviceWorker.register('utils/service-worker.js')
 
 fetch('data/spomenici-bez-slika.json')
