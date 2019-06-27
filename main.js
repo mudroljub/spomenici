@@ -42,7 +42,7 @@ $('#pretraga').on('input', e => {
 if (!jeRazvoj() && 'serviceWorker' in navigator)
   navigator.serviceWorker.register('utils/service-worker.js')
 
-fetch('data/spomenici.json')
+fetch('data/spomenici-bez-slika.json')
   .then(res => res.json())
   .then(res => {
     init(res)
