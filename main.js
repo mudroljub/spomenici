@@ -7,7 +7,6 @@ import './komponente/Lokator.js'
 import {$, jeRazvoj, sadrziFrazu} from './utils/helpers.js'
 
 let spomenici = []
-let filtrirano = []
 const markeri = L.layerGroup().addTo(mapa)
 
 /* FUNKCIJE */
@@ -30,7 +29,7 @@ function init(spomenici) {
 $('#pretraga').on('input', e => {
   const { value } = e.target
   if (value.length < 1) return
-  filtrirano = spomenici.filter(s => sadrziFrazu(s, value))
+  const filtrirano = spomenici.filter(s => sadrziFrazu(s, value))
   init(filtrirano)
 })
 
