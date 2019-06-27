@@ -17,3 +17,7 @@ export const jeRazvoj = () =>
   location.hostname === 'localhost'
   || location.hostname === '127.0.0.1'
   || location.hostname === ''
+
+export const sadrziFrazu = (spomenik, fraza) =>
+  spomenik.naslov.toLowerCase().includes(fraza)
+  || (spomenik.opis && spomenik.opis.toLowerCase().includes(fraza))

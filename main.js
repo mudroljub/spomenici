@@ -3,7 +3,7 @@ import Slajder from './komponente/Slajder.js'
 import Marker from './klase/Marker.js'
 import './komponente/PunEkran.js'
 import './komponente/Lokator.js'
-import {$, jeRazvoj} from './utils/helpers.js'
+import {$, jeRazvoj, sadrziFrazu} from './utils/helpers.js'
 import {mapa} from './klase/mapa.js'
 
 let spomenici = []
@@ -28,12 +28,9 @@ function init(spomenici) {
 
 // mozda odvojiti u komponentu
 $('#pretraga').on('input', e => {
-  const fraza = e.target.value
-  if (fraza.length < 1) return
-  filtrirano = spomenici.filter(x =>
-    x.naslov.toLowerCase().includes(fraza) ||
-    (x.opis && x.opis.toLowerCase().includes(fraza))
-  )
+  const { value } = e.target
+  if (value.length < 1) return
+  filtrirano = spomenici.filter(s => sadrziFrazu(s, value))
   init(filtrirano)
 })
 
