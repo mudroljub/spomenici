@@ -3,7 +3,10 @@ import {praviUrl} from '../utils/helpers.js'
 export default class Marker {
 
   constructor(spomen) {
-    const ikonica = L.icon({ iconUrl: 'slike/obelisk.png' })
+    const ikonica = L.icon({
+      iconUrl: 'slike/obelisk.png',
+      forceZIndex: 999,
+    })
     const url = praviUrl(spomen.gmapPlaceId, spomen.lokacija)
 
     this.element = L
@@ -12,8 +15,8 @@ export default class Marker {
         <h3>${spomen.naslov}</h3>
         </p>${spomen.opis || ''}</p>
         <a href="${url}">Find place</a>
-        ${spomen.info ? `<a href="${spomen.info}" target="_blank">Read more</a>` : ''}
-        ${spomen.slika ? `<p><img src="${spomen.slika}"></p>` : ''}
+        ${spomen.website ? `<a href="${spomen.website}" target="_blank">Read more</a>` : ''}
+        ${spomen.slika ? `<p><img src="data:image/jpeg;base64,${spomen.slika}"></p>` : ''}
       `)
   }
 

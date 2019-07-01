@@ -51,25 +51,33 @@ h1 {
   z-index: 1;
 }
 
-.leaflet-popup-content {
-  width: 280px;
+.leaflet-popup {
+  width: 80vw;
+}
+
+.leaflet-popup-close-button {
+  font-size: 2em !important;
+  padding: 8px !important;
 }
 
 @media (min-width: 400px) {
   h1 {
     font-size: 52px;
   }
+  .leaflet-popup {
+    width: 280px;
+  }
 }
 
 @media (min-width: 768px) {
+  :root {
+    --visina-slajdera: 82px;
+  }
   h1 {
     font-size: 74px;
     margin-bottom: calc(var(--visina-slajdera) - 4px);
   }
   .podnaslov {
     display: inline;
-  }
-  :root {
-    --visina-slajdera: 82px;
   }
 }

@@ -12,3 +12,8 @@ export function praviUrl(gmapPlaceId, koord) {
   const browserUrl = `https://www.google.com/maps/place/${gmapPlaceId ? placeUrl : koordUrl}`
   return /(android)/i.test(navigator.userAgent) ? androidUrl : browserUrl
 }
+
+export const jeRazvoj = () =>
+  location.hostname === 'localhost'
+  || location.hostname === '127.0.0.1'
+  || location.hostname === ''

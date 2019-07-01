@@ -21,10 +21,7 @@ polymer-bundler --inline-scripts ulaz.html > izlaz.html
 
 ## TODO
 
-- dodati ikonice za manifest
 - dodati filter kategorija
-- isprobati na telefonu
-  - bug: kada nije omogucena lokacija na telefonu, ne radi lociranje, cak iako te browser pita i prihvatis
 - utovariti podatke u bazu
 - dodati prijavu
 - dodati nove kategorije: spomen-ploca, bista
