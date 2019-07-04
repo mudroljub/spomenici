@@ -26,13 +26,6 @@ h1 {
   z-index: 0;
 }
 
-#pretraga {
-  position: absolute;
-  z-index: 1;
-  right: 10px;
-  top: 4px;
-}
-
 .leaflet-control-container {
   top: 50px;
   position: absolute;
