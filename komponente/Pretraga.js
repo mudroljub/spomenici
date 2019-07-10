@@ -16,8 +16,7 @@ export default class Pretraga extends HTMLInputElement {
   }
 
   pretrazi(e, spomenici, callback) {
-    console.log(e.target.value)
-    const fraza = e.target.value
+    const fraza = e.target.value.toLowerCase()
     if (fraza.length < 1) return
     const filtrirano = spomenici.filter(x =>
       x.naslov.toLowerCase().includes(fraza) ||
@@ -25,7 +24,6 @@ export default class Pretraga extends HTMLInputElement {
     )
     callback(filtrirano)
   }
-
 }
 
 customElements.define('polje-pretraga', Pretraga, { extends: 'input' })
