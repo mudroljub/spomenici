@@ -14,10 +14,10 @@ let ucitaneSlike = false
 
 function noviProzor(s, url) {
   const content = `
-    <h3>${s.mesto}</h3>
-    </p>${s.naziv || ''}</p>
+    <h3>${s.naslov}</h3>
+    </p>${s.opis || ''}</p>
     <a href="${url}">Find place</a>
-    ${s.info ? `<a href="${s.info}" target="_blank">Read more</a>` : ''}
+    ${s.website ? `<a href="${s.website}" target="_blank">Read more</a>` : ''}
   `
   return new InfoWindow({content})
 }
@@ -26,7 +26,7 @@ function noviMarker(infoWindow, s) {
   return new Marker({
     map: mapa,
     infoWindow,
-    position: new LatLng(s.koordinate.lat, s.koordinate.lng),
+    position: new LatLng(s.lokacija.lat, s.lokacija.lon),
     title: s.naziv || s.mesto,
     icon: 'slike/obelisk.png'
   })
@@ -34,21 +34,22 @@ function noviMarker(infoWindow, s) {
 
 function praviUrl(placeId, koord) {
   const placeUrl = `?q=place_id:${placeId}`
-  const koordUrl = `${koord.lat},${koord.lng}`
-  const androidUrl = `geo:${koord.lat},${koord.lng}`
+
+  const koordUrl = `${koord.lat},${koord.lon}`
+  const androidUrl = `geo:${koord.lat},${koord.lon}`
   const browserUrl = `https://www.google.com/maps/place/${placeId ? placeUrl : koordUrl}`
   return /(android)/i.test(navigator.userAgent) ? androidUrl : browserUrl
 }
 
-function dodajSliku(prozor, slika) {
-  if (!slika || prozor.imaSliku) return
-  prozor.setContent(prozor.getContent() + `<p><img src="${slika}"></p>`)
+function dodajSliku(prozor, spom) {
+  if (prozor.imaSliku) return
+  prozor.setContent(prozor.getContent() + `<p><img src="${`https://spomenici-api.herokuapp.com/kolekcija/spomenici/slika/${spom._id}`}"></p>`)
   prozor.imaSliku = true
 }
 
-function otvori(prozor, marker, slika) {
+function otvori(prozor, marker, spom) {
   prozor.open(mapa, marker)
-  dodajSliku(prozor, slika)
+  dodajSliku(prozor, spom)
 }
 
 function locirajMe() {
@@ -58,17 +59,16 @@ function locirajMe() {
 }
 
 function praviSliku(s, prozor, marker, i) {
-  if (!s.slika) return
   const slika = document.createElement('img')
   slika.ondragstart = () => false
   slika.on('click', () => {
-    otvori(prozor, marker, s.slika)
+    otvori(prozor, marker, s)
     mapa.panTo(marker.getPosition())
   })
   slike.push(slika)
   $('#slike').appendChild(slika)
-  slika.dataset.izvor = s.slika // za kasnije
-  if (i < brojSlika) slika.src = s.slika
+  slika.dataset.izvor = `https://spomenici-api.herokuapp.com/kolekcija/spomenici/slika/${s._id}` // za kasnije
+  if (i < brojSlika) slika.src = slika.dataset.izvor
 }
 
 function mrdaj(napred) {
@@ -89,10 +89,10 @@ function mrdajLevo() {
 
 function init(spomenici) {
   spomenici.forEach((s, i) => {
-    const url = praviUrl(s.place_id, s.koordinate)
+    const url = praviUrl(s.gmapPlaceId, s.lokacija)
     const prozor = noviProzor(s, url)
     const marker = noviMarker(prozor, s)
-    marker.addListener('click', () => otvori(prozor, marker, s.slika))
+    marker.addListener('click', () => otvori(prozor, marker, s))
     praviSliku(s, prozor, marker, i)
   })
 }
@@ -101,9 +101,9 @@ function init(spomenici) {
 
 $('#slike').style.marginLeft = 0 // set start position
 
-fetch('data/spomenici.json')
+fetch('https://spomenici-api.herokuapp.com/kolekcija/spomenici')
   .then(res => res.json())
-  .then(init)
+  .then(res => init(res.data))
 
 /* DOGADJAJI */
 
