@@ -6,9 +6,9 @@ export default class Marker {
     const ikonica = L.icon({
       iconUrl: 'slike/obelisk.png',
       forceZIndex: 999,
+      iconAnchor: [0, 40],
     })
     const url = praviUrl(spomen.gmapPlaceId, spomen.lokacija)
-
     this.element = L
       .marker([spomen.lokacija.lat, spomen.lokacija.lon], {icon: ikonica})
       .bindPopup(`
