@@ -65,6 +65,7 @@ function praviSliku(s, prozor, marker, i) {
     otvori(prozor, marker, s)
     mapa.panTo(marker.getPosition())
   })
+  slika.onerror = () => slika.style.display = 'none'
   slike.push(slika)
   $('#slike').appendChild(slika)
   slika.dataset.izvor = `https://spomenici-api.herokuapp.com/kolekcija/spomenici/slika/${s._id}` // za kasnije
