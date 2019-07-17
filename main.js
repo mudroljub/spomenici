@@ -18,7 +18,7 @@ const render = spomenici => {
   spomenici.forEach(spomenik => {
     const marker = new Marker(spomenik)
     markeri.addLayer(marker.element)
-    if (spomenik.slika) slike.push(new Slika(spomenik, marker))
+    slike.push(new Slika(spomenik, marker))
   })
   $('#slajder-okvir').appendChild(new Slajder(slike))
 }
@@ -28,9 +28,9 @@ const render = spomenici => {
 if (!jeRazvoj() && 'serviceWorker' in navigator)
   navigator.serviceWorker.register('utils/service-worker.js')
 
-fetch('data/spomenici.json')
+fetch('https://spomenici-api.herokuapp.com/kolekcija/spomenici')
   .then(res => res.json())
   .then(res => {
-    render(res)
-    document.body.appendChild(new Pretraga(res, render))
+    render(res.data)
+    document.body.appendChild(new Pretraga(res.data, render))
   })
