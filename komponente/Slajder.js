@@ -3,7 +3,8 @@ const style = document.createElement('style')
 
 let dirnutX = 0
 let pustenX = 0
-const paketSlika = window.innerWidth / 60
+const inicijalnoSlika = Math.round(window.innerWidth / 70)
+console.log(inicijalnoSlika)
 
 style.textContent = `
   :host {
@@ -69,34 +70,47 @@ export default class Slajder extends HTMLElement {
   }
 
   dodajDogadjaje() {
-    this.mrdajAkoTreba = this.mrdajAkoTreba.bind(this)
     this.mrdajDesno = this.mrdajDesno.bind(this)
     this.mrdajLevo = this.mrdajLevo.bind(this)
+    this.mrdajPovuceno = this.mrdajPovuceno.bind(this)
 
     this.strelicaLeva.addEventListener('click', this.mrdajDesno)
     this.strelicaDesna.addEventListener('click', this.mrdajLevo)
 
     this.traka.addEventListener('touchstart', e => dirnutX = e.changedTouches[0].screenX)
     this.traka.addEventListener('mousedown', e => dirnutX = e.clientX)
-    this.traka.addEventListener('touchend', this.mrdajAkoTreba)
-    this.traka.addEventListener('mouseup', this.mrdajAkoTreba)
+    this.traka.addEventListener('touchend', this.mrdajPovuceno)
+    this.traka.addEventListener('mouseup', this.mrdajPovuceno)
   }
 
   dodajSlikeAkoTreba() {
     const brojUnetihSlika = this.traka.querySelectorAll('img').length
     if (brojUnetihSlika == this.slike.length) return
     this.slike.forEach((slika, i) => {
-      if (i < brojUnetihSlika + paketSlika) this.traka.appendChild(slika)
+      if (i < brojUnetihSlika + inicijalnoSlika) this.traka.appendChild(slika)
     })
   }
 
-  mrdaj(smer) {
-    const korak = smer ? 200 : -200
-    if (parseInt(this.traka.style.marginLeft) + korak > 0) return
-    this.traka.style.marginLeft = `${parseInt(this.traka.style.marginLeft) + korak}px`
+  jelIzbija(korak, levaMargina) {
+    if (levaMargina + korak > 0) return false // izbija desno
+
+    const sirinaSlika = [...this.traka.querySelectorAll('img')]
+      .filter(s => s.style.display != 'none')
+      .reduce((acc, img) => acc + img.clientWidth, 0)
+    if (levaMargina - window.innerWidth < -sirinaSlika) return false // izbija levo
+
+    return true
   }
 
-  mrdajAkoTreba(e) {
+  mrdaj(jelDesno) {
+    const korak = jelDesno ? 200 : -200
+    const levaMargina = parseInt(this.traka.style.marginLeft)
+    if (this.jelIzbija(korak, levaMargina)) return
+
+    this.traka.style.marginLeft = `${levaMargina + korak}px`
+  }
+
+  mrdajPovuceno(e) {
     pustenX = e.clientX || e.changedTouches[0].screenX
     if (pustenX == dirnutX) return
     this.mrdaj(pustenX > dirnutX)
