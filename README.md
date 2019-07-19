@@ -8,7 +8,9 @@ Visit: [mudroljub.github.io/spomenici](https://mudroljub.github.io/spomenici/)
 
 ## Development
 
-Open `original.html` in the browser.
+```
+live-server
+```
 
 ## Build
 
@@ -22,6 +24,5 @@ polymer-bundler --inline-scripts ulaz.html > izlaz.html
 ## TODO
 
 - dodati filter kategorija
-- utovariti podatke u bazu
 - dodati prijavu
 - dodati nove kategorije: spomen-ploca, bista
