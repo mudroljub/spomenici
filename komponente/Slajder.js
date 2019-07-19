@@ -40,6 +40,17 @@ style.textContent = `
     height: var(--visina-slajdera);
     cursor: all-scroll;
   }
+
+  @media(min-width: 600px) {
+    div {
+      transition: margin-left 0.6s ease;
+    }
+  }
+  @media(min-width: 1200px) {
+    div {
+      transition: margin-left 0.8s ease;
+    }
+  }
 `
 
 export default class Slajder extends HTMLElement {
@@ -83,10 +94,9 @@ export default class Slajder extends HTMLElement {
     this.traka.addEventListener('mouseup', this.mrdajVuceno)
   }
 
-  // eliminisati prazne slike iz racunice
   dodajSlikeAkoTreba() {
     const brojUnetihSlika = this.traka.querySelectorAll('img').length
-    if (brojUnetihSlika == this.slike.length) return
+    if (brojUnetihSlika >= this.slike.length) return
     this.slike.forEach((slika, i) => {
       if (i < brojUnetihSlika + inicijalnoSlika) this.traka.appendChild(slika)
     })
@@ -96,7 +106,6 @@ export default class Slajder extends HTMLElement {
     if (levaMargina + korak > 0) return false // sprecava desno
 
     const sirinaSlika = [...this.traka.querySelectorAll('img')]
-      .filter(s => s.style.display != 'none')
       .reduce((acc, img) => acc + img.clientWidth, 0)
     if (levaMargina - window.innerWidth < -sirinaSlika) return false // sprecava levo
 

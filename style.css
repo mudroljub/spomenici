@@ -1,5 +1,5 @@
 :root {
-  --visina-slajdera: 64px;
+  --visina-slajdera: 82px;
 }
 
 html, body, #mapa {
@@ -63,9 +63,6 @@ h1 {
 }
 
 @media (min-width: 768px) {
-  :root {
-    --visina-slajdera: 82px;
-  }
   h1 {
     font-size: 74px;
     margin-bottom: calc(var(--visina-slajdera) - 4px);
