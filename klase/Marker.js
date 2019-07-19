@@ -6,9 +6,9 @@ export default class Marker {
     const ikonica = L.icon({
       iconUrl: 'slike/obelisk.png',
       forceZIndex: 999,
+      iconAnchor: [0, 40],
     })
     const url = praviUrl(spomen.gmapPlaceId, spomen.lokacija)
-
     this.element = L
       .marker([spomen.lokacija.lat, spomen.lokacija.lon], {icon: ikonica})
       .bindPopup(`
@@ -16,7 +16,7 @@ export default class Marker {
         </p>${spomen.opis || ''}</p>
         <a href="${url}">Find place</a>
         ${spomen.website ? `<a href="${spomen.website}" target="_blank">Read more</a>` : ''}
-        ${spomen.slika ? `<p><img src="data:image/jpeg;base64,${spomen.slika}"></p>` : ''}
+        <p><img src="https://spomenici-api.herokuapp.com/kolekcija/spomenici/slika/${spomen._id}"></p>
       `)
   }
 
