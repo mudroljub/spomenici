@@ -28,9 +28,9 @@ const render = spomenici => {
 if (!jeRazvoj() && 'serviceWorker' in navigator)
   navigator.serviceWorker.register('utils/service-worker.js')
 
-fetch('https://spomenici-api.herokuapp.com/kolekcija/spomenici')
+fetch('spomenici.json')
   .then(res => res.json())
   .then(res => {
-    render(res.data)
-    document.body.appendChild(new Pretraga(res.data, render))
+    render(res)
+    document.body.appendChild(new Pretraga(res, render))
   })
