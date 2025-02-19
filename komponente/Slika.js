@@ -2,8 +2,8 @@ export default class Slika extends HTMLImageElement {
 
   constructor(spomen, marker) {
     super()
-    this.dataset.src = `spomenici.json/slika/${spomen._id}`
-    this.alt = this.title = `Spomenik ${spomen.naslov}`
+    this.dataset.src = spomen.slika
+    this.alt = this.title = `Spomenik ${spomen.mesto}`
 
     this.addEventListener('click', () => marker.otvoriProzor())
     this.ondragstart = () => false // sprecava vucenje slike

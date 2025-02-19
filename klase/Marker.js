@@ -8,15 +8,15 @@ export default class Marker {
       forceZIndex: 999,
       iconAnchor: [0, 40],
     })
-    const url = praviUrl(spomen.gmapPlaceId, spomen.lokacija)
+    const url = praviUrl(spomen.place_id, spomen.koordinate)
     this.element = L
-      .marker([spomen.lokacija.lat, spomen.lokacija.lon], {icon: ikonica})
+      .marker([spomen.koordinate.lat, spomen.koordinate.lng], {icon: ikonica})
       .bindPopup(`
-        <h3>${spomen.naslov}</h3>
-        </p>${spomen.opis || ''}</p>
+        <h3>${spomen.mesto}</h3>
+        </p>${spomen.naziv || ''}</p>
         <a href="${url}">Find place</a>
         ${spomen.website ? `<a href="${spomen.website}" target="_blank">Read more</a>` : ''}
-        <p><img src="spomenici.json/slika/${spomen._id}"></p>
+        <p><img src="${spomen.slika}"></p>
       `)
   }
 

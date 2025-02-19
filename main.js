@@ -18,7 +18,7 @@ const render = spomenici => {
   spomenici.forEach(spomenik => {
     const marker = new Marker(spomenik)
     markeri.addLayer(marker.element)
-    if (spomenik.imaSliku) slike.push(new Slika(spomenik, marker))
+    if (spomenik.slika) slike.push(new Slika(spomenik, marker))
   })
   $('#slajder-okvir').appendChild(new Slajder(slike))
 }
