@@ -29,8 +29,14 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 //   maxZoom: 12,
 // }).addTo(mapa)
 
-// L.tileLayer('https://{s}.tile.thunderforest.com/outdoors/{z}/{x}/{y}.png?apikey=54351c0e9c434c919076c803a3291a87', {
-//   attribution: '&copy; <a href="http://www.thunderforest.com/">Thunderforest</a>, &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-//   apikey: '<your apikey>',
-//   maxZoom: 22
+// L.tileLayer('https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png', {
+//   attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/">CARTO</a>',
+//   subdomains: 'abcd',
+//   maxZoom: 20
+// }).addTo(mapa)
+
+// L.tileLayer('https://{s}.basemaps.cartocdn.com/light_only_labels/{z}/{x}/{y}{r}.png', {
+//   attribution: '&copy; <a href="https://carto.com/">CARTO</a>',
+//   subdomains: 'abcd',
+//   maxZoom: 20
 // }).addTo(mapa)
