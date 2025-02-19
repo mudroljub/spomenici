@@ -7,8 +7,8 @@ export const $ = s => document.querySelectorAll(s).length > 1
 
 export function praviUrl(gmapPlaceId, koord) {
   const placeUrl = `?q=place_id:${gmapPlaceId}`
-  const koordUrl = `${koord.lat},${koord.lon}`
-  const androidUrl = `geo:${koord.lat},${koord.lon}`
+  const koordUrl = `${koord.lat},${koord.lng}`
+  const androidUrl = `geo:${koord.lat},${koord.lng}`
   const browserUrl = `https://www.google.com/maps/place/${gmapPlaceId ? placeUrl : koordUrl}`
   return /(android)/i.test(navigator.userAgent) ? androidUrl : browserUrl
 }
