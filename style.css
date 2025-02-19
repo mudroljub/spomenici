@@ -9,9 +9,8 @@ html, body, #mapa {
 }
 
 body {
-  filter: sepia(31%);
+  filter: sepia(23%);
 }
-
 
 img {
   max-width: 100%;
@@ -36,7 +35,7 @@ h1 {
   position: absolute;
 }
 .leaflet-marker-icon {
-  filter: drop-shadow(3px 5px 3px rgba(0, 0, 0, 0.5));
+  filter: drop-shadow(3px 5px 2px rgba(0, 0, 0, 0.5));
 }
 
 .podnaslov {
