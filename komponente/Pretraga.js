@@ -20,7 +20,7 @@ export default class Pretraga extends HTMLInputElement {
     if (fraza.length < 1) return
     const filtrirano = spomenici.filter(x =>
       x.naslov.toLowerCase().includes(fraza) ||
-      (x.opis && x.opis.toLowerCase().includes(fraza))
+      (x.name && x.name.toLowerCase().includes(fraza))
     )
     callback(filtrirano)
   }
