@@ -9,8 +9,7 @@ async function transformJson() {
     
     const transformedArray = jsonArray.map(obj => ({
         ...obj,
-        koordinate: obj.koordinate && obj.koordinate.length > 0 ? 
-            { lat: obj.koordinate[0][0], lng: obj.koordinate[0][1] } : null
+        modal: obj.modal ? obj.modal.replace(/ style="[^"]*"/g, '') : obj.modal
     }));
     
     await fs.writeFile(outputFile, JSON.stringify(transformedArray, null, 2), 'utf8');
