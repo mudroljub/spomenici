@@ -11,7 +11,7 @@ export default class Marker {
     const url = praviUrl(spomen.place_id, spomen.koordinate)
     this.element = L
       .marker([spomen.koordinate.lat, spomen.koordinate.lng], {icon: ikonica})
-      .bindPopup(`
+      .bindPopup(spomen.modal ? spomen.modal : `
         <h3>${spomen.title}</h3>
         </p>${spomen.opis || ''}</p>
         <a href="${url}">Find place</a>

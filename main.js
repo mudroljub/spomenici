@@ -28,7 +28,7 @@ const render = spomenici => {
 if (!jeRazvoj() && 'serviceWorker' in navigator)
   navigator.serviceWorker.register('utils/service-worker.js')
 
-fetch('spomenici.json')
+fetch('spomeniks.json')
   .then(res => res.json())
   .then(res => {
     render(res)
