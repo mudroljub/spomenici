@@ -23,6 +23,5 @@ polymer-bundler --inline-scripts ulaz.html > izlaz.html
 
 ## TODO
 
+- spojiti oba seta podataka
 - dodati filter kategorija
-- dodati prijavu
-- dodati nove kategorije: spomen-ploca, bista

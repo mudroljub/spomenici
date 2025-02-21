@@ -5,8 +5,12 @@ const css = `
   z-index: 1;
 `
 
-export default class Pretraga extends HTMLInputElement {
+const containsText = (obj, txt) => 
+  Object.values(obj).some(value => 
+      typeof value === "string" && value.toLowerCase().includes(txt.toLowerCase())
+  )
 
+export default class Pretraga extends HTMLInputElement {
   constructor(spomenici, callback) {
     super()
     this.id = 'pretraga'
@@ -16,12 +20,8 @@ export default class Pretraga extends HTMLInputElement {
   }
 
   pretrazi(e, spomenici, callback) {
-    const fraza = e.target.value.toLowerCase()
-    if (fraza.length < 1) return
-    const filtrirano = spomenici.filter(x =>
-      x.naslov.toLowerCase().includes(fraza) ||
-      (x.name && x.name.toLowerCase().includes(fraza))
-    )
+    const fraza = e.target.value
+    const filtrirano = spomenici.filter(obj => containsText(obj, fraza))
     callback(filtrirano)
   }
 }
