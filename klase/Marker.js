@@ -8,7 +8,7 @@ export default class Marker {
       forceZIndex: 999,
       iconAnchor: [0, 40],
     })
-    const url = praviUrl(spomen.place_id, spomen.koordinate)
+    const url = praviUrl(spomen.koordinate)
     this.element = L
       .marker([spomen.koordinate.lat, spomen.koordinate.lng], {icon: ikonica})
       .bindPopup(spomen.modal ? spomen.modal : `
