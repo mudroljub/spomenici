@@ -22,7 +22,7 @@ h1 {
   color: #822323;
   line-height: 80%;
   margin-bottom: var(--visina-slajdera);
-  opacity: 0.2;
+  opacity: 0.33;
   position: absolute;
   z-index: 1;
 }
