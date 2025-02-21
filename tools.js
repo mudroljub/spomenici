@@ -8,8 +8,8 @@ async function transformJson() {
     const jsonArray = JSON.parse(data);
     
     const transformedArray = jsonArray.map(obj => {
-        if (obj.website.includes('google'))
-        delete obj.website
+        if (obj.info.includes('google'))
+        delete obj.info
         return obj
     });
     

@@ -15,7 +15,7 @@ export default class Marker {
         <h3>${spomen.title}</h3>
         <p>${spomen.name || ''}</p>
         <a href="${url}">Find place</a>
-        ${spomen.website ? `<a href="${spomen.website}" target="_blank">Read more</a>` : ''}
+        ${spomen.info ? `<a href="${spomen.info}" target="_blank">Read more</a>` : ''}
         <p><img src="${spomen.slika}"></p>
         ${spomen.author ? `<p>Author: ${spomen.author}</p>` : ''}
       `)
