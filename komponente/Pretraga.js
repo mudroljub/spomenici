@@ -7,6 +7,13 @@ const css = `
 
 const polja = ['title', 'name', 'author', 'year']
 
+const kategorije = {
+  '': 'All',
+  kompleks: 'Complexes',
+  spomenik: 'Monuments',
+  muzej: 'Museums',
+}
+
 const praviTekst = spomenik => polja
   .map(polje => spomenik[polje] || '')
   .join(' ')
@@ -20,16 +27,25 @@ export default class Pretraga extends HTMLElement {
     this.polje = document.createElement('input')
     this.polje.id = 'pretraga'
     this.polje.placeholder = '🔍'
-    this.polje.addEventListener('input', e => this.pretrazi(e, stavke, callback))
+    this.kategorija = document.createElement('select')
+    this.kategorija.title = 'Category'
+    Object.entries(kategorije).forEach(([vrednost, naziv]) => this.kategorija.add(new Option(naziv, vrednost)))
+
+    const pretrazi = () => this.pretrazi(stavke, callback)
+    this.polje.addEventListener('input', pretrazi)
+    this.kategorija.addEventListener('change', pretrazi)
   }
 
   connectedCallback() {
-    this.appendChild(this.polje)
+    this.append(this.polje, this.kategorija)
   }
 
-  pretrazi(e, stavke, callback) {
-    const fraza = e.target.value.toLowerCase()
-    const filtrirano = stavke.filter(({spomenik}) => praviTekst(spomenik).includes(fraza))
+  pretrazi(stavke, callback) {
+    const fraza = this.polje.value.toLowerCase()
+    const kategorija = this.kategorija.value
+    const filtrirano = stavke.filter(({spomenik}) =>
+      (!kategorija || spomenik.type === kategorija) && praviTekst(spomenik).includes(fraza)
+    )
     callback(filtrirano)
   }
 }
