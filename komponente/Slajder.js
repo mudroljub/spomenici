@@ -9,7 +9,7 @@ const inicijalnoSlika = Math.round(window.innerWidth / 70)
 style.textContent = `
   :host {
     align-items: center;
-    bottom: 0;
+    bottom: var(--dno);
     display: flex;
     position: fixed;
     width: 100%;

@@ -22,6 +22,20 @@ export function navigacijaUrl({lat, lng}) {
 export const umanjenaSlika = (url, velicina) =>
   url.replace(/^(https:\/\/i\.imgur\.com\/\w{7})\.(jpe?g|png)$/, `$1${velicina}.$2`)
 
+const cirilica = {
+  а: 'a', б: 'b', в: 'v', г: 'g', д: 'd', ђ: 'dj', е: 'e', ж: 'z', з: 'z', и: 'i', ј: 'j', к: 'k', л: 'l', љ: 'lj',
+  м: 'm', н: 'n', њ: 'nj', о: 'o', п: 'p', р: 'r', с: 's', т: 't', ћ: 'c', у: 'u', ф: 'f', х: 'h', ц: 'c', ч: 'c',
+  џ: 'dz', ш: 's', ѓ: 'g', ќ: 'k', ѕ: 'dz',
+}
+
+// za pretragu: mala slova, latinica, bez dijakritika (Kadinjača = kadinjaca = Кадињача)
+export const normalizuj = tekst => tekst
+  .toLowerCase()
+  .replace(/[а-шѓќѕђјљњћџ]/g, z => cirilica[z] || z)
+  .replace(/đ/g, 'dj')
+  .normalize('NFD')
+  .replace(/\p{M}/gu, '') // uklanja kvacice i akcente
+
 const entiteti = {'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', '\'': '&#39;'}
 
 export const escapeHtml = tekst => String(tekst).replace(/[&<>"']/g, z => entiteti[z])

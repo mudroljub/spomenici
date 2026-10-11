@@ -1,3 +1,5 @@
+import {normalizuj} from '../utils/helpers.js'
+
 // font od 16px sprecava da iPhone uvecava stranicu pri kucanju
 const style = document.createElement('style')
 style.textContent = `
@@ -7,7 +9,7 @@ style.textContent = `
     left: 60px;
     position: absolute;
     right: 10px;
-    top: 10px;
+    top: calc(10px + var(--vrh));
     z-index: 1;
   }
 
@@ -41,16 +43,16 @@ const kategorije = {
   '': 'All',
   kompleks: 'Complexes',
   spomenik: 'Monuments',
+  groblje: 'Cemeteries',
   muzej: 'Museums',
 }
 
 const podrazumevanaKategorija = 'spomenik'
 
-const praviTekst = spomenik => polja
+const praviTekst = spomenik => normalizuj(polja
   .map(polje => spomenik[polje] || '')
   .join(' ')
-  .replace(/<[^>]*>/g, '')
-  .toLowerCase()
+  .replace(/<[^>]*>/g, ''))
 
 export default class Pretraga extends HTMLElement {
   constructor(stavke, callback) {
@@ -72,7 +74,7 @@ export default class Pretraga extends HTMLElement {
   }
 
   pretrazi(stavke, callback) {
-    const fraza = this.polje.value.toLowerCase()
+    const fraza = normalizuj(this.polje.value)
     const kategorija = this.kategorija.value
     const filtrirano = stavke.filter(({spomenik}) =>
       (!kategorija || (spomenik.type || podrazumevanaKategorija) === kategorija) && praviTekst(spomenik).includes(fraza)

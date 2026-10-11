@@ -255,7 +255,7 @@
     "name": "Partisan Memorial Cemetery",
     "year": "1965",
     "author": "Bogdan Bogdanović",
-    "type": "kompleks"
+    "type": "groblje"
   },
   {
     "koordinate": {
@@ -380,7 +380,7 @@
     "name": "Smrike Necropolis",
     "year": "1975",
     "author": "Bogdan Bogdanović",
-    "type": "kompleks"
+    "type": "groblje"
   },
   {
     "koordinate": {
@@ -483,7 +483,7 @@
     "name": "Partisan's Necropolis",
     "year": "1974",
     "author": "Bogdan Bogdanović",
-    "type": "kompleks"
+    "type": "groblje"
   },
   {
     "koordinate": {
@@ -558,7 +558,7 @@
     "name": "Hostage's Cemetery",
     "year": "1953",
     "author": "Edvard Ravnikar",
-    "type": "kompleks"
+    "type": "groblje"
   },
   {
     "koordinate": {
@@ -810,7 +810,7 @@
     "name": "Partisan Martyrs Cemetery",
     "year": "1961",
     "author": "Svetislav Ličina",
-    "type": "kompleks"
+    "type": "groblje"
   },
   {
     "koordinate": {
@@ -999,7 +999,7 @@
     "name": "Burial Mound of the Unbeaten",
     "year": "1961",
     "author": "Bogdan Bogdanović",
-    "type": "kompleks"
+    "type": "groblje"
   },
   {
     "koordinate": {
@@ -1061,7 +1061,7 @@
     "name": "The Necropolis at Sremsaka Mitrovica",
     "year": "1960",
     "author": "Bogdan Bogdanović",
-    "type": "kompleks"
+    "type": "groblje"
   },
   {
     "koordinate": {
@@ -1259,7 +1259,7 @@
     "name": "Lepoglava Memorial Graveyard",
     "year": "1981",
     "author": "Stevan Luketić",
-    "type": "kompleks"
+    "type": "groblje"
   },
   {
     "koordinate": {
@@ -2239,7 +2239,7 @@
     "name": "Vojščica Partisan Cemetery",
     "year": "1956",
     "author": "Edvard Ravnikar",
-    "type": "kompleks"
+    "type": "groblje"
   },
   {
     "koordinate": {
@@ -2480,7 +2480,7 @@
     "slika": "https://i.imgur.com/wG8iFnG.jpg",
     "name": "Partisan Memorial Graveyard",
     "year": "1987",
-    "type": "kompleks"
+    "type": "groblje"
   },
   {
     "koordinate": {
@@ -2788,7 +2788,7 @@
     "slika": "https://i.imgur.com/YXeIgCI.jpg",
     "name": "Partisan Memorial Cemetery",
     "year": "1972",
-    "type": "kompleks"
+    "type": "groblje"
   },
   {
     "koordinate": {
@@ -2885,7 +2885,7 @@
     "slika": "https://i.imgur.com/nTbuMk5.jpg",
     "name": "Partisan Memorial Cemetery",
     "year": "1974",
-    "type": "kompleks"
+    "type": "groblje"
   },
   {
     "koordinate": {
@@ -3160,7 +3160,7 @@
     "slika": "https://i.imgur.com/AmkVlne.jpg",
     "name": "Partisan Memorial Cemetery",
     "year": "1962",
-    "type": "kompleks"
+    "type": "groblje"
   },
   {
     "koordinate": {
@@ -3195,7 +3195,7 @@
     "slika": "https://i.imgur.com/z6JcsZy.jpg",
     "name": "Cemetery to NOB Fighters",
     "year": "1961",
-    "type": "kompleks"
+    "type": "groblje"
   },
   {
     "koordinate": {
@@ -3495,7 +3495,8 @@
     "slika": "https://i.imgur.com/9gIzmAl.jpg",
     "name": "Memorial Graveyard to Fallen Fighters",
     "year": "1964",
-    "author": "Jordan Grabul"
+    "author": "Jordan Grabul",
+    "type": "groblje"
   },
   {
     "koordinate": {
@@ -4053,7 +4054,7 @@
     "slika": "https://i.imgur.com/Edk9axJ.jpg",
     "name": "Memorial Cemetery on Trube Hill",
     "year": "1978",
-    "type": "kompleks"
+    "type": "groblje"
   },
   {
     "koordinate": {
@@ -4145,7 +4146,7 @@
     "name": "Partisan Memorial Cemetery",
     "year": "1976",
     "author": "Dušan Džamonja",
-    "type": "kompleks"
+    "type": "groblje"
   },
   {
     "koordinate": {
@@ -4465,7 +4466,8 @@
     "title": "Bojnik (expunged)",
     "slika": "https://i.imgur.com/xBSUqn9.jpg",
     "name": "Memorial Graveyard for Executed Victims",
-    "year": "1963"
+    "year": "1963",
+    "type": "groblje"
   },
   {
     "koordinate": {
@@ -4574,7 +4576,7 @@
     "name": "Nove Žale Cemetery Expansion",
     "year": "1988",
     "author": "Marko Mušič",
-    "type": "kompleks"
+    "type": "groblje"
   },
   {
     "koordinate": {
@@ -4852,7 +4854,7 @@
     "slika": "https://i.imgur.com/rnMkepX.jpg",
     "name": "Memorial Ossuary at the New Cemetery",
     "year": "1968",
-    "type": "kompleks"
+    "type": "groblje"
   },
   {
     "koordinate": {
@@ -5063,7 +5065,8 @@
     "title": "Veliko Palančište",
     "slika": "https://i.imgur.com/J0A58np.jpg",
     "name": "Partisan Memorial Graveyard",
-    "year": "1963"
+    "year": "1963",
+    "type": "groblje"
   },
   {
     "koordinate": {
@@ -5105,7 +5108,8 @@
     "title": "Banja Luka Cemetery",
     "slika": "https://i.imgur.com/WRvTyLz.jpg",
     "name": "Partisan Memorial Graveyard",
-    "year": "1963"
+    "year": "1963",
+    "type": "groblje"
   },
   {
     "koordinate": {
@@ -5972,7 +5976,7 @@
     "slika": "https://i.imgur.com/iDZPYCR.jpg",
     "name": "Cemetery for Fallen Fighters",
     "year": "1960",
-    "type": "kompleks"
+    "type": "groblje"
   },
   {
     "koordinate": {
@@ -6014,7 +6018,7 @@
     "title": "Konjic",
     "slika": "https://i.imgur.com/En3XDjM.jpg",
     "name": "Partisan Cemetery at Musala",
-    "type": "kompleks"
+    "type": "groblje"
   },
   {
     "koordinate": {
@@ -6234,7 +6238,7 @@
     "slika": "https://i.imgur.com/jxKm5bQ.jpg",
     "name": "Partisan Memorial Cemetery",
     "year": "1967",
-    "type": "kompleks"
+    "type": "groblje"
   },
   {
     "koordinate": {
@@ -6451,7 +6455,7 @@
     "title": "Sombor",
     "slika": "https://i.imgur.com/6qOlIHj.jpg",
     "name": "Partisan & Red Army Cemetery",
-    "type": "kompleks"
+    "type": "groblje"
   },
   {
     "koordinate": {
@@ -6907,7 +6911,8 @@
     "title": "Viktorovac Cemetery",
     "slika": "https://i.imgur.com/aAFhUl8.jpg",
     "name": "\"The Flag\" at Mem. Cem. to Heroes",
-    "year": "1965"
+    "year": "1965",
+    "type": "groblje"
   },
   {
     "koordinate": {
@@ -6918,7 +6923,7 @@
     "slika": "https://i.imgur.com/LwfBFDE.jpg",
     "name": "Partisan Memorial Cemetery",
     "year": "1974",
-    "type": "kompleks"
+    "type": "groblje"
   },
   {
     "koordinate": {
@@ -6928,7 +6933,7 @@
     "title": "Živinice",
     "slika": "https://i.imgur.com/jlUpNi3.jpg",
     "name": "Partisan Memorial Cemetery",
-    "type": "kompleks"
+    "type": "groblje"
   },
   {
     "koordinate": {
@@ -6939,7 +6944,7 @@
     "slika": "https://i.imgur.com/JdueX0n.jpg",
     "name": "Partisan Memorial Cemetery",
     "year": "1963",
-    "type": "kompleks"
+    "type": "groblje"
   },
   {
     "koordinate": {
@@ -6950,7 +6955,7 @@
     "slika": "https://i.imgur.com/ZXpQuJX.jpg",
     "name": "Partisan Memorial Cemetery",
     "year": "1959",
-    "type": "kompleks"
+    "type": "groblje"
   },
   {
     "koordinate": {
@@ -6960,7 +6965,7 @@
     "title": "Bojište [in ruins]",
     "slika": "https://i.imgur.com/z1FEcNP.jpg",
     "name": "Partisan Memorial Cemetery",
-    "type": "kompleks"
+    "type": "groblje"
   },
   {
     "koordinate": {
@@ -6971,7 +6976,7 @@
     "slika": "https://i.imgur.com/UpSwXJG.jpg",
     "name": "Partisan Memorial Cemetery",
     "year": "1955",
-    "type": "kompleks"
+    "type": "groblje"
   },
   {
     "koordinate": {
@@ -6984,7 +6989,7 @@
     "name": "Partisan Memorial Cemetery",
     "year": "1960",
     "author": "Zdenko Kolacio",
-    "type": "kompleks"
+    "type": "groblje"
   },
   {
     "koordinate": {
@@ -6994,7 +6999,7 @@
     "title": "Donji Vakuf",
     "slika": "https://i.imgur.com/owUkAwV.jpg",
     "name": "Partisan Memorial Cemetery",
-    "type": "kompleks"
+    "type": "groblje"
   },
   {
     "koordinate": {
@@ -7004,7 +7009,8 @@
     "title": "Potkozarje",
     "slika": "https://i.imgur.com/7o9c7AC.jpg",
     "name": "Partisan Memorial Graveyard",
-    "year": "1977"
+    "year": "1977",
+    "type": "groblje"
   },
   {
     "koordinate": {
@@ -7015,7 +7021,7 @@
     "slika": "https://i.imgur.com/vXZBvCq.jpg",
     "name": "Partisan Memorial Cemetery",
     "year": "1978",
-    "type": "kompleks"
+    "type": "groblje"
   },
   {
     "koordinate": {
@@ -7026,7 +7032,7 @@
     "slika": "https://i.imgur.com/uSi0ajq.jpg",
     "name": "Partisan Memorial Cemetery",
     "year": "1961",
-    "type": "kompleks"
+    "type": "groblje"
   },
   {
     "koordinate": {
@@ -7039,7 +7045,7 @@
     "name": "Partisan Memorial Cemetery",
     "year": "1960",
     "author": "Marijan Kocković",
-    "type": "kompleks"
+    "type": "groblje"
   },
   {
     "koordinate": {
@@ -7080,7 +7086,7 @@
     "slika": "https://i.imgur.com/fmd44x6.jpg",
     "name": "Partisan Memorial Cemetery",
     "year": "1961",
-    "type": "kompleks"
+    "type": "groblje"
   },
   {
     "koordinate": {
@@ -7115,7 +7121,7 @@
     "slika": "https://i.imgur.com/kgVAL24.jpeg",
     "name": "Partisan Necropolis on Çabrati Hill",
     "year": "1984",
-    "type": "kompleks"
+    "type": "groblje"
   },
   {
     "koordinate": {
@@ -7156,7 +7162,7 @@
     "slika": "https://i.imgur.com/PsvQpuk.jpg",
     "name": "Partisan Memorial Cemetery",
     "year": "1961",
-    "type": "kompleks"
+    "type": "groblje"
   },
   {
     "koordinate": {
@@ -7166,7 +7172,7 @@
     "title": "Hadžići",
     "slika": "https://i.imgur.com/uUwsbw5.jpg",
     "name": "Partisan Memorial Cemetery",
-    "type": "kompleks"
+    "type": "groblje"
   },
   {
     "koordinate": {
@@ -7176,7 +7182,7 @@
     "title": "Rogatica",
     "slika": "https://i.imgur.com/acyP92r.jpg",
     "name": "Partisan Memorial Cemetery",
-    "type": "kompleks"
+    "type": "groblje"
   },
   {
     "koordinate": {
@@ -7197,7 +7203,7 @@
     "slika": "https://i.imgur.com/62DIlA1.jpg",
     "name": "Partisan Memorial Cemetery",
     "year": "1968",
-    "type": "kompleks"
+    "type": "groblje"
   },
   {
     "koordinate": {
@@ -7218,7 +7224,7 @@
     "slika": "https://i.imgur.com/qgbvdAM.jpg",
     "name": "The Liberators of Belgrade Cemetery",
     "year": "1954",
-    "type": "kompleks"
+    "type": "groblje"
   },
   {
     "koordinate": {
@@ -7227,7 +7233,8 @@
     },
     "title": "Verići",
     "slika": "https://i.imgur.com/oemIxD8.jpg",
-    "name": "Partisan Memorial Graveyard"
+    "name": "Partisan Memorial Graveyard",
+    "type": "groblje"
   },
   {
     "koordinate": {
@@ -7269,7 +7276,7 @@
     "slika": "https://i.imgur.com/a7P1uks.jpg",
     "name": "Partisan Memorial Cemetery",
     "year": "1956",
-    "type": "kompleks"
+    "type": "groblje"
   },
   {
     "koordinate": {
@@ -7298,7 +7305,7 @@
     "title": "Bosanska Krupa",
     "slika": "https://i.imgur.com/YXaqPad.jpg",
     "name": "Partisan Memorial Cemetery",
-    "type": "kompleks"
+    "type": "groblje"
   },
   {
     "koordinate": {
@@ -8311,7 +8318,7 @@
     "slika": "https://i.imgur.com/6WwuqOW.jpg",
     "name": "Partisan Memorial Cemetery",
     "year": "1966",
-    "type": "kompleks"
+    "type": "groblje"
   },
   {
     "koordinate": {
@@ -8322,7 +8329,7 @@
     "slika": "https://i.imgur.com/OiUzfBo.jpg",
     "name": "Partisan Memorial Cemetery",
     "year": "1970",
-    "type": "kompleks"
+    "type": "groblje"
   },
   {
     "koordinate": {
@@ -8595,7 +8602,7 @@
     },
     "title": "Nevesinje",
     "name": "Partizansko spomen-groblje",
-    "type": "kompleks"
+    "type": "groblje"
   },
   {
     "koordinate": {
@@ -8697,7 +8704,7 @@
     "info": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD_%D0%B3%D1%80%D0%BE%D0%B1%D1%99%D0%B5_%D0%BD%D0%B0_%D0%9A%D1%80%D1%83%D1%88%D0%B8%D0%BA%D1%83",
     "slika": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Spomen_groblje_na_Kru%C5%A1iku%2C_Valjevo_036.jpg/330px-Spomen_groblje_na_Kru%C5%A1iku%2C_Valjevo_036.jpg",
     "name": "Spomen groblje na Krušiku",
-    "type": "kompleks"
+    "type": "groblje"
   },
   {
     "koordinate": {

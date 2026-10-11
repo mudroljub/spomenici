@@ -70,3 +70,11 @@ L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_M
 })
 
 .addTo(mapa)
+
+// izbliza detaljna mapa sa svim putevima, jer atlas ide samo do zuma 12
+L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+  minZoom: 13,
+  maxZoom: 18,
+  referrerPolicy: 'strict-origin-when-cross-origin', // OSM odbija plocice bez referer-a, a stranica ga inace ne salje
+}).addTo(mapa)

@@ -1,6 +1,6 @@
 import {mestoUrl, navigacijaUrl, umanjenaSlika, escapeHtml} from '../utils/helpers.js'
 
-const vazneKategorije = ['kompleks', 'muzej']
+const vazneKategorije = ['kompleks', 'groblje', 'muzej']
 const razmeraZuma = {6: 0.5, 7: 0.55, 8: 0.65, 9: 0.8} // ostali zumovi pun obelisk
 const razmeraVaznih = 1.25
 
@@ -20,11 +20,13 @@ export default class Marker {
     // name namerno sadrzi HTML linkove, pa se ne escape-uje
     const sadrzaj = `
         <h3>${escapeHtml(spomen.title)}</h3>
-        <p>${spomen.name || ''}</p>
+        <p>
+          ${spomen.name || ''}
+          ${spomen.info ? `<a href="${escapeHtml(spomen.info)}" target="_blank" class="vise">Read more ›</a>` : ''}
+        </p>
         <p class="akcije">
           <a href="${escapeHtml(navigacijaUrl(spomen.koordinate))}" target="_blank" class="glavna">Navigate</a>
           <a href="${escapeHtml(mestoUrl(spomen.koordinate))}">Find place</a>
-          ${spomen.info ? `<a href="${escapeHtml(spomen.info)}" target="_blank">Read more</a>` : ''}
         </p>
         ${spomen.slika ? `<p><img src="${escapeHtml(umanjenaSlika(spomen.slika, 'l'))}" onerror="this.remove()"></p>` : ''}
         ${spomen.author ? `<p>Author: ${escapeHtml(spomen.author)}</p>` : ''}

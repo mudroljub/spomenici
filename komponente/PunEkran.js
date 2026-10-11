@@ -9,9 +9,9 @@ class PunEkran extends HTMLElement {
     this.innerHTML = `
       <style>
         #ikonica {
-          top: 10px;
+          top: calc(10px + var(--vrh));
           left: 10px;
-          background: white;
+          border-radius: 8px;
           padding: 4px;
         }
       </style>

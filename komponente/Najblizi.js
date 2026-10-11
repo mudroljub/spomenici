@@ -2,6 +2,11 @@ import {mapa} from '../klase/mapa.js'
 
 const brojNajblizih = 10
 
+// razdaljina je vazdusna, pa je priblizna
+const formatirajRazdaljinu = metara => metara < 1000
+  ? `~${Math.round(metara / 10) * 10} m`
+  : `~${Math.round(metara / 1000)} km`
+
 const style = document.createElement('style')
 style.textContent = `
   :host {
@@ -12,13 +17,13 @@ style.textContent = `
     background: white;
     border: none;
     border-radius: 22px;
-    bottom: calc(var(--visina-slajdera) + 2px);
+    bottom: calc(var(--visina-slajdera) + var(--dno) + 2px);
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
     font: inherit;
     min-height: 44px;
     padding: 0 16px;
     position: fixed;
-    right: 56px;
+    right: 60px;
     z-index: 1;
   }
 
@@ -30,6 +35,7 @@ style.textContent = `
     left: 0;
     max-height: 50vh;
     overflow-y: auto;
+    padding-bottom: var(--dno);
     position: fixed;
     right: 0;
     z-index: 1000;
@@ -72,7 +78,12 @@ style.textContent = `
   .km {
     flex: none;
     font-weight: bold;
-    min-width: 52px;
+    min-width: 64px;
+  }
+
+  header small {
+    color: #666;
+    font-weight: normal;
   }
 
   .opis {
@@ -96,7 +107,7 @@ export default class Najblizi extends HTMLElement {
     this.panel = document.createElement('section')
     this.panel.id = 'panel'
     this.panel.hidden = true
-    this.panel.innerHTML = '<header>Nearby<button title="Close">×</button></header>'
+    this.panel.innerHTML = '<header><span>Nearby <small>straight-line distance</small></span><button title="Close">×</button></header>'
     this.panel.querySelector('button').addEventListener('click', () => this.panel.hidden = true)
     this.lista = document.createElement('ol')
     this.panel.appendChild(this.lista)
@@ -130,7 +141,7 @@ export default class Najblizi extends HTMLElement {
     const {title, name} = stavka.spomenik
     const red = document.createElement('li')
     red.innerHTML = '<span class="km"></span><span><span class="naziv"></span><span class="opis"></span></span>'
-    red.querySelector('.km').textContent = `${Math.round(metara / 1000)} km`
+    red.querySelector('.km').textContent = formatirajRazdaljinu(metara)
     const naziv = (name || '').replace(/<[^>]*>/g, '')
     red.querySelector('.naziv').textContent = naziv || title
     red.querySelector('.opis').textContent = naziv ? title : ''
