@@ -12,15 +12,6 @@ Visit: [mudroljub.github.io/spomenici](https://mudroljub.github.io/spomenici/)
 live-server
 ```
 
-## Build
-
-(build is not necessary but it is good for optimization)
-
-```
-npm install -g polymer-bundler
-polymer-bundler --inline-scripts ulaz.html > izlaz.html
-```
-
 ## TODO
 
 - spojiti oba seta podataka

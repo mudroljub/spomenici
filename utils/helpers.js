@@ -12,7 +12,6 @@ export function praviUrl(koord) {
   return /(android)/i.test(navigator.userAgent) ? androidUrl : browserUrl
 }
 
-export const jeRazvoj = () =>
-  location.hostname === 'localhost'
-  || location.hostname === '127.0.0.1'
-  || location.hostname === ''
+const entiteti = {'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', '\'': '&#39;'}
+
+export const escapeHtml = tekst => String(tekst).replace(/[&<>"']/g, z => entiteti[z])

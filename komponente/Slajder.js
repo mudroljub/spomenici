@@ -37,6 +37,7 @@ style.textContent = `
   }
 
   div img {
+    display: block;
     height: var(--visina-slajdera);
     cursor: all-scroll;
   }
@@ -123,7 +124,7 @@ export default class Slajder extends HTMLElement {
   }
 
   mrdajVuceno(e) {
-    pustenX = e.clientX || e.changedTouches[0].screenX
+    pustenX = e.type === 'mouseup' ? e.clientX : e.changedTouches[0].screenX
     if (pustenX == dirnutX) return
     this.mrdaj(pustenX > dirnutX)
   }

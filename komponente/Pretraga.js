@@ -5,25 +5,33 @@ const css = `
   z-index: 1;
 `
 
-const containsText = (obj, txt) => 
-  Object.values(obj).some(value => 
-      typeof value === "string" && value.toLowerCase().includes(txt.toLowerCase())
-  )
+const polja = ['title', 'name', 'author', 'year']
 
-export default class Pretraga extends HTMLInputElement {
-  constructor(spomenici, callback) {
+const praviTekst = spomenik => polja
+  .map(polje => spomenik[polje] || '')
+  .join(' ')
+  .replace(/<[^>]*>/g, '')
+  .toLowerCase()
+
+export default class Pretraga extends HTMLElement {
+  constructor(stavke, callback) {
     super()
-    this.id = 'pretraga'
-    this.placeholder = '🔍'
     this.style.cssText = css
-    this.addEventListener('input', e => this.pretrazi(e, spomenici, callback))
+    this.polje = document.createElement('input')
+    this.polje.id = 'pretraga'
+    this.polje.placeholder = '🔍'
+    this.polje.addEventListener('input', e => this.pretrazi(e, stavke, callback))
   }
 
-  pretrazi(e, spomenici, callback) {
-    const fraza = e.target.value
-    const filtrirano = spomenici.filter(obj => containsText(obj, fraza))
+  connectedCallback() {
+    this.appendChild(this.polje)
+  }
+
+  pretrazi(e, stavke, callback) {
+    const fraza = e.target.value.toLowerCase()
+    const filtrirano = stavke.filter(({spomenik}) => praviTekst(spomenik).includes(fraza))
     callback(filtrirano)
   }
 }
 
-customElements.define('polje-pretraga', Pretraga, { extends: 'input' })
+customElements.define('polje-pretraga', Pretraga)

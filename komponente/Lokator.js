@@ -21,9 +21,14 @@ class Lokator extends HTMLElement {
   }
 
   locirajMe() {
+    if (!navigator.geolocation) return alert('Location is not supported')
+
     navigator.geolocation.getCurrentPosition(({coords}) => {
-      mapa.panTo(new L.LatLng(coords.latitude, coords.longitude))
-    })
+      const pozicija = L.latLng(coords.latitude, coords.longitude)
+      if (!L.latLngBounds(mapa.options.maxBounds).contains(pozicija))
+        return alert('Your location is outside the map')
+      mapa.panTo(pozicija)
+    }, () => alert('Location is not available'))
   }
 }
 

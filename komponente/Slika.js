@@ -1,18 +1,20 @@
-export default class Slika extends HTMLImageElement {
+export default class Slika extends HTMLElement {
 
   constructor(spomen, marker) {
     super()
-    this.dataset.src = spomen.slika
-    this.alt = this.title = `Spomenik ${spomen.title}`
+    this.url = spomen.slika
+    this.slika = document.createElement('img')
+    this.slika.alt = this.slika.title = `Spomenik ${spomen.title}`
+    this.slika.ondragstart = () => false // sprecava vucenje slike
+    this.slika.onerror = () => this.style.display = 'none'
 
     this.addEventListener('click', () => marker.otvoriProzor())
-    this.ondragstart = () => false // sprecava vucenje slike
-    this.onerror = () => this.style.display = 'none'
   }
 
   connectedCallback() {
-    this.src = this.dataset.src // da ne ucitava pre nego sto se doda u dom
+    this.slika.src = this.url // da ne ucitava pre nego sto se doda u dom
+    this.appendChild(this.slika)
   }
 }
 
-customElements.define('nav-slika', Slika, { extends: 'img' })
+customElements.define('nav-slika', Slika)
