@@ -1,6 +1,6 @@
-# Spomenici app
+# Spomenici
 
-Yugoslav monuments map.
+Yugoslav monuments travel app.
 
 Visit: [mudroljub.github.io/spomenici](https://mudroljub.github.io/spomenici/)
 
@@ -14,5 +14,6 @@ live-server
 
 ## TODO
 
-- spojiti oba seta podataka
 - dodati filter kategorija
+- analiziraj šta je još potrebno da ovo bude praktična travel aplikacija, zgodna za upotrebu. zamisao je da pomaže ljudima koji kolima, motorima, biciklima i slično obilaze jugoslovenske spomenike.
+- ažurirati lokacije poređenjem sa google maps i drugim servisima
