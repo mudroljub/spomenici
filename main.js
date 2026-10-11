@@ -1,6 +1,7 @@
 import Slika from './komponente/Slika.js'
 import Pretraga from './komponente/Pretraga.js'
 import Slajder from './komponente/Slajder.js'
+import Najblizi from './komponente/Najblizi.js'
 import Marker from './klase/Marker.js'
 import './komponente/PunEkran.js'
 import './komponente/Lokator.js'
@@ -8,6 +9,7 @@ import {$} from './utils/helpers.js'
 import {mapa} from './klase/mapa.js'
 
 const markeri = L.layerGroup().addTo(mapa)
+const najblizi = document.body.appendChild(new Najblizi())
 
 /* FUNKCIJE */
 
@@ -24,6 +26,7 @@ const render = stavke => {
   stavke.forEach(({marker}) => markeri.addLayer(marker.element))
   const slike = stavke.map(({slika}) => slika).filter(Boolean)
   $('#slajder-okvir').appendChild(new Slajder(slike))
+  najblizi.postavi(stavke)
 }
 
 /* INIT */

@@ -3443,15 +3443,6 @@
   },
   {
     "koordinate": {
-      "lat": 43.63438287,
-      "lng": 17.99496405
-    },
-    "title": "Tito's Bunker at Konjic",
-    "info": "https://www.spomenikdatabase.org/post/tito-s-secret-underground-bunker",
-    "slika": "https://i.imgur.com/C04Mf5Q.jpg"
-  },
-  {
-    "koordinate": {
       "lat": 42.11125134,
       "lng": 21.72423773
     },
@@ -3563,16 +3554,6 @@
     "info": "https://www.np-brijuni.hr/en/brijuni/cultural-and-historical-heritage/stalni-postavi",
     "slika": "https://i.imgur.com/qScn6Jb.jpg",
     "type": "muzej"
-  },
-  {
-    "koordinate": {
-      "lat": 42.45580791,
-      "lng": 18.50697048
-    },
-    "title": "Villa Galeb",
-    "info": "https://www.spomenikdatabase.org/post/examining-the-34-villas-of-yugoslav-president-josip-broz-tito",
-    "slika": "https://i.imgur.com/zyW1Fpy.jpg",
-    "year": "1976"
   },
   {
     "koordinate": {
@@ -4145,15 +4126,6 @@
   },
   {
     "koordinate": {
-      "lat": 46.05073015,
-      "lng": 15.74233243
-    },
-    "title": "Antun Augustinčić Gallery",
-    "info": "http://gaa.mhz.hr/en/galerija-antuna-augustincica-s65",
-    "slika": "https://i.imgur.com/ExsbGmN.jpg"
-  },
-  {
-    "koordinate": {
       "lat": 45.21056173,
       "lng": 14.55583632
     },
@@ -4532,27 +4504,6 @@
   },
   {
     "koordinate": {
-      "lat": 41.02797019,
-      "lng": 21.33471396
-    },
-    "title": "Bitola",
-    "info": "http://www.spomenikdatabase.org/marko-music",
-    "slika": "https://i.imgur.com/KGCjZDj.jpg",
-    "name": "Dom Kulture (House of Culture)",
-    "year": "1971"
-  },
-  {
-    "koordinate": {
-      "lat": 44.61910628,
-      "lng": 21.18729975
-    },
-    "title": "Požarevac",
-    "slika": "https://i.imgur.com/H5ut4xM.jpg",
-    "name": "Centar za kulturu (Cultural Center)",
-    "year": "1982"
-  },
-  {
-    "koordinate": {
       "lat": 44.36377181,
       "lng": 19.3630543
     },
@@ -4561,37 +4512,6 @@
     "slika": "https://i.imgur.com/yWOSIow.jpg",
     "name": "The \"Politika\" House of Culture",
     "year": "1982"
-  },
-  {
-    "koordinate": {
-      "lat": 43.89202639,
-      "lng": 20.34989264
-    },
-    "title": "Čačak",
-    "slika": "https://i.imgur.com/eky4SKR.jpg",
-    "name": "Dom Kulture (House of Culture)",
-    "year": "1971"
-  },
-  {
-    "koordinate": {
-      "lat": 44.82459619,
-      "lng": 20.40033963
-    },
-    "title": "New Belgrade",
-    "slika": "https://i.imgur.com/yJ013Ww.jpg",
-    "name": "Dom Kulture at Studentski Grad",
-    "year": "1972"
-  },
-  {
-    "koordinate": {
-      "lat": 44.81546772,
-      "lng": 20.46267148
-    },
-    "title": "Belgrade",
-    "slika": "https://i.imgur.com/Fq1BA7j.jpg",
-    "name": "Dom Omladine (Youth Center)",
-    "year": "1964",
-    "type": "spomenik"
   },
   {
     "koordinate": {
@@ -4636,36 +4556,6 @@
   },
   {
     "koordinate": {
-      "lat": 44.38144986,
-      "lng": 20.26234966
-    },
-    "title": "Lazarevac",
-    "info": "https://www.spomenikdatabase.org/miodrag-zivkovic",
-    "slika": "https://i.imgur.com/Yw1hApx.jpg",
-    "name": "Centar za kulturu (Cultural Center)",
-    "year": "1977"
-  },
-  {
-    "koordinate": {
-      "lat": 44.42430517,
-      "lng": 18.0368303
-    },
-    "title": "Žepče",
-    "slika": "https://i.imgur.com/v8m6oRN.jpg",
-    "name": "Dom Kulture (House of Culture)"
-  },
-  {
-    "koordinate": {
-      "lat": 44.01251581,
-      "lng": 20.91977584
-    },
-    "title": "Kragujevac",
-    "slika": "https://i.imgur.com/C8EjACT.jpg",
-    "name": "Dom kulture (House of Culture)",
-    "year": "1961"
-  },
-  {
-    "koordinate": {
       "lat": 44.07799467,
       "lng": 22.09977078
     },
@@ -4685,56 +4575,6 @@
     "year": "1988",
     "author": "Marko Mušič",
     "type": "kompleks"
-  },
-  {
-    "koordinate": {
-      "lat": 43.85544878,
-      "lng": 18.4145497
-    },
-    "title": "Sarajevo",
-    "slika": "https://i.imgur.com/EcLDLT9.jpg",
-    "name": "Skenderija Youth Center",
-    "year": "1969"
-  },
-  {
-    "koordinate": {
-      "lat": 43.39133604,
-      "lng": 19.64823442
-    },
-    "title": "Prijepolje",
-    "slika": "https://i.imgur.com/fdsl7dn.jpg",
-    "name": "Dom Kulture (House of Culture)",
-    "year": "1979"
-  },
-  {
-    "koordinate": {
-      "lat": 43.0456884,
-      "lng": 16.09188276
-    },
-    "title": "Komiža on Vis Island",
-    "slika": "https://i.imgur.com/55LwPC3.jpg",
-    "name": "Dom Kulture (House of Culture)",
-    "year": "1961"
-  },
-  {
-    "koordinate": {
-      "lat": 41.43907187,
-      "lng": 22.63644057
-    },
-    "title": "Strumica",
-    "slika": "https://i.imgur.com/daHdbJY.jpg",
-    "name": "Cultural Center 'Blagoj Jankov Mučeto'",
-    "year": "1986"
-  },
-  {
-    "koordinate": {
-      "lat": 42.00970167,
-      "lng": 20.97249466
-    },
-    "title": "Tetovo",
-    "slika": "https://i.imgur.com/PMCpQ71.jpg",
-    "name": "Cultural Center of Tetovo",
-    "year": "1973"
   },
   {
     "koordinate": {
@@ -4759,50 +4599,12 @@
   },
   {
     "koordinate": {
-      "lat": 44.48222241,
-      "lng": 16.40372979
-    },
-    "title": "Tito's Green Train",
-    "info": "https://sh.wikipedia.org/wiki/Titov_voz_na_O%C5%A1trelju",
-    "slika": "https://i.imgur.com/qYFm3lW.jpg"
-  },
-  {
-    "koordinate": {
-      "lat": 44.76046544,
-      "lng": 20.44467079
-    },
-    "title": "Tito's Blue Train in Belgrade",
-    "info": "https://www.atlasobscura.com/places/titos-blue-train",
-    "slika": "https://i.imgur.com/dsDZwkO.jpg"
-  },
-  {
-    "koordinate": {
       "lat": 44.77120974,
       "lng": 20.46724963
     },
     "title": "Banjica Concen. Camp Museum",
     "slika": "https://i.imgur.com/Pe14Sw2.jpg",
     "type": "muzej"
-  },
-  {
-    "koordinate": {
-      "lat": 44.15479458,
-      "lng": 21.08027923
-    },
-    "title": "Batočina",
-    "slika": "https://i.imgur.com/uxkmsVf.jpg",
-    "name": "Dom kulture (House of Culture)",
-    "year": "1976"
-  },
-  {
-    "koordinate": {
-      "lat": 43.56865286,
-      "lng": 22.25580024
-    },
-    "title": "Knjaževac",
-    "slika": "https://i.imgur.com/YimDmNU.jpg",
-    "name": "Dom Kulture (House of Culture)",
-    "year": "1981"
   },
   {
     "koordinate": {
@@ -5043,53 +4845,6 @@
   },
   {
     "koordinate": {
-      "lat": 43.5406561,
-      "lng": 21.70830177
-    },
-    "title": "Aleksinac",
-    "slika": "https://i.imgur.com/rY92VgS.jpg",
-    "name": "Dom Kulture (House of Culture)"
-  },
-  {
-    "koordinate": {
-      "lat": 46.35936306,
-      "lng": 14.09350501
-    },
-    "title": "Vila Bled on Lake Bled",
-    "info": "https://www.spomenikdatabase.org/post/examining-the-34-villas-of-yugoslav-president-josip-broz-tito",
-    "slika": "https://i.imgur.com/1fqLmap.jpg",
-    "year": "1947"
-  },
-  {
-    "koordinate": {
-      "lat": 44.04046392,
-      "lng": 17.44263457
-    },
-    "title": "Villa 'Gorica' [in ruins]",
-    "info": "https://www.spomenikdatabase.org/post/examining-the-34-villas-of-yugoslav-president-josip-broz-tito",
-    "slika": "https://i.imgur.com/iB74qwW.jpg",
-    "year": "1974"
-  },
-  {
-    "koordinate": {
-      "lat": 44.02863961,
-      "lng": 17.30471002
-    },
-    "title": "Vila Kupres [in ruins]",
-    "info": "https://www.spomenikdatabase.org/post/examining-the-34-villas-of-yugoslav-president-josip-broz-tito",
-    "slika": "https://i.imgur.com/VUe9kyn.jpg",
-    "year": "1972"
-  },
-  {
-    "koordinate": {
-      "lat": 45.32245225,
-      "lng": 14.44374786
-    },
-    "title": "Tito's ship 'Galeb' (Seagull)",
-    "slika": "https://i.imgur.com/jupBoLO.jpg"
-  },
-  {
-    "koordinate": {
       "lat": 44.04688753,
       "lng": 22.11359964
     },
@@ -5202,26 +4957,6 @@
   },
   {
     "koordinate": {
-      "lat": 43.15581322,
-      "lng": 22.58596163
-    },
-    "title": "Pirot",
-    "slika": "https://i.imgur.com/wiPj9Qb.jpg",
-    "name": "Dom Kulture & Library",
-    "year": "1986"
-  },
-  {
-    "koordinate": {
-      "lat": 46.39033167,
-      "lng": 16.43419188
-    },
-    "title": "Čakovec",
-    "slika": "https://i.imgur.com/Eevkk1R.jpg",
-    "name": "Centar za kulutru (Cultural Center)",
-    "year": "1981"
-  },
-  {
-    "koordinate": {
       "lat": 42.26159737,
       "lng": 18.972936
     },
@@ -5240,16 +4975,6 @@
     "title": "Mali Vareški",
     "slika": "https://i.imgur.com/aMMLwCi.jpg",
     "name": "Monument to the Proština Uprising",
-    "year": "1971"
-  },
-  {
-    "koordinate": {
-      "lat": 41.52107387,
-      "lng": 20.52691134
-    },
-    "title": "Debar",
-    "slika": "https://i.imgur.com/Y7XfizX.jpg",
-    "name": "Cultural Center (Centar za Kultura)",
     "year": "1971"
   },
   {
@@ -5416,15 +5141,6 @@
   },
   {
     "koordinate": {
-      "lat": 44.91156396,
-      "lng": 13.72737186
-    },
-    "title": "Tito's Home on Vanga",
-    "info": "https://www.spomenikdatabase.org/post/examining-the-34-villas-of-yugoslav-president-josip-broz-tito",
-    "slika": "https://i.imgur.com/ZeM4yuP.jpg"
-  },
-  {
-    "koordinate": {
       "lat": 44.91130182,
       "lng": 13.72745769
     },
@@ -5434,25 +5150,6 @@
     "name": "Tito Memorial Fountain",
     "year": "1980",
     "author": "Janez Lenassi"
-  },
-  {
-    "koordinate": {
-      "lat": 44.91031595,
-      "lng": 13.75568259
-    },
-    "title": "Tito's White Villa",
-    "info": "https://www.spomenikdatabase.org/post/examining-the-34-villas-of-yugoslav-president-josip-broz-tito",
-    "slika": "https://i.imgur.com/Y1rAFzH.jpg"
-  },
-  {
-    "koordinate": {
-      "lat": 46.15021427,
-      "lng": 15.04408704
-    },
-    "title": "Trbovlje",
-    "slika": "https://i.imgur.com/2DvS4cp.jpg",
-    "name": "The Worker's House (Youth Center)",
-    "year": "1956"
   },
   {
     "koordinate": {
@@ -5534,16 +5231,6 @@
   },
   {
     "koordinate": {
-      "lat": 46.08241617,
-      "lng": 15.6839283
-    },
-    "title": "Kumrovec [in ruins]",
-    "slika": "https://i.imgur.com/qxvUUmx.jpg",
-    "name": "Political School \"Josip Broz Tito\"",
-    "year": "1981"
-  },
-  {
-    "koordinate": {
       "lat": 44.98629925,
       "lng": 16.77757348
     },
@@ -5599,15 +5286,6 @@
     "slika": "https://i.imgur.com/N5Pfqxw.jpg",
     "name": "Monument to Ship Builders",
     "year": "1965"
-  },
-  {
-    "koordinate": {
-      "lat": 44.30607461,
-      "lng": 15.4731495
-    },
-    "title": "Tito's Bunker at Paklenica",
-    "info": "https://www.thedubrovniktimes.com/news/croatia/item/1024-national-park-transforms-tito-s-war-bunkers-into-attraction",
-    "slika": "https://i.imgur.com/Tz7Va0v.jpg"
   },
   {
     "koordinate": {
@@ -5729,26 +5407,6 @@
   },
   {
     "koordinate": {
-      "lat": 44.47987519,
-      "lng": 21.66724908
-    },
-    "title": "Kučevo",
-    "slika": "https://i.imgur.com/tXVpuJE.jpg",
-    "name": "Centar za kulturu (Cultural Center)",
-    "year": "1980"
-  },
-  {
-    "koordinate": {
-      "lat": 44.66403058,
-      "lng": 20.92479218
-    },
-    "title": "Smederevo",
-    "slika": "https://i.imgur.com/7DdPBmc.jpg",
-    "name": "Centar za kulturu (Cultural Center)",
-    "year": "1978"
-  },
-  {
-    "koordinate": {
       "lat": 44.8988636,
       "lng": 21.42330219
     },
@@ -5790,61 +5448,12 @@
   },
   {
     "koordinate": {
-      "lat": 45.59392299,
-      "lng": 20.13221012
-    },
-    "title": "Novi Bečej",
-    "slika": "https://i.imgur.com/6tYGXKs.jpg",
-    "name": "Dom Kulture (House of Culture)",
-    "year": "1976"
-  },
-  {
-    "koordinate": {
-      "lat": 45.30528748,
-      "lng": 14.53498173
-    },
-    "title": "Bakar",
-    "slika": "https://i.imgur.com/tysPkCS.jpg",
-    "name": "Dom Kulture (House of Culture)",
-    "year": "1976"
-  },
-  {
-    "koordinate": {
       "lat": 42.43873382,
       "lng": 18.69164394
     },
     "title": "Tivat",
     "slika": "https://i.imgur.com/fouxFqW.jpg",
     "year": "1985"
-  },
-  {
-    "koordinate": {
-      "lat": 43.14275131,
-      "lng": 21.27060938
-    },
-    "title": "Kuršumlija [in ruins]",
-    "slika": "https://i.imgur.com/GF1iw82.jpg",
-    "name": "Dom kulture (House of Culture)",
-    "year": "1987"
-  },
-  {
-    "koordinate": {
-      "lat": 44.65811644,
-      "lng": 20.20001629
-    },
-    "title": "Obrenovac",
-    "slika": "https://i.imgur.com/LP4e547.jpg",
-    "name": "Dom Kulture (House of Culture)",
-    "year": "1982"
-  },
-  {
-    "koordinate": {
-      "lat": 45.71172138,
-      "lng": 16.06702186
-    },
-    "title": "Velika Gorica",
-    "slika": "https://i.imgur.com/GFKmWkD.jpg",
-    "name": "Dom Kulture (House of Culture)"
   },
   {
     "koordinate": {
@@ -5932,107 +5541,6 @@
     "slika": "https://i.imgur.com/EQ5bO9K.jpg",
     "name": "Monument to Fallen Dockworkers",
     "year": "1954"
-  },
-  {
-    "koordinate": {
-      "lat": 42.69652186,
-      "lng": 18.48850409
-    },
-    "title": "Vila Lastva",
-    "info": "https://www.spomenikdatabase.org/post/examining-the-34-villas-of-yugoslav-president-josip-broz-tito",
-    "slika": "https://i.imgur.com/YZ0gPdf.jpg",
-    "year": "1954"
-  },
-  {
-    "koordinate": {
-      "lat": 45.14487296,
-      "lng": 19.61934485
-    },
-    "title": "Vila Ravne",
-    "info": "https://www.spomenikdatabase.org/post/examining-the-34-villas-of-yugoslav-president-josip-broz-tito",
-    "slika": "https://i.imgur.com/9S2qIGT.jpg"
-  },
-  {
-    "koordinate": {
-      "lat": 46.27308608,
-      "lng": 14.37707463
-    },
-    "title": "Brdo Castle",
-    "info": "https://www.spomenikdatabase.org/post/examining-the-34-villas-of-yugoslav-president-josip-broz-tito",
-    "slika": "https://i.imgur.com/XnTBh6m.jpg"
-  },
-  {
-    "koordinate": {
-      "lat": 45.69884556,
-      "lng": 18.83387603
-    },
-    "title": "Tikveš Castle",
-    "info": "https://www.spomenikdatabase.org/post/examining-the-34-villas-of-yugoslav-president-josip-broz-tito",
-    "slika": "https://i.imgur.com/0SMamhH.jpg"
-  },
-  {
-    "koordinate": {
-      "lat": 45.47889729,
-      "lng": 14.58788552
-    },
-    "title": "Lividraga Lodge",
-    "info": "https://www.spomenikdatabase.org/post/examining-the-34-villas-of-yugoslav-president-josip-broz-tito",
-    "slika": "https://i.imgur.com/p3khZLE.jpg"
-  },
-  {
-    "koordinate": {
-      "lat": 44.90281534,
-      "lng": 15.57173049
-    },
-    "title": "Vila Izvor/Objekt 99 [in ruins]",
-    "info": "https://www.spomenikdatabase.org/post/examining-the-34-villas-of-yugoslav-president-josip-broz-tito",
-    "slika": "https://i.imgur.com/ishR7F0.jpg"
-  },
-  {
-    "koordinate": {
-      "lat": 42.26149566,
-      "lng": 18.8932816
-    },
-    "title": "Villa Miločer",
-    "info": "https://www.spomenikdatabase.org/post/examining-the-34-villas-of-yugoslav-president-josip-broz-tito",
-    "slika": "https://i.imgur.com/ibeslfD.jpg"
-  },
-  {
-    "koordinate": {
-      "lat": 43.73543149,
-      "lng": 19.70626987
-    },
-    "title": "Vila Zlatibor",
-    "info": "https://www.spomenikdatabase.org/post/examining-the-34-villas-of-yugoslav-president-josip-broz-tito",
-    "slika": "https://i.imgur.com/XNVHJnF.jpg"
-  },
-  {
-    "koordinate": {
-      "lat": 44.77025283,
-      "lng": 20.44876433
-    },
-    "title": "The White Palace",
-    "info": "https://www.spomenikdatabase.org/post/examining-the-34-villas-of-yugoslav-president-josip-broz-tito",
-    "slika": "https://i.imgur.com/Zy3142r.jpg"
-  },
-  {
-    "koordinate": {
-      "lat": 43.80834896,
-      "lng": 18.28849174
-    },
-    "title": "Vila Stojčevac [in ruins]",
-    "info": "https://www.spomenikdatabase.org/post/examining-the-34-villas-of-yugoslav-president-josip-broz-tito",
-    "slika": "https://i.imgur.com/t6Tc8Wa.jpg",
-    "year": "1959"
-  },
-  {
-    "koordinate": {
-      "lat": 46.07654439,
-      "lng": 15.6754408
-    },
-    "title": "Vila Kumrovec",
-    "info": "https://www.kumrovec.hr/titova-vila-kumrovec/",
-    "slika": "https://i.imgur.com/yV4Kqum.jpg"
   },
   {
     "koordinate": {
@@ -6196,24 +5704,6 @@
     "title": "Sveti Grgur",
     "slika": "https://i.imgur.com/VE8BzRV.jpg",
     "name": "Tito Memorial Hillside Sign"
-  },
-  {
-    "koordinate": {
-      "lat": 45.19456046,
-      "lng": 14.09235711
-    },
-    "title": "Potpićan",
-    "slika": "https://i.imgur.com/5yYo1H6.jpg",
-    "name": "Tito sign on old mine building"
-  },
-  {
-    "koordinate": {
-      "lat": 45.08974942,
-      "lng": 14.12080998
-    },
-    "title": "Labin",
-    "slika": "https://i.imgur.com/MUbNyp5.jpg",
-    "name": "Tito sign on old factory tower"
   },
   {
     "koordinate": {
@@ -7207,16 +6697,6 @@
   },
   {
     "koordinate": {
-      "lat": 45.6737061,
-      "lng": 18.97933462
-    },
-    "title": "Apatin",
-    "slika": "https://i.imgur.com/gdgEWCq.jpg",
-    "name": "House of Culture",
-    "year": "1950"
-  },
-  {
-    "koordinate": {
       "lat": 45.74612048,
       "lng": 16.37114386
     },
@@ -8003,15 +7483,6 @@
     "slika": "https://i.imgur.com/KyOFvrh.jpg",
     "name": "Monument to Fallen Fighters",
     "year": "1955"
-  },
-  {
-    "koordinate": {
-      "lat": 45.57470229,
-      "lng": 14.80254661
-    },
-    "title": "Škrilj Nuclear Bunker",
-    "slika": "https://i.imgur.com/uv4WoaI.jpg",
-    "name": "Škrilj Underground Nuclear Bunker"
   },
   {
     "koordinate": {

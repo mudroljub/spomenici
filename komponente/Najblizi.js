@@ -1,0 +1,145 @@
+import {mapa} from '../klase/mapa.js'
+
+const brojNajblizih = 10
+
+const style = document.createElement('style')
+style.textContent = `
+  :host {
+    font: 16px system-ui, sans-serif;
+  }
+
+  #dugme {
+    background: white;
+    border: none;
+    border-radius: 22px;
+    bottom: calc(var(--visina-slajdera) + 2px);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+    font: inherit;
+    min-height: 44px;
+    padding: 0 16px;
+    position: fixed;
+    right: 56px;
+    z-index: 1;
+  }
+
+  #panel {
+    background: white;
+    border-radius: 12px 12px 0 0;
+    bottom: 0;
+    box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.3);
+    left: 0;
+    max-height: 50vh;
+    overflow-y: auto;
+    position: fixed;
+    right: 0;
+    z-index: 1000;
+  }
+
+  header {
+    align-items: center;
+    background: white;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    font-weight: bold;
+    justify-content: space-between;
+    padding-left: 16px;
+    position: sticky;
+    top: 0;
+  }
+
+  header button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    height: 44px;
+    width: 44px;
+  }
+
+  ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+    display: flex;
+    gap: 12px;
+    padding: 12px 16px;
+  }
+
+  .km {
+    flex: none;
+    font-weight: bold;
+    min-width: 52px;
+  }
+
+  .opis {
+    color: #666;
+    display: block;
+    font-size: 14px;
+  }
+`
+
+export default class Najblizi extends HTMLElement {
+  constructor() {
+    super()
+    this.stavke = []
+
+    this.dugme = document.createElement('button')
+    this.dugme.id = 'dugme'
+    this.dugme.textContent = 'Nearby'
+    this.dugme.hidden = true
+    this.dugme.addEventListener('click', () => this.panel.hidden = false)
+
+    this.panel = document.createElement('section')
+    this.panel.id = 'panel'
+    this.panel.hidden = true
+    this.panel.innerHTML = '<header>Nearby<button title="Close">×</button></header>'
+    this.panel.querySelector('button').addEventListener('click', () => this.panel.hidden = true)
+    this.lista = document.createElement('ol')
+    this.panel.appendChild(this.lista)
+
+    this.attachShadow({mode: 'open'})
+    this.shadowRoot.append(style, this.dugme, this.panel)
+
+    mapa.on('pozicija', ({latlng}) => {
+      this.pozicija = latlng
+      this.prikazi()
+    })
+  }
+
+  postavi(stavke) {
+    this.stavke = stavke
+    this.prikazi()
+  }
+
+  prikazi() {
+    if (!this.pozicija) return
+    this.dugme.hidden = false
+    const najblize = this.stavke
+      .map(stavka => ({stavka, metara: mapa.distance(this.pozicija, stavka.marker.dajPoziciju())}))
+      .sort((a, b) => a.metara - b.metara)
+      .slice(0, brojNajblizih)
+
+    this.lista.replaceChildren(...najblize.map(({stavka, metara}) => this.praviRed(stavka, metara)))
+  }
+
+  praviRed(stavka, metara) {
+    const {title, name} = stavka.spomenik
+    const red = document.createElement('li')
+    red.innerHTML = '<span class="km"></span><span><span class="naziv"></span><span class="opis"></span></span>'
+    red.querySelector('.km').textContent = `${Math.round(metara / 1000)} km`
+    const naziv = (name || '').replace(/<[^>]*>/g, '')
+    red.querySelector('.naziv').textContent = naziv || title
+    red.querySelector('.opis').textContent = naziv ? title : ''
+    red.addEventListener('click', () => {
+      this.panel.hidden = true
+      stavka.marker.otvoriProzor()
+    })
+    return red
+  }
+}
+
+customElements.define('lista-najblizih', Najblizi)

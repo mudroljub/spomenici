@@ -5,11 +5,17 @@ export const $ = s => document.querySelectorAll(s).length > 1
   : document.querySelector(s)
 
 
-export function praviUrl(koord) {
-  const koordUrl = `${koord.lat},${koord.lng}`
-  const androidUrl = `geo:${koord.lat},${koord.lng}`
-  const browserUrl = `https://www.google.com/maps/place/${koordUrl}`
-  return /(android)/i.test(navigator.userAgent) ? androidUrl : browserUrl
+export function mestoUrl({lat, lng}) {
+  return /android/i.test(navigator.userAgent)
+    ? `geo:${lat},${lng}`
+    : `https://www.google.com/maps/place/${lat},${lng}`
+}
+
+export function navigacijaUrl({lat, lng}) {
+  const odrediste = `${lat},${lng}`
+  return /iPhone|iPad|iPod/.test(navigator.userAgent)
+    ? `https://maps.apple.com/?daddr=${odrediste}`
+    : `https://www.google.com/maps/dir/?api=1&destination=${odrediste}`
 }
 
 const entiteti = {'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', '\'': '&#39;'}
