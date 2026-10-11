@@ -18,6 +18,10 @@ export function navigacijaUrl({lat, lng}) {
     : `https://www.google.com/maps/dir/?api=1&destination=${odrediste}`
 }
 
+// imgur pravi umanjene verzije dodavanjem slova na id: m = 320px, l = 640px
+export const umanjenaSlika = (url, velicina) =>
+  url.replace(/^(https:\/\/i\.imgur\.com\/\w{7})\.(jpe?g|png)$/, `$1${velicina}.$2`)
+
 const entiteti = {'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', '\'': '&#39;'}
 
 export const escapeHtml = tekst => String(tekst).replace(/[&<>"']/g, z => entiteti[z])

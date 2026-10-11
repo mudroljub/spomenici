@@ -40,6 +40,29 @@ h1 {
   filter: drop-shadow(3px 5px 3px rgba(0, 0, 0, 0.5));
 }
 
+.akcije {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.akcije a {
+  border: 1px solid #822323;
+  border-radius: 20px;
+  color: #822323;
+  padding: 10px 14px;
+  text-decoration: none;
+}
+
+.akcije a.glavna {
+  background: #822323;
+  color: #fff;
+}
+
+.leaflet-popup-content img {
+  max-height: 40vh;
+}
+
 .podnaslov {
   font-size: 24px;
   display: block;

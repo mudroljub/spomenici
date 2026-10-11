@@ -12,6 +12,24 @@ const konfigMape = {
 
 export const mapa = L.map('mapa', konfigMape) // singlton
 
+// pozicija korisnika iznad markera, da je ne prekriju
+mapa.createPane('korisnik').style.zIndex = 650
+
+const sloj = L.layerGroup().addTo(mapa)
+let prikazani = []
+
+// izdaleka su obelisci manji, da se manje preklapaju
+const prilagodiVelicinu = () => prikazani.forEach(marker => marker.prilagodi(mapa.getZoom()))
+
+mapa.on('zoomend', prilagodiVelicinu)
+
+export const postaviMarkere = markeri => {
+  prikazani = markeri
+  sloj.clearLayers()
+  markeri.forEach(marker => sloj.addLayer(marker.element))
+  prilagodiVelicinu()
+}
+
 const centerMap = e => {
   const sidro = mapa.project(e.popup._latlng) // projektuje koordinate u pikselima
   sidro.y -= e.popup._container.clientHeight / 2

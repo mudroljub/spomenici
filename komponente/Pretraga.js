@@ -1,8 +1,38 @@
-const css = `
-  position: absolute;
-  right: 10px;
-  top: 4px;
-  z-index: 1;
+// font od 16px sprecava da iPhone uvecava stranicu pri kucanju
+const style = document.createElement('style')
+style.textContent = `
+  polje-pretraga {
+    display: flex;
+    gap: 6px;
+    left: 60px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 1;
+  }
+
+  polje-pretraga input,
+  polje-pretraga select {
+    background: white;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+    font: 16px system-ui, sans-serif;
+    height: 40px;
+    padding: 0 12px;
+  }
+
+  polje-pretraga input {
+    flex: 1;
+    min-width: 0;
+  }
+
+  @media (min-width: 600px) {
+    polje-pretraga {
+      left: auto;
+      width: 400px;
+    }
+  }
 `
 
 const polja = ['title', 'name', 'author', 'year']
@@ -14,6 +44,8 @@ const kategorije = {
   muzej: 'Museums',
 }
 
+const podrazumevanaKategorija = 'spomenik'
+
 const praviTekst = spomenik => polja
   .map(polje => spomenik[polje] || '')
   .join(' ')
@@ -23,7 +55,6 @@ const praviTekst = spomenik => polja
 export default class Pretraga extends HTMLElement {
   constructor(stavke, callback) {
     super()
-    this.style.cssText = css
     this.polje = document.createElement('input')
     this.polje.id = 'pretraga'
     this.polje.placeholder = '🔍'
@@ -37,14 +68,14 @@ export default class Pretraga extends HTMLElement {
   }
 
   connectedCallback() {
-    this.append(this.polje, this.kategorija)
+    this.append(style, this.polje, this.kategorija)
   }
 
   pretrazi(stavke, callback) {
     const fraza = this.polje.value.toLowerCase()
     const kategorija = this.kategorija.value
     const filtrirano = stavke.filter(({spomenik}) =>
-      (!kategorija || spomenik.type === kategorija) && praviTekst(spomenik).includes(fraza)
+      (!kategorija || (spomenik.type || podrazumevanaKategorija) === kategorija) && praviTekst(spomenik).includes(fraza)
     )
     callback(filtrirano)
   }

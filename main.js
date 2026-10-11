@@ -6,9 +6,8 @@ import Marker from './klase/Marker.js'
 import './komponente/PunEkran.js'
 import './komponente/Lokator.js'
 import {$} from './utils/helpers.js'
-import {mapa} from './klase/mapa.js'
+import {mapa, postaviMarkere} from './klase/mapa.js'
 
-const markeri = L.layerGroup().addTo(mapa)
 const najblizi = document.body.appendChild(new Najblizi())
 
 /* FUNKCIJE */
@@ -22,8 +21,7 @@ const praviStavku = spomenik => {
 const render = stavke => {
   $('#slajder-okvir').innerHTML = ''
   mapa.closePopup()
-  markeri.clearLayers()
-  stavke.forEach(({marker}) => markeri.addLayer(marker.element))
+  postaviMarkere(stavke.map(({marker}) => marker))
   const slike = stavke.map(({slika}) => slika).filter(Boolean)
   $('#slajder-okvir').appendChild(new Slajder(slike))
   najblizi.postavi(stavke)

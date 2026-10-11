@@ -5,6 +5,7 @@ class PunEkran extends HTMLElement {
   }
 
   connectedCallback() {
+    this.hidden = !document.fullscreenEnabled // npr. iPhone
     this.innerHTML = `
       <style>
         #ikonica {

@@ -6,8 +6,8 @@ const boja = '#1a73e8'
 class Lokator extends HTMLElement {
   constructor() {
     super()
-    this.oznaka = L.circleMarker([0, 0], {radius: 8, color: '#fff', weight: 2, fillColor: boja, fillOpacity: 1})
-    this.preciznost = L.circle([0, 0], {radius: 0, color: boja, weight: 1, fillOpacity: 0.1, interactive: false})
+    this.oznaka = L.circleMarker([0, 0], {radius: 8, color: '#fff', weight: 2, fillColor: boja, fillOpacity: 1, pane: 'korisnik'})
+    this.preciznost = L.circle([0, 0], {radius: 0, color: boja, weight: 1, fillOpacity: 0.1, interactive: false, pane: 'korisnik'})
     this.addEventListener('click', this.locirajMe)
   }
 
