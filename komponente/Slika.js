@@ -7,13 +7,15 @@ export default class Slika extends HTMLElement {
     this.slika.alt = this.slika.title = `Spomenik ${spomen.title}`
     this.slika.ondragstart = () => false // sprecava vucenje slike
     this.slika.onerror = () => this.style.display = 'none'
+    this.naziv = document.createElement('small')
+    this.naziv.textContent = this.naziv.title = spomen.title
 
     this.addEventListener('click', () => marker.otvoriProzor())
   }
 
   connectedCallback() {
     this.slika.src = this.url // da ne ucitava pre nego sto se doda u dom
-    this.appendChild(this.slika)
+    this.append(this.slika, this.naziv)
   }
 }
 

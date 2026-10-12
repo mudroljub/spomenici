@@ -95,6 +95,10 @@ style.textContent = `
     margin: 8px 0;
   }
 
+  .sadrzaj > p:last-child {
+    margin-bottom: 0;
+  }
+
   .stanje {
     background: #eee;
     border-radius: 4px;
@@ -125,15 +129,20 @@ style.textContent = `
     white-space: nowrap;
   }
 
-  /* mesto za sliku je odredjeno unapred, da panel ne skoci kad se slika ucita */
   img {
-    background: #efe9df;
-    border-radius: 8px;
+    border-radius: 8px 8px 0 0;
     display: block;
-    height: 30vh;
-    margin: 12px 0;
-    object-fit: contain;
+    height: auto;
+    margin: 12px 0 0;
     width: 100%;
+  }
+
+  .sadrzaj > img + .poseta {
+    margin-top: 0;
+  }
+
+  .sadrzaj > img + .poseta .oznaka {
+    border-radius: 0 0 9px 9px;
   }
 
   .akcije {
@@ -162,36 +171,65 @@ style.textContent = `
     color: #fff;
   }
 
-  /* jedna oznaka sa dve mogucnosti: delovi su spojeni u jedno dugme */
+  button:focus-visible,
+  a:focus-visible {
+    outline: 2px solid ${boja};
+    outline-offset: 3px;
+  }
+
+  .oznaka svg {
+    flex: none;
+    height: 18px;
+    width: 18px;
+  }
+
   .oznaka {
-    display: inline-flex;
+    background: #ece9e1;
+    border-radius: 9px;
+    box-sizing: border-box;
+    display: flex;
+    gap: 4px;
+    padding: 4px;
+    width: 100%;
   }
 
-  /* mesto za kvacicu je uvek rezervisano, da dugme ne promeni sirinu kad se pritisne */
-  .akcije .oznaka button {
-    border-radius: 0;
-    padding: 8px 22px;
-    position: relative;
+  .oznaka button {
+    align-items: center;
+    background: none;
+    border: none;
+    border-radius: 6px;
+    color: #555;
+    cursor: pointer;
+    display: flex;
+    flex: 1;
+    font: 14px system-ui, sans-serif;
+    gap: 6px;
+    justify-content: center;
+    min-height: 44px;
+    min-width: 0;
+    padding: 8px 6px;
   }
 
-  .akcije .oznaka button:first-child {
-    border-radius: 20px 0 0 20px;
+  .oznaka button:hover {
+    background: #fffdf8;
   }
 
-  .akcije .oznaka button:last-child {
-    border-left: none;
-    border-radius: 0 20px 20px 0;
+  .oznaka [data-oznaka="lista"][aria-pressed="true"] {
+    background: #f2df9e;
+    color: #594510;
   }
 
-  /* izabrano se razlikuje od glavne akcije: svetla pozadina i kvacica */
-  .akcije [aria-pressed="true"] {
+  .oznaka [data-oznaka="lista"][aria-pressed="true"] svg {
+    fill: currentColor;
+  }
+
+  .oznaka [data-oznaka="posetio"][aria-pressed="true"] {
+    background: #355d48;
+    color: #fff;
+  }
+
+  .akcije #ruta[aria-pressed="true"] {
     background: #f3e1dc;
-  }
-
-  .akcije .oznaka [aria-pressed="true"]::before {
-    content: '✓';
-    left: 8px;
-    position: absolute;
   }
 
   /* znak ima stalnu sirinu, da dugme ne promeni velicinu kad se pritisne */
@@ -216,8 +254,6 @@ const pokaziNaMapi = (marker, panel) => {
   const tacka = mapa.latLngToContainerPoint(marker.dajPoziciju())
   mapa.panBy(tacka.subtract(cilj))
 }
-
-const praviLink = id => `${location.origin}${location.pathname}#${encodeURIComponent(id)}`
 
 export default class Detalji extends HTMLElement {
   constructor() {
@@ -267,14 +303,13 @@ export default class Detalji extends HTMLElement {
           <a href="${escapeHtml(mestoUrl(spomen))}" target="_blank">Find place</a>
           <button id="ruta">Route</button>
         </p>
-        <p class="akcije">
-          <span class="oznaka" role="group" aria-label="My visit">
-            <button data-oznaka="lista">Want to visit</button>
-            <button data-oznaka="posetio">Visited</button>
-          </span>
-          <button id="podeli">Share</button>
-        </p>
         ${spomen.slika ? `<img src="${escapeHtml(spomen.slika)}" alt="" onerror="this.remove()">` : ''}
+        <p class="poseta">
+          <span class="oznaka" role="group" aria-label="My visit">
+            <button data-oznaka="lista"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M6 3h12v18l-6-4-6 4Z" stroke-linejoin="round"/></svg>Want to visit</button>
+            <button data-oznaka="posetio"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="m8 12 3 3 5-6" stroke-linecap="round" stroke-linejoin="round"/></svg>Visited</button>
+          </span>
+        </p>
       </div>
     `
     this.panel.querySelector('#zatvori').addEventListener('click', () => mapa.fire('izbor', {marker: null}))
@@ -286,7 +321,6 @@ export default class Detalji extends HTMLElement {
     this.panel.querySelector('#ruta').addEventListener('click', () =>
       uRuti(spomen.id) ? ukloniIzRute(spomen.id) : dodajURutu(spomen.id)
     )
-    this.panel.querySelector('#podeli').addEventListener('click', e => this.podeli(e.target))
     this.osveziOznake()
     this.osveziRutu()
 
@@ -325,16 +359,6 @@ export default class Detalji extends HTMLElement {
     this.panel.querySelector('#ruta').setAttribute('aria-pressed', uRuti(this.marker.spomen.id))
   }
 
-  podeli(dugme) {
-    const {title} = this.marker.spomen
-    const url = praviLink(this.marker.spomen.id)
-    if (navigator.share) return navigator.share({title, url}).catch(() => {})
-    if (!navigator.clipboard) return prompt('Copy link', url)
-    navigator.clipboard.writeText(url).then(() => {
-      dugme.textContent = 'Link copied'
-      setTimeout(() => dugme.textContent = 'Share', 2000)
-    })
-  }
 }
 
 customElements.define('detalji-spomenika', Detalji)
