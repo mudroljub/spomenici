@@ -18,8 +18,6 @@ live-server
 
 - ažurirati lokacije poređenjem sa google maps i drugim servisima
 - kategorizovati ostale spomenike preko javnih podataka, a nejasne proveriti po fotografiji
-- predefinisati spomeničke ture za obilaske? po republici, po vrsti spomenika i slično...
-- planer rute: izabrati više spomenika i izvesti ih kao GPX (za Garmin, OsmAnd, Kurviger) ili kao Google Maps link sa usputnim tačkama (do 10)
 - podaci za putnike: pristup (asfalt, makadam, pešačenje X min), parking, radno vreme i ulaznica za muzeje
 - jezici: srpski i engleski
 

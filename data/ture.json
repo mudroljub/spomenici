@@ -1,0 +1,315 @@
+[
+  {
+    "naziv": "Yugoslavia: The great monuments",
+    "spomenici": [
+      "petrova-gora",
+      "podgaric",
+      "jasenovac",
+      "kozara",
+      "jajce",
+      "mostar-partisan-cemetery",
+      "tjentiste",
+      "kadinjaca",
+      "kosmaj",
+      "krusevo-makedonium"
+    ]
+  },
+  {
+    "naziv": "Yugoslavia: The Adriatic coast",
+    "spomenici": [
+      "plovanija",
+      "crni-kal",
+      "podhum",
+      "vodice",
+      "split-lighthouse",
+      "makarska",
+      "podgora",
+      "zaostrog",
+      "ulcinj-freedom"
+    ]
+  },
+  {
+    "naziv": "Croatia and Bosnia: Banija, Jasenovac and Kozara",
+    "spomenici": [
+      "kozara",
+      "gornji-jelovac",
+      "gligino-brdo",
+      "slabinja",
+      "jasenovac",
+      "podgaric",
+      "sisak",
+      "petrova-gora"
+    ]
+  },
+  {
+    "naziv": "Croatia and Bosnia: Kordun, Lika and Grmeč",
+    "spomenici": [
+      "petrova-gora",
+      "bihac-garavice-park",
+      "korenica",
+      "vrtoce",
+      "grmec",
+      "medeno-polje",
+      "drvar",
+      "knin"
+    ]
+  },
+  {
+    "naziv": "Croatia and Serbia: Slavonia and Srem",
+    "spomenici": [
+      "donji-miholjac",
+      "batina",
+      "vukovar",
+      "sremska-mitrovitca",
+      "novi-sad",
+      "cenej"
+    ]
+  },
+  {
+    "naziv": "Serbia and Bosnia: Along the Drina",
+    "spomenici": [
+      "zlatibor",
+      "kadinjaca",
+      "bratunac",
+      "brstica",
+      "bela-crkva-start-uprising",
+      "draginac"
+    ]
+  },
+  {
+    "naziv": "Bosnia and Montenegro: Sutjeska and Nikšić",
+    "spomenici": [
+      "tjentiste",
+      "dola",
+      "grahovo",
+      "niksic-fallen-fighters",
+      "zupa-niksicka",
+      "obadov-brijeg",
+      "podgorica-mausoleum-partisans",
+      "kolasin"
+    ]
+  },
+  {
+    "naziv": "Serbia, Kosovo and Macedonia: Niš to Skopje",
+    "spomenici": [
+      "nis",
+      "vlasotince",
+      "leskovac",
+      "pristina-prishtine-brotherhood-unity",
+      "velanija-velanije",
+      "brezovica-brezovice",
+      "skopje-women-fighters"
+    ]
+  },
+  {
+    "naziv": "Slovenia",
+    "spomenici": [
+      "maribor-maribor-liberation",
+      "tito-square-in-velenje",
+      "mirna",
+      "zuzemberk",
+      "crnomelj",
+      "ilirska-bistrica",
+      "crni-kal",
+      "ljubljana",
+      "drazgose",
+      "begunje"
+    ]
+  },
+  {
+    "naziv": "Croatia: Zagreb and Zagorje",
+    "spomenici": [
+      "pleso",
+      "zagreb-december-victims",
+      "dotrscina",
+      "kumrovec",
+      "lepoglava",
+      "koprivnica"
+    ]
+  },
+  {
+    "naziv": "Croatia: Banija, Kordun and Moslavina",
+    "spomenici": [
+      "slabinja",
+      "jasenovac",
+      "podgaric",
+      "sisak",
+      "petrova-gora"
+    ]
+  },
+  {
+    "naziv": "Croatia: Istria and Kvarner",
+    "spomenici": [
+      "plovanija",
+      "podhum",
+      "lukovdol"
+    ]
+  },
+  {
+    "naziv": "Croatia: Slavonia",
+    "spomenici": [
+      "donji-miholjac",
+      "batina",
+      "vukovar"
+    ]
+  },
+  {
+    "naziv": "Croatia: Dalmatia",
+    "spomenici": [
+      "vodice",
+      "knin",
+      "sinj",
+      "kosute",
+      "split-lighthouse",
+      "makarska",
+      "podgora",
+      "zaostrog"
+    ]
+  },
+  {
+    "naziv": "Bosnia and Herzegovina: Kozara and Banja Luka",
+    "spomenici": [
+      "gligino-brdo",
+      "gornji-jelovac",
+      "kozara",
+      "sanski-most",
+      "banja-luka",
+      "jajce"
+    ]
+  },
+  {
+    "naziv": "Bosnia and Herzegovina: Grmeč and Bihać",
+    "spomenici": [
+      "glamoc",
+      "drvar",
+      "bravsko",
+      "grmec",
+      "medeno-polje",
+      "vodjenica",
+      "vrtoce",
+      "jasenica",
+      "bihac-garavice-park"
+    ]
+  },
+  {
+    "naziv": "Bosnia and Herzegovina: Sarajevo, Sutjeska and Mostar",
+    "spomenici": [
+      "tjentiste",
+      "sarajevo-vraca-park",
+      "vogosca",
+      "zenica",
+      "novi-travnik",
+      "makljen",
+      "mostar-partisan-cemetery"
+    ]
+  },
+  {
+    "naziv": "Serbia: Vojvodina",
+    "spomenici": [
+      "sremska-mitrovitca",
+      "novi-sad",
+      "cenej",
+      "ada",
+      "kikinda-victims-fascism",
+      "zrenjanin",
+      "titel",
+      "jabuka"
+    ]
+  },
+  {
+    "naziv": "Serbia: Belgrade and Šumadija",
+    "spomenici": [
+      "belgrade-cemetery",
+      "jajinci",
+      "avala",
+      "kosmaj",
+      "kragujevac-sumarice-park",
+      "ostra"
+    ]
+  },
+  {
+    "naziv": "Serbia: Western Serbia",
+    "spomenici": [
+      "draginac",
+      "brstica",
+      "bela-crkva-start-uprising",
+      "kadinjaca",
+      "zlatibor",
+      "cacak"
+    ]
+  },
+  {
+    "naziv": "Serbia: Eastern Serbia",
+    "spomenici": [
+      "pozarevac",
+      "majdanpek",
+      "zajecar"
+    ]
+  },
+  {
+    "naziv": "Serbia: Central and Southern Serbia",
+    "spomenici": [
+      "brzece",
+      "kraljevo-park-14th-october",
+      "popina",
+      "krusevac",
+      "nis",
+      "leskovac",
+      "vlasotince"
+    ]
+  },
+  {
+    "naziv": "Kosovo",
+    "spomenici": [
+      "mitrovica-mitrovice",
+      "pristina-prishtine-brotherhood-unity",
+      "velanija-velanije",
+      "brezovica-brezovice"
+    ]
+  },
+  {
+    "naziv": "Montenegro: North",
+    "spomenici": [
+      "dola",
+      "grahovo",
+      "niksic-fallen-fighters",
+      "zupa-niksicka",
+      "obadov-brijeg",
+      "kolasin",
+      "andrijevica",
+      "berane"
+    ]
+  },
+  {
+    "naziv": "Montenegro: Podgorica and the coast",
+    "spomenici": [
+      "vranjske-njive",
+      "podgorica-mausoleum-partisans",
+      "barutana",
+      "golubovci",
+      "ulcinj-freedom"
+    ]
+  },
+  {
+    "naziv": "Macedonia: West",
+    "spomenici": [
+      "skopje-women-fighters",
+      "prilep",
+      "krusevo-makedonium",
+      "botun",
+      "struga",
+      "otesevo"
+    ]
+  },
+  {
+    "naziv": "Macedonia: East",
+    "spomenici": [
+      "mitrasinci",
+      "kocani",
+      "stip-partisan-s-necropolis",
+      "veles",
+      "kavadarci-ossuary-fallen-fighters",
+      "gevgelija"
+    ]
+  }
+]

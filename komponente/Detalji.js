@@ -1,6 +1,7 @@
 import {mapa} from '../klase/mapa.js'
 import {mestoUrl, navigacijaUrl, escapeHtml, naziviStanja, nestao} from '../utils/helpers.js'
 import {dajOznaku, postaviOznaku, promene} from '../utils/oznake.js'
+import {uRuti, dodajURutu, ukloniIzRute, promeneRute} from '../utils/ruta.js'
 
 const boja = '#822323'
 
@@ -155,13 +156,28 @@ style.textContent = `
   }
 
   /* izabrano se razlikuje od glavne akcije: svetla pozadina i kvacica */
-  .akcije .oznaka [aria-pressed="true"] {
+  .akcije [aria-pressed="true"] {
     background: #f3e1dc;
     font-weight: 600;
   }
 
-  .akcije .oznaka [aria-pressed="true"]::before {
+  .akcije [aria-pressed="true"]::before {
     content: '✓ ';
+  }
+
+  /* znak ima stalnu sirinu, da dugme ne promeni velicinu kad se pritisne */
+  .akcije #ruta::before {
+    content: '+';
+    display: inline-block;
+    width: 1em;
+  }
+
+  .akcije #ruta[aria-pressed="true"] {
+    font-weight: normal;
+  }
+
+  .akcije #ruta[aria-pressed="true"]::before {
+    content: '✓';
   }
 `
 
@@ -193,6 +209,7 @@ export default class Detalji extends HTMLElement {
     mapa.on('izbor', ({marker}) => marker ? this.prikazi(marker) : this.sakrij())
     mapa.on('click', () => this.marker && mapa.fire('izbor', {marker: null}))
     promene.addEventListener('promena', () => this.marker && this.osveziOznake())
+    promeneRute.addEventListener('promena', () => this.marker && this.osveziRutu())
   }
 
   prikazi(marker) {
@@ -219,6 +236,7 @@ export default class Detalji extends HTMLElement {
         <p class="akcije">
           <a href="${escapeHtml(navigacijaUrl(spomen.koordinate))}" target="_blank" class="glavna">Navigate</a>
           <a href="${escapeHtml(mestoUrl(spomen.koordinate))}">Find place</a>
+          <button id="ruta">Route</button>
         </p>
         <p class="akcije">
           <span class="oznaka" role="group" aria-label="My visit">
@@ -235,8 +253,12 @@ export default class Detalji extends HTMLElement {
     this.panel.querySelectorAll('[data-oznaka]').forEach(dugme => dugme.addEventListener('click', () =>
       postaviOznaku(spomen.id, dajOznaku(spomen.id) === dugme.dataset.oznaka ? null : dugme.dataset.oznaka)
     ))
+    this.panel.querySelector('#ruta').addEventListener('click', () =>
+      uRuti(spomen.id) ? ukloniIzRute(spomen.id) : dodajURutu(spomen.id)
+    )
     this.panel.querySelector('#podeli').addEventListener('click', e => this.podeli(e.target))
     this.osveziOznake()
+    this.osveziRutu()
 
     this.panel.hidden = false
     this.panel.scrollTop = 0
@@ -267,6 +289,10 @@ export default class Detalji extends HTMLElement {
     this.panel.querySelectorAll('[data-oznaka]').forEach(dugme =>
       dugme.setAttribute('aria-pressed', dajOznaku(this.marker.spomen.id) === dugme.dataset.oznaka)
     )
+  }
+
+  osveziRutu() {
+    this.panel.querySelector('#ruta').setAttribute('aria-pressed', uRuti(this.marker.spomen.id))
   }
 
   podeli(dugme) {

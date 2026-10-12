@@ -3,6 +3,7 @@ import Pretraga from './komponente/Pretraga.js'
 import Slajder from './komponente/Slajder.js'
 import Najblizi from './komponente/Najblizi.js'
 import Detalji from './komponente/Detalji.js'
+import Ruta from './komponente/Ruta.js'
 import Marker from './klase/Marker.js'
 import './komponente/PunEkran.js'
 import './komponente/Lokator.js'
@@ -11,6 +12,7 @@ import {mapa, postaviMarkere} from './klase/mapa.js'
 
 const najblizi = document.body.appendChild(new Najblizi())
 const detalji = document.body.appendChild(new Detalji())
+const ruta = document.body.appendChild(new Ruta())
 
 /* FUNKCIJE */
 
@@ -44,11 +46,12 @@ if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js')
 
 const ucitaj = putanja => fetch(putanja).then(res => res.json())
 
-Promise.all([ucitaj('data/spomeniks.json'), ucitaj('data/autori.json')])
-  .then(([spomenici, autori]) => {
+Promise.all([ucitaj('data/spomeniks.json'), ucitaj('data/autori.json'), ucitaj('data/ture.json')])
+  .then(([spomenici, autori, ture]) => {
     detalji.postaviAutore(autori)
     const stavke = spomenici.map(praviStavku)
     render(stavke)
+    ruta.postavi(stavke, ture)
     document.body.appendChild(new Pretraga(stavke, render))
     otvoriIzLinka(stavke)
   })
