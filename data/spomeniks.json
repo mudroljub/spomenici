@@ -1518,9 +1518,10 @@
   {
     "id": "plavno",
     "koordinate": {
-      "lat": 44.20873693,
-      "lng": 16.16986555
+      "lat": 44.206808,
+      "lng": 16.1727288
     },
+    "googleCid": "15623342865197150295",
     "title": "Plavno",
     "slika": "slike/spomenici/plavno.webp",
     "name": "Monument to the Uprising",

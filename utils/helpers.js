@@ -16,7 +16,8 @@ export const naziviStanja = {
 // uklonjen spomenik vise nema sta da se obidje; od srusenog obicno ostanu delovi
 export const nestao = stanje => stanje === 'uklonjen'
 
-export function mestoUrl({lat, lng}) {
+export function mestoUrl({koordinate: {lat, lng}, googleCid}) {
+  if (googleCid) return `https://maps.google.com/?cid=${googleCid}`
   return /android/i.test(navigator.userAgent)
     ? `geo:${lat},${lng}`
     : `https://www.google.com/maps/place/${lat},${lng}`
