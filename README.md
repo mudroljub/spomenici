@@ -27,6 +27,7 @@ otvorena pitanja:
 - sepia filter na celom `body`: da li usporava pomeranje mape na slabijim telefonima? proveriti na pravom uređaju pre izmene
 - preimenovati aplikaciju u spomeniks? razlozi za i protiv, seo, pretraga i slično.
 - ko je dodao tekst na mapi: Kosovo declared independence 2008??? ukloni to ako moze
+- probaj Want to visit / Visited da bude ispod slike
 
 ## Ocene
 

@@ -1,10 +1,7 @@
 // TODO: proslediti visina-slajdera kao props
 const style = document.createElement('style')
 
-let dirnutX = 0
-let pustenX = 0
-const pomeraj = Math.round(window.innerWidth / 2)
-const inicijalnoSlika = Math.round(window.innerWidth / 70)
+const inicijalnoSlika = Math.max(1, Math.round(window.innerWidth / 70))
 
 style.textContent = `
   :host {
@@ -42,26 +39,51 @@ style.textContent = `
 
   div {
     display: flex;
-    overflow: hidden;
-    transition: margin-left 0.4s ease;
+    min-width: 0;
+    overflow-x: auto;
+    scrollbar-width: none;
+    touch-action: pan-x;
+    user-select: none;
+    width: 100%;
+  }
+
+  div::-webkit-scrollbar {
+    display: none;
+  }
+
+  div.vucenje, div.vucenje * {
+    cursor: grabbing;
+  }
+
+  nav-slika {
+    flex: none;
+    height: var(--visina-slajdera);
+    position: relative;
+    cursor: pointer;
   }
 
   div img {
     display: block;
-    height: var(--visina-slajdera);
-    cursor: all-scroll;
+    height: calc(var(--visina-slajdera) - 24px);
+    cursor: pointer;
   }
 
-  @media(min-width: 600px) {
-    div {
-      transition: margin-left 0.6s ease;
-    }
+  nav-slika small {
+    background: #29241e;
+    bottom: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font: 12px/24px system-ui, sans-serif;
+    left: 0;
+    overflow: hidden;
+    padding: 0 6px;
+    position: absolute;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
   }
-  @media(min-width: 1200px) {
-    div {
-      transition: margin-left 0.8s ease;
-    }
-  }
+
 `
 
 const praviStrelicu = tacke =>
@@ -86,7 +108,6 @@ export default class Slajder extends HTMLElement {
     this.shadowRoot.appendChild(this.traka)
     this.shadowRoot.appendChild(style)
 
-    this.traka.style.marginLeft = 0 // pocetni polozaj
     this.dodajDogadjaje()
   }
 
@@ -97,49 +118,61 @@ export default class Slajder extends HTMLElement {
   dodajDogadjaje() {
     this.mrdajLevo = this.mrdajLevo.bind(this)
     this.mrdajDesno = this.mrdajDesno.bind(this)
-    this.mrdajVuceno = this.mrdajVuceno.bind(this)
 
     this.strelicaLeva.addEventListener('click', this.mrdajDesno)
     this.strelicaDesna.addEventListener('click', this.mrdajLevo)
 
-    this.traka.addEventListener('touchstart', e => dirnutX = e.changedTouches[0].screenX)
-    this.traka.addEventListener('mousedown', e => dirnutX = e.clientX)
-    this.traka.addEventListener('touchend', this.mrdajVuceno)
-    this.traka.addEventListener('mouseup', this.mrdajVuceno)
+    this.traka.addEventListener('pointerdown', e => {
+      this.prevuceno = false
+      if (e.pointerType !== 'mouse' || e.button !== 0) return
+      this.vucenje = {id: e.pointerId, x: e.clientX, pocetak: this.traka.scrollLeft}
+    })
+    this.traka.addEventListener('pointermove', e => {
+      if (!this.vucenje || e.pointerId !== this.vucenje.id) return
+      const pomeraj = this.vucenje.x - e.clientX
+      if (!this.prevuceno && Math.abs(pomeraj) < 5) return
+      this.prevuceno = true
+      this.traka.setPointerCapture(e.pointerId)
+      this.traka.classList.add('vucenje')
+      this.traka.scrollLeft = this.vucenje.pocetak + pomeraj
+      e.preventDefault()
+    })
+    const zavrsiVucenje = () => {
+      this.vucenje = null
+      this.traka.classList.remove('vucenje')
+    }
+    this.traka.addEventListener('pointerup', zavrsiVucenje)
+    this.traka.addEventListener('pointercancel', zavrsiVucenje)
+    this.traka.addEventListener('lostpointercapture', zavrsiVucenje)
+    this.traka.addEventListener('pointerleave', () => {
+      if (!this.prevuceno) zavrsiVucenje()
+    })
+    this.traka.addEventListener('click', e => {
+      if (!this.prevuceno) return
+      e.preventDefault()
+      e.stopPropagation()
+    }, true)
+    const ucitajAkoTreba = () => {
+      if (this.traka.scrollWidth - this.traka.scrollLeft <= this.traka.clientWidth * 2) {
+        this.dodajSlikeAkoTreba()
+      }
+    }
+    this.traka.addEventListener('scroll', ucitajAkoTreba)
+    this.traka.addEventListener('load', ucitajAkoTreba, true)
+    this.traka.addEventListener('error', ucitajAkoTreba, true)
   }
 
   dodajSlikeAkoTreba() {
-    const brojUnetihSlika = this.traka.querySelectorAll('img').length
-    if (brojUnetihSlika >= this.slike.length) return
-    this.slike.forEach((slika, i) => {
-      if (i < brojUnetihSlika + inicijalnoSlika) this.traka.appendChild(slika)
-    })
-  }
-
-  jelMoze(korak, levaMargina) {
-    if (levaMargina + korak > 0) return false // sprecava desno
-
-    const sirinaSlika = [...this.traka.querySelectorAll('img')]
-      .reduce((acc, img) => acc + img.clientWidth, 0)
-    if (levaMargina - window.innerWidth < -sirinaSlika) return false // sprecava levo
-
-    return true
+    const brojUnetihSlika = this.traka.children.length
+    this.slike.slice(brojUnetihSlika, brojUnetihSlika + inicijalnoSlika)
+      .forEach(slika => this.traka.appendChild(slika))
   }
 
   mrdaj(jelDesno) {
     this.dodajSlikeAkoTreba()
 
-    const korak = jelDesno ? pomeraj : -pomeraj
-    const levaMargina = parseInt(this.traka.style.marginLeft)
-    if (!this.jelMoze(korak, levaMargina)) return
-
-    this.traka.style.marginLeft = `${levaMargina + korak}px`
-  }
-
-  mrdajVuceno(e) {
-    pustenX = e.type === 'mouseup' ? e.clientX : e.changedTouches[0].screenX
-    if (pustenX == dirnutX) return
-    this.mrdaj(pustenX > dirnutX)
+    const pomeraj = Math.round(this.traka.clientWidth / 2)
+    this.traka.scrollBy({left: jelDesno ? -pomeraj : pomeraj, behavior: 'smooth'})
   }
 
   mrdajDesno() {
