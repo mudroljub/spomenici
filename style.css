@@ -68,6 +68,17 @@ h1 {
   filter: grayscale(1) brightness(0.7) drop-shadow(0 0 3px #822323) drop-shadow(0 0 3px #822323);
 }
 
+/* broj stanice na ruti */
+.leaflet-marker-icon.broj-stanice {
+  background: #822323;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  box-sizing: border-box;
+  color: #fff;
+  font: bold 12px/18px system-ui, sans-serif;
+  text-align: center;
+}
+
 .podnaslov {
   font-size: 14px;
   display: block;

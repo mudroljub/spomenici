@@ -264,11 +264,20 @@ const najkraciRedosled = (polaziste, tacke) => {
   return put.slice(1)
 }
 
+// broj stanice stoji desno od podnozja obeliska, gde ga dodiruje linija rute
+const praviBroj = (marker, broj) => L
+  .marker(marker.dajPoziciju(), {
+    icon: L.divIcon({className: 'broj-stanice', html: broj, iconSize: [22, 22], iconAnchor: [-2, 20]}),
+    zIndexOffset: 2000,
+  })
+  .on('click', () => marker.otvoriProzor())
+
 export default class Ruta extends HTMLElement {
   constructor() {
     super()
     this.stavke = new Map()
     this.linija = L.polyline([], {color: boja, weight: 3, dashArray: '6 8', interactive: false})
+    this.brojevi = L.layerGroup().addTo(mapa)
 
     this.dugme = document.createElement('button')
     this.dugme.id = 'dugme'
@@ -316,7 +325,12 @@ export default class Ruta extends HTMLElement {
 
     promeneRute.addEventListener('promena', () => this.prikazi())
     mapa.on('izbor', ({marker}) => marker && (this.panel.hidden = true))
-    mapa.on('pozicija', ({latlng}) => this.pozicija = latlng)
+    // gotova tura izabrana pre lociranja se okrece cim se sazna odakle korisnik krece
+    mapa.on('pozicija', ({latlng}) => {
+      const prvaPozicija = !this.pozicija
+      this.pozicija = latlng
+      if (prvaPozicija && dajNaziv()) postaviRutu(this.usmeri(dajRutu()))
+    })
   }
 
   postavi(stavke, ture) {
@@ -362,6 +376,8 @@ export default class Ruta extends HTMLElement {
     this.linija.setLatLngs(stanice.map(({marker}) => marker.dajPoziciju()))
     if (stanice.length > 1) this.linija.addTo(mapa)
     else this.linija.remove()
+    this.brojevi.clearLayers()
+    stanice.forEach(({marker}, i) => this.brojevi.addLayer(praviBroj(marker, i + 1)))
 
     this.lista.replaceChildren(...stanice.map((stavka, i) => this.praviRed(stavka, i, stanice.length)))
     this.panel.querySelector('#google').href = googleUrl(stanice.map(({spomenik}) => spomenik))
@@ -403,7 +419,7 @@ export default class Ruta extends HTMLElement {
     red.querySelector('.ime').textContent = naziv
     red.querySelector('.opis').textContent = `${mesta.length} stops: ${mesta.join(', ')}`
     red.querySelector('button').addEventListener('click', () => {
-      izaberiTuru({naziv, spomenici})
+      izaberiTuru({naziv, spomenici: this.usmeri(spomenici)})
       this.prikaziKarticu('planer')
       this.pokaziTuru()
     })
@@ -422,6 +438,14 @@ export default class Ruta extends HTMLElement {
       paddingBottomRight: [30, dole + 20],
       maxZoom: 11,
     })
+  }
+
+  // tura se obilazi od kraja koji je blizi korisniku; bez lokacije ostaje kako je
+  usmeri(spomenici) {
+    const pozicije = spomenici.map(id => this.stavke.get(id)?.marker.dajPoziciju()).filter(Boolean)
+    if (!this.pozicija || pozicije.length < 2) return spomenici
+    const [prva, poslednja] = [pozicije[0], pozicije[pozicije.length - 1]]
+    return this.pozicija.distanceTo(poslednja) < this.pozicija.distanceTo(prva) ? [...spomenici].reverse() : spomenici
   }
 
   // polazi od korisnika ako je lociran, inace prva stanica ostaje prva
