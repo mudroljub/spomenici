@@ -31,6 +31,8 @@ const fajlovi = [
   'utils/oznake.js',
   'utils/ruta.js',
   'slike/obelisk.png',
+  'slike/obelisk-rusevina.png',
+  'slike/obelisk-uklonjen.png',
   'slike/ui/lokator.svg',
   'slike/ui/punekran.svg',
   'slike/ikone/logo-192.png',

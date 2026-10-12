@@ -16,6 +16,9 @@ export const naziviStanja = {
 // uklonjen spomenik vise nema sta da se obidje; od srusenog obicno ostanu delovi
 export const nestao = stanje => stanje === 'uklonjen'
 
+// srusen se racuna kao ruine, jer obicno ostanu postolje ili delovi
+export const ruine = stanje => stanje === 'rusevine' || stanje === 'srusen'
+
 export function mestoUrl({koordinate: {lat, lng}, googleCid}) {
   if (googleCid) return `https://maps.google.com/?cid=${googleCid}`
   return /android/i.test(navigator.userAgent)

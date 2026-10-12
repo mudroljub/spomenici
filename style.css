@@ -47,10 +47,6 @@ h1 {
 }
 
 /* oznake sa uredjaja i izabran spomenik */
-.leaflet-marker-icon.nestao {
-  filter: grayscale(1) brightness(0.7) drop-shadow(3px 5px 3px rgba(0, 0, 0, 0.5));
-}
-
 .leaflet-marker-icon.posecen {
   opacity: 0.5;
 }
@@ -62,10 +58,6 @@ h1 {
 .leaflet-marker-icon.izabran {
   filter: drop-shadow(0 0 3px #822323) drop-shadow(0 0 3px #822323);
   opacity: 1;
-}
-
-.leaflet-marker-icon.nestao.izabran {
-  filter: grayscale(1) brightness(0.7) drop-shadow(0 0 3px #822323) drop-shadow(0 0 3px #822323);
 }
 
 /* dugmad iznad slajdera: ruta, najblizi i lokacija u jednom redu */

@@ -16,7 +16,6 @@ live-server
 
 ### Ostalo
 
-- ažurirati lokacije poređenjem sa google maps i drugim servisima
 - za svaki spomenik upisati `googleCid`, broj Google mesta, iz koga se pravi trajni link `https://maps.google.com/?cid=…` sa komentarima, slikama i radnim vremenom
 - kategorizovati ostale spomenike preko javnih podataka, a nejasne proveriti po fotografiji
 - podaci za putnike: pristup (asfalt, makadam, pešačenje X min), parking, radno vreme i ulaznica za muzeje
@@ -29,5 +28,4 @@ otvorena pitanja:
 
 ## Ocene
 
-- loše je koristiti istu ikonicu za ruševinu i čitav spomenik, promena boje nije dovoljna. treba uvesti različite ikonice
 - imena spomenika su izmešana, neka na srpskom neka na engleskom. treba da budu sva na istom jeziku. podrazumevano je to srpski, odnosno sh.

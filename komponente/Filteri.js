@@ -1,11 +1,8 @@
 import {mapa} from '../klase/mapa.js'
-import {nestao} from '../utils/helpers.js'
+import {nestao, ruine} from '../utils/helpers.js'
 import {dajOznaku, promene} from '../utils/oznake.js'
 
 const boja = '#822323'
-
-// srusen se racuna kao ruine, jer obicno ostanu postolje ili delovi
-const ruine = stanje => stanje === 'rusevine' || stanje === 'srusen'
 
 // unutar grupe vazi bilo koja izabrana opcija (ili), a izmedju grupa sve (i)
 const praviGrupe = drzave => [
@@ -180,7 +177,8 @@ const legenda = `
     <img src="slike/obelisk.png" width="10" height="34" alt=""><span>Other monuments</span>
     <img src="slike/obelisk.png" width="10" height="34" alt="" style="filter: drop-shadow(0 0 3px #f2b705) drop-shadow(0 0 2px #f2b705)"><span>Want to visit</span>
     <img src="slike/obelisk.png" width="10" height="34" alt="" style="opacity: 0.5"><span>Visited</span>
-    <img src="slike/obelisk.png" width="10" height="34" alt="" style="filter: grayscale(1) brightness(0.7)"><span>Removed — nothing left to see</span>
+    <img src="slike/obelisk-rusevina.png" width="10" height="34" alt=""><span>Ruins</span>
+    <img src="slike/obelisk-uklonjen.png" width="10" height="34" alt=""><span>Removed — nothing left to see</span>
   </div>
 `
 
