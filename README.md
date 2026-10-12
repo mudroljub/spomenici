@@ -30,6 +30,4 @@ otvorena pitanja:
 ## Ocene
 
 - loše je koristiti istu ikonicu za ruševinu i čitav spomenik, promena boje nije dovoljna. treba uvesti različite ikonice
-- loše iskustvo kada klik na Want to visit promeni širinu dugmeta
 - imena spomenika su izmešana, neka na srpskom neka na engleskom. treba da budu sva na istom jeziku. podrazumevano je to srpski, odnosno sh.
-- navigate otvara novi prozor, find place ne. treba oba da otvaraju novi prozor

@@ -10,9 +10,10 @@ import './komponente/Lokator.js'
 import {$} from './utils/helpers.js'
 import {mapa, postaviMarkere} from './klase/mapa.js'
 
-const najblizi = document.body.appendChild(new Najblizi())
+const najblizi = new Najblizi()
+const ruta = new Ruta()
+$('#dugmad-dole').prepend(ruta, najblizi)
 const detalji = document.body.appendChild(new Detalji())
-const ruta = document.body.appendChild(new Ruta())
 
 /* FUNKCIJE */
 

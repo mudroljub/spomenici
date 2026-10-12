@@ -18,14 +18,11 @@ style.textContent = `
     background: white;
     border: none;
     border-radius: 22px;
-    bottom: calc(var(--visina-slajdera) + var(--dno) + 2px);
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
     font: inherit;
+    margin-right: 8px;
     min-height: 44px;
     padding: 0 16px;
-    position: fixed;
-    right: 60px;
-    z-index: 1;
   }
 
   #panel {

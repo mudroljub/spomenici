@@ -68,6 +68,34 @@ h1 {
   filter: grayscale(1) brightness(0.7) drop-shadow(0 0 3px #822323) drop-shadow(0 0 3px #822323);
 }
 
+/* dugmad iznad slajdera: ruta, najblizi i lokacija u jednom redu */
+#dugmad-dole {
+  align-items: center;
+  bottom: calc(var(--visina-slajdera) + var(--dno) + 2px);
+  display: flex;
+  justify-content: flex-end;
+  left: 10px;
+  pointer-events: none; /* mapa se pomera i izmedju dugmadi */
+  position: fixed;
+  right: 8px;
+  z-index: 1;
+}
+
+#dugmad-dole > * {
+  pointer-events: auto;
+}
+
+/* na telefonu je ruta levo, a na sirem ekranu odmah do ostale dugmadi, ispod svog prozora */
+#dugmad-dole planer-rute {
+  margin-right: auto;
+}
+
+@media (min-width: 600px) {
+  #dugmad-dole planer-rute {
+    margin-right: 0;
+  }
+}
+
 /* broj stanice na ruti */
 .leaflet-marker-icon.broj-stanice {
   background: #822323;

@@ -15,9 +15,9 @@ class Lokator extends HTMLElement {
     this.innerHTML = `
       <style>
         #lokator {
-          bottom: calc(var(--visina-slajdera) + var(--dno) + 2px);
-          right: 8px;
+          display: block;
           padding: 6px;
+          position: static;
         }
       </style>
       <img src="slike/ui/lokator.svg" width="32" class="ikonica" id="lokator" alt="lociraj me" title="Locate me">

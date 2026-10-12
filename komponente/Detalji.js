@@ -38,6 +38,31 @@ style.textContent = `
     }
   }
 
+  /* povratak postoji samo na telefonu, gde prozor spomenika prekriva rutu */
+  #nazad {
+    background: none;
+    border: none;
+    color: ${boja};
+    cursor: pointer;
+    font: inherit;
+    min-height: 44px;
+    padding: 0 16px;
+  }
+
+  #nazad + header {
+    padding-top: 0;
+  }
+
+  @media (min-width: 600px) {
+    #nazad {
+      display: none;
+    }
+
+    #nazad + header {
+      padding-top: 12px;
+    }
+  }
+
   header {
     align-items: flex-start;
     display: flex;
@@ -142,8 +167,11 @@ style.textContent = `
     display: inline-flex;
   }
 
+  /* mesto za kvacicu je uvek rezervisano, da dugme ne promeni sirinu kad se pritisne */
   .akcije .oznaka button {
     border-radius: 0;
+    padding: 8px 22px;
+    position: relative;
   }
 
   .akcije .oznaka button:first-child {
@@ -158,11 +186,12 @@ style.textContent = `
   /* izabrano se razlikuje od glavne akcije: svetla pozadina i kvacica */
   .akcije [aria-pressed="true"] {
     background: #f3e1dc;
-    font-weight: 600;
   }
 
-  .akcije [aria-pressed="true"]::before {
-    content: '✓ ';
+  .akcije .oznaka [aria-pressed="true"]::before {
+    content: '✓';
+    left: 8px;
+    position: absolute;
   }
 
   /* znak ima stalnu sirinu, da dugme ne promeni velicinu kad se pritisne */
@@ -170,10 +199,6 @@ style.textContent = `
     content: '+';
     display: inline-block;
     width: 1em;
-  }
-
-  .akcije #ruta[aria-pressed="true"] {
-    font-weight: normal;
   }
 
   .akcije #ruta[aria-pressed="true"]::before {
@@ -206,13 +231,13 @@ export default class Detalji extends HTMLElement {
     this.attachShadow({mode: 'open'})
     this.shadowRoot.append(style, this.panel)
 
-    mapa.on('izbor', ({marker}) => marker ? this.prikazi(marker) : this.sakrij())
+    mapa.on('izbor', ({marker, izRute}) => marker ? this.prikazi(marker, izRute) : this.sakrij())
     mapa.on('click', () => this.marker && mapa.fire('izbor', {marker: null}))
     promene.addEventListener('promena', () => this.marker && this.osveziOznake())
     promeneRute.addEventListener('promena', () => this.marker && this.osveziRutu())
   }
 
-  prikazi(marker) {
+  prikazi(marker, izRute) {
     this.marker = marker
     const spomen = marker.spomen
     const podaci = [this.praviAutore(spomen.author), escapeHtml(spomen.year || ''), escapeHtml(spomen.drzava || '')]
@@ -220,6 +245,7 @@ export default class Detalji extends HTMLElement {
 
     // name namerno sadrzi HTML linkove, pa se ne escape-uje
     this.panel.innerHTML = `
+      ${izRute ? '<button id="nazad">‹ My route</button>' : ''}
       <header>
         <h2>
           ${escapeHtml(spomen.title)}
@@ -235,7 +261,7 @@ export default class Detalji extends HTMLElement {
         ${podaci ? `<p class="podaci">${podaci}</p>` : ''}
         <p class="akcije">
           <a href="${escapeHtml(navigacijaUrl(spomen.koordinate))}" target="_blank" class="glavna">Navigate</a>
-          <a href="${escapeHtml(mestoUrl(spomen))}">Find place</a>
+          <a href="${escapeHtml(mestoUrl(spomen))}" target="_blank">Find place</a>
           <button id="ruta">Route</button>
         </p>
         <p class="akcije">
@@ -249,6 +275,7 @@ export default class Detalji extends HTMLElement {
       </div>
     `
     this.panel.querySelector('#zatvori').addEventListener('click', () => mapa.fire('izbor', {marker: null}))
+    this.panel.querySelector('#nazad')?.addEventListener('click', () => mapa.fire('otvoriRutu'))
     // ponovni dodir na izabranu oznaku je skida
     this.panel.querySelectorAll('[data-oznaka]').forEach(dugme => dugme.addEventListener('click', () =>
       postaviOznaku(spomen.id, dajOznaku(spomen.id) === dugme.dataset.oznaka ? null : dugme.dataset.oznaka)

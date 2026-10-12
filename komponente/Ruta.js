@@ -4,6 +4,7 @@ import {dajRutu, dajNaziv, postaviRutu, izaberiTuru, ukloniIzRute, pomeri, prome
 
 const boja = '#822323'
 const najviseZaGoogle = 10 // odrediste i 9 usputnih tacaka
+const siroko = matchMedia('(min-width: 600px)') // ruta i spomenik mogu da stoje jedno pored drugog
 
 const style = document.createElement('style')
 style.textContent = `
@@ -19,16 +20,13 @@ style.textContent = `
     background: ${boja};
     border: none;
     border-radius: 22px;
-    bottom: calc(var(--visina-slajdera) + var(--dno) + 2px);
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
     color: #fff;
     cursor: pointer;
     font: inherit;
-    left: 10px;
+    margin-right: 8px;
     min-height: 44px;
     padding: 0 16px;
-    position: fixed;
-    z-index: 1;
   }
 
   #panel {
@@ -44,14 +42,15 @@ style.textContent = `
     z-index: 1000;
   }
 
+  /* desno, iznad dugmadi dole, a prozor spomenika je levo */
   @media (min-width: 600px) {
     #panel {
       border-radius: 12px;
-      bottom: calc(var(--visina-slajdera) + var(--dno) + 10px);
+      bottom: calc(var(--visina-slajdera) + var(--dno) + 60px);
       box-shadow: 0 2px 10px rgba(0, 0, 0, 0.35);
-      left: 10px;
-      max-height: calc(100% - var(--visina-slajdera) - var(--dno) - 80px);
-      right: auto;
+      left: auto;
+      max-height: calc(100% - var(--visina-slajdera) - var(--dno) - 130px);
+      right: 10px;
       width: 360px;
     }
   }
@@ -61,10 +60,9 @@ style.textContent = `
     font: inherit;
   }
 
-  /* kartice i zatvaranje su uvek vidljivi, i kad se spisak pomeri */
+  /* kartice i zatvaranje su uvek vidljivi, i kad se spisak pomeri; tamno zaglavlje razlikuje rutu od prozora spomenika */
   header {
-    background: #fffdf8;
-    border-bottom: 1px solid #ddd;
+    background: ${boja};
     display: flex;
     padding-left: 4px;
     position: sticky;
@@ -81,21 +79,21 @@ style.textContent = `
     background: none;
     border: none;
     border-bottom: 3px solid transparent;
-    color: #666;
+    color: rgba(255, 255, 255, 0.75);
     min-height: 48px;
     padding: 0 12px;
   }
 
   .kartice [aria-selected="true"] {
-    border-bottom-color: ${boja};
-    color: #222;
+    border-bottom-color: #fff;
+    color: #fff;
   }
 
   #zatvori {
     align-self: center;
     background: none;
     border: none;
-    color: #555;
+    color: #fff;
     font-size: 28px;
     height: 44px;
     width: 44px;
@@ -264,13 +262,15 @@ const najkraciRedosled = (polaziste, tacke) => {
   return put.slice(1)
 }
 
+const otvoriStanicu = marker => mapa.fire('izbor', {marker, izRute: true})
+
 // broj stanice stoji desno od podnozja obeliska, gde ga dodiruje linija rute
 const praviBroj = (marker, broj) => L
   .marker(marker.dajPoziciju(), {
     icon: L.divIcon({className: 'broj-stanice', html: broj, iconSize: [22, 22], iconAnchor: [-2, 20]}),
     zIndexOffset: 2000,
   })
-  .on('click', () => marker.otvoriProzor())
+  .on('click', () => otvoriStanicu(marker))
 
 export default class Ruta extends HTMLElement {
   constructor() {
@@ -324,7 +324,8 @@ export default class Ruta extends HTMLElement {
     this.shadowRoot.append(style, this.dugme, this.panel)
 
     promeneRute.addEventListener('promena', () => this.prikazi())
-    mapa.on('izbor', ({marker}) => marker && (this.panel.hidden = true))
+    mapa.on('izbor', ({marker}) => marker && !siroko.matches && (this.panel.hidden = true))
+    mapa.on('otvoriRutu', () => this.otvori())
     // gotova tura izabrana pre lociranja se okrece cim se sazna odakle korisnik krece
     mapa.on('pozicija', ({latlng}) => {
       const prvaPozicija = !this.pozicija
@@ -346,7 +347,7 @@ export default class Ruta extends HTMLElement {
 
   // prazna ruta nema sta da pokaze, pa se otvaraju ture
   otvori() {
-    mapa.fire('izbor', {marker: null})
+    if (!siroko.matches) mapa.fire('izbor', {marker: null})
     this.prikaziKarticu(this.stanice().length ? 'planer' : 'ture')
     this.panel.hidden = false
   }
@@ -405,7 +406,7 @@ export default class Ruta extends HTMLElement {
     red.querySelector('.broj').textContent = i + 1
     red.querySelector('.ime').textContent = naziv || spomenik.title
     red.querySelector('.opis').textContent = [naziv && spomenik.title, naziviStanja[spomenik.stanje]].filter(Boolean).join(' · ')
-    red.querySelector('.naziv').addEventListener('click', () => marker.otvoriProzor())
+    red.querySelector('.naziv').addEventListener('click', () => otvoriStanicu(marker))
     red.querySelector('[title="Move up"]').addEventListener('click', () => pomeri(spomenik.id, -1))
     red.querySelector('[title="Move down"]').addEventListener('click', () => pomeri(spomenik.id, 1))
     red.querySelector('[title="Remove"]').addEventListener('click', () => ukloniIzRute(spomenik.id))
@@ -429,13 +430,12 @@ export default class Ruta extends HTMLElement {
   // jedini izuzetak od pravila da mapa sama ne menja zum: izabrana tura je obicno van vidnog polja
   // na telefonu panel prekriva vecinu mape, pa se zatvara da bi se tura videla cela
   pokaziTuru() {
-    const panelLevo = this.panel.getBoundingClientRect().left > 0
-    if (!panelLevo) this.panel.hidden = true
-    const levo = panelLevo ? this.panel.getBoundingClientRect().right : 0
+    if (!siroko.matches) this.panel.hidden = true
+    const desno = siroko.matches ? mapa.getSize().x - this.panel.getBoundingClientRect().left : 0
     const dole = mapa.getSize().y - this.dugme.getBoundingClientRect().top
     mapa.fitBounds(this.linija.getBounds(), {
-      paddingTopLeft: [levo + 30, 80],
-      paddingBottomRight: [30, dole + 20],
+      paddingTopLeft: [30, 80],
+      paddingBottomRight: [desno + 30, dole + 20],
       maxZoom: 11,
     })
   }
