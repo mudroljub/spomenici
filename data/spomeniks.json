@@ -650,6 +650,7 @@
       "lat": 43.5621255,
       "lng": 21.32951635
     },
+    "googleCid": "14519384068770466998",
     "title": "Kruševac",
     "info": "http://www.spomenikdatabase.org/krusevac",
     "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BB%D0%BE%D0%B1%D0%BE%D0%B4%D0%B8%D1%88%D1%82%D0%B5",
@@ -1485,6 +1486,7 @@
       "lat": 43.8445717,
       "lng": 18.39953651
     },
+    "googleCid": "17457351583328726631",
     "title": "Sarajevo",
     "info": "http://www.spomenikdatabase.org/sarajevo",
     "wiki": "https://sh.wikipedia.org/wiki/Spomen-park_Vraca",
@@ -2354,6 +2356,7 @@
       "lat": 45.28876027,
       "lng": 14.89544612
     },
+    "googleCid": "17497377956551910132",
     "title": "Matić Poljana",
     "wiki": "https://hr.wikipedia.org/wiki/Spomenik_26_smrznutih_partizana",
     "slika": "slike/spomenici/matic-poljana.webp",
@@ -2904,9 +2907,10 @@
   {
     "id": "dedina",
     "koordinate": {
-      "lat": 43.60217801,
-      "lng": 21.40209435
+      "lat": 43.5898049,
+      "lng": 21.3576507
     },
+    "googleCid": "13313978993295706396",
     "title": "Dedina",
     "slika": "slike/spomenici/dedina.webp",
     "name": "Monument to the Rasina Partisan Unit",
@@ -3225,6 +3229,7 @@
       "lat": 45.74807642,
       "lng": 16.6109119
     },
+    "googleCid": "15134340911775524093",
     "title": "Čazma",
     "slika": "slike/spomenici/cazma.webp",
     "naziv": "Kosturnica borcima Moslavine u Čazmi",
@@ -3549,6 +3554,7 @@
       "lat": 46.03172058,
       "lng": 14.59585311
     },
+    "googleCid": "10943796396608141106",
     "title": "Zadvor",
     "slika": "slike/spomenici/zadvor.webp",
     "name": "Monument to Creation of the Molnik Comp.",
@@ -3604,6 +3610,7 @@
       "lat": 42.65498682,
       "lng": 20.28842868
     },
+    "googleCid": "2838343449018348324",
     "title": "Pejë/Peć",
     "info": "https://www.spomenikdatabase.org/peje-pec",
     "slika": "slike/spomenici/peje-pec.webp",
@@ -3779,6 +3786,7 @@
       "lat": 42.04039364,
       "lng": 21.43667799
     },
+    "googleCid": "1766295026150923036",
     "title": "Butel Cemetery",
     "wiki": "https://en.wikipedia.org/wiki/1963_Skopje_earthquake",
     "slika": "slike/spomenici/butel-cemetery-1963-skopje-earthquake.webp",
@@ -4410,6 +4418,7 @@
       "lat": 42.38930415,
       "lng": 18.92324884
     },
+    "googleCid": "7821380711787785912",
     "title": "Nat'l Museum of Montenegro",
     "info": "http://www.mnmuseum.org/index_e.html",
     "slika": "slike/spomenici/nat-l-museum-of-montenegro.webp",
@@ -4464,6 +4473,7 @@
       "lat": 44.38001221,
       "lng": 16.38698686
     },
+    "googleCid": "8375545306235289483",
     "title": "Tito's Cave & Museum at Drvar",
     "info": "https://www.tripadvisor.com/ShowUserReviews-g2305377-d8744973-r398815364-Tito_s_Cave-Drvar_Canton_10.html",
     "wiki": "https://sh.wikipedia.org/wiki/Titova_pe%C4%87ina_u_Drvaru",
@@ -4478,6 +4488,7 @@
       "lat": 44.02129628,
       "lng": 20.89432109
     },
+    "googleCid": "13817108332761878344",
     "title": "October 21st Museum",
     "info": "http://www.spomenpark.rs/en/",
     "slika": "slike/spomenici/october-21st-museum.webp",
@@ -4506,6 +4517,7 @@
       "lat": 42.013611,
       "lng": 20.965556
     },
+    "googleCid": "9392740388381003188",
     "title": "Tetovo Regional Museum",
     "wiki": "https://mk.wikipedia.org/wiki/%D0%9C%D0%B5%D0%BC%D0%BE%D1%80%D0%B8%D1%98%D0%B0%D0%BB%D0%B5%D0%BD_%D0%BC%D1%83%D0%B7%D0%B5%D1%98_%D0%BD%D0%B0_%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D0%BD%D0%B8%D0%BE%D1%82_%D0%BA%D0%BE%D0%BC%D0%B8%D1%82%D0%B5%D1%82_%D0%BD%D0%B0_%D0%9A%D0%BE%D0%BC%D1%83%D0%BD%D0%B8%D1%81%D1%82%D0%B8%D1%87%D0%BA%D0%B0%D1%82%D0%B0_%D0%BF%D0%B0%D1%80%D1%82%D0%B8%D1%98%D0%B0_%D0%BD%D0%B0_%D0%9C%D0%B0%D0%BA%D0%B5%D0%B4%D0%BE%D0%BD%D0%B8%D1%98%D0%B0_-_%D0%A2%D0%B5%D1%82%D0%BE%D0%B2%D0%BE",
     "slika": "slike/spomenici/tetovo-regional-museum.webp",
@@ -4586,6 +4598,7 @@
       "lat": 45.29789085,
       "lng": 15.75433236
     },
+    "googleCid": "12141568508938755544",
     "title": "Petrova Gora Partisan Hospital",
     "wiki": "https://sh.wikipedia.org/wiki/Partizanska_bolnica_na_Petrovoj_gori",
     "slika": "slike/spomenici/petrova-gora-partisan-hospital.webp",
@@ -4731,6 +4744,7 @@
       "lat": 43.03711354,
       "lng": 16.12090461
     },
+    "googleCid": "3824618859502429186",
     "title": "Tito's Cave at Vis",
     "info": "https://www.tripadvisor.com/ShowUserReviews-g424971-d622113-r509659114-Mount_Hum-Island_of_Vis_Split_Dalmatia_County_Dalmatia.html",
     "slika": "slike/spomenici/tito-s-cave-at-vis.webp",
@@ -4742,6 +4756,7 @@
       "lat": 44.91862497,
       "lng": 13.76687952
     },
+    "googleCid": "18378924032629552835",
     "title": "Tito Museum on Brijuni",
     "info": "https://www.np-brijuni.hr/en/brijuni/cultural-and-historical-heritage/stalni-postavi",
     "slika": "slike/spomenici/tito-museum-on-brijuni.webp",
@@ -4754,6 +4769,7 @@
       "lat": 45.16057802,
       "lng": 13.61106999
     },
+    "googleCid": "9470306298266996423",
     "title": "Džamonja Sculpture Park",
     "info": "http://infovrsar.com/en/vrsar/experiences-and-attractions/dzamonja-sculpture-park/",
     "slika": "slike/spomenici/dzamonja-sculpture-park.webp",
@@ -4952,6 +4968,7 @@
       "lat": 42.87730876,
       "lng": 18.43023928
     },
+    "googleCid": "10511794632777351187",
     "title": "Bileća",
     "slika": "slike/spomenici/bileca.webp",
     "naziv": "Spomenik herojima NOB-a u II svjetskom ratu",
@@ -5157,6 +5174,7 @@
       "lat": 45.69742418,
       "lng": 15.04843753
     },
+    "googleCid": "14576074313143455163",
     "title": "\"Baza 20\" Secret Partisan Base",
     "info": "https://www.culture.si/en/Baza_20_Memorial_Site,_Ko%C4%8Devski_Rog",
     "slika": "slike/spomenici/baza-20-secret-partisan-base.webp",
@@ -5182,6 +5200,7 @@
       "lat": 43.3480461,
       "lng": 19.51603751
     },
+    "googleCid": "9376339513149638919",
     "title": "Boško Buha Memorial Site",
     "wiki": "https://sr.wikipedia.org/wiki/%D0%9C%D0%B5%D0%BC%D0%BE%D1%80%D0%B8%D1%98%D0%B0%D0%BB%D0%BD%D0%B8_%D0%BA%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%81_%D0%91%D0%BE%D1%88%D0%BA%D0%BE_%D0%91%D1%83%D1%85%D0%B0",
     "slika": "slike/spomenici/bosko-buha-memorial-site.webp",
@@ -5196,6 +5215,7 @@
       "lat": 46.37696962,
       "lng": 14.20155819
     },
+    "googleCid": "15002701244232045064",
     "title": "Hostages Museum & Park",
     "info": "https://www.culture.si/en/Museum_of_Hostages,_Begunje_na_Gorenjskem",
     "wiki": "https://sl.wikipedia.org/wiki/Muzej_talcev",
@@ -5326,6 +5346,7 @@
       "lat": 41.37384615,
       "lng": 21.50259646
     },
+    "googleCid": "14151523487418617840",
     "title": "Mažučište",
     "slika": "slike/spomenici/mazuciste.webp",
     "naziv": "Borecot",
@@ -5437,6 +5458,7 @@
       "lat": 41.993656,
       "lng": 21.43407624
     },
+    "googleCid": "15898882028002601086",
     "title": "Skopje",
     "info": "http://www.spomenikdatabase.org/skopje",
     "slika": "slike/spomenici/skopje-women-fighters.webp",
@@ -5968,6 +5990,7 @@
       "lat": 44.36377181,
       "lng": 19.3630543
     },
+    "googleCid": "18062319043560932527",
     "title": "Krupanj",
     "slika": "slike/spomenici/krupanj.webp",
     "name": "The \"Politika\" House of Culture",
@@ -6089,6 +6112,7 @@
       "lat": 44.77120974,
       "lng": 20.46724963
     },
+    "googleCid": "17457600150378620041",
     "title": "Banjica Concen. Camp Museum",
     "wiki": "https://sr.wikipedia.org/wiki/%D0%9C%D1%83%D0%B7%D0%B5%D1%98_%D0%91%D0%B0%D1%9A%D0%B8%D1%87%D0%BA%D0%BE%D0%B3_%D0%BB%D0%BE%D0%B3%D0%BE%D1%80%D0%B0",
     "slika": "slike/spomenici/banjica-concen-camp-museum.webp",
@@ -6371,6 +6395,7 @@
       "lat": 42.33009948,
       "lng": 21.89551788
     },
+    "googleCid": "18314644877012579059",
     "title": "Prohor Pčinjski Monastery",
     "wiki": "https://en.wikipedia.org/wiki/Anti-fascist_Assembly_for_the_National_Liberation_of_Macedonia",
     "slika": "slike/spomenici/prohor-pcinjski-monastery.webp",
@@ -6528,6 +6553,7 @@
       "lat": 46.44925736,
       "lng": 15.41909915
     },
+    "googleCid": "4233290524147821246",
     "title": "Pohorje Battalion Museum",
     "slika": "slike/spomenici/pohorje-battalion-museum.webp",
     "name": "The Lodge at Osankarica",
@@ -6590,6 +6616,7 @@
       "lat": 44.30835734,
       "lng": 20.55334719
     },
+    "googleCid": "7765125604101924769",
     "title": "Aranđelovac",
     "wiki": "https://sr.wikipedia.org/wiki/%D0%9A%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%81_%E2%80%9E%D0%9F%D0%B0%D1%80%D0%BA_%D0%91%D1%83%D0%BA%D0%BE%D0%B2%D0%B8%D1%87%D0%BA%D0%B0_%D0%B1%D0%B0%D1%9A%D0%B0%E2%80%9D",
     "slika": "slike/spomenici/arandjelovac-bukovicka-banja-sculpture.webp",
@@ -6931,6 +6958,7 @@
       "lat": 43.50613345,
       "lng": 18.77531224
     },
+    "googleCid": "2602539624634849398",
     "title": "Musem of Old Herzegovina",
     "info": "http://muzejfoca.com/?lang=en",
     "slika": "slike/spomenici/musem-of-old-herzegovina.webp",
@@ -7100,6 +7128,7 @@
       "lat": 42.27821361,
       "lng": 21.85052985
     },
+    "googleCid": "9959147718488174419",
     "title": "Pelince",
     "slika": "slike/spomenici/pelince.webp",
     "name": "Monument to the Battalion \"Orce Nikolov\"",
@@ -7169,6 +7198,7 @@
       "lat": 45.68153326,
       "lng": 19.69139446
     },
+    "googleCid": "9834240185992065762",
     "title": "Lovćenac",
     "slika": "slike/spomenici/lovcenac.webp",
     "name": "Monument to the Victims of Fascism",
@@ -7304,6 +7334,7 @@
       "lat": 44.81616386,
       "lng": 20.44964947
     },
+    "googleCid": "8305039019735249510",
     "title": "Belgrade Port",
     "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BF%D0%B0%D0%BB%D0%B8%D0%BC_%D0%BE%D0%B1%D0%B0%D0%BB%D1%81%D0%BA%D0%B8%D0%BC_%D1%80%D0%B0%D0%B4%D0%BD%D0%B8%D1%86%D0%B8%D0%BC%D0%B0",
     "slika": "slike/spomenici/belgrade-port.webp",
@@ -7331,6 +7362,7 @@
       "lat": 44.24121178,
       "lng": 17.57692039
     },
+    "googleCid": "4107954806294536358",
     "title": "Turbe",
     "slika": "slike/spomenici/turbe.webp",
     "naziv": "Spomenik palim herojima Drugog svjetskog rata",
@@ -7452,6 +7484,7 @@
       "lat": 45.07451828,
       "lng": 14.01748328
     },
+    "googleCid": "11628651849187005850",
     "title": "Barban",
     "slika": "slike/spomenici/barban.webp",
     "name": "Tito Memorial Hillside Sign",
@@ -7523,6 +7556,7 @@
       "lat": 45.29448124,
       "lng": 13.62127922
     },
+    "googleCid": "8577022352681818927",
     "title": "Vabriga",
     "slika": "slike/spomenici/vabriga.webp",
     "name": "Tito memorial vegetation sign",
@@ -8050,6 +8084,7 @@
       "lat": 45.39401307,
       "lng": 18.19331
     },
+    "googleCid": "7674711187031809215",
     "title": "Borovik",
     "slika": "slike/spomenici/borovik.webp",
     "name": "Monument to Fallen Fighters",
@@ -8631,6 +8666,7 @@
       "lat": 44.53707479,
       "lng": 14.45709889
     },
+    "googleCid": "7850920897976986838",
     "title": "Mali Lošinj",
     "slika": "slike/spomenici/mali-losinj.webp",
     "name": "Mon. to Liberators of Cres & Lošinj",
@@ -8881,6 +8917,7 @@
       "lat": 45.33915259,
       "lng": 16.09023342
     },
+    "googleCid": "745076790976562216",
     "title": "Glina",
     "slika": "slike/spomenici/glina.webp",
     "name": "Monument to 1941 Glina Massacres",
@@ -9306,6 +9343,7 @@
       "lat": 45.97491468,
       "lng": 13.73626323
     },
+    "googleCid": "15212950038479829010",
     "title": "Trnovo",
     "slika": "slike/spomenici/trnovo.webp",
     "naziv": "Spominski park NOB Trnovo",
@@ -10709,6 +10747,7 @@
       "lat": 44.56037007,
       "lng": 16.08821304
     },
+    "googleCid": "2734720499202812819",
     "title": "Kulen Vakuf",
     "slika": "slike/spomenici/kulen-vakuf.webp",
     "name": "Monument to Fallen Fighters",
@@ -11071,6 +11110,7 @@
       "lat": 45.071177187,
       "lng": 16.376019023
     },
+    "googleCid": "4976377147035805149",
     "title": "Dvor",
     "slika": "slike/spomenici/dvor.webp",
     "name": "Monument to the Uprising",
@@ -11126,6 +11166,7 @@
       "lat": 45.201744,
       "lng": 19.720869
     },
+    "googleCid": "700648612267689417",
     "title": "Beočin",
     "slika": "slike/spomenici/beocin.webp",
     "naziv": "Spomenik palim borcima",
@@ -11201,6 +11242,7 @@
       "lat": 45.6773256,
       "lng": 15.058580699999993
     },
+    "googleCid": "102324588681362599",
     "title": "Komarna Vas",
     "slika": "slike/spomenici/komarna-vas.webp",
     "naziv": "Partizanska bolnišnica Zgornji Hrastnik",
@@ -11340,6 +11382,7 @@
       "lat": 44.6595581,
       "lng": 20.0440021
     },
+    "googleCid": "581410432629941842",
     "title": "Skela, Obrenovac",
     "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D1%81%D1%82%D1%80%D0%B5%D1%99%D0%B0%D0%BD%D0%B8%D0%BC_%D1%82%D0%B0%D0%BE%D1%86%D0%B8%D0%BC%D0%B0",
     "slika": "slike/spomenici/skela-obrenovac.webp",
