@@ -177,31 +177,6 @@ style.textContent = `
     outline-offset: 3px;
   }
 
-  .deljenje {
-    display: flex;
-    justify-content: flex-end;
-  }
-
-  #podeli {
-    align-items: center;
-    background: none;
-    border: none;
-    border-radius: 4px;
-    color: #555;
-    cursor: pointer;
-    display: inline-flex;
-    font: 14px system-ui, sans-serif;
-    gap: 6px;
-    min-height: 44px;
-    padding: 6px 8px;
-  }
-
-  #podeli:hover {
-    background: #eee9df;
-    color: ${boja};
-  }
-
-  #podeli svg,
   .oznaka svg {
     flex: none;
     height: 18px;
@@ -280,8 +255,6 @@ const pokaziNaMapi = (marker, panel) => {
   mapa.panBy(tacka.subtract(cilj))
 }
 
-const praviLink = id => `${location.origin}${location.pathname}#${encodeURIComponent(id)}`
-
 export default class Detalji extends HTMLElement {
   constructor() {
     super()
@@ -327,12 +300,6 @@ export default class Detalji extends HTMLElement {
           <a href="${escapeHtml(mestoUrl(spomen))}" target="_blank">Find place</a>
           <button id="ruta">Route</button>
         </p>
-        <p class="deljenje">
-          <button id="podeli">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 15V3m-4 4 4-4 4 4M6 11H4v10h16V11h-2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            <span>Share</span>
-          </button>
-        </p>
         ${spomen.slika ? `<img src="${escapeHtml(spomen.slika)}" alt="" onerror="this.remove()">` : ''}
         <p class="poseta">
           <span class="oznaka" role="group" aria-label="My visit">
@@ -351,7 +318,6 @@ export default class Detalji extends HTMLElement {
     this.panel.querySelector('#ruta').addEventListener('click', () =>
       uRuti(spomen.id) ? ukloniIzRute(spomen.id) : dodajURutu(spomen.id)
     )
-    this.panel.querySelector('#podeli').addEventListener('click', e => this.podeli(e.currentTarget))
     this.osveziOznake()
     this.osveziRutu()
 
@@ -390,17 +356,6 @@ export default class Detalji extends HTMLElement {
     this.panel.querySelector('#ruta').setAttribute('aria-pressed', uRuti(this.marker.spomen.id))
   }
 
-  podeli(dugme) {
-    const {title} = this.marker.spomen
-    const url = praviLink(this.marker.spomen.id)
-    const natpis = dugme.querySelector('span')
-    if (navigator.share) return navigator.share({title, url}).catch(() => {})
-    if (!navigator.clipboard) return prompt('Copy link', url)
-    navigator.clipboard.writeText(url).then(() => {
-      natpis.textContent = 'Link copied'
-      setTimeout(() => natpis.textContent = 'Share', 2000)
-    })
-  }
 }
 
 customElements.define('detalji-spomenika', Detalji)
