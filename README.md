@@ -17,6 +17,7 @@ live-server
 ### Ostalo
 
 - ažurirati lokacije poređenjem sa google maps i drugim servisima
+- za svaki spomenik upisati `googleCid`, broj Google mesta, iz koga se pravi trajni link `https://maps.google.com/?cid=…` sa komentarima, slikama i radnim vremenom
 - kategorizovati ostale spomenike preko javnih podataka, a nejasne proveriti po fotografiji
 - predefinisati spomeničke ture za obilaske? po republici, po vrsti spomenika i slično...
 - planer rute: izabrati više spomenika i izvesti ih kao GPX (za Garmin, OsmAnd, Kurviger) ili kao Google Maps link sa usputnim tačkama (do 10)

@@ -218,7 +218,7 @@ export default class Detalji extends HTMLElement {
         ${podaci ? `<p class="podaci">${podaci}</p>` : ''}
         <p class="akcije">
           <a href="${escapeHtml(navigacijaUrl(spomen.koordinate))}" target="_blank" class="glavna">Navigate</a>
-          <a href="${escapeHtml(mestoUrl(spomen.koordinate))}">Find place</a>
+          <a href="${escapeHtml(mestoUrl(spomen))}">Find place</a>
         </p>
         <p class="akcije">
           <span class="oznaka" role="group" aria-label="My visit">
