@@ -1,10 +1,8 @@
-import {umanjenaSlika} from '../utils/helpers.js'
-
 export default class Slika extends HTMLElement {
 
   constructor(spomen, marker) {
     super()
-    this.url = umanjenaSlika(spomen.slika, 'm')
+    this.url = spomen.slika
     this.slika = document.createElement('img')
     this.slika.alt = this.slika.title = `Spomenik ${spomen.title}`
     this.slika.ondragstart = () => false // sprecava vucenje slike

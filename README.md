@@ -14,10 +14,6 @@ live-server
 
 ## TODO
 
-### Telefon (prioritet)
-
-- slike prebaciti sa imgur-a u repo kao umanjene (webp, ~400px): imgur je blokiran u Velikoj Britaniji i ne dozvoljava hotlinking, a lokalne slike rade i bez signala
-
 ### Ostalo
 
 - ažurirati lokacije poređenjem sa google maps i drugim servisima

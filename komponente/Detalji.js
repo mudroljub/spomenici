@@ -1,5 +1,5 @@
 import {mapa} from '../klase/mapa.js'
-import {mestoUrl, navigacijaUrl, umanjenaSlika, escapeHtml, naziviStanja, nestao} from '../utils/helpers.js'
+import {mestoUrl, navigacijaUrl, escapeHtml, naziviStanja, nestao} from '../utils/helpers.js'
 import {dajOznaku, postaviOznaku, promene} from '../utils/oznake.js'
 
 const boja = '#822323'
@@ -227,7 +227,7 @@ export default class Detalji extends HTMLElement {
           </span>
           <button id="podeli">Share</button>
         </p>
-        ${spomen.slika ? `<img src="${escapeHtml(umanjenaSlika(spomen.slika, 'l'))}" alt="" onerror="this.remove()">` : ''}
+        ${spomen.slika ? `<img src="${escapeHtml(spomen.slika)}" alt="" onerror="this.remove()">` : ''}
       </div>
     `
     this.panel.querySelector('#zatvori').addEventListener('click', () => mapa.fire('izbor', {marker: null}))

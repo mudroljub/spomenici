@@ -29,10 +29,6 @@ export function navigacijaUrl({lat, lng}) {
     : `https://www.google.com/maps/dir/?api=1&destination=${odrediste}`
 }
 
-// imgur pravi umanjene verzije dodavanjem slova na id: m = 320px, l = 640px
-export const umanjenaSlika = (url, velicina) =>
-  url.replace(/^(https:\/\/i\.imgur\.com\/\w{7})\.(jpe?g|png)$/, `$1${velicina}.$2`)
-
 const cirilica = {
   а: 'a', б: 'b', в: 'v', г: 'g', д: 'd', ђ: 'dj', е: 'e', ж: 'z', з: 'z', и: 'i', ј: 'j', к: 'k', л: 'l', љ: 'lj',
   м: 'm', н: 'n', њ: 'nj', о: 'o', п: 'p', р: 'r', с: 's', т: 't', ћ: 'c', у: 'u', ф: 'f', х: 'h', ц: 'c', ч: 'c',

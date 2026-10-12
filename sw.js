@@ -42,7 +42,7 @@ self.addEventListener('install', e => {
 self.addEventListener('activate', e => e.waitUntil(self.clients.claim()))
 
 const jeMapa = url => /tile\.openstreetmap\.org|server\.arcgisonline\.com/.test(url.hostname)
-const jeSlika = url => /i\.imgur\.com|upload\.wikimedia\.org/.test(url.hostname)
+const jeSlika = url => url.origin === location.origin && url.pathname.includes('/slike/spomenici/')
 
 // brise najstarije unose kad ih ima previse
 const skrati = async ime => {
