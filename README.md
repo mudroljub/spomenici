@@ -16,24 +16,25 @@ live-server
 
 ### Telefon (prioritet)
 
-- rad bez signala: keširati aplikaciju, podatke, slike i već pregledane delove mape
-- detalji spomenika u panelu odozdo umesto uskog popupa na telefonu (slika, opis, pristup, dugmad navigiraj/sačuvaj/podeli)
 - slike prebaciti sa imgur-a u repo kao umanjene (webp, ~400px): imgur je blokiran u Velikoj Britaniji i ne dozvoljava hotlinking, a lokalne slike rade i bez signala
 
 ### Ostalo
 
-- BUG: ispod nav slajdera ima bela traka, što ne treba
 - ažurirati lokacije poređenjem sa google maps i drugim servisima
 - kategorizovati ostale spomenike preko javnih podataka, a nejasne proveriti po fotografiji
-- stanje spomenika: 36 su u nazivu označena kao srušena, oštećena ili u ruševinama; izdvojiti kao podatak i filter
-- oznake „posetio sam“ i „na listi“, sačuvane na uređaju, sa filterom na mapi
-- link za deljenje koji otvara mapu na izabranom spomeniku
 - predefinisati spomeničke ture za obilaske? po republici, po vrsti spomenika i slično...
 - planer rute: izabrati više spomenika i izvesti ih kao GPX (za Garmin, OsmAnd, Kurviger) ili kao Google Maps link sa usputnim tačkama (do 10)
-- podaci za putnike: pristup (asfalt, makadam, pešačenje X min), parking, radno vreme i ulaznica za muzeje, država (izračunati iz koordinata)
+- podaci za putnike: pristup (asfalt, makadam, pešačenje X min), parking, radno vreme i ulaznica za muzeje
 - jezici: srpski i engleski
 
 otvorena pitanja:
 - slajder da prikazuje samo spomenike u vidljivom delu mape?
 - kosturnice (21, npr. Kumanovo, Kavadarci, Doboj, Travnik) prebaciti u groblja? sada su spomenici/kompleksi, jer su uglavnom spomenik sa kriptom
 - sepia filter na celom `body`: da li usporava pomeranje mape na slabijim telefonima? proveriti na pravom uređaju pre izmene
+
+## Ocene
+
+- loše je koristiti istu ikonicu za ruševinu i čitav spomenik, promena boje nije dovoljna. treba uvesti različite ikonice
+- loše iskustvo kada klik na Want to visit promeni širinu dugmeta
+- imena spomenika su izmešana, neka na srpskom neka na engleskom. treba da budu sva na istom jeziku. podrazumevano je to srpski, odnosno sh.
+- navigate otvara novi prozor, find place ne. treba oba da otvaraju novi prozor

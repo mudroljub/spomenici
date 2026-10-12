@@ -5,6 +5,17 @@ export const $ = s => document.querySelectorAll(s).length > 1
   : document.querySelector(s)
 
 
+export const naziviStanja = {
+  rusevine: 'In ruins',
+  srusen: 'Destroyed',
+  uklonjen: 'Removed',
+  ostecen: 'Damaged',
+  zatvoren: 'Closed',
+}
+
+// uklonjen spomenik vise nema sta da se obidje; od srusenog obicno ostanu delovi
+export const nestao = stanje => stanje === 'uklonjen'
+
 export function mestoUrl({lat, lng}) {
   return /android/i.test(navigator.userAgent)
     ? `geo:${lat},${lng}`

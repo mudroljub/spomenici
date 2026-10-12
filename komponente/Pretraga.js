@@ -1,10 +1,14 @@
+import Filteri from './Filteri.js'
 import {normalizuj} from '../utils/helpers.js'
+
+const boja = '#822323'
 
 // font od 16px sprecava da iPhone uvecava stranicu pri kucanju
 const style = document.createElement('style')
 style.textContent = `
   polje-pretraga {
     display: flex;
+    flex-wrap: wrap;
     gap: 6px;
     left: 60px;
     position: absolute;
@@ -14,19 +18,54 @@ style.textContent = `
   }
 
   polje-pretraga input,
-  polje-pretraga select {
+  polje-pretraga .dugme-filteri {
     background: white;
     border: none;
     border-radius: 20px;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
     font: 16px system-ui, sans-serif;
     height: 40px;
-    padding: 0 12px;
+    padding: 0 14px;
   }
 
   polje-pretraga input {
     flex: 1;
     min-width: 0;
+  }
+
+  polje-pretraga .dugme-filteri {
+    color: #333;
+    cursor: pointer;
+    flex: none;
+  }
+
+  polje-pretraga .dugme-filteri.aktivno {
+    background: ${boja};
+    color: #fff;
+  }
+
+  polje-pretraga .rezultat {
+    flex-basis: 100%;
+  }
+
+  polje-pretraga .rezultat > span {
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 16px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+    display: inline-flex;
+    font: 14px system-ui, sans-serif;
+    gap: 10px;
+    padding: 6px 12px;
+  }
+
+  polje-pretraga .rezultat button {
+    background: none;
+    border: none;
+    color: ${boja};
+    cursor: pointer;
+    font: inherit;
+    padding: 0;
+    text-decoration: underline;
   }
 
   @media (min-width: 600px) {
@@ -37,17 +76,7 @@ style.textContent = `
   }
 `
 
-const polja = ['title', 'name', 'author', 'year']
-
-const kategorije = {
-  '': 'All',
-  kompleks: 'Complexes',
-  spomenik: 'Monuments',
-  groblje: 'Cemeteries',
-  muzej: 'Museums',
-}
-
-const podrazumevanaKategorija = 'spomenik'
+const polja = ['title', 'name', 'author', 'year', 'drzava']
 
 const praviTekst = spomenik => normalizuj(polja
   .map(polje => spomenik[polje] || '')
@@ -57,29 +86,56 @@ const praviTekst = spomenik => normalizuj(polja
 export default class Pretraga extends HTMLElement {
   constructor(stavke, callback) {
     super()
+    this.stavke = stavke
+    this.callback = callback
+    this.filtrirano = stavke
+
     this.polje = document.createElement('input')
     this.polje.id = 'pretraga'
-    this.polje.placeholder = '🔍'
-    this.kategorija = document.createElement('select')
-    this.kategorija.title = 'Category'
-    Object.entries(kategorije).forEach(([vrednost, naziv]) => this.kategorija.add(new Option(naziv, vrednost)))
+    this.polje.type = 'search'
+    this.polje.placeholder = '🔍 Search'
 
-    const pretrazi = () => this.pretrazi(stavke, callback)
-    this.polje.addEventListener('input', pretrazi)
-    this.kategorija.addEventListener('change', pretrazi)
+    this.dugme = document.createElement('button')
+    this.dugme.className = 'dugme-filteri'
+
+    this.rezultat = document.createElement('div')
+    this.rezultat.className = 'rezultat'
+    this.rezultat.innerHTML = '<span><span class="broj"></span><button>Clear</button></span>'
+    this.rezultat.querySelector('button').addEventListener('click', () => this.ponisti())
+
+    this.filteri = document.body.appendChild(new Filteri(stavke))
+    this.filteri.addEventListener('promena', () => this.pretrazi())
+
+    this.dugme.addEventListener('click', () => this.filteri.otvori())
+    this.polje.addEventListener('input', () => this.pretrazi())
+    this.osveziPrikaz()
   }
 
   connectedCallback() {
-    this.append(style, this.polje, this.kategorija)
+    this.append(style, this.polje, this.dugme, this.rezultat)
   }
 
-  pretrazi(stavke, callback) {
+  pretrazi() {
     const fraza = normalizuj(this.polje.value)
-    const kategorija = this.kategorija.value
-    const filtrirano = stavke.filter(({spomenik}) =>
-      (!kategorija || (spomenik.type || podrazumevanaKategorija) === kategorija) && praviTekst(spomenik).includes(fraza)
-    )
-    callback(filtrirano)
+    const pronadjeno = this.stavke.filter(({spomenik}) => praviTekst(spomenik).includes(fraza))
+    this.filteri.postaviOsnovu(pronadjeno)
+    this.filtrirano = pronadjeno.filter(({spomenik}) => this.filteri.odgovara(spomenik))
+    this.osveziPrikaz()
+    this.callback(this.filtrirano)
+  }
+
+  ponisti() {
+    this.polje.value = ''
+    this.filteri.ponisti() // javlja promenu, pa se i pretraga ponovi
+  }
+
+  osveziPrikaz() {
+    const aktivnih = this.filteri.brojAktivnih()
+    this.dugme.textContent = aktivnih ? `Filters · ${aktivnih}` : 'Filters'
+    this.dugme.classList.toggle('aktivno', aktivnih > 0)
+    const suzeno = this.filtrirano.length < this.stavke.length
+    this.rezultat.hidden = !suzeno
+    this.rezultat.querySelector('.broj').textContent = `${this.filtrirano.length} of ${this.stavke.length} monuments`
   }
 }
 

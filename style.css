@@ -13,6 +13,7 @@ html, body, #mapa {
 
 body {
   filter: sepia(31%);
+  overflow: hidden; /* mapa zauzima ceo ekran, stranica se ne pomera */
   height: 100dvh; /* prati traku pregledaca na telefonu */
 }
 
@@ -45,32 +46,26 @@ h1 {
   filter: drop-shadow(3px 5px 3px rgba(0, 0, 0, 0.5));
 }
 
-.akcije {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
+/* oznake sa uredjaja i izabran spomenik */
+.leaflet-marker-icon.nestao {
+  filter: grayscale(1) brightness(0.7) drop-shadow(3px 5px 3px rgba(0, 0, 0, 0.5));
 }
 
-.akcije a {
-  border: 1px solid #822323;
-  border-radius: 20px;
-  color: #822323;
-  padding: 10px 14px;
-  text-decoration: none;
+.leaflet-marker-icon.posecen {
+  opacity: 0.5;
 }
 
-.akcije a.glavna {
-  background: #822323;
-  color: #fff;
+.leaflet-marker-icon.na-listi {
+  filter: drop-shadow(0 0 3px #f2b705) drop-shadow(0 0 2px #f2b705);
 }
 
-.leaflet-popup-content a.vise {
-  color: #822323;
-  white-space: nowrap;
+.leaflet-marker-icon.izabran {
+  filter: drop-shadow(0 0 3px #822323) drop-shadow(0 0 3px #822323);
+  opacity: 1;
 }
 
-.leaflet-popup-content img {
-  max-height: 40vh;
+.leaflet-marker-icon.nestao.izabran {
+  filter: grayscale(1) brightness(0.7) drop-shadow(0 0 3px #822323) drop-shadow(0 0 3px #822323);
 }
 
 .podnaslov {
@@ -86,21 +81,6 @@ h1 {
   position: absolute;
   width: 32px;
   z-index: 1;
-}
-
-.leaflet-popup {
-  width: 80vw;
-}
-
-.leaflet-popup-close-button {
-  font-size: 2em !important;
-  padding: 8px !important;
-}
-
-@media (min-width: 400px) {
-  .leaflet-popup {
-    width: 280px;
-  }
 }
 
 @media (min-width: 768px) {

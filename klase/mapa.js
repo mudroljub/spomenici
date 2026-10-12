@@ -1,3 +1,5 @@
+import {promene} from '../utils/oznake.js'
+
 const konfigMape = {
   zoom: 8,
   minZoom: 6,
@@ -12,31 +14,46 @@ const konfigMape = {
 
 export const mapa = L.map('mapa', konfigMape) // singlton
 
+// touchpad: dva prsta pomeraju mapu, a stipanje (wheel sa ctrlKey) zumira oko kursora
+const pragZuma = 40
+let zbirZuma = 0
+
+mapa.getContainer().addEventListener('wheel', e => {
+  e.preventDefault()
+  const korak = e.deltaMode === WheelEvent.DOM_DELTA_LINE ? 16 : 1
+  if (!e.ctrlKey) return mapa.panBy([e.deltaX * korak, e.deltaY * korak], {animate: false})
+
+  zbirZuma += e.deltaY * korak
+  if (Math.abs(zbirZuma) < pragZuma) return
+  const tacka = mapa.mouseEventToContainerPoint(e)
+  mapa.setZoomAround(tacka, mapa.getZoom() + (zbirZuma < 0 ? 1 : -1))
+  zbirZuma = 0
+}, {passive: false})
+
 // pozicija korisnika iznad markera, da je ne prekriju
 mapa.createPane('korisnik').style.zIndex = 650
 
 const sloj = L.layerGroup().addTo(mapa)
 let prikazani = []
+let izabran = null
 
-// izdaleka su obelisci manji, da se manje preklapaju
-const prilagodiVelicinu = () => prikazani.forEach(marker => marker.prilagodi(mapa.getZoom()))
+// izdaleka su obelisci manji, da se manje preklapaju; ikonica pokazuje i oznake
+const osveziIkonice = () => prikazani.forEach(marker => marker.osvezi(mapa.getZoom(), izabran))
 
-mapa.on('zoomend', prilagodiVelicinu)
+mapa.on('zoomend', osveziIkonice)
+promene.addEventListener('promena', osveziIkonice)
+
+mapa.on('izbor', ({marker}) => {
+  izabran = marker
+  osveziIkonice()
+})
 
 export const postaviMarkere = markeri => {
   prikazani = markeri
   sloj.clearLayers()
   markeri.forEach(marker => sloj.addLayer(marker.element))
-  prilagodiVelicinu()
+  osveziIkonice()
 }
-
-const centerMap = e => {
-  const sidro = mapa.project(e.popup._latlng) // projektuje koordinate u pikselima
-  sidro.y -= e.popup._container.clientHeight / 2
-  mapa.panTo(mapa.unproject(sidro), {animate: true})
-}
-
-mapa.on('popupopen', centerMap)
 
 // spomenici default
 // L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {

@@ -15,15 +15,25 @@ style.textContent = `
     width: 100%;
   }
 
+  /* svg umesto znaka iz fonta, jer veliki font strci ispod ekrana i pravi belu traku */
   span {
     -moz-user-select: none;
+    align-items: center;
     color: #fff;
     cursor: pointer;
-    font-size: calc(var(--visina-slajdera) * 1.6);
+    display: flex;
+    filter: drop-shadow(2px 2px 0 #000);
+    height: var(--visina-slajdera);
     padding: 0 8px;
     position: absolute;
-    text-shadow: 2px 2px #000;
+    top: 0;
     user-select: none;
+    z-index: 1;
+  }
+
+  span svg {
+    height: calc(var(--visina-slajdera) * 0.7);
+    width: calc(var(--visina-slajdera) * 0.32);
   }
 
   #strelica-desna {
@@ -54,6 +64,9 @@ style.textContent = `
   }
 `
 
+const praviStrelicu = tacke =>
+  `<svg viewBox="0 0 24 48" preserveAspectRatio="none"><polygon points="${tacke}" fill="currentColor"/></svg>`
+
 export default class Slajder extends HTMLElement {
   constructor(slike) {
     super()
@@ -61,9 +74,9 @@ export default class Slajder extends HTMLElement {
     this.style.display = slike.length ? 'flex' : 'none'
 
     this.strelicaLeva = document.createElement('span')
-    this.strelicaLeva.innerText = '‹'
+    this.strelicaLeva.innerHTML = praviStrelicu('0,24 17,0 24,0 9,24 24,48 17,48')
     this.strelicaDesna = document.createElement('span')
-    this.strelicaDesna.innerText = '›'
+    this.strelicaDesna.innerHTML = praviStrelicu('24,24 7,0 0,0 15,24 0,48 7,48')
     this.strelicaDesna.id = 'strelica-desna'
     this.traka = document.createElement('div')
 

@@ -1,4 +1,5 @@
 import {mapa} from '../klase/mapa.js'
+import {naziviStanja} from '../utils/helpers.js'
 
 const brojNajblizih = 10
 
@@ -102,7 +103,10 @@ export default class Najblizi extends HTMLElement {
     this.dugme.id = 'dugme'
     this.dugme.textContent = 'Nearby'
     this.dugme.hidden = true
-    this.dugme.addEventListener('click', () => this.panel.hidden = false)
+    this.dugme.addEventListener('click', () => {
+      mapa.fire('izbor', {marker: null})
+      this.panel.hidden = false
+    })
 
     this.panel = document.createElement('section')
     this.panel.id = 'panel'
@@ -138,13 +142,13 @@ export default class Najblizi extends HTMLElement {
   }
 
   praviRed(stavka, metara) {
-    const {title, name} = stavka.spomenik
+    const {title, name, stanje} = stavka.spomenik
     const red = document.createElement('li')
     red.innerHTML = '<span class="km"></span><span><span class="naziv"></span><span class="opis"></span></span>'
     red.querySelector('.km').textContent = formatirajRazdaljinu(metara)
     const naziv = (name || '').replace(/<[^>]*>/g, '')
     red.querySelector('.naziv').textContent = naziv || title
-    red.querySelector('.opis').textContent = naziv ? title : ''
+    red.querySelector('.opis').textContent = [naziv && title, naziviStanja[stanje]].filter(Boolean).join(' · ')
     red.addEventListener('click', () => {
       this.panel.hidden = true
       stavka.marker.otvoriProzor()
