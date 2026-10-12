@@ -1,5 +1,5 @@
 import {mapa} from '../klase/mapa.js'
-import {naziviStanja} from '../utils/helpers.js'
+import {naziviStanja, nazivSpomenika} from '../utils/helpers.js'
 
 const brojNajblizih = 10
 
@@ -139,11 +139,11 @@ export default class Najblizi extends HTMLElement {
   }
 
   praviRed(stavka, metara) {
-    const {title, name, stanje} = stavka.spomenik
+    const {title, stanje} = stavka.spomenik
     const red = document.createElement('li')
     red.innerHTML = '<span class="km"></span><span><span class="naziv"></span><span class="opis"></span></span>'
     red.querySelector('.km').textContent = formatirajRazdaljinu(metara)
-    const naziv = (name || '').replace(/<[^>]*>/g, '')
+    const naziv = nazivSpomenika(stavka.spomenik)
     red.querySelector('.naziv').textContent = naziv || title
     red.querySelector('.opis').textContent = [naziv && title, naziviStanja[stanje]].filter(Boolean).join(' · ')
     red.addEventListener('click', () => {

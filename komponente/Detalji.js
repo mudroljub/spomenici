@@ -243,6 +243,9 @@ export default class Detalji extends HTMLElement {
     const podaci = [this.praviAutore(spomen.author), escapeHtml(spomen.year || ''), escapeHtml(spomen.drzava || '')]
       .filter(Boolean).join(' · ')
 
+    // jedan link za vise: clanak na Wikipediji, a bez njega drugi izvor
+    const vise = spomen.wiki || spomen.info
+
     // name namerno sadrzi HTML linkove, pa se ne escape-uje
     this.panel.innerHTML = `
       ${izRute ? '<button id="nazad">‹ My route</button>' : ''}
@@ -255,8 +258,8 @@ export default class Detalji extends HTMLElement {
       </header>
       <div class="sadrzaj">
         <p>
-          ${spomen.name || ''}
-          ${spomen.info ? `<a href="${escapeHtml(spomen.info)}" target="_blank" class="vise">Read more ›</a>` : ''}
+          ${spomen.naziv ? escapeHtml(spomen.naziv) : spomen.name || ''}
+          ${vise ? `<a href="${escapeHtml(vise)}" target="_blank" class="vise">Read more ›</a>` : ''}
         </p>
         ${podaci ? `<p class="podaci">${podaci}</p>` : ''}
         <p class="akcije">

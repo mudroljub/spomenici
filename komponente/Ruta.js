@@ -1,5 +1,5 @@
 import {mapa} from '../klase/mapa.js'
-import {naziviStanja} from '../utils/helpers.js'
+import {naziviStanja, nazivSpomenika} from '../utils/helpers.js'
 import {dajRutu, dajNaziv, postaviRutu, izaberiTuru, ukloniIzRute, pomeri, promeneRute} from '../utils/ruta.js'
 
 const boja = '#822323'
@@ -222,8 +222,6 @@ style.textContent = `
   }
 `
 
-const bezHtml = tekst => (tekst || '').replace(/<[^>]*>/g, '')
-
 const tacka = ({lat, lng}) => `${lat},${lng}`
 
 // bez polazista Google Maps krece od trenutnog polozaja
@@ -402,7 +400,7 @@ export default class Ruta extends HTMLElement {
       <button title="Move down" ${i === ukupno - 1 ? 'disabled' : ''}>↓</button>
       <button title="Remove">×</button>
     `
-    const naziv = bezHtml(spomenik.name)
+    const naziv = nazivSpomenika(spomenik)
     red.querySelector('.broj').textContent = i + 1
     red.querySelector('.ime').textContent = naziv || spomenik.title
     red.querySelector('.opis').textContent = [naziv && spomenik.title, naziviStanja[spomenik.stanje]].filter(Boolean).join(' · ')

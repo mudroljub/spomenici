@@ -13,6 +13,9 @@ export const naziviStanja = {
   zatvoren: 'Closed',
 }
 
+// izvorni naziv kad je poznat, inace engleski opis, ponekad sa linkovima
+export const nazivSpomenika = ({naziv, name}) => naziv || (name || '').replace(/<[^>]*>/g, '')
+
 // uklonjen spomenik vise nema sta da se obidje; od srusenog obicno ostanu delovi
 export const nestao = stanje => stanje === 'uklonjen'
 
