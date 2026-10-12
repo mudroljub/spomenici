@@ -25,6 +25,8 @@ otvorena pitanja:
 - slajder da prikazuje samo spomenike u vidljivom delu mape?
 - kosturnice (21, npr. Kumanovo, Kavadarci, Doboj, Travnik) prebaciti u groblja? sada su spomenici/kompleksi, jer su uglavnom spomenik sa kriptom
 - sepia filter na celom `body`: da li usporava pomeranje mape na slabijim telefonima? proveriti na pravom uređaju pre izmene
+- preimenovati aplikaciju u spomeniks? razlozi za i protiv, seo, pretraga i slično.
+- ko je dodao tekst na mapi: Kosovo declared independence 2008??? ukloni to ako moze
 
 ## Ocene
 
