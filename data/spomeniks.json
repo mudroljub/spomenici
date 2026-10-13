@@ -21975,5 +21975,649 @@
     "naziv": "Spomenik borcima i žrtvama fašizma",
     "type": "lokalni",
     "drzava": "Serbia"
+  },
+  {
+    "id": "gornja-lastva",
+    "koordinate": {
+      "lat": 42.453143999999995,
+      "lng": 18.708191
+    },
+    "googleCid": "8713445978648023334",
+    "title": "Gornja Lastva",
+    "slika": "slike/spomenici/gornja-lastva.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik palim borcima",
+    "type": "lokalni",
+    "drzava": "Montenegro"
+  },
+  {
+    "id": "dub",
+    "koordinate": {
+      "lat": 42.4124324,
+      "lng": 18.7450579
+    },
+    "googleCid": "12330117572832892969",
+    "title": "Dub",
+    "slika": "slike/spomenici/dub.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik palim borcima",
+    "type": "lokalni",
+    "drzava": "Montenegro"
+  },
+  {
+    "id": "tivat-3",
+    "koordinate": {
+      "lat": 42.432261,
+      "lng": 18.6989883
+    },
+    "googleCid": "7459083430988912782",
+    "title": "Tivat",
+    "slika": "slike/spomenici/tivat-3.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik palim borcima",
+    "type": "lokalni",
+    "drzava": "Montenegro"
+  },
+  {
+    "id": "pasjaca",
+    "koordinate": {
+      "lat": 43.357242299999996,
+      "lng": 22.062811
+    },
+    "googleCid": "823045057037253846",
+    "title": "Pasjača",
+    "slika": "slike/spomenici/pasjaca.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik palim borcima",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "tesica",
+    "koordinate": {
+      "lat": 43.4515556,
+      "lng": 21.7434256
+    },
+    "googleCid": "17721367324747139707",
+    "title": "Tešica",
+    "slika": "slike/spomenici/tesica.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik palim borcima",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "ivanje",
+    "koordinate": {
+      "lat": 43.0022516,
+      "lng": 21.5850519
+    },
+    "googleCid": "14125597915096444426",
+    "title": "Ivanje",
+    "slika": "slike/spomenici/ivanje.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik palim borcima",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "belanovce",
+    "koordinate": {
+      "lat": 42.645855499999996,
+      "lng": 21.9510517
+    },
+    "googleCid": "1482003926654865385",
+    "title": "Belanovce",
+    "slika": "slike/spomenici/belanovce.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik palim borcima",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "zagarac",
+    "koordinate": {
+      "lat": 42.5161582,
+      "lng": 19.0565201
+    },
+    "googleCid": "15968465877994024493",
+    "title": "Zagarač",
+    "slika": "slike/spomenici/zagarac.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik streljanim borcima",
+    "type": "lokalni",
+    "drzava": "Montenegro"
+  },
+  {
+    "id": "baosici",
+    "koordinate": {
+      "lat": 42.4402438,
+      "lng": 18.626323199999998
+    },
+    "googleCid": "2120318996352811780",
+    "title": "Baošići",
+    "slika": "slike/spomenici/baosici.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik palim borcima",
+    "type": "lokalni",
+    "drzava": "Montenegro"
+  },
+  {
+    "id": "kovaci",
+    "koordinate": {
+      "lat": 43.699211,
+      "lng": 20.674149999999997
+    },
+    "googleCid": "12057008871089208571",
+    "title": "Kovači",
+    "slika": "slike/spomenici/kovaci.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik palim borcima",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "bosnjace",
+    "koordinate": {
+      "lat": 42.948747999999995,
+      "lng": 21.8283283
+    },
+    "googleCid": "904183738809338383",
+    "title": "Bošnjace",
+    "slika": "slike/spomenici/bosnjace.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik palim borcima",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "dobro-polje",
+    "koordinate": {
+      "lat": 42.9026261,
+      "lng": 22.2598672
+    },
+    "googleCid": "15051145130603545248",
+    "title": "Dobro Polje",
+    "slika": "slike/spomenici/dobro-polje.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Dobropoljski spomenik palim borcima",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "gostilje",
+    "koordinate": {
+      "lat": 43.665120599999995,
+      "lng": 19.8602007
+    },
+    "googleCid": "1238195369887453292",
+    "title": "Gostilje",
+    "slika": "slike/spomenici/gostilje.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik palim borcima sreza Zlatiborskog",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "kraljevo-grdica",
+    "koordinate": {
+      "lat": 43.7370903,
+      "lng": 20.6808162
+    },
+    "googleCid": "595453744544361319",
+    "title": "Kraljevo (Grdica)",
+    "slika": "slike/spomenici/kraljevo-grdica.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik palim borcima",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "gradiste",
+    "koordinate": {
+      "lat": 43.3212373,
+      "lng": 22.179384199999998
+    },
+    "googleCid": "11353688412667492148",
+    "title": "Gradište",
+    "slika": "slike/spomenici/gradiste.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik palim borcima Gradišta",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "varna",
+    "koordinate": {
+      "lat": 44.676766,
+      "lng": 19.6506977
+    },
+    "googleCid": "12300423133050643357",
+    "title": "Varna",
+    "slika": "slike/spomenici/varna.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik borcima palim u narodnooslobodilačkom ratu",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "bater",
+    "koordinate": {
+      "lat": 45.151927199999996,
+      "lng": 14.8452933
+    },
+    "googleCid": "18325381169128054098",
+    "title": "Bater",
+    "slika": "slike/spomenici/bater.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik palim borcima",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "liznjan",
+    "koordinate": {
+      "lat": 44.8289146,
+      "lng": 13.9552713
+    },
+    "googleCid": "16811322495953065891",
+    "title": "Ližnjan",
+    "slika": "slike/spomenici/liznjan.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik palim borcima",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "arandjelovac",
+    "koordinate": {
+      "lat": 44.298857,
+      "lng": 20.578374
+    },
+    "googleCid": "18278071294844367386",
+    "title": "Aranđelovac",
+    "slika": "slike/spomenici/arandjelovac.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik borcima",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "lapovac",
+    "koordinate": {
+      "lat": 45.2392938,
+      "lng": 15.5526232
+    },
+    "googleCid": "5550912411064896770",
+    "title": "Lapovac",
+    "slika": "slike/spomenici/lapovac.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik palim borcima Primorsko-goranske brigade",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "rijeka-podmurvice",
+    "koordinate": {
+      "lat": 45.3393103,
+      "lng": 14.4196663
+    },
+    "googleCid": "13340658945942198252",
+    "title": "Rijeka (Podmurvice)",
+    "slika": "slike/spomenici/rijeka-podmurvice.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik palim borcima",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "surduk",
+    "koordinate": {
+      "lat": 45.0707801,
+      "lng": 20.325917
+    },
+    "googleCid": "225260708919501608",
+    "title": "Surduk",
+    "slika": "slike/spomenici/surduk.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik palim borcima",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "bakarac",
+    "koordinate": {
+      "lat": 45.2791272,
+      "lng": 14.5818508
+    },
+    "googleCid": "2881161906641838663",
+    "title": "Bakarac",
+    "slika": "slike/spomenici/bakarac.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik palim borcima",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "prilipje",
+    "koordinate": {
+      "lat": 45.7245637,
+      "lng": 15.646492499999999
+    },
+    "googleCid": "14222590175493105750",
+    "title": "Prilipje",
+    "slika": "slike/spomenici/prilipje.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik palim borcima hrvatskih i slovenskih brigada",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "kovilj",
+    "koordinate": {
+      "lat": 45.2242861,
+      "lng": 20.0212239
+    },
+    "googleCid": "4491051078949400501",
+    "title": "Kovilj",
+    "slika": "slike/spomenici/kovilj.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik borcima",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "banatsko-karadjordjevo",
+    "koordinate": {
+      "lat": 45.5889204,
+      "lng": 20.560323699999998
+    },
+    "googleCid": "14240195812292191267",
+    "title": "Banatsko Karađorđevo",
+    "slika": "slike/spomenici/banatsko-karadjordjevo.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik palim borcima",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "zagreb-podsused",
+    "koordinate": {
+      "lat": 45.817000799999995,
+      "lng": 15.832898799999999
+    },
+    "googleCid": "17174831711444961157",
+    "title": "Zagreb (Podsused)",
+    "slika": "slike/spomenici/zagreb-podsused.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik palim partizanima iz Podsuseda",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "siroko-selo",
+    "koordinate": {
+      "lat": 46.0528118,
+      "lng": 16.739979899999998
+    },
+    "googleCid": "4320651540807910489",
+    "title": "Široko Selo",
+    "slika": "slike/spomenici/siroko-selo.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik palim borcima",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "apatovec",
+    "koordinate": {
+      "lat": 46.1483731,
+      "lng": 16.573287399999998
+    },
+    "googleCid": "16088530945215916756",
+    "title": "Apatovec",
+    "slika": "slike/spomenici/apatovec.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik palim borcima",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "beograd-banjica",
+    "koordinate": {
+      "lat": 44.7610897,
+      "lng": 20.4744346
+    },
+    "googleCid": "2450627522364443889",
+    "title": "Beograd (Banjica)",
+    "slika": "slike/spomenici/beograd-banjica.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik oslobodiocima Banjice",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "krusevac-kolonija",
+    "koordinate": {
+      "lat": 43.5869965,
+      "lng": 21.3436849
+    },
+    "googleCid": "16997101358451520785",
+    "title": "Kruševac (Kolonija)",
+    "slika": "slike/spomenici/krusevac-kolonija.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik ruskim oslobodiocima",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "poganovo",
+    "koordinate": {
+      "lat": 42.970324999999995,
+      "lng": 22.666403
+    },
+    "googleCid": "9684265620060863088",
+    "title": "Poganovo",
+    "slika": "slike/spomenici/poganovo.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomen-česma",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "topli-do",
+    "koordinate": {
+      "lat": 43.3400094,
+      "lng": 22.679672099999998
+    },
+    "googleCid": "10865932401009610676",
+    "title": "Topli Do",
+    "slika": "slike/spomenici/topli-do.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik poginulim Toplodolcima",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "mali-zvornik-2",
+    "koordinate": {
+      "lat": 44.386285,
+      "lng": 19.107568
+    },
+    "googleCid": "4335961817762328280",
+    "title": "Mali Zvornik",
+    "slika": "slike/spomenici/mali-zvornik-2.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomen-ploča",
+    "type": "ploca",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "mojsinje",
+    "koordinate": {
+      "lat": 43.8866778,
+      "lng": 20.46558
+    },
+    "googleCid": "12164341342988853341",
+    "title": "Mojsinje",
+    "slika": "slike/spomenici/mojsinje.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik poginulim borcima u Mojsinju",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "brasina",
+    "koordinate": {
+      "lat": 44.4603889,
+      "lng": 19.1478613
+    },
+    "googleCid": "6744627383711747686",
+    "title": "Brasina",
+    "slika": "slike/spomenici/brasina.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik borcima",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "beograd-petlovo-brdo",
+    "koordinate": {
+      "lat": 44.7222422,
+      "lng": 20.419987499999998
+    },
+    "googleCid": "16052896013074221216",
+    "title": "Beograd (Petlovo brdo)",
+    "slika": "slike/spomenici/beograd-petlovo-brdo.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomen-ploča",
+    "type": "ploca",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "mladenovac-selo",
+    "koordinate": {
+      "lat": 44.457814,
+      "lng": 20.7019111
+    },
+    "googleCid": "3507395289447165411",
+    "title": "Mladenovac (selo)",
+    "slika": "slike/spomenici/mladenovac-selo.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik palim borcima",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "beograd-bezanijska-kosa",
+    "koordinate": {
+      "lat": 44.811364499999996,
+      "lng": 20.3708593
+    },
+    "googleCid": "17817498831320670845",
+    "title": "Beograd (Bežanijska kosa)",
+    "slika": "slike/spomenici/beograd-bezanijska-kosa.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomen-groblje Bežanijska kosa",
+    "type": "groblje",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "tucepi-2",
+    "koordinate": {
+      "lat": 43.269583,
+      "lng": 17.071645
+    },
+    "googleCid": "12200477042084147385",
+    "title": "Tučepi",
+    "slika": "slike/spomenici/tucepi-2.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik palim borcima i civilnim žrtvama",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "markovica",
+    "koordinate": {
+      "lat": 43.8621956,
+      "lng": 20.2104298
+    },
+    "googleCid": "12975223037649670372",
+    "title": "Markovica",
+    "slika": "slike/spomenici/markovica.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik palim borcima",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "kringa",
+    "koordinate": {
+      "lat": 45.1829634,
+      "lng": 13.827179699999999
+    },
+    "googleCid": "6959679643023592351",
+    "title": "Kringa",
+    "slika": "slike/spomenici/kringa.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik palim borcima",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "brocanac",
+    "koordinate": {
+      "lat": 45.0613575,
+      "lng": 15.6111247
+    },
+    "googleCid": "6552144361144625653",
+    "title": "Broćanac",
+    "slika": "slike/spomenici/brocanac.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "prnjavor-2",
+    "koordinate": {
+      "lat": 44.698544,
+      "lng": 19.388589
+    },
+    "googleCid": "17374182378305438843",
+    "title": "Prnjavor",
+    "slika": "slike/spomenici/prnjavor-2.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Borcima NOB 1941–1945",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "stari-slankamen",
+    "koordinate": {
+      "lat": 45.1414186,
+      "lng": 20.2576213
+    },
+    "googleCid": "15672127781697832649",
+    "title": "Stari Slankamen",
+    "slika": "slike/spomenici/stari-slankamen.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik palim borcima i žrtvama",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "jagodina",
+    "koordinate": {
+      "lat": 43.9767161,
+      "lng": 21.255285699999998
+    },
+    "googleCid": "15583595687892485622",
+    "title": "Jagodina",
+    "slika": "slike/spomenici/jagodina.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomen bista Boško Đuričić",
+    "type": "lokalni",
+    "drzava": "Serbia"
   }
 ]
