@@ -20844,5 +20844,130 @@
     "naziv": "Spomenik Narodnooslobodilačkoj borbi (NOB)",
     "type": "lokalni",
     "drzava": "Croatia"
+  },
+  {
+    "id": "lavci",
+    "koordinate": {
+      "lat": 41.00703,
+      "lng": 21.283991699999998
+    },
+    "googleCid": "10452354889077316368",
+    "title": "Lavci",
+    "naziv": "Споменик од НОБ „Дерков Кладенец”",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "kanino",
+    "koordinate": {
+      "lat": 40.945583,
+      "lng": 21.357575999999998
+    },
+    "googleCid": "11271880045822595516",
+    "title": "Kanino",
+    "slika": "slike/spomenici/kanino.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Споменик од НОБ",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "beograd-resnik",
+    "koordinate": {
+      "lat": 44.713416,
+      "lng": 20.4533378
+    },
+    "googleCid": "6669382538428530245",
+    "title": "Beograd (Resnik)",
+    "slika": "slike/spomenici/beograd-resnik.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik palim borcima Crvene armije",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "pinosava",
+    "koordinate": {
+      "lat": 44.6955371,
+      "lng": 20.5020252
+    },
+    "googleCid": "9402034457188880944",
+    "title": "Pinosava",
+    "slika": "slike/spomenici/pinosava.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik palim borcima",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "beograd-kosutnjak",
+    "koordinate": {
+      "lat": 44.7563287,
+      "lng": 20.450047
+    },
+    "googleCid": "11187464390852207035",
+    "title": "Beograd (Košutnjak)",
+    "slika": "slike/spomenici/beograd-kosutnjak.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik palim borcima iz Košutnjaka",
+    "year": "1963",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "crepaja",
+    "koordinate": {
+      "lat": 45.009247,
+      "lng": 20.6374085
+    },
+    "googleCid": "6940591147520599285",
+    "title": "Crepaja",
+    "naziv": "Spomenik palim borcima u Drugom svetskom ratu",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "beograd-batajnica",
+    "koordinate": {
+      "lat": 44.9061042,
+      "lng": 20.2751241
+    },
+    "googleCid": "7874261458154546688",
+    "title": "Beograd (Batajnica)",
+    "slika": "slike/spomenici/beograd-batajnica.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik palim borcima za slobodu 1941–1945",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "beograd-knezevac",
+    "koordinate": {
+      "lat": 44.7335405,
+      "lng": 20.4265791
+    },
+    "googleCid": "3598726401920651546",
+    "title": "Beograd (Kneževac)",
+    "slika": "slike/spomenici/beograd-knezevac.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik oslobodiocima Kneževca",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "valjevo-park-vide-jocic",
+    "koordinate": {
+      "lat": 44.2693337,
+      "lng": 19.879025
+    },
+    "googleCid": "12451597901664238244",
+    "title": "Valjevo",
+    "wiki": "https://sr.wikipedia.org/wiki/%D0%9F%D0%B0%D1%80%D0%BA_%D0%92%D0%B8%D0%B4%D0%B5_%D0%88%D0%BE%D1%86%D0%B8%D1%9B",
+    "slika": "slike/spomenici/valjevo-park-vide-jocic.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Park Vide Jocić",
+    "type": "kompleks",
+    "drzava": "Serbia",
+    "istaknut": true
   }
 ]

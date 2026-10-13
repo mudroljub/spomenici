@@ -34,14 +34,14 @@ mapa.getContainer().addEventListener('wheel', e => {
 mapa.createPane('korisnik').style.zIndex = 650
 
 const zumOstalih = 8
-const zumVrste = {lokalni: 11}
+const zumSitnih = 11
 
 const sloj = L.layerGroup().addTo(mapa)
 let markeri = []
 let suzeno = false
 let izabran = null
 
-const najmanjiZum = marker => marker.vazan ? 0 : zumVrste[marker.spomen.type] ?? zumOstalih
+const najmanjiZum = marker => marker.vazan ? 0 : marker.sitan ? zumSitnih : zumOstalih
 
 const vidljiv = marker => suzeno || mapa.getZoom() >= najmanjiZum(marker) || marker === izabran
   || Boolean(dajOznaku(marker.spomen.id))

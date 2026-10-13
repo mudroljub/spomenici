@@ -4,6 +4,8 @@ import {nestao, ruine} from '../utils/helpers.js'
 
 const razmeraZuma = {6: 0.5, 7: 0.55, 8: 0.65, 9: 0.8} // ostali zumovi pun obelisk
 const razmeraVaznih = 1.25
+const razmeraSitnih = 0.6
+const sitneVrste = ['lokalni', 'ploca']
 
 // ruine i uklonjeni imaju sliku iste velicine, da se razlikuju po obliku, a ne samo po boji:
 // prelomljen obelisk i isprekidan obris onoga cega vise nema
@@ -20,6 +22,7 @@ export default class Marker {
   constructor(spomen) {
     this.spomen = spomen
     this.vazan = Boolean(spomen.istaknut)
+    this.sitan = sitneVrste.includes(spomen.type)
     this.slika = nestao(spomen.stanje) ? 'slike/obelisk-uklonjen.png'
       : ruine(spomen.stanje) ? 'slike/obelisk-rusevina.png'
       : 'slike/obelisk.png'
@@ -30,7 +33,7 @@ export default class Marker {
 
   // velicina zavisi od zuma, a izgled od oznaka
   osvezi(zum, izabran) {
-    const razmera = (razmeraZuma[zum] || 1) * (this.vazan ? razmeraVaznih : 1)
+    const razmera = (razmeraZuma[zum] || 1) * (this.vazan ? razmeraVaznih : this.sitan ? razmeraSitnih : 1)
     const oznaka = dajOznaku(this.spomen.id)
     const klasa = [
       izabran === this && 'izabran',

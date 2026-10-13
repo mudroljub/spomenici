@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="sr-Latn">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Spomenici — predlog sistema ikonica</title>
+<style>
+  :root { color-scheme: light; --ink:#822323; --paper:#fff; --visited:#355d48; --saved:#594510; --yellow:#f2df9e; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:#f4f5f6; color:#252525; font:16px/1.55 system-ui,sans-serif; }
+  main { max-width:1080px; margin:auto; padding:36px 24px 56px; }
+  h1 { font-size:clamp(26px,4vw,40px); line-height:1.15; margin:0 0 14px; }
+  h2 { font-size:22px; margin:32px 0 14px; }
+  p { max-width:70ch; }
+  .intro { color:#505050; }
+  .controls { display:flex; flex-wrap:wrap; gap:18px; padding:18px 0; }
+  label { display:flex; flex-direction:column; gap:6px; font-size:14px; }
+  select { min-height:44px; font:inherit; color:#252525; background:#fff; border:1px solid #707070; border-radius:6px; padding:8px; }
+  :focus-visible { outline:3px solid #822323; outline-offset:4px; }
+  .atlas { background-color:#e3ebdd; background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='360' height='240' viewBox='0 0 360 240'%3E%3Cg fill='none' stroke='%23bdcdb1' stroke-width='1.5'%3E%3Cpath d='M-20 50Q100-40 230 90T400 40M-20 70Q100-20 230 110T400 60M-20 90Q100 0 230 130T400 80M-20 110Q100 20 230 150T400 100M-20 130Q100 40 230 170T400 120M-20 150Q100 60 230 190T400 140'/%3E%3C/g%3E%3Cpath d='M0 200Q90 100 180 180T360 130' fill='none' stroke='%23fff' stroke-width='8'/%3E%3Cpath d='M0 200Q90 100 180 180T360 130' fill='none' stroke='%23c0ad87' stroke-width='2'/%3E%3C/svg%3E"); border:1px solid #a8b59f; border-radius:8px; }
+  #types { display:grid; grid-template-columns:repeat(3,1fr); padding:22px; gap:24px 12px; }
+  .sample { text-align:center; min-width:0; }
+  .sample strong { display:block; font-size:15px; margin-top:8px; }
+  .sample small { display:block; color:#444; font-size:12px; }
+  .target { width:44px; height:48px; border:0; padding:0; background:none; display:inline-grid; place-items:center; position:relative; cursor:pointer; vertical-align:middle; }
+  .pin { width:var(--size,32px); height:calc(var(--size,32px) + 6px); overflow:visible; color:var(--ink); filter:drop-shadow(0 1px 1px #0003); }
+  .pin .body { fill:white; stroke:currentColor; stroke-width:1.6; }
+  .pin .tail { fill:currentColor; }
+  .pin .halo { fill:none; stroke:currentColor; stroke-width:2.2; display:none; }
+  .selected .halo { display:block; }
+  .removed .body { stroke-dasharray:3 2; }
+  .badge { position:absolute; width:16px; height:16px; border:1.5px solid white; border-radius:50%; display:grid; place-items:center; }
+  .badge svg { width:12px; height:12px; }
+  .visit { top:0; right:0; }
+  .visited { color:white; background:var(--visited); }
+  .saved { color:var(--saved); background:var(--yellow); border-color:var(--saved); }
+  .condition { bottom:6px; left:0; color:white; background:var(--ink); }
+  .examples { display:flex; flex-wrap:wrap; gap:28px; padding:24px; align-items:start; }
+  .examples .sample { min-width:92px; }
+  .notes { display:grid; grid-template-columns:1fr 1fr; gap:0 32px; }
+  .notes p { margin:8px 0; }
+  .notes strong { display:block; }
+  .sepia { filter:sepia(31%); }
+  .caption { font-size:13px; color:#505050; }
+  a { color:#822323; text-underline-offset:3px; }
+  #selection { min-height:26px; margin:12px 0 0; }
+  @media(max-width:620px) { main { padding:24px 16px; } #types { grid-template-columns:repeat(2,1fr); padding:18px 10px; } .notes { grid-template-columns:1fr; } }
+</style>
+<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" width="0" height="0" style="position:absolute">
+  <defs>
+    <symbol id="kompleks" viewBox="0 0 24 24"><path fill="currentColor" d="M2 19V9l5-3v13h3V4l5-2v17h3V8l4 3v8H2Z"/></symbol>
+    <symbol id="spomenik" viewBox="0 0 24 24"><path fill="currentColor" d="m9 3 3-2 3 2 2 16H7L9 3ZM4 20h16v3H4z"/></symbol>
+    <symbol id="lokalni" viewBox="0 0 24 24"><path fill="currentColor" d="m8 10 4-3 4 3v9H8zM5 20h14v3H5z"/></symbol>
+    <symbol id="ploca" viewBox="0 0 24 24"><rect x="2" y="5" width="20" height="14" rx="1" fill="none" stroke="currentColor" stroke-width="2.4"/><path stroke="currentColor" stroke-width="2.4" d="M7 10h10M7 14h7"/></symbol>
+    <symbol id="groblje" viewBox="0 0 24 24"><path fill="currentColor" d="M2 19V11a3 3 0 0 1 6 0v8H2Zm7 0V7a3 3 0 0 1 6 0v12H9Zm7 0v-8a3 3 0 0 1 6 0v8h-6ZM1 21h22v2H1z"/></symbol>
+    <symbol id="muzej" viewBox="0 0 24 24"><path fill="currentColor" d="m2 7 10-6 10 6v2H2zM4 11h3v8H4zM10.5 11h3v8h-3zM17 11h3v8h-3zM2 21h20v2H2z"/></symbol>
+    <symbol id="check" viewBox="0 0 16 16"><path fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" d="m3 8 3 3 7-7"/></symbol>
+    <symbol id="bookmark" viewBox="0 0 16 16"><path fill="currentColor" d="M4 2h8v12l-4-3-4 3z"/></symbol>
+    <symbol id="warning" viewBox="0 0 16 16"><path fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" d="m8 2 6 11H2z"/><path stroke="currentColor" stroke-width="1.6" d="M8 6v3m0 1.3v1.3"/></symbol>
+    <symbol id="cross" viewBox="0 0 16 16"><path stroke="currentColor" stroke-width="2.2" d="m4 4 8 8m0-8-8 8"/></symbol>
+  </defs>
+</svg>
+<main>
+  <h1>Jedan atlas, šest prepoznatljivih oblika</h1>
+  <p class="intro">Predlog za mapu spomenika: jednostavne siluete inspirisane memorijalnom arhitekturom. Oblik govori šta je objekat; oznake govore kakvo je stanje i da li si ga posetio.</p>
+  <div class="controls">
+    <label>Veličina simbola<select id="size"><option value="24">24 px · udaljena mapa</option><option value="28">28 px · srednji zum</option><option value="32" selected>32 px · bliska mapa</option></select></label>
+    <label>Stanje<select id="state"><option value="">Postoji</option><option value="warning">Ruševine / srušen</option><option value="removed">Uklonjen</option></select></label>
+    <label>Moja poseta<select id="visit"><option value="">Bez oznake</option><option value="visited">Posećen</option><option value="saved">Na listi</option></select></label>
+    <label>Izgled mape<select id="tint"><option value="">Osnovne boje</option><option value="sepia">Sepija postojeće aplikacije</option></select></label>
+  </div>
+  <div id="types" class="atlas"></div>
+  <p id="selection" aria-live="polite">Izaberi simbol da vidiš oznaku izbora; taster Tab prikazuje fokus.</p>
+  <p class="caption">Šematska podloga za poređenje kontrasta; simboli su prikazani u stvarnoj veličini. Ovo je samostalan predlog.</p>
+  <h2>Isti objekat, različite oznake</h2>
+  <div id="states" class="atlas examples"></div>
+  <h2>Pravila sistema</h2>
+  <div class="notes">
+    <p><strong>Tip se prepoznaje po silueti</strong>Kompleks ima grupu monumentalnih ploha, spomenik jedan obelisk, lokalni spomenik nizak memorijalni blok, ploča vodoravan okvir, groblje tri nadgrobna kamena, muzej pročelje sa stubovima. Simboli su kategorije, a ne crteži pojedinačnih objekata.</p>
+    <p><strong>Jedna porodica oblika</strong>Mreža 24 × 24, ista osnovna linija i ista optička težina. Na mapi svaki simbol dobija belu podlogu, taman obod i kratki vrh za precizno označavanje lokacije. U filterima i legendi koristi se isti simbol bez podloge.</p>
+    <p><strong>Boja ima stalnu ulogu</strong>Bordo #822323 označava objekat i odgovara postojećoj aplikaciji. Zelena #355d48 sa kvačicom označava posetu; žuta #f2df9e sa tamnim obeleživačem označava listu želja. Sve oznake imaju različit oblik.</p>
+    <p><strong>Stanje ne skriva tip</strong>Ruševine i srušen objekat imaju donju oznaku upozorenja. Uklonjen objekat ima × i isprekidan obod. Oštećen i zatvoren zadržavaju tip; detaljan tekst upozorenja stoji u panelu objekta.</p>
+    <p><strong>Izbor i poseta mogu zajedno</strong>Izbor dodaje jasan spoljašnji prsten. Poseta ostaje u gornjem desnom uglu, stanje u donjem levom. Posećen objekat zadržava punu neprozirnost, da njegova kategorija ostane čitljiva.</p>
+    <p><strong>Hijerarhija bez dodatnih ukrasa</strong>Istaknuti objekti se u konačnoj mapi mogu prikazivati ranije pri udaljavanju i imati simbol od 36 px. Lokalni objekti i ploče pojavljuju se pri približavanju. Broj stanice rute ima zasebnu oznaku; ne dodavati treću značku na simbol.</p>
+    <p><strong>Veličina i gustina</strong>Simbol je najmanje 24 px; površina dugmeta u ovom pregledu je 44 × 48 px. Pri implementaciji na mapi bliske markere grupisati ili razdvojiti pri izboru, da se površine za dodir ne prekrivaju.</p>
+    <p><strong>Čitljivost i pristup</strong>Svaki marker dobija naziv objekta, tip i stanje za čitač ekrana. Kontrast važnih delova cilja najmanje 3:1, a tekst najmanje 4,5:1; proveriti i posle sepija filtera, preko stvarnih pločica mape.</p>
+  </div>
+  <p class="caption">Osnova za pristupačnost: <a href="https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html">WCAG: kontrast grafičkih elemenata</a> i <a href="https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html">WCAG: veličina cilja</a>. Minimum cilja je 24 × 24 CSS px uz propisane izuzetke; ovde je predložena veća površina za telefon.</p>
+</main>
+<script>
+  const types = [
+    ['kompleks', 'Memorijalni kompleks', 'Grupa monumentalnih ploha'],
+    ['spomenik', 'Spomenik', 'Jedan obelisk'],
+    ['lokalni', 'Lokalni spomenik', 'Nizak memorijalni blok'],
+    ['ploca', 'Spomen-ploča', 'Vodoravna ploča sa natpisom'],
+    ['groblje', 'Memorijalno groblje', 'Tri nadgrobna kamena'],
+    ['muzej', 'Muzej', 'Pročelje sa stubovima']
+  ];
+  const descriptions = { warning:'ruševine ili srušen', removed:'uklonjen', visited:'posećen', saved:'na listi' };
+  const badge = (symbol, classes) => `<span class="badge ${classes}" aria-hidden="true"><svg viewBox="0 0 16 16"><use href="#${symbol}"/></svg></span>`;
+  const marker = (type, name, state='', visit='', selected=false) => {
+    const button = document.createElement('button');
+    button.className = `target ${state==='removed' ? 'removed' : ''} ${selected ? 'selected' : ''}`;
+    button.type = 'button';
+    button.setAttribute('aria-label', [name, descriptions[state], descriptions[visit]].filter(Boolean).join(', '));
+    button.setAttribute('aria-pressed', String(selected));
+    button.innerHTML = `<svg class="pin" viewBox="0 0 32 38" aria-hidden="true"><circle class="halo" cx="16" cy="16" r="19"/><path class="tail" d="m12 29 4 8 4-8Z"/><circle class="body" cx="16" cy="16" r="14.5"/><use href="#${type}" x="6" y="6" width="20" height="20"/></svg>${state ? badge(state==='removed' ? 'cross' : 'warning','condition') : ''}${visit ? badge(visit==='visited' ? 'check' : 'bookmark',`visit ${visit}`) : ''}`;
+    return button;
+  };
+  const sample = (type, title, note, state='', visit='', selected=false) => {
+    const item=document.createElement('div'); item.className='sample';
+    item.append(marker(type,title,state,visit,selected));
+    const label=document.createElement('strong'); label.textContent=title; item.append(label);
+    if(note) { const text=document.createElement('small'); text.textContent=note; item.append(text); }
+    return item;
+  };
+  const render = () => {
+    const state=document.querySelector('#state').value, visit=document.querySelector('#visit').value;
+    document.querySelector('#types').replaceChildren(...types.map(([type,name,note])=>sample(type,name,note,state,visit)));
+    document.querySelector('#types').style.setProperty('--size',document.querySelector('#size').value+'px');
+    document.querySelectorAll('.atlas').forEach(el=>el.classList.toggle('sepia',document.querySelector('#tint').value==='sepia'));
+  };
+  document.querySelectorAll('select').forEach(el=>el.addEventListener('change',render));
+  document.querySelector('#types').addEventListener('click',event=>{
+    const button=event.target.closest('button'); if(!button) return;
+    document.querySelectorAll('#types button').forEach(el=>{el.classList.toggle('selected',el===button);el.setAttribute('aria-pressed',String(el===button));});
+    document.querySelector('#selection').textContent='Izabrano: '+button.getAttribute('aria-label');
+  });
+  document.querySelector('#states').append(
+    sample('spomenik','Postoji',''),sample('spomenik','Ruševine','','warning'),sample('spomenik','Uklonjen','','removed'),
+    sample('spomenik','Posećen','','','visited'),sample('spomenik','Na listi','','','saved'),
+    sample('spomenik','Izabran','Posećen + ruševine','warning','visited',true)
+  );
+  document.querySelectorAll('#states button').forEach(button=>button.addEventListener('click',()=>{document.querySelector('#selection').textContent='Primer: '+button.getAttribute('aria-label');}));
+  render();
+</script>
+</html>
