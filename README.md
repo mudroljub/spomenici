@@ -16,3 +16,4 @@ live-server
 
 - dodaj pretragu spomenika po autorima
 - napravi da može da se preuzme na mobilnom i radi offline
+- u filterima prvo izlistaj legendu, onda ostale filtere

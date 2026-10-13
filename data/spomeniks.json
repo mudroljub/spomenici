@@ -12949,7 +12949,7 @@
     "slika": "slike/spomenici/jakovo.webp",
     "slikaAutor": "Google Maps",
     "naziv": "Spomenik NOB",
-    "type": "lokalni",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -13086,7 +13086,7 @@
     "slika": "slike/spomenici/dvorjane.webp",
     "slikaAutor": "Google Maps",
     "naziv": "Spomenik NOB",
-    "type": "lokalni",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -13170,7 +13170,7 @@
     "slika": "slike/spomenici/slovenska-bistrica.webp",
     "slikaAutor": "Google Maps",
     "naziv": "Spomenik NOB",
-    "type": "lokalni",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -13254,7 +13254,7 @@
     "slika": "slike/spomenici/okonina.webp",
     "slikaAutor": "Google Maps",
     "naziv": "Spomenik NOB",
-    "type": "lokalni",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -13372,7 +13372,7 @@
     "slika": "slike/spomenici/crni-vrh-2.webp",
     "slikaAutor": "Google Maps",
     "naziv": "Spomenik NOB",
-    "type": "lokalni",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -13510,7 +13510,7 @@
     "slika": "slike/spomenici/zgornje-pirnice.webp",
     "slikaAutor": "Google Maps",
     "naziv": "Spomenik NOB",
-    "type": "lokalni",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -13842,7 +13842,7 @@
     "slika": "slike/spomenici/rakek.webp",
     "slikaAutor": "Google Maps",
     "naziv": "Spomenik NOB",
-    "type": "lokalni",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -13952,7 +13952,7 @@
     "slika": "slike/spomenici/podturn.webp",
     "slikaAutor": "Google Maps",
     "naziv": "Spomenik NOB",
-    "type": "lokalni",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -13966,7 +13966,7 @@
     "slika": "slike/spomenici/zamostec.webp",
     "slikaAutor": "Google Maps",
     "naziv": "Spomenik NOB",
-    "type": "lokalni",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -13994,7 +13994,7 @@
     "slika": "slike/spomenici/prestranek.webp",
     "slikaAutor": "Google Maps",
     "naziv": "Spomenik padlim borcem NOB",
-    "type": "lokalni",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -14008,7 +14008,7 @@
     "slika": "slike/spomenici/loz.webp",
     "slikaAutor": "Google Maps",
     "naziv": "Spomenik NOB",
-    "type": "lokalni",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -14256,7 +14256,7 @@
     "slika": "slike/spomenici/viskovo.webp",
     "slikaAutor": "Google Maps",
     "naziv": "Spomenik palim borcima NOB-a",
-    "type": "lokalni",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -14296,7 +14296,7 @@
     "slika": "slike/spomenici/bakar.webp",
     "slikaAutor": "Google Maps",
     "naziv": "Spomenik palim borcima NOB-e Ranjeni kurir",
-    "type": "lokalni",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -14392,7 +14392,7 @@
     "slika": "slike/spomenici/pula-veli-vrh.webp",
     "slikaAutor": "Google Maps",
     "naziv": "Spomenik NOB",
-    "type": "lokalni",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -14760,7 +14760,7 @@
     "slika": "slike/spomenici/maribor-lent.webp",
     "slikaAutor": "Google Maps",
     "naziv": "Spomenik NOB",
-    "type": "lokalni",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -14816,7 +14816,7 @@
     "slika": "slike/spomenici/zagrad.webp",
     "slikaAutor": "Google Maps",
     "naziv": "Spomenik NOB",
-    "type": "lokalni",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -14908,7 +14908,7 @@
     "slika": "slike/spomenici/zgornji-duplek.webp",
     "slikaAutor": "Google Maps",
     "naziv": "Spomenik NOB",
-    "type": "lokalni",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -15102,7 +15102,7 @@
     "slika": "slike/spomenici/velika-nedelja.webp",
     "slikaAutor": "Google Maps",
     "naziv": "Spomenik NOB",
-    "type": "lokalni",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -15156,7 +15156,7 @@
     "slika": "slike/spomenici/loke-pri-mozirju.webp",
     "slikaAutor": "Google Maps",
     "naziv": "Spomenik padlim borcem NOB in žrtvam okupatorjevega nasilja",
-    "type": "lokalni",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -15282,7 +15282,7 @@
     "slika": "slike/spomenici/kropa.webp",
     "slikaAutor": "Google Maps",
     "naziv": "Spomenik NOB",
-    "type": "lokalni",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -15378,7 +15378,7 @@
     "slika": "slike/spomenici/srpenica.webp",
     "slikaAutor": "Google Maps",
     "naziv": "Spomenik NOB",
-    "type": "lokalni",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -15486,7 +15486,7 @@
     "slika": "slike/spomenici/kred-2.webp",
     "slikaAutor": "Google Maps",
     "naziv": "Spomenik NOB",
-    "type": "lokalni",
+    "type": "bista",
     "drzava": "Slovenia"
   },
   {
@@ -15500,7 +15500,7 @@
     "slika": "slike/spomenici/locica-pri-vranskem.webp",
     "slikaAutor": "Google Maps",
     "naziv": "Spomenik NOB",
-    "type": "lokalni",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -15542,7 +15542,7 @@
     "slika": "slike/spomenici/celje-lisce.webp",
     "slikaAutor": "Google Maps",
     "naziv": "Spomenik NOB II OŠ",
-    "type": "lokalni",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -15556,7 +15556,7 @@
     "slika": "slike/spomenici/grize.webp",
     "slikaAutor": "Google Maps",
     "naziv": "Spomenik žrtvam NOB",
-    "type": "lokalni",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -15612,7 +15612,7 @@
     "slika": "slike/spomenici/rogatec.webp",
     "slikaAutor": "Google Maps",
     "naziv": "Spomenik NOB",
-    "type": "lokalni",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -15626,7 +15626,7 @@
     "slika": "slike/spomenici/sentjur.webp",
     "slikaAutor": "Google Maps",
     "naziv": "Spomenik NOB",
-    "type": "lokalni",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -15832,7 +15832,7 @@
     "slika": "slike/spomenici/vrhe.webp",
     "slikaAutor": "Google Maps",
     "naziv": "Spomenik NOB",
-    "type": "lokalni",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -15912,7 +15912,7 @@
     "slika": "slike/spomenici/selo-pri-vodicah-2.webp",
     "slikaAutor": "Google Maps",
     "naziv": "Spomenik NOB",
-    "type": "lokalni",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -16290,7 +16290,7 @@
     "slika": "slike/spomenici/zgornji-log-2.webp",
     "slikaAutor": "Google Maps",
     "naziv": "Spomenik NOB",
-    "type": "lokalni",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -16431,7 +16431,7 @@
     "slika": "slike/spomenici/jance.webp",
     "slikaAutor": "Google Maps",
     "naziv": "NOB spomenik v Jančah",
-    "type": "lokalni",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -16709,7 +16709,7 @@
     "slika": "slike/spomenici/mirke.webp",
     "slikaAutor": "Google Maps",
     "naziv": "NOB spomenik",
-    "type": "lokalni",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -16751,7 +16751,7 @@
     "slika": "slike/spomenici/medvedjek.webp",
     "slikaAutor": "Google Maps",
     "naziv": "Spomenik NOB",
-    "type": "lokalni",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -16891,7 +16891,7 @@
     "slika": "slike/spomenici/stomaz.webp",
     "slikaAutor": "Google Maps",
     "naziv": "Spomenik NOB",
-    "type": "lokalni",
+    "type": "ploca",
     "drzava": "Slovenia"
   },
   {
@@ -16905,7 +16905,7 @@
     "slika": "slike/spomenici/orehovlje.webp",
     "slikaAutor": "Google Maps",
     "naziv": "Spomenik NOB",
-    "type": "lokalni",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -16957,7 +16957,7 @@
     "slika": "slike/spomenici/dornberk.webp",
     "slikaAutor": "Google Maps",
     "naziv": "Spomenik NOB",
-    "type": "lokalni",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -17053,7 +17053,7 @@
     "slika": "slike/spomenici/globocice-pri-kostanjevici.webp",
     "slikaAutor": "Google Maps",
     "naziv": "Spomenik padlim v NOB",
-    "type": "lokalni",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -17095,7 +17095,7 @@
     "slika": "slike/spomenici/planina.webp",
     "slikaAutor": "Google Maps",
     "naziv": "Spomenik NOB",
-    "type": "lokalni",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -17123,7 +17123,7 @@
     "slika": "slike/spomenici/predjama.webp",
     "slikaAutor": "Google Maps",
     "naziv": "Spomenik NOB",
-    "type": "lokalni",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -17205,7 +17205,7 @@
     "slika": "slike/spomenici/dolenja-vas-2.webp",
     "slikaAutor": "Google Maps",
     "naziv": "Spomenik NOB",
-    "type": "lokalni",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -17555,7 +17555,7 @@
     "googleCid": "371257807744575561",
     "title": "Koper",
     "naziv": "Spomenik narodnim herojem NOB",
-    "type": "lokalni",
+    "type": "bista",
     "drzava": "Slovenia"
   },
   {
@@ -17765,7 +17765,7 @@
     "slika": "slike/spomenici/tomici.webp",
     "slikaAutor": "Google Maps",
     "naziv": "Spomenik NOB",
-    "type": "lokalni",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -17805,7 +17805,7 @@
     "googleCid": "9938779105539914732",
     "title": "Bački Petrovac",
     "naziv": "Spomenik borcima NOB",
-    "type": "lokalni",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -17875,7 +17875,7 @@
     "slika": "slike/spomenici/hreljin.webp",
     "slikaAutor": "Google Maps",
     "naziv": "Spomenik NOB",
-    "type": "lokalni",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -17931,7 +17931,7 @@
     "slika": "slike/spomenici/jasenak.webp",
     "slikaAutor": "Google Maps",
     "naziv": "Spomenik NOB",
-    "type": "lokalni",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -18043,7 +18043,7 @@
     "slika": "slike/spomenici/sanicani.webp",
     "slikaAutor": "Google Maps",
     "naziv": "Spomenik NOB",
-    "type": "lokalni",
+    "type": "ploca",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -18190,7 +18190,7 @@
     "slika": "slike/spomenici/veli-losinj.webp",
     "slikaAutor": "Google Maps",
     "naziv": "Spomenik NOB",
-    "type": "lokalni",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -18354,7 +18354,7 @@
     "slika": "slike/spomenici/curlini.webp",
     "slikaAutor": "Google Maps",
     "naziv": "Spomenik NOB",
-    "type": "lokalni",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -18466,7 +18466,7 @@
     "slika": "slike/spomenici/nis-centar.webp",
     "slikaAutor": "Google Maps",
     "naziv": "Park Heroja NOB-a",
-    "type": "lokalni",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -18618,7 +18618,7 @@
     "slika": "slike/spomenici/kratovo.webp",
     "slikaAutor": "Google Maps",
     "naziv": "Споменик од НОБ",
-    "type": "lokalni",
+    "type": "bista",
     "drzava": "Macedonia"
   },
   {
@@ -18784,7 +18784,7 @@
     "slika": "slike/spomenici/bitola-stara-carsija.webp",
     "slikaAutor": "Google Maps",
     "naziv": "Споменик на паднати борци од НОБ",
-    "type": "lokalni",
+    "type": "spomenik",
     "drzava": "Macedonia"
   },
   {
@@ -19004,7 +19004,7 @@
     "googleCid": "10021521556437639530",
     "title": "Podvrh",
     "naziv": "Spomenik NOB",
-    "type": "lokalni",
+    "type": "ploca",
     "drzava": "Slovenia"
   },
   {
@@ -19713,7 +19713,7 @@
     "googleCid": "12996248765383153577",
     "title": "Podrvanj",
     "naziv": "Spomenik NOB",
-    "type": "lokalni",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -19725,7 +19725,7 @@
     "googleCid": "13300661267347891248",
     "title": "Lokve",
     "naziv": "Spomenik NOB",
-    "type": "lokalni",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -19965,7 +19965,7 @@
     "googleCid": "1613327087288913330",
     "title": "Hrvace",
     "naziv": "Spomenik palim borcima NOB",
-    "type": "lokalni",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -20099,7 +20099,7 @@
     "slika": "slike/spomenici/nedelisce.webp",
     "slikaAutor": "Google Maps",
     "naziv": "Spomenik Narodnooslobodilačkoj borbi (NOB)",
-    "type": "lokalni",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -20295,7 +20295,7 @@
     "slika": "slike/spomenici/nova-raca.webp",
     "slikaAutor": "Google Maps",
     "naziv": "Spomenik Narodnooslobodilačkoj borbi (NOB)",
-    "type": "lokalni",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -20323,7 +20323,7 @@
     "slika": "slike/spomenici/beter.webp",
     "slikaAutor": "Google Maps",
     "naziv": "Spomenik Narodnooslobodilačkoj borbi (NOB)",
-    "type": "lokalni",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -20373,7 +20373,7 @@
     "slika": "slike/spomenici/juran.webp",
     "slikaAutor": "Google Maps",
     "naziv": "Spomenik Narodnooslobodilačkoj borbi (NOB)",
-    "type": "lokalni",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -20387,7 +20387,7 @@
     "slika": "slike/spomenici/uljanik.webp",
     "slikaAutor": "Google Maps",
     "naziv": "Spomenik Narodnooslobodilačkoj borbi (NOB)",
-    "type": "lokalni",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -20441,7 +20441,7 @@
     "slika": "slike/spomenici/laze.webp",
     "slikaAutor": "Google Maps",
     "naziv": "Spomenik Narodnooslobodilačkoj borbi (NOB)",
-    "type": "lokalni",
+    "type": "bista",
     "drzava": "Croatia"
   },
   {
@@ -20639,7 +20639,7 @@
     "googleCid": "4853956471959988953",
     "title": "Pleternica",
     "naziv": "Spomenik Narodnooslobodilačkoj borbi (NOB)",
-    "type": "lokalni",
+    "type": "bista",
     "drzava": "Croatia"
   },
   {
@@ -20703,7 +20703,7 @@
     "slika": "slike/spomenici/sveti-lovrec.webp",
     "slikaAutor": "Google Maps",
     "naziv": "Spomenik Narodnooslobodilačkoj borbi (NOB)",
-    "type": "lokalni",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -20753,7 +20753,7 @@
     "googleCid": "17631128873494723153",
     "title": "Selce",
     "naziv": "Spomenik Narodnooslobodilačkoj borbi (NOB)",
-    "type": "lokalni",
+    "type": "ploca",
     "drzava": "Croatia"
   },
   {
@@ -20767,7 +20767,7 @@
     "slika": "slike/spomenici/novi-vinodolski.webp",
     "slikaAutor": "Google Maps",
     "naziv": "Spomenik Narodnooslobodilačkoj borbi (NOB)",
-    "type": "lokalni",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -21046,7 +21046,7 @@
     "slika": "slike/spomenici/beograd-batajnica.webp",
     "slikaAutor": "Google Maps",
     "naziv": "Spomenik palim borcima za slobodu 1941–1945",
-    "type": "lokalni",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -21142,7 +21142,7 @@
     "slika": "slike/spomenici/baska-voda.webp",
     "slikaAutor": "Google Maps",
     "naziv": "Spomenik palim borcima NOR-a",
-    "type": "lokalni",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -21218,7 +21218,7 @@
     "slika": "slike/spomenici/niska-banja.webp",
     "slikaAutor": "Google Maps",
     "naziv": "Spomenik palim borcima 1941–1945",
-    "type": "lokalni",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -21352,7 +21352,7 @@
     "slika": "slike/spomenici/soline.webp",
     "slikaAutor": "Google Maps",
     "naziv": "Spomenik palim borcima u Drugom svjetskom ratu",
-    "type": "lokalni",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -21406,7 +21406,7 @@
     "slika": "slike/spomenici/draga-bascanska.webp",
     "slikaAutor": "Google Maps",
     "naziv": "Spomenik palim borcima i žrtvama fašizma",
-    "type": "lokalni",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -21526,7 +21526,7 @@
     "slika": "slike/spomenici/lacarak-2.webp",
     "slikaAutor": "Google Maps",
     "naziv": "Spomenik palim borcima i žrtvama fašizma u Drugom svetskom ratu",
-    "type": "lokalni",
+    "type": "bista",
     "drzava": "Serbia"
   },
   {
@@ -21662,7 +21662,7 @@
     "slika": "slike/spomenici/neuzina.webp",
     "slikaAutor": "Google Maps",
     "naziv": "Spomenik palim borcima i civilima tokom Drugog svetskog rata",
-    "type": "lokalni",
+    "type": "bista",
     "drzava": "Serbia"
   },
   {
@@ -21703,7 +21703,7 @@
     "slika": "slike/spomenici/backo-gradiste.webp",
     "slikaAutor": "Google Maps",
     "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
-    "type": "lokalni",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -22093,7 +22093,7 @@
     "slika": "slike/spomenici/tesica.webp",
     "slikaAutor": "Google Maps",
     "naziv": "Spomenik palim borcima",
-    "type": "lokalni",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -22220,7 +22220,7 @@
     "slika": "slike/spomenici/kraljevo-grdica.webp",
     "slikaAutor": "Google Maps",
     "naziv": "Spomenik palim borcima",
-    "type": "lokalni",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -22262,7 +22262,7 @@
     "slika": "slike/spomenici/bater.webp",
     "slikaAutor": "Google Maps",
     "naziv": "Spomenik palim borcima",
-    "type": "lokalni",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -22304,7 +22304,7 @@
     "slika": "slike/spomenici/lapovac.webp",
     "slikaAutor": "Google Maps",
     "naziv": "Spomenik palim borcima Primorsko-goranske brigade",
-    "type": "lokalni",
+    "type": "ploca",
     "drzava": "Croatia"
   },
   {
@@ -22516,7 +22516,7 @@
     "slika": "slike/spomenici/mojsinje.webp",
     "slikaAutor": "Google Maps",
     "naziv": "Spomenik poginulim borcima u Mojsinju",
-    "type": "lokalni",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -22586,7 +22586,7 @@
     "slika": "slike/spomenici/tucepi-2.webp",
     "slikaAutor": "Google Maps",
     "naziv": "Spomenik palim borcima i civilnim žrtvama",
-    "type": "lokalni",
+    "type": "bista",
     "drzava": "Croatia"
   },
   {
@@ -22600,7 +22600,7 @@
     "slika": "slike/spomenici/markovica.webp",
     "slikaAutor": "Google Maps",
     "naziv": "Spomenik palim borcima",
-    "type": "lokalni",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -22628,7 +22628,7 @@
     "slika": "slike/spomenici/brocanac.webp",
     "slikaAutor": "Google Maps",
     "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
-    "type": "lokalni",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -22642,7 +22642,7 @@
     "slika": "slike/spomenici/prnjavor-2.webp",
     "slikaAutor": "Google Maps",
     "naziv": "Borcima NOB 1941–1945",
-    "type": "lokalni",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -22684,7 +22684,7 @@
     "slika": "slike/spomenici/konec.webp",
     "slikaAutor": "Google Maps",
     "naziv": "Spomenik revolucije",
-    "type": "lokalni",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -22712,7 +22712,7 @@
     "slika": "slike/spomenici/milna.webp",
     "slikaAutor": "Google Maps",
     "naziv": "Spomenik narodne revolucije",
-    "type": "lokalni",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -23310,7 +23310,7 @@
     "slika": "slike/spomenici/cakovec.webp",
     "slikaAutor": "Google Maps",
     "naziv": "Spomenik žrtvama fašizma",
-    "type": "lokalni",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -23536,7 +23536,7 @@
     "googleCid": "9154884603018998102",
     "title": "Loka pri Mengšu",
     "naziv": "Spomenik padlim borcem in žrtvam fašističnega nasilja",
-    "type": "lokalni",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -23686,7 +23686,7 @@
     "slika": "slike/spomenici/breg-pri-polzeli.webp",
     "slikaAutor": "Google Maps",
     "naziv": "Žrtvam fašizma",
-    "type": "lokalni",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -23765,7 +23765,7 @@
     "slika": "slike/spomenici/ralja.webp",
     "slikaAutor": "Google Maps",
     "naziv": "Spomenik žrtvama streljanja",
-    "type": "lokalni",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -23875,7 +23875,7 @@
     "slika": "slike/spomenici/slovenski-javornik.webp",
     "slikaAutor": "Google Maps",
     "naziv": "Spomenik žrtvam",
-    "type": "lokalni",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -23901,7 +23901,7 @@
     "title": "Bogdanci",
     "slika": "slike/spomenici/bogdanci.webp",
     "slikaAutor": "Google Maps",
-    "type": "lokalni",
+    "type": "bista",
     "drzava": "Macedonia"
   },
   {
@@ -24257,7 +24257,7 @@
     "info": "https://www.openstreetmap.org/node/5207380492",
     "naziv": "Spomenici narodnih heroja (Ivo Lola Ribar, Josip Mažar Šoša)",
     "name": "Memorials to People's Heroes (Ivo Lola Ribar, Josip Mažar Šoša)",
-    "type": "spomenik",
+    "type": "bista",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -25317,7 +25317,7 @@
     "info": "https://www.openstreetmap.org/node/9399721138",
     "naziv": "Spominsko znamenje 2. prekomorski brigadi v Semedeli",
     "name": "Monument to a Partisan Brigade",
-    "type": "spomenik",
+    "type": "lokalni",
     "drzava": "Slovenia"
   },
   {
@@ -25330,7 +25330,7 @@
     "info": "https://www.openstreetmap.org/node/10732611909",
     "naziv": "Spomenik 1. i 2. Vojvođanskoj NOU brigadi",
     "name": "Monument to a Partisan Brigade",
-    "type": "spomenik",
+    "type": "lokalni",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -25409,7 +25409,7 @@
     "info": "https://www.openstreetmap.org/node/12367213828",
     "naziv": "Spominsko obeležje 8 borcem Kosovelove brigade",
     "name": "Monument to a Partisan Brigade",
-    "type": "spomenik",
+    "type": "lokalni",
     "drzava": "Slovenia"
   },
   {
@@ -26150,7 +26150,7 @@
     "slika": "slike/spomenici/grohote-spomenik-palim-borcima.webp",
     "slikaAutor": "Joadl, CC BY-SA 3.0 at",
     "naziv": "Spomenik palim borcima",
-    "type": "lokalni",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -26525,7 +26525,7 @@
     "slika": "slike/spomenici/cepin-spomenik-palim-borcima-i-zrtvama-fasizma.webp",
     "slikaAutor": "Flammard, CC BY-SA 3.0",
     "naziv": "Spomenik palim borcima NOB-a i žrtvama fašizma",
-    "type": "lokalni",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -26537,7 +26537,7 @@
     "title": "Osor",
     "naziv": "Spomenik palim borcima NOVJ",
     "year": "1955",
-    "type": "lokalni",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
