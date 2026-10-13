@@ -1327,6 +1327,7 @@
     "title": "Mirna",
     "info": "http://www.spomenikdatabase.org/mirna",
     "slika": "slike/spomenici/mirna.webp",
+    "naziv": "Spomenik padlim na Rojah",
     "name": "Monument to the Fallen on Roja Hill",
     "year": "1965",
     "author": "Janez Lenassi",
@@ -1676,6 +1677,7 @@
     "title": "Ada",
     "info": "http://www.spomenikdatabase.org/ada",
     "slika": "slike/spomenici/ada.webp",
+    "naziv": "Spomenik otporu",
     "name": "Memorial to Resistance",
     "year": "1961",
     "author": "Aleksandar Zarin",
@@ -1863,6 +1865,7 @@
     "title": "Mitrašinci",
     "info": "http://www.spomenikdatabase.org/mitrasinci",
     "slika": "slike/spomenici/mitrasinci.webp",
+    "naziv": "Споменик на 50. Македонска партизанска дивизија",
     "name": "Monu. to the 50th Maced. Partisan Div.",
     "year": "1974",
     "type": "kompleks",
@@ -3040,10 +3043,9 @@
       "lng": 21.84940826
     },
     "googleCid": "6023356537592415694",
-    "title": "1st Session of ASNOM Museum",
+    "title": "Меморијален центар на АСНОМ",
     "wiki": "https://mk.wikipedia.org/wiki/%D0%9C%D0%B5%D0%BC%D0%BE%D1%80%D0%B8%D1%98%D0%B0%D0%BB%D0%B5%D0%BD_%D1%86%D0%B5%D0%BD%D1%82%D0%B0%D1%80_%D0%BD%D0%B0_%D0%90%D0%A1%D0%9D%D0%9E%D0%9C",
     "slika": "slike/spomenici/1st-session-of-asnom-museum.webp",
-    "naziv": "Меморијален центар на АСНОМ",
     "year": "2004",
     "type": "muzej",
     "drzava": "Macedonia",
@@ -3469,6 +3471,7 @@
     "googleCid": "3291700010805901309",
     "title": "Subotica Courthouse",
     "slika": "slike/spomenici/subotica-courthouse.webp",
+    "naziv": "Balada obešenih",
     "name": "\"Ballad of the Hanged\" Memorial",
     "year": "1967",
     "author": "Nandor Glid",
@@ -4555,11 +4558,10 @@
       "lng": 17.76053537
     },
     "googleCid": "10988886422416436038",
-    "title": "Battle of Neretva Museum",
+    "title": "Memorijalni kompleks „Bitka na Neretvi“",
     "info": "https://www.muzej-jablanica.com/",
     "wiki": "https://bs.wikipedia.org/wiki/Memorijalni_kompleks_u_Jablanici",
     "slika": "slike/spomenici/battle-of-neretva-museum.webp",
-    "naziv": "Memorijalni kompleks „Bitka na Neretvi“",
     "year": "1978",
     "type": "muzej",
     "drzava": "Bosnia and Herzegovina"
@@ -4588,11 +4590,10 @@
       "lng": 20.45209993
     },
     "googleCid": "6327886645597459486",
-    "title": "Museum of Yugoslavia",
+    "title": "Muzej Jugoslavije",
     "info": "https://www.muzej-jugoslavije.org/en/",
     "wiki": "https://hr.wikipedia.org/wiki/Muzej_Jugoslavije",
     "slika": "slike/spomenici/museum-of-yugoslavia.webp",
-    "naziv": "Muzej Jugoslavije",
     "year": "1962",
     "type": "muzej",
     "drzava": "Serbia"
@@ -4604,11 +4605,10 @@
       "lng": 19.84634716
     },
     "googleCid": "5115229269573452809",
-    "title": "Užice National Museum",
+    "title": "Narodni muzej Užice",
     "info": "https://www.turizamuzica.org.rs/narodni-muzej/",
     "wiki": "https://sr.wikipedia.org/wiki/%D0%9D%D0%B0%D1%80%D0%BE%D0%B4%D0%BD%D0%B8_%D0%BC%D1%83%D0%B7%D0%B5%D1%98_%D0%A3%D0%B6%D0%B8%D1%86%D0%B5",
     "slika": "slike/spomenici/uzice-national-museum.webp",
-    "naziv": "Narodni muzej Užice",
     "year": "1940",
     "type": "muzej",
     "drzava": "Serbia"
@@ -4620,10 +4620,9 @@
       "lng": 15.64799805
     },
     "googleCid": "15557264753050789278",
-    "title": "National Liberation Museum",
+    "title": "Muzej narodne osvoboditve Maribor",
     "wiki": "https://sl.wikipedia.org/wiki/Muzej_narodne_osvoboditve_Maribor",
     "slika": "slike/spomenici/national-liberation-museum.webp",
-    "naziv": "Muzej narodne osvoboditve Maribor",
     "type": "muzej",
     "drzava": "Slovenia"
   },
@@ -4634,7 +4633,7 @@
       "lng": 18.92324884
     },
     "googleCid": "7821380711787785912",
-    "title": "Nat'l Museum of Montenegro",
+    "title": "Narodni muzej Crne Gore",
     "info": "http://www.mnmuseum.org/index_e.html",
     "slika": "slike/spomenici/nat-l-museum-of-montenegro.webp",
     "type": "muzej",
@@ -4647,7 +4646,7 @@
       "lng": 14.18878783
     },
     "googleCid": "11507127312119044669",
-    "title": "Military History Museum",
+    "title": "Park vojaške zgodovine Pivka",
     "info": "https://www.parkvojaskezgodovine.si/en/",
     "slika": "slike/spomenici/military-history-museum.webp",
     "type": "muzej",
@@ -4660,11 +4659,10 @@
       "lng": 18.40108712
     },
     "googleCid": "14329379270992545697",
-    "title": "History Museum of BiH",
+    "title": "Historijski muzej Bosne i Hercegovine",
     "info": "http://muzej.ba/",
     "wiki": "https://sh.wikipedia.org/wiki/Historijski_muzej_Bosne_i_Hercegovine",
     "slika": "slike/spomenici/history-museum-of-bih.webp",
-    "naziv": "Historijski muzej Bosne i Hercegovine",
     "year": "1963",
     "type": "muzej",
     "drzava": "Bosnia and Herzegovina"
@@ -4675,10 +4673,9 @@
       "lat": 44.81263361,
       "lng": 15.86813767
     },
-    "title": "1st AVNOJ Session Museum",
+    "title": "Muzej I. zasjedanja AVNOJ-a u Bihaću",
     "wiki": "https://sh.wikipedia.org/wiki/Muzej_I._zasjedanja_AVNOJ-a_u_Biha%C4%87u",
     "slika": "slike/spomenici/1st-avnoj-session-museum.webp",
-    "naziv": "Muzej I. zasjedanja AVNOJ-a u Bihaću",
     "type": "muzej",
     "drzava": "Bosnia and Herzegovina"
   },
@@ -4689,11 +4686,10 @@
       "lng": 16.38698686
     },
     "googleCid": "8375545306235289483",
-    "title": "Tito's Cave & Museum at Drvar",
+    "title": "Titova pećina",
     "info": "https://www.tripadvisor.com/ShowUserReviews-g2305377-d8744973-r398815364-Tito_s_Cave-Drvar_Canton_10.html",
     "wiki": "https://sh.wikipedia.org/wiki/Titova_pe%C4%87ina_u_Drvaru",
     "slika": "slike/spomenici/tito-s-cave-museum-at-drvar.webp",
-    "naziv": "Titova pećina",
     "type": "muzej",
     "drzava": "Bosnia and Herzegovina"
   },
@@ -4704,7 +4700,7 @@
       "lng": 20.89432109
     },
     "googleCid": "13817108332761878344",
-    "title": "October 21st Museum",
+    "title": "Spomen-muzej 21. oktobar",
     "info": "http://www.spomenpark.rs/en/",
     "slika": "slike/spomenici/october-21st-museum.webp",
     "year": "1976",
@@ -4735,10 +4731,9 @@
       "lng": 20.965556
     },
     "googleCid": "9392740388381003188",
-    "title": "Tetovo Regional Museum",
+    "title": "Меморијален музеј на Централниот комитет на Комунистичката партија на Македонија - Тетово",
     "wiki": "https://mk.wikipedia.org/wiki/%D0%9C%D0%B5%D0%BC%D0%BE%D1%80%D0%B8%D1%98%D0%B0%D0%BB%D0%B5%D0%BD_%D0%BC%D1%83%D0%B7%D0%B5%D1%98_%D0%BD%D0%B0_%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D0%BD%D0%B8%D0%BE%D1%82_%D0%BA%D0%BE%D0%BC%D0%B8%D1%82%D0%B5%D1%82_%D0%BD%D0%B0_%D0%9A%D0%BE%D0%BC%D1%83%D0%BD%D0%B8%D1%81%D1%82%D0%B8%D1%87%D0%BA%D0%B0%D1%82%D0%B0_%D0%BF%D0%B0%D1%80%D1%82%D0%B8%D1%98%D0%B0_%D0%BD%D0%B0_%D0%9C%D0%B0%D0%BA%D0%B5%D0%B4%D0%BE%D0%BD%D0%B8%D1%98%D0%B0_-_%D0%A2%D0%B5%D1%82%D0%BE%D0%B2%D0%BE",
     "slika": "slike/spomenici/tetovo-regional-museum.webp",
-    "naziv": "Меморијален музеј на Централниот комитет на Комунистичката партија на Македонија - Тетово",
     "type": "muzej",
     "drzava": "Macedonia"
   },
@@ -4762,11 +4757,10 @@
       "lng": 15.67842095
     },
     "googleCid": "16891054617813946968",
-    "title": "Tito's Birthplace Museum",
+    "title": "Muzej Staro selo Kumrovec",
     "info": "http://www.kumrovec.hr/museum-staro-selo/",
     "wiki": "https://hr.wikipedia.org/wiki/Muzej_Staro_selo_Kumrovec",
     "slika": "slike/spomenici/tito-s-birthplace-museum.webp",
-    "naziv": "Muzej Staro selo Kumrovec",
     "type": "muzej",
     "drzava": "Croatia"
   },
@@ -4777,7 +4771,7 @@
       "lng": 21.88795476
     },
     "googleCid": "1016151536166953246",
-    "title": "Red Cross Camp Museum",
+    "title": "Logor Crveni krst",
     "info": "http://logorcrvenikrst.wikidot.com/",
     "slika": "slike/spomenici/red-cross-camp-museum.webp",
     "type": "muzej",
@@ -4790,7 +4784,7 @@
       "lng": 14.49540048
     },
     "googleCid": "5075393254058134544",
-    "title": "Nat'l Museum of Contemp. Hist.",
+    "title": "Muzej novejše in sodobne zgodovine Slovenije",
     "info": "http://www.muzej-nz.si/en/",
     "slika": "slike/spomenici/nat-l-museum-of-contemp-hist.webp",
     "type": "muzej",
@@ -4948,7 +4942,7 @@
       "lng": 14.02741902
     },
     "googleCid": "8567176239465078292",
-    "title": "Franja Partisan Hospital",
+    "title": "Slovenska vojna partizanska bolnica Franja",
     "slika": "slike/spomenici/franja-partisan-hospital.webp",
     "slikaAutor": "Sl-Ziga, Public domain",
     "type": "muzej",
@@ -4976,7 +4970,7 @@
       "lng": 16.12090461
     },
     "googleCid": "3824618859502429186",
-    "title": "Tito's Cave at Vis",
+    "title": "Titova špilja",
     "info": "https://www.tripadvisor.com/ShowUserReviews-g424971-d622113-r509659114-Mount_Hum-Island_of_Vis_Split_Dalmatia_County_Dalmatia.html",
     "slika": "slike/spomenici/tito-s-cave-at-vis.webp",
     "type": "spomenik",
@@ -5473,11 +5467,10 @@
       "lng": 14.20155819
     },
     "googleCid": "15002701244232045064",
-    "title": "Hostages Museum & Park",
+    "title": "Muzej talcev",
     "info": "https://www.culture.si/en/Museum_of_Hostages,_Begunje_na_Gorenjskem",
     "wiki": "https://sl.wikipedia.org/wiki/Muzej_talcev",
     "slika": "slike/spomenici/hostages-museum-park.webp",
-    "naziv": "Muzej talcev",
     "type": "muzej",
     "drzava": "Slovenia"
   },
@@ -5860,10 +5853,9 @@
       "lng": 19.36608983
     },
     "googleCid": "9483547346511374354",
-    "title": "Museum to 1st Prolet. Brigade",
+    "title": "Muzej Prve proleterske brigade u Rudom",
     "wiki": "https://sr.wikipedia.org/wiki/%D0%9C%D1%83%D0%B7%D0%B5%D1%98_%D0%9F%D1%80%D0%B2%D0%B5_%D0%BF%D1%80%D0%BE%D0%BB%D0%B5%D1%82%D0%B5%D1%80%D1%81%D0%BA%D0%B5_%D0%B1%D1%80%D0%B8%D0%B3%D0%B0%D0%B4%D0%B5_%D1%83_%D0%A0%D1%83%D0%B4%D0%BE%D0%BC",
     "slika": "slike/spomenici/museum-to-1st-prolet-brigade.webp",
-    "naziv": "Muzej Prve proleterske brigade u Rudom",
     "type": "muzej",
     "drzava": "Bosnia and Herzegovina"
   },
@@ -6003,6 +5995,7 @@
     "googleCid": "17254668218063360686",
     "title": "Novi Bečej",
     "slika": "slike/spomenici/novi-becej.webp",
+    "naziv": "Spomenik palim borcima NOB-a",
     "name": "The 'Flower of Banat' Monument",
     "year": "1984",
     "type": "spomenik",
@@ -6452,10 +6445,9 @@
       "lng": 20.46724963
     },
     "googleCid": "17457600150378620041",
-    "title": "Banjica Concen. Camp Museum",
+    "title": "Muzej Banjičkog logora",
     "wiki": "https://sr.wikipedia.org/wiki/%D0%9C%D1%83%D0%B7%D0%B5%D1%98_%D0%91%D0%B0%D1%9A%D0%B8%D1%87%D0%BA%D0%BE%D0%B3_%D0%BB%D0%BE%D0%B3%D0%BE%D1%80%D0%B0",
     "slika": "slike/spomenici/banjica-concen-camp-museum.webp",
-    "naziv": "Muzej Banjičkog logora",
     "type": "muzej",
     "drzava": "Serbia"
   },
@@ -6765,7 +6757,7 @@
       "lng": 21.89551788
     },
     "googleCid": "18314644877012579059",
-    "title": "Prohor Pčinjski Monastery",
+    "title": "Manastir Prohor Pčinjski",
     "wiki": "https://en.wikipedia.org/wiki/Anti-fascist_Assembly_for_the_National_Liberation_of_Macedonia",
     "slika": "slike/spomenici/prohor-pcinjski-monastery.webp",
     "type": "kompleks",
@@ -7079,6 +7071,7 @@
     "googleCid": "9296334454223580913",
     "title": "Bajmok",
     "slika": "slike/spomenici/bajmok.webp",
+    "naziv": "Spomenik „Baklja sećanja“",
     "name": "Torch of Remembrance",
     "year": "1971",
     "author": "Ana Bešlić",
@@ -7124,7 +7117,7 @@
       "lng": 16.70936601
     },
     "googleCid": "1531523337098462854",
-    "title": "Museum of Kozara",
+    "title": "Muzej Kozare",
     "info": "http://www.muzejkozare.org/",
     "slika": "slike/spomenici/museum-of-kozara.webp",
     "type": "muzej",
@@ -7246,6 +7239,7 @@
     "googleCid": "4505175608726432342",
     "title": "Tavankut",
     "slika": "slike/spomenici/tavankut.webp",
+    "naziv": "Nemirna ravnica",
     "name": "The 'Trembling Plains' Monument",
     "year": "1971",
     "type": "spomenik",
@@ -7480,10 +7474,9 @@
       "lat": 44.78764892,
       "lng": 20.45444005
     },
-    "title": "Museum of July 4th",
+    "title": "Muzej 4. juli",
     "wiki": "https://sh.wikipedia.org/wiki/Muzej_4._juli",
     "slika": "slike/spomenici/museum-of-july-4th.webp",
-    "naziv": "Muzej 4. juli",
     "type": "muzej",
     "stanje": "zatvoren",
     "drzava": "Serbia"
@@ -8964,6 +8957,7 @@
     },
     "title": "Banatsko Aranđelovo",
     "slika": "slike/spomenici/banatsko-arandjelovo.webp",
+    "naziv": "Spomen-park streljanim rodoljubima „Katanac“",
     "name": "Monument to Fallen Fighters - \"Padlock\"",
     "year": "1982",
     "type": "spomenik",
@@ -9151,7 +9145,7 @@
       "lat": 45.9890705,
       "lng": 15.46654742
     },
-    "title": "Rajhenburg Castle",
+    "title": "Grad Rajhenburg",
     "info": "https://www.gradrajhenburg.si/en/history/rajhenburg-castle",
     "slika": "slike/spomenici/rajhenburg-castle.webp",
     "type": "muzej",
@@ -11722,6 +11716,7 @@
     },
     "title": "Alibunar",
     "slika": "slike/spomenici/alibunar.webp",
+    "naziv": "Spomen-česma",
     "name": "Monument to the First Massacre",
     "year": "1959",
     "type": "spomenik",
@@ -12255,6 +12250,7 @@
     },
     "googleCid": "15340308524705834799",
     "title": "Selenča",
+    "naziv": "Spomenik palim borcima",
     "type": "spomenik",
     "drzava": "Serbia"
   },
@@ -12831,6 +12827,7 @@
     "title": "Žarkovo",
     "slika": "slike/spomenici/zarkovo.webp",
     "slikaAutor": "Google Maps",
+    "naziv": "Spomenik palim borcima NOB",
     "type": "spomenik",
     "drzava": "Serbia"
   },
