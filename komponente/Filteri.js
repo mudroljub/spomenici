@@ -2,7 +2,6 @@ import {mapa} from '../klase/mapa.js'
 import {nestao, ruine} from '../utils/helpers.js'
 import {dajOznaku, promene} from '../utils/oznake.js'
 import {t, nazivDrzave} from '../utils/jezik.js'
-import {izgledMarkera} from '../utils/ikonice.js'
 
 const boja = '#822323'
 
@@ -156,37 +155,6 @@ style.textContent = `
     max-width: 260px;
     min-height: 44px;
   }
-
-  .legenda {
-    color: #555;
-    display: grid;
-    font-size: 14px;
-    gap: 6px 10px;
-    grid-template-columns: 20px 1fr;
-    align-items: end;
-  }
-
-  .legenda img {
-    filter: drop-shadow(2px 3px 2px rgba(0, 0, 0, 0.4));
-    justify-self: center;
-  }
-`
-
-const legenda = `
-  <h3>${t('legenda')}</h3>
-  <div class="legenda">
-    ${['kompleks', 'spomenik', 'bista', 'lokalni', 'ploca', 'groblje', 'muzej'].map(type => {
-    const {slika, sirina, visina} = izgledMarkera({type})
-    const visinaIkone = type === 'lokalni' ? 22 : 34
-    return `<img src="${slika}" width="${Math.round(sirina * visinaIkone / visina)}" height="${visinaIkone}" alt=""><span>${t(type)}</span>`
-  }).join('')}
-    <img src="slike/obelisk.png" width="12" height="44" alt=""><span>${t('najznacajnijiVeci')}</span>
-    <img src="slike/obelisk.png" width="10" height="34" alt=""><span>${t('ostali')}</span>
-    <img src="slike/obelisk.png" width="10" height="34" alt="" style="filter: drop-shadow(0 0 3px #f2b705) drop-shadow(0 0 2px #f2b705)"><span>${t('lista')}</span>
-    <img src="slike/obelisk.png" width="10" height="34" alt="" style="opacity: 0.5"><span>${t('posetio')}</span>
-    <img src="slike/obelisk-rusevina.png" width="10" height="34" alt=""><span>${t('ruine')}</span>
-    <img src="slike/obelisk-uklonjen.png" width="10" height="34" alt=""><span>${t('nestao')}</span>
-  </div>
 `
 
 export default class Filteri extends HTMLElement {
@@ -277,7 +245,7 @@ export default class Filteri extends HTMLElement {
     this.sadrzaj.innerHTML = this.grupe.map(g => `
       <h3>${g.naziv}</h3>
       <div class="cipovi">${cipovi(g)}</div>
-    `).join('') + legenda
+    `).join('')
 
     const ukupno = this.osnova.filter(({spomenik}) => this.odgovara(spomenik)).length
     this.panel.querySelector('#prikazi').textContent = t('prikazi', ukupno)

@@ -82,9 +82,21 @@ h1 {
   margin-right: auto;
 }
 
+/* legenda je u donjem levom uglu; na telefonu iznad reda, jer u redu nema mesta za sva dugmad */
+#dugmad-dole dugme-legenda {
+  bottom: 52px;
+  left: 0;
+  position: absolute;
+}
+
 @media (min-width: 600px) {
   #dugmad-dole planer-rute {
     margin-right: 0;
+  }
+
+  #dugmad-dole dugme-legenda {
+    margin-right: auto;
+    position: static;
   }
 }
 

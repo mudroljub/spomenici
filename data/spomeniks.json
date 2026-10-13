@@ -16319,7 +16319,7 @@
     "slikaAutor": "Google Maps",
     "naziv": "Plečnikov spomenik NOB",
     "author": "Jože Plečnik",
-    "type": "lokalni",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -22402,7 +22402,8 @@
     "slika": "slike/spomenici/zagreb-podsused.webp",
     "slikaAutor": "Google Maps",
     "naziv": "Spomenik palim partizanima iz Podsuseda",
-    "type": "lokalni",
+    "author": "Vanja Radauš",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -22753,7 +22754,7 @@
     "slika": "slike/spomenici/krusevica.webp",
     "slikaAutor": "Google Maps",
     "naziv": "Spomenik 1912–1945",
-    "type": "lokalni",
+    "type": "ploca",
     "drzava": "Serbia"
   },
   {
@@ -26389,7 +26390,7 @@
     "slikaAutor": "Ante Perkovic, CC BY-SA 3.0",
     "naziv": "Spomenik palim borcima",
     "author": "Zvonko Car",
-    "type": "lokalni",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {

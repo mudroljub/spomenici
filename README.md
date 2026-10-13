@@ -14,4 +14,5 @@ live-server
 
 ## TODO
 
-link autora da vodi na wiki stranicu ako postoji
+- dodaj pretragu spomenika po autorima
+- napravi da može da se preuzme na mobilnom i radi offline

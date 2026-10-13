@@ -21,6 +21,7 @@ const fajlovi = [
   'komponente/Detalji.js',
   'komponente/Filteri.js',
   'komponente/Jezik.js',
+  'komponente/Legenda.js',
   'komponente/Lokator.js',
   'komponente/Najblizi.js',
   'komponente/Pretraga.js',

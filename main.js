@@ -7,6 +7,7 @@ import Ruta from './komponente/Ruta.js'
 import Marker from './klase/Marker.js'
 import './komponente/PunEkran.js'
 import './komponente/Jezik.js'
+import './komponente/Legenda.js'
 import './komponente/Lokator.js'
 import {$} from './utils/helpers.js'
 import {jezik} from './utils/jezik.js'
@@ -16,7 +17,7 @@ document.documentElement.lang = jezik
 
 const najblizi = new Najblizi()
 const ruta = new Ruta()
-$('#dugmad-dole').prepend(ruta, najblizi)
+$('dugme-legenda').after(ruta, najblizi)
 const detalji = document.body.appendChild(new Detalji())
 
 /* FUNKCIJE */
