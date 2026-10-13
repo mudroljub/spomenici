@@ -8051,33 +8051,6 @@
     "drzava": "Croatia"
   },
   {
-    "id": "military-hospital",
-    "koordinate": {
-      "lat": 44.7612296,
-      "lng": 20.4701701
-    },
-    "title": "Beograd (Vojnomedicinska akademija)",
-    "slika": "slike/spomenici/military-hospital.webp",
-    "naziv": "Natpis TITO",
-    "name": "Tito Memorial Vegetation Sign",
-    "year": "1980",
-    "type": "spomenik",
-    "drzava": "Serbia"
-  },
-  {
-    "id": "tuzi",
-    "koordinate": {
-      "lat": 42.3736424,
-      "lng": 19.3460992
-    },
-    "title": "Tuzi",
-    "slika": "slike/spomenici/tuzi.webp",
-    "naziv": "Natpis TITO",
-    "name": "Tito Memorial Hillside Sign",
-    "type": "spomenik",
-    "drzava": "Montenegro"
-  },
-  {
     "id": "sveti-grgur",
     "koordinate": {
       "lat": 44.871209,
@@ -8118,19 +8091,6 @@
     "year": "1981",
     "type": "spomenik",
     "drzava": "Croatia"
-  },
-  {
-    "id": "ulcinj-tito-is-us",
-    "koordinate": {
-      "lat": 41.9269533,
-      "lng": 19.2292463
-    },
-    "title": "Ulcinj",
-    "slika": "slike/spomenici/ulcinj-tito-is-us.webp",
-    "naziv": "Natpis „TITO – TO SMO MI“",
-    "name": "\"Tito Is Us\" memorial sign",
-    "type": "spomenik",
-    "drzava": "Montenegro"
   },
   {
     "id": "srebrenik",
