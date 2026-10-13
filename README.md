@@ -18,7 +18,7 @@ live-server
 
 - kategorizovati ostale spomenike preko javnih podataka, a nejasne proveriti po fotografiji
 - podaci za putnike: pristup (asfalt, makadam, pešačenje X min), parking, radno vreme i ulaznica za muzeje
-- jezici: srpski i engleski
+- dodaj izbor jezika: srpski i engleski
 
 otvorena pitanja:
 - kosturnice (21, npr. Kumanovo, Kavadarci, Doboj, Travnik) prebaciti u groblja? sada su spomenici/kompleksi, jer su uglavnom spomenik sa kriptom

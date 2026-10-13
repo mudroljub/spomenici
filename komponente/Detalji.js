@@ -129,19 +129,40 @@ style.textContent = `
     white-space: nowrap;
   }
 
+  .slika {
+    margin: 12px 0 0;
+    position: relative;
+  }
+
   img {
     border-radius: 8px 8px 0 0;
     display: block;
     height: auto;
-    margin: 12px 0 0;
     width: 100%;
   }
 
-  .sadrzaj > img + .poseta {
+  /* licenca slika sa Wikimedije trazi ime autora; stoji preko slike, da ne odvoji sliku od oznaka */
+  figcaption {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 4px 0 0 0;
+    bottom: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 11px;
+    max-width: 100%;
+    overflow: hidden;
+    padding: 2px 6px;
+    position: absolute;
+    right: 0;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .sadrzaj > .slika + .poseta {
     margin-top: 0;
   }
 
-  .sadrzaj > img + .poseta .oznaka {
+  .sadrzaj > .slika + .poseta .oznaka {
     border-radius: 0 0 9px 9px;
   }
 
@@ -303,7 +324,12 @@ export default class Detalji extends HTMLElement {
           <a href="${escapeHtml(mestoUrl(spomen))}" target="_blank">Find place</a>
           <button id="ruta">Route</button>
         </p>
-        ${spomen.slika ? `<img src="${escapeHtml(spomen.slika)}" alt="" onerror="this.remove()">` : ''}
+        ${spomen.slika ? `
+          <figure class="slika">
+            <img src="${escapeHtml(spomen.slika)}" alt="" onerror="this.parentNode.remove()">
+            ${spomen.slikaAutor ? `<figcaption>Photo: ${escapeHtml(spomen.slikaAutor)}</figcaption>` : ''}
+          </figure>
+        ` : ''}
         <p class="poseta">
           <span class="oznaka" role="group" aria-label="My visit">
             <button data-oznaka="lista"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M6 3h12v18l-6-4-6 4Z" stroke-linejoin="round"/></svg>Want to visit</button>
