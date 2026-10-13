@@ -1,5 +1,6 @@
 import {mapa} from '../klase/mapa.js'
 import {naziviStanja, nazivSpomenika} from '../utils/helpers.js'
+import {t} from '../utils/jezik.js'
 
 const brojNajblizih = 10
 
@@ -98,7 +99,7 @@ export default class Najblizi extends HTMLElement {
 
     this.dugme = document.createElement('button')
     this.dugme.id = 'dugme'
-    this.dugme.textContent = 'Nearby'
+    this.dugme.textContent = t('uBlizini')
     this.dugme.hidden = true
     this.dugme.addEventListener('click', () => {
       mapa.fire('izbor', {marker: null})
@@ -108,7 +109,7 @@ export default class Najblizi extends HTMLElement {
     this.panel = document.createElement('section')
     this.panel.id = 'panel'
     this.panel.hidden = true
-    this.panel.innerHTML = '<header><span>Nearby <small>straight-line distance</small></span><button title="Close">×</button></header>'
+    this.panel.innerHTML = `<header><span>${t('uBlizini')} <small>${t('vazdusnom')}</small></span><button title="${t('zatvori')}">×</button></header>`
     this.panel.querySelector('button').addEventListener('click', () => this.panel.hidden = true)
     this.lista = document.createElement('ol')
     this.panel.appendChild(this.lista)

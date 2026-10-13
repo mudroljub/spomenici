@@ -1,5 +1,6 @@
 import {mapa} from '../klase/mapa.js'
 import {naziviStanja, nazivSpomenika} from '../utils/helpers.js'
+import {t} from '../utils/jezik.js'
 import {dajRutu, dajNaziv, postaviRutu, izaberiTuru, ukloniIzRute, pomeri, promeneRute} from '../utils/ruta.js'
 
 const boja = '#822323'
@@ -289,20 +290,20 @@ export default class Ruta extends HTMLElement {
       <header>
         <div class="kartice" role="tablist">
           <button role="tab" data-kartica="planer"></button>
-          <button role="tab" data-kartica="ture">Suggested routes</button>
+          <button role="tab" data-kartica="ture">${t('predlozeneRute')}</button>
         </div>
-        <button id="zatvori" title="Close">×</button>
+        <button id="zatvori" title="${t('zatvori')}">×</button>
       </header>
       <div id="planer" role="tabpanel">
         <h2 id="ime-rute"></h2>
-        <p class="uvod" id="prazna">No stops yet. Add monuments with <b>+ Route</b> in their details, or pick one of the suggested routes.</p>
+        <p class="uvod" id="prazna">${t('praznaRuta')}</p>
         <p class="alati">
-          <button id="redosled">Optimize order</button>
-          <button id="isprazni">Clear route</button>
+          <button id="redosled">${t('redosled')}</button>
+          <button id="isprazni">${t('obrisiRutu')}</button>
         </p>
         <ol id="stanice"></ol>
         <footer>
-          <a id="google" target="_blank" class="glavna">Open in Google Maps</a>
+          <a id="google" target="_blank" class="glavna">${t('googleMape')}</a>
           <p class="napomena" id="ogranicenje"></p>
         </footer>
       </div>
@@ -363,13 +364,13 @@ export default class Ruta extends HTMLElement {
       kartica.setAttribute('aria-selected', izabrana)
       this.panel.querySelector(`#${kartica.dataset.kartica}`).hidden = !izabrana
     })
-    this.panel.querySelector('[data-kartica="planer"]').textContent = broj ? `My route · ${broj}` : 'My route'
+    this.panel.querySelector('[data-kartica="planer"]').textContent = broj ? `${t('mojaRuta')} · ${broj}` : t('mojaRuta')
   }
 
   prikazi() {
     const stanice = this.stanice()
     this.dugme.hidden = false
-    this.dugme.textContent = stanice.length ? `My route · ${stanice.length}` : 'My route'
+    this.dugme.textContent = stanice.length ? `${t('mojaRuta')} · ${stanice.length}` : t('mojaRuta')
     this.osveziKartice()
 
     this.linija.setLatLngs(stanice.map(({marker}) => marker.dajPoziciju()))
@@ -382,7 +383,7 @@ export default class Ruta extends HTMLElement {
     this.panel.querySelector('#google').href = googleUrl(stanice.map(({spomenik}) => spomenik))
     const ogranicenje = this.panel.querySelector('#ogranicenje')
     ogranicenje.hidden = stanice.length <= najviseZaGoogle
-    ogranicenje.textContent = `Google Maps takes only the first ${najviseZaGoogle} stops.`
+    ogranicenje.textContent = t('ogranicenje', najviseZaGoogle)
     this.panel.querySelector('#prazna').hidden = stanice.length > 0
     this.panel.querySelector('#ime-rute').textContent = dajNaziv()
     this.panel.querySelector('#ime-rute').hidden = !dajNaziv()
@@ -396,18 +397,18 @@ export default class Ruta extends HTMLElement {
     red.innerHTML = `
       <span class="broj"></span>
       <button class="naziv"><span class="ime"></span><span class="opis"></span></button>
-      <button title="Move up" ${i === 0 ? 'disabled' : ''}>↑</button>
-      <button title="Move down" ${i === ukupno - 1 ? 'disabled' : ''}>↓</button>
-      <button title="Remove">×</button>
+      <button class="gore" title="${t('gore')}" ${i === 0 ? 'disabled' : ''}>↑</button>
+      <button class="dole" title="${t('dole')}" ${i === ukupno - 1 ? 'disabled' : ''}>↓</button>
+      <button class="ukloni" title="${t('ukloni')}">×</button>
     `
     const naziv = nazivSpomenika(spomenik)
     red.querySelector('.broj').textContent = i + 1
     red.querySelector('.ime').textContent = naziv || spomenik.title
     red.querySelector('.opis').textContent = [naziv && spomenik.title, naziviStanja[spomenik.stanje]].filter(Boolean).join(' · ')
     red.querySelector('.naziv').addEventListener('click', () => otvoriStanicu(marker))
-    red.querySelector('[title="Move up"]').addEventListener('click', () => pomeri(spomenik.id, -1))
-    red.querySelector('[title="Move down"]').addEventListener('click', () => pomeri(spomenik.id, 1))
-    red.querySelector('[title="Remove"]').addEventListener('click', () => ukloniIzRute(spomenik.id))
+    red.querySelector('.gore').addEventListener('click', () => pomeri(spomenik.id, -1))
+    red.querySelector('.dole').addEventListener('click', () => pomeri(spomenik.id, 1))
+    red.querySelector('.ukloni').addEventListener('click', () => ukloniIzRute(spomenik.id))
     return red
   }
 
@@ -416,7 +417,7 @@ export default class Ruta extends HTMLElement {
     red.innerHTML = '<button class="naziv tura"><span class="ime"></span><span class="opis"></span></button>'
     const mesta = spomenici.map(id => this.stavke.get(id)?.spomenik.title).filter(Boolean)
     red.querySelector('.ime').textContent = naziv
-    red.querySelector('.opis').textContent = `${mesta.length} stops: ${mesta.join(', ')}`
+    red.querySelector('.opis').textContent = `${t('stanice', mesta.length)}: ${mesta.join(', ')}`
     red.querySelector('button').addEventListener('click', () => {
       izaberiTuru({naziv, spomenici: this.usmeri(spomenici)})
       this.prikaziKarticu('planer')

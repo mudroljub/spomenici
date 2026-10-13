@@ -14,6 +14,3 @@ live-server
 
 ## TODO
 
-### Ostalo
-
-- dodaj izbor jezika: srpski i engleski

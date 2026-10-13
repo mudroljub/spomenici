@@ -1,5 +1,6 @@
 // koristi globalnu css var visina-slajdera, proslediti kao props
 import {mapa} from '../klase/mapa.js'
+import {t} from '../utils/jezik.js'
 
 const boja = '#1a73e8'
 
@@ -25,7 +26,7 @@ class Lokator extends HTMLElement {
   }
 
   locirajMe() {
-    if (!navigator.geolocation) return alert('Location is not supported')
+    if (!navigator.geolocation) return alert(t('lokacijaNepodrzana'))
 
     this.trebaCentrirati = true
     if (this.pozicija) return this.centriraj()
@@ -51,13 +52,13 @@ class Lokator extends HTMLElement {
     if (this.pozicija) return
     navigator.geolocation.clearWatch(this.pracenje)
     this.pracenje = undefined
-    alert('Location is not available')
+    alert(t('lokacijaNedostupna'))
   }
 
   centriraj() {
     this.trebaCentrirati = false
     if (!L.latLngBounds(mapa.options.maxBounds).contains(this.pozicija))
-      return alert('Your location is outside the map')
+      return alert(t('vanMape'))
     mapa.panTo(this.pozicija)
   }
 }

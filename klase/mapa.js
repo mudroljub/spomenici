@@ -33,7 +33,6 @@ mapa.getContainer().addEventListener('wheel', e => {
 // pozicija korisnika iznad markera, da je ne prekriju
 mapa.createPane('korisnik').style.zIndex = 650
 
-// izdaleka se vide samo vazni, oznaceni i izabran, da se obelisci ne slivaju u gomilu
 const zumSvih = 8
 
 const sloj = L.layerGroup().addTo(mapa)
@@ -41,7 +40,6 @@ let markeri = []
 let suzeno = false
 let izabran = null
 
-// pretraga i filteri vec biraju sta se vidi, pa tada nista ne krijemo
 const vidljiv = marker => suzeno || mapa.getZoom() >= zumSvih || marker === izabran
   || marker.vazan || Boolean(dajOznaku(marker.spomen.id))
 

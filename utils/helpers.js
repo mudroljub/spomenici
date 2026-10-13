@@ -1,3 +1,5 @@
+import {jezik, t} from './jezik.js'
+
 Element.prototype.on = Element.prototype.addEventListener
 
 export const $ = s => document.querySelectorAll(s).length > 1
@@ -6,15 +8,18 @@ export const $ = s => document.querySelectorAll(s).length > 1
 
 
 export const naziviStanja = {
-  rusevine: 'In ruins',
-  srusen: 'Destroyed',
-  uklonjen: 'Removed',
-  ostecen: 'Damaged',
-  zatvoren: 'Closed',
+  rusevine: t('rusevine'),
+  srusen: t('srusen'),
+  uklonjen: t('uklonjen'),
+  ostecen: t('ostecen'),
+  zatvoren: t('zatvoren'),
 }
 
-// izvorni naziv kad je poznat, inace engleski opis, ponekad sa linkovima
-export const nazivSpomenika = ({naziv, name}) => naziv || (name || '').replace(/<[^>]*>/g, '')
+const bezLinkova = html => (html || '').replace(/<[^>]*>/g, '')
+
+export const nazivSpomenika = ({naziv, name}) => jezik === 'en'
+  ? bezLinkova(name) || naziv || ''
+  : naziv || bezLinkova(name)
 
 // uklonjen spomenik vise nema sta da se obidje; od srusenog obicno ostanu delovi
 export const nestao = stanje => stanje === 'uklonjen'
