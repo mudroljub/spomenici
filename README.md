@@ -14,4 +14,4 @@ live-server
 
 ## TODO
 
-Punjene podataka
+link autora da vodi na wiki stranicu ako postoji

@@ -126,19 +126,27 @@ style.textContent = `
     color: ${boja};
   }
 
+  /* link uz naslov je obicne velicine, da ne izgleda kao deo naziva */
   .vise {
+    font-size: 15px;
+    font-weight: normal;
     white-space: nowrap;
   }
 
+  /* okvir stalne visine, da prozor ne skoci kad se slika ucita; cela slika staje bez secenja */
   .slika {
+    aspect-ratio: 4 / 3;
+    background: #ece9e1;
+    border-radius: 8px 8px 0 0;
     margin: 12px 0 0;
+    overflow: hidden;
     position: relative;
   }
 
   img {
-    border-radius: 8px 8px 0 0;
     display: block;
-    height: auto;
+    height: 100%;
+    object-fit: contain;
     width: 100%;
   }
 
@@ -298,28 +306,25 @@ export default class Detalji extends HTMLElement {
   prikazi(marker, izRute) {
     this.marker = marker
     const spomen = marker.spomen
-    const podaci = [this.praviAutore(spomen.author), escapeHtml(spomen.year || ''), escapeHtml(nazivDrzave(spomen.drzava || ''))]
-      .filter(Boolean).join(' · ')
+    const podaci = [this.praviAutore(spomen.author), escapeHtml(spomen.year || '')].filter(Boolean).join(' · ')
 
     // jedan link za vise: clanak na Wikipediji, a bez njega drugi izvor
     const vise = spomen.wiki || spomen.info
 
-    // name namerno sadrzi HTML linkove, pa se ne escape-uje
+    // naslov je naziv spomenika, a mesto stoji ispod; name namerno sadrzi HTML linkove, pa se ne escape-uje
     const naziv = jezik === 'en' && spomen.name ? spomen.name : spomen.naziv ? escapeHtml(spomen.naziv) : spomen.name || ''
     this.panel.innerHTML = `
       ${izRute ? `<button id="nazad">‹ ${t('trenutnaRuta')}</button>` : ''}
       <header>
         <h2>
-          ${escapeHtml(spomen.title)}
+          ${naziv || escapeHtml(spomen.title)}
           ${spomen.stanje ? `<span class="stanje ${nestao(spomen.stanje) ? 'nestao' : ''}">${naziviStanja[spomen.stanje]}</span>` : ''}
+          ${vise ? `<a href="${escapeHtml(vise)}" target="_blank" class="vise">${t('vise')} ›</a>` : ''}
         </h2>
         <button id="zatvori" title="${t('zatvori')}">×</button>
       </header>
       <div class="sadrzaj">
-        <p>
-          ${naziv}
-          ${vise ? `<a href="${escapeHtml(vise)}" target="_blank" class="vise">${t('vise')} ›</a>` : ''}
-        </p>
+        <p>${[naziv ? escapeHtml(spomen.title) : '', escapeHtml(nazivDrzave(spomen.drzava || ''))].filter(Boolean).join(', ')}</p>
         ${podaci ? `<p class="podaci">${podaci}</p>` : ''}
         <p class="akcije">
           <a href="${escapeHtml(navigacijaUrl(spomen.koordinate))}" target="_blank" class="glavna">${t('navigacija')}</a>
