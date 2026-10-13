@@ -1,6 +1,9 @@
 [
   {
-    "naziv": "Yugoslavia: The great monuments",
+    "naziv": {
+      "sh": "Jugoslavija: najveći spomenici",
+      "en": "Yugoslavia: The great monuments"
+    },
     "spomenici": [
       "petrova-gora",
       "podgaric",
@@ -15,7 +18,10 @@
     ]
   },
   {
-    "naziv": "Yugoslavia: The Adriatic coast",
+    "naziv": {
+      "sh": "Jugoslavija: jadranska obala",
+      "en": "Yugoslavia: The Adriatic coast"
+    },
     "spomenici": [
       "plovanija",
       "crni-kal",
@@ -29,7 +35,10 @@
     ]
   },
   {
-    "naziv": "Croatia and Bosnia: Banija, Jasenovac and Kozara",
+    "naziv": {
+      "sh": "Hrvatska i Bosna: Banija, Jasenovac i Kozara",
+      "en": "Croatia and Bosnia: Banija, Jasenovac and Kozara"
+    },
     "spomenici": [
       "kozara",
       "gornji-jelovac",
@@ -42,7 +51,10 @@
     ]
   },
   {
-    "naziv": "Croatia and Bosnia: Kordun, Lika and Grmeč",
+    "naziv": {
+      "sh": "Hrvatska i Bosna: Kordun, Lika i Grmeč",
+      "en": "Croatia and Bosnia: Kordun, Lika and Grmeč"
+    },
     "spomenici": [
       "petrova-gora",
       "bihac-garavice-park",
@@ -55,7 +67,10 @@
     ]
   },
   {
-    "naziv": "Croatia and Serbia: Slavonia and Srem",
+    "naziv": {
+      "sh": "Hrvatska i Srbija: Slavonija i Srem",
+      "en": "Croatia and Serbia: Slavonia and Srem"
+    },
     "spomenici": [
       "donji-miholjac",
       "batina",
@@ -66,7 +81,10 @@
     ]
   },
   {
-    "naziv": "Serbia and Bosnia: Along the Drina",
+    "naziv": {
+      "sh": "Srbija i Bosna: duž Drine",
+      "en": "Serbia and Bosnia: Along the Drina"
+    },
     "spomenici": [
       "zlatibor",
       "kadinjaca",
@@ -77,7 +95,10 @@
     ]
   },
   {
-    "naziv": "Bosnia and Montenegro: Sutjeska and Nikšić",
+    "naziv": {
+      "sh": "Bosna i Crna Gora: Sutjeska i Nikšić",
+      "en": "Bosnia and Montenegro: Sutjeska and Nikšić"
+    },
     "spomenici": [
       "tjentiste",
       "dola",
@@ -90,7 +111,10 @@
     ]
   },
   {
-    "naziv": "Serbia, Kosovo and Macedonia: Niš to Skopje",
+    "naziv": {
+      "sh": "Srbija, Kosovo i Makedonija: od Niša do Skoplja",
+      "en": "Serbia, Kosovo and Macedonia: Niš to Skopje"
+    },
     "spomenici": [
       "nis",
       "vlasotince",
@@ -102,7 +126,10 @@
     ]
   },
   {
-    "naziv": "Slovenia",
+    "naziv": {
+      "sh": "Slovenija",
+      "en": "Slovenia"
+    },
     "spomenici": [
       "maribor-maribor-liberation",
       "tito-square-in-velenje",
@@ -117,7 +144,10 @@
     ]
   },
   {
-    "naziv": "Croatia: Zagreb and Zagorje",
+    "naziv": {
+      "sh": "Hrvatska: Zagreb i Zagorje",
+      "en": "Croatia: Zagreb and Zagorje"
+    },
     "spomenici": [
       "pleso",
       "zagreb-december-victims",
@@ -128,7 +158,10 @@
     ]
   },
   {
-    "naziv": "Croatia: Banija, Kordun and Moslavina",
+    "naziv": {
+      "sh": "Hrvatska: Banija, Kordun i Moslavina",
+      "en": "Croatia: Banija, Kordun and Moslavina"
+    },
     "spomenici": [
       "slabinja",
       "jasenovac",
@@ -138,7 +171,10 @@
     ]
   },
   {
-    "naziv": "Croatia: Istria and Kvarner",
+    "naziv": {
+      "sh": "Hrvatska: Istra i Kvarner",
+      "en": "Croatia: Istria and Kvarner"
+    },
     "spomenici": [
       "plovanija",
       "podhum",
@@ -146,7 +182,10 @@
     ]
   },
   {
-    "naziv": "Croatia: Slavonia",
+    "naziv": {
+      "sh": "Hrvatska: Slavonija",
+      "en": "Croatia: Slavonia"
+    },
     "spomenici": [
       "donji-miholjac",
       "batina",
@@ -154,7 +193,10 @@
     ]
   },
   {
-    "naziv": "Croatia: Dalmatia",
+    "naziv": {
+      "sh": "Hrvatska: Dalmacija",
+      "en": "Croatia: Dalmatia"
+    },
     "spomenici": [
       "vodice",
       "knin",
@@ -167,7 +209,10 @@
     ]
   },
   {
-    "naziv": "Bosnia and Herzegovina: Kozara and Banja Luka",
+    "naziv": {
+      "sh": "Bosna i Hercegovina: Kozara i Banja Luka",
+      "en": "Bosnia and Herzegovina: Kozara and Banja Luka"
+    },
     "spomenici": [
       "gligino-brdo",
       "gornji-jelovac",
@@ -178,7 +223,10 @@
     ]
   },
   {
-    "naziv": "Bosnia and Herzegovina: Grmeč and Bihać",
+    "naziv": {
+      "sh": "Bosna i Hercegovina: Grmeč i Bihać",
+      "en": "Bosnia and Herzegovina: Grmeč and Bihać"
+    },
     "spomenici": [
       "glamoc",
       "drvar",
@@ -192,7 +240,10 @@
     ]
   },
   {
-    "naziv": "Bosnia and Herzegovina: Sarajevo, Sutjeska and Mostar",
+    "naziv": {
+      "sh": "Bosna i Hercegovina: Sarajevo, Sutjeska i Mostar",
+      "en": "Bosnia and Herzegovina: Sarajevo, Sutjeska and Mostar"
+    },
     "spomenici": [
       "tjentiste",
       "sarajevo-vraca-park",
@@ -204,7 +255,10 @@
     ]
   },
   {
-    "naziv": "Serbia: Vojvodina",
+    "naziv": {
+      "sh": "Srbija: Vojvodina",
+      "en": "Serbia: Vojvodina"
+    },
     "spomenici": [
       "sremska-mitrovitca",
       "novi-sad",
@@ -217,7 +271,10 @@
     ]
   },
   {
-    "naziv": "Serbia: Belgrade and Šumadija",
+    "naziv": {
+      "sh": "Srbija: Beograd i Šumadija",
+      "en": "Serbia: Belgrade and Šumadija"
+    },
     "spomenici": [
       "belgrade-cemetery",
       "jajinci",
@@ -228,7 +285,10 @@
     ]
   },
   {
-    "naziv": "Serbia: Western Serbia",
+    "naziv": {
+      "sh": "Srbija: zapadna Srbija",
+      "en": "Serbia: Western Serbia"
+    },
     "spomenici": [
       "draginac",
       "brstica",
@@ -239,7 +299,10 @@
     ]
   },
   {
-    "naziv": "Serbia: Eastern Serbia",
+    "naziv": {
+      "sh": "Srbija: istočna Srbija",
+      "en": "Serbia: Eastern Serbia"
+    },
     "spomenici": [
       "pozarevac",
       "majdanpek",
@@ -247,7 +310,10 @@
     ]
   },
   {
-    "naziv": "Serbia: Central and Southern Serbia",
+    "naziv": {
+      "sh": "Srbija: centralna i južna Srbija",
+      "en": "Serbia: Central and Southern Serbia"
+    },
     "spomenici": [
       "brzece",
       "kraljevo-park-14th-october",
@@ -259,7 +325,10 @@
     ]
   },
   {
-    "naziv": "Kosovo",
+    "naziv": {
+      "sh": "Kosovo",
+      "en": "Kosovo"
+    },
     "spomenici": [
       "mitrovica-mitrovice",
       "pristina-prishtine-brotherhood-unity",
@@ -268,7 +337,10 @@
     ]
   },
   {
-    "naziv": "Montenegro: North",
+    "naziv": {
+      "sh": "Crna Gora: sever",
+      "en": "Montenegro: North"
+    },
     "spomenici": [
       "dola",
       "grahovo",
@@ -281,7 +353,10 @@
     ]
   },
   {
-    "naziv": "Montenegro: Podgorica and the coast",
+    "naziv": {
+      "sh": "Crna Gora: Podgorica i primorje",
+      "en": "Montenegro: Podgorica and the coast"
+    },
     "spomenici": [
       "vranjske-njive",
       "podgorica-mausoleum-partisans",
@@ -291,7 +366,10 @@
     ]
   },
   {
-    "naziv": "Macedonia: West",
+    "naziv": {
+      "sh": "Makedonija: zapad",
+      "en": "Macedonia: West"
+    },
     "spomenici": [
       "skopje-women-fighters",
       "prilep",
@@ -302,7 +380,10 @@
     ]
   },
   {
-    "naziv": "Macedonia: East",
+    "naziv": {
+      "sh": "Makedonija: istok",
+      "en": "Macedonia: East"
+    },
     "spomenici": [
       "mitrasinci",
       "kocani",

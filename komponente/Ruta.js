@@ -1,6 +1,6 @@
 import {mapa} from '../klase/mapa.js'
 import {naziviStanja, nazivSpomenika} from '../utils/helpers.js'
-import {t} from '../utils/jezik.js'
+import {t, jezik} from '../utils/jezik.js'
 import {dajRutu, dajNaziv, postaviRutu, izaberiTuru, ukloniIzRute, pomeri, promeneRute} from '../utils/ruta.js'
 
 const boja = '#822323'
@@ -181,8 +181,8 @@ style.textContent = `
     overflow: hidden;
   }
 
+  /* svi alati rute su u jednom redu iznad naslova */
   .alati {
-    border-bottom: 1px solid #eee;
     display: flex;
     margin: 0;
     padding: 0 4px;
@@ -201,10 +201,19 @@ style.textContent = `
     margin-left: auto;
   }
 
+  /* povratak na izbor ture je strelica, a ne podvucena akcija */
+  .alati #nazad {
+    text-decoration: none;
+  }
+
   #ime-rute {
     font-size: 18px;
     margin: 0;
-    padding: 12px 16px 4px;
+    padding: 0 16px 12px;
+  }
+
+  #stanice {
+    border-top: 1px solid #eee;
   }
 
   .uvod {
@@ -281,6 +290,9 @@ const najkraciRedosled = (polaziste, tacke) => {
   return put.slice(1)
 }
 
+// naziv ture ima verziju za svaki jezik; ruta sacuvana pre prevoda ima samo engleski tekst
+const prevedi = naziv => naziv?.[jezik] ?? naziv
+
 const otvoriStanicu = marker => mapa.fire('izbor', {marker, izRute: true})
 
 // broj stanice stoji desno od podnozja obeliska, gde ga dodiruje linija rute
@@ -315,12 +327,13 @@ export default class Ruta extends HTMLElement {
         <button id="zatvori" title="${t('zatvori')}">×</button>
       </header>
       <div id="planer" role="tabpanel">
-        <h2 id="ime-rute"></h2>
         <p class="uvod" id="prazna">${t('praznaRuta')}</p>
         <p class="alati">
+          <button id="nazad">‹ ${t('predlozeneRute')}</button>
           <button id="redosled">${t('redosled')}</button>
-          <button id="isprazni">${t('obrisiRutu')}</button>
+          <button id="isprazni">${t('ukloniRutu')}</button>
         </p>
+        <h2 id="ime-rute"></h2>
         <ol id="stanice"></ol>
         <footer>
           <a id="google" target="_blank" class="glavna">${t('googleMape')}</a>
@@ -336,6 +349,7 @@ export default class Ruta extends HTMLElement {
     this.panel.querySelectorAll('[data-kartica]').forEach(kartica =>
       kartica.addEventListener('click', () => this.prikaziKarticu(kartica.dataset.kartica))
     )
+    this.panel.querySelector('#nazad').addEventListener('click', () => this.prikaziKarticu('ture'))
     this.panel.querySelector('#redosled').addEventListener('click', () => this.poredjaj())
     this.panel.querySelector('#isprazni').addEventListener('click', () => postaviRutu([]))
 
@@ -385,13 +399,13 @@ export default class Ruta extends HTMLElement {
       kartica.setAttribute('aria-selected', izabrana)
       this.panel.querySelector(`#${kartica.dataset.kartica}`).hidden = !izabrana
     })
-    this.panel.querySelector('[data-kartica="planer"]').textContent = broj ? `${t('mojaRuta')} · ${broj}` : t('mojaRuta')
+    this.panel.querySelector('[data-kartica="planer"]').textContent = broj ? `${t('trenutnaRuta')} · ${broj}` : t('trenutnaRuta')
   }
 
   prikazi() {
     const stanice = this.stanice()
     this.dugme.hidden = false
-    this.dugme.textContent = stanice.length ? `${t('mojaRuta')} · ${stanice.length}` : t('mojaRuta')
+    this.dugme.textContent = stanice.length ? `${t('trenutnaRuta')} · ${stanice.length}` : t('trenutnaRuta')
     this.osveziKartice()
 
     this.linija.setLatLngs(stanice.map(({marker}) => marker.dajPoziciju()))
@@ -406,11 +420,13 @@ export default class Ruta extends HTMLElement {
     ogranicenje.hidden = stanice.length <= najviseZaGoogle
     ogranicenje.textContent = t('ogranicenje', najviseZaGoogle)
     this.panel.querySelector('#prazna').hidden = stanice.length > 0
-    this.panel.querySelector('#ime-rute').textContent = dajNaziv()
+    this.panel.querySelector('#ime-rute').textContent = prevedi(dajNaziv())
     this.panel.querySelector('#ime-rute').hidden = !dajNaziv()
+    this.panel.querySelector('#nazad').hidden = !dajNaziv()
     this.panel.querySelector('.alati').hidden = !stanice.length
     this.panel.querySelector('footer').hidden = !stanice.length
-    this.panel.querySelector('#redosled').hidden = stanice.length < 3
+    // gotova tura je vec poredjana, pa umesto redosleda nudi povratak na ture
+    this.panel.querySelector('#redosled').hidden = stanice.length < 3 || Boolean(dajNaziv())
   }
 
   praviRed({spomenik, marker}, i, ukupno) {
@@ -442,7 +458,7 @@ export default class Ruta extends HTMLElement {
     const slika = (clanovi.find(s => s.slika && !iskorisceneSlike.has(s.slika)) ?? clanovi.find(s => s.slika))?.slika
     iskorisceneSlike.add(slika)
     if (slika) red.querySelector('.tura').prepend(Object.assign(new Image(), {src: slika, alt: '', loading: 'lazy'}))
-    red.querySelector('.ime').textContent = naziv
+    red.querySelector('.ime').textContent = prevedi(naziv)
     red.querySelector('.opis').textContent = `${t('stanice', mesta.length)}: ${mesta.join(', ')}`
     red.querySelector('button').addEventListener('click', () => {
       izaberiTuru({naziv, spomenici: this.usmeri(spomenici)})

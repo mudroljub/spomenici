@@ -307,7 +307,7 @@ export default class Detalji extends HTMLElement {
     // name namerno sadrzi HTML linkove, pa se ne escape-uje
     const naziv = jezik === 'en' && spomen.name ? spomen.name : spomen.naziv ? escapeHtml(spomen.naziv) : spomen.name || ''
     this.panel.innerHTML = `
-      ${izRute ? `<button id="nazad">‹ ${t('mojaRuta')}</button>` : ''}
+      ${izRute ? `<button id="nazad">‹ ${t('trenutnaRuta')}</button>` : ''}
       <header>
         <h2>
           ${escapeHtml(spomen.title)}

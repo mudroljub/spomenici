@@ -26,7 +26,7 @@ const tekstovi = {
   navigacija: {sh: 'Navigacija', en: 'Navigate'},
   mesto: {sh: 'Pronađi mesto', en: 'Find place'},
   ruta: {sh: 'Ruta', en: 'Route'},
-  mojaRuta: {sh: 'Moja ruta', en: 'My route'},
+  trenutnaRuta: {sh: 'Trenutna ruta', en: 'Current route'},
   lista: {sh: 'Želim da posetim', en: 'Want to visit'},
   posetio: {sh: 'Posećeno', en: 'Visited'},
   mojaPoseta: {sh: 'Moja poseta', en: 'My visit'},
@@ -79,7 +79,7 @@ const tekstovi = {
     en: 'No stops yet. Add monuments with <b>+ Route</b> in their details, or pick one of the suggested routes.',
   },
   redosled: {sh: 'Optimizuj redosled', en: 'Optimize order'},
-  obrisiRutu: {sh: 'Obriši rutu', en: 'Clear route'},
+  ukloniRutu: {sh: 'Ukloni rutu', en: 'Remove route'},
   googleMape: {sh: 'Otvori u Google mapama', en: 'Open in Google Maps'},
   ogranicenje: {
     sh: n => `Google mape primaju samo prvih ${n} stanica.`,
