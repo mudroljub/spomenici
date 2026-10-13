@@ -11,9 +11,3 @@ Visit: [mudroljub.github.io/spomeniks](https://mudroljub.github.io/spomeniks/)
 ```
 live-server
 ```
-
-## TODO
-
-- nova pretraga, korak 4: razvrstati po ratu — revoluciji i oznake NOB/NOR/1941–1945/partizanski uvek ulaze; samo drugi rat (1912–1918, 1991–1995) ne ulazi; zajednički spomenici ulaze; nejasni po slici
-- nova pretraga, korak 5: Google podaci i imena naselja, pa pregled po turama od 60 i upis
-- pretraga spomenika narodnim herojima: za svakog narodnog heroja Jugoslavije potražiti spomenik ili bistu na Google mapama
