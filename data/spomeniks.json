@@ -21005,5 +21005,987 @@
     "type": "kompleks",
     "drzava": "Serbia",
     "istaknut": true
+  },
+  {
+    "id": "donja-lastva",
+    "koordinate": {
+      "lat": 42.4473584,
+      "lng": 18.6869405
+    },
+    "googleCid": "10199852326907520478",
+    "title": "Donja Lastva",
+    "naziv": "Spomenik palim borcima NOR-a",
+    "type": "lokalni",
+    "drzava": "Montenegro"
+  },
+  {
+    "id": "tivat-2",
+    "koordinate": {
+      "lat": 42.432121599999995,
+      "lng": 18.6992855
+    },
+    "googleCid": "4810928675568392417",
+    "title": "Tivat",
+    "naziv": "Spomenik palim borcima NOR-a",
+    "type": "lokalni",
+    "drzava": "Montenegro"
+  },
+  {
+    "id": "trebinje-tini",
+    "koordinate": {
+      "lat": 42.708158499999996,
+      "lng": 18.3502638
+    },
+    "googleCid": "4803776456102455247",
+    "title": "Trebinje (Tini)",
+    "slika": "slike/spomenici/trebinje-tini.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik palim borcima 1941–1945",
+    "type": "lokalni",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "radevici",
+    "koordinate": {
+      "lat": 42.474519699999995,
+      "lng": 19.2595237
+    },
+    "googleCid": "11706559803888277479",
+    "title": "Radevići",
+    "naziv": "Spomenik partizanima",
+    "type": "lokalni",
+    "drzava": "Montenegro"
+  },
+  {
+    "id": "milovici",
+    "koordinate": {
+      "lat": 42.385075799999996,
+      "lng": 18.6850763
+    },
+    "googleCid": "13047862018644060511",
+    "title": "Milovići",
+    "slika": "slike/spomenici/milovici.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik borcima NOR-a",
+    "type": "lokalni",
+    "drzava": "Montenegro"
+  },
+  {
+    "id": "baska-voda",
+    "koordinate": {
+      "lat": 43.359544299999996,
+      "lng": 16.945667699999998
+    },
+    "googleCid": "15237493264851319437",
+    "title": "Baška Voda",
+    "slika": "slike/spomenici/baska-voda.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik palim borcima NOR-a",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "lozisca",
+    "koordinate": {
+      "lat": 43.348712299999995,
+      "lng": 16.480018599999998
+    },
+    "googleCid": "15490201629431624669",
+    "title": "Ložišća",
+    "naziv": "Spomenik palim borcima u antifašističkom ratu",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "seget-donji",
+    "koordinate": {
+      "lat": 43.5189455,
+      "lng": 16.2298768
+    },
+    "googleCid": "4365635326183825026",
+    "title": "Seget Donji",
+    "naziv": "Spomenik palim borcima i žrtvama fašističkog terora Segeta Donjeg i Seget Vranjice",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "kistanje",
+    "koordinate": {
+      "lat": 43.9803443,
+      "lng": 15.960919599999999
+    },
+    "googleCid": "2994528696733986112",
+    "title": "Kistanje",
+    "slika": "slike/spomenici/kistanje.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik palim borcima fašističkog terora naroda Bukovice",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "barosi",
+    "koordinate": {
+      "lat": 43.9834131,
+      "lng": 16.6373615
+    },
+    "googleCid": "14869872401294968086",
+    "title": "Baroši",
+    "naziv": "Spomenik palim borcima u Drugom svjetskom ratu",
+    "type": "lokalni",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "radoinja",
+    "koordinate": {
+      "lat": 43.5126303,
+      "lng": 19.7509124
+    },
+    "googleCid": "1036390706439786249",
+    "title": "Radoinja",
+    "naziv": "Spomenik palim borcima u NOR-u 1941–1945",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "niska-banja",
+    "koordinate": {
+      "lat": 43.2919887,
+      "lng": 22.0058506
+    },
+    "googleCid": "16461673913278884592",
+    "title": "Niška Banja",
+    "slika": "slike/spomenici/niska-banja.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik palim borcima 1941–1945",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "vrgudinac",
+    "koordinate": {
+      "lat": 43.2398904,
+      "lng": 22.2523178
+    },
+    "googleCid": "1914042754806862261",
+    "title": "Vrgudinac",
+    "slika": "slike/spomenici/vrgudinac.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik palim borcima u I i II svetskom ratu",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "gornji-barbes",
+    "koordinate": {
+      "lat": 43.199618,
+      "lng": 21.956385599999997
+    },
+    "googleCid": "6111722114962617010",
+    "title": "Gornji Barbeš",
+    "slika": "slike/spomenici/gornji-barbes.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomen česma palim borcima NOBa",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "sibenik-zablace",
+    "koordinate": {
+      "lat": 43.706480299999996,
+      "lng": 15.8677578
+    },
+    "googleCid": "377457268890987527",
+    "title": "Šibenik (Zablaće)",
+    "slika": "slike/spomenici/sibenik-zablace.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomen ploča palim borcima i žrtvama fašističkog terora",
+    "type": "ploca",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "luzane",
+    "koordinate": {
+      "lat": 43.4816321,
+      "lng": 21.7279181
+    },
+    "googleCid": "11037426932166378401",
+    "title": "Lužane",
+    "naziv": "Spomenik palim borcima u balkanskim ratovima, I i II svetskom ratu",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "krapanj",
+    "koordinate": {
+      "lat": 43.6723727,
+      "lng": 15.9182638
+    },
+    "googleCid": "6743612791405194516",
+    "title": "Krapanj",
+    "slika": "slike/spomenici/krapanj.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik antifašističkim borcima",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "duskovci",
+    "koordinate": {
+      "lat": 44.004916099999996,
+      "lng": 20.0514525
+    },
+    "googleCid": "545565290126413248",
+    "title": "Duškovci",
+    "slika": "slike/spomenici/duskovci.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomen-česma palim borcima u Prvom i Drugom svetskom ratu",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "obrez",
+    "koordinate": {
+      "lat": 43.769202299999996,
+      "lng": 21.3493915
+    },
+    "googleCid": "10538278011944274436",
+    "title": "Obrež",
+    "naziv": "Spomenik palim borcima I i II svetskog rata",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "velika-drenova",
+    "koordinate": {
+      "lat": 43.626092299999996,
+      "lng": 21.1312735
+    },
+    "googleCid": "6645944138275771689",
+    "title": "Velika Drenova",
+    "naziv": "Spomenik borcima palim u II svetskom ratu",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "batinac",
+    "koordinate": {
+      "lat": 43.922674799999996,
+      "lng": 21.4383673
+    },
+    "googleCid": "2232757519898798596",
+    "title": "Batinac",
+    "slika": "slike/spomenici/batinac.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik poginulim borcima u prvom i drugom svetskom ratu",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "soline",
+    "koordinate": {
+      "lat": 44.1395853,
+      "lng": 14.880996199999998
+    },
+    "googleCid": "6985452441961824499",
+    "title": "Soline",
+    "slika": "slike/spomenici/soline.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik palim borcima u Drugom svjetskom ratu",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "podastinje",
+    "koordinate": {
+      "lat": 43.9465497,
+      "lng": 18.0762548
+    },
+    "googleCid": "10392934586258040428",
+    "title": "Podastinje",
+    "slika": "slike/spomenici/podastinje.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik borcima u narodnooslobodilačkoj borbi",
+    "type": "lokalni",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "ponijeri",
+    "koordinate": {
+      "lat": 44.2663473,
+      "lng": 18.1856907
+    },
+    "googleCid": "14357291275055913336",
+    "title": "Ponijeri",
+    "naziv": "Spomen-obilježje palim borcima narodnooslobodilačkog rata",
+    "type": "lokalni",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "sunji",
+    "koordinate": {
+      "lat": 43.7297079,
+      "lng": 18.0084972
+    },
+    "googleCid": "2435346768915536687",
+    "title": "Šunji",
+    "slika": "slike/spomenici/sunji.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik borcima NOR-a",
+    "type": "lokalni",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "draga-bascanska",
+    "koordinate": {
+      "lat": 44.9948543,
+      "lng": 14.715865299999999
+    },
+    "googleCid": "15617462368703398644",
+    "title": "Draga Bašćanska",
+    "slika": "slike/spomenici/draga-bascanska.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik palim borcima i žrtvama fašizma",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "sarsoni",
+    "koordinate": {
+      "lat": 45.388526299999995,
+      "lng": 14.408914999999999
+    },
+    "googleCid": "229116797437154817",
+    "title": "Saršoni",
+    "slika": "slike/spomenici/sarsoni.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik palim borcima 1941–1945",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "rabrovac",
+    "koordinate": {
+      "lat": 44.361888799999996,
+      "lng": 20.7570978
+    },
+    "googleCid": "4833017907027315959",
+    "title": "Rabrovac",
+    "naziv": "Spomenik palim borcima u borbama 1941–1945",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "petrijevo",
+    "koordinate": {
+      "lat": 44.6257709,
+      "lng": 20.8728379
+    },
+    "googleCid": "6950950041144392370",
+    "title": "Petrijevo",
+    "naziv": "Spomenik palim borcima iz 1 i 2 svetskog rata",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "starcevo",
+    "koordinate": {
+      "lat": 44.464559,
+      "lng": 21.4007692
+    },
+    "googleCid": "9115359783783991005",
+    "title": "Starčevo",
+    "naziv": "Spomenik palim borcima 1941–45 i palim herojima u Prvom svetskom ratu",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "cerovlje",
+    "koordinate": {
+      "lat": 45.2761062,
+      "lng": 14.0124389
+    },
+    "googleCid": "6798606136975384333",
+    "title": "Cerovlje",
+    "slika": "slike/spomenici/cerovlje.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "most",
+    "koordinate": {
+      "lat": 45.4020511,
+      "lng": 13.965639099999999
+    },
+    "googleCid": "377882541941499198",
+    "title": "Most",
+    "slika": "slike/spomenici/most.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik palim borcima u narodnooslobodilačkom ratu",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "prijedor-raskovac",
+    "koordinate": {
+      "lat": 44.981260999999996,
+      "lng": 16.6966477
+    },
+    "googleCid": "2068959664742438380",
+    "title": "Prijedor (Raškovac)",
+    "slika": "slike/spomenici/prijedor-raskovac.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik palim borcima NOBa",
+    "type": "lokalni",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "lipolist",
+    "koordinate": {
+      "lat": 44.6985463,
+      "lng": 19.5012738
+    },
+    "googleCid": "4545603574404704108",
+    "title": "Lipolist",
+    "slika": "slike/spomenici/lipolist.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik borcima i žrtvama Drugog svetskog rata",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "lacarak-2",
+    "koordinate": {
+      "lat": 44.9984697,
+      "lng": 19.5642632
+    },
+    "googleCid": "4787143966853920885",
+    "title": "Laćarak",
+    "slika": "slike/spomenici/lacarak-2.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik palim borcima i žrtvama fašizma u Drugom svetskom ratu",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "salas-nocajski",
+    "koordinate": {
+      "lat": 44.9491205,
+      "lng": 19.590509
+    },
+    "googleCid": "11635435627526474473",
+    "title": "Salaš Noćajski",
+    "slika": "slike/spomenici/salas-nocajski.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Palim borcima i žrtvama fašizma",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "erdevik",
+    "koordinate": {
+      "lat": 45.1156667,
+      "lng": 19.410073399999998
+    },
+    "googleCid": "2604570802597714472",
+    "title": "Erdevik",
+    "slika": "slike/spomenici/erdevik.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Palim borcima i žrtvama fašizma u toku N.O. borbe",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "hajducica",
+    "koordinate": {
+      "lat": 45.2468864,
+      "lng": 20.959370999999997
+    },
+    "googleCid": "5695612200750180946",
+    "title": "Hajdučica",
+    "slika": "slike/spomenici/hajducica.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik palim borcima 2 svetskog rata",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "novigrad",
+    "koordinate": {
+      "lat": 45.316320499999996,
+      "lng": 13.5614523
+    },
+    "googleCid": "3040733886971099156",
+    "title": "Novigrad",
+    "slika": "slike/spomenici/novigrad.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomen palim borcima NOR",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "velesevec",
+    "koordinate": {
+      "lat": 45.6543351,
+      "lng": 16.2637276
+    },
+    "googleCid": "13125117643801849186",
+    "title": "Veleševec",
+    "slika": "slike/spomenici/velesevec.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik palim borcima i žrtvama fašizma",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "donja-dubica",
+    "koordinate": {
+      "lat": 45.0669815,
+      "lng": 18.396678899999998
+    },
+    "googleCid": "9891613763405203094",
+    "title": "Donja Dubica",
+    "slika": "slike/spomenici/donja-dubica.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomen-kosturnica poginulim borcima i žrtvama narodno-oslobodilačke borbe 1941–1945",
+    "type": "lokalni",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "valpovo",
+    "koordinate": {
+      "lat": 45.6572703,
+      "lng": 18.414986199999998
+    },
+    "googleCid": "3949457895276354288",
+    "title": "Valpovo",
+    "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "baranjsko-petrovo-selo-2",
+    "koordinate": {
+      "lat": 45.754926399999995,
+      "lng": 18.4693363
+    },
+    "googleCid": "11936482448182105721",
+    "title": "Baranjsko Petrovo Selo",
+    "naziv": "Spomenik palim borcima 1945",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "ravno-selo",
+    "koordinate": {
+      "lat": 45.4489545,
+      "lng": 19.6228239
+    },
+    "googleCid": "3289248872632593750",
+    "title": "Ravno Selo",
+    "slika": "slike/spomenici/ravno-selo.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik borcima palim u narodnooslobodilačkom ratu i žrtvama fašizma",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "banostor",
+    "koordinate": {
+      "lat": 45.213713999999996,
+      "lng": 19.610357399999998
+    },
+    "googleCid": "8955464559789954580",
+    "title": "Banoštor",
+    "naziv": "Spomenik borcima narodnooslobodilačke borbe",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "neuzina",
+    "koordinate": {
+      "lat": 45.3428681,
+      "lng": 20.7085124
+    },
+    "googleCid": "13727569925589455303",
+    "title": "Neuzina",
+    "slika": "slike/spomenici/neuzina.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik palim borcima i civilima tokom Drugog svetskog rata",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "conoplja",
+    "koordinate": {
+      "lat": 45.8117774,
+      "lng": 19.2486422
+    },
+    "googleCid": "18022879365510049863",
+    "title": "Čonoplja",
+    "naziv": "Spomenik borcima NOR-a",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "vrbas-2",
+    "koordinate": {
+      "lat": 45.5715541,
+      "lng": 19.6399521
+    },
+    "googleCid": "3049351429768856921",
+    "title": "Vrbas",
+    "slika": "slike/spomenici/vrbas-2.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik palim borcima narodnooslobodilačkog rata i žrtvama fašističkog terora",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "backo-gradiste",
+    "koordinate": {
+      "lat": 45.5337166,
+      "lng": 20.0231174
+    },
+    "googleCid": "17710329453614462983",
+    "title": "Bačko Gradište",
+    "slika": "slike/spomenici/backo-gradiste.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "velike-sesvete",
+    "koordinate": {
+      "lat": 46.0529629,
+      "lng": 16.6728895
+    },
+    "googleCid": "4756460938887058651",
+    "title": "Velike Sesvete",
+    "slika": "slike/spomenici/velike-sesvete.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik palim borcima II svjetskog rata",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "bolfan",
+    "koordinate": {
+      "lat": 46.2232743,
+      "lng": 16.673872499999998
+    },
+    "googleCid": "16590499633855219589",
+    "title": "Bolfan",
+    "slika": "slike/spomenici/bolfan.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik palim borcima 2. svjetskog rata",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "stara-moravica",
+    "koordinate": {
+      "lat": 45.868761199999994,
+      "lng": 19.466319199999997
+    },
+    "googleCid": "2664075305342104773",
+    "title": "Stara Moravica",
+    "slika": "slike/spomenici/stara-moravica.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik poginulim borcima u II svetskom ratu",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "bajsa",
+    "koordinate": {
+      "lat": 45.776325899999996,
+      "lng": 19.584285899999998
+    },
+    "googleCid": "15648283003792666633",
+    "title": "Bajša",
+    "slika": "slike/spomenici/bajsa.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Palim borcima i žrtvama fašizma",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "svagelji",
+    "koordinate": {
+      "lat": 46.0832775,
+      "lng": 16.527501
+    },
+    "googleCid": "17525607869742452457",
+    "title": "Švagelji",
+    "naziv": "Spomenik palim borcima II svjetskog rata",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "sredice-gornje",
+    "koordinate": {
+      "lat": 46.045505899999995,
+      "lng": 16.791014699999998
+    },
+    "googleCid": "17797127580440703994",
+    "title": "Sredice Gornje",
+    "naziv": "Spomenik NOR-a",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "zbelava",
+    "koordinate": {
+      "lat": 46.2815073,
+      "lng": 16.4006497
+    },
+    "googleCid": "8847859911251510425",
+    "title": "Zbelava",
+    "naziv": "Spomenik palim borcima II svjetskog rata",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "sesvete-ludbreske",
+    "koordinate": {
+      "lat": 46.2846623,
+      "lng": 16.6487058
+    },
+    "googleCid": "6506289191320125720",
+    "title": "Sesvete Ludbreške",
+    "slika": "slike/spomenici/sesvete-ludbreske.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik palim borcima 2. svjetskog rata",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "karlovec-ludbreski",
+    "koordinate": {
+      "lat": 46.2874169,
+      "lng": 16.6285647
+    },
+    "googleCid": "13893396981962619074",
+    "title": "Karlovec Ludbreški",
+    "slika": "slike/spomenici/karlovec-ludbreski.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik žrtvama i palim borcima 2. svjetskog rata",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "rasinja",
+    "koordinate": {
+      "lat": 46.192608899999996,
+      "lng": 16.709058799999998
+    },
+    "googleCid": "2249898466503500428",
+    "title": "Rasinja",
+    "slika": "slike/spomenici/rasinja.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik palim borcima 2. svjetskog rata",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "cukovec",
+    "koordinate": {
+      "lat": 46.2305688,
+      "lng": 16.661821
+    },
+    "googleCid": "4920285572408343943",
+    "title": "Čukovec",
+    "slika": "slike/spomenici/cukovec.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik žrtvama i palim borcima 2. svjetskog rata",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "sveti-djurdj",
+    "koordinate": {
+      "lat": 46.281560899999995,
+      "lng": 16.605152999999998
+    },
+    "googleCid": "5244433227750808089",
+    "title": "Sveti Đurđ",
+    "slika": "slike/spomenici/sveti-djurdj.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomen palim borcima v NOR",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "drnje",
+    "koordinate": {
+      "lat": 46.2078194,
+      "lng": 16.9099777
+    },
+    "googleCid": "980383263889919024",
+    "title": "Drnje",
+    "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "pavlovac",
+    "koordinate": {
+      "lat": 42.4946698,
+      "lng": 21.862699799999998
+    },
+    "googleCid": "7110212799164532981",
+    "title": "Pavlovac",
+    "slika": "slike/spomenici/pavlovac.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik oslobodiocima u 2. svetskom ratu",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "pavlovac-2",
+    "koordinate": {
+      "lat": 42.4946698,
+      "lng": 21.862699799999998
+    },
+    "googleCid": "7927949331590471972",
+    "title": "Pavlovac",
+    "naziv": "Spomenik žrtvama sela Pavlovac poginulim u Prvom i Drugom svetskom ratu i NATO agresiji 1999. godine",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "dobric",
+    "koordinate": {
+      "lat": 43.3535373,
+      "lng": 17.6846395
+    },
+    "googleCid": "3168747961290010095",
+    "title": "Dobrić",
+    "naziv": "Partizanski spomenik u Dobriču",
+    "type": "lokalni",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "radusa-2",
+    "koordinate": {
+      "lat": 44.419985499999996,
+      "lng": 19.8841747
+    },
+    "googleCid": "9157651004159154387",
+    "title": "Raduša",
+    "slika": "slike/spomenici/radusa-2.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik poginulim partizanima iz Raduše u narodnooslobodilačkom ratu",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "cuprija",
+    "koordinate": {
+      "lat": 43.9331691,
+      "lng": 21.3708065
+    },
+    "googleCid": "18089192931323132392",
+    "title": "Ćuprija",
+    "slika": "slike/spomenici/cuprija.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik 1941–1945",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "djukanovici",
+    "koordinate": {
+      "lat": 44.4174577,
+      "lng": 17.0715134
+    },
+    "googleCid": "17444115265765534538",
+    "title": "Đukanovići",
+    "slika": "slike/spomenici/djukanovici.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik poginulim borcima narodnooslobodilačkog rata i žrtvama fašističkog terora",
+    "type": "lokalni",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "zuce",
+    "koordinate": {
+      "lat": 44.699805399999995,
+      "lng": 20.555953
+    },
+    "googleCid": "1058242628229451012",
+    "title": "Zuce",
+    "slika": "slike/spomenici/zuce.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik borcima Drugog svetskog rata",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "vucak",
+    "koordinate": {
+      "lat": 44.617472,
+      "lng": 20.900544999999997
+    },
+    "googleCid": "12719746667190233055",
+    "title": "Vučak",
+    "naziv": "Spomenik Kosmajskom partizanskom odredu",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "mahale",
+    "koordinate": {
+      "lat": 44.7215233,
+      "lng": 18.8170266
+    },
+    "googleCid": "13898916928764460895",
+    "title": "Mahale",
+    "slika": "slike/spomenici/mahale.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik poginulim borcima drugog svjetskog rata",
+    "type": "lokalni",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "opatija",
+    "koordinate": {
+      "lat": 45.2756867,
+      "lng": 14.1961712
+    },
+    "googleCid": "16097619201011340112",
+    "title": "Opatija",
+    "naziv": "Spomenik žrtvama talijanskog fašizma i nacizma",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "knezevi-vinogradi",
+    "koordinate": {
+      "lat": 45.7505587,
+      "lng": 18.7323746
+    },
+    "googleCid": "16169794686010881793",
+    "title": "Kneževi Vinogradi",
+    "naziv": "Spomenik poginulima u drugom svjetskom ratu",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "pacir",
+    "koordinate": {
+      "lat": 45.8980202,
+      "lng": 19.4385762
+    },
+    "googleCid": "15476494835343172832",
+    "title": "Pačir",
+    "slika": "slike/spomenici/pacir.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik borcima i žrtvama fašizma",
+    "type": "lokalni",
+    "drzava": "Serbia"
   }
 ]
