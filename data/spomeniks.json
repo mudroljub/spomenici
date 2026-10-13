@@ -6721,17 +6721,6 @@
     "drzava": "Serbia"
   },
   {
-    "id": "bar",
-    "koordinate": {
-      "lat": 42.0983465,
-      "lng": 19.09316396
-    },
-    "title": "Bar",
-    "slika": "slike/spomenici/bar.webp",
-    "year": "1963",
-    "drzava": "Montenegro"
-  },
-  {
     "id": "brod",
     "koordinate": {
       "lat": 45.14670124,
@@ -7168,11 +7157,15 @@
   {
     "id": "jastrebarsko",
     "koordinate": {
-      "lat": 45.6733323,
-      "lng": 15.65823811
+      "lat": 45.6705975,
+      "lng": 15.6528525
     },
+    "googleCid": "10417180268661687877",
     "title": "Jastrebarsko",
     "slika": "slike/spomenici/jastrebarsko.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik NOB",
+    "type": "groblje",
     "drzava": "Croatia"
   },
   {
@@ -7489,6 +7482,7 @@
     "title": "Tivat",
     "slika": "slike/spomenici/tivat.webp",
     "year": "1985",
+    "type": "ploca",
     "drzava": "Montenegro"
   },
   {
@@ -10054,12 +10048,15 @@
   {
     "id": "otocac",
     "koordinate": {
-      "lat": 44.86982382,
-      "lng": 15.23837985
+      "lat": 44.8681279,
+      "lng": 15.2370143
     },
+    "googleCid": "1263978967056941094",
     "title": "Otočac",
     "wiki": "https://en.wikipedia.org/wiki/State_Anti-Fascist_Council_for_the_National_Liberation_of_Croatia",
     "slika": "slike/spomenici/otocac.webp",
+    "naziv": "Spomenik Vladimiru Nazoru",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -12243,7 +12240,7 @@
     "title": "Golišče (Litija)",
     "wiki": "https://sl.wikipedia.org/wiki/Spominska_plo%C5%A1%C4%8Da_Kon%C4%8Darjevi_dru%C5%BEini",
     "naziv": "Spominska plošča Končarjevi družini",
-    "type": "spomenik",
+    "type": "ploca",
     "drzava": "Slovenia"
   },
   {
@@ -12410,5 +12407,19 @@
     "naziv": "Spomenik crvenoarmejcu",
     "type": "spomenik",
     "drzava": "Serbia"
+  },
+  {
+    "id": "sozina",
+    "koordinate": {
+      "lat": 42.1498647,
+      "lng": 19.0678755
+    },
+    "googleCid": "6776734729940309486",
+    "title": "Sozina",
+    "slika": "slike/spomenici/sozina.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik borcima palim u bitki na Sozini 1941.",
+    "type": "spomenik",
+    "drzava": "Montenegro"
   }
 ]

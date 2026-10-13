@@ -16,7 +16,6 @@ live-server
 
 ### Ostalo
 
-- kategorizovati ostale spomenike preko javnih podataka, a nejasne proveriti po fotografiji
 - podaci za putnike: pristup (asfalt, makadam, pešačenje X min), parking, radno vreme i ulaznica za muzeje
 - dodaj izbor jezika: srpski i engleski
 
