@@ -11157,7 +11157,7 @@
     "googleCid": "9862910267891673694",
     "title": "Kovačica",
     "slika": "slike/spomenici/kovacica.webp",
-    "naziv": "Spomenik palim borcima",
+    "naziv": "Spomenik borcima NOB",
     "name": "Monument to Fallen Fighters",
     "year": "1954",
     "type": "spomenik",
@@ -12380,9 +12380,10 @@
   {
     "id": "beograd-grobnica-narodnih-heroja",
     "koordinate": {
-      "lat": 44.8219,
-      "lng": 20.4489
+      "lat": 44.8219174,
+      "lng": 20.4488906
     },
+    "googleCid": "3081485200427867855",
     "title": "Beograd (Kalemegdan)",
     "wiki": "https://sh.wikipedia.org/wiki/Grobnica_narodnih_heroja_na_Kalemegdanu",
     "slika": "slike/spomenici/beograd-grobnica-narodnih-heroja.webp",
@@ -12807,5 +12808,70 @@
     "naziv": "Spomenik žrtvama fašističkog terora",
     "type": "spomenik",
     "drzava": "Montenegro"
+  },
+  {
+    "id": "bukovik",
+    "koordinate": {
+      "lat": 44.2999945,
+      "lng": 20.5304472
+    },
+    "googleCid": "9179716663103626284",
+    "title": "Bukovik",
+    "naziv": "Spomenik NOB Šumadijskim partizanima",
+    "type": "spomenik",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "zarkovo",
+    "koordinate": {
+      "lat": 44.7578196,
+      "lng": 20.4181897
+    },
+    "googleCid": "791442101114333238",
+    "title": "Žarkovo",
+    "slika": "slike/spomenici/zarkovo.webp",
+    "slikaAutor": "Google Maps",
+    "type": "spomenik",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "jakovo",
+    "koordinate": {
+      "lat": 44.7540598,
+      "lng": 20.2596584
+    },
+    "googleCid": "10663218190987529216",
+    "title": "Jakovo",
+    "slika": "slike/spomenici/jakovo.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik NOB",
+    "type": "spomenik",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "beograd-terazije",
+    "koordinate": {
+      "lat": 44.8123665,
+      "lng": 20.4616458
+    },
+    "googleCid": "11949776978787823196",
+    "title": "Beograd (Terazije)",
+    "slika": "slike/spomenici/beograd-terazije.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik obešenima na Terazijama",
+    "type": "spomenik",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "sremski-mihaljevci",
+    "koordinate": {
+      "lat": 44.8392867,
+      "lng": 20.0505239
+    },
+    "googleCid": "6904417933873319493",
+    "title": "Sremski Mihaljevci",
+    "naziv": "Spomenik NOR – Posavski partizanski odred",
+    "type": "kompleks",
+    "drzava": "Serbia"
   }
 ]
