@@ -1022,7 +1022,7 @@
     "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D1%87%D0%BA%D0%B8_%D0%BA%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%81_%D0%91%D0%B5%D0%BB%D0%B0_%D0%A6%D1%80%D0%BA%D0%B2%D0%B0",
     "slika": "slike/spomenici/bela-crkva-start-uprising.webp",
     "naziv": "Spomenički kompleks Bela Crkva",
-    "name": "Monument to the Start of the Uprising ",
+    "name": "Monument to the Start of the Uprising",
     "year": "1971",
     "author": "Bogdan Bogdanović",
     "type": "kompleks",
@@ -1040,7 +1040,7 @@
     "info": "http://www.spomenikdatabase.org/bratunac",
     "slika": "slike/spomenici/bratunac.webp",
     "naziv": "Spomenik Narodnooslobodilačkoj borbi",
-    "name": "Bratunac Memorial Park ",
+    "name": "Bratunac Memorial Park",
     "year": "1978",
     "author": "Petar Krstić",
     "type": "kompleks",
@@ -1364,7 +1364,7 @@
     "info": "http://www.spomenikdatabase.org/draginac",
     "slika": "slike/spomenici/draginac.webp",
     "naziv": "Spomen-kosturnica",
-    "name": "Monument & Crypt to Executed Victims ",
+    "name": "Monument & Crypt to Executed Victims",
     "year": "1961",
     "type": "kompleks",
     "drzava": "Serbia",
@@ -1520,7 +1520,7 @@
       "lng": 19.6063428
     },
     "googleCid": "17066788961843347142",
-    "title": "Sremska Mitrovitca ",
+    "title": "Sremska Mitrovitca",
     "info": "http://www.spomenikdatabase.org/sremska-mitrovica",
     "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D0%B3%D1%80%D0%BE%D0%B1%D1%99%D0%B5",
     "slika": "slike/spomenici/sremska-mitrovitca.webp",
@@ -1698,7 +1698,7 @@
     "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BA%D1%83%D0%BB%D0%BF%D1%82%D1%83%D1%80%D0%B0_%D0%9F%D0%B0%D1%80%D1%82%D0%B8%D0%B7%D0%B0%D0%BD%D1%81%D0%BA%D0%B8_%D0%BA%D1%83%D1%80%D0%B8%D1%80",
     "slika": "slike/spomenici/brstica.webp",
     "naziv": "Spomen-kompleks Stolice",
-    "name": "Memorial Complex Stolice ",
+    "name": "Memorial Complex Stolice",
     "year": "1981",
     "type": "kompleks",
     "drzava": "Serbia",
@@ -1836,7 +1836,7 @@
     "wiki": "https://en.wikipedia.org/wiki/Banjica_concentration_camp",
     "slika": "slike/spomenici/mali-pozarevac.webp",
     "naziv": "Spomenik i grobnica žrtvama logora Banjica",
-    "name": "Mon. & Grave to Victims of the <a href=\"https://en.wikipedia.org/wiki/Banjica_concentration_camp\" target=\"_blank\">Banjica Camp</a> ",
+    "name": "Mon. & Grave to Victims of the <a href=\"https://en.wikipedia.org/wiki/Banjica_concentration_camp\" target=\"_blank\">Banjica Camp</a>",
     "year": "1966",
     "type": "spomenik",
     "drzava": "Serbia"
@@ -2616,7 +2616,7 @@
       "lat": 45.7577317,
       "lng": 20.4025838
     },
-    "title": "Simić's Farm ",
+    "title": "Simić's Farm",
     "slika": "slike/spomenici/simic-s-farm.webp",
     "naziv": "Spomenik Kikindskom partizanskom odredu",
     "name": "Monument to the Kikinda Detachment",
@@ -2653,7 +2653,7 @@
     "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D0%BE%D0%B1%D0%B5%D0%BB%D0%B5%D0%B6%D1%98%D0%B5_%D0%A1%D1%80%D0%B5%D0%BC%D1%81%D0%BA%D0%B8_%D1%84%D1%80%D0%BE%D0%BD%D1%82",
     "slika": "slike/spomenici/adasevci.webp",
     "naziv": "Spomen-obeležje Sremski front",
-    "name": "Sremski Front Memorial Complex ",
+    "name": "Sremski Front Memorial Complex",
     "year": "1988",
     "type": "kompleks",
     "drzava": "Serbia",
@@ -3151,7 +3151,7 @@
       "lng": 16.58934508
     },
     "googleCid": "17716996852503397240",
-    "title": " Ludbreški Ivanec",
+    "title": "Ludbreški Ivanec",
     "slika": "slike/spomenici/ludbreski-ivanec.webp",
     "naziv": "Središnji spomenik kalničkim partizanima",
     "name": "Monument to the Kalnik Partisan Unit",
@@ -3430,7 +3430,7 @@
     "wiki": "https://en.wikipedia.org/wiki/Stjepan_Filipovi%C4%87",
     "slika": "slike/spomenici/valjevo-stjepan-filipovic.webp",
     "naziv": "Spomenik borcima revolucije",
-    "name": "Monument to <a href=\"https://en.wikipedia.org/wiki/Stjepan_Filipovi%C4%87\" target=\"_blank\">Stjepan Filipović</a> ",
+    "name": "Monument to <a href=\"https://en.wikipedia.org/wiki/Stjepan_Filipovi%C4%87\" target=\"_blank\">Stjepan Filipović</a>",
     "year": "1960",
     "author": "Vojin Bakić",
     "type": "kompleks",
@@ -3990,7 +3990,7 @@
     "wiki": "https://en.wikipedia.org/wiki/Stjepan_Filipovi%C4%87",
     "slika": "slike/spomenici/opuzen.webp",
     "naziv": "Spomenik Stjepanu Filipoviću",
-    "name": "Monument to <a href=\"https://en.wikipedia.org/wiki/Stjepan_Filipovi%C4%87\" target=\"_blank\">Stjepan Filipović</a> ",
+    "name": "Monument to <a href=\"https://en.wikipedia.org/wiki/Stjepan_Filipovi%C4%87\" target=\"_blank\">Stjepan Filipović</a>",
     "year": "1978",
     "author": "Stjepan Gračan",
     "stanje": "uklonjen",
@@ -4310,7 +4310,7 @@
       "lng": 14.96288352
     },
     "googleCid": "1173014972591285490",
-    "title": "Ravne na Koroškem ",
+    "title": "Ravne na Koroškem",
     "slika": "slike/spomenici/ravne-na-koroskem.webp",
     "naziv": "Spomenik borcem NOB",
     "name": "Monument Fighters of the NOB",
@@ -6883,7 +6883,7 @@
     },
     "title": "Brod",
     "slika": "slike/spomenici/brod.webp",
-    "name": "Mon. to Fallen Fighters \"Hunger Mon.\" ",
+    "name": "Mon. to Fallen Fighters \"Hunger Mon.\"",
     "type": "spomenik",
     "drzava": "Bosnia and Herzegovina"
   },
@@ -7718,7 +7718,7 @@
     "title": "Selevac",
     "slika": "slike/spomenici/selevac.webp",
     "naziv": "Spomenik palim borcima",
-    "name": "Monument to Fallen Fighters ",
+    "name": "Monument to Fallen Fighters",
     "year": "1980",
     "type": "spomenik",
     "drzava": "Serbia"
@@ -21019,18 +21019,6 @@
     "drzava": "Montenegro"
   },
   {
-    "id": "tivat-2",
-    "koordinate": {
-      "lat": 42.432121599999995,
-      "lng": 18.6992855
-    },
-    "googleCid": "4810928675568392417",
-    "title": "Tivat",
-    "naziv": "Spomenik palim borcima NOR-a",
-    "type": "lokalni",
-    "drzava": "Montenegro"
-  },
-  {
     "id": "trebinje-tini",
     "koordinate": {
       "lat": 42.708158499999996,
@@ -21829,18 +21817,6 @@
     "slika": "slike/spomenici/pavlovac.webp",
     "slikaAutor": "Google Maps",
     "naziv": "Spomenik oslobodiocima u 2. svetskom ratu",
-    "type": "lokalni",
-    "drzava": "Serbia"
-  },
-  {
-    "id": "pavlovac-2",
-    "koordinate": {
-      "lat": 42.4946698,
-      "lng": 21.862699799999998
-    },
-    "googleCid": "7927949331590471972",
-    "title": "Pavlovac",
-    "naziv": "Spomenik žrtvama sela Pavlovac poginulim u Prvom i Drugom svetskom ratu i NATO agresiji 1999. godine",
     "type": "lokalni",
     "drzava": "Serbia"
   },
@@ -24119,7 +24095,7 @@
     },
     "title": "Skopje (Centar)",
     "info": "https://www.openstreetmap.org/node/3713662739",
-    "naziv": "Josip Broz Tito",
+    "naziv": "Јосип Броз Тито",
     "name": "Statue of Josip Broz - Tito",
     "type": "spomenik",
     "drzava": "Macedonia"
