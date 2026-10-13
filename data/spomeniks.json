@@ -138,7 +138,7 @@
       "lng": 20.86006109
     },
     "googleCid": "2766835533999749155",
-    "title": "Mitrovica/Mitrovicë",
+    "title": "Kosovska Mitrovica",
     "info": "http://www.spomenikdatabase.org/mitrovica",
     "slika": "slike/spomenici/mitrovica-mitrovice.webp",
     "naziv": "Spomenik palim rudarima",
@@ -672,7 +672,7 @@
       "lat": 42.66564233,
       "lng": 21.16456721
     },
-    "title": "Priština/Prishtinë",
+    "title": "Priština",
     "info": "http://www.spomenikdatabase.org/pristina",
     "slika": "slike/spomenici/pristina-prishtine-brotherhood-unity.webp",
     "naziv": "Spomenik bratstvu i jedinstvu",
@@ -1159,7 +1159,7 @@
       "lat": 42.65881127,
       "lng": 21.17555578
     },
-    "title": "Velanija/Velanijë",
+    "title": "Velanija",
     "info": "http://www.spomenikdatabase.org/velanija",
     "wiki": "https://sr.wikipedia.org/wiki/%D0%9F%D0%B0%D1%80%D1%82%D0%B8%D0%B7%D0%B0%D0%BD%D1%81%D0%BA%D0%BE_%D0%B3%D1%80%D0%BE%D0%B1%D1%99%D0%B5_%D1%83_%D0%9F%D1%80%D0%B8%D1%88%D1%82%D0%B8%D0%BD%D0%B8",
     "slika": "slike/spomenici/velanija-velanije.webp",
@@ -1414,11 +1414,12 @@
     "title": "Jasenica",
     "info": "http://www.spomenikdatabase.org/jasenica",
     "slika": "slike/spomenici/jasenica.webp",
+    "naziv": "Muzej Podgrmeča i spomen-česma",
     "name": "Podgrmeč Museum & Memorial Fountain",
     "year": "1979",
     "author": "Marijan Kocković",
-    "type": "muzej",
     "stanje": "rusevine",
+    "type": "muzej",
     "drzava": "Bosnia and Herzegovina",
     "istaknut": true
   },
@@ -1556,7 +1557,7 @@
       "lng": 20.99717926
     },
     "googleCid": "7078806507757238855",
-    "title": "Brezovica/Brezovicë",
+    "title": "Brezovica",
     "info": "http://www.spomenikdatabase.org/brezovica",
     "slika": "slike/spomenici/brezovica-brezovice.webp",
     "naziv": "Spomenik Šarplaninskom partizanskom odredu",
@@ -2241,7 +2242,7 @@
       "lat": 42.58318566,
       "lng": 21.5764479
     },
-    "title": "Kamenica/Dardanë",
+    "title": "Kamenica",
     "slika": "slike/spomenici/kamenica-dardane.webp",
     "name": "Martyrs Monument",
     "type": "spomenik",
@@ -2435,20 +2436,6 @@
     "drzava": "Serbia"
   },
   {
-    "id": "porec",
-    "koordinate": {
-      "lat": 45.20263341,
-      "lng": 13.58868461
-    },
-    "title": "Poreč",
-    "slika": "slike/spomenici/porec.webp",
-    "naziv": "Murtićevi stupovi",
-    "year": "1969",
-    "author": "Edo Murtić",
-    "type": "spomenik",
-    "drzava": "Croatia"
-  },
-  {
     "id": "visole",
     "koordinate": {
       "lat": 46.40546356,
@@ -2580,7 +2567,7 @@
       "lat": 42.39710442,
       "lng": 20.65227401
     },
-    "title": "Orahovac/Rahovec",
+    "title": "Orahovac",
     "slika": "slike/spomenici/orahovac-rahovec.webp",
     "naziv": "Spomenik palim borcima",
     "name": "Monument to Fallen Fighters",
@@ -3762,7 +3749,7 @@
       "lng": 20.28842868
     },
     "googleCid": "2838343449018348324",
-    "title": "Pejë/Peć",
+    "title": "Peć",
     "info": "https://www.spomenikdatabase.org/peje-pec",
     "slika": "slike/spomenici/peje-pec.webp",
     "naziv": "Spomenik revoluciji",
@@ -3852,7 +3839,7 @@
       "lat": 42.6353153,
       "lng": 21.08230468
     },
-    "title": "Kosovo Polje/Fushë Kosovë",
+    "title": "Kosovo Polje",
     "slika": "slike/spomenici/kosovo-polje-fushe-kosove.webp",
     "naziv": "Spomenik palim borcima",
     "name": "Monument to Fallen Fighters",
@@ -3988,6 +3975,7 @@
     },
     "title": "Mostar",
     "slika": "slike/spomenici/mostar-hidden-hand-fountain.webp",
+    "naziv": "Spomenik ilegalcu",
     "name": "\"Hidden Hand\" Memorial Fountain",
     "type": "spomenik",
     "drzava": "Bosnia and Herzegovina"
@@ -4275,7 +4263,7 @@
       "lat": 42.36822848,
       "lng": 21.15332126
     },
-    "title": "Ferizaj/Uroševac",
+    "title": "Uroševac",
     "slika": "slike/spomenici/ferizaj-urosevac.webp",
     "naziv": "Spomenik bratstvu i jedinstvu",
     "name": "Monument to Brotherhood & Unity",
@@ -4453,7 +4441,7 @@
       "lat": 42.52567025,
       "lng": 21.11934438
     },
-    "title": "Lipljan/Lipjani",
+    "title": "Lipljan",
     "slika": "slike/spomenici/lipljan-lipjani.webp",
     "naziv": "Partizansko spomen-groblje",
     "name": "Partisan Memorial Cemetery",
@@ -4755,6 +4743,7 @@
     "title": "Mamula Island Prison",
     "wiki": "https://en.wikipedia.org/wiki/Mamula_(island)",
     "slika": "slike/spomenici/mamula-island-prison.webp",
+    "naziv": "Tvrđava Mamula",
     "type": "kompleks",
     "drzava": "Montenegro"
   },
@@ -4927,6 +4916,7 @@
     "title": "The Norwegian House",
     "info": "http://www.viabalkans.com/en/historic-sites/significant-and-unusual-buildings/norway-house/",
     "slika": "slike/spomenici/the-norwegian-house.webp",
+    "naziv": "Norveška kuća",
     "year": "1987",
     "type": "spomenik",
     "drzava": "Serbia"
@@ -4997,6 +4987,7 @@
     "title": "Tito Museum on Brijuni",
     "info": "https://www.np-brijuni.hr/en/brijuni/cultural-and-historical-heritage/stalni-postavi",
     "slika": "slike/spomenici/tito-museum-on-brijuni.webp",
+    "naziv": "Izložba „Josip Broz Tito na Brijunima”",
     "type": "muzej",
     "drzava": "Croatia"
   },
@@ -5590,8 +5581,9 @@
       "lat": 42.46214895,
       "lng": 21.46786453
     },
-    "title": "Gjilan/Gnjilane",
+    "title": "Gnjilane",
     "slika": "slike/spomenici/gjilan-gnjilane.webp",
+    "naziv": "Spomenik „Nošenje ranjenika”",
     "name": "\"Carrying the Wounded\" Monument",
     "year": "1963",
     "author": "Ante Gržetić",
@@ -6357,7 +6349,7 @@
       "lat": 42.66120009,
       "lng": 21.15677085
     },
-    "title": "Priština/Prishtinë",
+    "title": "Priština",
     "slika": "slike/spomenici/pristina-prishtine-spomen-dom-boro.webp",
     "naziv": "Spomen-dom „Boro i Ramiz”",
     "name": "Spomen-Dom 'Boro & Ramiz'",
@@ -7303,6 +7295,7 @@
     "title": "Slovene Com. Party Museum",
     "info": "https://www.culture.si/en/Memorial_House_of_the_Founding_Congress_of_the_Communist_Party_of_Slovenia_in_%C4%8Cebine",
     "slika": "slike/spomenici/slovene-com-party-museum.webp",
+    "naziv": "Spominska hiša ustanovnega kongresa KPS na Čebinah",
     "type": "muzej",
     "drzava": "Slovenia"
   },
@@ -7777,7 +7770,7 @@
       "lat": 42.66090791,
       "lng": 21.16855659
     },
-    "title": "Priština City Park ",
+    "title": "Priština (Gradski park)",
     "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%91%D0%BE%D1%80%D0%B8_%D0%92%D1%83%D0%BA%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B8%D1%9B%D1%83_%D0%B8_%D0%A0%D0%B0%D0%BC%D0%B8%D0%B7%D1%83_%D0%A1%D0%B0%D0%B4%D0%B8%D0%BA%D1%83",
     "slika": "slike/spomenici/pristina-city-park.webp",
     "naziv": "Spomenik Bori Vukmiroviću i Ramizu Sadiku",
@@ -8661,7 +8654,7 @@
       "lat": 42.38421712,
       "lng": 20.4298134
     },
-    "title": "Đakovica/Gjakova",
+    "title": "Đakovica",
     "slika": "slike/spomenici/djakovica-gjakova-brotherhood-unity.webp",
     "naziv": "Spomenik bratstvu i jedinstvu",
     "name": "Monument to Brotherhood & Unity",
@@ -8958,7 +8951,7 @@
       "lat": 42.56499776,
       "lng": 21.16433955
     },
-    "title": "Livađe/Livagjë",
+    "title": "Livađe",
     "slika": "slike/spomenici/livadje-livagje.webp",
     "naziv": "Spomenik palim borcima",
     "name": "Monument to Fallen Fighters",
@@ -9319,6 +9312,7 @@
     },
     "title": "Poljana",
     "slika": "slike/spomenici/poljana-last-euro-battles.webp",
+    "naziv": "Svobodi in miru",
     "name": "Mon. to Last Euro. Battles of WWII",
     "year": "1985",
     "author": "Gary Dwyer",
@@ -10050,7 +10044,7 @@
       "lat": 42.38008514,
       "lng": 20.42126148
     },
-    "title": "Đakovica/Gjakova",
+    "title": "Đakovica",
     "slika": "slike/spomenici/djakovica-gjakova-partisan-necropolis-on.webp",
     "naziv": "Partizanska nekropola na brdu Čabrat",
     "name": "Partisan Necropolis on Çabrati Hill",
@@ -12119,6 +12113,7 @@
     "info": "http://spomeniki.blogspot.rs/2013/12/dramalj-spomenik-nob.html",
     "slika": "slike/spomenici/dramalj.webp",
     "slikaAutor": "Roberta F., CC BY-SA 3.0",
+    "naziv": "Spomenik palim borcima Sv. Jelene",
     "type": "spomenik",
     "drzava": "Croatia"
   },

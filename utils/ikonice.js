@@ -1,6 +1,6 @@
 import {nestao, ruine} from './helpers.js'
 
-const velicine = {kompleks: [28, 50], groblje: [28, 38], muzej: [34, 38], ploca: [21, 32]}
+const velicine = {kompleks: [28, 50], groblje: [34, 38], muzej: [34, 38], ploca: [21, 32]}
 
 export const izgledMarkera = ({type, stanje}) => {
   const varijanta = nestao(stanje) ? 'uklonjen' : ruine(stanje) ? 'rusevina' : 'postoji'
