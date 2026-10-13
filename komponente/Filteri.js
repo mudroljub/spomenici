@@ -2,6 +2,7 @@ import {mapa} from '../klase/mapa.js'
 import {nestao, ruine} from '../utils/helpers.js'
 import {dajOznaku, promene} from '../utils/oznake.js'
 import {t, nazivDrzave} from '../utils/jezik.js'
+import {izgledMarkera} from '../utils/ikonice.js'
 
 const boja = '#822323'
 
@@ -174,6 +175,11 @@ style.textContent = `
 const legenda = `
   <h3>${t('legenda')}</h3>
   <div class="legenda">
+    ${['kompleks', 'spomenik', 'lokalni', 'ploca', 'groblje', 'muzej'].map(type => {
+    const {slika, sirina, visina} = izgledMarkera({type})
+    const visinaIkone = type === 'lokalni' ? 22 : 34
+    return `<img src="${slika}" width="${Math.round(sirina * visinaIkone / visina)}" height="${visinaIkone}" alt=""><span>${t(type)}</span>`
+  }).join('')}
     <img src="slike/obelisk.png" width="12" height="44" alt=""><span>${t('najznacajnijiVeci')}</span>
     <img src="slike/obelisk.png" width="10" height="34" alt=""><span>${t('ostali')}</span>
     <img src="slike/obelisk.png" width="10" height="34" alt="" style="filter: drop-shadow(0 0 3px #f2b705) drop-shadow(0 0 2px #f2b705)"><span>${t('lista')}</span>

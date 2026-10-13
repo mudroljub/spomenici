@@ -1,6 +1,6 @@
 import {mapa} from './mapa.js'
 import {dajOznaku} from '../utils/oznake.js'
-import {nestao, ruine} from '../utils/helpers.js'
+import {izgledMarkera} from '../utils/ikonice.js'
 
 const razmeraZuma = {6: 0.5, 7: 0.55, 8: 0.65, 9: 0.8} // ostali zumovi pun obelisk
 const razmeraVaznih = 1.25
@@ -10,12 +10,16 @@ const sitneVrste = ['lokalni', 'ploca']
 // ruine i uklonjeni imaju sliku iste velicine, da se razlikuju po obliku, a ne samo po boji:
 // prelomljen obelisk i isprekidan obris onoga cega vise nema
 const ikonice = {}
-const dajIkonicu = (slika, razmera, klasa) => ikonice[slika + razmera + klasa] ??= L.icon({
-  iconUrl: slika,
-  iconSize: [Math.round(14 * razmera), Math.round(50 * razmera)],
-  iconAnchor: [Math.round(7 * razmera), Math.round(50 * razmera)],
-  className: klasa,
-})
+const dajIkonicu = ({slika, sirina, visina}, razmera, klasa) => {
+  const sirinaPrikaza = Math.round(sirina * razmera)
+  const visinaPrikaza = Math.round(visina * razmera)
+  return ikonice[slika + razmera + klasa] ??= L.icon({
+    iconUrl: slika,
+    iconSize: [sirinaPrikaza, visinaPrikaza],
+    iconAnchor: [Math.round(sirinaPrikaza / 2), visinaPrikaza],
+    className: klasa,
+  })
+}
 
 export default class Marker {
 
@@ -23,11 +27,9 @@ export default class Marker {
     this.spomen = spomen
     this.vazan = Boolean(spomen.istaknut)
     this.sitan = sitneVrste.includes(spomen.type)
-    this.slika = nestao(spomen.stanje) ? 'slike/obelisk-uklonjen.png'
-      : ruine(spomen.stanje) ? 'slike/obelisk-rusevina.png'
-      : 'slike/obelisk.png'
+    this.izgled = izgledMarkera(spomen)
     this.element = L
-      .marker([spomen.koordinate.lat, spomen.koordinate.lng], {icon: dajIkonicu(this.slika, 1, ''), zIndexOffset: this.vazan ? 1000 : 0})
+      .marker([spomen.koordinate.lat, spomen.koordinate.lng], {icon: dajIkonicu(this.izgled, 1, ''), zIndexOffset: this.vazan ? 1000 : 0})
       .on('click', () => this.otvoriProzor())
   }
 
@@ -40,7 +42,7 @@ export default class Marker {
       oznaka === 'posetio' && 'posecen',
       oznaka === 'lista' && 'na-listi',
     ].filter(Boolean).join(' ')
-    this.element.setIcon(dajIkonicu(this.slika, razmera, klasa))
+    this.element.setIcon(dajIkonicu(this.izgled, razmera, klasa))
   }
 
   dajPoziciju() {
