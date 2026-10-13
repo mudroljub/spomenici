@@ -4615,7 +4615,7 @@
       "lat": 46.56281731,
       "lng": 15.64799805
     },
-    "googleCid": "15557264753050789278",
+    "googleCid": "12374333012337822426",
     "title": "Muzej narodne osvoboditve Maribor",
     "wiki": "https://sl.wikipedia.org/wiki/Muzej_narodne_osvoboditve_Maribor",
     "slika": "slike/spomenici/national-liberation-museum.webp",
@@ -6405,7 +6405,6 @@
       "lat": 46.07311797,
       "lng": 14.53018534
     },
-    "googleCid": "15128282178753777481",
     "title": "Žale Cemetery",
     "wiki": "https://sl.wikipedia.org/wiki/Centralno_pokopali%C5%A1%C4%8De_%C5%BDale",
     "slika": "slike/spomenici/zale-cemetery-nove-zale-cemetery.webp",
@@ -7319,9 +7318,10 @@
       "lat": 46.15045332,
       "lng": 15.04329877
     },
-    "googleCid": "16029154495969376840",
-    "title": "Museum of the Revolution",
+    "googleCid": "13563828207692817649",
+    "title": "Trbovlje",
     "slika": "slike/spomenici/museum-of-the-revolution.webp",
+    "naziv": "Zasavski muzej Trbovlje",
     "type": "muzej",
     "drzava": "Slovenia"
   },
@@ -12128,17 +12128,6 @@
     "slika": "slike/spomenici/drca-vrhnika.webp",
     "naziv": "Spomenik na Drči",
     "type": "spomenik",
-    "drzava": "Slovenia"
-  },
-  {
-    "id": "kal-nad-kanalom-nova-gorica",
-    "koordinate": {
-      "lat": 46.0814879,
-      "lng": 13.739633300000037
-    },
-    "googleCid": "7787353373430279147",
-    "title": "Kal nad Kanalom, Nova Gorica",
-    "type": "lokalni",
     "drzava": "Slovenia"
   },
   {
