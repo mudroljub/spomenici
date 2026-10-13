@@ -2,7 +2,7 @@ import {mapa} from '../klase/mapa.js'
 import {mestoUrl, navigacijaUrl, escapeHtml, naziviStanja, nestao} from '../utils/helpers.js'
 import {dajOznaku, postaviOznaku, promene} from '../utils/oznake.js'
 import {uRuti, dodajURutu, ukloniIzRute, promeneRute} from '../utils/ruta.js'
-import {jezik, t} from '../utils/jezik.js'
+import {jezik, t, nazivDrzave} from '../utils/jezik.js'
 
 const boja = '#822323'
 
@@ -298,13 +298,13 @@ export default class Detalji extends HTMLElement {
   prikazi(marker, izRute) {
     this.marker = marker
     const spomen = marker.spomen
-    const podaci = [this.praviAutore(spomen.author), escapeHtml(spomen.year || ''), escapeHtml(spomen.drzava || '')]
+    const podaci = [this.praviAutore(spomen.author), escapeHtml(spomen.year || ''), escapeHtml(nazivDrzave(spomen.drzava || ''))]
       .filter(Boolean).join(' · ')
 
     // jedan link za vise: clanak na Wikipediji, a bez njega drugi izvor
     const vise = spomen.wiki || spomen.info
 
-    // name namerno sadrzi HTML linkove, pa se ne escape-uje; na engleskom ima prednost nad izvornim nazivom
+    // name namerno sadrzi HTML linkove, pa se ne escape-uje
     const naziv = jezik === 'en' && spomen.name ? spomen.name : spomen.naziv ? escapeHtml(spomen.naziv) : spomen.name || ''
     this.panel.innerHTML = `
       ${izRute ? `<button id="nazad">‹ ${t('mojaRuta')}</button>` : ''}
@@ -313,12 +313,12 @@ export default class Detalji extends HTMLElement {
           ${escapeHtml(spomen.title)}
           ${spomen.stanje ? `<span class="stanje ${nestao(spomen.stanje) ? 'nestao' : ''}">${naziviStanja[spomen.stanje]}</span>` : ''}
         </h2>
-        <button id="zatvori" title="Close">×</button>
+        <button id="zatvori" title="${t('zatvori')}">×</button>
       </header>
       <div class="sadrzaj">
         <p>
           ${naziv}
-          ${vise ? `<a href="${escapeHtml(vise)}" target="_blank" class="vise">Read more ›</a>` : ''}
+          ${vise ? `<a href="${escapeHtml(vise)}" target="_blank" class="vise">${t('vise')} ›</a>` : ''}
         </p>
         ${podaci ? `<p class="podaci">${podaci}</p>` : ''}
         <p class="akcije">
@@ -329,11 +329,11 @@ export default class Detalji extends HTMLElement {
         ${spomen.slika ? `
           <figure class="slika">
             <img src="${escapeHtml(spomen.slika)}" alt="" onerror="this.parentNode.remove()">
-            ${spomen.slikaAutor ? `<figcaption>Photo: ${escapeHtml(spomen.slikaAutor)}</figcaption>` : ''}
+            ${spomen.slikaAutor ? `<figcaption>${t('foto')}: ${escapeHtml(spomen.slikaAutor)}</figcaption>` : ''}
           </figure>
         ` : ''}
         <p class="poseta">
-          <span class="oznaka" role="group" aria-label="My visit">
+          <span class="oznaka" role="group" aria-label="${t('mojaPoseta')}">
             <button data-oznaka="lista"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M6 3h12v18l-6-4-6 4Z" stroke-linejoin="round"/></svg>${t('lista')}</button>
             <button data-oznaka="posetio"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="m8 12 3 3 5-6" stroke-linecap="round" stroke-linejoin="round"/></svg>${t('posetio')}</button>
           </span>

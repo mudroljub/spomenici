@@ -1,4 +1,4 @@
-import {jezik} from './jezik.js'
+import {jezik, t} from './jezik.js'
 
 Element.prototype.on = Element.prototype.addEventListener
 
@@ -8,16 +8,15 @@ export const $ = s => document.querySelectorAll(s).length > 1
 
 
 export const naziviStanja = {
-  rusevine: 'In ruins',
-  srusen: 'Destroyed',
-  uklonjen: 'Removed',
-  ostecen: 'Damaged',
-  zatvoren: 'Closed',
+  rusevine: t('rusevine'),
+  srusen: t('srusen'),
+  uklonjen: t('uklonjen'),
+  ostecen: t('ostecen'),
+  zatvoren: t('zatvoren'),
 }
 
 const bezLinkova = html => (html || '').replace(/<[^>]*>/g, '')
 
-// na sh izvorni naziv, na engleskom engleski opis; kad jednog nema, vazi drugi
 export const nazivSpomenika = ({naziv, name}) => jezik === 'en'
   ? bezLinkova(name) || naziv || ''
   : naziv || bezLinkova(name)

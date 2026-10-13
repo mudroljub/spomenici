@@ -1,6 +1,6 @@
 import Filteri from './Filteri.js'
 import {normalizuj} from '../utils/helpers.js'
-import {t} from '../utils/jezik.js'
+import {t, nazivDrzave} from '../utils/jezik.js'
 
 const boja = '#822323'
 
@@ -79,8 +79,7 @@ style.textContent = `
 
 const polja = ['title', 'naziv', 'name', 'author', 'year', 'drzava']
 
-const praviTekst = spomenik => normalizuj(polja
-  .map(polje => spomenik[polje] || '')
+const praviTekst = spomenik => normalizuj([...polja.map(polje => spomenik[polje] || ''), nazivDrzave(spomenik.drzava)]
   .join(' ')
   .replace(/<[^>]*>/g, ''))
 
@@ -136,7 +135,7 @@ export default class Pretraga extends HTMLElement {
     this.dugme.classList.toggle('aktivno', aktivnih > 0)
     const suzeno = this.filtrirano.length < this.stavke.length
     this.rezultat.hidden = !suzeno
-    this.rezultat.querySelector('.broj').textContent = `${this.filtrirano.length} of ${this.stavke.length} monuments`
+    this.rezultat.querySelector('.broj').textContent = t('nadjeno', this.filtrirano.length, this.stavke.length)
   }
 }
 

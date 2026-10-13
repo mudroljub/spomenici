@@ -109,7 +109,7 @@ export default class Najblizi extends HTMLElement {
     this.panel = document.createElement('section')
     this.panel.id = 'panel'
     this.panel.hidden = true
-    this.panel.innerHTML = `<header><span>${t('uBlizini')} <small>straight-line distance</small></span><button title="Close">×</button></header>`
+    this.panel.innerHTML = `<header><span>${t('uBlizini')} <small>${t('vazdusnom')}</small></span><button title="${t('zatvori')}">×</button></header>`
     this.panel.querySelector('button').addEventListener('click', () => this.panel.hidden = true)
     this.lista = document.createElement('ol')
     this.panel.appendChild(this.lista)

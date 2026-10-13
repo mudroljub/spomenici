@@ -1,14 +1,14 @@
 import {jezik, promeniJezik} from '../utils/jezik.js'
 
-// dugme pokazuje jezik na koji se prelazi
 class Jezik extends HTMLElement {
   connectedCallback() {
     const drugi = jezik === 'sh' ? 'en' : 'sh'
     this.innerHTML = `
       <style>
         #jezik {
+          background: #822323;
           border: 0;
-          color: #822323;
+          color: white;
           font: bold 12px system-ui, sans-serif;
           height: 32px;
           left: 10px;

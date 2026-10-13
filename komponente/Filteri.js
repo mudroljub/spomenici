@@ -1,21 +1,21 @@
 import {mapa} from '../klase/mapa.js'
 import {nestao, ruine} from '../utils/helpers.js'
 import {dajOznaku, promene} from '../utils/oznake.js'
-import {t} from '../utils/jezik.js'
+import {t, nazivDrzave} from '../utils/jezik.js'
 
 const boja = '#822323'
 
 // unutar grupe vazi bilo koja izabrana opcija (ili), a izmedju grupa sve (i)
 const praviGrupe = drzave => [
-  {kljuc: 'istaknut', naziv: 'Show', opcije: {istaknut: '★ Most significant only'},
+  {kljuc: 'istaknut', naziv: t('grupaPrikaz'), opcije: {istaknut: t('najznacajniji')},
     uslov: s => Boolean(s.istaknut)},
-  {kljuc: 'stanje', naziv: 'Condition', opcije: {postoji: 'Standing', rusevine: 'Ruins', nestao: 'Removed'},
+  {kljuc: 'stanje', naziv: t('grupaStanje'), opcije: {postoji: t('postoji'), rusevine: t('ruine'), nestao: t('uklonjen')},
     uslov: (s, o) => o === 'nestao' ? nestao(s.stanje) : o === 'rusevine' ? ruine(s.stanje) : !nestao(s.stanje) && !ruine(s.stanje)},
-  {kljuc: 'poseta', naziv: 'My visits', opcije: {neposecen: 'Not visited yet', lista: t('lista'), posetio: t('posetio')},
+  {kljuc: 'poseta', naziv: t('grupaPoseta'), opcije: {neposecen: t('neposecen'), lista: t('lista'), posetio: t('posetio')},
     uslov: (s, o) => o === 'neposecen' ? dajOznaku(s.id) !== 'posetio' : dajOznaku(s.id) === o},
-  {kljuc: 'drzava', naziv: 'Country', opcije: Object.fromEntries(drzave.map(d => [d, d])),
+  {kljuc: 'drzava', naziv: t('grupaDrzava'), opcije: Object.fromEntries(drzave.map(d => [d, nazivDrzave(d)])),
     uslov: (s, o) => s.drzava === o},
-  {kljuc: 'tip', naziv: 'Type', opcije: {kompleks: 'Memorial parks & complexes', spomenik: 'Monuments', ploca: 'Memorial plaques', groblje: 'Cemeteries', muzej: 'Museums'},
+  {kljuc: 'tip', naziv: t('grupaVrsta'), opcije: {kompleks: t('kompleks'), spomenik: t('spomenik'), ploca: t('ploca'), groblje: t('groblje'), muzej: t('muzej')},
     uslov: (s, o) => (s.type || 'spomenik') === o},
 ]
 
@@ -172,21 +172,21 @@ style.textContent = `
 `
 
 const legenda = `
-  <h3>Map legend</h3>
+  <h3>${t('legenda')}</h3>
   <div class="legenda">
-    <img src="slike/obelisk.png" width="12" height="44" alt=""><span>Most significant (larger)</span>
-    <img src="slike/obelisk.png" width="10" height="34" alt=""><span>Other monuments</span>
+    <img src="slike/obelisk.png" width="12" height="44" alt=""><span>${t('najznacajnijiVeci')}</span>
+    <img src="slike/obelisk.png" width="10" height="34" alt=""><span>${t('ostali')}</span>
     <img src="slike/obelisk.png" width="10" height="34" alt="" style="filter: drop-shadow(0 0 3px #f2b705) drop-shadow(0 0 2px #f2b705)"><span>${t('lista')}</span>
     <img src="slike/obelisk.png" width="10" height="34" alt="" style="opacity: 0.5"><span>${t('posetio')}</span>
-    <img src="slike/obelisk-rusevina.png" width="10" height="34" alt=""><span>Ruins</span>
-    <img src="slike/obelisk-uklonjen.png" width="10" height="34" alt=""><span>Removed — nothing left to see</span>
+    <img src="slike/obelisk-rusevina.png" width="10" height="34" alt=""><span>${t('ruine')}</span>
+    <img src="slike/obelisk-uklonjen.png" width="10" height="34" alt=""><span>${t('nestao')}</span>
   </div>
 `
 
 export default class Filteri extends HTMLElement {
   constructor(stavke) {
     super()
-    const drzave = [...new Set(stavke.map(({spomenik}) => spomenik.drzava))].sort()
+    const drzave = [...new Set(stavke.map(({spomenik}) => spomenik.drzava))].sort((a, b) => nazivDrzave(a).localeCompare(nazivDrzave(b)))
     this.grupe = praviGrupe(drzave)
     this.izbor = Object.fromEntries(this.grupe.map(g => [g.kljuc, new Set()]))
     this.osnova = stavke
@@ -195,9 +195,9 @@ export default class Filteri extends HTMLElement {
     this.panel.id = 'panel'
     this.panel.hidden = true
     this.panel.innerHTML = `
-      <header>${t('filteri')}<button id="zatvori" title="Close">×</button></header>
+      <header>${t('filteri')}<button id="zatvori" title="${t('zatvori')}">×</button></header>
       <div class="grupe"></div>
-      <footer><button id="ponisti">Clear all</button><button id="prikazi"></button></footer>
+      <footer><button id="ponisti">${t('obrisiSve')}</button><button id="prikazi"></button></footer>
     `
     this.sadrzaj = this.panel.querySelector('.grupe')
     this.panel.querySelector('#zatvori').addEventListener('click', () => this.zatvori())
@@ -274,7 +274,7 @@ export default class Filteri extends HTMLElement {
     `).join('') + legenda
 
     const ukupno = this.osnova.filter(({spomenik}) => this.odgovara(spomenik)).length
-    this.panel.querySelector('#prikazi').textContent = `Show ${ukupno} monument${ukupno === 1 ? '' : 's'}`
+    this.panel.querySelector('#prikazi').textContent = t('prikazi', ukupno)
   }
 }
 
