@@ -155,7 +155,7 @@ const vrsta = type => {
 }
 
 // istaknuti, obican i lokalni spomenik razlikuju se samo velicinom znaka, pa stoje zajedno na pocetku
-const vrste = stavka('slike/obelisk.png', 12, 44, t('najznacajnijiVeci'))
+const vrste = stavka('slike/obelisk.png', 12, 44, t('istaknutJednina'))
   + ['spomenik', 'lokalni', 'kompleks', 'ploca', 'groblje', 'muzej', 'bista'].map(vrsta).join('')
 
 const grupa = ([naslov, stavke]) => `<div><h3>${naslov}</h3><div class="stavke">${stavke}</div></div>`

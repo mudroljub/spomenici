@@ -54,8 +54,6 @@ const tekstovi = {
   ostecen: {sh: 'Oštećen', en: 'Damaged'},
   zatvoren: {sh: 'Zatvoren', en: 'Closed'},
 
-  grupaPrikaz: {sh: 'Prikaz', en: 'Show'},
-  najznacajniji: {sh: '★ Samo istaknuti', en: '★ Featured only'},
   grupaStanje: {sh: 'Stanje', en: 'Condition'},
   postoji: {sh: 'Očuvan', en: 'Standing'},
   ruine: {sh: 'Ruševine', en: 'Ruins'},
@@ -63,6 +61,7 @@ const tekstovi = {
   neposecen: {sh: 'Još neposećeno', en: 'Not visited yet'},
   grupaDrzava: {sh: 'Država', en: 'Country'},
   grupaVrsta: {sh: 'Vrsta', en: 'Type'},
+  istaknut: {sh: 'Istaknuti spomenici', en: 'Featured monuments'},
   kompleks: {sh: 'Spomen-parkovi', en: 'Memorial parks'},
   spomenik: {sh: 'Spomenici', en: 'Monuments'},
   bista: {sh: 'Biste', en: 'Busts'},
@@ -71,8 +70,8 @@ const tekstovi = {
   groblje: {sh: 'Spomen-groblja', en: 'Memorial cemeteries'},
   muzej: {sh: 'Muzeji', en: 'Museums'},
   legenda: {sh: 'Legenda', en: 'Legend'},
-  najznacajnijiVeci: {sh: 'Istaknuti spomenik', en: 'Featured monument'},
   // legenda opisuje jedan znak na mapi, pa je u jednini
+  istaknutJednina: {sh: 'Istaknuti spomenik', en: 'Featured monument'},
   kompleksJednina: {sh: 'Spomen-park', en: 'Memorial park'},
   spomenikJednina: {sh: 'Spomenik', en: 'Monument'},
   bistaJednina: {sh: 'Bista', en: 'Bust'},

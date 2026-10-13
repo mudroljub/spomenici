@@ -7,16 +7,14 @@ const boja = '#822323'
 
 // unutar grupe vazi bilo koja izabrana opcija (ili), a izmedju grupa sve (i)
 const praviGrupe = drzave => [
-  {kljuc: 'istaknut', naziv: t('grupaPrikaz'), opcije: {istaknut: t('najznacajniji')},
-    uslov: s => Boolean(s.istaknut)},
+  {kljuc: 'tip', naziv: t('grupaVrsta'), opcije: Object.fromEntries(['istaknut', 'spomenik', 'lokalni', 'kompleks', 'ploca', 'groblje', 'muzej', 'bista'].map(o => [o, t(o)])),
+    uslov: (s, o) => o === 'istaknut' ? Boolean(s.istaknut) : (s.type || 'spomenik') === o},
   {kljuc: 'stanje', naziv: t('grupaStanje'), opcije: {postoji: t('postoji'), rusevine: t('ruine'), nestao: t('uklonjen')},
     uslov: (s, o) => o === 'nestao' ? nestao(s.stanje) : o === 'rusevine' ? ruine(s.stanje) : !nestao(s.stanje) && !ruine(s.stanje)},
-  {kljuc: 'poseta', naziv: t('grupaPoseta'), opcije: {neposecen: t('neposecen'), lista: t('lista'), posetio: t('posetio')},
-    uslov: (s, o) => o === 'neposecen' ? dajOznaku(s.id) !== 'posetio' : dajOznaku(s.id) === o},
   {kljuc: 'drzava', naziv: t('grupaDrzava'), opcije: Object.fromEntries(drzave.map(d => [d, nazivDrzave(d)])),
     uslov: (s, o) => s.drzava === o},
-  {kljuc: 'tip', naziv: t('grupaVrsta'), opcije: {kompleks: t('kompleks'), spomenik: t('spomenik'), bista: t('bista'), lokalni: t('lokalni'), ploca: t('ploca'), groblje: t('groblje'), muzej: t('muzej')},
-    uslov: (s, o) => (s.type || 'spomenik') === o},
+  {kljuc: 'poseta', naziv: t('grupaPoseta'), opcije: {neposecen: t('neposecen'), lista: t('lista'), posetio: t('posetio')},
+    uslov: (s, o) => o === 'neposecen' ? dajOznaku(s.id) !== 'posetio' : dajOznaku(s.id) === o},
 ]
 
 const style = document.createElement('style')
