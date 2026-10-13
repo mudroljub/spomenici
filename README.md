@@ -15,6 +15,3 @@ live-server
 ## TODO
 
 Punjene podataka
-- pretraži google mape za partizansko groblje
-- pretraži google mape za spomenik bratstvu i jedinstvu
-- pretraži google mape za spomen park, pa vidi koji je iz ww2
