@@ -65,6 +65,7 @@ const tekstovi = {
   grupaVrsta: {sh: 'Vrsta', en: 'Type'},
   kompleks: {sh: 'Spomen-parkovi i kompleksi', en: 'Memorial parks & complexes'},
   spomenik: {sh: 'Spomenici', en: 'Monuments'},
+  lokalni: {sh: 'Lokalni spomenici', en: 'Local memorials'},
   ploca: {sh: 'Spomen-ploče', en: 'Memorial plaques'},
   groblje: {sh: 'Groblja', en: 'Cemeteries'},
   muzej: {sh: 'Muzeji', en: 'Museums'},

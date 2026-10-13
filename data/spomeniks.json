@@ -12138,7 +12138,7 @@
     "googleCid": "4081064138991816983",
     "title": "Kred, Kobarid",
     "naziv": "Spomenik padlim v NOB in žrtvam fašizma",
-    "type": "spomenik",
+    "type": "lokalni",
     "drzava": "Slovenia"
   },
   {
@@ -12831,7 +12831,7 @@
     "title": "Žarkovo",
     "slika": "slike/spomenici/zarkovo.webp",
     "slikaAutor": "Google Maps",
-    "type": "spomenik",
+    "type": "lokalni",
     "drzava": "Serbia"
   },
   {
@@ -12845,7 +12845,7 @@
     "slika": "slike/spomenici/jakovo.webp",
     "slikaAutor": "Google Maps",
     "naziv": "Spomenik NOB",
-    "type": "spomenik",
+    "type": "lokalni",
     "drzava": "Serbia"
   },
   {
@@ -12873,5 +12873,761 @@
     "naziv": "Spomenik NOR – Posavski partizanski odred",
     "type": "kompleks",
     "drzava": "Serbia"
+  },
+  {
+    "id": "muta",
+    "koordinate": {
+      "lat": 46.6411751,
+      "lng": 15.130391699999999
+    },
+    "googleCid": "9451650998755532912",
+    "title": "Muta",
+    "slika": "slike/spomenici/muta.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "spodnja-senarska",
+    "koordinate": {
+      "lat": 46.5762722,
+      "lng": 15.8760765
+    },
+    "googleCid": "1196558899046261347",
+    "title": "Spodnja Senarska",
+    "slika": "slike/spomenici/spodnja-senarska.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "blagus",
+    "koordinate": {
+      "lat": 46.567277499999996,
+      "lng": 16.0031084
+    },
+    "googleCid": "4945169241605038925",
+    "title": "Blaguš",
+    "slika": "slike/spomenici/blagus.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "slovenj-gradec-2",
+    "koordinate": {
+      "lat": 46.546648,
+      "lng": 15.097048099999999
+    },
+    "googleCid": "11102594063420788606",
+    "title": "Slovenj Gradec",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "lehen",
+    "koordinate": {
+      "lat": 46.519105499999995,
+      "lng": 15.3205224
+    },
+    "googleCid": "17077564737414919326",
+    "title": "Lehen",
+    "slika": "slike/spomenici/lehen.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Urbančeva lovska koča, pomnik NOB",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "kotlje",
+    "koordinate": {
+      "lat": 46.514443199999995,
+      "lng": 14.9835215
+    },
+    "googleCid": "7631038158651104039",
+    "title": "Kotlje",
+    "slika": "slike/spomenici/kotlje.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "ratece",
+    "koordinate": {
+      "lat": 46.4962387,
+      "lng": 13.7201392
+    },
+    "googleCid": "143364002659856602",
+    "title": "Rateče",
+    "slika": "slike/spomenici/ratece.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik borcem in internirancem NOB",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "dvorjane",
+    "koordinate": {
+      "lat": 46.4950341,
+      "lng": 15.7714392
+    },
+    "googleCid": "9906190388564766096",
+    "title": "Dvorjane",
+    "slika": "slike/spomenici/dvorjane.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "rance",
+    "koordinate": {
+      "lat": 46.4736299,
+      "lng": 15.603480399999999
+    },
+    "googleCid": "14319398812632051683",
+    "title": "Ranče",
+    "slika": "slike/spomenici/rance.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Jugova domačija - spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "brezula",
+    "koordinate": {
+      "lat": 46.4543146,
+      "lng": 15.6927419
+    },
+    "googleCid": "466721176170307443",
+    "title": "Brezula",
+    "slika": "slike/spomenici/brezula.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "hardek",
+    "koordinate": {
+      "lat": 46.4072554,
+      "lng": 16.150807999999998
+    },
+    "googleCid": "14726610067458029067",
+    "title": "Hardek",
+    "slika": "slike/spomenici/hardek.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "pragersko",
+    "koordinate": {
+      "lat": 46.397754299999995,
+      "lng": 15.658710399999999
+    },
+    "googleCid": "14592570269201667828",
+    "title": "Pragersko",
+    "slika": "slike/spomenici/pragersko.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "zgornje-jezersko",
+    "koordinate": {
+      "lat": 46.3934974,
+      "lng": 14.4996187
+    },
+    "googleCid": "10382722787049665069",
+    "title": "Zgornje Jezersko",
+    "slika": "slike/spomenici/zgornje-jezersko.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "slovenska-bistrica",
+    "koordinate": {
+      "lat": 46.392145,
+      "lng": 15.5727084
+    },
+    "googleCid": "2736401898662073103",
+    "title": "Slovenska Bistrica",
+    "slika": "slike/spomenici/slovenska-bistrica.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "muretinci",
+    "koordinate": {
+      "lat": 46.384113899999996,
+      "lng": 15.997344199999999
+    },
+    "googleCid": "12397299221176811658",
+    "title": "Muretinci",
+    "slika": "slike/spomenici/muretinci.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spominsko obeležje padlim borcem NOB",
+    "type": "ploca",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "trzic",
+    "koordinate": {
+      "lat": 46.3589467,
+      "lng": 14.391385099999999
+    },
+    "googleCid": "12658591993335063778",
+    "title": "Tržič",
+    "slika": "slike/spomenici/trzic.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "breg",
+    "koordinate": {
+      "lat": 46.3503111,
+      "lng": 15.7343055
+    },
+    "googleCid": "11503011119738253106",
+    "title": "Breg",
+    "slika": "slike/spomenici/breg.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "spodnje-stranice",
+    "koordinate": {
+      "lat": 46.346574,
+      "lng": 15.345080999999999
+    },
+    "googleCid": "663745909533861892",
+    "title": "Spodnje Stranice",
+    "slika": "slike/spomenici/spodnje-stranice.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik NOB - posvečen preboja XIV. divizije",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "loka",
+    "koordinate": {
+      "lat": 46.3394915,
+      "lng": 14.2950837
+    },
+    "googleCid": "13418199713911324063",
+    "title": "Loka",
+    "slika": "slike/spomenici/loka.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "okonina",
+    "koordinate": {
+      "lat": 46.3343578,
+      "lng": 14.8570075
+    },
+    "googleCid": "6077851101278445479",
+    "title": "Okonina",
+    "slika": "slike/spomenici/okonina.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "podvolovljek",
+    "koordinate": {
+      "lat": 46.316710699999994,
+      "lng": 14.6994011
+    },
+    "googleCid": "13920156543227921999",
+    "title": "Podvolovljek",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "zaga",
+    "koordinate": {
+      "lat": 46.3043577,
+      "lng": 13.4813525
+    },
+    "googleCid": "11607421424250019143",
+    "title": "Žaga",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "slatina-pri-ponikvi",
+    "koordinate": {
+      "lat": 46.292969,
+      "lng": 15.4493443
+    },
+    "googleCid": "14663805426855748306",
+    "title": "Slatina pri Ponikvi",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "konjsko",
+    "koordinate": {
+      "lat": 46.2907705,
+      "lng": 15.3024758
+    },
+    "googleCid": "17901108501935173590",
+    "title": "Konjsko",
+    "slika": "slike/spomenici/konjsko.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "predoslje",
+    "koordinate": {
+      "lat": 46.274608799999996,
+      "lng": 14.3694185
+    },
+    "googleCid": "11897142404898398338",
+    "title": "Predoslje",
+    "slika": "slike/spomenici/predoslje.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "predenca",
+    "koordinate": {
+      "lat": 46.2289831,
+      "lng": 15.520276399999998
+    },
+    "googleCid": "4929727592158394027",
+    "title": "Predenca",
+    "naziv": "Spomenik NOB Šmarje pri Jelšah",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "smast",
+    "koordinate": {
+      "lat": 46.225010499999996,
+      "lng": 13.644416399999999
+    },
+    "googleCid": "4287496061436362402",
+    "title": "Smast",
+    "slika": "slike/spomenici/smast.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "sentjanz-nad-storami",
+    "koordinate": {
+      "lat": 46.2192921,
+      "lng": 15.337186299999999
+    },
+    "googleCid": "11293312192237007913",
+    "title": "Šentjanž nad Štorami",
+    "slika": "slike/spomenici/sentjanz-nad-storami.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "crni-vrh-2",
+    "koordinate": {
+      "lat": 46.2020349,
+      "lng": 14.9661051
+    },
+    "googleCid": "10588273965620735277",
+    "title": "Črni Vrh",
+    "slika": "slike/spomenici/crni-vrh-2.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "zabnica",
+    "koordinate": {
+      "lat": 46.1966179,
+      "lng": 14.332314499999999
+    },
+    "googleCid": "8822399807383005715",
+    "title": "Žabnica",
+    "slika": "slike/spomenici/zabnica.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "moste-pri-komendi",
+    "koordinate": {
+      "lat": 46.193380399999995,
+      "lng": 14.5500341
+    },
+    "googleCid": "10924870566188205162",
+    "title": "Moste pri Komendi",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "loce",
+    "koordinate": {
+      "lat": 46.186496999999996,
+      "lng": 13.7406872
+    },
+    "googleCid": "17934930594792863074",
+    "title": "Loče",
+    "slika": "slike/spomenici/loce.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "virmase",
+    "koordinate": {
+      "lat": 46.1814426,
+      "lng": 14.3236935
+    },
+    "googleCid": "11443322484590202251",
+    "title": "Virmaše",
+    "slika": "slike/spomenici/virmase.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "poljubinj",
+    "koordinate": {
+      "lat": 46.180274,
+      "lng": 13.750857499999999
+    },
+    "googleCid": "6148055992976913765",
+    "title": "Poljubinj",
+    "slika": "slike/spomenici/poljubinj.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "zapoge",
+    "koordinate": {
+      "lat": 46.178605999999995,
+      "lng": 14.460644199999999
+    },
+    "googleCid": "7568509892986719582",
+    "title": "Zapoge",
+    "slika": "slike/spomenici/zapoge.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "mali-jelnik",
+    "koordinate": {
+      "lat": 46.175819499999996,
+      "lng": 14.8038589
+    },
+    "googleCid": "5407809672060539280",
+    "title": "Mali Jelnik",
+    "slika": "slike/spomenici/mali-jelnik.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "lukovica-pri-domzalah",
+    "koordinate": {
+      "lat": 46.169701499999995,
+      "lng": 14.692459999999999
+    },
+    "googleCid": "3505484727858363889",
+    "title": "Lukovica pri Domžalah",
+    "slika": "slike/spomenici/lukovica-pri-domzalah.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "selo-pri-vodicah",
+    "koordinate": {
+      "lat": 46.160261999999996,
+      "lng": 14.5150423
+    },
+    "googleCid": "9811271460687684430",
+    "title": "Selo pri Vodicah",
+    "slika": "slike/spomenici/selo-pri-vodicah.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "zgornje-pirnice",
+    "koordinate": {
+      "lat": 46.1371246,
+      "lng": 14.434269299999999
+    },
+    "googleCid": "5823791673560876700",
+    "title": "Zgornje Pirniče",
+    "slika": "slike/spomenici/zgornje-pirnice.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "gore",
+    "koordinate": {
+      "lat": 46.130058,
+      "lng": 15.1508519
+    },
+    "googleCid": "2750942113744615951",
+    "title": "Gore",
+    "slika": "slike/spomenici/gore.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "dobovec",
+    "koordinate": {
+      "lat": 46.111124499999995,
+      "lng": 15.0590877
+    },
+    "googleCid": "6494739110760534049",
+    "title": "Dobovec",
+    "slika": "slike/spomenici/dobovec.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "zagorska-sela",
+    "koordinate": {
+      "lat": 46.0957504,
+      "lng": 15.6334018
+    },
+    "googleCid": "12989813163341445408",
+    "title": "Zagorska Sela",
+    "slika": "slike/spomenici/zagorska-sela.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "ljubljana-dravlje",
+    "koordinate": {
+      "lat": 46.0770321,
+      "lng": 14.448525199999999
+    },
+    "googleCid": "4126249195813848259",
+    "title": "Ljubljana (Dravlje)",
+    "slika": "slike/spomenici/ljubljana-dravlje.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "tuhelj",
+    "koordinate": {
+      "lat": 46.0769046,
+      "lng": 15.7486097
+    },
+    "googleCid": "17384337236158021267",
+    "title": "Tuhelj",
+    "slika": "slike/spomenici/tuhelj.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "lahov-graben",
+    "koordinate": {
+      "lat": 46.074098199999995,
+      "lng": 15.333157
+    },
+    "googleCid": "2131175579713420163",
+    "title": "Lahov Graben",
+    "slika": "slike/spomenici/lahov-graben.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "podgorica",
+    "koordinate": {
+      "lat": 46.072600099999995,
+      "lng": 15.275903
+    },
+    "googleCid": "4325335746157673616",
+    "title": "Podgorica",
+    "naziv": "Spomenik borcu NOB",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "ljubljana-nove-jarse",
+    "koordinate": {
+      "lat": 46.0689049,
+      "lng": 14.537807899999999
+    },
+    "googleCid": "10161326046296765328",
+    "title": "Ljubljana (Nove Jarše)",
+    "slika": "slike/spomenici/ljubljana-nove-jarse.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "drazevnik",
+    "koordinate": {
+      "lat": 46.0542361,
+      "lng": 14.4176469
+    },
+    "googleCid": "17020889418629528291",
+    "title": "Draževnik",
+    "slika": "slike/spomenici/drazevnik.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "ljubljana-glince",
+    "koordinate": {
+      "lat": 46.0431923,
+      "lng": 14.4806856
+    },
+    "googleCid": "7069280734655175938",
+    "title": "Ljubljana (Glince)",
+    "slika": "slike/spomenici/ljubljana-glince.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "ljubljana-galjevica",
+    "koordinate": {
+      "lat": 46.0292454,
+      "lng": 14.5338944
+    },
+    "googleCid": "7254632964086663612",
+    "title": "Ljubljana (Galjevica)",
+    "slika": "slike/spomenici/ljubljana-galjevica.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "gorenja-trebusa",
+    "koordinate": {
+      "lat": 46.027848,
+      "lng": 13.84212
+    },
+    "googleCid": "8516498696646297594",
+    "title": "Gorenja Trebuša",
+    "slika": "slike/spomenici/gorenja-trebusa.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "vojsko-2",
+    "koordinate": {
+      "lat": 46.0237585,
+      "lng": 13.9034564
+    },
+    "googleCid": "11748648106294834180",
+    "title": "Vojsko",
+    "slika": "slike/spomenici/vojsko-2.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "vojsko-3",
+    "koordinate": {
+      "lat": 46.0161945,
+      "lng": 13.8802974
+    },
+    "googleCid": "5370308069615623687",
+    "title": "Vojsko",
+    "slika": "slike/spomenici/vojsko-3.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spominsko obeležje NOB",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "pecice",
+    "koordinate": {
+      "lat": 46.0125026,
+      "lng": 15.577612499999999
+    },
+    "googleCid": "12432792406029944043",
+    "title": "Pečice",
+    "slika": "slike/spomenici/pecice.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "vrh",
+    "koordinate": {
+      "lat": 45.9759885,
+      "lng": 15.092009599999999
+    },
+    "googleCid": "14528091795119917693",
+    "title": "Vrh",
+    "slika": "slike/spomenici/vrh.webp",
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Slovenia"
   }
 ]
