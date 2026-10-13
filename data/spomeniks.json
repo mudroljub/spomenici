@@ -202,7 +202,7 @@
     "naziv": "Македониум",
     "name": "The Makedonium (Ilinden Memorial)",
     "year": "1974",
-    "author": "Jordan",
+    "author": "Jordan Grabul",
     "type": "kompleks",
     "drzava": "Macedonia",
     "istaknut": true
@@ -669,9 +669,10 @@
   {
     "id": "pristina-prishtine-brotherhood-unity",
     "koordinate": {
-      "lat": 42.66564233,
-      "lng": 21.16456721
+      "lat": 42.6656729,
+      "lng": 21.1642906
     },
+    "googleCid": "12483651091039232073",
     "title": "Priština",
     "info": "http://www.spomenikdatabase.org/pristina",
     "slika": "slike/spomenici/pristina-prishtine-brotherhood-unity.webp",
@@ -686,9 +687,10 @@
   {
     "id": "stip-partisan-s-necropolis",
     "koordinate": {
-      "lat": 41.73839529,
-      "lng": 22.18741689
+      "lat": 41.7385003,
+      "lng": 22.1987967
     },
+    "googleCid": "8895607856697309163",
     "title": "Štip",
     "info": "http://www.spomenikdatabase.org/stip",
     "wiki": "https://mk.wikipedia.org/wiki/%D0%9C%D0%B5%D0%BC%D0%BE%D1%80%D0%B8%D1%98%D0%B0%D0%BB%D0%B5%D0%BD_%D0%BA%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%81_%D0%BD%D0%B0_%D0%BF%D0%B0%D0%B4%D0%BD%D0%B0%D1%82%D0%B8%D1%82%D0%B5_%D0%B1%D0%BE%D1%80%D1%86%D0%B8_%D0%BD%D0%B0_%D1%80%D0%B5%D0%B2%D0%BE%D0%BB%D1%83%D1%86%D0%B8%D1%98%D0%B0%D1%82%D0%B0",
@@ -1050,9 +1052,10 @@
   {
     "id": "kraljevo-park-14th-october",
     "koordinate": {
-      "lat": 43.72984437,
-      "lng": 20.6918448
+      "lat": 43.7305096,
+      "lng": 20.6918333
     },
+    "googleCid": "5311183668449396164",
     "title": "Kraljevo",
     "info": "http://www.spomenikdatabase.org/kraljevo",
     "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D0%BF%D0%B0%D1%80%D0%BA_%D0%9A%D1%80%D0%B0%D1%99%D0%B5%D0%B2%D0%B0%D1%87%D0%BA%D0%B8_%D0%BE%D0%BA%D1%82%D0%BE%D0%B1%D0%B0%D1%80",
@@ -1061,8 +1064,7 @@
     "name": "Memorial Park \"14th of October\"",
     "year": "1970",
     "type": "kompleks",
-    "drzava": "Serbia",
-    "istaknut": true
+    "drzava": "Serbia"
   },
   {
     "id": "majdanpek",
@@ -1156,9 +1158,10 @@
   {
     "id": "velanija-velanije",
     "koordinate": {
-      "lat": 42.65881127,
-      "lng": 21.17555578
+      "lat": 42.6587886,
+      "lng": 21.1754461
     },
+    "googleCid": "11906346797881236834",
     "title": "Velanija",
     "info": "http://www.spomenikdatabase.org/velanija",
     "wiki": "https://sr.wikipedia.org/wiki/%D0%9F%D0%B0%D1%80%D1%82%D0%B8%D0%B7%D0%B0%D0%BD%D1%81%D0%BA%D0%BE_%D0%B3%D1%80%D0%BE%D0%B1%D1%99%D0%B5_%D1%83_%D0%9F%D1%80%D0%B8%D1%88%D1%82%D0%B8%D0%BD%D0%B8",
@@ -1193,10 +1196,10 @@
   {
     "id": "vlasotince",
     "koordinate": {
-      "lat": 42.96246431,
-      "lng": 22.13275557
+      "lat": 42.9628693,
+      "lng": 22.132786
     },
-    "googleCid": "9717379751849393635",
+    "googleCid": "1718674324460502657",
     "title": "Vlasotince",
     "info": "http://www.spomenikdatabase.org/vlasotince",
     "slika": "slike/spomenici/vlasotince.webp",
@@ -1373,9 +1376,10 @@
   {
     "id": "vodjenica",
     "koordinate": {
-      "lat": 44.6344339,
-      "lng": 16.2745547
+      "lat": 44.63425,
+      "lng": 16.2744444
     },
+    "googleCid": "4187405976102410763",
     "title": "Vođenica",
     "info": "http://www.spomenikdatabase.org/vodjenica",
     "slika": "slike/spomenici/vodjenica.webp",
@@ -1622,9 +1626,10 @@
   {
     "id": "vranjske-njive",
     "koordinate": {
-      "lat": 42.48883465,
-      "lng": 19.22439785
+      "lat": 42.4888721,
+      "lng": 19.2244337
     },
+    "googleCid": "14374004877086087908",
     "title": "Vranjske Njive",
     "info": "http://www.spomenikdatabase.org/vranjske-njive",
     "slika": "slike/spomenici/vranjske-njive.webp",
@@ -1675,6 +1680,7 @@
       "lat": 45.79642727,
       "lng": 20.1347197
     },
+    "googleCid": "2710097142266921143",
     "title": "Ada",
     "info": "http://www.spomenikdatabase.org/ada",
     "slika": "slike/spomenici/ada.webp",
@@ -1860,9 +1866,10 @@
   {
     "id": "mitrasinci",
     "koordinate": {
-      "lat": 41.77991199,
-      "lng": 22.75269186
+      "lat": 41.7778388,
+      "lng": 22.7527013
     },
+    "googleCid": "3919635987987427252",
     "title": "Mitrašinci",
     "info": "http://www.spomenikdatabase.org/mitrasinci",
     "slika": "slike/spomenici/mitrasinci.webp",
@@ -1952,9 +1959,10 @@
   {
     "id": "otesevo",
     "koordinate": {
-      "lat": 40.97647452,
-      "lng": 20.91195744
+      "lat": 40.9766278,
+      "lng": 20.9130375
     },
+    "googleCid": "9275139896721022369",
     "title": "Oteševo",
     "info": "http://www.spomenikdatabase.org/otesevo",
     "slika": "slike/spomenici/otesevo.webp",
@@ -2842,6 +2850,7 @@
       "lat": 42.58045684,
       "lng": 19.05351861
     },
+    "googleCid": "16950168148324377340",
     "title": "Obadov Brijeg",
     "info": "http://www.spomenikdatabase.org/obadov-brijeg",
     "slika": "slike/spomenici/obadov-brijeg.webp",
@@ -3193,9 +3202,10 @@
   {
     "id": "frutak",
     "koordinate": {
-      "lat": 42.57721426,
-      "lng": 19.06804603
+      "lat": 42.5771524,
+      "lng": 19.0680747
     },
+    "googleCid": "11277337990368953637",
     "title": "Frutak",
     "slika": "slike/spomenici/frutak.webp",
     "naziv": "Spomenik palim borcima",
@@ -3236,9 +3246,10 @@
   {
     "id": "zupa-niksicka",
     "koordinate": {
-      "lat": 42.73235256,
-      "lng": 19.08317905
+      "lat": 42.7322524,
+      "lng": 19.0831447
     },
+    "googleCid": "16336310539434325705",
     "title": "Župa Nikšićka",
     "info": "http://www.spomenikdatabase.org/zupa",
     "slika": "slike/spomenici/zupa-niksicka.webp",
@@ -6636,7 +6647,8 @@
     "name": "Monument to Resistance & Torment",
     "year": "1955",
     "type": "spomenik",
-    "drzava": "Serbia"
+    "drzava": "Serbia",
+    "istaknut": true
   },
   {
     "id": "smoljana",
@@ -14987,7 +14999,7 @@
     "title": "Plavški Rovt",
     "naziv": "Osrednji spomenik NOB",
     "year": "1960",
-    "author": "Boris Kalin, Edvard Ravnikar",
+    "author": "Boris Kalin & Edvard Ravnikar",
     "type": "spomenik",
     "drzava": "Slovenia"
   },
