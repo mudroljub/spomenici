@@ -150,7 +150,27 @@ style.textContent = `
   }
 
   li .tura {
-    padding: 10px 16px 10px 0;
+    align-items: center;
+    display: flex;
+    gap: 12px;
+    padding: 12px 16px 12px 0;
+  }
+
+  .tura img {
+    border-radius: 8px;
+    flex: none;
+    height: 64px;
+    object-fit: cover;
+    width: 64px;
+  }
+
+  .tura .tekst {
+    min-width: 0;
+  }
+
+  .tura .ime {
+    color: #222;
+    font-weight: 600;
   }
 
   /* spisak mesta u turi staje u dva reda */
@@ -335,7 +355,8 @@ export default class Ruta extends HTMLElement {
 
   postavi(stavke, ture) {
     this.stavke = new Map(stavke.map(stavka => [stavka.spomenik.id, stavka]))
-    this.panel.querySelector('#spisak-tura').replaceChildren(...ture.map(tura => this.praviTuru(tura)))
+    const iskorisceneSlike = new Set()
+    this.panel.querySelector('#spisak-tura').replaceChildren(...ture.map(tura => this.praviTuru(tura, iskorisceneSlike)))
     this.prikazi()
   }
 
@@ -412,10 +433,15 @@ export default class Ruta extends HTMLElement {
     return red
   }
 
-  praviTuru({naziv, spomenici}) {
+  praviTuru({naziv, spomenici}, iskorisceneSlike) {
     const red = document.createElement('li')
-    red.innerHTML = '<button class="naziv tura"><span class="ime"></span><span class="opis"></span></button>'
-    const mesta = spomenici.map(id => this.stavke.get(id)?.spomenik.title).filter(Boolean)
+    red.innerHTML = '<button class="naziv tura"><span class="tekst"><span class="ime"></span><span class="opis"></span></span></button>'
+    const clanovi = spomenici.map(id => this.stavke.get(id)?.spomenik).filter(Boolean)
+    const mesta = clanovi.map(s => s.title)
+    // fotografija koju ranije ture nisu uzele, da se ture razlikuju na prvi pogled
+    const slika = (clanovi.find(s => s.slika && !iskorisceneSlike.has(s.slika)) ?? clanovi.find(s => s.slika))?.slika
+    iskorisceneSlike.add(slika)
+    if (slika) red.querySelector('.tura').prepend(Object.assign(new Image(), {src: slika, alt: '', loading: 'lazy'}))
     red.querySelector('.ime').textContent = naziv
     red.querySelector('.opis').textContent = `${t('stanice', mesta.length)}: ${mesta.join(', ')}`
     red.querySelector('button').addEventListener('click', () => {
