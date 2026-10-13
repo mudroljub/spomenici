@@ -21565,18 +21565,6 @@
     "drzava": "Croatia"
   },
   {
-    "id": "baranjsko-petrovo-selo-2",
-    "koordinate": {
-      "lat": 45.754926399999995,
-      "lng": 18.4693363
-    },
-    "googleCid": "11936482448182105721",
-    "title": "Baranjsko Petrovo Selo",
-    "naziv": "Spomenik palim borcima 1945",
-    "type": "lokalni",
-    "drzava": "Croatia"
-  },
-  {
     "id": "ravno-selo",
     "koordinate": {
       "lat": 45.4489545,
@@ -21933,7 +21921,7 @@
     "googleCid": "12719746667190233055",
     "title": "Vučak",
     "naziv": "Spomenik Kosmajskom partizanskom odredu",
-    "type": "lokalni",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
