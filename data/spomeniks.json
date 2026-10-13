@@ -2437,7 +2437,7 @@
     },
     "title": "Poreč",
     "slika": "slike/spomenici/porec.webp",
-    "name": "???",
+    "naziv": "Murtićevi stupovi",
     "year": "1969",
     "author": "Edo Murtić",
     "type": "spomenik",
@@ -2919,7 +2919,6 @@
     "title": "Velika Plana",
     "slika": "slike/spomenici/velika-plana.webp",
     "naziv": "Spomenik NOB",
-    "name": "???",
     "type": "spomenik",
     "drzava": "Serbia"
   },
@@ -3603,12 +3602,14 @@
   {
     "id": "otric",
     "koordinate": {
-      "lat": 44.24419246,
-      "lng": 16.06768077
+      "lat": 44.2441857,
+      "lng": 16.0677104
     },
+    "googleCid": "14653047959762686323",
     "title": "Otrić",
     "slika": "slike/spomenici/otric.webp",
-    "name": "???",
+    "naziv": "Spomenik NOB-u",
+    "name": "Monument to the National Liberation War (NOB)",
     "type": "spomenik",
     "drzava": "Croatia"
   },
@@ -3621,7 +3622,7 @@
     "googleCid": "773770909579468873",
     "title": "Srb",
     "slika": "slike/spomenici/srb.webp",
-    "name": "???",
+    "naziv": "Spomenik palim borcima i žrtvama fašizma",
     "type": "spomenik",
     "drzava": "Croatia"
   },
@@ -3803,7 +3804,6 @@
     "googleCid": "8247488117335224886",
     "title": "Balosave",
     "slika": "slike/spomenici/balosave.webp",
-    "name": "???",
     "type": "spomenik",
     "drzava": "Serbia"
   },
@@ -6704,7 +6704,7 @@
     "googleCid": "9930495817891096815",
     "title": "Teočak",
     "slika": "slike/spomenici/teocak.webp",
-    "name": "???",
+    "naziv": "Spomenik NOR-u",
     "type": "spomenik",
     "drzava": "Bosnia and Herzegovina"
   },
