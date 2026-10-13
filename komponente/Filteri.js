@@ -1,6 +1,7 @@
 import {mapa} from '../klase/mapa.js'
 import {nestao, ruine} from '../utils/helpers.js'
 import {dajOznaku, promene} from '../utils/oznake.js'
+import {t} from '../utils/jezik.js'
 
 const boja = '#822323'
 
@@ -10,7 +11,7 @@ const praviGrupe = drzave => [
     uslov: s => Boolean(s.istaknut)},
   {kljuc: 'stanje', naziv: 'Condition', opcije: {postoji: 'Standing', rusevine: 'Ruins', nestao: 'Removed'},
     uslov: (s, o) => o === 'nestao' ? nestao(s.stanje) : o === 'rusevine' ? ruine(s.stanje) : !nestao(s.stanje) && !ruine(s.stanje)},
-  {kljuc: 'poseta', naziv: 'My visits', opcije: {neposecen: 'Not visited yet', lista: 'Want to visit', posetio: 'Visited'},
+  {kljuc: 'poseta', naziv: 'My visits', opcije: {neposecen: 'Not visited yet', lista: t('lista'), posetio: t('posetio')},
     uslov: (s, o) => o === 'neposecen' ? dajOznaku(s.id) !== 'posetio' : dajOznaku(s.id) === o},
   {kljuc: 'drzava', naziv: 'Country', opcije: Object.fromEntries(drzave.map(d => [d, d])),
     uslov: (s, o) => s.drzava === o},
@@ -175,8 +176,8 @@ const legenda = `
   <div class="legenda">
     <img src="slike/obelisk.png" width="12" height="44" alt=""><span>Most significant (larger)</span>
     <img src="slike/obelisk.png" width="10" height="34" alt=""><span>Other monuments</span>
-    <img src="slike/obelisk.png" width="10" height="34" alt="" style="filter: drop-shadow(0 0 3px #f2b705) drop-shadow(0 0 2px #f2b705)"><span>Want to visit</span>
-    <img src="slike/obelisk.png" width="10" height="34" alt="" style="opacity: 0.5"><span>Visited</span>
+    <img src="slike/obelisk.png" width="10" height="34" alt="" style="filter: drop-shadow(0 0 3px #f2b705) drop-shadow(0 0 2px #f2b705)"><span>${t('lista')}</span>
+    <img src="slike/obelisk.png" width="10" height="34" alt="" style="opacity: 0.5"><span>${t('posetio')}</span>
     <img src="slike/obelisk-rusevina.png" width="10" height="34" alt=""><span>Ruins</span>
     <img src="slike/obelisk-uklonjen.png" width="10" height="34" alt=""><span>Removed — nothing left to see</span>
   </div>
@@ -194,7 +195,7 @@ export default class Filteri extends HTMLElement {
     this.panel.id = 'panel'
     this.panel.hidden = true
     this.panel.innerHTML = `
-      <header>Filters<button id="zatvori" title="Close">×</button></header>
+      <header>${t('filteri')}<button id="zatvori" title="Close">×</button></header>
       <div class="grupe"></div>
       <footer><button id="ponisti">Clear all</button><button id="prikazi"></button></footer>
     `

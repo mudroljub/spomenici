@@ -1,5 +1,6 @@
 import {mapa} from '../klase/mapa.js'
 import {naziviStanja, nazivSpomenika} from '../utils/helpers.js'
+import {t} from '../utils/jezik.js'
 import {dajRutu, dajNaziv, postaviRutu, izaberiTuru, ukloniIzRute, pomeri, promeneRute} from '../utils/ruta.js'
 
 const boja = '#822323'
@@ -363,13 +364,13 @@ export default class Ruta extends HTMLElement {
       kartica.setAttribute('aria-selected', izabrana)
       this.panel.querySelector(`#${kartica.dataset.kartica}`).hidden = !izabrana
     })
-    this.panel.querySelector('[data-kartica="planer"]').textContent = broj ? `My route · ${broj}` : 'My route'
+    this.panel.querySelector('[data-kartica="planer"]').textContent = broj ? `${t('mojaRuta')} · ${broj}` : t('mojaRuta')
   }
 
   prikazi() {
     const stanice = this.stanice()
     this.dugme.hidden = false
-    this.dugme.textContent = stanice.length ? `My route · ${stanice.length}` : 'My route'
+    this.dugme.textContent = stanice.length ? `${t('mojaRuta')} · ${stanice.length}` : t('mojaRuta')
     this.osveziKartice()
 
     this.linija.setLatLngs(stanice.map(({marker}) => marker.dajPoziciju()))

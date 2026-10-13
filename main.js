@@ -6,9 +6,13 @@ import Detalji from './komponente/Detalji.js'
 import Ruta from './komponente/Ruta.js'
 import Marker from './klase/Marker.js'
 import './komponente/PunEkran.js'
+import './komponente/Jezik.js'
 import './komponente/Lokator.js'
 import {$} from './utils/helpers.js'
+import {jezik} from './utils/jezik.js'
 import {mapa, postaviMarkere} from './klase/mapa.js'
+
+document.documentElement.lang = jezik
 
 const najblizi = new Najblizi()
 const ruta = new Ruta()

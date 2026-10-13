@@ -1,5 +1,6 @@
 import Filteri from './Filteri.js'
 import {normalizuj} from '../utils/helpers.js'
+import {t} from '../utils/jezik.js'
 
 const boja = '#822323'
 
@@ -93,14 +94,14 @@ export default class Pretraga extends HTMLElement {
     this.polje = document.createElement('input')
     this.polje.id = 'pretraga'
     this.polje.type = 'search'
-    this.polje.placeholder = '🔍 Search'
+    this.polje.placeholder = `🔍 ${t('pretraga')}`
 
     this.dugme = document.createElement('button')
     this.dugme.className = 'dugme-filteri'
 
     this.rezultat = document.createElement('div')
     this.rezultat.className = 'rezultat'
-    this.rezultat.innerHTML = '<span><span class="broj"></span><button>Clear</button></span>'
+    this.rezultat.innerHTML = `<span><span class="broj"></span><button>${t('obrisi')}</button></span>`
     this.rezultat.querySelector('button').addEventListener('click', () => this.ponisti())
 
     this.filteri = document.body.appendChild(new Filteri(stavke))
@@ -131,7 +132,7 @@ export default class Pretraga extends HTMLElement {
 
   osveziPrikaz() {
     const aktivnih = this.filteri.brojAktivnih()
-    this.dugme.textContent = aktivnih ? `Filters · ${aktivnih}` : 'Filters'
+    this.dugme.textContent = aktivnih ? `${t('filteri')} · ${aktivnih}` : t('filteri')
     this.dugme.classList.toggle('aktivno', aktivnih > 0)
     const suzeno = this.filtrirano.length < this.stavke.length
     this.rezultat.hidden = !suzeno
