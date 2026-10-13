@@ -33,15 +33,18 @@ mapa.getContainer().addEventListener('wheel', e => {
 // pozicija korisnika iznad markera, da je ne prekriju
 mapa.createPane('korisnik').style.zIndex = 650
 
-const zumSvih = 8
+const zumOstalih = 8
+const zumVrste = {lokalni: 11}
 
 const sloj = L.layerGroup().addTo(mapa)
 let markeri = []
 let suzeno = false
 let izabran = null
 
-const vidljiv = marker => suzeno || mapa.getZoom() >= zumSvih || marker === izabran
-  || marker.vazan || Boolean(dajOznaku(marker.spomen.id))
+const najmanjiZum = marker => marker.vazan ? 0 : zumVrste[marker.spomen.type] ?? zumOstalih
+
+const vidljiv = marker => suzeno || mapa.getZoom() >= najmanjiZum(marker) || marker === izabran
+  || Boolean(dajOznaku(marker.spomen.id))
 
 // izdaleka su obelisci manji, da se manje preklapaju; ikonica pokazuje i oznake
 const osvezi = () => markeri.forEach(marker => {

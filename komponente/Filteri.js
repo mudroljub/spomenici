@@ -15,7 +15,7 @@ const praviGrupe = drzave => [
     uslov: (s, o) => o === 'neposecen' ? dajOznaku(s.id) !== 'posetio' : dajOznaku(s.id) === o},
   {kljuc: 'drzava', naziv: t('grupaDrzava'), opcije: Object.fromEntries(drzave.map(d => [d, nazivDrzave(d)])),
     uslov: (s, o) => s.drzava === o},
-  {kljuc: 'tip', naziv: t('grupaVrsta'), opcije: {kompleks: t('kompleks'), spomenik: t('spomenik'), ploca: t('ploca'), groblje: t('groblje'), muzej: t('muzej')},
+  {kljuc: 'tip', naziv: t('grupaVrsta'), opcije: {kompleks: t('kompleks'), spomenik: t('spomenik'), lokalni: t('lokalni'), ploca: t('ploca'), groblje: t('groblje'), muzej: t('muzej')},
     uslov: (s, o) => (s.type || 'spomenik') === o},
 ]
 
