@@ -1,4 +1,4 @@
-import {promene} from '../utils/oznake.js'
+import {dajOznaku, promene} from '../utils/oznake.js'
 
 const konfigMape = {
   zoom: 8,
@@ -33,26 +33,38 @@ mapa.getContainer().addEventListener('wheel', e => {
 // pozicija korisnika iznad markera, da je ne prekriju
 mapa.createPane('korisnik').style.zIndex = 650
 
+// izdaleka se vide samo vazni, oznaceni i izabran, da se obelisci ne slivaju u gomilu
+const zumSvih = 8
+
 const sloj = L.layerGroup().addTo(mapa)
-let prikazani = []
+let markeri = []
+let suzeno = false
 let izabran = null
 
-// izdaleka su obelisci manji, da se manje preklapaju; ikonica pokazuje i oznake
-const osveziIkonice = () => prikazani.forEach(marker => marker.osvezi(mapa.getZoom(), izabran))
+// pretraga i filteri vec biraju sta se vidi, pa tada nista ne krijemo
+const vidljiv = marker => suzeno || mapa.getZoom() >= zumSvih || marker === izabran
+  || marker.vazan || Boolean(dajOznaku(marker.spomen.id))
 
-mapa.on('zoomend', osveziIkonice)
-promene.addEventListener('promena', osveziIkonice)
+// izdaleka su obelisci manji, da se manje preklapaju; ikonica pokazuje i oznake
+const osvezi = () => markeri.forEach(marker => {
+  if (!vidljiv(marker)) return sloj.removeLayer(marker.element)
+  sloj.addLayer(marker.element)
+  marker.osvezi(mapa.getZoom(), izabran)
+})
+
+mapa.on('zoomend', osvezi)
+promene.addEventListener('promena', osvezi)
 
 mapa.on('izbor', ({marker}) => {
   izabran = marker
-  osveziIkonice()
+  osvezi()
 })
 
-export const postaviMarkere = markeri => {
-  prikazani = markeri
+export const postaviMarkere = (noviMarkeri, jeSuzeno) => {
+  markeri = noviMarkeri
+  suzeno = jeSuzeno
   sloj.clearLayers()
-  markeri.forEach(marker => sloj.addLayer(marker.element))
-  osveziIkonice()
+  osvezi()
 }
 
 // spomenici default

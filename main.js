@@ -32,9 +32,9 @@ const otvoriIzLinka = stavke => {
   stavka.marker.otvoriProzor()
 }
 
-const render = stavke => {
+const render = (stavke, suzeno) => {
   $('#slajder-okvir').innerHTML = ''
-  postaviMarkere(stavke.map(({marker}) => marker))
+  postaviMarkere(stavke.map(({marker}) => marker), suzeno)
   const slike = stavke.map(({slika}) => slika).filter(Boolean)
   $('#slajder-okvir').appendChild(new Slajder(slike))
   najblizi.postavi(stavke)
@@ -51,8 +51,8 @@ Promise.all([ucitaj('data/spomeniks.json'), ucitaj('data/autori.json'), ucitaj('
   .then(([spomenici, autori, ture]) => {
     detalji.postaviAutore(autori)
     const stavke = spomenici.map(praviStavku)
-    render(stavke)
+    render(stavke, false)
     ruta.postavi(stavke, ture)
-    document.body.appendChild(new Pretraga(stavke, render))
+    document.body.appendChild(new Pretraga(stavke, nadjene => render(nadjene, nadjene.length < stavke.length)))
     otvoriIzLinka(stavke)
   })

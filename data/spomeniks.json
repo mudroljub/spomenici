@@ -479,6 +479,7 @@
     "naziv": "Spomenik borcima iz Drugog svjetskog rata",
     "name": "Monument to Fallen Fighters",
     "year": "1965",
+    "type": "spomenik",
     "drzava": "Croatia",
     "istaknut": true
   },
@@ -668,7 +669,6 @@
       "lat": 42.66564233,
       "lng": 21.16456721
     },
-    "googleCid": "1379791054699408102",
     "title": "Priština/Prishtinë",
     "info": "http://www.spomenikdatabase.org/pristina",
     "slika": "slike/spomenici/pristina-prishtine-brotherhood-unity.webp",
@@ -1801,6 +1801,7 @@
     "year": "1980",
     "author": "Zdenko Kolacio",
     "stanje": "rusevine",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -1921,6 +1922,7 @@
     "naziv": "Spomenik palim borcima NOVJ i žrtvama fašizma",
     "name": "Monument to Fallen Fighters",
     "year": "1987",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -1990,13 +1992,13 @@
       "lat": 46.04086886,
       "lng": 15.59033673
     },
-    "googleCid": "6017578965877859752",
     "title": "Podsreda",
     "wiki": "https://sl.wikipedia.org/wiki/Kozjanski_partizanski_bataljon",
     "slika": "slike/spomenici/podsreda.webp",
     "name": "Tomb for the <a href=\"https://sl.wikipedia.org/wiki/Kozjanski_partizanski_bataljon\" target=\"_blank\">Kozjanski Battalion</a>",
     "year": "1962",
     "author": "Dušan Samec",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -2060,6 +2062,7 @@
     "naziv": "Spomenik palim borcima i žrtvama fašizma",
     "name": "Monument to Fallen Fighters",
     "stanje": "uklonjen",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -2088,6 +2091,7 @@
     "slika": "slike/spomenici/senj.webp",
     "naziv": "Kosturnica",
     "name": "Monument to Fallen Fighters",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -2103,6 +2107,7 @@
     "naziv": "Spomenik palim pomorcima",
     "name": "Monument to Fallen Partisan Sailors",
     "year": "1958",
+    "type": "spomenik",
     "drzava": "Croatia",
     "istaknut": true
   },
@@ -2166,6 +2171,7 @@
     "naziv": "Raonik",
     "name": "Memorial to the Uprising in Vojvodina",
     "year": "1985",
+    "type": "spomenik",
     "drzava": "Serbia",
     "istaknut": true
   },
@@ -2197,6 +2203,7 @@
     "title": "Vraćenovići",
     "slika": "slike/spomenici/vracenovici.webp",
     "name": "Monument to Fallen Fighters",
+    "type": "spomenik",
     "drzava": "Montenegro"
   },
   {
@@ -2208,6 +2215,7 @@
     "title": "Kamenica/Dardanë",
     "slika": "slike/spomenici/kamenica-dardane.webp",
     "name": "Martyrs Monument",
+    "type": "spomenik",
     "drzava": "Kosovo"
   },
   {
@@ -2221,6 +2229,7 @@
     "slika": "slike/spomenici/vinarce.webp",
     "name": "Monument to Fallen NOB Fighters",
     "year": "1977",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -2235,6 +2244,7 @@
     "naziv": "Spomenik padlim partizanom gornikom",
     "name": "Monument to Fallen Partisan Mountaineers",
     "year": "1953",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -2280,6 +2290,7 @@
     "title": "Milin Birt",
     "slika": "slike/spomenici/milin-birt.webp",
     "name": "Monument to Fallen Fighters",
+    "type": "spomenik",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -2294,6 +2305,7 @@
     "name": "Monument to Fallen Fighters",
     "year": "1973",
     "author": "Drago Đurović",
+    "type": "kompleks",
     "drzava": "Montenegro"
   },
   {
@@ -2309,6 +2321,7 @@
     "name": "Monument to Ivan Goran Kovačić",
     "year": "1964",
     "author": "Vojin Bakić",
+    "type": "spomenik",
     "drzava": "Croatia",
     "istaknut": true
   },
@@ -2323,6 +2336,7 @@
     "slika": "slike/spomenici/trubjela.webp",
     "name": "Monument to Fallen Fighters",
     "year": "1982",
+    "type": "spomenik",
     "drzava": "Montenegro"
   },
   {
@@ -2337,6 +2351,7 @@
     "naziv": "Spomenik slobode",
     "name": "The Freedom Monument",
     "year": "1985",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -2349,6 +2364,7 @@
     "slika": "slike/spomenici/prilepec.webp",
     "name": "Monument to Executed Fighters",
     "year": "1977",
+    "type": "spomenik",
     "drzava": "Macedonia"
   },
   {
@@ -2379,6 +2395,7 @@
     "slika": "slike/spomenici/nestin.webp",
     "name": "Monument to the Victims of Fascism",
     "author": "Jovan Soldatović",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -2392,6 +2409,7 @@
     "name": "???",
     "year": "1969",
     "author": "Edo Murtić",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -2406,6 +2424,7 @@
     "naziv": "Spomenik žrtev NOBa",
     "name": "Monument to Fighters of the NOB",
     "year": "1961",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -2420,6 +2439,7 @@
     "naziv": "Spomenik žrtvama fašističke racije",
     "name": "Monument to 1942 Raid Victims",
     "year": "1982",
+    "type": "kompleks",
     "drzava": "Serbia"
   },
   {
@@ -2433,6 +2453,7 @@
     "slika": "slike/spomenici/kruge.webp",
     "name": "Monument to Fallen Fighters",
     "year": "1973",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -2447,6 +2468,7 @@
     "naziv": "Spomenik NOB",
     "name": "Monument to Fallen Fighters",
     "year": "1971",
+    "type": "kompleks",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -2461,6 +2483,7 @@
     "naziv": "Spomenik NOB-u u Driniću",
     "name": "Monument to Fallen Fighters",
     "year": "1971",
+    "type": "spomenik",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -2475,6 +2498,7 @@
     "naziv": "Spomenik palim za slobodu",
     "name": "Monument to Fallen Fighters",
     "year": "1982",
+    "type": "spomenik",
     "drzava": "Montenegro"
   },
   {
@@ -2524,6 +2548,7 @@
     "name": "Monument to Fallen Fighters",
     "year": "1974",
     "stanje": "uklonjen",
+    "type": "kompleks",
     "drzava": "Kosovo"
   },
   {
@@ -2621,6 +2646,7 @@
     "name": "Monument to History of the Freedom Fight",
     "year": "1971",
     "author": "Bogdan Bogdanović",
+    "type": "kompleks",
     "drzava": "Serbia"
   },
   {
@@ -2654,6 +2680,7 @@
     "name": "Mon. to WWII Jewish Fighters & Victims",
     "year": "1952",
     "author": "Bogdan Bogdanović",
+    "type": "spomenik",
     "drzava": "Serbia",
     "istaknut": true
   },
@@ -2669,6 +2696,7 @@
     "naziv": "Spomenik posvećen žrtvama u drugom svjetskom ratu",
     "name": "Monument to Fallen NOB Fighters",
     "year": "1978",
+    "type": "spomenik",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -2682,6 +2710,7 @@
     "slika": "slike/spomenici/gornje-caradje.webp",
     "name": "Monument to Fallen Fighters",
     "year": "1970",
+    "type": "spomenik",
     "drzava": "Montenegro"
   },
   {
@@ -2730,6 +2759,7 @@
     "name": "Monument to Defending Pilots of Belgrade",
     "year": "1994",
     "author": "Miodrag Živković",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -2742,6 +2772,7 @@
     "title": "Blatna",
     "slika": "slike/spomenici/blatna.webp",
     "name": "Monument to Fallen Fighters",
+    "type": "spomenik",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -2755,6 +2786,7 @@
     "slika": "slike/spomenici/grabovac-banski.webp",
     "name": "Monument to the 1st Banija Uprising",
     "year": "1986",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -2770,6 +2802,7 @@
     "name": "Monument to the Maced.-Kosovo Brigade",
     "year": "1958",
     "author": "Jordan Grabul",
+    "type": "spomenik",
     "drzava": "Macedonia"
   },
   {
@@ -2783,6 +2816,7 @@
     "slika": "slike/spomenici/obadov-brijeg.webp",
     "name": "Monument to 6th Montenegrin Brigade",
     "year": "1974",
+    "type": "spomenik",
     "drzava": "Montenegro",
     "istaknut": true
   },
@@ -2814,6 +2848,7 @@
     "slika": "slike/spomenici/kumrovec.webp",
     "name": "Memorial House of NOB Fighters & Youth",
     "year": "1974",
+    "type": "kompleks",
     "drzava": "Croatia",
     "istaknut": true
   },
@@ -2830,6 +2865,7 @@
     "name": "Spomen-dom '<a href=\"https://sr.wikipedia.org/wiki/%D0%9C%D0%B8%D1%82%D0%B0%D1%80_%D0%A2%D1%80%D0%B8%D1%84%D1%83%D0%BD%D0%BE%D0%B2%D0%B8%D1%9B_%D0%A3%D1%87%D0%BE\" target=\"_blank\">Mitar Trifunović</a>'",
     "year": "1978",
     "stanje": "rusevine",
+    "type": "kompleks",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -2843,6 +2879,7 @@
     "slika": "slike/spomenici/velika-plana.webp",
     "naziv": "Spomenik NOB",
     "name": "???",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -2851,13 +2888,13 @@
       "lat": 46.07324292,
       "lng": 14.53150197
     },
-    "googleCid": "9117983662072125174",
     "title": "Žale Cemetery",
     "slika": "slike/spomenici/zale-cemetery-internees-nob-fighters.webp",
     "naziv": "Spomenik internirancem in borcem NOB",
     "name": "Monument to Internees & NOB Fighters",
     "year": "1965",
     "author": "Janez Boljka",
+    "type": "groblje",
     "drzava": "Slovenia"
   },
   {
@@ -2889,6 +2926,7 @@
     "name": "Monument to Prisoners & Internees",
     "year": "1976",
     "author": "Vuko Bombardelli",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -2897,7 +2935,6 @@
       "lat": 44.53851864,
       "lng": 18.68573679
     },
-    "googleCid": "5333992803949182886",
     "title": "Tuzla (Slana Banja)",
     "slika": "slike/spomenici/tuzla-alley-freedom-park.webp",
     "naziv": "Spomen obilježje antifašističkim borcima 1941.-1945.",
@@ -2917,6 +2954,7 @@
     "title": "Dedina",
     "slika": "slike/spomenici/dedina.webp",
     "name": "Monument to the Rasina Partisan Unit",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -2979,6 +3017,7 @@
     "name": "Monument to Fallen Fighters",
     "year": "1985",
     "author": "Zvest Apollonio",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -2993,6 +3032,7 @@
     "naziv": "Spomenik „Krila”",
     "name": "Monument to Fallen Fighters",
     "year": "1970",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -3007,6 +3047,7 @@
     "name": "Monument to the Revolution",
     "year": "1962",
     "author": "Kosta Angeli Radovani",
+    "type": "spomenik",
     "drzava": "Macedonia"
   },
   {
@@ -3020,6 +3061,7 @@
     "slika": "slike/spomenici/silva.webp",
     "name": "Plum Hill Battle Monument",
     "year": "1963",
+    "type": "spomenik",
     "drzava": "Macedonia"
   },
   {
@@ -3032,6 +3074,7 @@
     "slika": "slike/spomenici/krnica.webp",
     "name": "Monument to Fallen Fighters",
     "year": "1971",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -3075,6 +3118,7 @@
     "naziv": "Središnji spomenik kalničkim partizanima",
     "name": "Monument to the Kalnik Partisan Unit",
     "year": "1985",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -3089,6 +3133,7 @@
     "name": "Šamarica Spomen-Dom",
     "year": "1980",
     "stanje": "rusevine",
+    "type": "kompleks",
     "drzava": "Croatia"
   },
   {
@@ -3104,6 +3149,7 @@
     "naziv": "Spomen-kosturnica u Varaždinu",
     "name": "Memorial Ossuary for Fallen Fighters",
     "year": "1961",
+    "type": "groblje",
     "drzava": "Croatia"
   },
   {
@@ -3116,6 +3162,7 @@
     "slika": "slike/spomenici/frutak.webp",
     "name": "Monument to Fallen Fighters",
     "year": "1970",
+    "type": "spomenik",
     "drzava": "Montenegro"
   },
   {
@@ -3128,6 +3175,7 @@
     "info": "http://www.spomenikdatabase.org/marko-music",
     "slika": "slike/spomenici/niksic-house-revolution.webp",
     "name": "House of the Revolution",
+    "type": "kompleks",
     "drzava": "Montenegro"
   },
   {
@@ -3141,6 +3189,7 @@
     "slika": "slike/spomenici/niksic-aerodrom.webp",
     "name": "Monument to Fallen Fighters",
     "year": "1969",
+    "type": "spomenik",
     "drzava": "Montenegro"
   },
   {
@@ -3154,6 +3203,7 @@
     "slika": "slike/spomenici/zupa-niksicka.webp",
     "name": "Monument to Fallen Sutjeska Fighters",
     "year": "1984",
+    "type": "kompleks",
     "drzava": "Montenegro",
     "istaknut": true
   },
@@ -3168,6 +3218,7 @@
     "slika": "slike/spomenici/pecurice.webp",
     "name": "Monument to Fallen Fighters",
     "year": "1977",
+    "type": "spomenik",
     "drzava": "Montenegro"
   },
   {
@@ -3184,6 +3235,7 @@
     "name": "Mon. & Tomb to Fallen Fighters",
     "year": "1961",
     "author": "Jakob Savinšek",
+    "type": "kompleks",
     "drzava": "Slovenia",
     "istaknut": true
   },
@@ -3200,6 +3252,7 @@
     "name": "Monument to Fighters of the NOB",
     "year": "1950",
     "author": "Stanko Kristl",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -3212,6 +3265,7 @@
     "slika": "slike/spomenici/rijeka-13-executed-victims.webp",
     "name": "Monument to 13 Executed Victims",
     "year": "1984",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -3224,6 +3278,7 @@
     "slika": "slike/spomenici/planica.webp",
     "name": "Monument to the Battle at Mali Rovt",
     "year": "1982",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -3239,6 +3294,7 @@
     "name": "Monument to Fallen Fighters",
     "year": "1956",
     "author": "Edo Murtić",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -3254,6 +3310,7 @@
     "name": "Monument to Brotherhood & Unity",
     "year": "1963",
     "author": "Marijan Kocković",
+    "type": "spomenik",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -3267,6 +3324,7 @@
     "slika": "slike/spomenici/delcevo.webp",
     "name": "<a href=\"https://en.wikipedia.org/wiki/Anti-fascist_Assembly_for_the_National_Liberation_of_Macedonia\" target=\"_blank\">ASNOM</a> House of Culture",
     "year": "1975",
+    "type": "kompleks",
     "drzava": "Macedonia"
   },
   {
@@ -3280,6 +3338,7 @@
     "slika": "slike/spomenici/razlovci.webp",
     "name": "Memorial House of the <a href=\"https://en.wikipedia.org/wiki/Kresna%E2%80%93Razlog_uprising\" target=\"_blank\">Razlog Uprising</a>",
     "year": "1981",
+    "type": "kompleks",
     "drzava": "Macedonia"
   },
   {
@@ -3293,6 +3352,7 @@
     "naziv": "Spomen kosturnica poginulim borcima NOR Kotor Varoš",
     "name": "Memorial Ossuary of WWII Fighters",
     "year": "1965",
+    "type": "kompleks",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -3309,6 +3369,7 @@
     "name": "Monument to the Revolution",
     "year": "1962",
     "author": "Drago Tršar",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -3340,6 +3401,7 @@
     "name": "Monument to NOB Fighters",
     "year": "1959",
     "author": "Jakob Savinšek",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -3354,6 +3416,7 @@
     "name": "\"Ballad of the Hanged\" Memorial",
     "year": "1967",
     "author": "Nandor Glid",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -3433,6 +3496,7 @@
     "naziv": "Spomenik Jabuka",
     "name": "Jabuka Monument Site",
     "year": "1974",
+    "type": "kompleks",
     "drzava": "Serbia"
   },
   {
@@ -3459,6 +3523,7 @@
     "title": "Vilovo",
     "slika": "slike/spomenici/vilovo.webp",
     "name": "Monument to Yugoslav Pilots",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -3473,6 +3538,7 @@
     "name": "Monument to Viktor Kejžar",
     "year": "1980",
     "author": "Vinko Tušek",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -3484,6 +3550,7 @@
     "title": "Otrić",
     "slika": "slike/spomenici/otric.webp",
     "name": "???",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -3496,6 +3563,7 @@
     "title": "Srb",
     "slika": "slike/spomenici/srb.webp",
     "name": "???",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -3509,6 +3577,7 @@
     "slika": "slike/spomenici/plesivica-pri-zalni.webp",
     "name": "Monument to the Oath",
     "year": "1977",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -3521,6 +3590,7 @@
     "title": "Kasaze",
     "slika": "slike/spomenici/kasaze.webp",
     "name": "Monument to the Victims of the NOB",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -3529,13 +3599,13 @@
       "lat": 46.08540728,
       "lng": 13.63199594
     },
-    "googleCid": "3014559634906872569",
     "title": "Kanal ob Soči",
     "slika": "slike/spomenici/kanal-ob-soci.webp",
     "naziv": "Spomenik NOB",
     "name": "Monument to Fallen NOB Fighters",
     "year": "1961",
     "author": "Dušan Samec",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -3549,6 +3619,7 @@
     "name": "Monument to Fallen Fighters",
     "year": "1974",
     "author": "Vlasto Kopač",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -3562,6 +3633,7 @@
     "slika": "slike/spomenici/zadvor.webp",
     "name": "Monument to Creation of the Molnik Comp.",
     "year": "1971",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -3577,6 +3649,7 @@
     "name": "Tomb of the Fallen on Ulak Hill",
     "year": "1953",
     "author": "Vinko Glanz",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -3591,6 +3664,7 @@
     "naziv": "Spomenik padlim borcem in izgnancem",
     "name": "Monument to Fallen Fighters",
     "year": "1976",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -3605,6 +3679,7 @@
     "name": "Monument to the 31st NOVJ Division",
     "year": "1985",
     "author": "Tone Svetina",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -3621,6 +3696,7 @@
     "year": "1972",
     "author": "Ante Gržetić",
     "stanje": "srusen",
+    "type": "spomenik",
     "drzava": "Kosovo"
   },
   {
@@ -3634,6 +3710,7 @@
     "slika": "slike/spomenici/pojezna.webp",
     "name": "Monument to Fallen NOB Fighters",
     "year": "1987",
+    "type": "spomenik",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -3647,6 +3724,7 @@
     "slika": "slike/spomenici/brcko-hasan-aganovic-tac.webp",
     "name": "Monument to Hasan Aganović-Tač",
     "year": "1981",
+    "type": "spomenik",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -3659,6 +3737,7 @@
     "title": "Balosave",
     "slika": "slike/spomenici/balosave.webp",
     "name": "???",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -3674,6 +3753,7 @@
     "naziv": "Spomenik NOB-u u Sremskim Karlovcima",
     "name": "Monument to Fallen NOB Fighters",
     "author": "Pavle Radovanović",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -3682,12 +3762,12 @@
       "lat": 46.5599933,
       "lng": 15.64722639
     },
-    "googleCid": "15173108237786439967",
     "title": "Maribor",
     "slika": "slike/spomenici/maribor-at-volkmer-s.webp",
     "naziv": "Spomenik prvi uporniški akciji proti okupatorju",
     "name": "Monument at Volkmer's Crossing",
     "year": "1975",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -3701,6 +3781,7 @@
     "name": "Monument to Fallen Fighters",
     "year": "1980",
     "author": "Miodrag Živković",
+    "type": "spomenik",
     "drzava": "Kosovo"
   },
   {
@@ -3715,6 +3796,7 @@
     "naziv": "Spomenik smrznutim borcima 6. dalmatinske brigade",
     "name": "Monument to Frozen Partisans",
     "year": "1984",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -3728,6 +3810,7 @@
     "slika": "slike/spomenici/pernica.webp",
     "name": "Monument to the Lacko Detachment",
     "year": "1969",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -3736,10 +3819,10 @@
       "lat": 43.10276701,
       "lng": 20.80114769
     },
-    "googleCid": "15602693074993291174",
     "title": "Leposavić",
     "slika": "slike/spomenici/leposavic.webp",
     "name": "Monument to Fallen Fighters",
+    "type": "spomenik",
     "drzava": "Kosovo"
   },
   {
@@ -3753,6 +3836,7 @@
     "slika": "slike/spomenici/pljevlja-garibaldi-division.webp",
     "name": "Monument to the Garibaldi Division",
     "year": "1983",
+    "type": "kompleks",
     "drzava": "Montenegro"
   },
   {
@@ -3781,6 +3865,7 @@
     "name": "Monument to the Burning of Gradac",
     "year": "1975",
     "author": "Želimir Janeš",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -3795,6 +3880,7 @@
     "slika": "slike/spomenici/butel-cemetery-1963-skopje-earthquake.webp",
     "name": "Mon. to the <a href=\"https://en.wikipedia.org/wiki/1963_Skopje_earthquake\" target=\"_blank\">1963 Skopje Earthquake</a>",
     "year": "1964",
+    "type": "spomenik",
     "drzava": "Macedonia"
   },
   {
@@ -3808,6 +3894,7 @@
     "slika": "slike/spomenici/mojkovac.webp",
     "name": "Monument to the Battle of Mojkovac",
     "year": "1966",
+    "type": "spomenik",
     "drzava": "Montenegro"
   },
   {
@@ -3819,6 +3906,7 @@
     "title": "Mostar",
     "slika": "slike/spomenici/mostar-hidden-hand-fountain.webp",
     "name": "\"Hidden Hand\" Memorial Fountain",
+    "type": "spomenik",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -3834,6 +3922,7 @@
     "year": "1978",
     "author": "Stjepan Gračan",
     "stanje": "uklonjen",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -3848,6 +3937,7 @@
     "name": "Memorial Ossuary to Fallen Fighters",
     "year": "1961",
     "stanje": "srusen",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -3864,6 +3954,7 @@
     "name": "Monument to <a href=\"https://en.wikipedia.org/wiki/Zagreb_train_disaster\" target=\"_blank\">1974 Railway Disaster</a>",
     "year": "1975",
     "author": "Vojin Bakić",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -3878,6 +3969,7 @@
     "naziv": "Spomenik palom borcu",
     "name": "Monument to Fallen Fighters",
     "year": "1971",
+    "type": "spomenik",
     "drzava": "Montenegro"
   },
   {
@@ -3906,6 +3998,7 @@
     "slika": "slike/spomenici/mataguzi.webp",
     "name": "Monument to Fallen Fighters",
     "year": "1977",
+    "type": "spomenik",
     "drzava": "Montenegro"
   },
   {
@@ -3959,13 +4052,13 @@
       "lat": 43.56024554,
       "lng": 16.52256862
     },
-    "googleCid": "11489421392267422737",
     "title": "Klis",
     "slika": "slike/spomenici/klis.webp",
     "name": "Guardian of Freedom Monument",
     "year": "1987",
     "author": "Bogdan Bogdanović",
     "stanje": "uklonjen",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -3979,6 +4072,7 @@
     "name": "Monu. to Maced./Polish Cooperation",
     "year": "1977",
     "stanje": "uklonjen",
+    "type": "spomenik",
     "drzava": "Macedonia"
   },
   {
@@ -3993,6 +4087,7 @@
     "naziv": "Spomenik poginulim borcima NOR-a",
     "name": "Monument to Fallen Fighters",
     "year": "1985",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -4006,6 +4101,7 @@
     "slika": "slike/spomenici/semovec.webp",
     "name": "The Flame of Revolution Monument",
     "year": "1973",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -4018,6 +4114,7 @@
     "slika": "slike/spomenici/nikolic.webp",
     "name": "Youth Pioneer Camp at Dojran",
     "stanje": "rusevine",
+    "type": "kompleks",
     "drzava": "Macedonia"
   },
   {
@@ -4029,6 +4126,7 @@
     "title": "Vitomirica",
     "slika": "slike/spomenici/vitomirica.webp",
     "name": "Monument to Fallen Fighters",
+    "type": "spomenik",
     "drzava": "Kosovo"
   },
   {
@@ -4044,6 +4142,7 @@
     "year": "1955",
     "author": "Vanja Radauš",
     "stanje": "uklonjen",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -4058,6 +4157,7 @@
     "name": "Tomb of <a href=\"https://sr.wikipedia.org/sr-el/%D0%94%D1%83%D1%88%D0%B0%D0%BD_%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B2%D0%B8%D1%9B_%D0%A8%D0%B0%D0%BD%D0%B5\" target=\"_blank\">Dušan Petrović Šane</a>",
     "year": "1980",
     "author": "Bogdan Bogdanović",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -4072,6 +4172,7 @@
     "name": "Monument to Fallen Fighters",
     "year": "1972",
     "author": "Pavle Radovanović",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -4085,6 +4186,7 @@
     "name": "Monument to Brotherhood & Unity",
     "year": "1969",
     "stanje": "uklonjen",
+    "type": "spomenik",
     "drzava": "Kosovo"
   },
   {
@@ -4100,6 +4202,7 @@
     "name": "Memorial Ossuary",
     "year": "1963",
     "author": "Jordan Grabul",
+    "type": "kompleks",
     "drzava": "Macedonia"
   },
   {
@@ -4114,6 +4217,7 @@
     "naziv": "Poginulima u narodnooslobodilačkoj borbi",
     "name": "Monument to Executed Civilians",
     "year": "1984",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -4128,6 +4232,7 @@
     "name": "Monument Fighters of the NOB",
     "year": "1977",
     "author": "Petar Hadži Boškov",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -4140,6 +4245,7 @@
     "title": "Mareza",
     "slika": "slike/spomenici/mareza.webp",
     "name": "Monument to Fallen Fighters",
+    "type": "spomenik",
     "drzava": "Montenegro"
   },
   {
@@ -4153,6 +4259,7 @@
     "slika": "slike/spomenici/bilice.webp",
     "name": "Monument to Executed Victims",
     "year": "1977",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -4195,6 +4302,7 @@
     "slika": "slike/spomenici/trsa.webp",
     "name": "Monument to Fallen Fighters",
     "year": "1973",
+    "type": "spomenik",
     "drzava": "Montenegro"
   },
   {
@@ -4207,6 +4315,7 @@
     "title": "Mačkovo Selo",
     "slika": "slike/spomenici/mackovo-selo.webp",
     "name": "Monument to Fallen Fighters",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -4219,6 +4328,7 @@
     "title": "Donja Čemernica",
     "slika": "slike/spomenici/donja-cemernica.webp",
     "name": "Monument to the Čemernica Airport",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -4231,6 +4341,7 @@
     "title": "Velika Rujiška",
     "slika": "slike/spomenici/velika-rujiska.webp",
     "name": "Monument to Fallen Fighters",
+    "type": "kompleks",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -4259,6 +4370,7 @@
     "year": "1964",
     "author": "Neven Šegvić",
     "stanje": "uklonjen",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -4273,6 +4385,7 @@
     "name": "Monument to 1984 Resava Mines Disaster",
     "year": "1985",
     "author": "Miodrag Živković",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -4302,6 +4415,7 @@
     "name": "Mausoleum of <a href=\"https://en.wikipedia.org/wiki/Petar_II_Petrovi%C4%87-Njego%C5%A1\" target=\"_blank\">Njegoš</a>",
     "year": "1974",
     "author": "Ivan Meštrović",
+    "type": "kompleks",
     "drzava": "Montenegro"
   },
   {
@@ -4318,6 +4432,7 @@
     "name": "The \"Bridge of Exchange\" Monument",
     "year": "1971",
     "author": "Jovan Soldatović",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -4512,6 +4627,7 @@
     "name": "Monument to <a href=\"https://en.wikipedia.org/wiki/Edvard_Kardelj\" target=\"_blank\">Edvard Kardelj</a>",
     "year": "1981",
     "author": "Dušan Džamonja",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -4538,6 +4654,7 @@
     "title": "Mamula Island Prison",
     "wiki": "https://en.wikipedia.org/wiki/Mamula_(island)",
     "slika": "slike/spomenici/mamula-island-prison.webp",
+    "type": "kompleks",
     "drzava": "Montenegro"
   },
   {
@@ -4593,6 +4710,7 @@
     "naziv": "Spomenik poginulim antifašistima u Bulincu",
     "name": "Monument to Vojvodina Brigades",
     "year": "1971",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -4605,6 +4723,7 @@
     "title": "Petrova Gora Partisan Hospital",
     "wiki": "https://sh.wikipedia.org/wiki/Partizanska_bolnica_na_Petrovoj_gori",
     "slika": "slike/spomenici/petrova-gora-partisan-hospital.webp",
+    "type": "muzej",
     "drzava": "Croatia"
   },
   {
@@ -4620,6 +4739,7 @@
     "name": "Monument to Fallen Fighters",
     "year": "1980",
     "author": "Dušan Džamonja",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -4631,6 +4751,7 @@
     "title": "Menkova Koliba",
     "slika": "slike/spomenici/menkova-koliba.webp",
     "name": "Monu. to 1st Kumanovo Partisans",
+    "type": "spomenik",
     "drzava": "Macedonia"
   },
   {
@@ -4645,6 +4766,7 @@
     "naziv": "Spomenik Prve proleterske brigade",
     "name": "Monument to 1st Proletariat Brigade",
     "year": "1961",
+    "type": "spomenik",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -4674,6 +4796,7 @@
     "name": "Monument to the Korab Partisan Unit",
     "year": "1974",
     "author": "Tome Serafimovski",
+    "type": "spomenik",
     "drzava": "Macedonia"
   },
   {
@@ -4701,6 +4824,7 @@
     "info": "http://www.viabalkans.com/en/historic-sites/significant-and-unusual-buildings/norway-house/",
     "slika": "slike/spomenici/the-norwegian-house.webp",
     "year": "1987",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -4727,6 +4851,7 @@
     "title": "Franja Partisan Hospital",
     "slika": "slike/spomenici/franja-partisan-hospital.webp",
     "slikaAutor": "Sl-Ziga, Public domain",
+    "type": "muzej",
     "drzava": "Slovenia"
   },
   {
@@ -4740,6 +4865,7 @@
     "slika": "slike/spomenici/kastel-kambelovac.webp",
     "name": "Monument to the Revolution",
     "year": "1977",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -4752,6 +4878,7 @@
     "title": "Tito's Cave at Vis",
     "info": "https://www.tripadvisor.com/ShowUserReviews-g424971-d622113-r509659114-Mount_Hum-Island_of_Vis_Split_Dalmatia_County_Dalmatia.html",
     "slika": "slike/spomenici/tito-s-cave-at-vis.webp",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -4793,6 +4920,7 @@
     "name": "Monument to Executed Youth",
     "year": "1959",
     "author": "Drago Đurović",
+    "type": "spomenik",
     "drzava": "Montenegro"
   },
   {
@@ -4807,6 +4935,7 @@
     "name": "Monument to the 1573 Peasant Revolt",
     "year": "1973",
     "author": "Antun Augustinčić",
+    "type": "kompleks",
     "drzava": "Croatia"
   },
   {
@@ -4856,6 +4985,7 @@
     "name": "Monument to Freedom",
     "year": "1951",
     "author": "Sreten Stojanović",
+    "type": "kompleks",
     "drzava": "Serbia"
   },
   {
@@ -4948,6 +5078,7 @@
     "title": "Gradačac",
     "slika": "slike/spomenici/gradacac.webp",
     "name": "Monument to Fallen Fighters of WWII",
+    "type": "kompleks",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -4978,6 +5109,7 @@
     "naziv": "Spomenik herojima NOB-a u II svjetskom ratu",
     "name": "Ossuary for Fallen Fighters",
     "year": "1956",
+    "type": "spomenik",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -4992,6 +5124,7 @@
     "naziv": "Partizanski spomenik",
     "name": "The 'Fallen for Freedom' Monument",
     "year": "1954",
+    "type": "spomenik",
     "drzava": "Montenegro"
   },
   {
@@ -5006,6 +5139,7 @@
     "name": "Monument to War & Peace",
     "year": "1958",
     "author": "Jakob Savinšek",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -5051,6 +5185,7 @@
     "slika": "slike/spomenici/bijelo-polje.webp",
     "name": "Monument to Fallen Fighters",
     "year": "1952",
+    "type": "spomenik",
     "drzava": "Montenegro"
   },
   {
@@ -5065,6 +5200,7 @@
     "naziv": "Oslobođenje Rijeke",
     "name": "Monument to the Liberation",
     "year": "1955",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -5080,6 +5216,7 @@
     "name": "Monument to Fallen Fighters",
     "year": "1955",
     "author": "Marijan Kocković",
+    "type": "spomenik",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -5093,6 +5230,7 @@
     "slika": "slike/spomenici/vlasenica.webp",
     "name": "Monument to Fallen NOB Fighters",
     "year": "1958",
+    "type": "spomenik",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -5107,6 +5245,7 @@
     "name": "Monument to Fallen Fighters",
     "year": "1954",
     "author": "Nikola Dobrović",
+    "type": "spomenik",
     "drzava": "Montenegro"
   },
   {
@@ -5153,6 +5292,7 @@
     "name": "Memorial Ossuary for Fallen Fighters",
     "year": "1958",
     "author": "Vera Dajht-Kralj",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -5182,6 +5322,7 @@
     "title": "\"Baza 20\" Secret Partisan Base",
     "info": "https://www.culture.si/en/Baza_20_Memorial_Site,_Ko%C4%8Devski_Rog",
     "slika": "slike/spomenici/baza-20-secret-partisan-base.webp",
+    "type": "muzej",
     "drzava": "Slovenia"
   },
   {
@@ -5196,6 +5337,7 @@
     "naziv": "Spomenik zmage",
     "name": "The Victory Monument",
     "year": "1945",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -5241,6 +5383,7 @@
     "naziv": "Spomenik „Osloboditeli na Skopje“",
     "name": "Monu. to the Liberators of Skopje",
     "year": "1955",
+    "type": "spomenik",
     "drzava": "Macedonia"
   },
   {
@@ -5254,6 +5397,7 @@
     "slika": "slike/spomenici/tetovo.webp",
     "name": "Monument to Women Fighters",
     "year": "1961",
+    "type": "spomenik",
     "drzava": "Macedonia"
   },
   {
@@ -5267,6 +5411,7 @@
     "slika": "slike/spomenici/paracin.webp",
     "name": "'Freedom Fountain' Monument",
     "year": "1975",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -5317,6 +5462,7 @@
     "naziv": "Kosturnica",
     "name": "Memorial Ossuary to Fallen Fighters",
     "year": "1970",
+    "type": "spomenik",
     "drzava": "Macedonia"
   },
   {
@@ -5330,6 +5476,7 @@
     "name": "\"Carrying the Wounded\" Monument",
     "year": "1963",
     "author": "Ante Gržetić",
+    "type": "spomenik",
     "drzava": "Kosovo"
   },
   {
@@ -5342,6 +5489,7 @@
     "title": "Pančevo",
     "slika": "slike/spomenici/pancevo.webp",
     "name": "Monument to the Victims of Fascism",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -5356,6 +5504,7 @@
     "naziv": "Borecot",
     "name": "Mausoleum to Fallen Fighters",
     "year": "1978",
+    "type": "spomenik",
     "drzava": "Macedonia"
   },
   {
@@ -5370,6 +5519,7 @@
     "name": "Monument to Stojan Matić",
     "year": "1969",
     "author": "Vjekoslav Rukljač",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -5384,6 +5534,7 @@
     "name": "Monument to the Patriots of Rijeka",
     "year": "1957",
     "author": "Zdenko Kolacio",
+    "type": "kompleks",
     "drzava": "Croatia"
   },
   {
@@ -5427,6 +5578,7 @@
     "name": "Monument to the Burning of Radovna",
     "year": "1961",
     "author": "Anton Bitenc",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -5440,6 +5592,7 @@
     "slika": "slike/spomenici/travnik.webp",
     "name": "The \"Mother\" Ossuary",
     "year": "1961",
+    "type": "spomenik",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -5454,6 +5607,7 @@
     "name": "Strength, Glory & Victory Monument",
     "year": "1954",
     "author": "Jordan Grabul",
+    "type": "spomenik",
     "drzava": "Macedonia"
   },
   {
@@ -5468,6 +5622,7 @@
     "slika": "slike/spomenici/skopje-women-fighters.webp",
     "name": "Monument to Women Fighters",
     "year": "1970",
+    "type": "spomenik",
     "drzava": "Macedonia",
     "istaknut": true
   },
@@ -5485,6 +5640,7 @@
     "year": "1955",
     "author": "Vanja Radauš",
     "stanje": "srusen",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -5500,6 +5656,7 @@
     "year": "1957",
     "author": "Antun Augustinčić",
     "stanje": "srusen",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -5513,6 +5670,7 @@
     "slika": "slike/spomenici/omisalj.webp",
     "name": "Monument to Fallen Fighters",
     "year": "1975",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -5543,6 +5701,7 @@
     "naziv": "Spomenik u Miroševcu",
     "name": "Monument to Fallen Fighters",
     "year": "1974",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -5555,6 +5714,7 @@
     "slika": "slike/spomenici/seskovo.webp",
     "name": "Monu. to 9th Maced. Partisan Brigade",
     "year": "1974",
+    "type": "spomenik",
     "drzava": "Macedonia"
   },
   {
@@ -5568,6 +5728,7 @@
     "name": "Monument to the Rama Valley Battle",
     "year": "1968",
     "author": "Marijan Kocković",
+    "type": "spomenik",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -5597,6 +5758,7 @@
     "naziv": "Grobnica narodnih heroja u Zagrebu",
     "name": "Tomb of the People's Heroes",
     "year": "1968",
+    "type": "groblje",
     "drzava": "Croatia"
   },
   {
@@ -5613,6 +5775,7 @@
     "name": "Monument to Executed Hostages",
     "year": "1954",
     "author": "Frano Kršinić",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -5627,6 +5790,7 @@
     "naziv": "Vižmarski tabor",
     "name": "Monument to the Vizar People's Camp",
     "year": "1969",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -5640,6 +5804,7 @@
     "name": "Monument to WWII Rail Workers",
     "year": "1962",
     "author": "Janez Lenassi",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -5656,6 +5821,7 @@
     "name": "Monument to Josip Tito",
     "year": "1977",
     "author": "Antun Augustinčić",
+    "type": "spomenik",
     "drzava": "Slovenia",
     "istaknut": true
   },
@@ -5672,6 +5838,7 @@
     "name": "Monument to the 14th Division",
     "year": "1977",
     "author": "Antun Augustinčić",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -5688,6 +5855,7 @@
     "name": "Monument to the Revolution",
     "year": "1961",
     "author": "Petar Krstić",
+    "type": "spomenik",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -5701,6 +5869,7 @@
     "naziv": "Spomenik palim borcima NOB",
     "name": "Monument to Fallen NOB Fighters",
     "author": "Pavle Radovanović",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -5714,6 +5883,7 @@
     "slika": "slike/spomenici/novi-becej.webp",
     "name": "The 'Flower of Banat' Monument",
     "year": "1984",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -5726,6 +5896,7 @@
     "title": "Delnice",
     "slika": "slike/spomenici/delnice.webp",
     "name": "Monument to Gorski Kotar Uprising",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -5739,6 +5910,7 @@
     "slika": "slike/spomenici/solin.webp",
     "name": "Monument to Solin Partisan Detachment",
     "year": "1968",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -5754,6 +5926,7 @@
     "naziv": "Spomenik palim borcima Vranjic",
     "name": "Memorial Mosaic to Fallen Fighters",
     "year": "1956",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -5765,6 +5938,7 @@
     "title": "Sviloš",
     "slika": "slike/spomenici/svilos.webp",
     "name": "Monument to Fallen Fighters",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -5796,6 +5970,7 @@
     "name": "Monument to <a href=\"https://en.wikipedia.org/wiki/Vuk_Karad%C5%BEi%C4%87\" target=\"_blank\">Vuk Karadžić</a>",
     "year": "2005",
     "author": "Miodrag Živković",
+    "type": "spomenik",
     "drzava": "Montenegro"
   },
   {
@@ -5811,6 +5986,7 @@
     "name": "Monument to Šumadija's Fallen",
     "year": "1932",
     "author": "Antun Augustinčić",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -5825,6 +6001,7 @@
     "naziv": "Spomenik palim borcima Crvene armije 1944.",
     "name": "Ossuary for Red Army & NOV Fighters",
     "year": "1946",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -5838,6 +6015,7 @@
     "name": "Monument to the Revolution",
     "year": "1958",
     "author": "Petar Palavičini",
+    "type": "spomenik",
     "drzava": "Macedonia"
   },
   {
@@ -5850,6 +6028,7 @@
     "slika": "slike/spomenici/mitrovo-polje.webp",
     "name": "Monument to Fallen Fighters",
     "year": "1971",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -5865,6 +6044,7 @@
     "naziv": "Spomenik Cvet revolucije",
     "name": "\"Flower of the Revolution' Monument",
     "year": "1973",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -5878,6 +6058,7 @@
     "slika": "slike/spomenici/bitola-deported-jews.webp",
     "name": "Monument to Deported Jews",
     "year": "1958",
+    "type": "spomenik",
     "drzava": "Macedonia"
   },
   {
@@ -5890,6 +6071,7 @@
     "title": "Bitola",
     "slika": "slike/spomenici/bitola-revolution.webp",
     "name": "Monument to the Revolution",
+    "type": "spomenik",
     "drzava": "Macedonia"
   },
   {
@@ -5901,6 +6083,7 @@
     "title": "Debar",
     "slika": "slike/spomenici/debar.webp",
     "name": "Monument to Fallen Fighters",
+    "type": "spomenik",
     "drzava": "Macedonia"
   },
   {
@@ -5915,6 +6098,7 @@
     "name": "Monument to the Beličica Massacre",
     "year": "1972",
     "author": "Dimo Todorovski",
+    "type": "spomenik",
     "drzava": "Macedonia"
   },
   {
@@ -5923,13 +6107,13 @@
       "lat": 45.048104,
       "lng": 16.37957459
     },
-    "googleCid": "14976665373442005396",
     "title": "Novi Grad",
     "slika": "slike/spomenici/novi-grad.webp",
     "naziv": "Spomenik „Majka partizanka”",
     "name": "'Partisan Mother' Monument",
     "year": "1964",
     "author": "Marijan Kocković",
+    "type": "spomenik",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -5960,6 +6144,7 @@
     "year": "1952",
     "author": "Sreten Stojanović",
     "stanje": "srusen",
+    "type": "spomenik",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -5972,6 +6157,7 @@
     "slika": "slike/spomenici/zagreb-casualties.webp",
     "name": "'Casualties' Monument",
     "author": "Vanja Radauš",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -5988,6 +6174,7 @@
     "name": "<a href=\"https://en.wikipedia.org/wiki/Bomba%c5%a1i_(Yugoslav_Partisans)\" target=\"_blank\">\"The Bombaš\"</a> Monument",
     "year": "1946",
     "author": "Vanja Radauš",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -6001,6 +6188,7 @@
     "slika": "slike/spomenici/krupanj.webp",
     "name": "The \"Politika\" House of Culture",
     "year": "1982",
+    "type": "kompleks",
     "drzava": "Serbia",
     "author": "Ivan Antić"
   },
@@ -6017,6 +6205,7 @@
     "naziv": "Muzej I zasjedanja ZAVNOBiH-a u Mrkonjić Gradu",
     "name": "Mem. House to 1st Session of <a href=\"https://en.wikipedia.org/wiki/State_Anti-fascist_Council_for_the_National_Liberation_of_Bosnia_and_Herzegovina\" target=\"_blank\">ZAVNOBiH</a>",
     "year": "1973",
+    "type": "muzej",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -6029,6 +6218,7 @@
     "slika": "slike/spomenici/pristina-prishtine-spomen-dom-boro.webp",
     "name": "Spomen-Dom 'Boro & Ramiz'",
     "year": "1977",
+    "type": "kompleks",
     "drzava": "Kosovo"
   },
   {
@@ -6041,6 +6231,7 @@
     "slika": "slike/spomenici/plitvice-lakes.webp",
     "name": "Memorial House to 6th Lika Prolet. Div.",
     "year": "1981",
+    "type": "kompleks",
     "drzava": "Croatia"
   },
   {
@@ -6054,6 +6245,7 @@
     "slika": "slike/spomenici/pazin.webp",
     "name": "Pazin Spomen-Dom",
     "year": "1983",
+    "type": "kompleks",
     "drzava": "Croatia"
   },
   {
@@ -6065,6 +6257,7 @@
     "title": "Bor (Liberation Square)",
     "slika": "slike/spomenici/bor-fallen-fighters.webp",
     "name": "Monument to Fallen Fighters",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -6096,6 +6289,7 @@
     "naziv": "Spomenik Đuri Đakoviću",
     "name": "Monument to <a href=\"https://en.wikipedia.org/wiki/%C4%90uro_%C4%90akovi%C4%87\" target=\"_blank\">Đuro Đaković</a>",
     "year": "1973",
+    "type": "spomenik",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -6110,6 +6304,7 @@
     "naziv": "Spomenici Narodnooslobodilačkoj borbi u Bosanskom Petrovcu",
     "name": "Monument to Fallen Fighters",
     "year": "1950",
+    "type": "spomenik",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -6137,6 +6332,7 @@
     "slika": "slike/spomenici/gradiska.webp",
     "name": "'Ustanak' (Uprising) Monument",
     "year": "1982",
+    "type": "spomenik",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -6149,6 +6345,7 @@
     "slika": "slike/spomenici/bosanska-raca.webp",
     "naziv": "Spomenik palim borcima NOR-a i Crvene armije u Rači",
     "name": "Memorial Ossuary (Spomen-Kosturnica)",
+    "type": "spomenik",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -6162,6 +6359,7 @@
     "slika": "slike/spomenici/doboj.webp",
     "name": "Memorial Ossuary Obelisk",
     "year": "1953",
+    "type": "spomenik",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -6175,6 +6373,7 @@
     "slika": "slike/spomenici/velimlje.webp",
     "name": "Monument to Fallen Fighters",
     "author": "Stevan Bodnarov",
+    "type": "spomenik",
     "drzava": "Montenegro"
   },
   {
@@ -6187,6 +6386,7 @@
     "wiki": "https://en.wikipedia.org/wiki/Stefan_Naumov",
     "slika": "slike/spomenici/bitola-stefan-naumov.webp",
     "name": "Monument to <a href=\"https://en.wikipedia.org/wiki/Stefan_Naumov\" target=\"_blank\">Stefan Naumov</a>",
+    "type": "spomenik",
     "drzava": "Macedonia"
   },
   {
@@ -6200,6 +6400,7 @@
     "slika": "slike/spomenici/kriva-planaka.webp",
     "name": "Monument to Fallen Fighters",
     "year": "1967",
+    "type": "spomenik",
     "drzava": "Macedonia"
   },
   {
@@ -6216,6 +6417,7 @@
     "name": "Monument at <a href=\"https://en.wikipedia.org/wiki/Battle_of_Me%C4%8Dkin_Kamen\" target=\"_blank\">Mečkin Kamen</a>",
     "year": "1983",
     "author": "Dimo Todorovski",
+    "type": "spomenik",
     "drzava": "Macedonia"
   },
   {
@@ -6229,6 +6431,7 @@
     "slika": "slike/spomenici/guca.webp",
     "name": "Monument to the Dragačevo Unit",
     "year": "1968",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -6242,6 +6445,7 @@
     "name": "1st Yugoslav Monu. to NOB (WWII)",
     "year": "1944",
     "stanje": "uklonjen",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -6255,6 +6459,7 @@
     "slika": "slike/spomenici/kali.webp",
     "name": "Monument to Blaž Valin",
     "year": "1961",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -6270,6 +6475,7 @@
     "name": "Mem. Ossuary to Fallen NOB Fighters",
     "year": "1962",
     "author": "Dragiša Trifković",
+    "type": "spomenik",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -6283,6 +6489,7 @@
     "slika": "slike/spomenici/kraljevo-resistance-torment.webp",
     "name": "Monument to Resistance & Torment",
     "year": "1955",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -6295,6 +6502,7 @@
     "title": "Smoljana",
     "slika": "slike/spomenici/smoljana.webp",
     "name": "Monument to Fallen Fighters",
+    "type": "spomenik",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -6308,6 +6516,7 @@
     "slika": "slike/spomenici/patrija-hill.webp",
     "name": "Monument to the Breakthrough",
     "year": "1967",
+    "type": "spomenik",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -6323,6 +6532,7 @@
     "name": "Monu. to Fallen Split Harbor Workers",
     "year": "1956",
     "author": "Vuko Bombardelli",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -6336,6 +6546,7 @@
     "slika": "slike/spomenici/pisak.webp",
     "name": "Monument to Fallen Fighters",
     "year": "1977",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -6348,6 +6559,7 @@
     "title": "Teočak",
     "slika": "slike/spomenici/teocak.webp",
     "name": "???",
+    "type": "spomenik",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -6363,6 +6575,7 @@
     "naziv": "Spomenik Goce Delčev",
     "name": "Monument to Goce Delčev",
     "year": "1976",
+    "type": "spomenik",
     "drzava": "Macedonia"
   },
   {
@@ -6376,6 +6589,7 @@
     "slika": "slike/spomenici/becej-freedom-victory.webp",
     "name": "Monument to Freedom - \"Victory\"",
     "year": "1979",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -6405,6 +6619,7 @@
     "title": "Prohor Pčinjski Monastery",
     "wiki": "https://en.wikipedia.org/wiki/Anti-fascist_Assembly_for_the_National_Liberation_of_Macedonia",
     "slika": "slike/spomenici/prohor-pcinjski-monastery.webp",
+    "type": "kompleks",
     "drzava": "Serbia"
   },
   {
@@ -6417,6 +6632,7 @@
     "title": "Strumica",
     "slika": "slike/spomenici/strumica-fallen-fighters.webp",
     "name": "Monument to Fallen Fighters",
+    "type": "spomenik",
     "drzava": "Macedonia"
   },
   {
@@ -6432,6 +6648,7 @@
     "name": "Monument to the Proletariat Miners",
     "year": "1952",
     "author": "Stojan Batič",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -6456,6 +6673,7 @@
     "title": "Jabukovac",
     "slika": "slike/spomenici/jabukovac.webp",
     "name": "Monument to Fallen Fighters",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -6469,6 +6687,7 @@
     "slika": "slike/spomenici/slatino.webp",
     "name": "Partisan Hospital Monument",
     "year": "1976",
+    "type": "spomenik",
     "drzava": "Macedonia"
   },
   {
@@ -6484,6 +6703,7 @@
     "naziv": "Spomenik palim borcima Svirče",
     "name": "Monument to Fallen Fighters",
     "year": "1981",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -6497,6 +6717,7 @@
     "slika": "slike/spomenici/kalna.webp",
     "name": "Monument to Fallen Fighters",
     "year": "1979",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -6505,7 +6726,6 @@
       "lat": 42.0983465,
       "lng": 19.09316396
     },
-    "googleCid": "17047969910855679727",
     "title": "Bar",
     "slika": "slike/spomenici/bar.webp",
     "year": "1963",
@@ -6520,6 +6740,7 @@
     "title": "Brod",
     "slika": "slike/spomenici/brod.webp",
     "name": "Mon. to Fallen Fighters \"Hunger Mon.\" ",
+    "type": "spomenik",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -6535,6 +6756,7 @@
     "year": "1951",
     "author": "Dušan Džamonja",
     "stanje": "uklonjen",
+    "type": "spomenik",
     "drzava": "Croatia",
     "istaknut": true
   },
@@ -6551,6 +6773,7 @@
     "name": "Memorial to 1942 Raid Victims",
     "year": "1970",
     "author": "Jovan Soldatović",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -6563,6 +6786,7 @@
     "title": "Pohorje Battalion Museum",
     "slika": "slike/spomenici/pohorje-battalion-museum.webp",
     "name": "The Lodge at Osankarica",
+    "type": "muzej",
     "drzava": "Slovenia"
   },
   {
@@ -6575,6 +6799,7 @@
     "slika": "slike/spomenici/pirot.webp",
     "name": "Monument to Brotherhood & Unity",
     "author": "Jovan Kratohvil",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -6590,6 +6815,7 @@
     "name": "\"Partisan Courier\": Mon. to Fallen Fighters",
     "year": "1974",
     "author": "Stevan Bodnarov",
+    "type": "spomenik",
     "drzava": "Montenegro"
   },
   {
@@ -6603,6 +6829,7 @@
     "slika": "slike/spomenici/mali-vareski.webp",
     "name": "Monument to the Proština Uprising",
     "year": "1971",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -6614,6 +6841,7 @@
     "title": "Murino",
     "slika": "slike/spomenici/murino.webp",
     "name": "Monument to Fallen Fighters",
+    "type": "spomenik",
     "drzava": "Montenegro"
   },
   {
@@ -6657,6 +6885,7 @@
     "name": "Mother with Child",
     "year": "1965",
     "author": "Oscar Nemon",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -6673,6 +6902,7 @@
     "name": "Monument to <a href=\"https://en.wikipedia.org/wiki/Edvard_Rusjan\" target=\"_blank\">Edvard Rusjan</a>",
     "year": "1960",
     "author": "Janez Lenassi",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -6686,6 +6916,7 @@
     "slika": "slike/spomenici/vranje.webp",
     "name": "Monument to the Revolution",
     "year": "1985",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -6730,6 +6961,7 @@
     "name": "Monument to <a href=\"https://en.wikipedia.org/wiki/Mladen_Stojanovi%C4%87\" target=\"_blank\">Mladen Stojanović</a>",
     "year": "1957",
     "author": "Sreten Stojanović",
+    "type": "spomenik",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -6757,6 +6989,7 @@
     "naziv": "Spomenik žrtvama fašističkog terora",
     "name": "Monument to Victims of Fascism",
     "year": "1972",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -6787,6 +7020,7 @@
     "naziv": "Spomenik palim borcima u Drugom svetskom ratu",
     "name": "Monument to Fallen Fighters",
     "year": "1983",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -6800,6 +7034,7 @@
     "naziv": "Zaginatite graditeli na HEC Mavrovo",
     "name": "Monument to 1956 Avalanche Victims",
     "year": "1967",
+    "type": "spomenik",
     "drzava": "Macedonia"
   },
   {
@@ -6816,6 +7051,7 @@
     "name": "Monument to Partisan Mariners",
     "year": "1977",
     "author": "Janez Lenassi",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -6830,6 +7066,7 @@
     "name": "Tito Memorial Fountain",
     "year": "1980",
     "author": "Janez Lenassi",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -6843,6 +7080,7 @@
     "slika": "slike/spomenici/krnjesevci.webp",
     "name": "Monument to Fallen Fighters",
     "year": "1982",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -6856,6 +7094,7 @@
     "slika": "slike/spomenici/tavankut.webp",
     "name": "The 'Trembling Plains' Monument",
     "year": "1971",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -6872,6 +7111,7 @@
     "name": "The Lighthouse of the Danube",
     "year": "1961",
     "author": "Jovan Soldatović",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -6884,6 +7124,7 @@
     "title": "Selište",
     "slika": "slike/spomenici/seliste.webp",
     "name": "Monument to Fallen Fighters",
+    "type": "spomenik",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -6909,6 +7150,7 @@
     "naziv": "Tretji bataljon Prešernove brigade",
     "name": "Mon. to 3rd Battalion of Prešeren Brig.",
     "year": "1956",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -6944,6 +7186,7 @@
     "slika": "slike/spomenici/donji-orlovci.webp",
     "name": "Monument to Fallen Fighters",
     "year": "1963",
+    "type": "spomenik",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -6952,10 +7195,10 @@
       "lat": 43.50637079,
       "lng": 18.7752291
     },
-    "googleCid": "12977845796237702449",
     "title": "Foča",
     "slika": "slike/spomenici/foca.webp",
     "name": "Monument to the Foča Youth Company",
+    "type": "spomenik",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -6968,6 +7211,7 @@
     "title": "Musem of Old Herzegovina",
     "info": "http://muzejfoca.com/?lang=en",
     "slika": "slike/spomenici/musem-of-old-herzegovina.webp",
+    "type": "muzej",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -6982,6 +7226,7 @@
     "slika": "slike/spomenici/pula-vladimir-gortan.webp",
     "naziv": "Spomenik Vladimiru Gortanu",
     "name": "Monument to <a href=\"https://hr.wikipedia.org/wiki/Vladimir_Gortan\" target=\"_blank\">Vladimir Gortan</a>",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -6990,12 +7235,12 @@
       "lat": 44.86806841,
       "lng": 13.84228865
     },
-    "googleCid": "5447839594995528884",
     "title": "Pula",
     "slika": "slike/spomenici/pula-shipyard-workers.webp",
     "naziv": "Spomenik radnicima brodogradilišta",
     "name": "Monument to Shipyard Workers",
     "year": "1968",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -7010,6 +7255,7 @@
     "naziv": "Brodograditelj",
     "name": "Monument to Ship Builders",
     "year": "1965",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -7023,6 +7269,7 @@
     "slika": "slike/spomenici/velika-biljanica.webp",
     "name": "Monument to Fallen NOB Fighters",
     "year": "1967",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -7034,6 +7281,7 @@
     "title": "Tomina",
     "slika": "slike/spomenici/tomina.webp",
     "name": "Monument to Fallen Fighters",
+    "type": "spomenik",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -7045,6 +7293,7 @@
     "title": "Barbaros",
     "slika": "slike/spomenici/barbaros.webp",
     "name": "Mon. to 1943 Mac.-Kosovo Brig. March",
+    "type": "spomenik",
     "drzava": "Macedonia"
   },
   {
@@ -7059,6 +7308,7 @@
     "naziv": "Palim borcima u antifašističkoj borbi",
     "name": "Monument to Fallen Fighters",
     "year": "1952",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -7084,6 +7334,7 @@
     "title": "Draževitići",
     "slika": "slike/spomenici/drazevitici.webp",
     "name": "Monument to Fallen Fighters",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -7098,6 +7349,7 @@
     "naziv": "Palim za slobodu i socijalizam 1941-1945",
     "name": "Monument to Fallen Fighters",
     "year": "1964",
+    "type": "spomenik",
     "drzava": "Montenegro"
   },
   {
@@ -7126,6 +7378,7 @@
     "slika": "slike/spomenici/ogulin.webp",
     "naziv": "Spomenik ustanku NOB",
     "name": "Monument to Fallen Fighters",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -7138,6 +7391,7 @@
     "title": "Pelince",
     "slika": "slike/spomenici/pelince.webp",
     "name": "Monument to the Battalion \"Orce Nikolov\"",
+    "type": "spomenik",
     "drzava": "Macedonia"
   },
   {
@@ -7164,11 +7418,11 @@
       "lat": 43.08353861,
       "lng": 17.95907907
     },
-    "googleCid": "8340308669569244886",
     "title": "Stolac",
     "slika": "slike/spomenici/stolac.webp",
     "name": "Monument to Fallen Fighters",
     "stanje": "srusen",
+    "type": "spomenik",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -7182,6 +7436,7 @@
     "name": "Monument to Victory",
     "year": "1954",
     "author": "Sreten Stojanović",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -7196,6 +7451,7 @@
     "naziv": "Spomenik Pavlova gramada",
     "name": "Monument to Fallen Fighters",
     "year": "1955",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -7221,6 +7477,7 @@
     "slika": "slike/spomenici/trstenik-island.webp",
     "naziv": "Suđenica koja luta",
     "name": "Monument to 1962 Boat Disaster",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -7244,6 +7501,7 @@
     "slika": "slike/spomenici/osijek-worker-s-house.webp",
     "name": "Worker's Mem. House 'Božidar Maslarić'",
     "year": "1980",
+    "type": "kompleks",
     "drzava": "Croatia"
   },
   {
@@ -7258,6 +7516,7 @@
     "naziv": "Tito spomen-obeležje",
     "name": "Tito Memorial Hillside Sign",
     "year": "1980",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -7270,6 +7529,7 @@
     "title": "Vidrovan",
     "slika": "slike/spomenici/vidrovan.webp",
     "name": "Monument to Fallen Fighters",
+    "type": "spomenik",
     "drzava": "Montenegro"
   },
   {
@@ -7282,6 +7542,7 @@
     "slika": "slike/spomenici/selevac.webp",
     "name": "Monument to Fallen Fighters ",
     "year": "1980",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -7294,6 +7555,7 @@
     "slika": "slike/spomenici/deliblato.webp",
     "name": "Monument to the Revolution",
     "year": "1965",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -7305,6 +7567,7 @@
     "title": "Beloljin",
     "slika": "slike/spomenici/beloljin.webp",
     "name": "Monument to the Fallen in Liberation Wars",
+    "type": "kompleks",
     "drzava": "Serbia"
   },
   {
@@ -7318,6 +7581,7 @@
     "slika": "slike/spomenici/komin.webp",
     "naziv": "Partizanski spomenik",
     "name": "Monument to the Uprising",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -7332,6 +7596,7 @@
     "naziv": "Spomenik Bori Vukmiroviću i Ramizu Sadiku",
     "name": "Monument to Boro & Ramiz",
     "year": "1961",
+    "type": "spomenik",
     "drzava": "Kosovo"
   },
   {
@@ -7347,6 +7612,7 @@
     "naziv": "Spomenik palim obalskim radnicima",
     "name": "Monument to Fallen Dockworkers",
     "year": "1954",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -7360,6 +7626,7 @@
     "name": "Monument to Fallen Fighters",
     "year": "1977",
     "author": "Miodrag Živković",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -7389,6 +7656,7 @@
     "slika": "slike/spomenici/jesenice.webp",
     "name": "Monument to Fallen Fighters",
     "year": "1970",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -7404,6 +7672,7 @@
     "naziv": "Spomenik NOB-u u Ležimiru",
     "name": "Monument to Fallen NOB Fighters",
     "author": "Pavle Radovanović & Svetislav Ličina",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -7416,6 +7685,7 @@
     "slika": "slike/spomenici/klek.webp",
     "name": "Monument to the Victory Over Fascism",
     "year": "1975",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -7441,6 +7711,7 @@
     "slika": "slike/spomenici/secanj.webp",
     "name": "Monument to Executed Patriots",
     "year": "1976",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -7455,6 +7726,7 @@
     "slika": "slike/spomenici/mravinjac.webp",
     "naziv": "Spomenik TITO",
     "name": "Tito Memorial Hillside Sign",
+    "type": "spomenik",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -7468,6 +7740,7 @@
     "slika": "slike/spomenici/branik.webp",
     "naziv": "Napis TITO",
     "name": "Tito Memorial Hillside Sign",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -7482,6 +7755,7 @@
     "naziv": "Napis TITO",
     "name": "Tito Memorial Hillside Sign",
     "year": "1947",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -7495,6 +7769,7 @@
     "slika": "slike/spomenici/barban.webp",
     "name": "Tito Memorial Hillside Sign",
     "year": "1946",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -7508,6 +7783,7 @@
     "naziv": "Napis TITO",
     "name": "Tito Memorial Hillside Sign",
     "stanje": "rusevine",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -7519,6 +7795,7 @@
     "title": "Prezid",
     "slika": "slike/spomenici/prezid.webp",
     "name": "Tito Memorial Hillside Sign",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -7531,6 +7808,7 @@
     "slika": "slike/spomenici/military-hospital.webp",
     "name": "Tito Memorial Vegetation Sign",
     "year": "1980",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -7542,6 +7820,7 @@
     "title": "Tuzi",
     "slika": "slike/spomenici/tuzi.webp",
     "name": "Tito Memorial Hillside Sign",
+    "type": "spomenik",
     "drzava": "Montenegro"
   },
   {
@@ -7554,6 +7833,7 @@
     "title": "Sveti Grgur",
     "slika": "slike/spomenici/sveti-grgur.webp",
     "name": "Tito Memorial Hillside Sign",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -7566,6 +7846,7 @@
     "title": "Vabriga",
     "slika": "slike/spomenici/vabriga.webp",
     "name": "Tito memorial vegetation sign",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -7578,6 +7859,7 @@
     "slika": "slike/spomenici/mihovljan.webp",
     "name": "Tito memorial vegetation sign",
     "year": "1981",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -7589,6 +7871,7 @@
     "title": "Ulcinj",
     "slika": "slike/spomenici/ulcinj-tito-is-us.webp",
     "name": "\"Tito Is Us\" memorial sign",
+    "type": "spomenik",
     "drzava": "Montenegro"
   },
   {
@@ -7615,6 +7898,7 @@
     "slika": "slike/spomenici/dekani.webp",
     "naziv": "Napis TITO",
     "name": "Tito Memorial Hillside Sign",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -7628,6 +7912,7 @@
     "slika": "slike/spomenici/ruca.webp",
     "name": "Monument to Fallen Fighters",
     "year": "1976",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -7641,6 +7926,7 @@
     "slika": "slike/spomenici/stragari.webp",
     "name": "Monument to <a href=\"https://www.nytimes.com/1971/02/15/archives/fire-aboard-train-in-yugoslavia-kills-34-and-injures-113.html?_r=1&referer=\" target=\"_blank\">1971 Train Accident</a>",
     "year": "1972",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -7654,6 +7940,7 @@
     "slika": "slike/spomenici/staro-bacilo.webp",
     "name": "Monument to Fallen Fighters",
     "year": "1977",
+    "type": "spomenik",
     "drzava": "Macedonia"
   },
   {
@@ -7666,6 +7953,7 @@
     "slika": "slike/spomenici/sid.webp",
     "name": "Crypt for Fallen Fighters",
     "year": "1959",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -7677,6 +7965,7 @@
     "title": "Malotino",
     "slika": "slike/spomenici/malotino.webp",
     "name": "Monument to Fallen Fighters",
+    "type": "spomenik",
     "drzava": "Macedonia"
   },
   {
@@ -7689,6 +7978,7 @@
     "title": "Vela Luka",
     "slika": "slike/spomenici/vela-luka.webp",
     "name": "Monument to Fallen Fighters",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -7700,6 +7990,7 @@
     "title": "Stari Grad",
     "slika": "slike/spomenici/stari-grad.webp",
     "name": "Monument to Fallen Fighters",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -7713,6 +8004,7 @@
     "slika": "slike/spomenici/mali-zvornik.webp",
     "name": "Monument to Fallen Fighters",
     "year": "1966",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -7725,6 +8017,7 @@
     "slika": "slike/spomenici/radozda.webp",
     "name": "Memorial Fountain to Fallen Fighters",
     "year": "1983",
+    "type": "spomenik",
     "drzava": "Macedonia"
   },
   {
@@ -7733,12 +8026,12 @@
       "lat": 42.64185581,
       "lng": 18.11250747
     },
-    "googleCid": "1293359692600317778",
     "title": "Dubrovnik",
     "slika": "slike/spomenici/dubrovnik.webp",
     "name": "Monument to Fallen Fighters",
     "year": "1954",
     "stanje": "uklonjen",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -7753,6 +8046,7 @@
     "naziv": "Spomenik palim borcima u Bolmanskoj bici",
     "name": "Monument to the Battle of Bolman",
     "year": "1951",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -7764,6 +8058,7 @@
     "title": "Jagodina Cemetery",
     "slika": "slike/spomenici/jagodina-cemetery-tomb-svetozar-markovic.webp",
     "name": "Tomb of Svetozar Marković",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -7777,6 +8072,7 @@
     "slika": "slike/spomenici/sokolac.webp",
     "name": "Monument to Fallen Romanian Fighters",
     "year": "1978",
+    "type": "spomenik",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -7789,6 +8085,7 @@
     "slika": "slike/spomenici/novska.webp",
     "name": "Monument to Freedom",
     "stanje": "uklonjen",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -7803,6 +8100,7 @@
     "naziv": "Spomenik „Juriš”",
     "name": "Monument to Fallen Fighters - \"Juriš\"",
     "year": "1951",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -7816,6 +8114,7 @@
     "slika": "slike/spomenici/gornje-seoce.webp",
     "name": "Monument to Fallen Fighters",
     "year": "1963",
+    "type": "spomenik",
     "drzava": "Montenegro"
   },
   {
@@ -7830,6 +8129,7 @@
     "name": "Monument to Fallen Fighters",
     "year": "1953",
     "author": "Miodrag Živković",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -7842,6 +8142,7 @@
     "slika": "slike/spomenici/rudnik.webp",
     "name": "Monument to Fallen Fighters",
     "year": "1962",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -7854,6 +8155,7 @@
     "slika": "slike/spomenici/beram.webp",
     "name": "Memorial Tomb to Vladimir Gortan",
     "year": "1953",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -7867,6 +8169,7 @@
     "slika": "slike/spomenici/negotino-manco-maliminov.webp",
     "name": "Monument to Mančo Maliminov",
     "year": "1977",
+    "type": "spomenik",
     "drzava": "Macedonia"
   },
   {
@@ -7881,6 +8184,7 @@
     "name": "Monument to Fallen Fighters",
     "year": "1950",
     "author": "Dušan Džamonja",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -7912,6 +8216,7 @@
     "name": "Monument to Fallen Fighters",
     "year": "1953",
     "author": "Miodrag Živković",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -7935,10 +8240,10 @@
       "lat": 41.43555403,
       "lng": 21.86148768
     },
-    "googleCid": "18317821401544557702",
     "title": "Debrište",
     "slika": "slike/spomenici/debriste.webp",
     "name": "Monument to Drenovo Gorge Fighters",
+    "type": "spomenik",
     "drzava": "Macedonia"
   },
   {
@@ -7966,6 +8271,7 @@
     "name": "Monument to Fallen Fighters",
     "year": "1950",
     "stanje": "uklonjen",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -7979,6 +8285,7 @@
     "slika": "slike/spomenici/ajdovscina.webp",
     "name": "Monument to the People's Lib. Struggle",
     "year": "1954",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -7992,6 +8299,7 @@
     "slika": "slike/spomenici/aleksandrovac.webp",
     "naziv": "Spomenik žrtvama fašizma",
     "name": "Monument to Fallen Fighters",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -8005,6 +8313,7 @@
     "slika": "slike/spomenici/prokuplje.webp",
     "name": "Monument to Fallen Fighters",
     "year": "1953",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -8018,6 +8327,7 @@
     "slika": "slike/spomenici/brajici.webp",
     "name": "Monument to Fallen Fighters",
     "year": "1978",
+    "type": "spomenik",
     "drzava": "Montenegro"
   },
   {
@@ -8029,6 +8339,7 @@
     "title": "Ljubotinj",
     "slika": "slike/spomenici/ljubotinj.webp",
     "name": "Monument to Fallen Fighters",
+    "type": "spomenik",
     "drzava": "Montenegro"
   },
   {
@@ -8037,11 +8348,11 @@
       "lat": 42.38835926,
       "lng": 18.92261217
     },
-    "googleCid": "10802566054788747225",
     "title": "Cetinje",
     "slika": "slike/spomenici/cetinje.webp",
     "name": "Memorial Crypt for Fallen Fighters",
     "year": "1954",
+    "type": "spomenik",
     "drzava": "Montenegro"
   },
   {
@@ -8055,6 +8366,7 @@
     "slika": "slike/spomenici/pljevlja-worker-s-strike.webp",
     "name": "Monument to the Worker's Strike of 1940",
     "year": "1970",
+    "type": "spomenik",
     "drzava": "Montenegro"
   },
   {
@@ -8070,6 +8382,7 @@
     "naziv": "Spomenik Podunavskom partizanskom odredu u Inđiji",
     "name": "Monument to the Danube Partisan Detach.",
     "year": "1975",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -8082,6 +8395,7 @@
     "slika": "slike/spomenici/okucani.webp",
     "name": "Monument to Fallen Fighters",
     "year": "1954",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -8095,6 +8409,7 @@
     "slika": "slike/spomenici/borovik.webp",
     "name": "Monument to Fallen Fighters",
     "year": "1965",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -8108,6 +8423,7 @@
     "naziv": "Spomen-obilježje partizanskoj bolnici Stupe",
     "name": "Stupe Partisan Hospital Memorial",
     "year": "1981",
+    "type": "kompleks",
     "drzava": "Croatia"
   },
   {
@@ -8121,6 +8437,7 @@
     "name": "Monument to Brotherhood & Unity",
     "year": "1951",
     "stanje": "uklonjen",
+    "type": "spomenik",
     "drzava": "Kosovo"
   },
   {
@@ -8135,6 +8452,7 @@
     "naziv": "Spomenik „Sloboda”",
     "name": "The Freedom Monument",
     "year": "1957",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -8148,6 +8466,7 @@
     "slika": "slike/spomenici/blatec.webp",
     "name": "Monument to Fallen Fighters",
     "year": "1981",
+    "type": "spomenik",
     "drzava": "Macedonia"
   },
   {
@@ -8161,6 +8480,7 @@
     "slika": "slike/spomenici/buje.webp",
     "name": "Monument to Fallen Fighters",
     "year": "1954",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -8187,6 +8507,7 @@
     "slika": "slike/spomenici/topusko-3rd-session-zavnoh-2.webp",
     "name": "Monument to 3rd Session of ZAVNOH",
     "year": "1950",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -8200,6 +8521,7 @@
     "slika": "slike/spomenici/demir-hisar.webp",
     "name": "Monument to Fallen Fighters",
     "year": "1968",
+    "type": "spomenik",
     "drzava": "Macedonia"
   },
   {
@@ -8213,6 +8535,7 @@
     "slika": "slike/spomenici/negorci.webp",
     "name": "Monument to Fallen Fighters",
     "year": "1982",
+    "type": "spomenik",
     "drzava": "Macedonia"
   },
   {
@@ -8225,6 +8548,7 @@
     "slika": "slike/spomenici/prkovci.webp",
     "name": "Mon. to Victims of Fascism - \"Mother\"",
     "year": "1966",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -8269,6 +8593,7 @@
     "slika": "slike/spomenici/kruscic.webp",
     "name": "Monument to Vukman Kruščić",
     "year": "1975",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -8282,6 +8607,7 @@
     "slika": "slike/spomenici/kula.webp",
     "name": "Monument to Fallen Fighters",
     "year": "1951",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -8295,6 +8621,7 @@
     "naziv": "Građanima Kucure koji su poginuli u Drugom svetskom ratu",
     "name": "Monument to the Sun of Freedom",
     "year": "1987",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -8308,6 +8635,7 @@
     "slika": "slike/spomenici/drvenik-veli.webp",
     "name": "Mother of Dalmatia Monument",
     "year": "1985",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -8321,6 +8649,7 @@
     "slika": "slike/spomenici/bjelosevac.webp",
     "name": "Monument to Fighters of WWI & WWII",
     "year": "1971",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -8335,6 +8664,7 @@
     "naziv": "Spomenik NOB",
     "name": "The \"Living Wall\" Monument",
     "year": "1983",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -8348,6 +8678,7 @@
     "slika": "slike/spomenici/melenci-north-banat-partisan.webp",
     "name": "Monument to North Banat Partisan Unit",
     "year": "1981",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -8362,6 +8693,7 @@
     "naziv": "Spomenik Podunavskom odredu",
     "name": "Monument to the Danube Partisan Unit",
     "year": "1981",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -8374,6 +8706,7 @@
     "slika": "slike/spomenici/sasinci.webp",
     "name": "\"Meeting of the Couriers\" Monument",
     "year": "1979",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -8385,6 +8718,7 @@
     "title": "Livađe/Livagjë",
     "slika": "slike/spomenici/livadje-livagje.webp",
     "name": "Monument to Fallen Fighters",
+    "type": "spomenik",
     "drzava": "Kosovo"
   },
   {
@@ -8396,6 +8730,7 @@
     "title": "Pavino Polje",
     "slika": "slike/spomenici/pavino-polje.webp",
     "name": "Monument to Fallen Fighters",
+    "type": "spomenik",
     "drzava": "Montenegro"
   },
   {
@@ -8408,6 +8743,7 @@
     "slika": "slike/spomenici/banatsko-arandjelovo.webp",
     "name": "Monument to Fallen Fighters - \"Padlock\"",
     "year": "1982",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -8421,6 +8757,7 @@
     "slika": "slike/spomenici/prevoje-pri-sentvidu.webp",
     "name": "Monument to Fallen Fighters",
     "year": "1966",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -8434,6 +8771,7 @@
     "slika": "slike/spomenici/kriz.webp",
     "naziv": "Spomenik žrtvama fašizma u Križu",
     "name": "Monument to Fallen Fighters",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -8447,6 +8785,7 @@
     "slika": "slike/spomenici/nova-vas.webp",
     "name": "Monument to Fallen Fighters",
     "year": "1951",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -8459,6 +8798,7 @@
     "title": "Badžula",
     "slika": "slike/spomenici/badzula.webp",
     "name": "Mon. to the Battle of Vuk's Pass",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -8472,6 +8812,7 @@
     "slika": "slike/spomenici/gracac.webp",
     "name": "Monument & Ossuary to Fallen Fighters",
     "year": "1950",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -8485,6 +8826,7 @@
     "slika": "slike/spomenici/domzale.webp",
     "name": "Monument to Fallen Fighters",
     "year": "1954",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -8497,6 +8839,7 @@
     "slika": "slike/spomenici/kocevje.webp",
     "name": "Monument to Freedom",
     "year": "1953",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -8510,6 +8853,7 @@
     "slika": "slike/spomenici/melenci-fallen-fighters.webp",
     "name": "Monument to Fallen Fighters",
     "year": "1953",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -8537,6 +8881,7 @@
     "slika": "slike/spomenici/golubac.webp",
     "name": "Monument to Fallen Fighters",
     "year": "1967",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -8551,6 +8896,7 @@
     "name": "\"Fallen for the Freedom of the People\"",
     "year": "1959",
     "stanje": "rusevine",
+    "type": "spomenik",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -8577,6 +8923,7 @@
     "title": "Rajhenburg Castle",
     "info": "https://www.gradrajhenburg.si/en/history/rajhenburg-castle",
     "slika": "slike/spomenici/rajhenburg-castle.webp",
+    "type": "muzej",
     "drzava": "Slovenia"
   },
   {
@@ -8590,6 +8937,7 @@
     "slika": "slike/spomenici/bedekovcina.webp",
     "name": "Monument to Fallen Fighters [aka: Winners]",
     "year": "1976",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -8603,6 +8951,7 @@
     "slika": "slike/spomenici/barajevo.webp",
     "naziv": "Spomenik palim borcima",
     "name": "Monument to Fallen Fighters",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -8616,6 +8965,7 @@
     "naziv": "Spomenik NOR-a „Borovo brdo”",
     "name": "Monument to the First Rača Partisan Comp.",
     "year": "1967",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -8629,6 +8979,7 @@
     "name": "Monument to Fallen Fighters",
     "year": "1973",
     "stanje": "rusevine",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -8640,6 +8991,7 @@
     "title": "Bavanište",
     "slika": "slike/spomenici/bavaniste.webp",
     "name": "Monument to Fallen Fighters",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -8653,6 +9005,7 @@
     "slika": "slike/spomenici/pecinci.webp",
     "name": "Monument to Fallen Fighters",
     "year": "1957",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -8664,6 +9017,7 @@
     "googleCid": "2502203508975878489",
     "title": "Lumbarda",
     "name": "Mon. to Fallen Fighters (Fallen Courier])",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -8678,6 +9032,7 @@
     "name": "Mon. to Liberators of Cres & Lošinj",
     "year": "1955",
     "author": "Dušan Džamonja",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -8692,6 +9047,7 @@
     "name": "Freedom & Peace Monument",
     "year": "1985",
     "author": "Stojan Batič",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -8705,6 +9061,7 @@
     "name": "Mon. to Last Euro. Battles of WWII",
     "year": "1985",
     "author": "Gary Dwyer",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -8719,6 +9076,7 @@
     "naziv": "Spomenik partizanima - Plamen revolucije",
     "name": "The Flame of the Revolution",
     "year": "1975",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -8733,6 +9091,7 @@
     "naziv": "Spomenik „Ilindenski heroi“",
     "name": "Ilinden Uprising Memorial Mosaic",
     "year": "1954",
+    "type": "spomenik",
     "drzava": "Macedonia"
   },
   {
@@ -8746,6 +9105,7 @@
     "slika": "slike/spomenici/donje-konjuvce.webp",
     "name": "Monument to Fallen Fighters",
     "year": "1976",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -8758,6 +9118,7 @@
     "slika": "slike/spomenici/cerje-jesenjsko.webp",
     "name": "Monument to Victims of Fascist Terror",
     "year": "1973",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -8771,6 +9132,7 @@
     "naziv": "Spomenik NOB",
     "name": "Mon. to Crossing of 30th Division",
     "year": "1984",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -8783,6 +9145,7 @@
     "slika": "slike/spomenici/babusnica.webp",
     "name": "Mon. to Fighters of the Lužnica Region",
     "year": "1950",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -8797,6 +9160,7 @@
     "naziv": "Spomenik akcijašima",
     "name": "Youth Work Action Monument",
     "year": "1961",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -8810,6 +9174,7 @@
     "slika": "slike/spomenici/azanja.webp",
     "name": "Monument to the Battle of Azanja",
     "year": "1977",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -8822,6 +9187,7 @@
     "slika": "slike/spomenici/davidovac.webp",
     "name": "Monument to Fallen Pilots",
     "year": "1986",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -8835,6 +9201,7 @@
     "slika": "slike/spomenici/kupresko-polje.webp",
     "naziv": "Partizanski aerodrom",
     "name": "Monument to the Partisan Airfield",
+    "type": "spomenik",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -8848,6 +9215,7 @@
     "slika": "slike/spomenici/lipovec-lonjski.webp",
     "name": "Monument to Fallen Fighters",
     "year": "1988",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -8861,6 +9229,7 @@
     "slika": "slike/spomenici/donje-jelenje.webp",
     "name": "The Hands of Freedom",
     "year": "1981",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -8877,6 +9246,7 @@
     "name": "Monument to Fallen Fighters Monument",
     "year": "1954",
     "author": "Jovan Kratohvil",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -8890,6 +9260,7 @@
     "slika": "slike/spomenici/baska.webp",
     "name": "Monument to Fallen Fighters",
     "year": "1950",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -8902,6 +9273,7 @@
     "slika": "slike/spomenici/verzej.webp",
     "name": "Flower of Brotherhood and Unity",
     "year": "1981",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -8915,6 +9287,7 @@
     "slika": "slike/spomenici/slovenj-gradec.webp",
     "name": "Freedom Monument",
     "year": "1955",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -8928,6 +9301,7 @@
     "slika": "slike/spomenici/glina.webp",
     "name": "Monument to 1941 Glina Massacres",
     "year": "1969",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -8939,6 +9313,7 @@
     "title": "Raborci",
     "slika": "slike/spomenici/raborci.webp",
     "name": "Monument to the Osogovo Group",
+    "type": "kompleks",
     "drzava": "Macedonia"
   },
   {
@@ -8947,12 +9322,12 @@
       "lat": 45.4351503,
       "lng": 17.19438621
     },
-    "googleCid": "2439291520569617394",
     "title": "Pakrac",
     "slika": "slike/spomenici/pakrac.webp",
     "naziv": "Spomenik palim borcima",
     "name": "Monument to the Wounded Fighter",
     "year": "1955",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -8967,6 +9342,7 @@
     "naziv": "Spomenik palim borcima NOB",
     "name": "Fallen Fighters Monument & Crypt",
     "year": "1952",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -8980,6 +9356,7 @@
     "slika": "slike/spomenici/kursumlija-drinka-pavlovic.webp",
     "name": "Monument to Drinka Pavlović",
     "year": "1955",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -8994,6 +9371,7 @@
     "name": "Monument to Fallen Fighters",
     "year": "1973",
     "author": "Ante Gržetić",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -9008,6 +9386,7 @@
     "naziv": "Spomen-kosturnica palim borcima i žrtvama fašizma",
     "name": "Mem. Crypt to Fallen Fighters & Victims",
     "year": "1954",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -9020,6 +9399,7 @@
     "slika": "slike/spomenici/rasevica.webp",
     "name": "Monument to Fallen Fighters",
     "year": "1985",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -9034,6 +9414,7 @@
     "naziv": "Spomenik palima u NOB-u",
     "name": "Monument to Fallen Fighters",
     "year": "1964",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -9046,6 +9427,7 @@
     "slika": "slike/spomenici/tribalj.webp",
     "name": "Monument to Fallen Fighters",
     "year": "1950",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -9059,6 +9441,7 @@
     "slika": "slike/spomenici/zakucac.webp",
     "name": "Mon. to Fallen Fighters & Dam Workers",
     "year": "1970",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -9072,6 +9455,7 @@
     "slika": "slike/spomenici/kozica.webp",
     "name": "Monument to Fallen Fighters",
     "year": "1973",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -9085,6 +9469,7 @@
     "slika": "slike/spomenici/raspor.webp",
     "name": "Mon. to 1st <a href=\"https://en.wikipedia.org/wiki/Women%27s_Antifascist_Front_of_Yugoslavia\" target=\"_blank\">AFŽ</a> Congress of Istria",
     "year": "1964",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -9097,6 +9482,7 @@
     "slika": "slike/spomenici/stari-zednik.webp",
     "name": "Monument to Fallen Fighters",
     "year": "1976",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -9287,6 +9673,7 @@
     "slika": "slike/spomenici/ozalj.webp",
     "name": "Monument to Fallen Fighters & Victims",
     "year": "1985",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -9300,6 +9687,7 @@
     "name": "Monument to the Battle of Šušnjari",
     "year": "1968",
     "stanje": "rusevine",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -9312,6 +9700,7 @@
     "slika": "slike/spomenici/tuhobic-mountain.webp",
     "name": "Mon. to Camp of Comp. Božo Vidas-Vuk",
     "year": "1982",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -9341,6 +9730,7 @@
     "name": "Monument to Fallen Fighters",
     "year": "1959",
     "author": "Petar Krstić",
+    "type": "spomenik",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -9356,6 +9746,7 @@
     "name": "Memorial Tomb to 9th NOB Corps",
     "year": "1958",
     "author": "Edvard Ravnikar",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -9383,6 +9774,7 @@
     "slika": "slike/spomenici/klenoec.webp",
     "name": "Monument to Fallen Fighters",
     "year": "1983",
+    "type": "spomenik",
     "drzava": "Macedonia"
   },
   {
@@ -9396,6 +9788,7 @@
     "slika": "slike/spomenici/koljane.webp",
     "name": "Monument to Fallen Fighters",
     "year": "1980",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -9408,6 +9801,7 @@
     "slika": "slike/spomenici/kosel.webp",
     "name": "Monument to Fallen Fighters",
     "year": "1987",
+    "type": "spomenik",
     "drzava": "Macedonia"
   },
   {
@@ -9461,6 +9855,7 @@
     "slika": "slike/spomenici/ribniski-vrh.webp",
     "name": "Monument to Fallen Pohorje Partisans",
     "year": "1961",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -9489,6 +9884,7 @@
     "slika": "slike/spomenici/belgrade-s-new-cemetery.webp",
     "name": "The Alley of the Executed Patriots",
     "year": "1959",
+    "type": "groblje",
     "drzava": "Serbia"
   },
   {
@@ -9531,6 +9927,7 @@
     "slika": "slike/spomenici/paracin-glass-factory.webp",
     "name": "Monument to Glass Factory Fighters",
     "year": "1966",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -9544,6 +9941,7 @@
     "slika": "slike/spomenici/zrnovnica.webp",
     "name": "Mon. to Fallen Fighters at Sutjeska",
     "year": "1976",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -9566,7 +9964,6 @@
       "lat": 44.12103823,
       "lng": 18.20160711
     },
-    "googleCid": "16898264425539982232",
     "title": "Kraljeva Sutjeska",
     "slika": "slike/spomenici/kraljeva-sutjeska.webp",
     "name": "Partisan Memorial Cemetery",
@@ -9586,6 +9983,7 @@
     "naziv": "Spomenik Narodnooslobodilačke borbe",
     "name": "Mon. to the People's Liberation Struggle",
     "year": "1951",
+    "type": "spomenik",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -9597,6 +9995,7 @@
     "title": "Jelov Panj",
     "slika": "slike/spomenici/jelov-panj.webp",
     "name": "Monument to Fallen Fighters",
+    "type": "spomenik",
     "drzava": "Montenegro"
   },
   {
@@ -9605,7 +10004,6 @@
       "lat": 44.88469789,
       "lng": 16.15491801
     },
-    "googleCid": "6675307170826321496",
     "title": "Bosanska Krupa",
     "slika": "slike/spomenici/bosanska-krupa.webp",
     "name": "Partisan Memorial Cemetery",
@@ -9623,6 +10021,7 @@
     "slika": "slike/spomenici/tinja.webp",
     "name": "Memorial Ossuary of WWII Fighters",
     "year": "1974",
+    "type": "spomenik",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -9634,6 +10033,7 @@
     "title": "Vrh Slemen",
     "slika": "slike/spomenici/vrh-slemen.webp",
     "name": "Monument to the Battle of Slemen",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -9648,6 +10048,7 @@
     "slika": "slike/spomenici/kicevo-mus-western-macedonia.webp",
     "naziv": "Muzej „Zapadna Makedonija vo NOB“",
     "name": "Mus. of Western Macedonia in the NOB",
+    "type": "muzej",
     "drzava": "Macedonia"
   },
   {
@@ -9671,6 +10072,7 @@
     "title": "Brgod",
     "slika": "slike/spomenici/brgod.webp",
     "name": "Monument to Fallen Fighters",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -9684,6 +10086,7 @@
     "slika": "slike/spomenici/rastani.webp",
     "naziv": "8. makedonska narodnoosloboditelna udarna brigada",
     "name": "Mon. to 8th Mac. Strike Brigade",
+    "type": "spomenik",
     "drzava": "Macedonia"
   },
   {
@@ -9698,6 +10101,7 @@
     "naziv": "Poljanska vstaja",
     "name": "Mem. Mural to the Poljane Uprising",
     "year": "1981",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -9710,6 +10114,7 @@
     "slika": "slike/spomenici/vodanj.webp",
     "name": "Monument to Fallen Fighters",
     "year": "1981",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -9722,6 +10127,7 @@
     "slika": "slike/spomenici/srbinovo.webp",
     "name": "Monument to Fallen Fighters",
     "year": "1982",
+    "type": "spomenik",
     "drzava": "Macedonia"
   },
   {
@@ -9736,6 +10142,7 @@
     "name": "Monument to Boris Kidrič",
     "year": "1972",
     "stanje": "uklonjen",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -9747,6 +10154,7 @@
     "title": "Aleksandrovo",
     "slika": "slike/spomenici/aleksandrovo.webp",
     "name": "Monument to Fallen Fighters",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -9760,6 +10168,7 @@
     "slika": "slike/spomenici/abez-forest.webp",
     "name": "Mon. to Uprising of Banija & Kordun",
     "year": "1966",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -9772,6 +10181,7 @@
     "slika": "slike/spomenici/pranjani.webp",
     "name": "Mem. Mosaic to Fallen Fighters",
     "year": "1974",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -9786,6 +10196,7 @@
     "naziv": "Palim za slobodu i socijalizam",
     "name": "Monument to Fallen Fighters",
     "year": "1958",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -9799,6 +10210,7 @@
     "slika": "slike/spomenici/korcula.webp",
     "name": "Monument to Fallen Fighters",
     "year": "1981",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -9811,6 +10223,7 @@
     "slika": "slike/spomenici/zrnovo.webp",
     "name": "Monument to Fallen Fighters",
     "year": "1975",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -9823,6 +10236,7 @@
     "slika": "slike/spomenici/martinovici.webp",
     "name": "Monument to Fallen Fighters",
     "year": "1959",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -9836,6 +10250,7 @@
     "slika": "slike/spomenici/rudnik-mountain.webp",
     "name": "Mon. to the 1st Šumadija Detachment",
     "year": "1968",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -9849,6 +10264,7 @@
     "slika": "slike/spomenici/duga-resa.webp",
     "name": "Monument to Fallen Fighters",
     "year": "1955",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -9861,6 +10277,7 @@
     "slika": "slike/spomenici/pridvorice.webp",
     "name": "Monument to Fallen Fighters",
     "year": "1978",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -9873,6 +10290,7 @@
     "slika": "slike/spomenici/vranjska-banja.webp",
     "name": "Monument to Fallen Fighters",
     "year": "1951",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -9886,6 +10304,7 @@
     "slika": "slike/spomenici/donji-vijacani.webp",
     "name": "Monument to Fallen Fighters",
     "year": "1971",
+    "type": "spomenik",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -9898,6 +10317,7 @@
     "slika": "slike/spomenici/okroglice.webp",
     "name": "Mon. to Slain Couriers at Dom Prašnikar",
     "year": "1971",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -9911,6 +10331,7 @@
     "slika": "slike/spomenici/stanari.webp",
     "name": "Monument to Fallen Fighters",
     "year": "1976",
+    "type": "spomenik",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -9923,6 +10344,7 @@
     "slika": "slike/spomenici/cecava.webp",
     "name": "Monument to Victims of Fascism",
     "year": "1976",
+    "type": "spomenik",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -9937,6 +10359,7 @@
     "naziv": "Spomenik palim borcima NOB-a",
     "name": "Memorial Ossuary and Crypt",
     "year": "1961",
+    "type": "spomenik",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -9949,6 +10372,7 @@
     "slika": "slike/spomenici/prnjavor.webp",
     "name": "Monument to Fallen Fighters",
     "year": "1984",
+    "type": "spomenik",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -9962,6 +10386,7 @@
     "naziv": "Spomen-kosturnica",
     "name": "Monument & Memorial Ossuary",
     "year": "1951",
+    "type": "spomenik",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -9975,6 +10400,7 @@
     "slika": "slike/spomenici/brestanica.webp",
     "name": "Monument to Exiles",
     "year": "1962",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -9983,11 +10409,11 @@
       "lat": 43.93773156,
       "lng": 15.44355886
     },
-    "googleCid": "8366131335151291404",
     "title": "Biograd na Moru",
     "slika": "slike/spomenici/biograd-na-moru.webp",
     "name": "Monument to Fallen Fighters",
     "year": "1953",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -10001,6 +10427,7 @@
     "slika": "slike/spomenici/daruvar.webp",
     "name": "Monument to Fallen Fighters",
     "year": "1964",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -10014,6 +10441,7 @@
     "slika": "slike/spomenici/postojna.webp",
     "name": "Monument to Fallen Fighters",
     "year": "1952",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -10026,6 +10454,7 @@
     "slika": "slike/spomenici/backi-petrovac.webp",
     "name": "Monument to Fallen Fighters",
     "year": "1980",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -10039,6 +10468,7 @@
     "slika": "slike/spomenici/grmusa.webp",
     "name": "Monument to Fallen Fighters",
     "year": "1975",
+    "type": "spomenik",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -10052,6 +10482,7 @@
     "slika": "slike/spomenici/buzet.webp",
     "name": "Monument to Fallen Fighters",
     "year": "1988",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -10079,6 +10510,7 @@
     "slika": "slike/spomenici/logatec.webp",
     "name": "Monument to Fallen Fighters",
     "year": "1958",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -10107,6 +10539,7 @@
     "slika": "slike/spomenici/nazarje.webp",
     "name": "Monument to WWII Hostages & Fighters",
     "year": "1955",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -10120,6 +10553,7 @@
     "slika": "slike/spomenici/novo-mesto.webp",
     "name": "\"Song of Freedom\" Monument",
     "year": "1953",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -10136,6 +10570,7 @@
     "year": "1955",
     "author": "Vojin Bakić",
     "stanje": "ostecen",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -10147,6 +10582,7 @@
     "title": "Cerje",
     "slika": "slike/spomenici/cerje.webp",
     "name": "Mon. to 71 Civilian Victims of Fascism",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -10160,6 +10596,7 @@
     "naziv": "Žrtvama fašizma",
     "name": "Monument to Fallen Fighters",
     "year": "1973",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -10172,6 +10609,7 @@
     "slika": "slike/spomenici/basaid.webp",
     "name": "Monument to Fallen Fighters",
     "year": "1967",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -10185,6 +10623,7 @@
     "slika": "slike/spomenici/podgorac.webp",
     "naziv": "Spomenik poginulim Podgorčanima u ratovima 1912-1918 i 1941-1945",
     "name": "Monument to Fallen Fighters",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -10199,6 +10638,7 @@
     "naziv": "Spomenik palim borcima Drugog svjetskog rata",
     "name": "Monument to Fallen Fighters",
     "year": "1949",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -10226,6 +10666,7 @@
     "name": "Monument to Jovan \"Ivo\" Marinković",
     "year": "1952",
     "stanje": "uklonjen",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -10239,6 +10680,7 @@
     "name": "Monument to Fallen Fighters",
     "year": "1957",
     "stanje": "uklonjen",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -10253,6 +10695,7 @@
     "naziv": "Vjesnik slobode",
     "name": "\"Herald of Victory\" Monument",
     "year": "1955",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -10265,6 +10708,7 @@
     "slika": "slike/spomenici/tugare.webp",
     "name": "Monument to Fallen Fighters",
     "year": "1981",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -10277,6 +10721,7 @@
     "slika": "slike/spomenici/vinkovci.webp",
     "name": "Monument to Mirko Romčević",
     "year": "1973",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -10290,6 +10735,7 @@
     "slika": "slike/spomenici/sipovo.webp",
     "name": "Monument to Simo Šolaja",
     "year": "1961",
+    "type": "spomenik",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -10303,6 +10749,7 @@
     "name": "Monument to Fallen Fighters",
     "year": "1957",
     "stanje": "uklonjen",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -10316,6 +10763,7 @@
     "slika": "slike/spomenici/baljevac.webp",
     "name": "Monument to Fallen Miners",
     "year": "1951",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -10341,6 +10789,7 @@
     "slika": "slike/spomenici/klokoc-mountain.webp",
     "name": "Mon. to Formation of Arilje Battalion",
     "year": "1977",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -10349,11 +10798,11 @@
       "lat": 43.75276497,
       "lng": 20.09725084
     },
-    "googleCid": "7370469216432940754",
     "title": "Arilje",
     "slika": "slike/spomenici/arilje.webp",
     "name": "Monument to Fighters of the Revolution",
     "year": "1961",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -10366,6 +10815,7 @@
     "slika": "slike/spomenici/zmajevo.webp",
     "name": "Monument to Fallen Fighters",
     "year": "1950",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -10379,6 +10829,7 @@
     "slika": "slike/spomenici/kovacica.webp",
     "name": "Monument to Fallen Fighters",
     "year": "1954",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -10392,6 +10843,7 @@
     "slika": "slike/spomenici/cantavir.webp",
     "name": "Monument to 1936 Workers' Strike",
     "year": "1986",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -10404,6 +10856,7 @@
     "title": "Deč",
     "slika": "slike/spomenici/dec.webp",
     "name": "Monument to Fallen Fighters",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -10416,6 +10869,7 @@
     "slika": "slike/spomenici/kumane.webp",
     "naziv": "Spomenik palima u Drugom svetskom ratu",
     "name": "Monument to Fallen Fighters",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -10428,6 +10882,7 @@
     "slika": "slike/spomenici/novo-milosevo.webp",
     "name": "Monument to Fallen Fighters",
     "year": "1954",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -10442,6 +10897,7 @@
     "naziv": "Spomenik Zdravku Čelaru",
     "name": "Monument to Zdravko Čelar",
     "year": "1965",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -10454,6 +10910,7 @@
     "title": "Kupinečki Kraljevec",
     "slika": "slike/spomenici/kupinecki-kraljevec.webp",
     "name": "Monument to Fallen Fighters",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -10462,10 +10919,10 @@
       "lat": 45.5063183,
       "lng": 19.52210765
     },
-    "googleCid": "11829277419222157434",
     "title": "Savino Selo",
     "slika": "slike/spomenici/savino-selo.webp",
     "name": "Mon. to Fallen Fighters (Stone Wheat Spike)",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -10479,6 +10936,7 @@
     "slika": "slike/spomenici/krsko.webp",
     "name": "\"The Road of Krško Victims\" Monument",
     "year": "1957",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -10491,6 +10949,7 @@
     "slika": "slike/spomenici/belegis.webp",
     "name": "Monument to Fallen Fighters",
     "year": "1950",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -10504,6 +10963,7 @@
     "slika": "slike/spomenici/cakovec-cemetery.webp",
     "name": "Mem. to Fallen Partisans \"Mourning\"",
     "year": "1949",
+    "type": "groblje",
     "drzava": "Croatia"
   },
   {
@@ -10517,6 +10977,7 @@
     "naziv": "Spomenik Crnotravki",
     "name": "Mother, Fighter & Worker of Crna Trava",
     "year": "1983",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -10525,11 +10986,11 @@
       "lat": 44.76729269,
       "lng": 21.51855048
     },
-    "googleCid": "158008450029812887",
     "title": "Veliko Gradište",
     "slika": "slike/spomenici/veliko-gradiste.webp",
     "name": "Monument to Fallen Fighters",
     "year": "1959",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -10544,6 +11005,7 @@
     "name": "Monument to Vareš Miners",
     "year": "1958",
     "author": "Marijan Kocković",
+    "type": "spomenik",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -10558,6 +11020,7 @@
     "name": "Monument to Fallen Fighters",
     "year": "1962",
     "stanje": "rusevine",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -10572,6 +11035,7 @@
     "naziv": "Spomenik palim borcima i žrtvama fašističkog terora Dugo Selo",
     "name": "Monument to Fallen Fighters",
     "year": "1950",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -10585,6 +11049,7 @@
     "slika": "slike/spomenici/sabac.webp",
     "name": "Monument to Fallen Fighters",
     "year": "1968",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -10598,6 +11063,7 @@
     "slika": "slike/spomenici/varazdin.webp",
     "naziv": "Spomenik ranjenom borcu",
     "name": "\"Wounded Warrior\" Monument",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -10611,6 +11077,7 @@
     "slika": "slike/spomenici/jagodina-cemetery-tomb-for-fallen.webp",
     "name": "Tomb for Fallen Red Army Soldiers",
     "year": "1962",
+    "type": "groblje",
     "drzava": "Serbia"
   },
   {
@@ -10619,11 +11086,11 @@
       "lat": 44.45594908,
       "lng": 20.07352641
     },
-    "googleCid": "187256911030482035",
     "title": "Ub",
     "slika": "slike/spomenici/ub.webp",
     "name": "Monument to Fighters of Tamnava",
     "year": "1953",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -10636,6 +11103,7 @@
     "title": "Kanjiža",
     "slika": "slike/spomenici/kanjiza.webp",
     "name": "Monument to Freedom",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -10649,6 +11117,7 @@
     "slika": "slike/spomenici/svrljig.webp",
     "name": "Monument to Fallen Fighters",
     "year": "1950",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -10663,6 +11132,7 @@
     "naziv": "Spomenik prekmurske matere z otrokom",
     "name": "Monument to the Mother of Prekmurje",
     "year": "1965",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -10677,6 +11147,7 @@
     "naziv": "Spomenik palim borcima",
     "name": "Monument to Fallen Fighters",
     "year": "1954",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -10690,6 +11161,7 @@
     "slika": "slike/spomenici/sentjernej.webp",
     "name": "Monument to Fallen Fighters",
     "year": "1959",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -10704,6 +11176,7 @@
     "year": "1974",
     "author": "Stevan Luketić",
     "stanje": "rusevine",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -10716,6 +11189,7 @@
     "slika": "slike/spomenici/dugopolje.webp",
     "name": "Monument to Fallen Fighters",
     "stanje": "uklonjen",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -10730,6 +11204,7 @@
     "name": "Monument to Fallen Fighters",
     "year": "1974",
     "stanje": "rusevine",
+    "type": "spomenik",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -10759,6 +11234,7 @@
     "name": "Monument to Fallen Fighters",
     "year": "1981",
     "stanje": "uklonjen",
+    "type": "spomenik",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -10771,6 +11247,7 @@
     "title": "Crvena Jabuka",
     "slika": "slike/spomenici/crvena-jabuka.webp",
     "name": "Monument to Fallen Fighters",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -10801,6 +11278,7 @@
     "naziv": "Spomenik žrtvama Četvrte ofanzive",
     "name": "Monument to victims of the 4th Offensive",
     "year": "1986",
+    "type": "spomenik",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -10814,6 +11292,7 @@
     "slika": "slike/spomenici/grkinja.webp",
     "name": "Monument to Fallen Fighters",
     "year": "1979",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -10826,6 +11305,7 @@
     "title": "Štrbac [Karadžin Hill]",
     "slika": "slike/spomenici/strbac.webp",
     "name": "Mon. to the Zaglav-Timok Partisan Unit",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -10838,6 +11318,7 @@
     "slika": "slike/spomenici/ocigrije.webp",
     "name": "Monument to Fallen Fighters",
     "stanje": "rusevine",
+    "type": "spomenik",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -10849,6 +11330,7 @@
     "title": "Gornja Bijela",
     "slika": "slike/spomenici/gornja-bijela.webp",
     "name": "Monument to Fallen Fighters",
+    "type": "spomenik",
     "drzava": "Montenegro"
   },
   {
@@ -10862,6 +11344,7 @@
     "name": "Monument to the Six Factories",
     "year": "1976",
     "stanje": "uklonjen",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -10874,6 +11357,7 @@
     "title": "Kakanj",
     "slika": "slike/spomenici/kakanj.webp",
     "naziv": "Spomen-obilježje palim borcima NOR-a 1941-1945.",
+    "type": "spomenik",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -10886,6 +11370,7 @@
     "slika": "slike/spomenici/alibunar.webp",
     "name": "Monument to the First Massacre",
     "year": "1959",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -10897,6 +11382,7 @@
     "title": "Korita",
     "slika": "slike/spomenici/korita.webp",
     "name": "Monument to Executed Victims",
+    "type": "spomenik",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -10909,6 +11395,7 @@
     "slika": "slike/spomenici/vlahovici.webp",
     "name": "Mon. to Fallen Fighters & Victims",
     "year": "1951",
+    "type": "kompleks",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -10949,6 +11436,7 @@
     "name": "Monument to Fallen Fighters",
     "year": "1977",
     "author": "Dragiša Trifković",
+    "type": "spomenik",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -10961,6 +11449,7 @@
     "title": "Donji Lapac",
     "slika": "slike/spomenici/donji-lapac-fallen-fighters.webp",
     "name": "Monument to Fallen Fighters [?]",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -10969,12 +11458,12 @@
       "lat": 44.74589501,
       "lng": 15.70539969
     },
-    "googleCid": "3313700088247243858",
     "title": "Korenica Center",
     "slika": "slike/spomenici/korenica-center.webp",
     "name": "Monument to Marko Orešković",
     "year": "1952",
     "stanje": "srusen",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -10987,6 +11476,7 @@
     "title": "Rožaje - Top Hill",
     "slika": "slike/spomenici/rozaje-top-hill.webp",
     "name": "Monument to Radun Đukić",
+    "type": "spomenik",
     "drzava": "Montenegro"
   },
   {
@@ -11000,6 +11490,7 @@
     "name": "Mon. to Fallen Imotska Krajina Warriors",
     "year": "1971",
     "stanje": "uklonjen",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -11013,6 +11504,7 @@
     "name": "Memorial Crypt for Fallen Fighters",
     "year": "1950",
     "stanje": "uklonjen",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -11027,6 +11519,7 @@
     "name": "Mon. to Fallen Fighters, \"Partizan\"",
     "year": "1951",
     "stanje": "uklonjen",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -11041,6 +11534,7 @@
     "name": "Mon. to Victims of Udbina & Podlapačja",
     "year": "1950",
     "stanje": "rusevine",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -11054,6 +11548,7 @@
     "slika": "slike/spomenici/zupanov-laz.webp",
     "name": "Mon. to Snežnik Partisan Hospital",
     "year": "1976",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -11062,11 +11557,11 @@
       "lat": 42.21014041,
       "lng": 20.74220197
     },
-    "googleCid": "9262566236304272945",
     "title": "Prizren",
     "slika": "slike/spomenici/prizren.webp",
     "name": "The Martyrs' Monument",
     "year": "1984",
+    "type": "spomenik",
     "drzava": "Kosovo"
   },
   {
@@ -11075,12 +11570,12 @@
       "lat": 45.08180615,
       "lng": 15.36335629
     },
-    "googleCid": "8068155242125809929",
     "title": "Plaški",
     "slika": "slike/spomenici/plaski.webp",
     "name": "Tomb for Fallen Fighters",
     "year": "1972",
     "stanje": "uklonjen",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -11095,6 +11590,7 @@
     "naziv": "Mjesto osnivanja Komunističke partije Hrvatske, 1937.",
     "name": "1937 Founding of Cro. Communist Party",
     "year": "1952",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -11108,6 +11604,7 @@
     "name": "Monument to Nikola Miljanović",
     "year": "1949",
     "stanje": "uklonjen",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -11122,6 +11619,7 @@
     "name": "Monument to the Uprising",
     "year": "1952",
     "stanje": "uklonjen",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -11136,6 +11634,7 @@
     "naziv": "Spomenik Ivi Loli Ribaru",
     "name": "Monument to Ivo Lola Ribar",
     "year": "1952",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
