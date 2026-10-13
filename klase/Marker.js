@@ -5,7 +5,7 @@ import {izgledMarkera} from '../utils/ikonice.js'
 const razmeraZuma = {6: 0.5, 7: 0.55, 8: 0.65, 9: 0.8} // ostali zumovi pun obelisk
 const razmeraVaznih = 1.25
 const razmeraSitnih = 0.6
-const sitneVrste = ['lokalni', 'ploca']
+const sitneVrste = ['lokalni', 'ploca', 'bista']
 
 // ruine i uklonjeni imaju sliku iste velicine, da se razlikuju po obliku, a ne samo po boji:
 // prelomljen obelisk i isprekidan obris onoga cega vise nema

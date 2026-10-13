@@ -16,7 +16,7 @@ const praviGrupe = drzave => [
     uslov: (s, o) => o === 'neposecen' ? dajOznaku(s.id) !== 'posetio' : dajOznaku(s.id) === o},
   {kljuc: 'drzava', naziv: t('grupaDrzava'), opcije: Object.fromEntries(drzave.map(d => [d, nazivDrzave(d)])),
     uslov: (s, o) => s.drzava === o},
-  {kljuc: 'tip', naziv: t('grupaVrsta'), opcije: {kompleks: t('kompleks'), spomenik: t('spomenik'), lokalni: t('lokalni'), ploca: t('ploca'), groblje: t('groblje'), muzej: t('muzej')},
+  {kljuc: 'tip', naziv: t('grupaVrsta'), opcije: {kompleks: t('kompleks'), spomenik: t('spomenik'), bista: t('bista'), lokalni: t('lokalni'), ploca: t('ploca'), groblje: t('groblje'), muzej: t('muzej')},
     uslov: (s, o) => (s.type || 'spomenik') === o},
 ]
 
@@ -175,7 +175,7 @@ style.textContent = `
 const legenda = `
   <h3>${t('legenda')}</h3>
   <div class="legenda">
-    ${['kompleks', 'spomenik', 'lokalni', 'ploca', 'groblje', 'muzej'].map(type => {
+    ${['kompleks', 'spomenik', 'bista', 'lokalni', 'ploca', 'groblje', 'muzej'].map(type => {
     const {slika, sirina, visina} = izgledMarkera({type})
     const visinaIkone = type === 'lokalni' ? 22 : 34
     return `<img src="${slika}" width="${Math.round(sirina * visinaIkone / visina)}" height="${visinaIkone}" alt=""><span>${t(type)}</span>`

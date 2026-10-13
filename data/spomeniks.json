@@ -22617,7 +22617,837 @@
     "slika": "slike/spomenici/jagodina.webp",
     "slikaAutor": "Google Maps",
     "naziv": "Spomen bista Boško Đuričić",
-    "type": "lokalni",
+    "type": "bista",
     "drzava": "Serbia"
+  },
+  {
+    "id": "zagreb-holjevac",
+    "koordinate": {
+      "lat": 45.7942029,
+      "lng": 15.9793106
+    },
+    "title": "Zagreb (Trnje)",
+    "info": "https://www.openstreetmap.org/node/321540195",
+    "naziv": "Većeslav Holjevac",
+    "name": "Statue of Većeslav Holjevac",
+    "type": "spomenik",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "valjevo-dudic",
+    "koordinate": {
+      "lat": 44.2705433,
+      "lng": 19.8875953
+    },
+    "title": "Valjevo",
+    "info": "https://www.openstreetmap.org/node/1064600347",
+    "naziv": "Dragojlo Dudić",
+    "name": "Statue of Dragojlo Dudić",
+    "type": "spomenik",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "travnik-tito",
+    "koordinate": {
+      "lat": 44.2256148,
+      "lng": 17.6668945
+    },
+    "title": "Travnik",
+    "info": "https://www.openstreetmap.org/node/1897892079",
+    "naziv": "Josip Broz Tito",
+    "name": "Bust of Josip Broz - Tito",
+    "type": "bista",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "zagreb-koncar",
+    "koordinate": {
+      "lat": 45.804386,
+      "lng": 15.9346929
+    },
+    "title": "Zagreb (Pupinovo naselje)",
+    "info": "https://www.openstreetmap.org/node/2984467024",
+    "naziv": "Rade Končar",
+    "name": "Statue of Rade Končar",
+    "type": "spomenik",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "valjevo-spanac",
+    "koordinate": {
+      "lat": 44.2690777,
+      "lng": 19.8867259
+    },
+    "title": "Valjevo",
+    "info": "https://www.openstreetmap.org/node/3064874409",
+    "naziv": "Žikica Jovanović Španac",
+    "name": "Statue of Žikica Jovanović Španac",
+    "type": "spomenik",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "skopje-tito",
+    "koordinate": {
+      "lat": 41.9952169,
+      "lng": 21.426153
+    },
+    "title": "Skopje (Centar)",
+    "info": "https://www.openstreetmap.org/node/3713662739",
+    "naziv": "Josip Broz Tito",
+    "name": "Statue of Josip Broz - Tito",
+    "type": "spomenik",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "zagreb-ribar",
+    "koordinate": {
+      "lat": 45.8118451,
+      "lng": 15.9429513
+    },
+    "title": "Zagreb (Naselje Prve hrvatske štedionice)",
+    "info": "https://www.openstreetmap.org/node/3889695799",
+    "naziv": "Ivo Lola Ribar",
+    "name": "Bust of Ivo Lola Ribar",
+    "type": "bista",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "beograd-jerkovic",
+    "koordinate": {
+      "lat": 44.7695229,
+      "lng": 20.4904098
+    },
+    "title": "Beograd (Braće Jerković)",
+    "info": "https://www.openstreetmap.org/node/3943315664",
+    "naziv": "Biste Dušana i Nebojše Jerkovića",
+    "name": "Bust of Nebojša Jerković",
+    "type": "bista",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "beograd-vlahovic",
+    "koordinate": {
+      "lat": 44.766527,
+      "lng": 20.4974771
+    },
+    "title": "Beograd (Braće Jerković)",
+    "info": "https://www.openstreetmap.org/node/4236338830",
+    "naziv": "Spomenik Veljku Vlahoviću",
+    "name": "Statue of Veljko Vlahović",
+    "type": "spomenik",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "split-lucic-lavcevic",
+    "koordinate": {
+      "lat": 43.5038087,
+      "lng": 16.4472099
+    },
+    "title": "Split (Toć)",
+    "info": "https://www.openstreetmap.org/node/5183379480",
+    "naziv": "Ivan Lučić Lavčević",
+    "name": "Bust of Ivan Lučić-Lavčević",
+    "author": "Mirko Ostoja",
+    "type": "bista",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "beograd-tepic",
+    "koordinate": {
+      "lat": 44.7794178,
+      "lng": 20.4584631
+    },
+    "title": "Beograd (Diplomatska kolonija)",
+    "info": "https://www.openstreetmap.org/node/5197665959",
+    "naziv": "Spomenik narodnom heroju majoru Milanu Tepiću",
+    "name": "Statue of Milan Tepić",
+    "type": "spomenik",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "travnik-biste-heroja",
+    "koordinate": {
+      "lat": 44.2258396,
+      "lng": 17.6648283
+    },
+    "title": "Travnik",
+    "info": "https://www.openstreetmap.org/node/5207380492",
+    "naziv": "Spomenici narodnih heroja (Ivo Lola Ribar, Josip Mažar Šoša)",
+    "name": "Memorials to People's Heroes (Ivo Lola Ribar, Josip Mažar Šoša)",
+    "type": "spomenik",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "dugo-selo-bobinec",
+    "koordinate": {
+      "lat": 45.8043737,
+      "lng": 16.243612
+    },
+    "title": "Dugo Selo (Naselje Laznice)",
+    "info": "https://www.openstreetmap.org/node/5819178662",
+    "naziv": "Stjepan Bobinec Šumski",
+    "name": "Bust of Stjepan Bobinec",
+    "type": "bista",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "ljubljana-vrhovnik",
+    "koordinate": {
+      "lat": 46.0486684,
+      "lng": 14.4994871
+    },
+    "title": "Ljubljana (Vrtača)",
+    "info": "https://www.openstreetmap.org/node/6139656888",
+    "naziv": "Majda Vrhovnik",
+    "name": "Bust of Majda Vrhovnik",
+    "author": "Stojan Batič",
+    "year": "1961",
+    "type": "bista",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "podgorica-tito",
+    "koordinate": {
+      "lat": 42.4403489,
+      "lng": 19.2567806
+    },
+    "title": "Podgorica",
+    "info": "https://www.openstreetmap.org/node/6143058905",
+    "naziv": "Josipu Brozu Titu",
+    "name": "Statue of Josip Broz - Tito",
+    "author": "Antun Augustinčić",
+    "year": "2018",
+    "type": "spomenik",
+    "drzava": "Montenegro"
+  },
+  {
+    "id": "zagreb-butorac",
+    "koordinate": {
+      "lat": 45.8130298,
+      "lng": 15.9925246
+    },
+    "title": "Zagreb (Martićeva)",
+    "info": "https://www.openstreetmap.org/node/6236109235",
+    "naziv": "Anka Butorac",
+    "name": "Bust of Anka Butorac",
+    "type": "bista",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "ljubljana-cesnik",
+    "koordinate": {
+      "lat": 46.0437564,
+      "lng": 14.49048
+    },
+    "title": "Ljubljana (Vrtača)",
+    "info": "https://www.openstreetmap.org/node/6430943829",
+    "naziv": "Milan Česnik",
+    "name": "Bust of Milan Česnik",
+    "type": "bista",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "krajisnik-rodic",
+    "koordinate": {
+      "lat": 45.4529869,
+      "lng": 20.7281038
+    },
+    "title": "Krajišnik",
+    "info": "https://www.openstreetmap.org/node/6485723771",
+    "naziv": "Slavko Rodić",
+    "name": "Bust of Slavko Rodić",
+    "type": "bista",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "crikvenica-crni",
+    "koordinate": {
+      "lat": 45.1743077,
+      "lng": 14.6876638
+    },
+    "title": "Crikvenica",
+    "info": "https://www.openstreetmap.org/node/6735313280",
+    "naziv": "Narodni heroj Nikola Car Črni",
+    "name": "Bust of Narodni heroj Nikola Car Črni",
+    "type": "bista",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "beograd-oreskovic",
+    "koordinate": {
+      "lat": 44.8307424,
+      "lng": 20.4105026
+    },
+    "title": "Beograd (Paviljoni)",
+    "info": "https://www.openstreetmap.org/node/6796739185",
+    "naziv": "Bista Marka Oreškovića",
+    "name": "Bust of Marko Orešković",
+    "type": "bista",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "beograd-filipovic",
+    "koordinate": {
+      "lat": 44.7905022,
+      "lng": 20.4544762
+    },
+    "title": "Beograd (Prokop)",
+    "info": "https://www.openstreetmap.org/node/6844044160",
+    "naziv": "Stjepan - Stevan Filipović",
+    "name": "Bust of Stjepan Filipović",
+    "type": "bista",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "bele-vode-destovnik",
+    "koordinate": {
+      "lat": 46.4113783,
+      "lng": 14.9602018
+    },
+    "title": "Bele Vode",
+    "info": "https://www.openstreetmap.org/node/6920443667",
+    "naziv": "Karel Destovnik - Kajuh",
+    "name": "Bust of Karel Destovnik",
+    "type": "bista",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "leskovec-v-podborstu-majcen",
+    "koordinate": {
+      "lat": 46.0253148,
+      "lng": 15.157198
+    },
+    "title": "Leskovec v Podborštu",
+    "info": "https://www.openstreetmap.org/node/7197820899",
+    "naziv": "Milan Majcen",
+    "name": "Bust of Milan Majcen",
+    "type": "bista",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "zagreb-pijade",
+    "koordinate": {
+      "lat": 45.8245533,
+      "lng": 16.0100245
+    },
+    "title": "Zagreb (Rebar)",
+    "info": "https://www.openstreetmap.org/node/7291888674",
+    "naziv": "Moša Pijade",
+    "name": "Statue of Moša Pijade",
+    "author": "Antun Augustinčić",
+    "type": "spomenik",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "manisince-pijade",
+    "koordinate": {
+      "lat": 42.5751714,
+      "lng": 21.3974355
+    },
+    "title": "Manišince",
+    "info": "https://www.openstreetmap.org/node/7820777550",
+    "naziv": "Moša Pijade",
+    "name": "Bust of Moša Pijade",
+    "type": "bista",
+    "drzava": "Kosovo"
+  },
+  {
+    "id": "uzice-dudic",
+    "koordinate": {
+      "lat": 43.8556118,
+      "lng": 19.8446781
+    },
+    "title": "Užice (Slanuša)",
+    "info": "https://www.openstreetmap.org/node/7995205842",
+    "naziv": "Dragojlo Dudić",
+    "name": "Bust of Dragojlo Dudić",
+    "type": "bista",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "beograd-kidric",
+    "koordinate": {
+      "lat": 44.8192743,
+      "lng": 20.4433034
+    },
+    "title": "Beograd (Savamala)",
+    "info": "https://www.openstreetmap.org/node/8379658062",
+    "naziv": "Spomenik Borisu Kidriču",
+    "name": "Statue of Boris Kidrič",
+    "author": "Nikola Janković",
+    "year": "1963",
+    "type": "spomenik",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "ankaran-bebler",
+    "koordinate": {
+      "lat": 45.5770913,
+      "lng": 13.7370557
+    },
+    "title": "Ankaran",
+    "info": "https://www.openstreetmap.org/node/8807085495",
+    "naziv": "Dr. Aleš Bebler Primož",
+    "name": "Bust of Aleš Bebler",
+    "type": "bista",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "skopje-apostolski",
+    "koordinate": {
+      "lat": 41.9988251,
+      "lng": 21.4506665
+    },
+    "title": "Skopje (Krnjevo)",
+    "info": "https://www.openstreetmap.org/node/8883349543",
+    "naziv": "Генерал Михајло Апостолски",
+    "name": "Statue of Mihailo Apostolski",
+    "type": "spomenik",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "banja-luka-maslesa",
+    "koordinate": {
+      "lat": 44.7743465,
+      "lng": 17.1935144
+    },
+    "title": "Banja Luka",
+    "info": "https://www.openstreetmap.org/node/8949538341",
+    "naziv": "Veselin Masleša",
+    "name": "Bust of Veselin Masleša",
+    "type": "bista",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "banja-luka-cajavec",
+    "koordinate": {
+      "lat": 44.7755853,
+      "lng": 17.1874426
+    },
+    "title": "Banja Luka (Paskulina ciglana)",
+    "info": "https://www.openstreetmap.org/node/8949538404",
+    "naziv": "Rudi Čajavec",
+    "name": "Bust of Rudi Čajavec",
+    "type": "bista",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "siprage-cajavec",
+    "koordinate": {
+      "lat": 44.4666632,
+      "lng": 17.5665325
+    },
+    "title": "Šiprage",
+    "info": "https://www.openstreetmap.org/node/8964179168",
+    "naziv": "Rudi Čajavec",
+    "name": "Bust of Rudi Čajavec",
+    "type": "bista",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "banja-luka-biste-heroja",
+    "koordinate": {
+      "lat": 44.7732157,
+      "lng": 17.1913393
+    },
+    "title": "Banja Luka",
+    "info": "https://www.openstreetmap.org/node/9123358583",
+    "naziv": "Biste narodnih heroja (Boško Karalić, Osman Karabegović, Ranko Šipka, Đuro Pucar, Branko Popović, Josip Mažar Šoša, Rada Vranješević, Drago Mažar, Milančić Miljević)",
+    "name": "Busts of People's Heroes (Boško Karalić, Osman Karabegović, Ranko Šipka, Đuro Pucar, Branko Popović, Josip Mažar Šoša, Rada Vranješević, Drago Mažar, Milančić Miljević)",
+    "type": "bista",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "zajecar-radosavljevic",
+    "koordinate": {
+      "lat": 43.9033568,
+      "lng": 22.2798452
+    },
+    "title": "Zaječar",
+    "info": "https://www.openstreetmap.org/node/9421422003",
+    "naziv": "Dobrivoje Radosavljević Bobi",
+    "name": "Bust of Dobrivoe Radosavljević",
+    "type": "bista",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "ljubljana-kumar",
+    "koordinate": {
+      "lat": 46.0872715,
+      "lng": 14.5111002
+    },
+    "title": "Ljubljana (Posavje)",
+    "info": "https://www.openstreetmap.org/node/9443229900",
+    "naziv": "Danila Kumar",
+    "name": "Bust of Danila Kumar",
+    "type": "bista",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "jabuka-buha",
+    "koordinate": {
+      "lat": 43.346173,
+      "lng": 19.5145953
+    },
+    "title": "Jabuka",
+    "info": "https://www.openstreetmap.org/node/9514865651",
+    "naziv": "Spomenik Bošku Buhi",
+    "name": "Statue of Boško Buha",
+    "type": "spomenik",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "beograd-cetkovic",
+    "koordinate": {
+      "lat": 44.7958026,
+      "lng": 20.4955503
+    },
+    "title": "Beograd (Lion)",
+    "info": "https://www.openstreetmap.org/node/10020880635",
+    "naziv": "Bista Jelene Ćetković",
+    "name": "Bust of Jelena Ćetković",
+    "type": "bista",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "beograd-bursac",
+    "koordinate": {
+      "lat": 44.7956692,
+      "lng": 20.5097339
+    },
+    "title": "Beograd (Cvetkova pijaca)",
+    "info": "https://www.openstreetmap.org/node/10027627802",
+    "naziv": "Bista Marije Bursać",
+    "name": "Bust of Marija Bursać",
+    "type": "bista",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "kikinda-zrenjanin",
+    "koordinate": {
+      "lat": 45.8207551,
+      "lng": 20.4536929
+    },
+    "title": "Kikinda (Mikronaselje)",
+    "info": "https://www.openstreetmap.org/node/10046152002",
+    "naziv": "Bista Žarka Zrenjanina",
+    "name": "Bust of Žarko Zrenjanin",
+    "type": "bista",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "beograd-maslesa",
+    "koordinate": {
+      "lat": 44.7804572,
+      "lng": 20.478677
+    },
+    "title": "Beograd (Voždovac)",
+    "info": "https://www.openstreetmap.org/node/10047370237",
+    "naziv": "Bista Veselina Masleše",
+    "name": "Bust of Veselin Masleša",
+    "type": "bista",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "nis-jovic",
+    "koordinate": {
+      "lat": 43.3176839,
+      "lng": 21.8914516
+    },
+    "title": "Niš",
+    "info": "https://www.openstreetmap.org/node/10103295230",
+    "naziv": "Narodni Heroj Ratko Jović",
+    "name": "Bust of Narodni Heroj Ratko Jović",
+    "type": "bista",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "banja-luka-biste-heroja-2",
+    "koordinate": {
+      "lat": 44.7749123,
+      "lng": 17.2082287
+    },
+    "title": "Banja Luka (Filipovića polje)",
+    "info": "https://www.openstreetmap.org/node/10138569933",
+    "naziv": "Biste narodnih heroja (Mladen Stojanović, Petar Drapšin)",
+    "name": "Busts of People's Heroes (Mladen Stojanović, Petar Drapšin)",
+    "type": "bista",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "lazarevac-labudovic",
+    "koordinate": {
+      "lat": 44.3818317,
+      "lng": 20.2583317
+    },
+    "title": "Lazarevac",
+    "info": "https://www.openstreetmap.org/node/10172474876",
+    "naziv": "Narodni heroj Milorad Labudović Labud",
+    "name": "Bust of Milorad Labudović",
+    "type": "bista",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "zagreb-vlahovic",
+    "koordinate": {
+      "lat": 45.8050964,
+      "lng": 15.9548186
+    },
+    "title": "Zagreb (Naselje Prve hrvatske štedionice)",
+    "info": "https://www.openstreetmap.org/node/10699589755",
+    "naziv": "Joža Vlahović",
+    "name": "Bust of Joža Vlahović",
+    "type": "bista",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "beograd-milutinovic",
+    "koordinate": {
+      "lat": 44.8307536,
+      "lng": 20.5477156
+    },
+    "title": "Beograd",
+    "info": "https://www.openstreetmap.org/node/10727700415",
+    "naziv": "Bista Ivana Milutinovića",
+    "name": "Bust of Ivan Milutinović",
+    "type": "bista",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "beograd-jovanovic",
+    "koordinate": {
+      "lat": 44.8145448,
+      "lng": 20.4833972
+    },
+    "title": "Beograd (Hadžipopovac)",
+    "info": "https://www.openstreetmap.org/node/10727700416",
+    "naziv": "Bista Miroslava Jovanovića Mime",
+    "name": "Bust of Miroslav Jovanović",
+    "type": "bista",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "zrenjanin-kovacevic",
+    "koordinate": {
+      "lat": 45.3586252,
+      "lng": 20.3921337
+    },
+    "title": "Zrenjanin (Mičkej)",
+    "info": "https://www.openstreetmap.org/node/10727989539",
+    "naziv": "Spomen-bista Save Kovačevića",
+    "name": "Bust of Sava Kovačević",
+    "author": "Miloš Vasiljević",
+    "type": "bista",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "veliko-ubeljsko-premrl",
+    "koordinate": {
+      "lat": 45.7719637,
+      "lng": 14.0524362
+    },
+    "title": "Veliko Ubeljsko",
+    "info": "https://www.openstreetmap.org/node/10774011772",
+    "naziv": "Janko Premrl - Vojko",
+    "name": "Bust of Janko Premrl",
+    "type": "bista",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "opatje-selo-bencic",
+    "koordinate": {
+      "lat": 45.8522705,
+      "lng": 13.5825727
+    },
+    "title": "Opatje selo",
+    "info": "https://www.openstreetmap.org/node/10784327054",
+    "naziv": "Dragomir Benčič Brkin",
+    "name": "Bust of Dragomir Benčić",
+    "type": "bista",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "nis-djukic",
+    "koordinate": {
+      "lat": 43.3203277,
+      "lng": 21.9037315
+    },
+    "title": "Niš",
+    "info": "https://www.openstreetmap.org/node/11357251666",
+    "naziv": "Bista Paneta Đukića",
+    "name": "Bust of Pane Đukić",
+    "type": "bista",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "bar-spanac",
+    "koordinate": {
+      "lat": 42.0998312,
+      "lng": 19.0924485
+    },
+    "title": "Bar (Topolica)",
+    "info": "https://www.openstreetmap.org/node/11548228552",
+    "naziv": "Vladimir Popović Španac",
+    "name": "Bust of Vladimir Popović Španac",
+    "type": "bista",
+    "drzava": "Montenegro"
+  },
+  {
+    "id": "beograd-nikolis",
+    "koordinate": {
+      "lat": 44.7633215,
+      "lng": 20.4671803
+    },
+    "title": "Beograd (Lisičji potok)",
+    "info": "https://www.openstreetmap.org/node/11811791934",
+    "naziv": "Bista dr Gojka Nikoliša",
+    "name": "Bust of Gojko Nikoliš",
+    "type": "bista",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "zrenjanin-servo",
+    "koordinate": {
+      "lat": 45.3661068,
+      "lng": 20.4113084
+    },
+    "title": "Zrenjanin (Šećerana)",
+    "info": "https://www.openstreetmap.org/node/11872613895",
+    "naziv": "Bista Servo Mihalja",
+    "name": "Bust of Mihalj Servo",
+    "type": "bista",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "nova-gorica-bebler",
+    "koordinate": {
+      "lat": 45.9582787,
+      "lng": 13.6488102
+    },
+    "title": "Nova Gorica",
+    "info": "https://www.openstreetmap.org/node/12030970294",
+    "naziv": "dr Aleš Bebler - Primož",
+    "name": "Bust of Aleš Bebler",
+    "type": "bista",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "pristava-srebrnic",
+    "koordinate": {
+      "lat": 45.9539779,
+      "lng": 13.6389706
+    },
+    "title": "Pristava (Blanče)",
+    "info": "https://www.openstreetmap.org/node/12031152610",
+    "naziv": "Jože Srebrnič",
+    "name": "Bust of Jože Srebrnič",
+    "author": "Stojan Batič",
+    "year": "1969",
+    "type": "bista",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "otlica-bizjak",
+    "koordinate": {
+      "lat": 45.9277587,
+      "lng": 13.9111445
+    },
+    "title": "Otlica",
+    "info": "https://www.openstreetmap.org/node/12641429391",
+    "naziv": "Narodni heroj Ivan - Janko Bizjak",
+    "name": "Bust of Narodni heroj Ivan - Janko Bizjak",
+    "type": "bista",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "kidricevo-kidric",
+    "koordinate": {
+      "lat": 46.3957701,
+      "lng": 15.7979488
+    },
+    "title": "Kidričevo",
+    "info": "https://www.openstreetmap.org/node/12660068307",
+    "naziv": "Boris Kidrič",
+    "name": "Bust of Boris Kidrič",
+    "type": "bista",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "beograd-biste-heroja",
+    "koordinate": {
+      "lat": 44.8071903,
+      "lng": 20.4912533
+    },
+    "title": "Beograd (Slavujev venac)",
+    "info": "https://www.openstreetmap.org/node/12729874042",
+    "naziv": "Biste narodnih heroja (Bogdan Vujošević, Miloje Milojević, Slavko Rodić)",
+    "name": "Busts of People's Heroes (Bogdan Vujošević, Miloje Milojević, Slavko Rodić)",
+    "type": "bista",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "budva-mitrovic",
+    "koordinate": {
+      "lat": 42.2568439,
+      "lng": 18.8930438
+    },
+    "title": "Budva",
+    "info": "https://www.openstreetmap.org/node/13207009755",
+    "naziv": "Mitrović I. Vukica",
+    "name": "Bust of Vukica Mitrović",
+    "type": "bista",
+    "drzava": "Montenegro"
+  },
+  {
+    "id": "ljubljana-rozman",
+    "koordinate": {
+      "lat": 46.1368024,
+      "lng": 14.4406721
+    },
+    "title": "Ljubljana",
+    "info": "https://www.openstreetmap.org/node/13246240568",
+    "naziv": "Franc Rozman",
+    "name": "Statue of Franc Rozman",
+    "type": "spomenik",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "vrsac-zrenjanin",
+    "koordinate": {
+      "lat": 45.1192338,
+      "lng": 21.2986017
+    },
+    "title": "Vršac",
+    "info": "https://www.openstreetmap.org/node/13433501695",
+    "naziv": "Žarko Zrenjanin",
+    "name": "Bust of Žarko Zrenjanin",
+    "type": "bista",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "moravce-klanjsek",
+    "koordinate": {
+      "lat": 46.1353043,
+      "lng": 14.7438302
+    },
+    "title": "Moravče",
+    "info": "https://www.openstreetmap.org/way/1134497813",
+    "naziv": "Jože Klanjšek - Vasja",
+    "name": "Bust of Jože Klanjšek",
+    "type": "bista",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "tuzla-tito",
+    "koordinate": {
+      "lat": 44.5368751,
+      "lng": 18.6881233
+    },
+    "title": "Tuzla (Trnovac)",
+    "info": "https://www.openstreetmap.org/way/1232158239",
+    "naziv": "Bista Josipa Broza Tita i 18 Narodnih heroja",
+    "name": "Bust of Josip Broz - Tito",
+    "type": "bista",
+    "drzava": "Bosnia and Herzegovina"
   }
 ]
