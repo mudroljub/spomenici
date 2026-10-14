@@ -59456,5 +59456,3615 @@
     "naziv": "spomenik pesmi Vstala Primorska",
     "type": "lokalni",
     "drzava": "Slovenia"
+  },
+  {
+    "id": "krsan-spomenik-zrtvama-fasistickog-terora",
+    "koordinate": {
+      "lat": 45.170532,
+      "lng": 14.142783
+    },
+    "title": "Kršan",
+    "info": "https://commons.wikimedia.org/wiki/File%3AMonumento_caduti_-_Kr%C5%A1an_01.jpg",
+    "slika": "slike/spomenici/krsan-spomenik-zrtvama-fasistickog-terora.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "SIG SG 510, CC0",
+    "naziv": "Spomenik žrtvama fašističkog terora",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "bolno-spomen-kukja-na-mite-bogoevski",
+    "koordinate": {
+      "lat": 41.109533,
+      "lng": 20.972125
+    },
+    "title": "Bolno",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD_%D0%BA%D1%83%D1%9C%D0%B0_%D0%BD%D0%B0_%D0%9C%D0%B8%D1%82%D0%B5_%D0%91%D0%BE%D0%B3%D0%BE%D0%B5%D0%B2%D1%81%D0%BA%D0%B8_%2801%29.jpg",
+    "slika": "slike/spomenici/bolno-spomen-kukja-na-mite-bogoevski.webp",
+    "slikaOdnos": 1.498,
+    "slikaAutor": "MariceskiIvanco, CC BY-SA 4.0",
+    "naziv": "Спомен-куќа на Мите Богоевски",
+    "type": "muzej",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "ljubanista-spomen-obelezje-na-prespanskoto-sovetuv",
+    "koordinate": {
+      "lat": 40.5834,
+      "lng": 20.5443
+    },
+    "title": "Ljubaništa",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%92%D0%B8%D0%BA%D0%B8%D0%B5%D0%BA%D1%81%D0%BF%D0%B5%D0%B4%D0%B8%D1%86%D0%B8%D1%98%D0%B0_%D0%9F%D1%80%D0%B5%D1%81%D0%BF%D0%B0_44.jpg",
+    "slika": "slike/spomenici/ljubanista-spomen-obelezje-na-prespanskoto-sovetuv.webp",
+    "slikaOdnos": 1.294,
+    "slikaAutor": "Ehrlich91, CC BY-SA 4.0",
+    "naziv": "Спомен-обележје на Преспанското советување",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "skopje-pajko-maalo-spomen-obelezje-na-prvata-konfe",
+    "koordinate": {
+      "lat": 41.99854,
+      "lng": 21.43558
+    },
+    "title": "Skopje (Pajko Maalo)",
+    "info": "https://commons.wikimedia.org/wiki/File%3APrva_konferencija_na_NOV_-_spomen_obelezje.jpg",
+    "slika": "slike/spomenici/skopje-pajko-maalo-spomen-obelezje-na-prvata-konfe.webp",
+    "slikaOdnos": 0.563,
+    "slikaAutor": "Zdravko, CC BY-SA 4.0",
+    "naziv": "Спомен-обележје на Првата конференција на НОФ на Скопје",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "kocani-spomenik-na-slobodata",
+    "koordinate": {
+      "lat": 41.9189167,
+      "lng": 22.3998333
+    },
+    "title": "Kočani",
+    "info": "https://commons.wikimedia.org/wiki/File%3ASpomenik_na_Slobodata_Kocani_Macedonia.jpg",
+    "slika": "slike/spomenici/kocani-spomenik-na-slobodata.webp",
+    "slikaOdnos": 1.338,
+    "slikaAutor": "mk:Корисник:Radmilce, CC BY-SA 3.0",
+    "naziv": "Споменик на слободата",
+    "type": "spomenik",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "beograd-paviljoni-bista-zikice-jovanovica-spanca",
+    "koordinate": {
+      "lat": 44.830888,
+      "lng": 20.405911
+    },
+    "title": "Beograd (Paviljoni)",
+    "info": "https://commons.wikimedia.org/wiki/File%3ABista_%C5%BDikica_Jovanovi%C4%87_%C5%A0panac_Novi_Beograd.jpg",
+    "slika": "slike/spomenici/beograd-paviljoni-bista-zikice-jovanovica-spanca.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "Vanjagenije, CC BY-SA 4.0",
+    "naziv": "Bista Žikice Jovanovića Španca",
+    "type": "bista",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "bistrica-bista-lepe-radic",
+    "koordinate": {
+      "lat": 45.15949,
+      "lng": 17.12468
+    },
+    "title": "Bistrica",
+    "info": "https://commons.wikimedia.org/wiki/File%3ABista_Lepe_Radi%C4%87_%28Ga%C5%A1nica%2C_op%C5%A1tina_Gradi%C5%A1ka%29.jpg",
+    "slika": "slike/spomenici/bistrica-bista-lepe-radic.webp",
+    "slikaOdnos": 0.668,
+    "slikaAutor": "Petar Milošević, CC BY-SA 4.0",
+    "naziv": "Bista Lepe Radić",
+    "type": "bista",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "korcula-spomen-ploca-partizanima",
+    "koordinate": {
+      "lat": 42.9598333,
+      "lng": 17.1396667
+    },
+    "title": "Korčula",
+    "info": "https://commons.wikimedia.org/wiki/File%3ASpomen-plo%C4%8Da%2C_Ku%C4%87i%C5%A1te_4882.jpg",
+    "slika": "slike/spomenici/korcula-spomen-ploca-partizanima.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "Quahadi Añtó 13:08, 13 October 2012 (UTC), CC BY-SA 3.0",
+    "naziv": "Spomen-ploča partizanima",
+    "type": "ploca",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "loviste-spomenik-strijeljanima",
+    "koordinate": {
+      "lat": 43.066667,
+      "lng": 17.003
+    },
+    "title": "Lovište",
+    "info": "https://commons.wikimedia.org/wiki/File%3ASpomenik_streljanima%2C_Lovi%C5%A1te.5542.JPG",
+    "slika": "slike/spomenici/loviste-spomenik-strijeljanima.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "Quahadi Añtó 07:21, 23 November 2012 (UTC), CC BY-SA 3.0",
+    "naziv": "Spomenik strijeljanima",
+    "type": "ploca",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "baljci-partizanski-spomenik",
+    "koordinate": {
+      "lat": 43.82426,
+      "lng": 16.307966
+    },
+    "title": "Baljci",
+    "info": "https://commons.wikimedia.org/wiki/File%3ABaljci_%E2%80%93_spomenik_%282020%29_01.jpg",
+    "slika": "slike/spomenici/baljci-partizanski-spomenik.webp",
+    "slikaOdnos": 1.498,
+    "slikaAutor": "Julian Nyča, CC BY-SA 3.0",
+    "naziv": "Partizanski spomenik",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "bogatic-spomenik-miki-mitrovicu",
+    "koordinate": {
+      "lat": 44.8357999,
+      "lng": 19.4803857
+    },
+    "title": "Bogatić",
+    "info": "https://commons.wikimedia.org/wiki/File%3ABogati%C4%87_15.jpg",
+    "slika": "slike/spomenici/bogatic-spomenik-miki-mitrovicu.webp",
+    "slikaOdnos": 0.667,
+    "slikaAutor": "Ванилица, CC BY-SA 4.0",
+    "naziv": "Spomenik Miki Mitroviću",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "slatina-spomenik-milici-vucetic-trepusi",
+    "koordinate": {
+      "lat": 43.812162,
+      "lng": 20.475501
+    },
+    "title": "Slatina",
+    "info": "https://commons.wikimedia.org/wiki/File%3ASlatina_02.jpg",
+    "slika": "slike/spomenici/slatina-spomenik-milici-vucetic-trepusi.webp",
+    "slikaOdnos": 0.667,
+    "slikaAutor": "BrankaVV, CC BY-SA 4.0",
+    "naziv": "Spomenik Milici Vučetić Trepuši",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "taras-bista-toze-markovica",
+    "koordinate": {
+      "lat": 45.46679,
+      "lng": 20.195396
+    },
+    "title": "Taraš",
+    "info": "https://commons.wikimedia.org/wiki/File%3ATara%C5%A1_Toza_Markovi%C4%87_ukradena_bista.jpg",
+    "slika": "slike/spomenici/taras-bista-toze-markovica.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "Vanjagenije, CC BY-SA 4.0",
+    "naziv": "Bista Toze Markovića",
+    "stanje": "uklonjen",
+    "type": "bista",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "kikinda-abc-naselje-spomen-ploca-albertu-baltasiku",
+    "koordinate": {
+      "lat": 45.825412,
+      "lng": 20.435669
+    },
+    "title": "Kikinda (ABC naselje)",
+    "info": "https://commons.wikimedia.org/wiki/File%3ASpomen_plo%C4%8Da_Albertova_220_01.jpg",
+    "slika": "slike/spomenici/kikinda-abc-naselje-spomen-ploca-albertu-baltasiku.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "Vanjagenije, CC BY-SA 4.0",
+    "naziv": "Spomen-ploča Albertu Baltašiku i Radi Najiću",
+    "type": "ploca",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "kikinda-abc-naselje-spomen-ploca",
+    "koordinate": {
+      "lat": 45.826793,
+      "lng": 20.439025
+    },
+    "title": "Kikinda (ABC naselje)",
+    "info": "https://commons.wikimedia.org/wiki/File%3ASpomen_plo%C4%8Da_Albertova_189_02.jpg",
+    "slika": "slike/spomenici/kikinda-abc-naselje-spomen-ploca.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "Vanjagenije, CC BY-SA 4.0",
+    "naziv": "Spomen-ploča",
+    "type": "ploca",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "vlasotince-bista-petra-stankovica-ljube",
+    "koordinate": {
+      "lat": 42.965078,
+      "lng": 22.128501
+    },
+    "title": "Vlasotince",
+    "info": "https://commons.wikimedia.org/wiki/File%3ALjuba_bista_Vlasotince_01.jpg",
+    "slika": "slike/spomenici/vlasotince-bista-petra-stankovica-ljube.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "Vanjagenije, CC BY-SA 4.0",
+    "naziv": "Bista Petra Stankovića Ljube",
+    "type": "bista",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "leskovac-bista-stanimira-veljkovica-zeleta",
+    "koordinate": {
+      "lat": 43.006755,
+      "lng": 21.941599
+    },
+    "title": "Leskovac",
+    "info": "https://commons.wikimedia.org/wiki/File%3AZele_bista_Leskovac.jpg",
+    "slika": "slike/spomenici/leskovac-bista-stanimira-veljkovica-zeleta.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "Vanjagenije, CC BY-SA 4.0",
+    "naziv": "Bista Stanimira Veljkovića Zeleta",
+    "type": "bista",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "sajan-spomen-ploca-karolju-moru",
+    "koordinate": {
+      "lat": 45.832536,
+      "lng": 20.278184
+    },
+    "title": "Sajan",
+    "info": "https://commons.wikimedia.org/wiki/File%3ASpomen_plo%C4%8Da_Sajan.jpg",
+    "slika": "slike/spomenici/sajan-spomen-ploca-karolju-moru.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "Vanjagenije, CC BY-SA 4.0",
+    "naziv": "Spomen-ploča Karolju Moru",
+    "type": "ploca",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "mokrin-spomen-ploca-radi-trnicu",
+    "koordinate": {
+      "lat": 45.92771,
+      "lng": 20.419494
+    },
+    "title": "Mokrin",
+    "info": "https://commons.wikimedia.org/wiki/File%3ASpomen_plo%C4%8Da_Rada_Trni%C4%87_Mokrin_01.jpg",
+    "slika": "slike/spomenici/mokrin-spomen-ploca-radi-trnicu.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "Vanjagenije, CC BY-SA 4.0",
+    "naziv": "Spomen-ploča Radi Trniću",
+    "type": "ploca",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "mokrin-spomen-ploca-milanu-malencicu-selji",
+    "koordinate": {
+      "lat": 45.929189,
+      "lng": 20.415123
+    },
+    "title": "Mokrin",
+    "info": "https://commons.wikimedia.org/wiki/File%3ASpomen_plo%C4%8Da_Milan_Malen%C4%8Di%C4%87_Mokrin.jpg",
+    "slika": "slike/spomenici/mokrin-spomen-ploca-milanu-malencicu-selji.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "Vanjagenije, CC BY-SA 4.0",
+    "naziv": "Spomen-ploča Milanu Malenčiću Selji",
+    "type": "ploca",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "vojvoda-stepa-spomen-ploca-milu-martinovicu",
+    "koordinate": {
+      "lat": 45.684596,
+      "lng": 20.655084
+    },
+    "title": "Vojvoda Stepa",
+    "info": "https://commons.wikimedia.org/wiki/File%3ASpomen_plo%C4%8Da_Milo_Martinovi%C4%87.jpg",
+    "slika": "slike/spomenici/vojvoda-stepa-spomen-ploca-milu-martinovicu.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "Vanjagenije, CC BY-SA 4.0",
+    "naziv": "Spomen-ploča Milu Martinoviću",
+    "type": "ploca",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "novo-milosevo-spomen-obelezje",
+    "koordinate": {
+      "lat": 45.698418,
+      "lng": 20.375443
+    },
+    "title": "Novo Miloševo",
+    "info": "https://commons.wikimedia.org/wiki/File%3ANovo_milo%C5%A1evo_atar_beleg.jpg",
+    "slika": "slike/spomenici/novo-milosevo-spomen-obelezje.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "Vanjagenije, CC BY-SA 4.0",
+    "naziv": "Spomen-obeležje",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "vodjeni-jama-pandurica",
+    "koordinate": {
+      "lat": 42.927398,
+      "lng": 18.093306
+    },
+    "title": "Vođeni",
+    "info": "https://commons.wikimedia.org/wiki/File%3AJama_Pandurica_P1015029mod.jpg",
+    "slika": "slike/spomenici/vodjeni-jama-pandurica.webp",
+    "slikaOdnos": 1.356,
+    "slikaAutor": "JYB Devot, CC BY-SA 4.0",
+    "naziv": "Jama Pandurica",
+    "type": "lokalni",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "trstenik-partizanski-spomenik",
+    "koordinate": {
+      "lat": 42.923,
+      "lng": 17.402
+    },
+    "title": "Trstenik",
+    "info": "https://commons.wikimedia.org/wiki/File%3APartizanski_spomenik00915.JPG",
+    "slika": "slike/spomenici/trstenik-partizanski-spomenik.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "Quahadi Añtó 06:57, 24 May 2010 (UTC), CC BY-SA 3.0",
+    "naziv": "Partizanski spomenik",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "idjos-spomenik-mestanima-idjosa-poginulim-u-drugom",
+    "koordinate": {
+      "lat": 45.824,
+      "lng": 20.309666
+    },
+    "title": "Iđoš",
+    "info": "https://commons.wikimedia.org/wiki/File%3ASpomenik_me%C5%A1tanima_I%C4%91o%C5%A1a%2C_poginulim_u_II_svetskom_ratu.jpg",
+    "slika": "slike/spomenici/idjos-spomenik-mestanima-idjosa-poginulim-u-drugom.webp",
+    "slikaOdnos": 0.696,
+    "slikaAutor": "Dobrislava, CC BY-SA 4.0",
+    "naziv": "Spomenik meštanima Iđoša poginulim u Drugom svetskom ratu",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "idjos-partizansko-groblje",
+    "koordinate": {
+      "lat": 45.824233,
+      "lng": 20.32453
+    },
+    "title": "Iđoš",
+    "info": "https://commons.wikimedia.org/wiki/File%3ASpomenik_I%C4%91o%C5%A1_Partizansko_Groblje.jpg",
+    "slika": "slike/spomenici/idjos-partizansko-groblje.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "Vanjagenije, CC BY-SA 4.0",
+    "naziv": "Partizansko groblje",
+    "type": "groblje",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "novi-becej-partizansko-spomen-groblje",
+    "koordinate": {
+      "lat": 45.603898,
+      "lng": 20.14497
+    },
+    "title": "Novi Bečej",
+    "info": "https://commons.wikimedia.org/wiki/File%3ANoviBecej_Groblje02.jpg",
+    "slika": "slike/spomenici/novi-becej-partizansko-spomen-groblje.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "Knoken (https://www.xiwl.com/w/index.php/User:Knoken), CC BY-SA 4.0",
+    "naziv": "Partizansko spomen-groblje",
+    "type": "groblje",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "crna-bara-spomenik-crvenoarmejcima",
+    "koordinate": {
+      "lat": 45.972587,
+      "lng": 20.275174
+    },
+    "title": "Crna Bara",
+    "info": "https://commons.wikimedia.org/wiki/File%3ACrna_Bara_spomenik_Crvenoarmejcima_01.jpg",
+    "slika": "slike/spomenici/crna-bara-spomenik-crvenoarmejcima.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "Vanjagenije, CC BY-SA 4.0",
+    "naziv": "Spomenik crvenoarmejcima",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "becej-spomenik-streljanim-borcima-nor-a",
+    "koordinate": {
+      "lat": 45.616385,
+      "lng": 20.035407
+    },
+    "title": "Bečej",
+    "info": "https://commons.wikimedia.org/wiki/File%3ABecejSpomenikGroblje03.jpg",
+    "slika": "slike/spomenici/becej-spomenik-streljanim-borcima-nor-a.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "Knoken (https://www.xiwl.com/w/index.php/User:Knoken), CC BY-SA 4.0",
+    "naziv": "Spomenik streljanim borcima NOR-a",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "centa-spomenik-streljanim-rodoljubima",
+    "koordinate": {
+      "lat": 45.125622,
+      "lng": 20.390312
+    },
+    "title": "Čenta",
+    "info": "https://commons.wikimedia.org/wiki/File%3ACentaSpomenik02.jpg",
+    "slika": "slike/spomenici/centa-spomenik-streljanim-rodoljubima.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "Knoken (https://www.xiwl.com/w/index.php/User:Knoken), CC BY-SA 4.0",
+    "naziv": "Spomenik streljanim rodoljubima",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "dolno-perovo-spomen-kosturnica",
+    "koordinate": {
+      "lat": 41,
+      "lng": 21
+    },
+    "title": "Dolno Perovo",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%9A%D0%BE%D1%81%D1%82%D1%83%D1%80%D0%BD%D0%B8%D1%86%D0%B0_-_%D0%92%D0%B5%D0%BB%D0%B5%D1%81_01.jpg",
+    "naziv": "Спомен-костурница",
+    "type": "groblje",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "lavci-spomenik-na-nob",
+    "koordinate": {
+      "lat": 41.014591,
+      "lng": 21.3008917
+    },
+    "title": "Lavci",
+    "info": "https://commons.wikimedia.org/wiki/File%3ASpomenik_od_NOB_-_Lavci.jpg",
+    "slika": "slike/spomenici/lavci-spomenik-na-nob.webp",
+    "slikaOdnos": 1.194,
+    "slikaAutor": "Zdravko, CC BY-SA 4.0",
+    "naziv": "Споменик на НОБ",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "bitola-spomen-ploca-na-orde-copela",
+    "koordinate": {
+      "lat": 41.026451,
+      "lng": 21.329994
+    },
+    "title": "Bitola",
+    "info": "https://commons.wikimedia.org/wiki/File%3AOrde_Copela_-_spomen_ploca_Bitola.jpg",
+    "slika": "slike/spomenici/bitola-spomen-ploca-na-orde-copela.webp",
+    "slikaOdnos": 1.342,
+    "slikaAutor": "Zdravko, CC BY-SA 4.0",
+    "naziv": "Спомен-плоча на Орде Чопела",
+    "type": "ploca",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "bitola-bista-na-pande-jovcevski-kajzero",
+    "koordinate": {
+      "lat": 41.021938,
+      "lng": 21.3199747
+    },
+    "title": "Bitola",
+    "info": "https://commons.wikimedia.org/wiki/File%3APande_Kajzero_-_bista_mesna_zaednica.jpg",
+    "slika": "slike/spomenici/bitola-bista-na-pande-jovcevski-kajzero.webp",
+    "slikaOdnos": 0.599,
+    "slikaAutor": "Zdravko, CC BY-SA 4.0",
+    "naziv": "Биста на Панде Јовчевски Кајзеро",
+    "type": "bista",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "bitola-spomen-ploca-za-prviot-narodnoosloboditelen",
+    "koordinate": {
+      "lat": 41.025522,
+      "lng": 21.332138
+    },
+    "title": "Bitola",
+    "info": "https://commons.wikimedia.org/wiki/File%3APloca_Narodno-osloboditelen_komitet_Bitola.jpg",
+    "slika": "slike/spomenici/bitola-spomen-ploca-za-prviot-narodnoosloboditelen.webp",
+    "slikaOdnos": 1.923,
+    "slikaAutor": "Zdravko, CC BY-SA 4.0",
+    "naziv": "Спомен-плоча за првиот Народноослободителен комитет",
+    "type": "ploca",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "baresani-spomen-ploca-od-nob",
+    "koordinate": {
+      "lat": 40.953333,
+      "lng": 21.355278
+    },
+    "title": "Barešani",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D0%BF%D0%BB%D0%BE%D1%87%D0%B0_%D0%B2%D0%BE_%D1%81%D0%B5%D0%BB%D0%BE%D1%82%D0%BE_%D0%91%D0%B0%D1%80%D0%B5%D1%88%D0%B0%D0%BD%D0%B8.jpg",
+    "slika": "slike/spomenici/baresani-spomen-ploca-od-nob.webp",
+    "slikaOdnos": 0.563,
+    "slikaAutor": "Ehrlich91, CC BY-SA 4.0",
+    "naziv": "Спомен-плоча од НОБ",
+    "type": "ploca",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "kanino-spomen-ploca-od-nob",
+    "koordinate": {
+      "lat": 40.945833,
+      "lng": 21.353889
+    },
+    "title": "Kanino",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D0%BF%D0%BB%D0%BE%D1%87%D0%B0_%D0%B2%D0%BE_%D1%81%D0%B5%D0%BB%D0%BE%D1%82%D0%BE_%D0%9A%D0%B0%D0%BD%D0%B8%D0%BD%D0%BE.jpg",
+    "slika": "slike/spomenici/kanino-spomen-ploca-od-nob.webp",
+    "slikaOdnos": 0.563,
+    "slikaAutor": "Ehrlich91, CC BY-SA 4.0",
+    "naziv": "Спомен-плоча од НОБ",
+    "type": "ploca",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "bitola-bista-na-trifun-panovski",
+    "koordinate": {
+      "lat": 41.024286,
+      "lng": 21.317593
+    },
+    "title": "Bitola",
+    "info": "https://commons.wikimedia.org/wiki/File%3ATrifun_panovski_-_bista_bolnica_Bitola.jpg",
+    "slika": "slike/spomenici/bitola-bista-na-trifun-panovski.webp",
+    "slikaOdnos": 0.563,
+    "slikaAutor": "Zdravko, CC BY-SA 4.0",
+    "naziv": "Биста на Трифун Пановски",
+    "type": "bista",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "bistrica-spomen-cesma-od-nob",
+    "koordinate": {
+      "lat": 40.97847,
+      "lng": 21.36664
+    },
+    "title": "Bistrica",
+    "info": "https://commons.wikimedia.org/wiki/File%3ASpomen_cesma_NOB_Bistrica.jpg",
+    "slika": "slike/spomenici/bistrica-spomen-cesma-od-nob.webp",
+    "slikaOdnos": 0.563,
+    "slikaAutor": "Zdravko, CC BY-SA 4.0",
+    "naziv": "Спомен-чешма од НОБ",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "kukurecani-spomen-ploca-od-nob",
+    "koordinate": {
+      "lat": 41.094787,
+      "lng": 21.320644
+    },
+    "title": "Kukurečani",
+    "info": "https://commons.wikimedia.org/wiki/File%3AKukurecani_spomen_ploca_NOB.jpg",
+    "slika": "slike/spomenici/kukurecani-spomen-ploca-od-nob.webp",
+    "slikaOdnos": 0.62,
+    "slikaAutor": "Zdravko, CC BY-SA 4.0",
+    "naziv": "Спомен-плоча од НОБ",
+    "type": "ploca",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "stobrec-spomen-ploca-partizanima",
+    "koordinate": {
+      "lat": 43.4994444,
+      "lng": 16.5216319
+    },
+    "title": "Stobreč",
+    "info": "https://commons.wikimedia.org/wiki/File%3ASpomen-plo%C4%8Da%2C_Stobre%C4%8D_091742.jpg",
+    "slika": "slike/spomenici/stobrec-spomen-ploca-partizanima.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "Quahadi Añtó 06:56, 1 April 2016 (UTC), CC BY-SA 4.0",
+    "naziv": "Spomen-ploča partizanima",
+    "type": "ploca",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "zagreb-spomen-obiljezje-sabotazi-na-glavnoj-posti",
+    "koordinate": {
+      "lat": 45.812482,
+      "lng": 15.98104
+    },
+    "title": "Zagreb",
+    "info": "https://commons.wikimedia.org/wiki/File%3AZagreb-sabotage-memorial_20120405_182346.jpg",
+    "slika": "slike/spomenici/zagreb-spomen-obiljezje-sabotazi-na-glavnoj-posti.webp",
+    "slikaOdnos": 0.541,
+    "slikaAutor": "Joy, CC BY-SA 3.0",
+    "naziv": "Spomen-obilježje sabotaži na Glavnoj pošti",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "sidski-banovci-spomen-ploca-zrtvama-fasizma",
+    "koordinate": {
+      "lat": 45.184743,
+      "lng": 19.067633
+    },
+    "title": "Šidski Banovci",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%C5%A0idski_Banovci-%D0%A8%D0%B8%D0%B4%D1%81%D0%BA%D0%B8_%D0%91%D0%B0%D0%BD%D0%BE%D0%B2%D1%86%D0%B8-2017-1.jpg",
+    "slika": "slike/spomenici/sidski-banovci-spomen-ploca-zrtvama-fasizma.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "MirkoS18, CC BY-SA 4.0",
+    "naziv": "Spomen-ploča žrtvama fašizma",
+    "type": "ploca",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "pacetin-spomenik-nob",
+    "koordinate": {
+      "lat": 45.372146,
+      "lng": 18.847749
+    },
+    "title": "Pačetin",
+    "info": "https://commons.wikimedia.org/wiki/File%3ANOB_Pa%C4%8Detin.jpg",
+    "slika": "slike/spomenici/pacetin-spomenik-nob.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "MirkoS18, CC BY-SA 4.0",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "mirkovci-spomen-ploca-partizanima-i-zrtvama-fasist",
+    "koordinate": {
+      "lat": 45.272045,
+      "lng": 18.847483
+    },
+    "title": "Mirkovci",
+    "info": "https://commons.wikimedia.org/wiki/File%3APlaque_to_the_Partisans_and_victims_of_Fascist_Terror_in_Mirkovci_05.jpg",
+    "slika": "slike/spomenici/mirkovci-spomen-ploca-partizanima-i-zrtvama-fasist.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "MirkoS18, CC BY-SA 4.0",
+    "naziv": "Spomen-ploča partizanima i žrtvama fašističkog terora",
+    "type": "ploca",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "podaca-spomenik-zrtvama-drugog-svjetskog-rata",
+    "koordinate": {
+      "lat": 43.123833,
+      "lng": 17.302567
+    },
+    "title": "Podaca",
+    "info": "https://commons.wikimedia.org/wiki/File%3APODACA_Spomenik20191009_Musulin.jpg",
+    "slika": "slike/spomenici/podaca-spomenik-zrtvama-drugog-svjetskog-rata.webp",
+    "slikaOdnos": 0.474,
+    "slikaAutor": "Zblace, CC BY-SA 4.0",
+    "naziv": "Spomenik žrtvama Drugog svjetskog rata",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "grdoselo-spomenik-nob",
+    "koordinate": {
+      "lat": 45.27925,
+      "lng": 13.93932
+    },
+    "title": "Grdoselo",
+    "info": "https://commons.wikimedia.org/wiki/File%3ANOB_Grdoselo%2C_Istra.jpg",
+    "slika": "slike/spomenici/grdoselo-spomenik-nob.webp",
+    "slikaOdnos": 0.739,
+    "slikaAutor": "Petar Milošević, CC BY 4.0",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "djeletovci-spomenik-nob",
+    "koordinate": {
+      "lat": 45.184637,
+      "lng": 19.013116
+    },
+    "title": "Đeletovci",
+    "info": "https://commons.wikimedia.org/wiki/File%3AWorld_War_II_monument_in_Borovo_Naselje.jpg",
+    "slika": "slike/spomenici/djeletovci-spomenik-nob.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "MirkoS18, CC BY-SA 4.0",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "vidovec-spomenik-nob",
+    "koordinate": {
+      "lat": 46.285801,
+      "lng": 16.254525
+    },
+    "title": "Vidovec",
+    "info": "https://commons.wikimedia.org/wiki/File%3AHR-VA-Vidovec12.jpg",
+    "slika": "slike/spomenici/vidovec-spomenik-nob.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "Szeder László, CC BY-SA 4.0",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "severin-na-kupi-spomenik-nob",
+    "koordinate": {
+      "lat": 45.419811,
+      "lng": 15.171792
+    },
+    "title": "Severin na Kupi",
+    "info": "https://commons.wikimedia.org/wiki/File%3AHR-PG-Vrbovsko09.jpg",
+    "slika": "slike/spomenici/severin-na-kupi-spomenik-nob.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "Szeder László, CC BY-SA 4.0",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "moscenicka-draga-spomenik-zrtvama-drugog-svjetskog",
+    "koordinate": {
+      "lat": 45.240811,
+      "lng": 14.249498
+    },
+    "title": "Mošćenička Draga",
+    "info": "https://commons.wikimedia.org/wiki/File%3AHR-PG-Mo%C5%A1%C4%87eni%C4%8Dka_Draga05.jpg",
+    "slika": "slike/spomenici/moscenicka-draga-spomenik-zrtvama-drugog-svjetskog.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "Szeder László, CC BY-SA 4.0",
+    "naziv": "Spomenik žrtvama Drugog svjetskog rata",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "tovarnik-spomenik-oslobodiocima-tovarnika",
+    "koordinate": {
+      "lat": 45.165772,
+      "lng": 19.144624
+    },
+    "title": "Tovarnik",
+    "info": "https://commons.wikimedia.org/wiki/File%3AWWII_monument_to_the_liberators_of_Tovarnik_%281953%29.jpg",
+    "slika": "slike/spomenici/tovarnik-spomenik-oslobodiocima-tovarnika.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "MirkoS18, CC BY-SA 4.0",
+    "naziv": "Spomenik oslobodiocima Tovarnika",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "prvic-luka-spomenik-zrtvama-drugog-svjetskog-rata",
+    "koordinate": {
+      "lat": 43.7243156,
+      "lng": 15.8000641
+    },
+    "title": "Prvić Luka",
+    "info": "https://commons.wikimedia.org/wiki/File%3ASpomenik_%C5%BErtvama_II._svjetskog_rata_u_Prvi%C4%87_Luci.jpg",
+    "slika": "slike/spomenici/prvic-luka-spomenik-zrtvama-drugog-svjetskog-rata.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "Mnalis, CC BY 4.0",
+    "naziv": "Spomenik žrtvama Drugog svjetskog rata",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "prvic-sepurine-spomenik-minerima",
+    "koordinate": {
+      "lat": 43.7322159,
+      "lng": 15.7872372
+    },
+    "title": "Prvić Šepurine",
+    "info": "https://commons.wikimedia.org/wiki/File%3ASpomenik_minerima%2C_Prvi%C4%87_%C5%A0epurine.jpg",
+    "slika": "slike/spomenici/prvic-sepurine-spomenik-minerima.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "Mnalis, CC BY-SA 4.0",
+    "naziv": "Spomenik minerima",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "zagreb-zavrsje-spomenik-nob",
+    "koordinate": {
+      "lat": 45.8328392,
+      "lng": 15.9033832
+    },
+    "title": "Zagreb (Završje)",
+    "info": "https://commons.wikimedia.org/wiki/File%3ASpomenik_NOB%2C_Vrap%C4%8De.jpg",
+    "slika": "slike/spomenici/zagreb-zavrsje-spomenik-nob.webp",
+    "slikaOdnos": 0.563,
+    "slikaAutor": "Mnalis, CC BY-SA 4.0",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "plesmo-spomenik-palim-borcima-i-zrtvama-fasizma",
+    "koordinate": {
+      "lat": 45.3127243,
+      "lng": 16.835057
+    },
+    "title": "Plesmo",
+    "info": "https://commons.wikimedia.org/wiki/File%3ASpomenik_palim_borcima_i_%C5%BErtvama_fa%C5%A1izma%2C_Plesmo.jpg",
+    "slika": "slike/spomenici/plesmo-spomenik-palim-borcima-i-zrtvama-fasizma.webp",
+    "slikaOdnos": 0.563,
+    "slikaAutor": "Mnalis, CC BY-SA 4.0",
+    "naziv": "Spomenik palim borcima i žrtvama fašizma",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "radocaj-brodski-spomen-ploca-nob",
+    "koordinate": {
+      "lat": 45.4474,
+      "lng": 14.8738
+    },
+    "title": "Radočaj Brodski",
+    "info": "https://commons.wikimedia.org/wiki/File%3ADonji_Lo%C5%BEac_9_2.jpg",
+    "slika": "slike/spomenici/radocaj-brodski-spomen-ploca-nob.webp",
+    "slikaOdnos": 1.504,
+    "slikaAutor": "Lan Glad, CC BY-SA 4.0",
+    "naziv": "Spomen-ploča NOB",
+    "type": "ploca",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "fojnica-spomen-ploca-prvom-oslobodjenju-fojnice",
+    "koordinate": {
+      "lat": 43.963661,
+      "lng": 17.899203
+    },
+    "title": "Fojnica",
+    "info": "https://commons.wikimedia.org/wiki/File%3ASpomen-plo%C4%8Da_u_Fojnici.jpg",
+    "slika": "slike/spomenici/fojnica-spomen-ploca-prvom-oslobodjenju-fojnice.webp",
+    "slikaOdnos": 1.786,
+    "slikaAutor": "Zavičajac, CC BY-SA 4.0",
+    "naziv": "Spomen-ploča prvom oslobođenju Fojnice",
+    "type": "ploca",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "izgori-spomen-ploca-na-vrhu-maglica",
+    "koordinate": {
+      "lat": 43.266956,
+      "lng": 18.718643
+    },
+    "title": "Izgori",
+    "info": "https://commons.wikimedia.org/wiki/File%3APlaque_on_the_summit_of_Magli%C4%8D_%283887464262%29.jpg",
+    "slika": "slike/spomenici/izgori-spomen-ploca-na-vrhu-maglica.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "NH53, CC BY 2.0",
+    "naziv": "Spomen-ploča na vrhu Magliča",
+    "type": "ploca",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "ilidza-blazuj-spomenik-igmanskom-marsu",
+    "koordinate": {
+      "lat": 43.831494,
+      "lng": 18.269403
+    },
+    "title": "Ilidža (Blažuj)",
+    "info": "https://commons.wikimedia.org/wiki/File%3ASpomenik_Igmanskom_mar%C5%A1u_u_Bla%C5%BEuju.jpg",
+    "slika": "slike/spomenici/ilidza-blazuj-spomenik-igmanskom-marsu.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "Zavičajac, CC BY-SA 4.0",
+    "naziv": "Spomenik Igmanskom maršu",
+    "type": "lokalni",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "ilidza-vreoca-spomenik-igmanskom-marsu",
+    "koordinate": {
+      "lat": 43.82185,
+      "lng": 18.271847
+    },
+    "title": "Ilidža (Vreoca)",
+    "info": "https://commons.wikimedia.org/wiki/File%3ASpomenik_Igmanskog_mar%C5%A1a_4.jpg",
+    "slika": "slike/spomenici/ilidza-vreoca-spomenik-igmanskom-marsu.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "Zavičajac, CC BY-SA 4.0",
+    "naziv": "Spomenik Igmanskom maršu",
+    "type": "lokalni",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "ilidza-vreoca-spomenik-igmanskom-marsu-2",
+    "koordinate": {
+      "lat": 43.819131,
+      "lng": 18.267403
+    },
+    "title": "Ilidža (Vreoca)",
+    "info": "https://commons.wikimedia.org/wiki/File%3ASpomenik_Igmanski_mar%C5%A1_Vrelo_Bosne.jpg",
+    "slika": "slike/spomenici/ilidza-vreoca-spomenik-igmanskom-marsu-2.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "Vanjagenije, CC BY-SA 4.0",
+    "naziv": "Spomenik Igmanskom maršu",
+    "type": "lokalni",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "vozilici-spomenik-nob",
+    "koordinate": {
+      "lat": 45.156539,
+      "lng": 14.161026
+    },
+    "title": "Vozilići",
+    "info": "https://commons.wikimedia.org/wiki/File%3AHR-IS-Kr%C5%A1an067.jpg",
+    "slika": "slike/spomenici/vozilici-spomenik-nob.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "Szeder László, CC BY-SA 4.0",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "brajkovici-spomenik-nob",
+    "koordinate": {
+      "lat": 45.258063,
+      "lng": 13.871022
+    },
+    "title": "Brajkovići",
+    "info": "https://commons.wikimedia.org/wiki/File%3AHR-IS-Pazin74.jpg",
+    "slika": "slike/spomenici/brajkovici-spomenik-nob.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "Szeder László, CC BY-SA 4.0",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "dabniste-spomenik-na-formiranjeto-na-devettata-mak",
+    "koordinate": {
+      "lat": 41.379197,
+      "lng": 22.053169
+    },
+    "title": "Dabnište",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BD%D0%B0_%D0%9D%D0%9E%D0%91_%D0%B2%D0%BE_%D0%A8%D0%B5%D1%88%D0%BA%D0%BE%D0%B2%D0%BE_01.jpg",
+    "slika": "slike/spomenici/dabniste-spomenik-na-formiranjeto-na-devettata-mak.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "Македонец, CC BY-SA 4.0",
+    "naziv": "Споменик на формирањето на Деветтата македонска бригада",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "dradnja-spomenik-na-nob",
+    "koordinate": {
+      "lat": 41.395223,
+      "lng": 21.905768
+    },
+    "title": "Dradnja",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BD%D0%B0_%D0%9D%D0%9E%D0%91_%D0%B2%D0%BE_%D0%94%D1%80%D0%B0%D0%B4%D1%9A%D0%B0_%282%29.jpg",
+    "slika": "slike/spomenici/dradnja-spomenik-na-nob.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "IMarkovacev, CC BY-SA 4.0",
+    "naziv": "Споменик на НОБ",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "seskovo-spomen-ploca-na-partizanskata-bolnica",
+    "koordinate": {
+      "lat": 41.369963,
+      "lng": 21.910024
+    },
+    "title": "Šeškovo",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD_%D0%BF%D0%BB%D0%BE%D1%87%D0%B0_%D0%BD%D0%B0_%D1%83%D1%87%D0%B8%D0%BB%D0%B8%D1%88%D1%82%D0%B5%D1%82%D0%BE_%D0%B2%D0%BE_%D0%A8%D0%B5%D1%88%D0%BA%D0%BE%D0%B2%D0%BE.jpg",
+    "slika": "slike/spomenici/seskovo-spomen-ploca-na-partizanskata-bolnica.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "IMarkovacev, CC BY-SA 4.0",
+    "naziv": "Спомен-плоча на партизанската болница",
+    "type": "ploca",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "pravednik-spomen-cesma",
+    "koordinate": {
+      "lat": 41.342248,
+      "lng": 21.933661
+    },
+    "title": "Pravednik",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD_%D1%87%D0%B5%D1%88%D0%BC%D0%B0_%D0%B2%D0%BE_%D0%9F%D1%80%D0%B0%D0%B2%D0%B5%D0%B4%D0%BD%D0%B8%D0%BA_%282%29.jpg",
+    "slika": "slike/spomenici/pravednik-spomen-cesma.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "IMarkovacev, CC BY-SA 4.0",
+    "naziv": "Спомен-чешма",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "herceg-novi-spomenik-oslobodjenju-herceg-novog",
+    "koordinate": {
+      "lat": 42.457606,
+      "lng": 18.526167
+    },
+    "title": "Herceg Novi",
+    "info": "https://commons.wikimedia.org/wiki/File%3ASpomenik_oslobo%C4%91enju_Herceg_Novog_od_fa%C5%A1isti%C4%8Dkog_okupatora.jpg",
+    "slika": "slike/spomenici/herceg-novi-spomenik-oslobodjenju-herceg-novog.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "MirkoS18, CC BY-SA 4.0",
+    "naziv": "Spomenik oslobođenju Herceg Novog",
+    "type": "lokalni",
+    "drzava": "Montenegro"
+  },
+  {
+    "id": "kavadarci-vatasa-spomen-kukja-na-straso-pindzur",
+    "koordinate": {
+      "lat": 41.416667,
+      "lng": 22.018611
+    },
+    "title": "Kavadarci (Vataša)",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D0%BA%D1%83%D1%9C%D0%B0_%D0%BD%D0%B0_%D0%A1%D1%82%D1%80%D0%B0%D1%88%D0%BE_%D0%9F%D0%B8%D0%BD%D1%9F%D1%83%D1%80_%D0%B2%D0%BE_%D0%92%D0%B0%D1%82%D0%B0%D1%88%D0%B0_3.jpg",
+    "slika": "slike/spomenici/kavadarci-vatasa-spomen-kukja-na-straso-pindzur.webp",
+    "slikaOdnos": 0.662,
+    "slikaAutor": "Kiril Simeonovski, CC BY-SA 4.0",
+    "naziv": "Спомен-куќа на Страшо Пинџур",
+    "type": "muzej",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "kicevo-pod-krusino-spomen-ploca-strajku-zeleznicar",
+    "koordinate": {
+      "lat": 41.5127347,
+      "lng": 20.9476746
+    },
+    "title": "Kičevo (Pod Krušino)",
+    "info": "https://commons.wikimedia.org/wiki/File%3APlo%C4%8Da_%C5%A1trajku_%C5%BEeljezni%C4%8Dara_1942%2C_Ki%C4%8Devo.JPG",
+    "slika": "slike/spomenici/kicevo-pod-krusino-spomen-ploca-strajku-zeleznicar.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "Flammard, CC BY-SA 3.0",
+    "naziv": "Спомен-плоча за штрајкот на железничарите 1942",
+    "type": "ploca",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "negotino-spomenik-na-straso-pindzur",
+    "koordinate": {
+      "lat": 41.487094,
+      "lng": 22.093312
+    },
+    "title": "Negotino",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%B7%D0%B0_%D0%A1%D1%82%D1%80%D0%B0%D1%88%D0%BE_%D0%9F%D0%B8%D0%BD%D1%9F%D1%83%D1%80.JPG",
+    "slika": "slike/spomenici/negotino-spomenik-na-straso-pindzur.webp",
+    "slikaOdnos": 1.509,
+    "slikaAutor": "Cibrev, CC BY-SA 4.0",
+    "naziv": "Споменик на Страшо Пинџур",
+    "type": "spomenik",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "ohrid-bista-na-andon-dukov",
+    "koordinate": {
+      "lat": 41.112049,
+      "lng": 20.799827
+    },
+    "title": "Ohrid",
+    "info": "https://commons.wikimedia.org/wiki/File%3AAndon_Dukov_bista.JPG",
+    "slika": "slike/spomenici/ohrid-bista-na-andon-dukov.webp",
+    "slikaOdnos": 0.749,
+    "slikaAutor": "Zdravko, CC BY-SA 4.0",
+    "naziv": "Биста на Андон Дуков",
+    "type": "bista",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "podles-spomen-cesma",
+    "koordinate": {
+      "lat": 41.5277483,
+      "lng": 21.8179367
+    },
+    "title": "Podles",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%95%D0%BA%D1%81%D0%BF%D0%B5%D0%B4%D0%B8%D1%86%D0%B8%D1%98%D0%B0%D0%93%D1%80%D0%B0%D0%B4%D1%81%D0%BA%D0%BE37.jpg",
+    "slika": "slike/spomenici/podles-spomen-cesma.webp",
+    "slikaOdnos": 1.498,
+    "slikaAutor": "Petrovskyz, CC BY-SA 4.0",
+    "naziv": "Спомен-чешма",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "dedino-spomenik-na-nob",
+    "koordinate": {
+      "lat": 41.56912,
+      "lng": 22.424215
+    },
+    "title": "Dedino",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%95%D0%BA%D1%81%D0%BF%D0%B5%D0%B4%D0%B8%D1%86%D0%B8%D1%98%D0%B0%D0%9B%D0%B0%D0%BA%D0%B0%D0%B2%D0%B8%D1%87%D0%BA%D0%BE_207.jpg",
+    "slika": "slike/spomenici/dedino-spomenik-na-nob.webp",
+    "slikaOdnos": 0.8,
+    "slikaAutor": "Petrovskyz, CC BY-SA 4.0",
+    "naziv": "Споменик на НОБ",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "malo-ilino-spomenik-na-nob",
+    "koordinate": {
+      "lat": 41.29731,
+      "lng": 21.036613
+    },
+    "title": "Malo Ilino",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%92%D0%B8%D0%BA%D0%B8%D0%B5%D0%BA%D1%81%D0%BF%D0%B5%D0%B4%D0%B8%D1%86%D0%B8%D1%98%D0%B0_%D0%96%D0%B5%D0%BB%D0%B5%D0%B7%D0%BD%D0%B8%D0%BA_48.jpg",
+    "slika": "slike/spomenici/malo-ilino-spomenik-na-nob.webp",
+    "slikaOdnos": 1.434,
+    "slikaAutor": "Petrovskyz, CC BY-SA 4.0",
+    "naziv": "Споменик на НОБ",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "zeleznec-spomenik-na-nob",
+    "koordinate": {
+      "lat": 41.326368,
+      "lng": 21.062237
+    },
+    "title": "Železnec",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%92%D0%B8%D0%BA%D0%B8%D0%B5%D0%BA%D1%81%D0%BF%D0%B5%D0%B4%D0%B8%D1%86%D0%B8%D1%98%D0%B0_%D0%96%D0%B5%D0%BB%D0%B5%D0%B7%D0%BD%D0%B8%D0%BA_53.jpg",
+    "slika": "slike/spomenici/zeleznec-spomenik-na-nob.webp",
+    "slikaOdnos": 1.498,
+    "slikaAutor": "Petrovskyz, CC BY-SA 4.0",
+    "naziv": "Споменик на НОБ",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "virovo-spomen-ploca-od-nob",
+    "koordinate": {
+      "lat": 41.232872,
+      "lng": 21.089677
+    },
+    "title": "Virovo",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%92%D0%B8%D0%BA%D0%B8%D0%B5%D0%BA%D1%81%D0%BF%D0%B5%D0%B4%D0%B8%D1%86%D0%B8%D1%98%D0%B0_%D0%96%D0%B5%D0%BB%D0%B5%D0%B7%D0%BD%D0%B8%D0%BA_125.jpg",
+    "slika": "slike/spomenici/virovo-spomen-ploca-od-nob.webp",
+    "slikaOdnos": 1.878,
+    "slikaAutor": "Petrovskyz, CC BY-SA 4.0",
+    "naziv": "Спомен-плоча од НОБ",
+    "type": "ploca",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "budinarci-spomenik-na-nob",
+    "koordinate": {
+      "lat": 41.763605,
+      "lng": 22.775097
+    },
+    "title": "Budinarci",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D1%86%D0%B8_%D0%BD%D0%B0_%D0%9D%D0%9E%D0%91_%D0%B2%D0%BE_%D0%91%D1%83%D0%B4%D0%B8%D0%BD%D0%B0%D1%80%D1%86%D0%B8.jpg",
+    "slika": "slike/spomenici/budinarci-spomenik-na-nob.webp",
+    "slikaOdnos": 1.498,
+    "slikaAutor": "petrovskyz, CC BY-SA 3.0",
+    "naziv": "Споменик на НОБ",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "robovo-spomenik-na-nob",
+    "koordinate": {
+      "lat": 41.764812,
+      "lng": 22.821558
+    },
+    "title": "Robovo",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D1%86%D0%B8_%D0%BD%D0%B0_%D0%9D%D0%9E%D0%91_%D0%B2%D0%BE_%D0%A0%D0%BE%D0%B1%D0%BE%D0%B2%D0%BE.jpg",
+    "slika": "slike/spomenici/robovo-spomenik-na-nob.webp",
+    "slikaOdnos": 1.498,
+    "slikaAutor": "petrovskyz, CC BY-SA 3.0",
+    "naziv": "Споменик на НОБ",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "rusinovo-spomenik-na-nob",
+    "koordinate": {
+      "lat": 41.688465,
+      "lng": 22.808262
+    },
+    "title": "Rusinovo",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%92%D0%B8%D0%BA%D0%B8%D0%B5%D0%BA%D1%81%D0%BF%D0%B5%D0%B4%D0%B8%D1%86%D0%B8%D1%98%D0%B0_%D0%9C%D0%B0%D0%BB%D0%B5%D1%88%D0%B5%D0%B2%D0%B8%D1%98%D0%B0_%28155%29.jpg",
+    "slika": "slike/spomenici/rusinovo-spomenik-na-nob.webp",
+    "slikaOdnos": 0.667,
+    "slikaAutor": "petrovskyz, CC BY-SA 3.0",
+    "naziv": "Споменик на НОБ",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "vladimirovo-spomenik-na-nob",
+    "koordinate": {
+      "lat": 41.710093,
+      "lng": 22.792463
+    },
+    "title": "Vladimirovo",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%92%D0%B8%D0%BA%D0%B8%D0%B5%D0%BA%D1%81%D0%BF%D0%B5%D0%B4%D0%B8%D1%86%D0%B8%D1%98%D0%B0_%D0%9C%D0%B0%D0%BB%D0%B5%D1%88%D0%B5%D0%B2%D0%B8%D1%98%D0%B0_%28172%29.jpg",
+    "slika": "slike/spomenici/vladimirovo-spomenik-na-nob.webp",
+    "slikaOdnos": 0.667,
+    "slikaAutor": "Petrovskyz, CC BY-SA 3.0",
+    "naziv": "Споменик на НОБ",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "smojmirovo-spomenik-na-nob",
+    "koordinate": {
+      "lat": 41.73809,
+      "lng": 22.839085
+    },
+    "title": "Smojmirovo",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%92%D0%B8%D0%BA%D0%B8%D0%B5%D0%BA%D1%81%D0%BF%D0%B5%D0%B4%D0%B8%D1%86%D0%B8%D1%98%D0%B0_%D0%9C%D0%B0%D0%BB%D0%B5%D1%88%D0%B5%D0%B2%D0%B8%D1%98%D0%B0_%28221%29.jpg",
+    "slika": "slike/spomenici/smojmirovo-spomenik-na-nob.webp",
+    "slikaOdnos": 0.667,
+    "slikaAutor": "petrovskyz, CC BY-SA 3.0",
+    "naziv": "Споменик на НОБ",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "blatec-spomenik-na-nob",
+    "koordinate": {
+      "lat": 41.771114,
+      "lng": 22.564147
+    },
+    "title": "Blatec",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BD%D0%B0_%D0%9D%D0%9E%D0%91_%D0%BD%D0%B0_%D0%B2%D1%80%D0%B2%D0%BE%D1%82_%D0%91%D0%B5%D0%BB_%D0%9A%D0%B0%D0%BC%D0%B5%D0%BD.jpg",
+    "slika": "slike/spomenici/blatec-spomenik-na-nob.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "Kiril Simeonovski, CC BY-SA 4.0",
+    "naziv": "Споменик на НОБ",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "moin-spomenik-na-nob",
+    "koordinate": {
+      "lat": 41.1323,
+      "lng": 22.450282
+    },
+    "title": "Moin",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%92%D0%B8%D0%BA%D0%B8%D0%B5%D0%BA%D1%81%D0%BF%D0%B5%D0%B4%D0%B8%D1%86%D0%B8%D1%98%D0%B0_%D0%91%D0%BE%D1%98%D0%BC%D0%B8%D1%98%D0%B0_005.jpg",
+    "slika": "slike/spomenici/moin-spomenik-na-nob.webp",
+    "slikaOdnos": 1.509,
+    "slikaAutor": "M.pvsk, CC BY-SA 4.0",
+    "naziv": "Споменик на НОБ",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "marvinci-spomenik-na-nob",
+    "koordinate": {
+      "lat": 41.283222,
+      "lng": 22.497725
+    },
+    "title": "Marvinci",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%92%D0%B8%D0%BA%D0%B8%D0%B5%D0%BA%D1%81%D0%BF%D0%B5%D0%B4%D0%B8%D1%86%D0%B8%D1%98%D0%B0_%D0%91%D0%BE%D1%98%D0%BC%D0%B8%D1%98%D0%B0_211.jpg",
+    "slika": "slike/spomenici/marvinci-spomenik-na-nob.webp",
+    "slikaOdnos": 0.662,
+    "slikaAutor": "M.pvsk, CC BY-SA 4.0",
+    "naziv": "Споменик на НОБ",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "mogilec-spomenik-na-nob",
+    "koordinate": {
+      "lat": 41.650606,
+      "lng": 21.2238
+    },
+    "title": "Mogilec",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BD%D0%B0_%D0%9D%D0%9E%D0%91_%D0%B2%D0%BE_%D0%9C%D0%BE%D0%B3%D0%B8%D0%BB%D0%B5%D1%86.jpg",
+    "slika": "slike/spomenici/mogilec-spomenik-na-nob.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "Kiril Simeonovski, CC BY-SA 4.0",
+    "naziv": "Споменик на НОБ",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "slansko-spomenik-na-nob",
+    "koordinate": {
+      "lat": 41.488639,
+      "lng": 21.228089
+    },
+    "title": "Slansko",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BD%D0%B0_%D0%9D%D0%9E%D0%91_%D0%B2%D0%BE_%D0%A1%D0%BB%D0%B0%D0%BD%D1%81%D0%BA%D0%BE.jpg",
+    "slika": "slike/spomenici/slansko-spomenik-na-nob.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "Kiril Simeonovski, CC BY-SA 4.0",
+    "naziv": "Споменик на НОБ",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "rastes-spomenik-na-nob",
+    "koordinate": {
+      "lat": 41.746667,
+      "lng": 21.104444
+    },
+    "title": "Rasteš",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BD%D0%B0_%D0%9D%D0%9E%D0%91_%D0%B2%D0%BE_%D1%81%D0%B5%D0%BB%D0%BE_%D0%A0%D0%B0%D1%81%D1%82%D0%B5%D1%88.jpg",
+    "slika": "slike/spomenici/rastes-spomenik-na-nob.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "Ehrlich91, CC BY-SA 4.0",
+    "naziv": "Споменик на НОБ",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "cresnevo-spomenik-na-nob",
+    "koordinate": {
+      "lat": 41.645,
+      "lng": 21.284444
+    },
+    "title": "Crešnevo",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%B2%D0%BE_%D1%81%D0%B5%D0%BB%D0%BE_%D0%A6%D1%80%D0%B5%D1%88%D0%BD%D0%B5%D0%B2%D0%BE.jpg",
+    "slika": "slike/spomenici/cresnevo-spomenik-na-nob.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "Ehrlich91, CC BY-SA 4.0",
+    "naziv": "Споменик на НОБ",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "bituse-spomenik-na-nob",
+    "koordinate": {
+      "lat": 41.617222,
+      "lng": 20.590278
+    },
+    "title": "Bituše",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%92%D0%B8%D0%BA%D0%B8%D0%B5%D0%BA%D1%81%D0%BF%D0%B5%D0%B4%D0%B8%D1%86%D0%B8%D1%98%D0%B0_%D0%A0%D0%B5%D0%BA%D0%B0_64.jpg",
+    "slika": "slike/spomenici/bituse-spomenik-na-nob.webp",
+    "slikaOdnos": 0.749,
+    "slikaAutor": "Ehrlich91, CC BY-SA 4.0",
+    "naziv": "Споменик на НОБ",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "zirovnica-spomenik-na-nob",
+    "koordinate": {
+      "lat": 41.673797,
+      "lng": 20.586333
+    },
+    "title": "Žirovnica",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BD%D0%B0_%D0%9D%D0%9E%D0%91_%D0%B2%D0%BE_%D0%96%D0%B8%D1%80%D0%BE%D0%B2%D0%BD%D0%B8%D1%86%D0%B0.jpg",
+    "slika": "slike/spomenici/zirovnica-spomenik-na-nob.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "Kiril Simeonovski, CC BY-SA 4.0",
+    "naziv": "Споменик на НОБ",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "radovis-spomenik-na-nob",
+    "koordinate": {
+      "lat": 41.6302222,
+      "lng": 22.4821944
+    },
+    "title": "Radoviš",
+    "info": "https://commons.wikimedia.org/wiki/File%3AMonument_in_Rakli%C5%A1_%282%29.jpg",
+    "slika": "slike/spomenici/radovis-spomenik-na-nob.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "Тиверополник, CC BY-SA 4.0",
+    "naziv": "Споменик на НОБ",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "ivancista-spomenik-na-nob",
+    "koordinate": {
+      "lat": 41.458889,
+      "lng": 20.790278
+    },
+    "title": "Ivančišta",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BE%D0%B4_%D0%9D%D0%9E%D0%91_%D0%B2%D0%BE_%D1%81%D0%B5%D0%BB%D0%BE%D1%82%D0%BE_%D0%98%D0%B2%D0%B0%D0%BD%D1%87%D0%B8%D1%88%D1%82%D0%B0.jpg",
+    "slika": "slike/spomenici/ivancista-spomenik-na-nob.webp",
+    "slikaOdnos": 1.778,
+    "slikaAutor": "Ehrlich91, CC BY-SA 4.0",
+    "naziv": "Споменик на НОБ",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "konopnica-spomenik-na-nob",
+    "koordinate": {
+      "lat": 42.176117,
+      "lng": 22.2926
+    },
+    "title": "Konopnica",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BD%D0%B0_%D0%9D%D0%9E%D0%91_%D0%B2%D0%BE_%D0%9A%D0%BE%D0%BD%D0%BE%D0%BF%D0%BD%D0%B8%D1%86%D0%B0.jpg",
+    "slika": "slike/spomenici/konopnica-spomenik-na-nob.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "Kiril Simeonovski, CC BY-SA 4.0",
+    "naziv": "Споменик на НОБ",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "kriva-palanka-sredna-maala-spomen-ploca-od-nob",
+    "koordinate": {
+      "lat": 42.306084,
+      "lng": 22.282997
+    },
+    "title": "Kriva Palanka (Sredna Maala)",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%9F%D0%BB%D0%BE%D1%87%D0%B0_%D0%BE%D0%B4_%D0%9D%D0%9E%D0%91_%D0%B2%D0%BE_%D1%81%D0%B5%D0%BB%D0%BE%D1%82%D0%BE_%D0%9B%D1%83%D0%BA%D0%B5.jpg",
+    "slika": "slike/spomenici/kriva-palanka-sredna-maala-spomen-ploca-od-nob.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "Ehrlich91, CC BY-SA 4.0",
+    "naziv": "Спомен-плоча од НОБ",
+    "type": "ploca",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "svinista-spomenik-na-nob",
+    "koordinate": {
+      "lat": 41.205383,
+      "lng": 20.939203
+    },
+    "title": "Sviništa",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%B2%D0%BE_%D0%A1%D0%B2%D0%B8%D0%BD%D0%B8%D1%88%D1%82%D0%B0.jpg",
+    "slika": "slike/spomenici/svinista-spomenik-na-nob.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "Kiril Simeonovski, CC BY-SA 4.0",
+    "naziv": "Споменик на НОБ",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "kuratica-spomenik-na-nob",
+    "koordinate": {
+      "lat": 41.243683,
+      "lng": 20.888686
+    },
+    "title": "Kuratica",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%B2%D0%BE_%D0%9A%D1%83%D1%80%D0%B0%D1%82%D0%B8%D1%86%D0%B0.jpg",
+    "slika": "slike/spomenici/kuratica-spomenik-na-nob.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "Kiril Simeonovski, CC BY-SA 4.0",
+    "naziv": "Споменик на НОБ",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "ramne-spomenik-na-nob",
+    "koordinate": {
+      "lat": 41.109154,
+      "lng": 20.836966
+    },
+    "title": "Ramne",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%B2%D0%BE_%D1%81%D0%B5%D0%BB%D0%BE%D1%82%D0%BE_%D0%A0%D0%B0%D0%BC%D0%BD%D0%B5.jpg",
+    "slika": "slike/spomenici/ramne-spomenik-na-nob.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "Ehrlich91, CC BY-SA 4.0",
+    "naziv": "Споменик на НОБ",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "valandovo-spomenik-na-nob",
+    "koordinate": {
+      "lat": 41.31821,
+      "lng": 22.561157
+    },
+    "title": "Valandovo",
+    "info": "https://commons.wikimedia.org/wiki/File%3ASpomenik_NOB_Valandovo_2.jpg",
+    "slika": "slike/spomenici/valandovo-spomenik-na-nob.webp",
+    "slikaOdnos": 0.486,
+    "slikaAutor": "Zdravko, CC BY-SA 4.0",
+    "naziv": "Споменик на НОБ",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "ropotovo-spomenik-na-nob",
+    "koordinate": {
+      "lat": 41.450731,
+      "lng": 21.373397
+    },
+    "title": "Ropotovo",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BD%D0%B0_%D0%9D%D0%9E%D0%91_%D0%B2%D0%BE_%D0%A0%D0%BE%D0%BF%D0%BE%D1%82%D0%BE%D0%B2%D0%BE.jpg",
+    "slika": "slike/spomenici/ropotovo-spomenik-na-nob.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "Kiril Simeonovski, CC BY-SA 4.0",
+    "naziv": "Споменик на НОБ",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "dolno-brailovo-spomenik-na-nob",
+    "koordinate": {
+      "lat": 41.472011,
+      "lng": 21.459544
+    },
+    "title": "Dolno Brailovo",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BD%D0%B0_%D0%9D%D0%9E%D0%91.jpg",
+    "slika": "slike/spomenici/dolno-brailovo-spomenik-na-nob.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "Kiril Simeonovski, CC BY-SA 4.0",
+    "naziv": "Споменик на НОБ",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "plasnica-spomenik-na-nob",
+    "koordinate": {
+      "lat": 41.467911,
+      "lng": 21.122933
+    },
+    "title": "Plasnica",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D1%86%D0%B8_%D0%BD%D0%B0_%D0%9D%D0%9E%D0%91_%D0%B2%D0%BE_%D0%9F%D0%BB%D0%B0%D1%81%D0%BD%D0%B8%D1%86%D0%B0.jpg",
+    "slika": "slike/spomenici/plasnica-spomenik-na-nob.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "Kiril Simeonovski, CC BY-SA 4.0",
+    "naziv": "Споменик на НОБ",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "svetorace-spomenik-na-nob",
+    "koordinate": {
+      "lat": 41.527244,
+      "lng": 21.069992
+    },
+    "title": "Svetorače",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%B2%D0%BE_%D0%A1%D0%B2%D0%B5%D1%82%D0%BE%D1%80%D0%B0%D1%87%D0%B5.jpg",
+    "slika": "slike/spomenici/svetorace-spomenik-na-nob.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "Kiril Simeonovski, CC BY-SA 4.0",
+    "naziv": "Споменик на НОБ",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "karbunica-spomenik-na-nob",
+    "koordinate": {
+      "lat": 41.464775,
+      "lng": 20.977878
+    },
+    "title": "Karbunica",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%B2%D0%BE_%D0%9A%D0%B0%D1%80%D0%B1%D1%83%D0%BD%D0%B8%D1%86%D0%B0.jpg",
+    "slika": "slike/spomenici/karbunica-spomenik-na-nob.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "Kiril Simeonovski, CC BY-SA 4.0",
+    "naziv": "Споменик на НОБ",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "jagol-spomenik-na-nob",
+    "koordinate": {
+      "lat": 41.626158,
+      "lng": 21.002394
+    },
+    "title": "Jagol",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%B2%D0%BE_%D0%88%D0%B0%D0%B3%D0%BE%D0%BB.jpg",
+    "slika": "slike/spomenici/jagol-spomenik-na-nob.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "Kiril Simeonovski, CC BY-SA 4.0",
+    "naziv": "Споменик на НОБ",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "glavovica-spomenik-na-nob",
+    "koordinate": {
+      "lat": 42.047925,
+      "lng": 22.486969
+    },
+    "title": "Glavovica",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BD%D0%B0_%D0%9D%D0%9E%D0%91_%D0%B2%D0%BE_%D0%93%D0%BB%D0%B0%D0%B2%D0%BE%D0%B2%D0%B8%D1%86%D0%B0.jpg",
+    "slika": "slike/spomenici/glavovica-spomenik-na-nob.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "Kiril Simeonovski, CC BY-SA 4.0",
+    "naziv": "Споменик на НОБ",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "argulica-spomenik-na-nob",
+    "koordinate": {
+      "lat": 41.818642,
+      "lng": 22.279472
+    },
+    "title": "Argulica",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BD%D0%B0_%D0%9D%D0%9E%D0%91_%D0%B2%D0%BE_%D0%90%D1%80%D0%B3%D1%83%D0%BB%D0%B8%D1%86%D0%B0.jpg",
+    "slika": "slike/spomenici/argulica-spomenik-na-nob.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "Kiril Simeonovski, CC BY-SA 4.0",
+    "naziv": "Споменик на НОБ",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "radanje-spomenik-na-nob",
+    "koordinate": {
+      "lat": 41.779647,
+      "lng": 22.278644
+    },
+    "title": "Radanje",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BD%D0%B0_%D0%9D%D0%9E%D0%91_%D0%B2%D0%BE_%D0%A0%D0%B0%D0%B4%D0%B0%D1%9A%D0%B5_2.jpg",
+    "slika": "slike/spomenici/radanje-spomenik-na-nob.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "Kiril Simeonovski, CC BY-SA 4.0",
+    "naziv": "Споменик на НОБ",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "gorni-balvan-spomenik-na-nob",
+    "koordinate": {
+      "lat": 41.840058,
+      "lng": 22.20115
+    },
+    "title": "Gorni Balvan",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BD%D0%B0_%D0%9D%D0%9E%D0%91_%D0%B2%D0%BE_%D0%93%D0%BE%D1%80%D0%BD%D0%B8_%D0%91%D0%B0%D0%BB%D0%B2%D0%B0%D0%BD.jpg",
+    "slika": "slike/spomenici/gorni-balvan-spomenik-na-nob.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "Kiril Simeonovski, CC BY-SA 4.0",
+    "naziv": "Споменик на НОБ",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "gorni-balvan-spomenik-na-nob-2",
+    "koordinate": {
+      "lat": 41.838703,
+      "lng": 22.173242
+    },
+    "title": "Gorni Balvan",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D1%86%D0%B8_%D0%B2%D0%BE_%D0%94%D0%BE%D0%BB%D0%BD%D0%BE_%D0%A2%D1%80%D0%BE%D0%B3%D0%B5%D1%80%D1%86%D0%B8.jpg",
+    "slika": "slike/spomenici/gorni-balvan-spomenik-na-nob-2.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "Kiril Simeonovski, CC BY-SA 4.0",
+    "naziv": "Споменик на НОБ",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "pavlesenci-spomenik-na-nob",
+    "koordinate": {
+      "lat": 41.999669,
+      "lng": 21.901125
+    },
+    "title": "Pavlešenci",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BD%D0%B0_%D0%9D%D0%9E%D0%91_%D0%B2%D0%BE_%D0%9F%D0%B0%D0%B2%D0%BB%D0%B5%D1%88%D0%B5%D0%BD%D1%86%D0%B8.jpg",
+    "slika": "slike/spomenici/pavlesenci-spomenik-na-nob.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "Kiril Simeonovski, CC BY-SA 4.0",
+    "naziv": "Споменик на НОБ",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "dolno-gjugjanci-spomenik-na-nob",
+    "koordinate": {
+      "lat": 41.95625,
+      "lng": 21.932481
+    },
+    "title": "Dolno Gjugjanci",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BD%D0%B0_%D0%9D%D0%9E%D0%91_%D0%B2%D0%BE_%D0%B1%D0%BB%D0%B8%D0%B7%D0%B8%D0%BD%D0%B0_%D0%BD%D0%B0_%D0%94%D0%BE%D0%BB%D0%BD%D0%BE_%D0%83%D1%83%D1%93%D0%B0%D0%BD%D1%86%D0%B5.jpg",
+    "slika": "slike/spomenici/dolno-gjugjanci-spomenik-na-nob.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "Kiril Simeonovski, CC BY-SA 4.0",
+    "naziv": "Споменик на НОБ",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "gorobinci-spomenik-na-nob",
+    "koordinate": {
+      "lat": 41.874794,
+      "lng": 21.875475
+    },
+    "title": "Gorobinci",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BD%D0%B0_%D0%9D%D0%9E%D0%91_%D0%B2%D0%BE_%D0%93%D0%BE%D1%80%D0%BE%D0%B1%D0%B8%D0%BD%D1%86%D0%B8.jpg",
+    "slika": "slike/spomenici/gorobinci-spomenik-na-nob.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "Kiril Simeonovski, CC BY-SA 4.0",
+    "naziv": "Споменик на НОБ",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "gabrovo-spomenik-na-nob",
+    "koordinate": {
+      "lat": 41.286053,
+      "lng": 22.402047
+    },
+    "title": "Gabrovo",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BD%D0%B0_%D0%9D%D0%9E%D0%91_%D0%B2%D0%BE_%D0%93%D0%B0%D0%B1%D1%80%D0%BE%D0%B2%D0%BE.jpg",
+    "slika": "slike/spomenici/gabrovo-spomenik-na-nob.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "Kiril Simeonovski, CC BY-SA 4.0",
+    "naziv": "Споменик на НОБ",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "davidovo-bisti-na-leonid-stojkov-i-jordan-markov",
+    "koordinate": {
+      "lat": 41.332058,
+      "lng": 22.432986
+    },
+    "title": "Davidovo",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D1%86%D0%B8_%D0%B2%D0%BE_%D0%94%D0%B0%D0%B2%D0%B8%D0%B4%D0%BE%D0%B2%D0%BE.jpg",
+    "slika": "slike/spomenici/davidovo-bisti-na-leonid-stojkov-i-jordan-markov.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "Kiril Simeonovski, CC BY-SA 4.0",
+    "naziv": "Бисти на Леонид Стојков и Јордан Марков",
+    "type": "bista",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "bistrenci-spomen-park-na-nob",
+    "koordinate": {
+      "lat": 41.446389,
+      "lng": 22.200353
+    },
+    "title": "Bistrenci",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D0%BF%D0%B0%D1%80%D0%BA_%D0%B2%D0%BE_%D0%91%D0%B8%D1%81%D1%82%D1%80%D0%B5%D0%BD%D1%86%D0%B8.jpg",
+    "slika": "slike/spomenici/bistrenci-spomen-park-na-nob.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "Kiril Simeonovski, CC BY-SA 4.0",
+    "naziv": "Спомен-парк на НОБ",
+    "type": "kompleks",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "besvica-spomen-cesma-od-nob",
+    "koordinate": {
+      "lat": 41.384358,
+      "lng": 22.182864
+    },
+    "title": "Besvica",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D1%87%D0%B5%D1%88%D0%BC%D0%B0_%D0%B2%D0%BE_%D0%91%D0%B5%D1%81%D0%B2%D0%B8%D1%86%D0%B0.jpg",
+    "slika": "slike/spomenici/besvica-spomen-cesma-od-nob.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "Kiril Simeonovski, CC BY-SA 4.0",
+    "naziv": "Спомен-чешма од НОБ",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "przdevo-spomenik-na-nob",
+    "koordinate": {
+      "lat": 41.421214,
+      "lng": 22.167192
+    },
+    "title": "Prždevo",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BD%D0%B0_%D0%9D%D0%9E%D0%91_%D0%B2%D0%BE_%D0%9F%D1%80%D0%B6%D0%B4%D0%B5%D0%B2%D0%BE.jpg",
+    "slika": "slike/spomenici/przdevo-spomenik-na-nob.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "Kiril Simeonovski, CC BY-SA 4.0",
+    "naziv": "Споменик на НОБ",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "gradesnica-spomen-ploca-od-nob",
+    "koordinate": {
+      "lat": 41.08445,
+      "lng": 21.761683
+    },
+    "title": "Gradešnica",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D0%BF%D0%BB%D0%BE%D1%87%D0%B0_%D0%B2%D0%BE_%D0%93%D1%80%D0%B0%D0%B4%D0%B5%D1%88%D0%BD%D0%B8%D1%86%D0%B0.jpg",
+    "slika": "slike/spomenici/gradesnica-spomen-ploca-od-nob.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "Kiril Simeonovski, CC BY-SA 4.0",
+    "naziv": "Спомен-плоча од НОБ",
+    "type": "ploca",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "novaci-spomenik-na-slavko-lumbarkovski",
+    "koordinate": {
+      "lat": 41.040956,
+      "lng": 21.455153
+    },
+    "title": "Novaci",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BD%D0%B0_%D0%A1%D0%BB%D0%B0%D0%B2%D0%BA%D0%BE_%D0%9B%D1%83%D0%BC%D0%B1%D0%B0%D1%80%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B8.jpg",
+    "slika": "slike/spomenici/novaci-spomenik-na-slavko-lumbarkovski.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "Kiril Simeonovski, CC BY-SA 4.0",
+    "naziv": "Споменик на Славко Лумбарковски",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "galicnik-spomen-ploca-od-nob",
+    "koordinate": {
+      "lat": 41.592152,
+      "lng": 20.649056
+    },
+    "title": "Galičnik",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%9A%D1%83%D1%9C%D0%B0_%D0%BD%D0%B0_%D0%A2%D1%80%D0%B0%D1%98%D0%B0%D0%BD_%D0%B8_%D0%A0%D0%B8%D1%81%D1%82%D0%B5_%D0%9F%D0%BE%D0%BF%D0%BE%D0%B2%D1%81%D0%BA%D0%B8_-_%D1%81%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD_%D0%BF%D0%BB%D0%BE%D1%87%D0%B0.jpg",
+    "slika": "slike/spomenici/galicnik-spomen-ploca-od-nob.webp",
+    "slikaOdnos": 1.498,
+    "slikaAutor": "44martin88, CC BY-SA 4.0",
+    "naziv": "Спомен-плоча од НОБ",
+    "type": "ploca",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "pusta-reka-spomenik-na-nob",
+    "koordinate": {
+      "lat": 41.412497,
+      "lng": 21.156572
+    },
+    "title": "Pusta Reka",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BD%D0%B0_%D0%9D%D0%9E%D0%91_%D0%B2%D0%BE_%D0%9F%D1%83%D1%81%D1%82%D0%B0_%D0%A0%D0%B5%D0%BA%D0%B0.jpg",
+    "slika": "slike/spomenici/pusta-reka-spomenik-na-nob.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "Kiril Simeonovski, CC BY-SA 4.0",
+    "naziv": "Споменик на НОБ",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "milosevo-spomenik-na-nob",
+    "koordinate": {
+      "lat": 41.309806,
+      "lng": 21.312475
+    },
+    "title": "Miloševo",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BD%D0%B0_%D0%9D%D0%9E%D0%91_%D0%B2%D0%BE_%D0%9C%D0%B8%D0%BB%D0%BE%D1%88%D0%B5%D0%B2%D0%BE.jpg",
+    "slika": "slike/spomenici/milosevo-spomenik-na-nob.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "Kiril Simeonovski, CC BY-SA 4.0",
+    "naziv": "Споменик на НОБ",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "presil-spomenik-na-nob",
+    "koordinate": {
+      "lat": 41.295856,
+      "lng": 21.312489
+    },
+    "title": "Presil",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BD%D0%B0_%D0%9D%D0%9E%D0%91_%D0%B2%D0%BE_%D0%9F%D1%80%D0%B5%D1%81%D0%B8%D0%BB.jpg",
+    "slika": "slike/spomenici/presil-spomenik-na-nob.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "Kiril Simeonovski, CC BY-SA 4.0",
+    "naziv": "Споменик на НОБ",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "voislavci-spomenik-na-nob",
+    "koordinate": {
+      "lat": 41.587703,
+      "lng": 22.472861
+    },
+    "title": "Voislavci",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BD%D0%B0_%D0%9D%D0%9E%D0%91_%D0%B2%D0%BE_%D0%92%D0%BE%D0%B8%D1%81%D0%BB%D0%B0%D0%B2%D1%86%D0%B8.jpg",
+    "slika": "slike/spomenici/voislavci-spomenik-na-nob.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "Kiril Simeonovski, CC BY-SA 4.0",
+    "naziv": "Споменик на НОБ",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "podares-spomenik-na-nob",
+    "koordinate": {
+      "lat": 41.615275,
+      "lng": 22.542669
+    },
+    "title": "Podareš",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%B2%D0%BE_%D0%9F%D0%BE%D0%B4%D0%B0%D1%80%D0%B5%D1%88.jpg",
+    "slika": "slike/spomenici/podares-spomenik-na-nob.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "Kiril Simeonovski, CC BY-SA 4.0",
+    "naziv": "Споменик на НОБ",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "sturovo-spomen-ploca-od-nob",
+    "koordinate": {
+      "lat": 41.682572,
+      "lng": 22.475153
+    },
+    "title": "Šturovo",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D0%BF%D0%BB%D0%BE%D1%87%D0%B0_%D0%BD%D0%B0_%D0%9D%D0%9E%D0%91_%D0%B2%D0%BE_%D0%B1%D0%BB%D0%B8%D0%B7%D0%B8%D0%BD%D0%B0_%D0%BD%D0%B0_%D0%A8%D1%82%D1%83%D1%80%D0%BE%D0%B2%D0%BE.jpg",
+    "slika": "slike/spomenici/sturovo-spomen-ploca-od-nob.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "Kiril Simeonovski, CC BY-SA 4.0",
+    "naziv": "Спомен-плоча од НОБ",
+    "type": "ploca",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "vrteska-spomenik-na-nob-kaj-partizanskata-bolnica",
+    "koordinate": {
+      "lat": 41.7611,
+      "lng": 22.464753
+    },
+    "title": "Vrteška",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BD%D0%B0_%D0%9D%D0%9E%D0%91_%D0%BA%D0%B0%D1%98_%D0%A8%D0%B8%D0%BF%D0%BA%D0%BE%D0%B2%D0%B8%D1%86%D0%B0.jpg",
+    "slika": "slike/spomenici/vrteska-spomenik-na-nob-kaj-partizanskata-bolnica.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "Kiril Simeonovski, CC BY-SA 4.0",
+    "naziv": "Споменик на НОБ кај партизанската болница",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "novo-selo-spomen-ploca-od-nob",
+    "koordinate": {
+      "lat": 41.73559,
+      "lng": 22.181566
+    },
+    "title": "Novo Selo",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD_%D0%BF%D0%BB%D0%BE%D1%87%D0%B0_%D0%BD%D0%B0_%D1%83%D0%BB._%E2%80%9E%D0%9A%D1%80%D1%81%D1%82%D0%B5_%D0%9C%D0%B8%D1%81%D0%B8%D1%80%D0%BA%D0%BE%D0%B2%E2%80%9C%2C_%D0%9D%D0%BE%D0%B2%D0%BE_%D0%A1%D0%B5%D0%BB%D0%BE.jpg",
+    "slika": "slike/spomenici/novo-selo-spomen-ploca-od-nob.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "Dandarmkd, CC BY-SA 4.0",
+    "naziv": "Спомен-плоча од НОБ",
+    "type": "ploca",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "kapinovo-spomen-ploca-za-pettata-udarna-brigada",
+    "koordinate": {
+      "lat": 41.61732,
+      "lng": 21.448254
+    },
+    "title": "Kapinovo",
+    "info": "https://commons.wikimedia.org/wiki/File%3ASpomen_ploca_-_Petta_udarna_brigada_NOB.jpg",
+    "slika": "slike/spomenici/kapinovo-spomen-ploca-za-pettata-udarna-brigada.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "Zdravko, CC BY-SA 4.0",
+    "naziv": "Спомен-плоча за Петтата ударна бригада",
+    "type": "ploca",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "mlado-nagoricane-spomen-ploci-od-nob",
+    "koordinate": {
+      "lat": 42.175858,
+      "lng": 21.788093
+    },
+    "title": "Mlado Nagoričane",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D0%BF%D0%BB%D0%BE%D1%87%D0%B8_%D0%B2%D0%BE_%D0%97%D0%BB%D0%B5%D1%82%D0%BE%D0%B2%D0%BE.jpg",
+    "slika": "slike/spomenici/mlado-nagoricane-spomen-ploci-od-nob.webp",
+    "slikaOdnos": 1.498,
+    "slikaAutor": "Kiril Simeonovski, CC BY-SA 4.0",
+    "naziv": "Спомен-плочи од НОБ",
+    "type": "ploca",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "pisica-spomen-ploca-od-nob",
+    "koordinate": {
+      "lat": 41.874638,
+      "lng": 22.20472
+    },
+    "title": "Pišica",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D0%BF%D0%BB%D0%BE%D1%87%D0%B0_%D0%B2%D0%BE_%D0%A1%D1%82%D1%80%D0%BC%D0%BE%D1%88.jpg",
+    "slika": "slike/spomenici/pisica-spomen-ploca-od-nob.webp",
+    "slikaOdnos": 1.498,
+    "slikaAutor": "Kiril Simeonovski, CC BY-SA 4.0",
+    "naziv": "Спомен-плоча од НОБ",
+    "type": "ploca",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "tursko-rudari-cesma-so-spomen-ploca-od-nob",
+    "koordinate": {
+      "lat": 41.9808,
+      "lng": 22.255283
+    },
+    "title": "Tursko Rudari",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BD%D0%B0_%D0%9D%D0%9E%D0%91_%D0%B2%D0%BE_%D0%A2%D1%83%D1%80%D1%81%D0%BA%D0%BE_%D0%A0%D1%83%D0%B4%D0%B0%D1%80%D0%B8.jpg",
+    "slika": "slike/spomenici/tursko-rudari-cesma-so-spomen-ploca-od-nob.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "Kiril Simeonovski, CC BY-SA 4.0",
+    "naziv": "Чешма со спомен-плоча од НОБ",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "tatar-elevci-spomen-ploca-od-nob",
+    "koordinate": {
+      "lat": 41.529339,
+      "lng": 20.546965
+    },
+    "title": "Tatar Elevci",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D0%BF%D0%BB%D0%BE%D1%87%D0%B0_%D0%B2%D0%BE_%D0%A2%D0%B0%D1%82%D0%B0%D1%80_%D0%95%D0%BB%D0%B5%D0%B2%D1%86%D0%B8.jpg",
+    "slika": "slike/spomenici/tatar-elevci-spomen-ploca-od-nob.webp",
+    "slikaOdnos": 1.498,
+    "slikaAutor": "Kiril Simeonovski, CC BY-SA 4.0",
+    "naziv": "Спомен-плоча од НОБ",
+    "type": "ploca",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "gorno-melnicani-spomenik-na-nob",
+    "koordinate": {
+      "lat": 41.519463,
+      "lng": 20.587961
+    },
+    "title": "Gorno Melničani",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BD%D0%B0_%D0%9D%D0%9E%D0%91_%D0%B2%D0%BE_%D0%93%D0%BE%D1%80%D0%BD%D0%BE_%D0%9C%D0%B5%D0%BB%D0%BD%D0%B8%D1%87%D0%B0%D0%BD%D0%B8.jpg",
+    "slika": "slike/spomenici/gorno-melnicani-spomenik-na-nob.webp",
+    "slikaOdnos": 0.667,
+    "slikaAutor": "Kiril Simeonovski, CC BY-SA 4.0",
+    "naziv": "Споменик на НОБ",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "dolno-melnicani-spomenik-na-nob",
+    "koordinate": {
+      "lat": 41.517117,
+      "lng": 20.572889
+    },
+    "title": "Dolno Melničani",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%B2%D0%BE_%D0%94%D0%BE%D0%BB%D0%BD%D0%BE_%D0%9C%D0%B5%D0%BB%D0%BD%D0%B8%D1%87%D0%B0%D0%BD%D0%B8.jpg",
+    "slika": "slike/spomenici/dolno-melnicani-spomenik-na-nob.webp",
+    "slikaOdnos": 0.667,
+    "slikaAutor": "Kiril Simeonovski, CC BY-SA 4.0",
+    "naziv": "Споменик на НОБ",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "gorenci-spomenik-na-nob",
+    "koordinate": {
+      "lat": 41.501545,
+      "lng": 20.55549
+    },
+    "title": "Gorenci",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BD%D0%B0_%D0%9D%D0%9E%D0%91_%D0%B2%D0%BE_%D0%93%D0%BE%D1%80%D0%B5%D0%BD%D1%86%D0%B8_2.jpg",
+    "slika": "slike/spomenici/gorenci-spomenik-na-nob.webp",
+    "slikaOdnos": 0.667,
+    "slikaAutor": "Kiril Simeonovski, CC BY-SA 4.0",
+    "naziv": "Споменик на НОБ",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "golem-papradnik-spomenik-na-nob",
+    "koordinate": {
+      "lat": 41.477303,
+      "lng": 20.545061
+    },
+    "title": "Golem Papradnik",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%B2%D0%BE_%D0%93%D0%BE%D0%BB%D0%B5%D0%BC_%D0%9F%D0%B0%D0%BF%D1%80%D0%B0%D0%B4%D0%BD%D0%B8%D0%BA.jpg",
+    "slika": "slike/spomenici/golem-papradnik-spomenik-na-nob.webp",
+    "slikaOdnos": 1.498,
+    "slikaAutor": "Kiril Simeonovski, CC BY-SA 4.0",
+    "naziv": "Споменик на НОБ",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "mal-papradnik-spomenik-na-nob",
+    "koordinate": {
+      "lat": 41.474586,
+      "lng": 20.551405
+    },
+    "title": "Mal Papradnik",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%B2%D0%BE_%D0%9C%D0%B0%D0%BB_%D0%9F%D0%B0%D0%BF%D1%80%D0%B0%D0%B4%D0%BD%D0%B8%D0%BA.jpg",
+    "slika": "slike/spomenici/mal-papradnik-spomenik-na-nob.webp",
+    "slikaOdnos": 0.667,
+    "slikaAutor": "Kiril Simeonovski, CC BY-SA 4.0",
+    "naziv": "Споменик на НОБ",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "novak-spomen-ploca-od-nob",
+    "koordinate": {
+      "lat": 41.426979,
+      "lng": 20.610165
+    },
+    "title": "Novak",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D0%BF%D0%BB%D0%BE%D1%87%D0%B0_%D0%BD%D0%B0_%D0%9D%D0%9E%D0%91_%D0%B2%D0%BE_%D0%95%D0%B2%D0%BB%D0%B0.jpg",
+    "slika": "slike/spomenici/novak-spomen-ploca-od-nob.webp",
+    "slikaOdnos": 1.498,
+    "slikaAutor": "Kiril Simeonovski, CC BY-SA 4.0",
+    "naziv": "Спомен-плоча од НОБ",
+    "type": "ploca",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "strajane-spomenik-na-nob",
+    "koordinate": {
+      "lat": 41.702549,
+      "lng": 20.999454
+    },
+    "title": "Strajane",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BD%D0%B0_%D0%9D%D0%9E%D0%91_%D0%B2%D0%BE_%D0%96%D0%B5%D0%BB%D0%B5%D0%B7%D0%BD%D0%B0_%D0%A0%D0%B5%D0%BA%D0%B0.jpg",
+    "slika": "slike/spomenici/strajane-spomenik-na-nob.webp",
+    "slikaOdnos": 1.498,
+    "slikaAutor": "Kiril Simeonovski, CC BY-SA 4.0",
+    "naziv": "Споменик на НОБ",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "novo-selo-spomenik-na-nob",
+    "koordinate": {
+      "lat": 41.733814,
+      "lng": 20.82914
+    },
+    "title": "Novo Selo",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BD%D0%B0_%D0%9D%D0%9E%D0%91_%D0%B2%D0%BE_%D0%9D%D0%BE%D0%B2%D0%BE_%D0%A1%D0%B5%D0%BB%D0%BE.jpg",
+    "slika": "slike/spomenici/novo-selo-spomenik-na-nob.webp",
+    "slikaOdnos": 1.498,
+    "slikaAutor": "Kiril Simeonovski, CC BY-SA 4.0",
+    "naziv": "Споменик на НОБ",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "vrutok-spomenik-na-nob",
+    "koordinate": {
+      "lat": 41.765503,
+      "lng": 20.838064
+    },
+    "title": "Vrutok",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%B2%D0%BE_%D0%92%D1%80%D1%83%D1%82%D0%BE%D0%BA_2.jpg",
+    "slika": "slike/spomenici/vrutok-spomenik-na-nob.webp",
+    "slikaOdnos": 1.498,
+    "slikaAutor": "Kiril Simeonovski, CC BY-SA 4.0",
+    "naziv": "Споменик на НОБ",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "cresevo-spomen-ploca-od-nob",
+    "koordinate": {
+      "lat": 42.050736,
+      "lng": 21.513251
+    },
+    "title": "Creševo",
+    "info": "https://commons.wikimedia.org/wiki/File%3ACreshevo_spomen_ploca_NOB.jpg",
+    "slika": "slike/spomenici/cresevo-spomen-ploca-od-nob.webp",
+    "slikaOdnos": 1.316,
+    "slikaAutor": "Zdravko, CC BY-SA 4.0",
+    "naziv": "Спомен-плоча од НОБ",
+    "type": "ploca",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "krupiste-spomen-ploca-od-nob",
+    "koordinate": {
+      "lat": 41.838451,
+      "lng": 22.247955
+    },
+    "title": "Krupište",
+    "info": "https://commons.wikimedia.org/wiki/File%3AKrupiste_-_spomen_ploca_NOB.jpg",
+    "slika": "slike/spomenici/krupiste-spomen-ploca-od-nob.webp",
+    "slikaOdnos": 0.562,
+    "slikaAutor": "Zdravko, CC BY-SA 4.0",
+    "naziv": "Спомен-плоча од НОБ",
+    "type": "ploca",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "lavci-spomenik-na-nob-2",
+    "koordinate": {
+      "lat": 41.014637,
+      "lng": 21.302094
+    },
+    "title": "Lavci",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%B2%D0%BE_%D0%9B%D0%B0%D0%B2%D1%86%D0%B8.jpg",
+    "slika": "slike/spomenici/lavci-spomenik-na-nob-2.webp",
+    "slikaOdnos": 1.498,
+    "slikaAutor": "Kiril Simeonovski, CC BY-SA 4.0",
+    "naziv": "Споменик на НОБ",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "graesnica-spomen-ploca-od-nob",
+    "koordinate": {
+      "lat": 40.901909,
+      "lng": 21.342014
+    },
+    "title": "Graešnica",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D0%BF%D0%BB%D0%BE%D1%87%D0%B0_%D0%BD%D0%B0_%D0%9D%D0%9E%D0%91_%D0%B2%D0%BE_%D0%93%D1%80%D0%B0%D0%B5%D1%88%D0%BD%D0%B8%D1%86%D0%B0.jpg",
+    "slika": "slike/spomenici/graesnica-spomen-ploca-od-nob.webp",
+    "slikaOdnos": 1.498,
+    "slikaAutor": "Kiril Simeonovski, CC BY-SA 4.0",
+    "naziv": "Спомен-плоча од НОБ",
+    "type": "ploca",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "ostrec-spomen-ploca-od-nob",
+    "koordinate": {
+      "lat": 40.92857,
+      "lng": 21.303459
+    },
+    "title": "Ostrec",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D0%BF%D0%BB%D0%BE%D1%87%D0%B0_%D0%BD%D0%B0_%D0%9D%D0%9E%D0%91_%D0%B2%D0%BE_%D0%9E%D1%81%D1%82%D1%80%D0%B5%D1%86.jpg",
+    "slika": "slike/spomenici/ostrec-spomen-ploca-od-nob.webp",
+    "slikaOdnos": 1.498,
+    "slikaAutor": "Kiril Simeonovski, CC BY-SA 4.0",
+    "naziv": "Спомен-плоча од НОБ",
+    "type": "ploca",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "velusina-spomen-ploca-od-nob",
+    "koordinate": {
+      "lat": 40.92952,
+      "lng": 21.35195
+    },
+    "title": "Velušina",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D0%BF%D0%BB%D0%BE%D1%87%D0%B0_%D0%BD%D0%B0_%D0%9D%D0%9E%D0%91_%D0%B2%D0%BE_%D0%92%D0%B5%D0%BB%D1%83%D1%88%D0%B8%D0%BD%D0%B0.jpg",
+    "slika": "slike/spomenici/velusina-spomen-ploca-od-nob.webp",
+    "slikaOdnos": 1.498,
+    "slikaAutor": "Kiril Simeonovski, CC BY-SA 4.0",
+    "naziv": "Спомен-плоча од НОБ",
+    "type": "ploca",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "velusina-spomen-cesma-od-nob",
+    "koordinate": {
+      "lat": 40.928276,
+      "lng": 21.352585
+    },
+    "title": "Velušina",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D1%87%D0%B5%D1%88%D0%BC%D0%B0_%D0%BD%D0%B0_%D0%9D%D0%9E%D0%91_%D0%B2%D0%BE_%D0%92%D0%B5%D0%BB%D1%83%D1%88%D0%B8%D0%BD%D0%B0.jpg",
+    "slika": "slike/spomenici/velusina-spomen-cesma-od-nob.webp",
+    "slikaOdnos": 1.498,
+    "slikaAutor": "Kiril Simeonovski, CC BY-SA 4.0",
+    "naziv": "Спомен-чешма од НОБ",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "porodin-spomenik-na-kole-kaninski",
+    "koordinate": {
+      "lat": 40.936058,
+      "lng": 21.372204
+    },
+    "title": "Porodin",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BD%D0%B0_%D0%9A%D0%BE%D0%BB%D0%B5_%D0%9A%D0%B0%D0%BD%D0%B8%D0%BD%D1%81%D0%BA%D0%B8_%D0%B2%D0%BE_%D0%9F%D0%BE%D1%80%D0%BE%D0%B4%D0%B8%D0%BD.jpg",
+    "slika": "slike/spomenici/porodin-spomenik-na-kole-kaninski.webp",
+    "slikaOdnos": 0.667,
+    "slikaAutor": "Kiril Simeonovski, CC BY-SA 4.0",
+    "naziv": "Споменик на Коле Канински",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "bistrica-spomen-park-na-nob",
+    "koordinate": {
+      "lat": 40.978527,
+      "lng": 21.359521
+    },
+    "title": "Bistrica",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%9C%D0%B5%D0%BC%D0%BE%D1%80%D0%B8%D1%98%D0%B0%D0%BB%D0%B5%D0%BD_%D0%BF%D0%B0%D1%80%D0%BA_%D0%BD%D0%B0_%D0%9D%D0%9E%D0%91_%D0%B2%D0%BE_%D0%91%D0%B8%D1%81%D1%82%D1%80%D0%B8%D1%86%D0%B0_2.jpg",
+    "slika": "slike/spomenici/bistrica-spomen-park-na-nob.webp",
+    "slikaOdnos": 1.498,
+    "slikaAutor": "Kiril Simeonovski, CC BY-SA 4.0",
+    "naziv": "Спомен-парк на НОБ",
+    "type": "kompleks",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "kocani-bisti-na-ljupco-santov-i-rade-kratovce",
+    "koordinate": {
+      "lat": 41.915902,
+      "lng": 22.41264
+    },
+    "title": "Kočani",
+    "info": "https://commons.wikimedia.org/wiki/File%3ALjupco_Santov_i_Rade_Kratovce_-_Kocani.jpg",
+    "slika": "slike/spomenici/kocani-bisti-na-ljupco-santov-i-rade-kratovce.webp",
+    "slikaOdnos": 1.778,
+    "slikaAutor": "Zdravko, CC BY-SA 4.0",
+    "naziv": "Бисти на Љупчо Сантов и Раде Кратовче",
+    "type": "bista",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "gorni-podlog-spomenik-na-nob",
+    "koordinate": {
+      "lat": 41.887371,
+      "lng": 22.378994
+    },
+    "title": "Gorni Podlog",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BD%D0%B0_%D0%9D%D0%9E%D0%91_%D0%B2%D0%BE_%D0%93%D0%BE%D1%80%D0%BD%D0%B8_%D0%9F%D0%BE%D0%B4%D0%BB%D0%BE%D0%B3.jpg",
+    "slika": "slike/spomenici/gorni-podlog-spomenik-na-nob.webp",
+    "slikaOdnos": 1.498,
+    "slikaAutor": "Kiril Simeonovski, CC BY-SA 4.0",
+    "naziv": "Споменик на НОБ",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "pantelej-spomen-ploca-od-nob",
+    "koordinate": {
+      "lat": 41.967041,
+      "lng": 22.311152
+    },
+    "title": "Pantelej",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D0%BF%D0%BB%D0%BE%D1%87%D0%B0_%D0%BD%D0%B0_%D0%9D%D0%9E%D0%91_%D0%B2%D0%BE_%D0%9F%D0%B0%D0%BD%D1%82%D0%B5%D0%BB%D0%B5%D1%98.jpg",
+    "slika": "slike/spomenici/pantelej-spomen-ploca-od-nob.webp",
+    "slikaOdnos": 1.498,
+    "slikaAutor": "Kiril Simeonovski, CC BY-SA 4.0",
+    "naziv": "Спомен-плоча од НОБ",
+    "type": "ploca",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "ciflik-spomen-ploca-od-nob",
+    "koordinate": {
+      "lat": 41.86911,
+      "lng": 22.316896
+    },
+    "title": "Čiflik",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BD%D0%B0_%D0%9D%D0%9E%D0%91_%D0%B2%D0%BE_%D0%A7%D0%B8%D1%84%D0%BB%D0%B8%D0%BA_2.jpg",
+    "slika": "slike/spomenici/ciflik-spomen-ploca-od-nob.webp",
+    "slikaOdnos": 0.667,
+    "slikaAutor": "Kiril Simeonovski, CC BY-SA 4.0",
+    "naziv": "Спомен-плоча од НОБ",
+    "type": "ploca",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "teranci-spomenik-na-nob",
+    "koordinate": {
+      "lat": 41.851192,
+      "lng": 22.355251
+    },
+    "title": "Teranci",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BD%D0%B0_%D0%9D%D0%9E%D0%91_%D0%B2%D0%BE_%D0%A2%D0%B5%D1%80%D0%B0%D0%BD%D1%86%D0%B8.jpg",
+    "slika": "slike/spomenici/teranci-spomenik-na-nob.webp",
+    "slikaOdnos": 0.667,
+    "slikaAutor": "Kiril Simeonovski, CC BY-SA 4.0",
+    "naziv": "Споменик на НОБ",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "trstenik-spomenik-na-nob",
+    "koordinate": {
+      "lat": 41.473142,
+      "lng": 21.918115
+    },
+    "title": "Trstenik",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BD%D0%B0_%D0%9D%D0%9E%D0%91_%D0%B2%D0%BE_%D0%A2%D1%80%D1%81%D1%82%D0%B5%D0%BD%D0%B8%D0%BA.jpg",
+    "slika": "slike/spomenici/trstenik-spomenik-na-nob.webp",
+    "slikaOdnos": 0.667,
+    "slikaAutor": "Kiril Simeonovski, CC BY-SA 4.0",
+    "naziv": "Споменик на НОБ",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "mrezicko-spomenik-na-nob",
+    "koordinate": {
+      "lat": 41.238747,
+      "lng": 21.943275
+    },
+    "title": "Mrežičko",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BD%D0%B0_%D0%9D%D0%9E%D0%91_%D0%B2%D0%BE_%D0%9A%D0%BB%D0%B8%D0%BD%D0%BE%D0%B2%D0%BE.jpg",
+    "slika": "slike/spomenici/mrezicko-spomenik-na-nob.webp",
+    "slikaOdnos": 0.667,
+    "slikaAutor": "Kiril Simeonovski, CC BY-SA 4.0",
+    "naziv": "Споменик на НОБ",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "kosani-spomen-cesma-od-nob",
+    "koordinate": {
+      "lat": 41.355511,
+      "lng": 22.01506
+    },
+    "title": "Košani",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D1%87%D0%B5%D1%88%D0%BC%D0%B0_%D0%BD%D0%B0_%D0%9D%D0%9E%D0%91_%D0%B2%D0%BE_%D0%9A%D0%BE%D1%88%D0%B0%D0%BD%D0%B8.jpg",
+    "slika": "slike/spomenici/kosani-spomen-cesma-od-nob.webp",
+    "slikaOdnos": 1.498,
+    "slikaAutor": "Kiril Simeonovski, CC BY-SA 4.0",
+    "naziv": "Спомен-чешма од НОБ",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "selce-spomenik-na-nob",
+    "koordinate": {
+      "lat": 41.685371,
+      "lng": 22.178116
+    },
+    "title": "Selce",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BD%D0%B0_%D0%9D%D0%9E%D0%91_%D0%BA%D0%B0%D1%98_%D0%94%D0%BE%D0%BB%D0%B0%D0%BD%D0%B8.jpg",
+    "slika": "slike/spomenici/selce-spomenik-na-nob.webp",
+    "slikaOdnos": 0.667,
+    "slikaAutor": "Kiril Simeonovski, CC BY-SA 4.0",
+    "naziv": "Споменик на НОБ",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "utovo-spomen-ploca-od-nob",
+    "koordinate": {
+      "lat": 41.181241,
+      "lng": 21.204966
+    },
+    "title": "Utovo",
+    "info": "https://commons.wikimedia.org/wiki/File%3ASpomen_ploca_od_NOB_vo_demirhisarsko.jpg",
+    "slika": "slike/spomenici/utovo-spomen-ploca-od-nob.webp",
+    "slikaOdnos": 1.365,
+    "slikaAutor": "Zdravko, CC BY-SA 4.0",
+    "naziv": "Спомен-плоча од НОБ",
+    "type": "ploca",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "demir-hisar-spomenik-na-nob",
+    "koordinate": {
+      "lat": 41.220953,
+      "lng": 21.202711
+    },
+    "title": "Demir Hisar",
+    "info": "https://commons.wikimedia.org/wiki/File%3ASpomenik_NOB_Demir_Hisar.jpg",
+    "slika": "slike/spomenici/demir-hisar-spomenik-na-nob.webp",
+    "slikaOdnos": 0.562,
+    "slikaAutor": "Zdravko, CC BY-SA 4.0",
+    "naziv": "Споменик на НОБ",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "selce-spomen-ploca-od-nob",
+    "koordinate": {
+      "lat": 41.650089,
+      "lng": 22.169483
+    },
+    "title": "Selce",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D0%BF%D0%BB%D0%BE%D1%87%D0%B0_%D0%BD%D0%B0_%D0%9D%D0%9E%D0%91_%D0%B2%D0%BE_%D0%A1%D0%B5%D0%BB%D1%86%D0%B5.jpg",
+    "slika": "slike/spomenici/selce-spomen-ploca-od-nob.webp",
+    "slikaOdnos": 1.498,
+    "slikaAutor": "Kiril Simeonovski, CC BY-SA 4.0",
+    "naziv": "Спомен-плоча од НОБ",
+    "type": "ploca",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "dragoevo-spomenik-na-nob",
+    "koordinate": {
+      "lat": 41.672844,
+      "lng": 22.133188
+    },
+    "title": "Dragoevo",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BD%D0%B0_%D0%9D%D0%9E%D0%91_%D0%B2%D0%BE_%D0%94%D1%80%D0%B0%D0%B3%D0%BE%D0%B5%D0%B2%D0%BE.jpg",
+    "slika": "slike/spomenici/dragoevo-spomenik-na-nob.webp",
+    "slikaOdnos": 1.498,
+    "slikaAutor": "Kiril Simeonovski, CC BY-SA 4.0",
+    "naziv": "Споменик на НОБ",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "stanulovci-spomenik-na-nob",
+    "koordinate": {
+      "lat": 41.861969,
+      "lng": 22.125364
+    },
+    "title": "Stanulovci",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BD%D0%B0_%D0%9D%D0%9E%D0%91_%D0%B2%D0%BE_%D0%A1%D1%83%D0%B4%D0%B8%D1%9C.jpg",
+    "slika": "slike/spomenici/stanulovci-spomenik-na-nob.webp",
+    "slikaOdnos": 0.667,
+    "slikaAutor": "Kiril Simeonovski, CC BY-SA 4.0",
+    "naziv": "Споменик на НОБ",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "gorno-vranovci-memorijalen-muzej-na-glavniot-stab",
+    "koordinate": {
+      "lat": 41.682994,
+      "lng": 21.557213
+    },
+    "title": "Gorno Vranovci",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%9C%D0%B5%D0%BC%D0%BE%D1%80%D0%B8%D1%98%D0%B0%D0%BB%D0%B5%D0%BD_%D0%BC%D1%83%D0%B7%D0%B5%D1%98_%D0%BD%D0%B0_%D0%93%D0%BB%D0%B0%D0%B2%D0%BD%D0%B8%D0%BE%D1%82_%D1%88%D1%82%D0%B0%D0%B1_%D0%BD%D0%B0_%D0%9D%D0%9E%D0%92_%D0%B8_%D0%9F%D0%9E%D0%9C_%D0%B2%D0%BE_%D0%93%D0%BE%D1%80%D0%BD%D0%BE_%D0%92%D1%80%D0%B0%D0%BD%D0%BE%D0%B2%D1%86%D0%B8.jpg",
+    "slika": "slike/spomenici/gorno-vranovci-memorijalen-muzej-na-glavniot-stab.webp",
+    "slikaOdnos": 1.778,
+    "slikaAutor": "Деан Лазаревски, CC BY-SA 4.0",
+    "naziv": "Меморијален музеј на Главниот штаб на НОВ и ПОМ",
+    "type": "muzej",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "dolno-jabolciste-spomenik-na-nob",
+    "koordinate": {
+      "lat": 41.726749,
+      "lng": 21.515097
+    },
+    "title": "Dolno Jabolčište",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D1%86%D0%B8_%D0%B2%D0%BE_%D0%94%D0%BE%D0%BB%D0%BD%D0%BE_%D0%88%D0%B0%D0%B1%D0%BE%D0%BB%D1%87%D0%B8%D1%88%D1%82%D0%B5.jpg",
+    "slika": "slike/spomenici/dolno-jabolciste-spomenik-na-nob.webp",
+    "slikaOdnos": 1.498,
+    "slikaAutor": "Kiril Simeonovski, CC BY-SA 4.0",
+    "naziv": "Споменик на НОБ",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "gorno-vranovci-memorijalen-muzej-na-prezidiumot-na",
+    "koordinate": {
+      "lat": 41.682049,
+      "lng": 21.556404
+    },
+    "title": "Gorno Vranovci",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%9C%D0%B5%D0%BC%D0%BE%D1%80%D0%B8%D1%98%D0%B0%D0%BB%D0%B5%D0%BD_%D0%BC%D1%83%D0%B7%D0%B5%D1%98_%D0%BD%D0%B0_%D0%9F%D1%80%D0%B5%D0%B7%D0%B8%D0%B4%D0%B8%D1%83%D0%BC%D0%BE%D1%82_%D0%BD%D0%B0_%D0%90%D0%A1%D0%9D%D0%9E%D0%9C_%D0%B2%D0%BE_%D0%93%D0%BE%D1%80%D0%BD%D0%BE_%D0%92%D1%80%D0%B0%D0%BD%D0%BE%D0%B2%D1%86%D0%B8_4.jpg",
+    "slika": "slike/spomenici/gorno-vranovci-memorijalen-muzej-na-prezidiumot-na.webp",
+    "slikaOdnos": 1.498,
+    "slikaAutor": "Kiril Simeonovski, CC BY-SA 4.0",
+    "naziv": "Меморијален музеј на Президиумот на АСНОМ",
+    "type": "muzej",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "stence-spomenik-na-nob",
+    "koordinate": {
+      "lat": 41.875057,
+      "lng": 21.001774
+    },
+    "title": "Stenče",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BD%D0%B0_%D0%9D%D0%9E%D0%91_%D0%B2%D0%BE_%D0%A1%D1%82%D0%B5%D0%BD%D1%87%D0%B5.jpg",
+    "slika": "slike/spomenici/stence-spomenik-na-nob.webp",
+    "slikaOdnos": 1.498,
+    "slikaAutor": "Kiril Simeonovski, CC BY-SA 4.0",
+    "naziv": "Споменик на НОБ",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "blace-spomenik-na-nob",
+    "koordinate": {
+      "lat": 41.897606,
+      "lng": 21.021347
+    },
+    "title": "Blace",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BD%D0%B0_%D0%9D%D0%9E%D0%91_%D0%B2%D0%BE_%D0%91%D0%BB%D0%B0%D1%86%D0%B5.jpg",
+    "slika": "slike/spomenici/blace-spomenik-na-nob.webp",
+    "slikaOdnos": 0.667,
+    "slikaAutor": "Kiril Simeonovski, CC BY-SA 4.0",
+    "naziv": "Споменик на НОБ",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "blace-spomenik-na-nob-2",
+    "koordinate": {
+      "lat": 41.894024,
+      "lng": 21.021437
+    },
+    "title": "Blace",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BD%D0%B0_%D0%9D%D0%9E%D0%91_%D0%B2%D0%BE_%D0%91%D0%BB%D0%B0%D1%86%D0%B5_2.jpg",
+    "slika": "slike/spomenici/blace-spomenik-na-nob-2.webp",
+    "slikaOdnos": 0.667,
+    "slikaAutor": "Kiril Simeonovski, CC BY-SA 4.0",
+    "naziv": "Споменик на НОБ",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "brvenica-spomenik-na-nob",
+    "koordinate": {
+      "lat": 41.966881,
+      "lng": 20.981469
+    },
+    "title": "Brvenica",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BD%D0%B0_%D0%9D%D0%9E%D0%91_%D0%B2%D0%BE_%D0%91%D1%80%D0%B2%D0%B5%D0%BD%D0%B8%D1%86%D0%B0.jpg",
+    "slika": "slike/spomenici/brvenica-spomenik-na-nob.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "Kiril Simeonovski, CC BY-SA 4.0",
+    "naziv": "Споменик на НОБ",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "veles-sorka-spomenik-na-nob",
+    "koordinate": {
+      "lat": 41.734468,
+      "lng": 21.775829
+    },
+    "title": "Veles (Šorka)",
+    "info": "https://commons.wikimedia.org/wiki/File%3ASpomenik_NOB_Recani%2C_Veles1.jpg",
+    "slika": "slike/spomenici/veles-sorka-spomenik-na-nob.webp",
+    "slikaOdnos": 0.618,
+    "slikaAutor": "Zdravko, CC BY-SA 4.0",
+    "naziv": "Споменик на НОБ",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "vitoliste-spomenik-na-nob",
+    "koordinate": {
+      "lat": 41.178268,
+      "lng": 21.826658
+    },
+    "title": "Vitolište",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BD%D0%B0_%D0%9D%D0%9E%D0%91_%D0%B2%D0%BE_%D0%92%D0%B8%D1%82%D0%BE%D0%BB%D0%B8%D1%88%D1%82%D0%B5.jpg",
+    "slika": "slike/spomenici/vitoliste-spomenik-na-nob.webp",
+    "slikaOdnos": 1.498,
+    "slikaAutor": "Kiril Simeonovski, CC BY-SA 4.0",
+    "naziv": "Споменик на НОБ",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "vitoliste-spomen-ploca-od-nob",
+    "koordinate": {
+      "lat": 41.177277,
+      "lng": 21.824566
+    },
+    "title": "Vitolište",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D0%BF%D0%BB%D0%BE%D1%87%D0%B0_%D0%BD%D0%B0_%D0%9D%D0%9E%D0%91_%D0%B2%D0%BE_%D0%92%D0%B8%D1%82%D0%BE%D0%BB%D0%B8%D1%88%D1%82%D0%B5.jpg",
+    "slika": "slike/spomenici/vitoliste-spomen-ploca-od-nob.webp",
+    "slikaOdnos": 1.498,
+    "slikaAutor": "Kiril Simeonovski, CC BY-SA 4.0",
+    "naziv": "Спомен-плоча од НОБ",
+    "type": "ploca",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "polciste-spomenik-na-nob",
+    "koordinate": {
+      "lat": 41.149349,
+      "lng": 21.818741
+    },
+    "title": "Polčište",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BD%D0%B0_%D0%9D%D0%9E%D0%91_%D0%B2%D0%BE_%D0%9F%D0%BE%D0%BB%D1%87%D0%B8%D1%88%D1%82%D0%B5.jpg",
+    "slika": "slike/spomenici/polciste-spomenik-na-nob.webp",
+    "slikaOdnos": 1.498,
+    "slikaAutor": "Kiril Simeonovski, CC BY-SA 4.0",
+    "naziv": "Споменик на НОБ",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "polciste-spomen-ploca-od-nob",
+    "koordinate": {
+      "lat": 41.147185,
+      "lng": 21.824315
+    },
+    "title": "Polčište",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D0%BF%D0%BB%D0%BE%D1%87%D0%B0_%D0%BD%D0%B0_%D0%9D%D0%9E%D0%91_%D0%B2%D0%BE_%D0%9F%D0%BE%D0%BB%D1%87%D0%B8%D1%88%D1%82%D0%B5.jpg",
+    "slika": "slike/spomenici/polciste-spomen-ploca-od-nob.webp",
+    "slikaOdnos": 1.498,
+    "slikaAutor": "Kiril Simeonovski, CC BY-SA 4.0",
+    "naziv": "Спомен-плоча од НОБ",
+    "type": "ploca",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "belica-spomen-ploca-od-nob",
+    "koordinate": {
+      "lat": 41.401944,
+      "lng": 20.947778
+    },
+    "title": "Belica",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A7%D0%B5%D1%88%D0%BC%D0%B0_%D1%81%D0%BE_%D1%81%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D0%BF%D0%BB%D0%BE%D1%87%D0%B0_%D0%BE%D0%B4_%D0%9D%D0%9E%D0%91_%D0%B2%D0%BE_%D1%81%D0%B5%D0%BB%D0%BE%D1%82%D0%BE_%D0%91%D0%B5%D0%BB%D0%B8%D1%86%D0%B0%2C_%D0%9A%D0%B8%D1%87%D0%B5%D0%B2%D1%81%D0%BA%D0%BE.jpg",
+    "slika": "slike/spomenici/belica-spomen-ploca-od-nob.webp",
+    "slikaOdnos": 0.563,
+    "slikaAutor": "Ehrlich91, CC BY-SA 4.0",
+    "naziv": "Спомен-плоча од НОБ",
+    "type": "ploca",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "divlje-cesma-na-lazar-velkov-i-dose-smilevski",
+    "koordinate": {
+      "lat": 41.927571,
+      "lng": 21.769338
+    },
+    "title": "Divlje",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A7%D0%B5%D1%88%D0%BC%D0%B0_%D0%BD%D0%B0_%D0%9B%D0%B0%D0%B7%D0%B0%D1%80_%D0%92%D0%B5%D0%BB%D0%BA%D0%BE%D0%B2_%D0%B8_%D0%94%D0%BE%D1%81%D0%B5_%D0%A1%D0%BC%D0%B8%D0%BB%D0%B5%D0%B2%D1%81%D0%BA%D0%B8_02.jpg",
+    "slika": "slike/spomenici/divlje-cesma-na-lazar-velkov-i-dose-smilevski.webp",
+    "slikaOdnos": 0.667,
+    "slikaAutor": "Илијапетр, CC BY-SA 4.0",
+    "naziv": "Чешма на Лазар Велков и Досе Смилевски",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "futog-spomenik-borcima-nob",
+    "koordinate": {
+      "lat": 45.237225,
+      "lng": 19.7065028
+    },
+    "title": "Futog",
+    "info": "https://commons.wikimedia.org/wiki/File%3ASpomenik_borcima_NOB_u_Futogu.JPG",
+    "slika": "slike/spomenici/futog-spomenik-borcima-nob.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "Micki, CC BY-SA 3.0",
+    "naziv": "Spomenik borcima NOB",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "futog-veternik-spomenik-palim-borcima",
+    "koordinate": {
+      "lat": 45.2493667,
+      "lng": 19.7551528
+    },
+    "title": "Futog (Veternik)",
+    "info": "https://commons.wikimedia.org/wiki/File%3ASpomenik_palim_borcima_u_Veterniku.JPG",
+    "slika": "slike/spomenici/futog-veternik-spomenik-palim-borcima.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "Micki, CC BY-SA 3.0",
+    "naziv": "Spomenik palim borcima",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "cenej-spomenik-novosadskom-partizanskom-odredu",
+    "koordinate": {
+      "lat": 45.337788,
+      "lng": 19.831883
+    },
+    "title": "Čenej",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%9D%D0%BE%D0%B2%D0%BE%D1%81%D0%B0%D0%B4%D1%81%D0%BA%D0%BE%D0%BC_%D0%BF%D0%B0%D1%80%D1%82%D0%B8%D0%B7%D0%B0%D0%BD%D1%81%D0%BA%D0%BE%D0%BC_%D0%BE%D0%B4%D1%80%D0%B5%D0%B4%D1%83_-_%D0%A7%D0%B5%D0%BD%D0%B5%D1%98.jpg",
+    "slika": "slike/spomenici/cenej-spomenik-novosadskom-partizanskom-odredu.webp",
+    "slikaOdnos": 1.342,
+    "slikaAutor": "Тајга, CC BY-SA 3.0",
+    "naziv": "Spomenik Novosadskom partizanskom odredu",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "novi-sad-almaski-kraj-spomen-ploca",
+    "koordinate": {
+      "lat": 45.258423,
+      "lng": 19.840338
+    },
+    "title": "Novi Sad (Almaški kraj)",
+    "info": "https://commons.wikimedia.org/wiki/File%3ASpomen_plo%C4%8Da_Novi_Sad.jpg",
+    "slika": "slike/spomenici/novi-sad-almaski-kraj-spomen-ploca.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "Vanjagenije, CC BY-SA 4.0",
+    "naziv": "Spomen-ploča",
+    "type": "ploca",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "budimlic-japra-spomenik-zrtvama-fasistickog-terora",
+    "koordinate": {
+      "lat": 44.8836098,
+      "lng": 16.4283333
+    },
+    "title": "Budimlić Japra",
+    "info": "https://commons.wikimedia.org/wiki/File%3ASpomenik_zrtava_Fasistickog_terora_u_Budimlic_Japri_-_panoramio.jpg",
+    "slika": "slike/spomenici/budimlic-japra-spomenik-zrtvama-fasistickog-terora.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "87Edvin, CC BY 3.0",
+    "naziv": "Spomenik žrtvama fašističkog terora",
+    "type": "lokalni",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "pletvar-spomenik-na-nob",
+    "koordinate": {
+      "lat": 41.367533,
+      "lng": 21.653811
+    },
+    "title": "Pletvar",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BD%D0%B0_%D0%9D%D0%9E%D0%91_%D0%B2%D0%BE_%D0%9F%D0%BB%D0%B5%D1%82%D0%B2%D0%B0%D1%80.jpg",
+    "slika": "slike/spomenici/pletvar-spomenik-na-nob.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "Kiril Simeonovski, CC BY-SA 4.0",
+    "naziv": "Споменик на НОБ",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "prilep-carsija-bista-na-dusko-naumoski",
+    "koordinate": {
+      "lat": 41.3419915,
+      "lng": 21.5572848
+    },
+    "title": "Prilep (Čaršija)",
+    "info": "https://commons.wikimedia.org/wiki/File%3ADusko_Naumoski_-_bista_Prilep.jpg",
+    "slika": "slike/spomenici/prilep-carsija-bista-na-dusko-naumoski.webp",
+    "slikaOdnos": 0.526,
+    "slikaAutor": "Zdravko, CC BY-SA 4.0",
+    "naziv": "Биста на Душко Наумоски",
+    "type": "bista",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "prilep-tri-bagremi-spomenik-na-zrtvite-od-dabnicki",
+    "koordinate": {
+      "lat": 41.372467,
+      "lng": 21.56049
+    },
+    "title": "Prilep (Tri Bagremi)",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BD%D0%B0_%D0%9D%D0%9E%D0%91_%D0%BA%D0%B0%D1%98_%D0%94%D0%B0%D0%B1%D0%BD%D0%B8%D1%86%D0%B0.jpg",
+    "slika": "slike/spomenici/prilep-tri-bagremi-spomenik-na-zrtvite-od-dabnicki.webp",
+    "slikaOdnos": 0.667,
+    "slikaAutor": "Kiril Simeonovski, CC BY-SA 4.0",
+    "naziv": "Споменик на жртвите од Дабничкиот масакр",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "donja-gradina-topola-uzasa",
+    "koordinate": {
+      "lat": 45.2706111,
+      "lng": 16.9311667
+    },
+    "title": "Donja Gradina",
+    "info": "https://commons.wikimedia.org/wiki/File%3ATopola_u%C5%BEasa_%28Donja_Gradina%2C_Republika_Srpska%29.jpg",
+    "slika": "slike/spomenici/donja-gradina-topola-uzasa.webp",
+    "slikaOdnos": 1.299,
+    "slikaAutor": "Petar Milošević, CC BY-SA 4.0",
+    "naziv": "Topola užasa",
+    "type": "lokalni",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "vlaknica-spomenik-partizanima",
+    "koordinate": {
+      "lat": 45.125713,
+      "lng": 17.651983
+    },
+    "title": "Vlaknica",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BF%D0%B0%D1%80%D1%82%D0%B8%D0%B7%D0%B0%D0%BD%D0%B8%D0%BC%D0%B0_%D1%83_%D0%92%D0%BB%D0%B0%D0%BA%D0%BD%D0%B8%D1%86%D0%B8.jpg",
+    "slika": "slike/spomenici/vlaknica-spomenik-partizanima.webp",
+    "slikaOdnos": 0.563,
+    "slikaAutor": "Pejakm, CC BY-SA 4.0",
+    "naziv": "Spomenik partizanima",
+    "type": "lokalni",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "brenica-spomen-ploca-palim-borcima",
+    "koordinate": {
+      "lat": 43.401569,
+      "lng": 21.950406
+    },
+    "title": "Brenica",
+    "info": "https://commons.wikimedia.org/wiki/File%3AKamenicki_vis_spomen_ploca.jpg",
+    "slika": "slike/spomenici/brenica-spomen-ploca-palim-borcima.webp",
+    "slikaOdnos": 1.498,
+    "slikaAutor": "Zmajche, CC BY-SA 4.0",
+    "naziv": "Spomen-ploča palim borcima",
+    "type": "ploca",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "sikole-spomenik-nob",
+    "koordinate": {
+      "lat": 44.1883609,
+      "lng": 22.2777685
+    },
+    "title": "Sikole",
+    "info": "https://commons.wikimedia.org/wiki/File%3ADeli_Jovan_WWII.jpg",
+    "slika": "slike/spomenici/sikole-spomenik-nob.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "CrniBombarder!!!, Public domain",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "progar-spomen-ploca",
+    "koordinate": {
+      "lat": 44.731804,
+      "lng": 20.155728
+    },
+    "title": "Progar",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD_%D0%BF%D0%BB%D0%BE%D1%87%D0%B0_%D1%83_%D0%91%D0%BE%D1%98%D1%87%D0%B8%D0%BD%D1%81%D0%BA%D0%BE%D1%98_%D1%88%D1%83%D0%BC%D0%B8.jpg",
+    "slika": "slike/spomenici/progar-spomen-ploca.webp",
+    "slikaOdnos": 1.498,
+    "slikaAutor": "Тајга, CC BY-SA 3.0",
+    "naziv": "Spomen-ploča",
+    "type": "ploca",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "banatsko-arandjelovo-spomenik-palim-borcima-u-nob",
+    "koordinate": {
+      "lat": 46.064482,
+      "lng": 20.246768
+    },
+    "title": "Banatsko Aranđelovo",
+    "info": "https://commons.wikimedia.org/wiki/File%3ASpomenik_palim_borcima_u_NOB-u_u_Banatskom_Aran%C4%91elovu.jpg",
+    "slika": "slike/spomenici/banatsko-arandjelovo-spomenik-palim-borcima-u-nob.webp",
+    "slikaOdnos": 0.565,
+    "slikaAutor": "Dubravka.Rajic, CC BY-SA 4.0",
+    "naziv": "Spomenik palim borcima u NOB-u",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "ada-spomenik-nob",
+    "koordinate": {
+      "lat": 45.801389,
+      "lng": 20.122222
+    },
+    "title": "Ada",
+    "info": "https://commons.wikimedia.org/wiki/File%3ASpomenik_u_centu_Ade%2C_rad_Aleksandra_Zarina.jpg",
+    "slika": "slike/spomenici/ada-spomenik-nob.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "Dobrislava, CC BY-SA 4.0",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "vratna-spomenik-nob",
+    "koordinate": {
+      "lat": 44.3946423,
+      "lng": 22.3326139
+    },
+    "title": "Vratna",
+    "info": "https://commons.wikimedia.org/wiki/File%3AWar_memorial_near_Urovica.jpg",
+    "slika": "slike/spomenici/vratna-spomenik-nob.webp",
+    "slikaOdnos": 0.563,
+    "slikaAutor": "Stadtigel, CC BY-SA 4.0",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "savinac-spomen-ploca",
+    "koordinate": {
+      "lat": 43.90222,
+      "lng": 22.03389
+    },
+    "title": "Savinac",
+    "info": "https://commons.wikimedia.org/wiki/File%3APlaque_in_Savinac.jpg",
+    "slika": "slike/spomenici/savinac-spomen-ploca.webp",
+    "slikaOdnos": 1.778,
+    "slikaAutor": "Stadtigel, CC BY-SA 4.0",
+    "naziv": "Spomen-ploča",
+    "type": "ploca",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "titel-spomenik-palim-borcima-19411945",
+    "koordinate": {
+      "lat": 45.204158,
+      "lng": 20.306058
+    },
+    "title": "Titel",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BF%D0%B0%D0%BB%D0%B8%D0%BC_%D0%B1%D0%BE%D1%80%D1%86%D0%B8%D0%BC%D0%B0_%D0%A2%D0%B8%D1%82%D0%B5%D0%BB_01.jpg",
+    "slika": "slike/spomenici/titel-spomenik-palim-borcima-19411945.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "Никола Ђорђевић, CC BY-SA 4.0",
+    "naziv": "Spomenik palim borcima 1941–1945",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "vica-spomen-cesma",
+    "koordinate": {
+      "lat": 43.722114,
+      "lng": 20.301739
+    },
+    "title": "Viča",
+    "info": "https://commons.wikimedia.org/wiki/File%3ASpomen_%C4%8Desma_u_Vi%C4%8Di%2C_Lu%C4%8Dani_02.jpg",
+    "slika": "slike/spomenici/vica-spomen-cesma.webp",
+    "slikaOdnos": 0.667,
+    "slikaAutor": "BrankaVV, CC BY-SA 4.0",
+    "naziv": "Spomen-česma",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "luke-spomenik-partizanskim-borcima",
+    "koordinate": {
+      "lat": 43.636638,
+      "lng": 20.267069
+    },
+    "title": "Luke",
+    "info": "https://commons.wikimedia.org/wiki/File%3ALisa%2C_spomenik_partizanskim_borcima_01.jpg",
+    "naziv": "Spomenik partizanskim borcima",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "visibaba-spomenik-borcima-nob-a",
+    "koordinate": {
+      "lat": 43.842081,
+      "lng": 20.015014
+    },
+    "title": "Visibaba",
+    "info": "https://commons.wikimedia.org/wiki/File%3AVisibaba%2C_Savinac%2C_spomenik_borcima_NOB-a_01.jpg",
+    "slika": "slike/spomenici/visibaba-spomenik-borcima-nob-a.webp",
+    "slikaOdnos": 1.498,
+    "slikaAutor": "BrankaVV, CC BY-SA 4.0",
+    "naziv": "Spomenik borcima NOB-a",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "mokrin-spomen-ploca-osnivanju-mokrinskog-partizans",
+    "koordinate": {
+      "lat": 45.929514,
+      "lng": 20.412349
+    },
+    "title": "Mokrin",
+    "info": "https://commons.wikimedia.org/wiki/File%3ASpomen_plo%C4%8Da_Mokrinski_partizanski_odred_01.jpg",
+    "slika": "slike/spomenici/mokrin-spomen-ploca-osnivanju-mokrinskog-partizans.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "Vanjagenije, CC BY-SA 4.0",
+    "naziv": "Spomen-ploča osnivanju Mokrinskog partizanskog odreda",
+    "type": "ploca",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "kikinda-zeleznicki-novi-red-spomen-ploca",
+    "koordinate": {
+      "lat": 45.83551,
+      "lng": 20.486992
+    },
+    "title": "Kikinda (Železnički novi red)",
+    "info": "https://commons.wikimedia.org/wiki/File%3ASpomen_plo%C4%8Da_Kikinda_14.jpg",
+    "slika": "slike/spomenici/kikinda-zeleznicki-novi-red-spomen-ploca.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "Vanjagenije, CC BY-SA 4.0",
+    "naziv": "Spomen-ploča",
+    "type": "ploca",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "novo-milosevo-spomenik-streljanim-rodoljubima",
+    "koordinate": {
+      "lat": 45.725087,
+      "lng": 20.317969
+    },
+    "title": "Novo Miloševo",
+    "info": "https://commons.wikimedia.org/wiki/File%3ANovoMilo%C5%A1evo_SpomenikStreljanima06.jpg",
+    "slika": "slike/spomenici/novo-milosevo-spomenik-streljanim-rodoljubima.webp",
+    "slikaOdnos": 0.562,
+    "slikaAutor": "Knoken (), CC BY-SA 4.0",
+    "naziv": "Spomenik streljanim rodoljubima",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "banatska-topola-spomen-ploca",
+    "koordinate": {
+      "lat": 45.685252,
+      "lng": 20.423119
+    },
+    "title": "Banatska Topola",
+    "info": "https://commons.wikimedia.org/wiki/File%3ASpomen_plo%C4%8Da_Vincaid.jpg",
+    "slika": "slike/spomenici/banatska-topola-spomen-ploca.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "Vanjagenije, CC BY 4.0",
+    "naziv": "Spomen-ploča",
+    "type": "ploca",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "semedraz-spomen-cesma",
+    "koordinate": {
+      "lat": 44.001978,
+      "lng": 20.432546
+    },
+    "title": "Semedraž",
+    "info": "https://commons.wikimedia.org/wiki/File%3ASpomen-%C4%8Desma_u_Mlakovcu_kod_Gornjeg_MIlanovca_01.jpg",
+    "slika": "slike/spomenici/semedraz-spomen-cesma.webp",
+    "slikaOdnos": 0.667,
+    "slikaAutor": "BrankaVV, CC BY-SA 4.0",
+    "naziv": "Spomen-česma",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "crna-bara-spomenik-palim-borcima-19411945",
+    "koordinate": {
+      "lat": 45.972392,
+      "lng": 20.276975
+    },
+    "title": "Crna Bara",
+    "info": "https://commons.wikimedia.org/wiki/File%3ASpomenik_NOB-a_u_Crnoj_Bari_01.jpg",
+    "slika": "slike/spomenici/crna-bara-spomenik-palim-borcima-19411945.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "Vanjagenije, CC BY-SA 4.0",
+    "naziv": "Spomenik palim borcima 1941–1945",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "coka-spomenik-na-mestu-logora-macahumka",
+    "koordinate": {
+      "lat": 45.94485,
+      "lng": 20.204149
+    },
+    "title": "Čoka",
+    "info": "https://commons.wikimedia.org/wiki/File%3ASpomenik_Macahumka_01.jpg",
+    "slika": "slike/spomenici/coka-spomenik-na-mestu-logora-macahumka.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "Vanjagenije, CC BY-SA 4.0",
+    "naziv": "Spomenik na mestu logora Macahumka",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "coka-spomenik-palim-borcima-i-zrtvama-fasistickog",
+    "koordinate": {
+      "lat": 45.941117,
+      "lng": 20.139891
+    },
+    "title": "Čoka",
+    "info": "https://commons.wikimedia.org/wiki/File%3ASpomenik_%C4%8Coka_01.jpg",
+    "slika": "slike/spomenici/coka-spomenik-palim-borcima-i-zrtvama-fasistickog.webp",
+    "slikaOdnos": 0.749,
+    "slikaAutor": "Vanjagenije, CC BY-SA 4.0",
+    "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "ostojicevo-spomenik-palim-borcima-nor-a-i-zrtvama",
+    "koordinate": {
+      "lat": 45.890219,
+      "lng": 20.16695
+    },
+    "title": "Ostojićevo",
+    "info": "https://commons.wikimedia.org/wiki/File%3ASpomenik_Ostoji%C4%87evo.jpg",
+    "slika": "slike/spomenici/ostojicevo-spomenik-palim-borcima-nor-a-i-zrtvama.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "Vanjagenije, CC BY-SA 4.0",
+    "naziv": "Spomenik palim borcima NOR-a i žrtvama fašističkog terora",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "sajan-spomenik-nob",
+    "koordinate": {
+      "lat": 45.842153,
+      "lng": 20.276719
+    },
+    "title": "Sajan",
+    "info": "https://commons.wikimedia.org/wiki/File%3ASpomenik_Sajan.jpg",
+    "slika": "slike/spomenici/sajan-spomenik-nob.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "Vanjagenije, CC BY-SA 4.0",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "mokrin-spomen-ploca-nob",
+    "koordinate": {
+      "lat": 45.933863,
+      "lng": 20.410068
+    },
+    "title": "Mokrin",
+    "info": "https://commons.wikimedia.org/wiki/File%3AMokrin_Spomen_plo%C4%8Da_NOB.jpg",
+    "slika": "slike/spomenici/mokrin-spomen-ploca-nob.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "Vanjagenije, CC BY-SA 4.0",
+    "naziv": "Spomen-ploča NOB",
+    "type": "ploca",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "sremska-mitrovica-spomenik-nob",
+    "koordinate": {
+      "lat": 44.981795,
+      "lng": 19.613474
+    },
+    "title": "Sremska Mitrovica",
+    "info": "https://commons.wikimedia.org/wiki/File%3ASremskaMitrovica_SpomenikNOB02.jpg",
+    "slika": "slike/spomenici/sremska-mitrovica-spomenik-nob.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "Knoken (https://www.xiwl.com/w/index.php/User:Knoken), CC BY-SA 4.0",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "perlez-spomen-obelezje-severnobanatskom-odredu",
+    "koordinate": {
+      "lat": 45.206496,
+      "lng": 20.423983
+    },
+    "title": "Perlez",
+    "info": "https://commons.wikimedia.org/wiki/File%3ASpomen-Obele%C5%BEje_Perlez_02.jpg",
+    "slika": "slike/spomenici/perlez-spomen-obelezje-severnobanatskom-odredu.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "Vanjagenije, CC BY-SA 4.0",
+    "naziv": "Spomen-obeležje Severnobanatskom odredu",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "subotica-pescara-spomenik-palim-borcima-i-skojevci",
+    "koordinate": {
+      "lat": 46.113171,
+      "lng": 19.633812
+    },
+    "title": "Subotica (Peščara)",
+    "info": "https://commons.wikimedia.org/wiki/File%3ASubotica_SpomenikPalimBorcimaSKOJ04.jpg",
+    "slika": "slike/spomenici/subotica-pescara-spomenik-palim-borcima-i-skojevci.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "Knoken (https://www.xiwl.com/w/index.php/User:Knoken), CC BY-SA 4.0",
+    "naziv": "Spomenik palim borcima i skojevcima",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "palic-spomenik-zubor-zivota",
+    "koordinate": {
+      "lat": 46.10254,
+      "lng": 19.759561
+    },
+    "title": "Palić",
+    "info": "https://commons.wikimedia.org/wiki/File%3APalic_Spomenik%C5%BDubor%C5%BDivota2.jpg",
+    "slika": "slike/spomenici/palic-spomenik-zubor-zivota.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "Knoken (https://www.xiwl.com/w/index.php/User:Knoken), CC BY-SA 4.0",
+    "naziv": "Spomenik Žubor života",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "stapar-spomenik-palim-borcima",
+    "koordinate": {
+      "lat": 45.662938,
+      "lng": 19.202377
+    },
+    "title": "Stapar",
+    "info": "https://commons.wikimedia.org/wiki/File%3AStapar_SpomenikNOB03.jpg",
+    "slika": "slike/spomenici/stapar-spomenik-palim-borcima.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "Knoken (https://www.xiwl.com/w/index.php/User:Knoken), CC BY-SA 4.0",
+    "naziv": "Spomenik palim borcima",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "stapar-spomen-ploca",
+    "koordinate": {
+      "lat": 45.663738,
+      "lng": 19.200865
+    },
+    "title": "Stapar",
+    "info": "https://commons.wikimedia.org/wiki/File%3AStapar_SpomenikNOB04.jpg",
+    "slika": "slike/spomenici/stapar-spomen-ploca.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "Knoken (https://www.xiwl.com/w/index.php/User:Knoken), CC BY-SA 4.0",
+    "naziv": "Spomen-ploča",
+    "type": "ploca",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "silbas-spomenik-palim-borcima-i-zrtvama-fasisticko",
+    "koordinate": {
+      "lat": 45.393308,
+      "lng": 19.462674
+    },
+    "title": "Silbaš",
+    "info": "https://commons.wikimedia.org/wiki/File%3ASilba%C5%A1_SpomeniPalimBorcima%C5%BDFT05.jpg",
+    "slika": "slike/spomenici/silbas-spomenik-palim-borcima-i-zrtvama-fasisticko.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "Knoken (https://www.xiwl.com/w/index.php/User:Knoken), CC BY-SA 4.0",
+    "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "djurdjevo-spomenik-palim-borcima-i-zrtvama-fasizma",
+    "koordinate": {
+      "lat": 45.324538,
+      "lng": 20.06575
+    },
+    "title": "Đurđevo",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%C4%90ur%C4%91evo_spomenik_NOB_01.jpg",
+    "slika": "slike/spomenici/djurdjevo-spomenik-palim-borcima-i-zrtvama-fasizma.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "Vanjagenije, CC BY-SA 4.0",
+    "naziv": "Spomenik palim borcima i žrtvama fašizma",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "toba-spomenik-palim-borcima",
+    "koordinate": {
+      "lat": 45.688384,
+      "lng": 20.558888
+    },
+    "title": "Toba",
+    "info": "https://commons.wikimedia.org/wiki/File%3AToba_spomenik_03.jpg",
+    "slika": "slike/spomenici/toba-spomenik-palim-borcima.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "Vanjagenije, CC BY-SA 4.0",
+    "naziv": "Spomenik palim borcima",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "radojevo-spomenik-palim-borcima-i-zrtvama-fasistic",
+    "koordinate": {
+      "lat": 45.744349,
+      "lng": 20.789123
+    },
+    "title": "Radojevo",
+    "info": "https://commons.wikimedia.org/wiki/File%3ARadojevo_spomenik_02.jpg",
+    "slika": "slike/spomenici/radojevo-spomenik-palim-borcima-i-zrtvama-fasistic.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "Vanjagenije, CC BY-SA 4.0",
+    "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "radojevo-spomen-ploca-braci-krstija",
+    "koordinate": {
+      "lat": 45.73853,
+      "lng": 20.792132
+    },
+    "title": "Radojevo",
+    "info": "https://commons.wikimedia.org/wiki/File%3ARadojevo_spomen_plo%C4%8Da_01.jpg",
+    "slika": "slike/spomenici/radojevo-spomen-ploca-braci-krstija.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "Vanjagenije, CC BY-SA 4.0",
+    "naziv": "Spomen-ploča braći Krstija",
+    "type": "ploca",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "radojevo-spomen-ploca-veljku-mihailovu-i-sinovima",
+    "koordinate": {
+      "lat": 45.744784,
+      "lng": 20.787188
+    },
+    "title": "Radojevo",
+    "info": "https://commons.wikimedia.org/wiki/File%3ARadojevo_spomen_plo%C4%8Da_02.jpg",
+    "slika": "slike/spomenici/radojevo-spomen-ploca-veljku-mihailovu-i-sinovima.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "Vanjagenije, CC BY-SA 4.0",
+    "naziv": "Spomen-ploča Veljku Mihailovu i sinovima",
+    "type": "ploca",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "idjos-spomenik-palim-borcima",
+    "koordinate": {
+      "lat": 45.8243,
+      "lng": 20.31164
+    },
+    "title": "Iđoš",
+    "info": "https://commons.wikimedia.org/wiki/File%3AI%C4%91o%C5%A1_-_Spomenik_03.jpg",
+    "slika": "slike/spomenici/idjos-spomenik-palim-borcima.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "Vanjagenije, CC BY-SA 4.0",
+    "naziv": "Spomenik palim borcima",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "aleksandrovo-spomen-ploca-palim-borcima",
+    "koordinate": {
+      "lat": 45.637407,
+      "lng": 20.589861
+    },
+    "title": "Aleksandrovo",
+    "info": "https://commons.wikimedia.org/wiki/File%3ASpomen_plo%C4%8Da_Aleksandrovo.jpg",
+    "slika": "slike/spomenici/aleksandrovo-spomen-ploca-palim-borcima.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "Vanjagenije, CC BY-SA 4.0",
+    "naziv": "Spomen-ploča palim borcima",
+    "type": "ploca",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "melenci-spomen-obelezje-na-ostrovu",
+    "koordinate": {
+      "lat": 45.56134,
+      "lng": 20.324486
+    },
+    "title": "Melenci",
+    "info": "https://commons.wikimedia.org/wiki/File%3AStone_Marker_at_Ostrovo.jpg",
+    "slika": "slike/spomenici/melenci-spomen-obelezje-na-ostrovu.webp",
+    "slikaOdnos": 0.563,
+    "slikaAutor": "Vanjagenije, CC BY-SA 4.0",
+    "naziv": "Spomen-obeležje na Ostrovu",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "novo-milosevo-spomen-ploca-milosu-popovu-klimi-i-a",
+    "koordinate": {
+      "lat": 45.732251,
+      "lng": 20.308754
+    },
+    "title": "Novo Miloševo",
+    "info": "https://commons.wikimedia.org/wiki/File%3ANovo_Milo%C5%A1evo_spomen_plo%C4%8Da_Milo%C5%A1_Popov_Arkadije_Popov_01.jpg",
+    "slika": "slike/spomenici/novo-milosevo-spomen-ploca-milosu-popovu-klimi-i-a.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "Vanjagenije, CC BY-SA 4.0",
+    "naziv": "Spomen-ploča Milošu Popovu Klimi i Arkadiju Popovu",
+    "type": "ploca",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "novo-milosevo-spomen-ploca",
+    "koordinate": {
+      "lat": 45.710234,
+      "lng": 20.298741
+    },
+    "title": "Novo Miloševo",
+    "info": "https://commons.wikimedia.org/wiki/File%3ASpomen_plo%C4%8Da_Novo_Milo%C5%A1evo_Mar%C5%A1ala_Tita_87.jpg",
+    "slika": "slike/spomenici/novo-milosevo-spomen-ploca.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "Vanjagenije, CC BY-SA 4.0",
+    "naziv": "Spomen-ploča",
+    "type": "ploca",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "skopje-novo-maalo-spomen-obelezje-na-kukjata-na-pe",
+    "koordinate": {
+      "lat": 41.994083,
+      "lng": 21.440642
+    },
+    "title": "Skopje (Novo Maalo)",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD_%D0%BE%D0%B1%D0%B5%D0%BB%D0%B5%D0%B6%D1%98%D0%B5_%D0%B7%D0%B0_%D0%BA%D1%83%D1%9C%D0%B0%D1%82%D0%B0_%D0%BD%D0%B0_%D0%9F%D0%B5%D1%80%D0%B8%D1%88%D0%B0_%D0%A1%D0%B0%D0%B2%D0%B5%D0%BB%D0%B8%D1%9C.jpg",
+    "slika": "slike/spomenici/skopje-novo-maalo-spomen-obelezje-na-kukjata-na-pe.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "Македонец, CC BY-SA 4.0",
+    "naziv": "Спомен-обележје на куќата на Периша Савелиќ",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "skopje-karpos-1-bista-na-dame-krapcev",
+    "koordinate": {
+      "lat": 42.005009,
+      "lng": 21.41734
+    },
+    "title": "Skopje (Karpoš 1)",
+    "info": "https://commons.wikimedia.org/wiki/File%3ADane_Krapcev.JPG",
+    "slika": "slike/spomenici/skopje-karpos-1-bista-na-dame-krapcev.webp",
+    "slikaOdnos": 0.417,
+    "slikaAutor": "Zdravko mk, CC BY-SA 3.0",
+    "naziv": "Биста на Даме Крапчев",
+    "type": "bista",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "skopje-madzari-spomenik-na-nob",
+    "koordinate": {
+      "lat": 41.995899,
+      "lng": 21.498353
+    },
+    "title": "Skopje (Madžari)",
+    "info": "https://commons.wikimedia.org/wiki/File%3AMadzari_-_Spomenik_NOB1.jpg",
+    "slika": "slike/spomenici/skopje-madzari-spomenik-na-nob.webp",
+    "slikaOdnos": 0.563,
+    "slikaAutor": "Zdravko, CC BY-SA 4.0",
+    "naziv": "Споменик на НОБ",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "skopje-pajko-maalo-spomen-ploca-od-nob",
+    "koordinate": {
+      "lat": 42.000592,
+      "lng": 21.437595
+    },
+    "title": "Skopje (Pajko Maalo)",
+    "info": "https://commons.wikimedia.org/wiki/File%3ASpomen_ploca_NOB_Stara_carsija.jpg",
+    "slika": "slike/spomenici/skopje-pajko-maalo-spomen-ploca-od-nob.webp",
+    "slikaOdnos": 1.338,
+    "slikaAutor": "Zdravko, CC BY-SA 4.0",
+    "naziv": "Спомен-плоча од НОБ",
+    "type": "ploca",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "glumovo-spomen-obelezje-od-nob",
+    "koordinate": {
+      "lat": 41.984237,
+      "lng": 21.30709
+    },
+    "title": "Glumovo",
+    "info": "https://commons.wikimedia.org/wiki/File%3ASpomen_obelezje_NOB_-_pred_seloto_Glumovo.jpg",
+    "slika": "slike/spomenici/glumovo-spomen-obelezje-od-nob.webp",
+    "slikaOdnos": 1.778,
+    "slikaAutor": "Zdravko, CC BY-SA 4.0",
+    "naziv": "Спомен-обележје од НОБ",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "cucer-sandevo-spomen-ploca-od-nob",
+    "koordinate": {
+      "lat": 42.103107,
+      "lng": 21.382835
+    },
+    "title": "Čučer-Sandevo",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%B2%D0%BE_%D0%A7%D1%83%D1%87%D0%B5%D1%80.jpg",
+    "slika": "slike/spomenici/cucer-sandevo-spomen-ploca-od-nob.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "Ehrlich91, CC BY-SA 4.0",
+    "naziv": "Спомен-плоча од НОБ",
+    "type": "ploca",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "pakosevo-spomen-obelezje-od-nob",
+    "koordinate": {
+      "lat": 41.872877,
+      "lng": 21.602992
+    },
+    "title": "Pakoševo",
+    "info": "https://commons.wikimedia.org/wiki/File%3AZelenikovo_-_spomenik_NOB.jpg",
+    "slika": "slike/spomenici/pakosevo-spomen-obelezje-od-nob.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "Zdravko, CC BY-SA 4.0",
+    "naziv": "Спомен-обележје од НОБ",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "gorno-orizari-spomen-cesma-na-zaginatite-borci",
+    "koordinate": {
+      "lat": 42.061601,
+      "lng": 21.407193
+    },
+    "title": "Gorno Orizari",
+    "info": "https://commons.wikimedia.org/wiki/File%3AGorno_Orizari%2C_Skopsko_-_Spomen_cesma_NOB.jpg",
+    "slika": "slike/spomenici/gorno-orizari-spomen-cesma-na-zaginatite-borci.webp",
+    "slikaOdnos": 1.351,
+    "slikaAutor": "Zdravko, CC BY-SA 4.0",
+    "naziv": "Спомен-чешма на загинатите борци",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "kosturino-spomenik-na-nob",
+    "koordinate": {
+      "lat": 41.356405,
+      "lng": 22.608055
+    },
+    "title": "Kosturino",
+    "info": "https://commons.wikimedia.org/wiki/File%3AMonument_in_Kosturino_%282%29.JPG",
+    "slika": "slike/spomenici/kosturino-spomenik-na-nob.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "Тиверополник, CC BY-SA 4.0",
+    "naziv": "Споменик на НОБ",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "dubostica-spomenik-nob",
+    "koordinate": {
+      "lat": 44.243123,
+      "lng": 18.314649
+    },
+    "title": "Duboštica",
+    "info": "https://commons.wikimedia.org/wiki/File%3ASpomenik_NOB-e_1941-1945_godine_u_Dubo%C5%A1tici_-_panoramio.jpg",
+    "slika": "slike/spomenici/dubostica-spomenik-nob.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "Ref B., CC BY-SA 3.0",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "ostra-spomenik-cacanskom-partizanskom-odredu",
+    "koordinate": {
+      "lat": 43.917966,
+      "lng": 20.513087
+    },
+    "title": "Ostra",
+    "info": "https://commons.wikimedia.org/wiki/File%3AOstra_kod_%C4%8Ca%C4%8Dka_18.jpg",
+    "slika": "slike/spomenici/ostra-spomenik-cacanskom-partizanskom-odredu.webp",
+    "slikaOdnos": 1.498,
+    "slikaAutor": "BrankaVV, CC BY-SA 4.0",
+    "naziv": "Spomenik Čačanskom partizanskom odredu",
+    "type": "lokalni",
+    "drzava": "Serbia"
   }
 ]

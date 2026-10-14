@@ -1,7 +1,8 @@
 # python -I alati/commons_dodaj.py <spisak.json> <fajlovi.json>: dodaje spomenike sa geotagovanih fotografija na Commons-u
-# spisak: [{fajl, id, naziv, name, type, drzava, [title]}] ili [{fajl, postojeci}] za fotografiju postojecem spomeniku
+# spisak: [{fajl, naziv, type, drzava, [id], [name], [title], [stanje]}] ili [{fajl, postojeci}] za fotografiju postojecem spomeniku
+# bez id-a pravi ga od naslova i naziva; naslov dela grada je „Grad (deo)“
 # zahtevi: imageinfo zbirno po 50, pa po jedna umanjena slika sa pauzom od 3 s
-import json, math, os, re, subprocess, sys, time, urllib.parse, urllib.request
+import json, math, os, re, subprocess, sys, time, unicodedata, urllib.parse, urllib.request
 sys.stdout.reconfigure(encoding='utf-8')
 SPISAK, FAJLOVI = sys.argv[1:]
 A = os.path.dirname(os.path.abspath(__file__))  # naselja_osm.json je pored alata
@@ -13,9 +14,25 @@ def latinica(t):
 
 spisak = json.load(open(SPISAK, encoding='utf8'))
 fajlovi = json.load(open(FAJLOVI, encoding='utf8'))
-naselja = [(e['lat'], e['lon'], e['tags'].get('name:sr-Latn') or latinica(e['tags']['name'])) for e in json.load(open(A + '/naselja_osm.json', encoding='utf8'))['elements']
+naselja = [(e['lat'], e['lon'], e['tags'].get('name:sr-Latn') or latinica(e['tags']['name']), e['tags']['place']) for e in json.load(open(A + '/naselja_osm.json', encoding='utf8'))['elements']
            if e.get('tags', {}).get('name') and e['tags'].get('place') in ('city', 'town', 'village', 'suburb', 'hamlet', 'neighbourhood', 'quarter')]
+gradovi = [n for n in naselja if n[3] in ('city', 'town')]
 dist = lambda a, b, c, e: math.hypot((a - c) * 111000, (b - e) * 111000 * math.cos(math.radians(a)))
+
+def naslov(a, b):
+    n = min(naselja, key=lambda n: dist(a, b, n[0], n[1]))
+    if n[3] not in ('suburb', 'neighbourhood', 'quarter'):
+        return n[2]
+    g = min(gradovi, key=lambda g: dist(a, b, g[0], g[1]))
+    return f'{g[2]} ({n[2]})' if dist(a, b, g[0], g[1]) < 15000 else n[2]
+
+def slug(t):
+    t = unicodedata.normalize('NFKD', latinica(t).replace('đ', 'dj').replace('Đ', 'Dj')).encode('ascii', 'ignore').decode()
+    return re.sub(r'[^a-z0-9]+', '-', t.lower()).strip('-')[:50].rstrip('-')
+
+def sacuvaj(d):
+    d = [{k: s[k] for k in RED if s.get(k) is not None} for s in d]
+    open('data/spomeniks.json', 'w', encoding='utf8', newline='').write(json.dumps(d, ensure_ascii=False, indent=2).replace('\n', '\r\n') + '\r\n')
 
 info = {}
 naslovi = [s['fajl'] for s in spisak]
@@ -29,8 +46,16 @@ for k in range(0, len(naslovi), 50):
 
 d = json.load(open('data/spomeniks.json', encoding='utf8'))
 po_id = {s['id']: s for s in d}
-for s in spisak:
+for br, s in enumerate(spisak):
     url, potpis = info[s['fajl']]
+    if not s.get('postojeci'):
+        a, b = fajlovi[s['fajl']]['k']
+        title = s.get('title') or naslov(a, b)
+        if not s.get('id'):
+            osnova, i = slug(f"{title} {s['naziv']}"), 2
+            s['id'] = osnova
+            while s['id'] in po_id:
+                s['id'], i = f'{osnova}-{i}', i + 1
     cilj = s.get('postojeci') or s['id']
     putanja = f'slike/spomenici/{cilj}.webp'
     time.sleep(3)
@@ -40,12 +65,11 @@ for s in spisak:
         z = po_id[s['postojeci']]; z['slika'] = putanja; z['slikaAutor'] = potpis
         print('slika', cilj, flush=True)
         continue
-    a, b = fajlovi[s['fajl']]['k']
-    title = s.get('title') or min(naselja, key=lambda n: dist(a, b, n[0], n[1]))[2]
     z = {'id': s['id'], 'koordinate': {'lat': round(a, 7), 'lng': round(b, 7)}, 'title': title, 'info': 'https://commons.wikimedia.org/wiki/' + urllib.parse.quote(s['fajl'].replace(' ', '_')),
-         'slika': putanja, 'slikaAutor': potpis, 'naziv': s['naziv'], 'name': s['name'], 'type': s['type'], 'drzava': s['drzava']}
+         'slika': putanja, 'slikaAutor': potpis, 'naziv': s['naziv'], 'name': s.get('name'), 'stanje': s.get('stanje'), 'type': s['type'], 'drzava': s['drzava']}
     assert z['id'] not in po_id, z['id']
     d.append(z); po_id[z['id']] = z
     print('novi', z['id'], title, flush=True)
-d = [{k: s[k] for k in RED if k in s} for s in d]
-open('data/spomeniks.json', 'w', encoding='utf8', newline='\r\n').write(json.dumps(d, ensure_ascii=False, indent=2) + '\n')
+    if br % 25 == 24:
+        sacuvaj(d)
+sacuvaj(d)

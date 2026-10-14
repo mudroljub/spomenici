@@ -18,7 +18,6 @@ Slovenian memorials: [Register nepremične kulturne dediščine](https://podatki
 
 ## TODO
 
-- Commons geotagovane fotografije: 383 mesta koja nemamo, najviše u Makedoniji i Srbiji, dodati sa slikom
 - sr Wikipedija, spiskovi spomenika NOB (Srbija, BiH, Makedonija, Slovenija, Crna Gora, Kosovo, Niš; oko 560 redova): autori i godine za naše, a nove dodati preko OSM-a
 - Wiki Loves Monuments Srbija: „Списак знаменитих места у Србији“ (81 sa koordinatama) i fotografije sa Commons-a po broju iz registra
 - fotografije za spomenike bez slike van Slovenije (Commons geosearch)
