@@ -1,4 +1,5 @@
 import Filteri from './Filteri.js'
+import {mapa} from '../klase/mapa.js'
 import {normalizuj} from '../utils/helpers.js'
 import {t, nazivDrzave} from '../utils/jezik.js'
 
@@ -100,8 +101,9 @@ export default class Pretraga extends HTMLElement {
 
     this.rezultat = document.createElement('div')
     this.rezultat.className = 'rezultat'
-    this.rezultat.innerHTML = `<span><span class="broj"></span><button>${t('obrisi')}</button></span>`
-    this.rezultat.querySelector('button').addEventListener('click', () => this.ponisti())
+    this.rezultat.innerHTML = `<span><span class="broj"></span><button class="na-mapi">${t('prikaziNaMapi')}</button><button class="obrisi">${t('obrisi')}</button></span>`
+    this.rezultat.querySelector('.na-mapi').addEventListener('click', () => this.prikaziNaMapi())
+    this.rezultat.querySelector('.obrisi').addEventListener('click', () => this.ponisti())
 
     this.filteri = document.body.appendChild(new Filteri(stavke))
     this.filteri.addEventListener('promena', () => this.pretrazi())
@@ -124,6 +126,17 @@ export default class Pretraga extends HTMLElement {
     this.callback(this.filtrirano)
   }
 
+  // pretraga sama ne pomera mapu; to radi tek ovo dugme, a rezultati ostaju izmedju polja za pretragu i donjih dugmadi
+  prikaziNaMapi() {
+    const gore = this.getBoundingClientRect().bottom
+    const dole = mapa.getSize().y - document.querySelector('#dugmad-dole').getBoundingClientRect().top
+    mapa.fitBounds(L.latLngBounds(this.filtrirano.map(({marker}) => marker.dajPoziciju())), {
+      paddingTopLeft: [30, gore + 20],
+      paddingBottomRight: [30, dole + 20],
+      maxZoom: 11,
+    })
+  }
+
   ponisti() {
     this.polje.value = ''
     this.filteri.ponisti() // javlja promenu, pa se i pretraga ponovi
@@ -135,6 +148,7 @@ export default class Pretraga extends HTMLElement {
     this.dugme.classList.toggle('aktivno', aktivnih > 0)
     const suzeno = this.filtrirano.length < this.stavke.length
     this.rezultat.hidden = !suzeno
+    this.rezultat.querySelector('.na-mapi').hidden = !this.filtrirano.length
     this.rezultat.querySelector('.broj').textContent = t('nadjeno', this.filtrirano.length, this.stavke.length)
   }
 }

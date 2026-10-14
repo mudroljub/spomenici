@@ -8,7 +8,7 @@ const boja = '#822323'
 // unutar grupe vazi bilo koja izabrana opcija (ili), a izmedju grupa sve (i)
 const praviGrupe = (drzave, autori) => [
   {kljuc: 'tip', naziv: t('grupaVrsta'), opcije: Object.fromEntries(['istaknut', 'spomenik', 'lokalni', 'kompleks', 'ploca', 'groblje', 'muzej', 'bista'].map(o => [o, t(o)])),
-    uslov: (s, o) => o === 'istaknut' ? Boolean(s.istaknut) : (s.type || 'spomenik') === o},
+    uslov: (s, o) => (s.type || 'spomenik') === o},
   {kljuc: 'stanje', naziv: t('grupaStanje'), opcije: {postoji: t('postoji'), rusevine: t('ruine'), nestao: t('uklonjen')},
     uslov: (s, o) => o === 'nestao' ? nestao(s.stanje) : o === 'rusevine' ? ruine(s.stanje) : !nestao(s.stanje) && !ruine(s.stanje)},
   {kljuc: 'drzava', naziv: t('grupaDrzava'), opcije: Object.fromEntries(drzave.map(d => [d, nazivDrzave(d)])),

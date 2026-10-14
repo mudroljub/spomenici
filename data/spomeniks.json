@@ -14,9 +14,8 @@
     "name": "Monument to the Revolution",
     "year": "1967",
     "author": "Dušan Džamonja",
-    "type": "kompleks",
-    "drzava": "Croatia",
-    "istaknut": true
+    "type": "istaknut",
+    "drzava": "Croatia"
   },
   {
     "id": "kosmaj",
@@ -33,9 +32,8 @@
     "name": "Monument to the Kosmaj Detachment",
     "year": "1971",
     "author": "Vojin Stojić",
-    "type": "kompleks",
-    "drzava": "Serbia",
-    "istaknut": true
+    "type": "istaknut",
+    "drzava": "Serbia"
   },
   {
     "id": "tjentiste",
@@ -52,9 +50,8 @@
     "name": "Battle of Sutjeska Monument",
     "year": "1971",
     "author": "Miodrag Živković",
-    "type": "kompleks",
-    "drzava": "Bosnia and Herzegovina",
-    "istaknut": true
+    "type": "istaknut",
+    "drzava": "Bosnia and Herzegovina"
   },
   {
     "id": "nis",
@@ -65,15 +62,27 @@
     "googleCid": "14746191340091137628",
     "title": "Niš",
     "info": "http://www.spomenikdatabase.org/nis",
-    "wiki": "https://sh.wikipedia.org/wiki/Spomen-park_Bubanj",
     "slika": "slike/spomenici/nis.webp",
-    "naziv": "Spomen-park Bubanj",
-    "name": "Bubanj Memorial Park",
+    "naziv": "Spomenik „Tri pesnice“",
+    "name": "Three Fists Monument",
     "year": "1963",
     "author": "Ivan Sabolić",
+    "type": "istaknut",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "nis-spomen-park-bubanj",
+    "koordinate": {
+      "lat": 43.3049095,
+      "lng": 21.8724219
+    },
+    "title": "Niš",
+    "info": "https://www.openstreetmap.org/node/6788181966",
+    "wiki": "https://sh.wikipedia.org/wiki/Spomen-park_Bubanj",
+    "naziv": "Spomen-park Bubanj",
+    "name": "Bubanj Memorial Park",
     "type": "kompleks",
-    "drzava": "Serbia",
-    "istaknut": true
+    "drzava": "Serbia"
   },
   {
     "id": "kadinjaca",
@@ -90,9 +99,8 @@
     "name": "Kadinjača Memorial Complex",
     "year": "1952",
     "author": "Miodrag Živković",
-    "type": "kompleks",
-    "drzava": "Serbia",
-    "istaknut": true
+    "type": "istaknut",
+    "drzava": "Serbia"
   },
   {
     "id": "petrova-gora",
@@ -110,9 +118,8 @@
     "year": "1981",
     "author": "Vojin Bakić",
     "stanje": "rusevine",
-    "type": "kompleks",
-    "drzava": "Croatia",
-    "istaknut": true
+    "type": "istaknut",
+    "drzava": "Croatia"
   },
   {
     "id": "kozara",
@@ -129,9 +136,8 @@
     "name": "Monument to the Revolution",
     "year": "1972",
     "author": "Dušan Džamonja",
-    "type": "kompleks",
-    "drzava": "Bosnia and Herzegovina",
-    "istaknut": true
+    "type": "istaknut",
+    "drzava": "Bosnia and Herzegovina"
   },
   {
     "id": "mitrovica-mitrovice",
@@ -148,9 +154,8 @@
     "name": "Monument to Fallen Miners",
     "year": "1973",
     "author": "Bogdan Bogdanović",
-    "type": "kompleks",
-    "drzava": "Kosovo",
-    "istaknut": true
+    "type": "istaknut",
+    "drzava": "Kosovo"
   },
   {
     "id": "sanski-most",
@@ -168,9 +173,8 @@
     "year": "1970",
     "author": "Petar Krstić",
     "stanje": "rusevine",
-    "type": "kompleks",
-    "drzava": "Bosnia and Herzegovina",
-    "istaknut": true
+    "type": "istaknut",
+    "drzava": "Bosnia and Herzegovina"
   },
   {
     "id": "jasenovac",
@@ -187,9 +191,21 @@
     "name": "The Flower Monument",
     "year": "1966",
     "author": "Bogdan Bogdanović",
+    "type": "istaknut",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "jasenovac-spomen-podrucje-jasenovac",
+    "koordinate": {
+      "lat": 45.2795694,
+      "lng": 16.9295214
+    },
+    "title": "Jasenovac",
+    "info": "https://www.openstreetmap.org/way/79494788",
+    "naziv": "Spomen-područje Jasenovac",
+    "name": "Jasenovac Memorial Site",
     "type": "kompleks",
-    "drzava": "Croatia",
-    "istaknut": true
+    "drzava": "Croatia"
   },
   {
     "id": "krusevo-makedonium",
@@ -206,9 +222,8 @@
     "name": "The Makedonium (Ilinden Memorial)",
     "year": "1974",
     "author": "Jordan Grabul",
-    "type": "kompleks",
-    "drzava": "Macedonia",
-    "istaknut": true
+    "type": "istaknut",
+    "drzava": "Macedonia"
   },
   {
     "id": "ostra",
@@ -225,9 +240,8 @@
     "name": "Monument to Courage",
     "year": "1969",
     "author": "Miodrag Živković",
-    "type": "kompleks",
-    "drzava": "Serbia",
-    "istaknut": true
+    "type": "istaknut",
+    "drzava": "Serbia"
   },
   {
     "id": "zenica",
@@ -242,9 +256,8 @@
     "naziv": "Spomenik na Smetovima",
     "name": "Monument on Smetovi Hill",
     "year": "1968",
-    "type": "kompleks",
-    "drzava": "Bosnia and Herzegovina",
-    "istaknut": true
+    "type": "istaknut",
+    "drzava": "Bosnia and Herzegovina"
   },
   {
     "id": "sisak",
@@ -255,15 +268,27 @@
     "googleCid": "465372464730590114",
     "title": "Sisak (šuma Brezovica)",
     "info": "http://www.spomenikdatabase.org/sisak",
-    "wiki": "https://sh.wikipedia.org/wiki/Spomen-park_Brezovica",
     "slika": "slike/spomenici/sisak.webp",
     "naziv": "Spomenik Prvom sisačkom partizanskom odredu",
     "name": "Monument to the 1st Partisan Unit",
     "year": "1981",
     "author": "Želimir Janeš",
+    "type": "istaknut",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "sisak-spomen-park-brezovica",
+    "koordinate": {
+      "lat": 45.5023549,
+      "lng": 16.4581434
+    },
+    "title": "Sisak (šuma Brezovica)",
+    "info": "https://www.openstreetmap.org/way/355490641",
+    "wiki": "https://sh.wikipedia.org/wiki/Spomen-park_Brezovica",
+    "naziv": "Spomen-park Brezovica",
+    "name": "Brezovica Memorial Park",
     "type": "kompleks",
-    "drzava": "Croatia",
-    "istaknut": true
+    "drzava": "Croatia"
   },
   {
     "id": "ilirska-bistrica",
@@ -279,9 +304,8 @@
     "name": "Monument on Freedom Hill",
     "year": "1965",
     "author": "Janez Lenassi",
-    "type": "kompleks",
-    "drzava": "Slovenia",
-    "istaknut": true
+    "type": "istaknut",
+    "drzava": "Slovenia"
   },
   {
     "id": "knin",
@@ -298,9 +322,8 @@
     "name": "Monument to the Knin Liberators",
     "year": "1969",
     "stanje": "rusevine",
-    "type": "kompleks",
-    "drzava": "Croatia",
-    "istaknut": true
+    "type": "istaknut",
+    "drzava": "Croatia"
   },
   {
     "id": "pozarevac",
@@ -311,15 +334,27 @@
     "googleCid": "10975764959828679578",
     "title": "Požarevac",
     "info": "http://www.spomenikdatabase.org/pozarevac",
-    "wiki": "https://sh.wikipedia.org/wiki/%C4%8Ca%C4%8Dalica",
     "slika": "slike/spomenici/pozarevac.webp",
     "naziv": "Spomenik slobode i pobede nad fašizmom „Zvezda”",
     "name": "The Star at Memorial Park Čačalica",
     "year": "1985",
     "author": "Milorad Tepavac",
+    "type": "istaknut",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "pozarevac-spomen-park-cacalica",
+    "koordinate": {
+      "lat": 44.6130574,
+      "lng": 21.1990427
+    },
+    "title": "Požarevac",
+    "info": "https://www.openstreetmap.org/way/225136627",
+    "wiki": "https://sh.wikipedia.org/wiki/%C4%8Ca%C4%8Dalica",
+    "naziv": "Spomen-park Čačalica",
+    "name": "Čačalica Memorial Park",
     "type": "kompleks",
-    "drzava": "Serbia",
-    "istaknut": true
+    "drzava": "Serbia"
   },
   {
     "id": "kosute",
@@ -336,9 +371,8 @@
     "year": "1961",
     "author": "Vuko Bombardelli",
     "stanje": "rusevine",
-    "type": "kompleks",
-    "drzava": "Croatia",
-    "istaknut": true
+    "type": "istaknut",
+    "drzava": "Croatia"
   },
   {
     "id": "vukovar",
@@ -356,8 +390,7 @@
     "year": "1980",
     "author": "Bogdan Bogdanović",
     "type": "kompleks",
-    "drzava": "Croatia",
-    "istaknut": true
+    "drzava": "Croatia"
   },
   {
     "id": "mostar-partisan-cemetery",
@@ -375,8 +408,7 @@
     "year": "1965",
     "author": "Bogdan Bogdanović",
     "type": "groblje",
-    "drzava": "Bosnia and Herzegovina",
-    "istaknut": true
+    "drzava": "Bosnia and Herzegovina"
   },
   {
     "id": "cacak",
@@ -387,15 +419,29 @@
     "googleCid": "14481903163166733985",
     "title": "Čačak",
     "info": "http://www.spomenikdatabase.org/cacak",
-    "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D0%BF%D0%B0%D1%80%D0%BA_%D0%B1%D0%BE%D1%80%D0%B1%D0%B5_%D0%B8_%D0%BF%D0%BE%D0%B1%D0%B5%D0%B4%D0%B5",
     "slika": "slike/spomenici/cacak.webp",
     "naziv": "Megaron",
     "name": "Mausoleum of Struggle & Victory",
     "year": "1980",
     "author": "Bogdan Bogdanović",
+    "type": "istaknut",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "cacak-spomen-park-borbe-i-pobede",
+    "koordinate": {
+      "lat": 43.877634,
+      "lng": 20.3355351
+    },
+    "title": "Čačak",
+    "info": "https://www.openstreetmap.org/way/443791384",
+    "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D0%BF%D0%B0%D1%80%D0%BA_%D0%B1%D0%BE%D1%80%D0%B1%D0%B5_%D0%B8_%D0%BF%D0%BE%D0%B1%D0%B5%D0%B4%D0%B5",
+    "naziv": "Spomen-park borbe i pobede",
+    "name": "Memorial Park of Struggle and Victory",
+    "year": "1980",
+    "author": "Bogdan Bogdanović",
     "type": "kompleks",
-    "drzava": "Serbia",
-    "istaknut": true
+    "drzava": "Serbia"
   },
   {
     "id": "bihac-garavice-park",
@@ -413,8 +459,7 @@
     "year": "1981",
     "author": "Bogdan Bogdanović",
     "type": "kompleks",
-    "drzava": "Bosnia and Herzegovina",
-    "istaknut": true
+    "drzava": "Bosnia and Herzegovina"
   },
   {
     "id": "kavadarci-ossuary-fallen-fighters",
@@ -431,9 +476,8 @@
     "name": "Memorial Ossuary to Fallen Fighters",
     "year": "1976",
     "author": "Petar Muličkovski",
-    "type": "kompleks",
-    "drzava": "Macedonia",
-    "istaknut": true
+    "type": "istaknut",
+    "drzava": "Macedonia"
   },
   {
     "id": "kragujevac-sumarice-park",
@@ -444,14 +488,27 @@
     "googleCid": "1583185476969146208",
     "title": "Kragujevac",
     "info": "http://www.spomenikdatabase.org/kragujevac",
-    "wiki": "https://sh.wikipedia.org/wiki/Spomen-park_Kragujeva%C4%8Dki_oktobar",
     "slika": "slike/spomenici/kragujevac-sumarice-park.webp",
+    "naziv": "Spomenik streljanim đacima i profesorima",
+    "name": "Interrupted Flight Monument",
+    "year": "1963",
+    "author": "Miodrag Živković",
+    "type": "istaknut",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "kragujevac-spomen-park-kragujevacki-oktobar",
+    "koordinate": {
+      "lat": 44.0219918,
+      "lng": 20.8837459
+    },
+    "title": "Kragujevac",
+    "info": "https://www.openstreetmap.org/way/168707959",
+    "wiki": "https://sh.wikipedia.org/wiki/Spomen-park_Kragujeva%C4%8Dki_oktobar",
     "naziv": "Spomen-park Kragujevački oktobar",
     "name": "Šumarice Memorial Park",
-    "author": "Miodrag Živković",
     "type": "kompleks",
-    "drzava": "Serbia",
-    "istaknut": true
+    "drzava": "Serbia"
   },
   {
     "id": "vogosca",
@@ -468,9 +525,8 @@
     "name": "Memorial Ossuary to Fallen Fighters",
     "year": "1969",
     "author": "Petar Krstić",
-    "type": "kompleks",
-    "drzava": "Bosnia and Herzegovina",
-    "istaknut": true
+    "type": "istaknut",
+    "drzava": "Bosnia and Herzegovina"
   },
   {
     "id": "vodice",
@@ -485,9 +541,8 @@
     "naziv": "Spomenik borcima iz Drugog svjetskog rata",
     "name": "Monument to Fallen Fighters",
     "year": "1965",
-    "type": "spomenik",
-    "drzava": "Croatia",
-    "istaknut": true
+    "type": "istaknut",
+    "drzava": "Croatia"
   },
   {
     "id": "drazgose",
@@ -503,9 +558,8 @@
     "name": "Monument to the Cankar Battalion",
     "year": "1976",
     "author": "Boris Kobe",
-    "type": "kompleks",
-    "drzava": "Slovenia",
-    "istaknut": true
+    "type": "istaknut",
+    "drzava": "Slovenia"
   },
   {
     "id": "podgora",
@@ -522,9 +576,8 @@
     "name": "Seagull Wings Monument",
     "year": "1962",
     "author": "Rajko Radović",
-    "type": "spomenik",
-    "drzava": "Croatia",
-    "istaknut": true
+    "type": "istaknut",
+    "drzava": "Croatia"
   },
   {
     "id": "gornji-jelovac",
@@ -539,9 +592,8 @@
     "naziv": "Spomenik palima u bitki na Kozari",
     "name": "Monu. to Victims of Battle of Kozara",
     "year": "1973",
-    "type": "kompleks",
-    "drzava": "Bosnia and Herzegovina",
-    "istaknut": true
+    "type": "istaknut",
+    "drzava": "Bosnia and Herzegovina"
   },
   {
     "id": "novi-travnik",
@@ -559,8 +611,7 @@
     "year": "1975",
     "author": "Bogdan Bogdanović",
     "type": "groblje",
-    "drzava": "Bosnia and Herzegovina",
-    "istaknut": true
+    "drzava": "Bosnia and Herzegovina"
   },
   {
     "id": "maribor-maribor-liberation",
@@ -576,9 +627,8 @@
     "name": "Maribor Liberation Monument",
     "year": "1975",
     "author": "Slavko Tihec",
-    "type": "spomenik",
-    "drzava": "Slovenia",
-    "istaknut": true
+    "type": "istaknut",
+    "drzava": "Slovenia"
   },
   {
     "id": "niksic-fallen-fighters",
@@ -593,9 +643,8 @@
     "naziv": "Spomenik palim borcima pod Trebjesom",
     "name": "Monument to Fallen Fighters",
     "year": "1987",
-    "type": "kompleks",
-    "drzava": "Montenegro",
-    "istaknut": true
+    "type": "istaknut",
+    "drzava": "Montenegro"
   },
   {
     "id": "sinj",
@@ -612,9 +661,8 @@
     "name": "Ossuary for Executed Split Partisans",
     "year": "1962",
     "author": "Vuko Bombardelli",
-    "type": "kompleks",
-    "drzava": "Croatia",
-    "istaknut": true
+    "type": "istaknut",
+    "drzava": "Croatia"
   },
   {
     "id": "avala",
@@ -630,9 +678,8 @@
     "name": "Soviet War Veterans Monument",
     "year": "1965",
     "author": "Jovan Kratohvil",
-    "type": "kompleks",
-    "drzava": "Serbia",
-    "istaknut": true
+    "type": "istaknut",
+    "drzava": "Serbia"
   },
   {
     "id": "popina",
@@ -650,8 +697,7 @@
     "year": "1981",
     "author": "Bogdan Bogdanović",
     "type": "kompleks",
-    "drzava": "Serbia",
-    "istaknut": true
+    "drzava": "Serbia"
   },
   {
     "id": "krusevac",
@@ -669,8 +715,7 @@
     "year": "1965",
     "author": "Bogdan Bogdanović",
     "type": "kompleks",
-    "drzava": "Serbia",
-    "istaknut": true
+    "drzava": "Serbia"
   },
   {
     "id": "pristina-prishtine-brotherhood-unity",
@@ -687,9 +732,8 @@
     "name": "Monument to Brotherhood & Unity",
     "year": "1961",
     "author": "Miodrag Živković",
-    "type": "kompleks",
-    "drzava": "Kosovo",
-    "istaknut": true
+    "type": "istaknut",
+    "drzava": "Kosovo"
   },
   {
     "id": "stip-partisan-s-necropolis",
@@ -707,8 +751,7 @@
     "year": "1974",
     "author": "Bogdan Bogdanović",
     "type": "groblje",
-    "drzava": "Macedonia",
-    "istaknut": true
+    "drzava": "Macedonia"
   },
   {
     "id": "gevgelija",
@@ -724,9 +767,8 @@
     "name": "'Flower of Freedom' Monument",
     "year": "1969",
     "author": "Jordan Grabul",
-    "type": "kompleks",
-    "drzava": "Macedonia",
-    "istaknut": true
+    "type": "istaknut",
+    "drzava": "Macedonia"
   },
   {
     "id": "botun",
@@ -740,9 +782,8 @@
     "slika": "slike/spomenici/botun.webp",
     "naziv": "Споменик на востанието",
     "name": "Monument to the Uprising",
-    "type": "kompleks",
-    "drzava": "Macedonia",
-    "istaknut": true
+    "type": "istaknut",
+    "drzava": "Macedonia"
   },
   {
     "id": "podhum",
@@ -758,9 +799,8 @@
     "name": "Monument to the Victims of Fascism",
     "year": "1970",
     "author": "Šime Vulas",
-    "type": "kompleks",
-    "drzava": "Croatia",
-    "istaknut": true
+    "type": "istaknut",
+    "drzava": "Croatia"
   },
   {
     "id": "ulcinj-freedom",
@@ -776,9 +816,8 @@
     "name": "Monument to Freedom",
     "year": "1985",
     "author": "Miodrag Živković",
-    "type": "kompleks",
-    "drzava": "Montenegro",
-    "istaknut": true
+    "type": "istaknut",
+    "drzava": "Montenegro"
   },
   {
     "id": "pleso",
@@ -794,9 +833,8 @@
     "name": "The 'Broken Ring' Monument",
     "year": "1978",
     "author": "Marijan Burger",
-    "type": "kompleks",
-    "drzava": "Croatia",
-    "istaknut": true
+    "type": "istaknut",
+    "drzava": "Croatia"
   },
   {
     "id": "begunje",
@@ -814,8 +852,7 @@
     "year": "1953",
     "author": "Edvard Ravnikar",
     "type": "groblje",
-    "drzava": "Slovenia",
-    "istaknut": true
+    "drzava": "Slovenia"
   },
   {
     "id": "zuzemberk",
@@ -831,9 +868,8 @@
     "name": "Monument on Cvibelj Hill",
     "year": "1961",
     "author": "Marjan Tepina",
-    "type": "kompleks",
-    "drzava": "Slovenia",
-    "istaknut": true
+    "type": "istaknut",
+    "drzava": "Slovenia"
   },
   {
     "id": "plovanija",
@@ -849,9 +885,8 @@
     "name": "Monument to Fallen Fighters",
     "year": "1981",
     "author": "Aleksandar Rukavina",
-    "type": "kompleks",
-    "drzava": "Croatia",
-    "istaknut": true
+    "type": "istaknut",
+    "drzava": "Croatia"
   },
   {
     "id": "dotrscina",
@@ -869,8 +904,7 @@
     "year": "1968",
     "author": "Vojin Bakić",
     "type": "kompleks",
-    "drzava": "Croatia",
-    "istaknut": true
+    "drzava": "Croatia"
   },
   {
     "id": "kamenska",
@@ -888,9 +922,8 @@
     "year": "1968",
     "author": "Vojin Bakić & Josip Sajsl",
     "stanje": "uklonjen",
-    "type": "kompleks",
-    "drzava": "Croatia",
-    "istaknut": true
+    "type": "istaknut",
+    "drzava": "Croatia"
   },
   {
     "id": "donji-miholjac",
@@ -906,9 +939,8 @@
     "name": "The Freedom Monument",
     "year": "1968",
     "author": "Stjepan Brlošić",
-    "type": "spomenik",
-    "drzava": "Croatia",
-    "istaknut": true
+    "type": "istaknut",
+    "drzava": "Croatia"
   },
   {
     "id": "korenica",
@@ -925,9 +957,8 @@
     "name": "Bijeli Potoci-Kamensko Memorial Zone",
     "year": "1981",
     "stanje": "srusen",
-    "type": "kompleks",
-    "drzava": "Croatia",
-    "istaknut": true
+    "type": "istaknut",
+    "drzava": "Croatia"
   },
   {
     "id": "medeno-polje",
@@ -943,9 +974,8 @@
     "naziv": "Spomenik NOB",
     "name": "Monument to the Partisan Air Squadron",
     "year": "1982",
-    "type": "kompleks",
-    "drzava": "Bosnia and Herzegovina",
-    "istaknut": true
+    "type": "istaknut",
+    "drzava": "Bosnia and Herzegovina"
   },
   {
     "id": "bravsko",
@@ -961,9 +991,8 @@
     "naziv": "Spomenik palim borcima NOB",
     "name": "Monument to Fallen Fighters",
     "year": "1972",
-    "type": "kompleks",
-    "drzava": "Bosnia and Herzegovina",
-    "istaknut": true
+    "type": "istaknut",
+    "drzava": "Bosnia and Herzegovina"
   },
   {
     "id": "drvar",
@@ -980,9 +1009,8 @@
     "year": "1967",
     "author": "Marijan Kocković",
     "stanje": "srusen",
-    "type": "kompleks",
-    "drzava": "Bosnia and Herzegovina",
-    "istaknut": true
+    "type": "istaknut",
+    "drzava": "Bosnia and Herzegovina"
   },
   {
     "id": "grmec",
@@ -1000,9 +1028,8 @@
     "year": "1979",
     "author": "Ljubomir Denković",
     "stanje": "rusevine",
-    "type": "kompleks",
-    "drzava": "Bosnia and Herzegovina",
-    "istaknut": true
+    "type": "istaknut",
+    "drzava": "Bosnia and Herzegovina"
   },
   {
     "id": "zaostrog",
@@ -1017,9 +1044,8 @@
     "naziv": "Spomenik palim borcima",
     "name": "Monument to the Fallen Fighters",
     "year": "1979",
-    "type": "kompleks",
-    "drzava": "Croatia",
-    "istaknut": true
+    "type": "istaknut",
+    "drzava": "Croatia"
   },
   {
     "id": "bela-crkva-start-uprising",
@@ -1037,8 +1063,7 @@
     "year": "1971",
     "author": "Bogdan Bogdanović",
     "type": "kompleks",
-    "drzava": "Serbia",
-    "istaknut": true
+    "drzava": "Serbia"
   },
   {
     "id": "bratunac",
@@ -1054,9 +1079,8 @@
     "name": "Bratunac Memorial Park",
     "year": "1978",
     "author": "Petar Krstić",
-    "type": "kompleks",
-    "drzava": "Bosnia and Herzegovina",
-    "istaknut": true
+    "type": "istaknut",
+    "drzava": "Bosnia and Herzegovina"
   },
   {
     "id": "kraljevo-park-14th-october",
@@ -1089,9 +1113,8 @@
     "name": "Monument to Majdanpek Liberators",
     "year": "1983",
     "stanje": "rusevine",
-    "type": "kompleks",
-    "drzava": "Serbia",
-    "istaknut": true
+    "type": "istaknut",
+    "drzava": "Serbia"
   },
   {
     "id": "kolasin",
@@ -1107,9 +1130,8 @@
     "name": "Kolašin Memorial House",
     "year": "1975",
     "author": "Marko Mušič",
-    "type": "kompleks",
-    "drzava": "Montenegro",
-    "istaknut": true
+    "type": "istaknut",
+    "drzava": "Montenegro"
   },
   {
     "id": "berane",
@@ -1125,9 +1147,8 @@
     "name": "Jasikovac Hill Monument",
     "year": "1977",
     "author": "Bogdan Bogdanović",
-    "type": "kompleks",
-    "drzava": "Montenegro",
-    "istaknut": true
+    "type": "istaknut",
+    "drzava": "Montenegro"
   },
   {
     "id": "barutana",
@@ -1143,9 +1164,8 @@
     "name": "Monu. to Fallen Lješanska Nahija Fighters",
     "year": "1980",
     "author": "Svetlana Kana Radević",
-    "type": "kompleks",
-    "drzava": "Montenegro",
-    "istaknut": true
+    "type": "istaknut",
+    "drzava": "Montenegro"
   },
   {
     "id": "golubovci",
@@ -1160,9 +1180,8 @@
     "naziv": "Spomenik palim borcima",
     "name": "Monument to Fallen Fighters",
     "year": "1974",
-    "type": "kompleks",
-    "drzava": "Montenegro",
-    "istaknut": true
+    "type": "istaknut",
+    "drzava": "Montenegro"
   },
   {
     "id": "velanija-velanije",
@@ -1180,8 +1199,7 @@
     "year": "1961",
     "author": "Svetislav Ličina",
     "type": "groblje",
-    "drzava": "Kosovo",
-    "istaknut": true
+    "drzava": "Kosovo"
   },
   {
     "id": "leskovac",
@@ -1199,8 +1217,7 @@
     "year": "1971",
     "author": "Bogdan Bogdanović",
     "type": "kompleks",
-    "drzava": "Serbia",
-    "istaknut": true
+    "drzava": "Serbia"
   },
   {
     "id": "vlasotince",
@@ -1217,9 +1234,8 @@
     "name": "Monument to the Revolutionary Struggle",
     "year": "1975",
     "author": "Bogdan Bogdanović",
-    "type": "kompleks",
-    "drzava": "Serbia",
-    "istaknut": true
+    "type": "istaknut",
+    "drzava": "Serbia"
   },
   {
     "id": "kocani",
@@ -1236,9 +1252,8 @@
     "name": "Freedom Monument",
     "year": "1977",
     "author": "Gligor Čemerski",
-    "type": "kompleks",
-    "drzava": "Macedonia",
-    "istaknut": true
+    "type": "istaknut",
+    "drzava": "Macedonia"
   },
   {
     "id": "struga",
@@ -1253,9 +1268,8 @@
     "naziv": "Споменик на Револуцијата",
     "name": "Monument to the Revolution",
     "year": "1974",
-    "type": "kompleks",
-    "drzava": "Macedonia",
-    "istaknut": true
+    "type": "istaknut",
+    "drzava": "Macedonia"
   },
   {
     "id": "jajinci",
@@ -1266,15 +1280,27 @@
     "googleCid": "12692474516807029799",
     "title": "Jajinci",
     "info": "http://www.spomenikdatabase.org/jajinci",
-    "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D0%BF%D0%B0%D1%80%D0%BA_%D0%88%D0%B0%D1%98%D0%B8%D0%BD%D1%86%D0%B8",
     "slika": "slike/spomenici/jajinci.webp",
-    "naziv": "Spomen-park Jajinci",
-    "name": "Memorial Park Jajinci",
+    "naziv": "Spomenik žrtvama fašizma u Jajincima",
+    "name": "Monument to the Victims of Fascism",
     "year": "1988",
     "author": "Vojin Stojić",
+    "type": "istaknut",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "jajinci-spomen-park",
+    "koordinate": {
+      "lat": 44.7306648,
+      "lng": 20.488984
+    },
+    "title": "Jajinci",
+    "info": "https://www.openstreetmap.org/way/482462319",
+    "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D0%BF%D0%B0%D1%80%D0%BA_%D0%88%D0%B0%D1%98%D0%B8%D0%BD%D1%86%D0%B8",
+    "naziv": "Spomen-park Jajinci",
+    "name": "Jajinci Memorial Park",
     "type": "kompleks",
-    "drzava": "Serbia",
-    "istaknut": true
+    "drzava": "Serbia"
   },
   {
     "id": "makarska",
@@ -1291,9 +1317,8 @@
     "name": "Monument to the Revolution",
     "year": "1974",
     "author": "Matija Salaj & Šime Vulas & Ante Kuduz",
-    "type": "kompleks",
-    "drzava": "Croatia",
-    "istaknut": true
+    "type": "istaknut",
+    "drzava": "Croatia"
   },
   {
     "id": "veles",
@@ -1310,9 +1335,8 @@
     "name": "Tomb of the Heroes",
     "year": "1979",
     "author": "Ljubomir Denković",
-    "type": "kompleks",
-    "drzava": "Macedonia",
-    "istaknut": true
+    "type": "istaknut",
+    "drzava": "Macedonia"
   },
   {
     "id": "slabinja",
@@ -1329,9 +1353,8 @@
     "name": "Monument to Fallen Fighters",
     "year": "1981",
     "author": "Stanislav Mišić",
-    "type": "kompleks",
-    "drzava": "Croatia",
-    "istaknut": true
+    "type": "istaknut",
+    "drzava": "Croatia"
   },
   {
     "id": "mirna",
@@ -1347,9 +1370,8 @@
     "name": "Monument to the Fallen on Roja Hill",
     "year": "1965",
     "author": "Janez Lenassi",
-    "type": "kompleks",
-    "drzava": "Slovenia",
-    "istaknut": true
+    "type": "istaknut",
+    "drzava": "Slovenia"
   },
   {
     "id": "andrijevica",
@@ -1365,9 +1387,8 @@
     "name": "NOB Monument at Knjaževac Park",
     "year": "1967",
     "author": "Vojislav Vujisić",
-    "type": "kompleks",
-    "drzava": "Montenegro",
-    "istaknut": true
+    "type": "istaknut",
+    "drzava": "Montenegro"
   },
   {
     "id": "draginac",
@@ -1383,9 +1404,8 @@
     "naziv": "Spomen-kosturnica",
     "name": "Monument & Crypt to Executed Victims",
     "year": "1961",
-    "type": "kompleks",
-    "drzava": "Serbia",
-    "istaknut": true
+    "type": "istaknut",
+    "drzava": "Serbia"
   },
   {
     "id": "vodjenica",
@@ -1400,9 +1420,8 @@
     "naziv": "Spomenik Vođeničkoj četi",
     "name": "Monument to the Vođenica Company",
     "stanje": "rusevine",
-    "type": "kompleks",
-    "drzava": "Bosnia and Herzegovina",
-    "istaknut": true
+    "type": "istaknut",
+    "drzava": "Bosnia and Herzegovina"
   },
   {
     "id": "vrtoce",
@@ -1418,9 +1437,8 @@
     "naziv": "Spomenik Narodnooslobodilačkoj borbi u Vrtoču",
     "name": "Memorial Park to Fallen Fighters",
     "year": "1971",
-    "type": "kompleks",
-    "drzava": "Bosnia and Herzegovina",
-    "istaknut": true
+    "type": "istaknut",
+    "drzava": "Bosnia and Herzegovina"
   },
   {
     "id": "jasenica",
@@ -1438,8 +1456,7 @@
     "author": "Marijan Kocković",
     "stanje": "rusevine",
     "type": "muzej",
-    "drzava": "Bosnia and Herzegovina",
-    "istaknut": true
+    "drzava": "Bosnia and Herzegovina"
   },
   {
     "id": "prilep",
@@ -1457,8 +1474,7 @@
     "year": "1961",
     "author": "Bogdan Bogdanović",
     "type": "groblje",
-    "drzava": "Macedonia",
-    "istaknut": true
+    "drzava": "Macedonia"
   },
   {
     "id": "glamoc",
@@ -1473,9 +1489,8 @@
     "name": "Monument to Ivo Lola Ribar",
     "year": "1961",
     "stanje": "rusevine",
-    "type": "kompleks",
-    "drzava": "Bosnia and Herzegovina",
-    "istaknut": true
+    "type": "istaknut",
+    "drzava": "Bosnia and Herzegovina"
   },
   {
     "id": "jabuka",
@@ -1492,8 +1507,7 @@
     "name": "The Stratište Memorial Complex",
     "year": "1981",
     "type": "kompleks",
-    "drzava": "Serbia",
-    "istaknut": true
+    "drzava": "Serbia"
   },
   {
     "id": "crni-kal",
@@ -1509,9 +1523,8 @@
     "name": "Monument to Overseas Brigades",
     "year": "1966",
     "author": "Edo Mihevc",
-    "type": "kompleks",
-    "drzava": "Slovenia",
-    "istaknut": true
+    "type": "istaknut",
+    "drzava": "Slovenia"
   },
   {
     "id": "sarajevo-vraca-park",
@@ -1528,8 +1541,7 @@
     "name": "Vraca Memorial Park",
     "year": "1981",
     "type": "kompleks",
-    "drzava": "Bosnia and Herzegovina",
-    "istaknut": true
+    "drzava": "Bosnia and Herzegovina"
   },
   {
     "id": "sremska-mitrovitca",
@@ -1547,8 +1559,7 @@
     "year": "1960",
     "author": "Bogdan Bogdanović",
     "type": "groblje",
-    "drzava": "Serbia",
-    "istaknut": true
+    "drzava": "Serbia"
   },
   {
     "id": "cenej",
@@ -1565,9 +1576,8 @@
     "name": "Monument to Novi Sad Partisans",
     "year": "1971",
     "author": "Pavle Radovanović",
-    "type": "kompleks",
-    "drzava": "Serbia",
-    "istaknut": true
+    "type": "istaknut",
+    "drzava": "Serbia"
   },
   {
     "id": "brezovica-brezovice",
@@ -1583,9 +1593,8 @@
     "naziv": "Spomenik Šarplaninskom partizanskom odredu",
     "name": "Monument to Šar Mtn. Partisan Unit",
     "year": "1964",
-    "type": "kompleks",
-    "drzava": "Kosovo",
-    "istaknut": true
+    "type": "istaknut",
+    "drzava": "Kosovo"
   },
   {
     "id": "landovica",
@@ -1600,9 +1609,8 @@
     "name": "Monument to Brother & Unity",
     "year": "1963",
     "stanje": "uklonjen",
-    "type": "kompleks",
-    "drzava": "Kosovo",
-    "istaknut": true
+    "type": "istaknut",
+    "drzava": "Kosovo"
   },
   {
     "id": "brzece",
@@ -1617,9 +1625,8 @@
     "naziv": "Spomenik na Mramoru",
     "name": "Mramor Monument",
     "year": "1969",
-    "type": "kompleks",
-    "drzava": "Serbia",
-    "istaknut": true
+    "type": "istaknut",
+    "drzava": "Serbia"
   },
   {
     "id": "zajecar",
@@ -1636,9 +1643,8 @@
     "name": "'The Gallows' Monument",
     "year": "1971",
     "author": "Vladimir Veličković",
-    "type": "kompleks",
-    "drzava": "Serbia",
-    "istaknut": true
+    "type": "istaknut",
+    "drzava": "Serbia"
   },
   {
     "id": "vranjske-njive",
@@ -1653,9 +1659,8 @@
     "naziv": "Spomenik obješenim rodoljubima",
     "name": "Monument to Hanged Patriots",
     "year": "1970",
-    "type": "spomenik",
-    "drzava": "Montenegro",
-    "istaknut": true
+    "type": "istaknut",
+    "drzava": "Montenegro"
   },
   {
     "id": "gligino-brdo",
@@ -1669,9 +1674,8 @@
     "slika": "slike/spomenici/gligino-brdo.webp",
     "name": "Freedom Hill Monument",
     "year": "1970",
-    "type": "kompleks",
-    "drzava": "Bosnia and Herzegovina",
-    "istaknut": true
+    "type": "istaknut",
+    "drzava": "Bosnia and Herzegovina"
   },
   {
     "id": "zagreb-december-victims",
@@ -1687,9 +1691,8 @@
     "name": "Monument to the December Victims",
     "year": "1960",
     "author": "Dušan Džamonja",
-    "type": "kompleks",
-    "drzava": "Croatia",
-    "istaknut": true
+    "type": "istaknut",
+    "drzava": "Croatia"
   },
   {
     "id": "ada",
@@ -1705,9 +1708,8 @@
     "name": "Memorial to Resistance",
     "year": "1961",
     "author": "Aleksandar Zarin",
-    "type": "kompleks",
-    "drzava": "Serbia",
-    "istaknut": true
+    "type": "istaknut",
+    "drzava": "Serbia"
   },
   {
     "id": "brstica",
@@ -1724,8 +1726,7 @@
     "name": "Memorial Complex Stolice",
     "year": "1981",
     "type": "kompleks",
-    "drzava": "Serbia",
-    "istaknut": true
+    "drzava": "Serbia"
   },
   {
     "id": "makljen",
@@ -1743,9 +1744,8 @@
     "year": "1978",
     "author": "Boško Kućanski",
     "stanje": "rusevine",
-    "type": "kompleks",
-    "drzava": "Bosnia and Herzegovina",
-    "istaknut": true
+    "type": "istaknut",
+    "drzava": "Bosnia and Herzegovina"
   },
   {
     "id": "zlatibor",
@@ -1762,9 +1762,8 @@
     "name": "Monument on Šumatno Hill",
     "year": "1967",
     "author": "Ana Bešlić",
-    "type": "kompleks",
-    "drzava": "Serbia",
-    "istaknut": true
+    "type": "istaknut",
+    "drzava": "Serbia"
   },
   {
     "id": "plavno",
@@ -1811,9 +1810,8 @@
     "name": "Monument to the Revolution",
     "year": "1975",
     "author": "Drago Tršar",
-    "type": "spomenik",
-    "drzava": "Slovenia",
-    "istaknut": true
+    "type": "istaknut",
+    "drzava": "Slovenia"
   },
   {
     "id": "lepoglava",
@@ -1831,8 +1829,7 @@
     "year": "1981",
     "author": "Stevan Luketić",
     "type": "groblje",
-    "drzava": "Croatia",
-    "istaknut": true
+    "drzava": "Croatia"
   },
   {
     "id": "zrinska-gora",
@@ -1896,9 +1893,8 @@
     "naziv": "Споменик на 50. Македонска партизанска дивизија",
     "name": "Monu. to the 50th Maced. Partisan Div.",
     "year": "1974",
-    "type": "kompleks",
-    "drzava": "Macedonia",
-    "istaknut": true
+    "type": "istaknut",
+    "drzava": "Macedonia"
   },
   {
     "id": "podgorica-fallen-fighters",
@@ -1990,9 +1986,8 @@
     "name": "Mon. to the Prespa Party Conference",
     "year": "1973",
     "author": "Jordan Grabul",
-    "type": "spomenik",
-    "drzava": "Macedonia",
-    "istaknut": true
+    "type": "istaknut",
+    "drzava": "Macedonia"
   },
   {
     "id": "aleksinac",
@@ -2162,9 +2157,8 @@
     "naziv": "Spomenik palim pomorcima",
     "name": "Monument to Fallen Partisan Sailors",
     "year": "1958",
-    "type": "spomenik",
-    "drzava": "Croatia",
-    "istaknut": true
+    "type": "istaknut",
+    "drzava": "Croatia"
   },
   {
     "id": "labin",
@@ -2228,9 +2222,8 @@
     "naziv": "Raonik",
     "name": "Memorial to the Uprising in Vojvodina",
     "year": "1985",
-    "type": "spomenik",
-    "drzava": "Serbia",
-    "istaknut": true
+    "type": "istaknut",
+    "drzava": "Serbia"
   },
   {
     "id": "titel",
@@ -2246,9 +2239,8 @@
     "name": "Monument to the Victims of Fascism",
     "year": "1974",
     "author": "Jovan Soldatović",
-    "type": "spomenik",
-    "drzava": "Serbia",
-    "istaknut": true
+    "type": "istaknut",
+    "drzava": "Serbia"
   },
   {
     "id": "vracenovici",
@@ -2319,7 +2311,7 @@
     "naziv": "Спомен-костурница",
     "name": "Memorial Ossuary on Samaranica Hill",
     "year": "1982",
-    "type": "kompleks",
+    "type": "spomenik",
     "drzava": "Macedonia"
   },
   {
@@ -2366,7 +2358,7 @@
     "name": "Monument to Fallen Fighters",
     "year": "1973",
     "author": "Drago Đurović",
-    "type": "kompleks",
+    "type": "spomenik",
     "drzava": "Montenegro"
   },
   {
@@ -2383,9 +2375,8 @@
     "name": "Monument to Ivan Goran Kovačić",
     "year": "1964",
     "author": "Vojin Bakić",
-    "type": "spomenik",
-    "drzava": "Croatia",
-    "istaknut": true
+    "type": "istaknut",
+    "drzava": "Croatia"
   },
   {
     "id": "trubjela",
@@ -2445,7 +2436,7 @@
     "name": "Monument to 26 Frozen Partisans",
     "year": "1969",
     "author": "Zdenko Sila",
-    "type": "kompleks",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -2490,7 +2481,7 @@
     "naziv": "Spomenik žrtvama fašističke racije",
     "name": "Monument to 1942 Raid Victims",
     "year": "1982",
-    "type": "kompleks",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -2520,7 +2511,7 @@
     "naziv": "Spomenik NOB",
     "name": "Monument to Fallen Fighters",
     "year": "1971",
-    "type": "kompleks",
+    "type": "spomenik",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -2569,8 +2560,7 @@
     "year": "1987",
     "author": "Miodrag Živković",
     "type": "kompleks",
-    "drzava": "Montenegro",
-    "istaknut": true
+    "drzava": "Montenegro"
   },
   {
     "id": "vukosavci",
@@ -2586,6 +2576,19 @@
     "name": "Monument to the Revolution",
     "year": "1986",
     "author": "Drago Tršar",
+    "type": "spomenik",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "vukosavci-spomen-park",
+    "koordinate": {
+      "lat": 44.6364219,
+      "lng": 18.8764953
+    },
+    "title": "Vukosavci",
+    "info": "https://www.openstreetmap.org/way/210113501",
+    "naziv": "Spomen-park Vukosavci",
+    "name": "Vukosavci Memorial Park",
     "type": "kompleks",
     "drzava": "Bosnia and Herzegovina"
   },
@@ -2601,7 +2604,7 @@
     "name": "Monument to Fallen Fighters",
     "year": "1974",
     "stanje": "uklonjen",
-    "type": "kompleks",
+    "type": "spomenik",
     "drzava": "Kosovo"
   },
   {
@@ -2619,9 +2622,8 @@
     "name": "Monument to Fallen Krajina Fighters",
     "year": "1961",
     "author": "Antun Augustinčić",
-    "type": "kompleks",
-    "drzava": "Bosnia and Herzegovina",
-    "istaknut": true
+    "type": "istaknut",
+    "drzava": "Bosnia and Herzegovina"
   },
   {
     "id": "gonjace",
@@ -2635,7 +2637,7 @@
     "name": "Monument to Fallen Fighters",
     "year": "1961",
     "author": "Janez Boljka",
-    "type": "kompleks",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -2650,7 +2652,7 @@
     "name": "Monument to the Kikinda Detachment",
     "year": "1964",
     "author": "Rudolf Matutinović",
-    "type": "kompleks",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -2718,7 +2720,7 @@
     "name": "Monument to the <a href=\"https://sl.wikipedia.org/wiki/Pohorski_bataljon\" target=\"_blank\">Pohorje Battalion</a>",
     "year": "1959",
     "author": "Slavko Tihec",
-    "type": "kompleks",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -2735,9 +2737,8 @@
     "name": "Mon. to WWII Jewish Fighters & Victims",
     "year": "1952",
     "author": "Bogdan Bogdanović",
-    "type": "spomenik",
-    "drzava": "Serbia",
-    "istaknut": true
+    "type": "istaknut",
+    "drzava": "Serbia"
   },
   {
     "id": "zavidovici",
@@ -2877,9 +2878,8 @@
     "naziv": "Spomenik Šestoj crnogorskoj udarnoj brigadi",
     "name": "Monument to 6th Montenegrin Brigade",
     "year": "1974",
-    "type": "spomenik",
-    "drzava": "Montenegro",
-    "istaknut": true
+    "type": "istaknut",
+    "drzava": "Montenegro"
   },
   {
     "id": "dola",
@@ -2895,8 +2895,7 @@
     "name": "Dola Memorial Complex",
     "year": "1977",
     "type": "kompleks",
-    "drzava": "Montenegro",
-    "istaknut": true
+    "drzava": "Montenegro"
   },
   {
     "id": "kumrovec",
@@ -2911,9 +2910,8 @@
     "naziv": "Spomen-dom boraca NOB-a i omladine",
     "name": "Memorial House of NOB Fighters & Youth",
     "year": "1974",
-    "type": "kompleks",
-    "drzava": "Croatia",
-    "istaknut": true
+    "type": "istaknut",
+    "drzava": "Croatia"
   },
   {
     "id": "samac",
@@ -2928,7 +2926,7 @@
     "name": "Spomen-dom '<a href=\"https://sr.wikipedia.org/wiki/%D0%9C%D0%B8%D1%82%D0%B0%D1%80_%D0%A2%D1%80%D0%B8%D1%84%D1%83%D0%BD%D0%BE%D0%B2%D0%B8%D1%9B_%D0%A3%D1%87%D0%BE\" target=\"_blank\">Mitar Trifunović</a>'",
     "year": "1978",
     "stanje": "rusevine",
-    "type": "kompleks",
+    "type": "spomenik",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -3003,7 +3001,7 @@
     "name": "Alley of Freedom Memorial Park",
     "year": "1959",
     "author": "I. Mujezinović",
-    "type": "kompleks",
+    "type": "spomenik",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -3202,7 +3200,7 @@
     "name": "Šamarica Spomen-Dom",
     "year": "1980",
     "stanje": "rusevine",
-    "type": "kompleks",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -3247,7 +3245,7 @@
     "slika": "slike/spomenici/niksic-house-revolution.webp",
     "naziv": "Dom revolucije",
     "name": "House of the Revolution",
-    "type": "kompleks",
+    "type": "spomenik",
     "drzava": "Montenegro"
   },
   {
@@ -3278,9 +3276,8 @@
     "naziv": "Spomenik palim borcima na Sutjesci",
     "name": "Monument to Fallen Sutjeska Fighters",
     "year": "1984",
-    "type": "kompleks",
-    "drzava": "Montenegro",
-    "istaknut": true
+    "type": "istaknut",
+    "drzava": "Montenegro"
   },
   {
     "id": "pecurice",
@@ -3311,9 +3308,8 @@
     "name": "Mon. & Tomb to Fallen Fighters",
     "year": "1961",
     "author": "Jakob Savinšek",
-    "type": "kompleks",
-    "drzava": "Slovenia",
-    "istaknut": true
+    "type": "istaknut",
+    "drzava": "Slovenia"
   },
   {
     "id": "ljutomer",
@@ -3403,7 +3399,7 @@
     "naziv": "Дом на културата „АСНОМ“",
     "name": "<a href=\"https://en.wikipedia.org/wiki/Anti-fascist_Assembly_for_the_National_Liberation_of_Macedonia\" target=\"_blank\">ASNOM</a> House of Culture",
     "year": "1975",
-    "type": "kompleks",
+    "type": "spomenik",
     "drzava": "Macedonia"
   },
   {
@@ -3419,7 +3415,7 @@
     "name": "Memorial House of the <a href=\"https://en.wikipedia.org/wiki/Kresna%E2%80%93Razlog_uprising\" target=\"_blank\">Razlog Uprising</a>",
     "year": "1981",
     "author": "Georgi Konstantinovski",
-    "type": "kompleks",
+    "type": "spomenik",
     "drzava": "Macedonia"
   },
   {
@@ -3433,7 +3429,7 @@
     "naziv": "Spomen kosturnica poginulim borcima NOR Kotor Varoš",
     "name": "Memorial Ossuary of WWII Fighters",
     "year": "1965",
-    "type": "kompleks",
+    "type": "spomenik",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -3467,7 +3463,7 @@
     "name": "Monument to <a href=\"https://en.wikipedia.org/wiki/Stjepan_Filipovi%C4%87\" target=\"_blank\">Stjepan Filipović</a>",
     "year": "1960",
     "author": "Vojin Bakić",
-    "type": "kompleks",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -3531,9 +3527,8 @@
     "name": "Monument to Victims of the 1942 Raid",
     "year": "1971",
     "author": "Jovan Soldatović",
-    "type": "spomenik",
-    "drzava": "Serbia",
-    "istaknut": true
+    "type": "istaknut",
+    "drzava": "Serbia"
   },
   {
     "id": "zabalj",
@@ -3580,7 +3575,7 @@
     "naziv": "Spomenik Jabuka",
     "name": "Jabuka Monument Site",
     "year": "1974",
-    "type": "kompleks",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -3937,7 +3932,7 @@
     "naziv": "Spomenik diviziji Garibaldi",
     "name": "Monument to the Garibaldi Division",
     "year": "1983",
-    "type": "kompleks",
+    "type": "spomenik",
     "drzava": "Montenegro"
   },
   {
@@ -4138,9 +4133,8 @@
     "name": "Memorial Mausoleum to Partisans",
     "year": "1957",
     "author": "Drago Đurović",
-    "type": "kompleks",
-    "drzava": "Montenegro",
-    "istaknut": true
+    "type": "istaknut",
+    "drzava": "Montenegro"
   },
   {
     "id": "virpazar",
@@ -4319,7 +4313,7 @@
     "name": "Memorial Ossuary",
     "year": "1963",
     "author": "Jordan Grabul",
-    "type": "kompleks",
+    "type": "spomenik",
     "drzava": "Macedonia"
   },
   {
@@ -4394,7 +4388,7 @@
     "naziv": "Plamen",
     "name": "NOB Memorial Obelisk",
     "year": "1981",
-    "type": "kompleks",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -4466,7 +4460,7 @@
     "slika": "slike/spomenici/velika-rujiska.webp",
     "naziv": "Spomenik palim borcima",
     "name": "Monument to Fallen Fighters",
-    "type": "kompleks",
+    "type": "spomenik",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -4545,7 +4539,7 @@
     "name": "Mausoleum of <a href=\"https://en.wikipedia.org/wiki/Petar_II_Petrovi%C4%87-Njego%C5%A1\" target=\"_blank\">Njegoš</a>",
     "year": "1974",
     "author": "Ivan Meštrović",
-    "type": "kompleks",
+    "type": "spomenik",
     "drzava": "Montenegro"
   },
   {
@@ -4611,8 +4605,7 @@
     "naziv": "Muzej AVNOJ-a u Jajcu",
     "name": "Museum of the 2nd Session of AVNOJ",
     "type": "muzej",
-    "drzava": "Bosnia and Herzegovina",
-    "istaknut": true
+    "drzava": "Bosnia and Herzegovina"
   },
   {
     "id": "museum-of-yugoslavia",
@@ -5084,7 +5077,7 @@
     "name": "Monument to the 1573 Peasant Revolt",
     "year": "1973",
     "author": "Antun Augustinčić",
-    "type": "kompleks",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -5117,7 +5110,7 @@
     "name": "Monu. to Croatian People's Uprising",
     "year": "1951",
     "author": "Vanja Radauš",
-    "type": "kompleks",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -5134,7 +5127,7 @@
     "name": "Monument to Freedom",
     "year": "1951",
     "author": "Sreten Stojanović",
-    "type": "kompleks",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -5217,7 +5210,7 @@
     "name": "Memorial Ossuary",
     "year": "1957",
     "author": "Sreten Stojanović",
-    "type": "kompleks",
+    "type": "spomenik",
     "drzava": "Macedonia"
   },
   {
@@ -5231,7 +5224,7 @@
     "slika": "slike/spomenici/gradacac.webp",
     "naziv": "Spomenik palim borcima u Drugom svjetskom ratu",
     "name": "Monument to Fallen Fighters of WWII",
-    "type": "kompleks",
+    "type": "spomenik",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -5309,7 +5302,7 @@
     "naziv": "Spomenik 4. decembar",
     "name": "Monument to Fallen Fighters",
     "year": "1953",
-    "type": "kompleks",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -5437,8 +5430,7 @@
     "year": "1981",
     "author": "Lenko Pleština",
     "type": "kompleks",
-    "drzava": "Croatia",
-    "istaknut": true
+    "drzava": "Croatia"
   },
   {
     "id": "oborovo",
@@ -5593,9 +5585,8 @@
     "name": "Battle of Batina Monument",
     "year": "1946",
     "author": "Antun Augustinčić & Srećko Lončarević",
-    "type": "kompleks",
-    "drzava": "Croatia",
-    "istaknut": true
+    "type": "istaknut",
+    "drzava": "Croatia"
   },
   {
     "id": "bjelovar",
@@ -5605,12 +5596,25 @@
     },
     "googleCid": "15853249553988409082",
     "title": "Bjelovar",
-    "wiki": "https://sh.wikipedia.org/wiki/Spomen-park_Borik",
     "slika": "slike/spomenici/bjelovar.webp",
-    "naziv": "Spomen-park Borik",
-    "name": "'Call To Arms' Monument",
+    "naziv": "Poziv na ustanak",
+    "name": "Call to Arms Monument",
     "year": "1946",
     "author": "Vojin Bakić",
+    "type": "spomenik",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "bjelovar-spomen-park-borik",
+    "koordinate": {
+      "lat": 45.9092713,
+      "lng": 16.8391025
+    },
+    "title": "Bjelovar",
+    "info": "https://www.openstreetmap.org/way/1053952255",
+    "wiki": "https://sh.wikipedia.org/wiki/Spomen-park_Borik",
+    "naziv": "Spomen-park Borik",
+    "name": "Borik Memorial Park",
     "type": "kompleks",
     "drzava": "Croatia"
   },
@@ -5702,7 +5706,7 @@
     "name": "Monument to the Patriots of Rijeka",
     "year": "1957",
     "author": "Zdenko Kolacio",
-    "type": "kompleks",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -5794,9 +5798,8 @@
     "naziv": "Споменик на жените борци",
     "name": "Monument to Women Fighters",
     "year": "1970",
-    "type": "spomenik",
-    "drzava": "Macedonia",
-    "istaknut": true
+    "type": "istaknut",
+    "drzava": "Macedonia"
   },
   {
     "id": "karlovac",
@@ -5998,9 +6001,8 @@
     "name": "Monument to Josip Tito",
     "year": "1977",
     "author": "Antun Augustinčić",
-    "type": "spomenik",
-    "drzava": "Slovenia",
-    "istaknut": true
+    "type": "istaknut",
+    "drzava": "Slovenia"
   },
   {
     "id": "graska-gora",
@@ -6383,7 +6385,7 @@
     "name": "The \"Politika\" House of Culture",
     "year": "1982",
     "author": "Ivan Antić",
-    "type": "kompleks",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -6413,7 +6415,7 @@
     "naziv": "Spomen-dom „Boro i Ramiz”",
     "name": "Spomen-Dom 'Boro & Ramiz'",
     "year": "1977",
-    "type": "kompleks",
+    "type": "spomenik",
     "drzava": "Kosovo"
   },
   {
@@ -6427,7 +6429,7 @@
     "naziv": "Spomen-dom 6. ličke proleterske divizije",
     "name": "Memorial House to 6th Lika Prolet. Div.",
     "year": "1981",
-    "type": "kompleks",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -6442,7 +6444,7 @@
     "naziv": "Spomen-dom Pazin",
     "name": "Pazin Spomen-Dom",
     "year": "1983",
-    "type": "kompleks",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -6696,9 +6698,8 @@
     "naziv": "Spomenik otpora i pobede",
     "name": "Monument to Resistance & Torment",
     "year": "1955",
-    "type": "spomenik",
-    "drzava": "Serbia",
-    "istaknut": true
+    "type": "istaknut",
+    "drzava": "Serbia"
   },
   {
     "id": "smoljana",
@@ -6963,9 +6964,8 @@
     "year": "1951",
     "author": "Dušan Džamonja",
     "stanje": "uklonjen",
-    "type": "spomenik",
-    "drzava": "Croatia",
-    "istaknut": true
+    "type": "istaknut",
+    "drzava": "Croatia"
   },
   {
     "id": "curug",
@@ -7602,7 +7602,7 @@
     "naziv": "Palima u oslobodilačkom ratu",
     "name": "The Partisan Memorial Park",
     "year": "1963",
-    "type": "kompleks",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -7647,9 +7647,8 @@
     "name": "Monument to the Victims of Fascism",
     "year": "1961",
     "author": "Aleksandar Zarin",
-    "type": "kompleks",
-    "drzava": "Serbia",
-    "istaknut": true
+    "type": "istaknut",
+    "drzava": "Serbia"
   },
   {
     "id": "stolac",
@@ -7745,7 +7744,7 @@
     "naziv": "Radnički spomen-dom „Božidar Maslarić”",
     "name": "Worker's Mem. House 'Božidar Maslarić'",
     "year": "1980",
-    "type": "kompleks",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -7891,7 +7890,7 @@
     "name": "Turbe Memorial Park & Tomb",
     "year": "1974",
     "author": "Petar Krstić",
-    "type": "kompleks",
+    "type": "spomenik",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -8108,7 +8107,7 @@
     "naziv": "Spomenik palim borcima NOB-a",
     "name": "Monument to Fallen NOB Fighters",
     "year": "1967",
-    "type": "kompleks",
+    "type": "spomenik",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -8682,7 +8681,7 @@
     "naziv": "Spomen-obilježje partizanskoj bolnici Stupe",
     "name": "Stupe Partisan Hospital Memorial",
     "year": "1981",
-    "type": "kompleks",
+    "type": "spomenik",
     "drzava": "Croatia"
   },
   {
@@ -9620,7 +9619,7 @@
     "title": "Raborci",
     "slika": "slike/spomenici/raborci.webp",
     "name": "Monument to the Osogovo Group",
-    "type": "kompleks",
+    "type": "spomenik",
     "drzava": "Macedonia"
   },
   {
@@ -10874,7 +10873,7 @@
     "naziv": "Spomenik padlim borcem in rudarjem",
     "name": "Monument to Fallen Fighters & Miners",
     "year": "1953",
-    "type": "kompleks",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -10905,7 +10904,7 @@
     "naziv": "Župank",
     "name": "Monument to the Lacko Detachment",
     "year": "1983",
-    "type": "kompleks",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -11685,11 +11684,24 @@
     "title": "Donja Trnova",
     "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D0%B3%D1%80%D0%BE%D0%B1%D1%99%D0%B5_%D1%83_%D0%94%D0%BE%D1%9A%D0%BE%D1%98_%D0%A2%D1%80%D0%BD%D0%BE%D0%B2%D0%B8",
     "slika": "slike/spomenici/donja-trnova.webp",
-    "naziv": "Spomen-groblje u Donjoj Trnovi",
-    "name": "Mon. to Fighters of Srem & E. Bosnia",
+    "naziv": "Spomenik borcima Srema i istočne Bosne",
+    "name": "Monument to Fighters of Srem and Eastern Bosnia",
     "year": "1952",
     "author": "Jovan Kratohvil",
-    "type": "kompleks",
+    "type": "spomenik",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "donja-trnova-spomen-groblje",
+    "koordinate": {
+      "lat": 44.6677275,
+      "lng": 19.1002003
+    },
+    "title": "Donja Trnova",
+    "info": "https://www.openstreetmap.org/way/210114160",
+    "naziv": "Spomen-groblje u Donjoj Trnovi",
+    "name": "Donja Trnova Memorial Cemetery",
+    "type": "groblje",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -11827,7 +11839,7 @@
     "naziv": "Spomenik palim borcima i žrtvama",
     "name": "Mon. to Fallen Fighters & Victims",
     "year": "1951",
-    "type": "kompleks",
+    "type": "spomenik",
     "drzava": "Bosnia and Herzegovina"
   },
   {
@@ -12281,7 +12293,7 @@
     "googleCid": "13401680343311498792",
     "title": "Podbela (Breginj)",
     "naziv": "Spomenik NOV",
-    "type": "kompleks",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -12780,7 +12792,7 @@
     "title": "Babičko",
     "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D0%B4%D0%BE%D0%BC_%D1%83_%D0%91%D0%B0%D0%B1%D0%B8%D1%87%D0%BA%D0%BE%D0%BC",
     "naziv": "Spomen-dom u Babičkom",
-    "type": "kompleks",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -12947,7 +12959,7 @@
     "googleCid": "6904417933873319493",
     "title": "Sremski Mihaljevci",
     "naziv": "Spomenik NOR – Posavski partizanski odred",
-    "type": "kompleks",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
@@ -21050,8 +21062,20 @@
     "slikaAutor": "Google Maps",
     "naziv": "Park Vide Jocić",
     "type": "kompleks",
-    "drzava": "Serbia",
-    "istaknut": true
+    "drzava": "Serbia"
+  },
+  {
+    "id": "valjevo-spomenik-misi-panticu",
+    "koordinate": {
+      "lat": 44.2704439,
+      "lng": 19.8800289
+    },
+    "title": "Valjevo",
+    "info": "https://www.openstreetmap.org/node/1064600350",
+    "naziv": "Spomenik Miši Pantiću",
+    "name": "Monument to Miša Pantić",
+    "type": "spomenik",
+    "drzava": "Serbia"
   },
   {
     "id": "donja-lastva",
@@ -24096,8 +24120,9 @@
     },
     "title": "Valjevo",
     "info": "https://www.openstreetmap.org/node/1064600347",
-    "naziv": "Dragojlo Dudić",
-    "name": "Statue of Dragojlo Dudić",
+    "naziv": "Spomenik narodnom heroju Dragojlu Dudiću",
+    "name": "Monument to People's Hero Dragojlo Dudić",
+    "author": "Vida Jocić",
     "type": "spomenik",
     "drzava": "Serbia"
   },
@@ -24132,13 +24157,16 @@
   {
     "id": "valjevo-spanac",
     "koordinate": {
-      "lat": 44.2690777,
-      "lng": 19.8867259
+      "lat": 44.2692184,
+      "lng": 19.8867201
     },
+    "googleCid": "10823165847091995839",
     "title": "Valjevo",
     "info": "https://www.openstreetmap.org/node/3064874409",
-    "naziv": "Žikica Jovanović Španac",
-    "name": "Statue of Žikica Jovanović Španac",
+    "slika": "slike/spomenici/valjevo-spanac.webp",
+    "slikaAutor": "Mickey Mystique, CC BY-SA 4.0",
+    "naziv": "Spomenik narodnom heroju Žikici Jovanoviću Špancu",
+    "name": "Monument to People's Hero Žikica Jovanović Španac",
     "type": "spomenik",
     "drzava": "Serbia"
   },
@@ -24313,6 +24341,8 @@
     },
     "title": "Krajišnik",
     "info": "https://www.openstreetmap.org/node/6485723771",
+    "slika": "slike/spomenici/krajisnik-rodic.webp",
+    "slikaAutor": "Vanjagenije, CC BY-SA 4.0",
     "naziv": "Slavko Rodić",
     "name": "Bust of Slavko Rodić",
     "type": "bista",
@@ -24591,6 +24621,8 @@
     },
     "title": "Kikinda (Mikronaselje)",
     "info": "https://www.openstreetmap.org/node/10046152002",
+    "slika": "slike/spomenici/kikinda-zrenjanin.webp",
+    "slikaAutor": "Vanjagenije, CC BY-SA 4.0",
     "naziv": "Bista Žarka Zrenjanina",
     "name": "Bust of Žarko Zrenjanin",
     "type": "bista",
@@ -24604,6 +24636,8 @@
     },
     "title": "Beograd (Voždovac)",
     "info": "https://www.openstreetmap.org/node/10047370237",
+    "slika": "slike/spomenici/beograd-maslesa.webp",
+    "slikaAutor": "Vanjagenije, CC BY-SA 4.0",
     "naziv": "Bista Veselina Masleše",
     "name": "Bust of Veselin Masleša",
     "type": "bista",
@@ -24684,6 +24718,8 @@
     },
     "title": "Beograd (Hadžipopovac)",
     "info": "https://www.openstreetmap.org/node/10727700416",
+    "slika": "slike/spomenici/beograd-jovanovic.webp",
+    "slikaAutor": "Vanjagenije, CC BY-SA 4.0",
     "naziv": "Bista Miroslava Jovanovića Mime",
     "name": "Bust of Miroslav Jovanović",
     "type": "bista",
@@ -24697,6 +24733,8 @@
     },
     "title": "Zrenjanin (Mičkej)",
     "info": "https://www.openstreetmap.org/node/10727989539",
+    "slika": "slike/spomenici/zrenjanin-kovacevic.webp",
+    "slikaAutor": "Vanjagenije, CC BY-SA 4.0",
     "naziv": "Spomen-bista Save Kovačevića",
     "name": "Bust of Sava Kovačević",
     "author": "Miloš Vasiljević",
@@ -24737,6 +24775,8 @@
     },
     "title": "Niš",
     "info": "https://www.openstreetmap.org/node/11357251666",
+    "slika": "slike/spomenici/nis-djukic.webp",
+    "slikaAutor": "Никола Ђорђевић, CC BY-SA 4.0",
     "naziv": "Bista Paneta Đukića",
     "name": "Bust of Pane Đukić",
     "type": "bista",
@@ -26676,5 +26716,1122 @@
     "author": "Tone Svetina",
     "type": "spomenik",
     "drzava": "Slovenia"
+  },
+  {
+    "id": "jablanik-spomenik-zivanu-djurdjevicu",
+    "koordinate": {
+      "lat": 44.1512724,
+      "lng": 19.691478
+    },
+    "title": "Jablanik (Debelo brdo)",
+    "info": "https://www.openstreetmap.org/node/5839990657",
+    "slika": "slike/spomenici/jablanik-spomenik-zivanu-djurdjevicu.webp",
+    "slikaAutor": "Vladimir Pecikoza, CC BY-SA 4.0",
+    "naziv": "Spomenik narodnom heroju Živanu Đurđeviću",
+    "name": "Monument to People's Hero Živan Đurđević",
+    "author": "Vida Jocić",
+    "type": "bista",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "skopje-spomenik-na-vera-jocik",
+    "koordinate": {
+      "lat": 42.0016804,
+      "lng": 21.4283664
+    },
+    "title": "Skopje",
+    "info": "https://www.openstreetmap.org/node/4477202789",
+    "naziv": "Споменик на Вера Јоциќ",
+    "name": "Monument to Vera Jocić",
+    "author": "Vida Jocić",
+    "type": "spomenik",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "kamenica-spomenik-zdravku-jovanovicu",
+    "koordinate": {
+      "lat": 44.3435666,
+      "lng": 19.7231879
+    },
+    "title": "Kamenica (Valjevo)",
+    "info": "https://commons.wikimedia.org/wiki/Category:Kamenica_(Valjevo)",
+    "slika": "slike/spomenici/kamenica-spomenik-zdravku-jovanovicu.webp",
+    "slikaAutor": "Vladimir Pecikoza, CC BY-SA 4.0",
+    "naziv": "Spomenik narodnom heroju Zdravku Jovanoviću",
+    "name": "Monument to People's Hero Zdravko Jovanović",
+    "author": "Vida Jocić",
+    "type": "bista",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "bitola-bista-vangel-todorovski",
+    "koordinate": {
+      "lat": 41.020334,
+      "lng": 21.3379977
+    },
+    "title": "Bitola",
+    "info": "https://commons.wikimedia.org/wiki/File%3AVangel_Todorovski_bista.jpg",
+    "slika": "slike/spomenici/bitola-bista-vangel-todorovski.webp",
+    "slikaAutor": "Zdravko, CC BY-SA 4.0",
+    "naziv": "Биста на Вангел Тодоровски",
+    "name": "Bust of Vangel Todorovski",
+    "type": "bista",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "bitola-biste-gradski-park",
+    "koordinate": {
+      "lat": 41.021608,
+      "lng": 21.337151
+    },
+    "title": "Bitola",
+    "info": "https://commons.wikimedia.org/wiki/File%3AFana_Kocovska_-_bista_Gradski_park_Bitola.jpg",
+    "slika": "slike/spomenici/bitola-biste-gradski-park.webp",
+    "slikaAutor": "Zdravko, CC BY-SA 4.0",
+    "naziv": "Бисти на народни херои (Фана Кочовска, Елпида Караманди)",
+    "name": "Busts of People's Heroes (Fana Kocovska, Elpida Karamandi)",
+    "type": "bista",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "bitola-bista-elpida-karamandi",
+    "koordinate": {
+      "lat": 41.031169,
+      "lng": 21.324539
+    },
+    "title": "Bitola",
+    "info": "https://commons.wikimedia.org/wiki/File%3AElpida_Karamandi_-_bista_osnovno_uciliste_Bitola.jpg",
+    "slika": "slike/spomenici/bitola-bista-elpida-karamandi.webp",
+    "slikaAutor": "Zdravko, CC BY-SA 4.0",
+    "naziv": "Биста на Елпида Караманди",
+    "name": "Bust of Elpida Karamandi",
+    "type": "bista",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "bitola-bista-stiv-naumov",
+    "koordinate": {
+      "lat": 41.027588,
+      "lng": 21.326423
+    },
+    "title": "Bitola",
+    "info": "https://commons.wikimedia.org/wiki/File%3AStiv_Naumov_bista_osnovno_uciliste_vo_Bitola.jpg",
+    "slika": "slike/spomenici/bitola-bista-stiv-naumov.webp",
+    "slikaAutor": "Zdravko, CC BY-SA 4.0",
+    "naziv": "Биста на Стив Наумов",
+    "name": "Bust of Stiv Naumov",
+    "type": "bista",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "bitola-bista-estreja-ovadija",
+    "koordinate": {
+      "lat": 41.032509,
+      "lng": 21.3331803
+    },
+    "title": "Bitola",
+    "info": "https://commons.wikimedia.org/wiki/File%3AEstreya_Ovadia_bust_in_Bitola.jpg",
+    "slika": "slike/spomenici/bitola-bista-estreja-ovadija.webp",
+    "slikaAutor": "David.r.1929, CC BY-SA 4.0",
+    "naziv": "Биста на Естреја Овадија",
+    "name": "Bust of Estreya Ovadia",
+    "type": "bista",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "gorno-orizari-bista-elpida-karamandi",
+    "koordinate": {
+      "lat": 41.045216,
+      "lng": 21.348081
+    },
+    "title": "Gorno Orizari",
+    "info": "https://commons.wikimedia.org/wiki/File%3AElpida_Karamandi_-_bista_G._Orizari.jpg",
+    "slika": "slike/spomenici/gorno-orizari-bista-elpida-karamandi.webp",
+    "slikaAutor": "Zdravko, CC BY-SA 4.0",
+    "naziv": "Биста на Елпида Караманди",
+    "name": "Bust of Elpida Karamandi",
+    "type": "bista",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "brusnik-bista-vasko-karangeleski",
+    "koordinate": {
+      "lat": 41.023533,
+      "lng": 21.285378
+    },
+    "title": "Brusnik",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%91%D0%B8%D1%81%D1%82%D0%B0_%D0%BD%D0%B0_%D0%92%D0%B0%D1%81%D0%BA%D0%BE_%D0%9A%D0%B0%D1%80%D0%B0%D0%BD%D0%B3%D0%B5%D0%BB%D0%B5%D1%81%D0%BA%D0%B8_%D0%B2%D0%BE_%D0%91%D1%80%D1%83%D1%81%D0%BD%D0%B8%D0%BA.jpg",
+    "slika": "slike/spomenici/brusnik-bista-vasko-karangeleski.webp",
+    "slikaAutor": "Kiril Simeonovski, CC BY-SA 4.0",
+    "naziv": "Биста на Васко Карангелески",
+    "name": "Bust of Vasko Karangeleski",
+    "type": "bista",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "logovardi-spomenik-nob",
+    "koordinate": {
+      "lat": 41.029264,
+      "lng": 21.411578
+    },
+    "title": "Logovardi",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BD%D0%B0_%D0%9D%D0%9E%D0%91_%D0%B2%D0%BE_%D0%9B%D0%B3%D0%BE%D0%B2%D0%B0%D1%80%D0%B4%D0%B8.jpg",
+    "slika": "slike/spomenici/logovardi-spomenik-nob.webp",
+    "slikaAutor": "Kiril Simeonovski, CC BY-SA 4.0",
+    "naziv": "Споменик на НОБ",
+    "name": "WWII Monument",
+    "type": "spomenik",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "logovardi-bista-stefan-naumov",
+    "koordinate": {
+      "lat": 41.029495,
+      "lng": 21.408316
+    },
+    "title": "Logovardi",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%91%D0%B8%D1%81%D1%82%D0%B0_%D0%BD%D0%B0_%D0%A1%D1%82%D0%B5%D1%84%D0%B0%D0%BD_%D0%9D%D0%B0%D1%83%D0%BC%D0%BE%D0%B2-%D0%A1%D1%82%D0%B8%D0%B2_%D0%B2%D0%BE_%D0%9B%D0%BE%D0%B3%D0%BE%D0%B2%D0%B0%D1%80%D0%B4%D0%B8.jpg",
+    "slika": "slike/spomenici/logovardi-bista-stefan-naumov.webp",
+    "slikaAutor": "Kiril Simeonovski, CC BY-SA 4.0",
+    "naziv": "Биста на Стефан Наумов Стив",
+    "name": "Bust of Stefan Naumov Stiv",
+    "type": "bista",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "resen-spomenik-stiv-naumov",
+    "koordinate": {
+      "lat": 41.10765,
+      "lng": 20.97933
+    },
+    "title": "Bolno",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BD%D0%B0_%D0%A1%D1%82%D0%B8%D1%84_%D0%9D%D0%B0%D1%83%D0%BC%D0%BE%D0%B2.jpg",
+    "slika": "slike/spomenici/resen-spomenik-stiv-naumov.webp",
+    "slikaAutor": "Lan G., CC BY-SA 4.0",
+    "naziv": "Споменик на Стив Наумов",
+    "name": "Monument to Stiv Naumov",
+    "type": "spomenik",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "gevgelija-biste-narodnih-heroja",
+    "koordinate": {
+      "lat": 41.1391389,
+      "lng": 22.5026389
+    },
+    "title": "Gevgelija",
+    "info": "https://commons.wikimedia.org/wiki/File%3AJosifJosifovski.jpg",
+    "slika": "slike/spomenici/gevgelija-biste-narodnih-heroja.webp",
+    "slikaAutor": "44martin88, CC BY-SA 4.0",
+    "naziv": "Бисти на народни херои (Јосиф Јосифовски, Слободан Митров, Ванчо Прке)",
+    "name": "Busts of People's Heroes",
+    "type": "bista",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "josifovo-spomenik-josif-josifovski",
+    "koordinate": {
+      "lat": 41.332542,
+      "lng": 22.477142
+    },
+    "title": "Josifovo",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BD%D0%B0_%D0%88%D0%BE%D1%81%D0%B8%D1%84_%D0%88%D0%BE%D1%81%D0%B8%D1%84%D0%BE%D0%B2%D1%81%D0%BA%D0%B8_-_%D0%A1%D0%B2%D0%B5%D1%88%D1%82%D0%B0%D1%80%D0%BE%D1%82_%D0%B2%D0%BE_%D0%88%D0%BE%D1%81%D0%B8%D1%84%D0%BE%D0%B2%D0%BE.jpg",
+    "slika": "slike/spomenici/josifovo-spomenik-josif-josifovski.webp",
+    "slikaAutor": "Kiril Simeonovski, CC BY-SA 4.0",
+    "naziv": "Споменик на Јосиф Јосифовски Свештарот",
+    "name": "Monument to Josif Josifovski",
+    "type": "spomenik",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "bista-mancu-matak",
+    "koordinate": {
+      "lat": 41.338356,
+      "lng": 21.331189
+    },
+    "title": "Krivogaštani",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%91%D0%B8%D1%81%D1%82%D0%B0_%D0%BD%D0%B0_%D0%9C%D0%B0%D0%BD%D1%87%D1%83_%D0%9C%D0%B0%D1%82%D0%B0%D0%BA.jpg",
+    "slika": "slike/spomenici/bista-mancu-matak.webp",
+    "slikaAutor": "Kiril Simeonovski, CC BY-SA 4.0",
+    "naziv": "Биста на Манчу Матак",
+    "name": "Bust of Manču Matak",
+    "type": "bista",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "prilep-bista-rampo-levkov",
+    "koordinate": {
+      "lat": 41.3433501,
+      "lng": 21.5476573
+    },
+    "title": "Prilep",
+    "info": "https://commons.wikimedia.org/wiki/File%3ABista_Rampo_Levkov%2C_Prilep.JPG",
+    "slika": "slike/spomenici/prilep-bista-rampo-levkov.webp",
+    "slikaAutor": "Flammard, CC BY-SA 3.0",
+    "naziv": "Биста на Рампо Левков",
+    "name": "Bust of Rampo Levkov",
+    "type": "bista",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "prilep-bista-mirce-acev",
+    "koordinate": {
+      "lat": 41.351125,
+      "lng": 21.549935
+    },
+    "title": "Prilep",
+    "info": "https://commons.wikimedia.org/wiki/File%3AMirce_Acev_-_bista_gimnazija_Prilep.jpg",
+    "slika": "slike/spomenici/prilep-bista-mirce-acev.webp",
+    "slikaAutor": "Zdravko, CC BY-SA 4.0",
+    "naziv": "Биста на Мирче Ацев",
+    "name": "Bust of Mirče Acev",
+    "type": "bista",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "kavadarci-biste-narodnih-heroja",
+    "koordinate": {
+      "lat": 41.434174,
+      "lng": 22.014859
+    },
+    "title": "Kavadarci",
+    "info": "https://commons.wikimedia.org/wiki/File%3AStraso_Pindzur%2C_bista_Kavadarci.jpg",
+    "slika": "slike/spomenici/kavadarci-biste-narodnih-heroja.webp",
+    "slikaAutor": "Zdravko, CC BY-SA 4.0",
+    "naziv": "Бисти на народни херои (Страшо Пинџур, Блажо Тодоровски Цицето, Киро Крстев Страшо)",
+    "name": "Busts of People's Heroes",
+    "type": "bista",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "veles-spomenik-dimce-mircev",
+    "koordinate": {
+      "lat": 41.716094,
+      "lng": 21.76874
+    },
+    "title": "Veles",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%94%D0%B8%D0%BC%D1%87%D0%B5_%D0%9C%D0%B8%D1%80%D1%87%D0%B5%D0%B212.jpg",
+    "slika": "slike/spomenici/veles-spomenik-dimce-mircev.webp",
+    "slikaAutor": "Lili Arsova, CC BY 4.0",
+    "naziv": "Споменик на Димче Мирчев",
+    "name": "Monument to Dimče Mirčev",
+    "type": "spomenik",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "veles-bista-blagoj-strackovski",
+    "koordinate": {
+      "lat": 41.7179103,
+      "lng": 21.7741121
+    },
+    "title": "Veles",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%91%D0%B8%D1%81%D1%82%D0%B0_%D0%BD%D0%B0_%D0%91%D0%BB%D0%B0%D0%B3%D0%BE%D1%98_%D0%A1%D1%82%D1%80%D0%B0%D1%87%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B8.JPG",
+    "slika": "slike/spomenici/veles-bista-blagoj-strackovski.webp",
+    "slikaAutor": "Rašo, CC BY-SA 3.0",
+    "naziv": "Биста на Благој Страчковски",
+    "name": "Bust of Blagoj Strackovski",
+    "type": "bista",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "spomenik-cede-filipovski-dame",
+    "koordinate": {
+      "lat": 41.793045,
+      "lng": 20.9090257
+    },
+    "title": "Gostivar",
+    "info": "https://commons.wikimedia.org/wiki/File%3ACede_Filipovski_Dame.JPG",
+    "slika": "slike/spomenici/spomenik-cede-filipovski-dame.webp",
+    "slikaAutor": "Revizionist, Public domain",
+    "naziv": "Споменик на Цеде Филиповски Даме",
+    "name": "Monument to Cede Filipovski Dame",
+    "type": "spomenik",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "skopje-bista-rade-koncar",
+    "koordinate": {
+      "lat": 41.9895,
+      "lng": 21.446944
+    },
+    "title": "Skopje",
+    "info": "https://commons.wikimedia.org/wiki/File%3ARade_Koncar_-_bista_Skopje.jpg",
+    "slika": "slike/spomenici/skopje-bista-rade-koncar.webp",
+    "slikaAutor": "Zdravko, CC BY-SA 4.0",
+    "naziv": "Биста на Раде Кончар",
+    "name": "Bust of Rade Končar",
+    "type": "bista",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "skopje-spomenik-kuzman-josifovski-pitu",
+    "koordinate": {
+      "lat": 41.993959,
+      "lng": 21.4307093
+    },
+    "title": "Skopje",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_-_%D0%9A%D1%83%D0%B7%D0%BC%D0%B0%D0%BD_%D0%88%D0%BE%D1%81%D0%B8%D1%84%D0%BE%D0%B2%D1%81%D0%BA%D0%B8_%D0%9F%D0%B8%D1%82%D1%83.JPG",
+    "slika": "slike/spomenici/skopje-spomenik-kuzman-josifovski-pitu.webp",
+    "slikaAutor": "Tashkoskim, CC BY-SA 3.0",
+    "naziv": "Споменик на Кузман Јосифовски Питу",
+    "name": "Monument to Kuzman Josifovski Pitu",
+    "type": "spomenik",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "skopje-bista-kuzman-josifovski-pitu",
+    "koordinate": {
+      "lat": 41.995528,
+      "lng": 21.422256
+    },
+    "title": "Skopje",
+    "info": "https://commons.wikimedia.org/wiki/File%3AKuzman_Josifovski_Pitu_-_bista_pred_studentskiot_dom_vo_Skopje.jpg",
+    "slika": "slike/spomenici/skopje-bista-kuzman-josifovski-pitu.webp",
+    "slikaAutor": "Zdravko, CC BY-SA 4.0",
+    "naziv": "Биста на Кузман Јосифовски Питу",
+    "name": "Bust of Kuzman Josifovski Pitu",
+    "type": "bista",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "skopje-karpos-spomenik-kuzman-josifovski",
+    "koordinate": {
+      "lat": 41.996263,
+      "lng": 21.3983
+    },
+    "title": "Skopje (Karpoš)",
+    "info": "https://commons.wikimedia.org/wiki/File%3AKuzman_Josifovski_Pitu_-_spomenik_Karpos.jpg",
+    "slika": "slike/spomenici/skopje-karpos-spomenik-kuzman-josifovski.webp",
+    "slikaAutor": "Zdravko, CC BY-SA 4.0",
+    "naziv": "Споменик на Кузман Јосифовски Питу",
+    "name": "Monument to Kuzman Josifovski Pitu",
+    "type": "spomenik",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "skopje-bista-boro-petrusevski",
+    "koordinate": {
+      "lat": 42.002857,
+      "lng": 21.473933
+    },
+    "title": "Skopje",
+    "info": "https://commons.wikimedia.org/wiki/File%3ABoro_Petrusevski_-_bista_Skopje.jpg",
+    "slika": "slike/spomenici/skopje-bista-boro-petrusevski.webp",
+    "slikaAutor": "Zdravko, CC BY-SA 4.0",
+    "naziv": "Биста на Боро Петрушевски",
+    "name": "Bust of Boro Petruševski",
+    "type": "bista",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "skopje-bista-orce-nikolov",
+    "koordinate": {
+      "lat": 42.004825,
+      "lng": 21.421395
+    },
+    "title": "Skopje",
+    "info": "https://commons.wikimedia.org/wiki/File%3AOrce_Nikolov_-_bista_park.jpg",
+    "slika": "slike/spomenici/skopje-bista-orce-nikolov.webp",
+    "slikaAutor": "Zdravko, CC BY-SA 4.0",
+    "naziv": "Биста на Орце Николов",
+    "name": "Bust of Orce Nikolov",
+    "type": "bista",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "spomenik-aleksandar-urdarevski",
+    "koordinate": {
+      "lat": 42.094711,
+      "lng": 21.394152
+    },
+    "title": "Čučer-Sandevo",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BD%D0%B0_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D0%B0%D1%80_%D0%A3%D1%80%D0%B4%D0%B0%D1%80%D0%B5%D0%B2%D1%81%D0%BA%D0%B8.jpg",
+    "slika": "slike/spomenici/spomenik-aleksandar-urdarevski.webp",
+    "slikaAutor": "Ehrlich91, CC BY-SA 4.0",
+    "naziv": "Споменик на Александар Урдаревски",
+    "name": "Monument to Aleksandar Urdarevski",
+    "type": "spomenik",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "kriva-palanka-spomenik-vera-jocik",
+    "koordinate": {
+      "lat": 42.207004,
+      "lng": 22.327292
+    },
+    "title": "Kriva Palanka",
+    "info": "https://commons.wikimedia.org/wiki/File%3AVera_Jocik_-_Kriva_Palanka.jpg",
+    "slika": "slike/spomenici/kriva-palanka-spomenik-vera-jocik.webp",
+    "slikaAutor": "Zdravko, CC BY-SA 4.0",
+    "naziv": "Споменик на Вера Јоциќ",
+    "name": "Monument to Vera Jocić",
+    "type": "spomenik",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "djakovica-bista-mustafa-bakija",
+    "koordinate": {
+      "lat": 42.3773671,
+      "lng": 20.4342482
+    },
+    "title": "Đakovica",
+    "info": "https://commons.wikimedia.org/wiki/File%3AMustafa_Bakija_bust_in_Gjakova.jpg",
+    "slika": "slike/spomenici/djakovica-bista-mustafa-bakija.webp",
+    "slikaAutor": "Arianit, CC BY-SA 4.0",
+    "naziv": "Bista Mustafe Bakije",
+    "name": "Bust of Mustafa Bakija",
+    "type": "bista",
+    "drzava": "Kosovo"
+  },
+  {
+    "id": "herceg-novi-spomenik-nikoli-djurkovicu",
+    "koordinate": {
+      "lat": 42.45329,
+      "lng": 18.532471
+    },
+    "title": "Herceg Novi",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BD%D0%B0%D1%80%D0%BE%D0%B4%D0%BD%D0%BE%D0%BC_%D1%85%D0%B5%D1%80%D0%BE%D1%98%D1%83_%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B8_%D0%82%D1%83%D1%80%D0%BA%D0%BE%D0%B2%D0%B8%D1%9B%D1%83.jpg",
+    "slika": "slike/spomenici/herceg-novi-spomenik-nikoli-djurkovicu.webp",
+    "slikaAutor": "MirkoS18, CC BY-SA 4.0",
+    "naziv": "Spomenik narodnom heroju Nikoli Đurkoviću",
+    "name": "Monument to People's Hero Nikola Đurković",
+    "type": "spomenik",
+    "drzava": "Montenegro"
+  },
+  {
+    "id": "sisava-spomenik-nob",
+    "koordinate": {
+      "lat": 42.984676,
+      "lng": 22.124259
+    },
+    "title": "Šišava",
+    "info": "https://commons.wikimedia.org/wiki/File%3ASpomenik_%C5%A0i%C5%A1ava.jpg",
+    "slika": "slike/spomenici/sisava-spomenik-nob.webp",
+    "slikaAutor": "Vanjagenije, CC BY-SA 4.0",
+    "naziv": "Spomenik NOB",
+    "name": "WWII Monument",
+    "type": "spomenik",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "sisava-bista-mije-milenkovica",
+    "koordinate": {
+      "lat": 42.991067,
+      "lng": 22.127265
+    },
+    "title": "Šišava",
+    "info": "https://commons.wikimedia.org/wiki/File%3ABista_Mija_Milenkovi%C4%87_%C5%A0i%C5%A1ava.jpg",
+    "slika": "slike/spomenici/sisava-bista-mije-milenkovica.webp",
+    "slikaAutor": "Vanjagenije, CC BY-SA 4.0",
+    "naziv": "Bista Mije Milenkovića",
+    "name": "Bust of Mija Milenković",
+    "type": "bista",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "leskovac-bista-milice-pavlovic",
+    "koordinate": {
+      "lat": 42.99842,
+      "lng": 21.958302
+    },
+    "title": "Leskovac",
+    "info": "https://commons.wikimedia.org/wiki/File%3AMilica_Pavlovi%C4%87_bista_Leskovac.jpg",
+    "slika": "slike/spomenici/leskovac-bista-milice-pavlovic.webp",
+    "slikaAutor": "Vanjagenije, CC BY-SA 4.0",
+    "naziv": "Bista Milice Pavlović",
+    "name": "Bust of Milica Pavlović",
+    "type": "bista",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "leskovac-bista-trajka-stamenkovica",
+    "koordinate": {
+      "lat": 42.999377,
+      "lng": 21.927577
+    },
+    "title": "Leskovac",
+    "info": "https://commons.wikimedia.org/wiki/File%3ABista_Trajka_Stamenkovi%C4%87a_Leskovac.jpg",
+    "slika": "slike/spomenici/leskovac-bista-trajka-stamenkovica.webp",
+    "slikaAutor": "Vanjagenije, CC BY-SA 4.0",
+    "naziv": "Bista Trajka Stamenkovića",
+    "name": "Bust of Trajko Stamenković",
+    "type": "bista",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "nevesinje-biste-narodnih-heroja",
+    "koordinate": {
+      "lat": 43.2565,
+      "lng": 18.115778
+    },
+    "title": "Nevesinje",
+    "info": "https://commons.wikimedia.org/wiki/File%3ANevesinje_Busts01.jpg",
+    "slika": "slike/spomenici/nevesinje-biste-narodnih-heroja.webp",
+    "slikaAutor": "Knoken, CC BY-SA 4.0",
+    "naziv": "Biste narodnih heroja",
+    "name": "Busts of People's Heroes",
+    "type": "bista",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "jabuka-bista-boska-buhe",
+    "koordinate": {
+      "lat": 43.34565,
+      "lng": 19.517108
+    },
+    "title": "Jabuka (Prijepolje)",
+    "info": "https://commons.wikimedia.org/wiki/File%3ABista_Bo%C5%A1ka_Buhe_Jabuka.JPG",
+    "slika": "slike/spomenici/jabuka-bista-boska-buhe.webp",
+    "slikaAutor": "Pinki, CC BY-SA 3.0",
+    "naziv": "Bista Boška Buhe",
+    "name": "Bust of Boško Buha",
+    "type": "bista",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "recice-spomenik-petru-lekovicu",
+    "koordinate": {
+      "lat": 43.78287,
+      "lng": 20.028704
+    },
+    "title": "Rečice (Požega)",
+    "info": "https://commons.wikimedia.org/wiki/File%3ASpomenik_narodnom_heroju_Petru_Lekovi%C4%87u_u_Re%C4%8Dicama_01.jpg",
+    "slika": "slike/spomenici/recice-spomenik-petru-lekovicu.webp",
+    "slikaAutor": "BrankaVV, CC BY-SA 4.0",
+    "naziv": "Spomenik narodnom heroju Petru Lekoviću",
+    "name": "Monument to People's Hero Petar Leković",
+    "type": "spomenik",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "paracin-spomenik-branku-krsmanovicu",
+    "koordinate": {
+      "lat": 43.8625283,
+      "lng": 21.4087229
+    },
+    "title": "Paraćin",
+    "info": "https://commons.wikimedia.org/wiki/File%3ASpomenik_Branku_Krsamnovi%C4%87u_u_Para%C4%87inu.jpg",
+    "slika": "slike/spomenici/paracin-spomenik-branku-krsmanovicu.webp",
+    "slikaAutor": "Pinki at sr.wikipedia, Public domain",
+    "naziv": "Spomenik Branku Krsmanoviću",
+    "name": "Monument to Branko Krsmanović",
+    "type": "spomenik",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "cacak-memorijalni-kompleks-ljubic",
+    "koordinate": {
+      "lat": 43.915701,
+      "lng": 20.372566
+    },
+    "title": "Čačak (Ljubić)",
+    "info": "https://commons.wikimedia.org/wiki/File%3AMemorijalni_kompleks_Ljubic_kraj_Cacka_%282%29.jpg",
+    "slika": "slike/spomenici/cacak-memorijalni-kompleks-ljubic.webp",
+    "slikaAutor": "BrankaVV, CC BY-SA 4.0",
+    "naziv": "Memorijalni kompleks Ljubić",
+    "name": "Ljubić Memorial Complex",
+    "type": "kompleks",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "beograd-bista-sretena-mladenovica",
+    "koordinate": {
+      "lat": 44.754596,
+      "lng": 20.448722
+    },
+    "title": "Beograd",
+    "info": "https://commons.wikimedia.org/wiki/File%3ABeograd_Bust_Sreten_Mladenovi%C4%87.jpg",
+    "slika": "slike/spomenici/beograd-bista-sretena-mladenovica.webp",
+    "slikaAutor": "Knoken, CC BY-SA 4.0",
+    "naziv": "Bista Sretena Mladenovića",
+    "name": "Bust of Sreten Mladenović",
+    "type": "bista",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "beograd-spomenik-marijani-gregoran",
+    "koordinate": {
+      "lat": 44.808573,
+      "lng": 20.522142
+    },
+    "title": "Beograd",
+    "info": "https://commons.wikimedia.org/wiki/File%3ASpomenik_Marijani_Gregran_%282%29.jpg",
+    "slika": "slike/spomenici/beograd-spomenik-marijani-gregoran.webp",
+    "slikaAutor": "Lotom, CC BY-SA 4.0",
+    "naziv": "Spomenik Marijani Gregoran",
+    "name": "Monument to Marijana Gregoran",
+    "type": "spomenik",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "beograd-bista-stevana-dukica",
+    "koordinate": {
+      "lat": 44.810896,
+      "lng": 20.514735
+    },
+    "title": "Beograd",
+    "info": "https://commons.wikimedia.org/wiki/File%3ABista_Stevan_Duki%C4%87_Beograd.jpg",
+    "slika": "slike/spomenici/beograd-bista-stevana-dukica.webp",
+    "slikaAutor": "Vanjagenije, CC BY-SA 4.0",
+    "naziv": "Bista Stevana Dukića",
+    "name": "Bust of Stevan Dukić",
+    "type": "bista",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "beograd-bista-zage-malivuk",
+    "koordinate": {
+      "lat": 44.846378,
+      "lng": 20.497002
+    },
+    "title": "Beograd",
+    "info": "https://commons.wikimedia.org/wiki/File%3ABista_Zaga_Malivuk_01.jpg",
+    "slika": "slike/spomenici/beograd-bista-zage-malivuk.webp",
+    "slikaAutor": "Vanjagenije, CC BY-SA 4.0",
+    "naziv": "Bista Zage Malivuk",
+    "name": "Bust of Zaga Malivuk",
+    "type": "bista",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "spomenik-olgi-petrov",
+    "koordinate": {
+      "lat": 44.945732,
+      "lng": 20.426398
+    },
+    "title": "Padinska Skela",
+    "info": "https://commons.wikimedia.org/wiki/File%3ASpomenik_Olga_Petrov_01.jpg",
+    "slika": "slike/spomenici/spomenik-olgi-petrov.webp",
+    "slikaAutor": "Vanjagenije, CC BY-SA 4.0",
+    "naziv": "Spomenik Olgi Petrov",
+    "name": "Monument to Olga Petrov",
+    "type": "spomenik",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "baranda-bista-olge-petrov",
+    "koordinate": {
+      "lat": 45.084453,
+      "lng": 20.44285
+    },
+    "title": "Baranda",
+    "info": "https://commons.wikimedia.org/wiki/File%3ABista_Olga_Petrov_Baranda_01.jpg",
+    "slika": "slike/spomenici/baranda-bista-olge-petrov.webp",
+    "slikaAutor": "Vanjagenije, CC BY-SA 4.0",
+    "naziv": "Bista Olge Petrov",
+    "name": "Bust of Olga Petrov",
+    "type": "bista",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "ruma-spomenik-nob",
+    "koordinate": {
+      "lat": 44.98957,
+      "lng": 19.826324
+    },
+    "title": "Ruma",
+    "info": "https://commons.wikimedia.org/wiki/File%3ARuma_SpomenikNOB02.jpg",
+    "slika": "slike/spomenici/ruma-spomenik-nob.webp",
+    "slikaAutor": "Knoken, CC BY-SA 4.0",
+    "naziv": "Spomenik NOB",
+    "name": "WWII Monument",
+    "type": "spomenik",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "opovo-spomenik-radovanu-cosicu",
+    "koordinate": {
+      "lat": 45.051526,
+      "lng": 20.423185
+    },
+    "title": "Opovo",
+    "info": "https://commons.wikimedia.org/wiki/File%3ASpomenik_Radovan_%C4%86osi%C4%87_Bata.jpg",
+    "slika": "slike/spomenici/opovo-spomenik-radovanu-cosicu.webp",
+    "slikaAutor": "Vanjagenije, CC BY-SA 4.0",
+    "naziv": "Spomenik Radovanu Ćosiću Bati",
+    "name": "Monument to Radovan Ćosić Bata",
+    "type": "spomenik",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "sid-spomenik-miladinu-zoricu",
+    "koordinate": {
+      "lat": 45.089144,
+      "lng": 19.054421
+    },
+    "title": "Šid",
+    "info": "https://commons.wikimedia.org/wiki/File%3AMiladin_Zori%C4%87-Gara%C4%8Da_Memorial_at_the_Train_Station_%C5%A0id.jpg",
+    "slika": "slike/spomenici/sid-spomenik-miladinu-zoricu.webp",
+    "slikaAutor": "MirkoS18, CC BY-SA 4.0",
+    "naziv": "Spomen-ploča Miladinu Zoriću Garači",
+    "name": "Memorial Plaque to Miladin Zorić Garača",
+    "type": "ploca",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "padina-bista-josipa-broza-tita",
+    "koordinate": {
+      "lat": 45.11848,
+      "lng": 20.72778
+    },
+    "title": "Padina",
+    "info": "https://commons.wikimedia.org/wiki/File%3ABista_Josipa_Broza_Tita_u_Padini_1.jpg",
+    "slika": "slike/spomenici/padina-bista-josipa-broza-tita.webp",
+    "slikaAutor": "Mickey Mystique, CC BY-SA 4.0",
+    "naziv": "Bista Josipa Broza Tita",
+    "name": "Bust of Josip Broz Tito",
+    "type": "bista",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "samos-bista-lukrecije-ankucic",
+    "koordinate": {
+      "lat": 45.202514,
+      "lng": 20.771697
+    },
+    "title": "Samoš",
+    "info": "https://commons.wikimedia.org/wiki/File%3ABista_Lukrecije_Ankuci%C4%87_Samo%C5%A1.jpg",
+    "slika": "slike/spomenici/samos-bista-lukrecije-ankucic.webp",
+    "slikaAutor": "Никола Ђорђевић, CC BY-SA 4.0",
+    "naziv": "Bista Lukrecije Ankucić",
+    "name": "Bust of Lukrecija Ankucić",
+    "type": "bista",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "beocin-bista-stevana-petrovica-brileta",
+    "koordinate": {
+      "lat": 45.2062889,
+      "lng": 19.7200139
+    },
+    "title": "Beočin",
+    "info": "https://commons.wikimedia.org/wiki/File%3ABista_Stevana_Petrovi%C4%87a_Brileta.JPG",
+    "slika": "slike/spomenici/beocin-bista-stevana-petrovica-brileta.webp",
+    "slikaAutor": "Micki, CC BY-SA 3.0",
+    "naziv": "Bista Stevana Petrovića Brileta",
+    "name": "Bust of Stevan Petrović Brile",
+    "type": "bista",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "beocin-bista-stanka-paunovica-veljka",
+    "koordinate": {
+      "lat": 45.2095889,
+      "lng": 19.7219222
+    },
+    "title": "Beočin",
+    "info": "https://commons.wikimedia.org/wiki/File%3ABista_Stanka_Paunovi%C4%87a_Veljka.JPG",
+    "slika": "slike/spomenici/beocin-bista-stanka-paunovica-veljka.webp",
+    "slikaAutor": "Micki, CC BY-SA 3.0",
+    "naziv": "Bista Stanka Paunovića Veljka",
+    "name": "Bust of Stanko Paunović Veljko",
+    "type": "bista",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "stajicevo-bista-toze-markovica",
+    "koordinate": {
+      "lat": 45.294786,
+      "lng": 20.456507
+    },
+    "title": "Stajićevo",
+    "info": "https://commons.wikimedia.org/wiki/File%3ABista_Toza_Markovi%C4%87_Staji%C4%87evo.jpg",
+    "slika": "slike/spomenici/stajicevo-bista-toze-markovica.webp",
+    "slikaAutor": "Vanjagenije, CC BY-SA 4.0",
+    "naziv": "Bista Toze Markovića",
+    "name": "Bust of Toza Marković",
+    "type": "bista",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "lukicevo-spomenik-nob",
+    "koordinate": {
+      "lat": 45.337201,
+      "lng": 20.497041
+    },
+    "title": "Lukićevo",
+    "info": "https://commons.wikimedia.org/wiki/File%3ASpomenik_Luki%C4%87evo_01.jpg",
+    "slika": "slike/spomenici/lukicevo-spomenik-nob.webp",
+    "slikaAutor": "Vanjagenije, CC BY-SA 4.0",
+    "naziv": "Spomenik NOB",
+    "name": "WWII Monument",
+    "type": "spomenik",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "muzlja-bista-servo-mihalja",
+    "koordinate": {
+      "lat": 45.342295,
+      "lng": 20.409922
+    },
+    "title": "Mužlja",
+    "info": "https://commons.wikimedia.org/wiki/File%3ASzervo_Mihaly_bust_Mu%C5%BElja.jpg",
+    "slika": "slike/spomenici/muzlja-bista-servo-mihalja.webp",
+    "slikaAutor": "Vanjagenije, CC BY-SA 4.0",
+    "naziv": "Bista Servo Mihalja",
+    "name": "Bust of Servo Mihalj",
+    "type": "bista",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "banatski-despotovac-bista-dusana-cubica",
+    "koordinate": {
+      "lat": 45.36492,
+      "lng": 20.661617
+    },
+    "title": "Banatski Despotovac",
+    "info": "https://commons.wikimedia.org/wiki/File%3ABista_Du%C5%A1an_%C4%86ubi%C4%87_Banatski_Despotovac.jpg",
+    "slika": "slike/spomenici/banatski-despotovac-bista-dusana-cubica.webp",
+    "slikaAutor": "Vanjagenije, CC BY-SA 4.0",
+    "naziv": "Bista Dušana Ćubića",
+    "name": "Bust of Dušan Ćubić",
+    "type": "bista",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "secanj-biste-narodnih-heroja",
+    "koordinate": {
+      "lat": 45.366794,
+      "lng": 20.772875
+    },
+    "title": "Sečanj",
+    "info": "https://commons.wikimedia.org/wiki/File%3ABiste_Park_Se%C4%8Danj.jpg",
+    "slika": "slike/spomenici/secanj-biste-narodnih-heroja.webp",
+    "slikaAutor": "Vanjagenije, CC BY-SA 4.0",
+    "naziv": "Biste narodnih heroja",
+    "name": "Busts of People's Heroes",
+    "type": "bista",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "backi-jarak-spomenik-slavku-rodicu",
+    "koordinate": {
+      "lat": 45.371792,
+      "lng": 19.873997
+    },
+    "title": "Bački Jarak",
+    "info": "https://commons.wikimedia.org/wiki/File%3ASlavko_Rodi%C4%87_Ba%C4%8Dki_Jarak.jpg",
+    "slika": "slike/spomenici/backi-jarak-spomenik-slavku-rodicu.webp",
+    "slikaAutor": "Vanjagenije, CC BY-SA 4.0",
+    "naziv": "Spomenik Slavku Rodiću",
+    "name": "Monument to Slavko Rodić",
+    "type": "spomenik",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "sutjeska-spomenik-mileti-okiljevicu",
+    "koordinate": {
+      "lat": 45.380052,
+      "lng": 20.697671
+    },
+    "title": "Sutjeska",
+    "info": "https://commons.wikimedia.org/wiki/File%3ASpomenik_Mileta_Okiljevi%C4%87_Sutjeska.jpg",
+    "slika": "slike/spomenici/sutjeska-spomenik-mileti-okiljevicu.webp",
+    "slikaAutor": "Vanjagenije, CC BY-SA 4.0",
+    "naziv": "Spomenik Mileti Okiljeviću",
+    "name": "Monument to Mileta Okiljević",
+    "type": "spomenik",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "sutjeska-bista-milete-okiljevica",
+    "koordinate": {
+      "lat": 45.384878,
+      "lng": 20.697762
+    },
+    "title": "Sutjeska",
+    "info": "https://commons.wikimedia.org/wiki/File%3ABista_Mileta_Okiljevi%C4%87_Sutjeska.jpg",
+    "slika": "slike/spomenici/sutjeska-bista-milete-okiljevica.webp",
+    "slikaAutor": "Vanjagenije, CC BY-SA 4.0",
+    "naziv": "Bista Milete Okiljevića",
+    "name": "Bust of Mileta Okiljević",
+    "type": "bista",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "temerin-bista-veljka-vlahovica",
+    "koordinate": {
+      "lat": 45.408816,
+      "lng": 19.892831
+    },
+    "title": "Temerin",
+    "info": "https://commons.wikimedia.org/wiki/File%3AVeljko_Vlahovi%C4%87_bista_Temerin.jpg",
+    "slika": "slike/spomenici/temerin-bista-veljka-vlahovica.webp",
+    "slikaAutor": "Vanjagenije, CC BY-SA 4.0",
+    "naziv": "Bista Veljka Vlahovića",
+    "name": "Bust of Veljko Vlahović",
+    "type": "bista",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "turija-spomenik-petru-drapsinu",
+    "koordinate": {
+      "lat": 45.537957,
+      "lng": 19.856446
+    },
+    "title": "Turija",
+    "info": "https://commons.wikimedia.org/wiki/File%3APetar_Drap%C5%A1in_spomenik_Turija.jpg",
+    "slika": "slike/spomenici/turija-spomenik-petru-drapsinu.webp",
+    "slikaAutor": "Vanjagenije, CC BY-SA 4.0",
+    "naziv": "Spomenik Petru Drapšinu",
+    "name": "Monument to Petar Drapšin",
+    "type": "spomenik",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "cestereg-bista-trive-latinovica",
+    "koordinate": {
+      "lat": 45.562444,
+      "lng": 20.531083
+    },
+    "title": "Čestereg",
+    "info": "https://commons.wikimedia.org/wiki/File%3ATrivo_Latinovi%C4%87_bust_%C4%8Cestereg_2.jpg",
+    "slika": "slike/spomenici/cestereg-bista-trive-latinovica.webp",
+    "slikaAutor": "Vanjagenije, CC BY-SA 4.0",
+    "naziv": "Bista Trive Latinovića",
+    "name": "Bust of Trivo Latinović",
+    "type": "bista",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "cestereg-bista-mladena-stojanovica",
+    "koordinate": {
+      "lat": 45.563194,
+      "lng": 20.531889
+    },
+    "title": "Čestereg",
+    "info": "https://commons.wikimedia.org/wiki/File%3AMladen_Stojanovi%C4%87_bista_%C4%8Cestereg.jpg",
+    "slika": "slike/spomenici/cestereg-bista-mladena-stojanovica.webp",
+    "slikaAutor": "Vanjagenije, CC BY-SA 4.0",
+    "naziv": "Bista Mladena Stojanovića",
+    "name": "Bust of Mladen Stojanović",
+    "type": "bista",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "aleksandrovo-spomen-cesma",
+    "koordinate": {
+      "lat": 45.61613,
+      "lng": 20.628676
+    },
+    "title": "Aleksandrovo",
+    "info": "https://commons.wikimedia.org/wiki/File%3AAleksandrovo_spomen_%C4%8Desma_01.jpg",
+    "slika": "slike/spomenici/aleksandrovo-spomen-cesma.webp",
+    "slikaAutor": "Vanjagenije, CC BY-SA 4.0",
+    "naziv": "Spomen-česma",
+    "name": "Memorial Fountain",
+    "type": "spomenik",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "akaca-spomenik",
+    "koordinate": {
+      "lat": 45.730143,
+      "lng": 20.262884
+    },
+    "title": "Akača",
+    "info": "https://commons.wikimedia.org/wiki/File%3ASpomenik_na_Aka%C4%8Di.jpg",
+    "slika": "slike/spomenici/akaca-spomenik.webp",
+    "slikaAutor": "Vanjagenije, CC BY-SA 4.0",
+    "naziv": "Spomenik na Akači",
+    "name": "Monument at Akača",
+    "type": "spomenik",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "kikinda-bista-toze-markovica",
+    "koordinate": {
+      "lat": 45.810004,
+      "lng": 20.44674
+    },
+    "title": "Kikinda",
+    "info": "https://commons.wikimedia.org/wiki/File%3ABust_of_Toza_Markovi%C4%87_in_Kikinda.jpg",
+    "slika": "slike/spomenici/kikinda-bista-toze-markovica.webp",
+    "slikaAutor": "Vanjagenije, CC BY-SA 4.0",
+    "naziv": "Bista Toze Markovića",
+    "name": "Bust of Toza Marković",
+    "type": "bista",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "kikinda-bista-lidije-aldan",
+    "koordinate": {
+      "lat": 45.826516,
+      "lng": 20.47345
+    },
+    "title": "Kikinda",
+    "info": "https://commons.wikimedia.org/wiki/File%3ABista_Lidija_Aldan_Kikinda.jpg",
+    "slika": "slike/spomenici/kikinda-bista-lidije-aldan.webp",
+    "slikaAutor": "Vanjagenije, CC BY-SA 4.0",
+    "naziv": "Bista Lidije Aldan",
+    "name": "Bust of Lidija Aldan",
+    "type": "bista",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "kikinda-bista-mose-pijade",
+    "koordinate": {
+      "lat": 45.826564,
+      "lng": 20.459382
+    },
+    "title": "Kikinda",
+    "info": "https://commons.wikimedia.org/wiki/File%3AMo%C5%A1a_Pijade_bust_Kikinda.jpg",
+    "slika": "slike/spomenici/kikinda-bista-mose-pijade.webp",
+    "slikaAutor": "Vanjagenije, CC BY-SA 4.0",
+    "naziv": "Bista Moše Pijade",
+    "name": "Bust of Moša Pijade",
+    "type": "bista",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "kikinda-spomenik-xiii-vojvodjanskoj-brigadi",
+    "koordinate": {
+      "lat": 45.828833,
+      "lng": 20.463784
+    },
+    "title": "Kikinda",
+    "info": "https://commons.wikimedia.org/wiki/File%3ASpomenik_XIII_vojvo%C4%91anskoj_brigadi_01.jpg",
+    "slika": "slike/spomenici/kikinda-spomenik-xiii-vojvodjanskoj-brigadi.webp",
+    "slikaAutor": "Vanjagenije, CC BY-SA 4.0",
+    "naziv": "Spomenik XIII vojvođanskoj brigadi",
+    "name": "Monument to the 13th Vojvodina Brigade",
+    "type": "spomenik",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "nemenikuce-spomen-ploca-ustanku",
+    "koordinate": {
+      "lat": 44.4696445,
+      "lng": 20.5749846
+    },
+    "googleCid": "1435404183766699205",
+    "title": "Kosmaj",
+    "naziv": "Spomen-ploča ustanku",
+    "type": "ploca",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "aleksinac-spomen-park-nob",
+    "koordinate": {
+      "lat": 43.5349272,
+      "lng": 21.711315
+    },
+    "googleCid": "7419400227247181263",
+    "title": "Aleksinac",
+    "naziv": "Spomen-park NOB",
+    "type": "kompleks",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "likodra-spomenik-rodoljubima",
+    "koordinate": {
+      "lat": 44.4206486,
+      "lng": 19.4501983
+    },
+    "googleCid": "11249070372860335579",
+    "title": "Likodra",
+    "naziv": "Spomenik rodoljubima",
+    "type": "lokalni",
+    "drzava": "Serbia"
   }
 ]

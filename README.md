@@ -14,4 +14,5 @@ live-server
 
 ## TODO
 
+- napravi da nam pretraga radi i ćirilicom i latinicom za sh
 - pogledaj još jednom sve ikonice u legendi sa dizajnerske strane i predloži poboljšanja ako treba
