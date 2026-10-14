@@ -64,11 +64,10 @@ style.textContent = `
     }
   }
 
+  /* dugme za zatvaranje stoji u uglu, da svojom visinom ne odmakne tekst od naslova */
   header {
-    align-items: flex-start;
-    display: flex;
-    justify-content: space-between;
-    padding: 12px 0 0 16px;
+    padding: 12px 44px 0 16px;
+    position: relative;
   }
 
   h2 {
@@ -85,15 +84,19 @@ style.textContent = `
     font-size: 28px;
     height: 44px;
     line-height: 1;
+    position: absolute;
+    right: 0;
+    top: 4px;
     width: 44px;
   }
 
   .sadrzaj {
+    container-type: inline-size;
     padding: 0 16px 16px;
   }
 
   .sadrzaj > p {
-    margin: 8px 0;
+    margin: 6px 0;
   }
 
   .sadrzaj > p:last-child {
@@ -117,9 +120,10 @@ style.textContent = `
     color: #fff;
   }
 
-  .podaci {
+  .sadrzaj > .podaci {
     color: #666;
     font-size: 14px;
+    margin-top: 2px;
   }
 
   a {
@@ -133,14 +137,17 @@ style.textContent = `
     white-space: nowrap;
   }
 
-  /* okvir stalne visine, da prozor ne skoci kad se slika ucita; cela slika staje bez secenja */
+  /* okvir unapred ima oblik slike (slikaOdnos), da prozor ne skoci kad se slika ucita;
+     uspravna slika nije visa od 4:3, da ne odgura dugmad ispod nje */
   .slika {
     aspect-ratio: 4 / 3;
+    max-height: 75cqw;
     background: #ece9e1;
     border-radius: 8px 8px 0 0;
     margin: 12px 0 0;
     overflow: hidden;
     position: relative;
+    width: 100%;
   }
 
   img {
@@ -175,11 +182,11 @@ style.textContent = `
     border-radius: 0 0 9px 9px;
   }
 
-  .akcije {
+  .sadrzaj > .akcije {
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
-    margin: 12px 0 0;
+    margin: 14px 0 0;
   }
 
   .akcije a,
@@ -308,8 +315,8 @@ export default class Detalji extends HTMLElement {
     const spomen = marker.spomen
     const podaci = [this.praviAutore(spomen), escapeHtml(spomen.year || '')].filter(Boolean).join(' · ')
 
-    // jedan link za vise: clanak na Wikipediji, a bez njega drugi izvor
-    const vise = spomen.wiki || spomen.info
+    // jedan link za vise: clanak na Wikipediji na jeziku aplikacije, pa na drugom, a bez njih drugi izvor
+    const vise = (jezik === 'en' ? spomen.wikiEn || spomen.wiki : spomen.wiki || spomen.wikiEn) || spomen.info
 
     // naslov je naziv spomenika, a mesto stoji ispod; name namerno sadrzi HTML linkove, pa se ne escape-uje
     const naziv = jezik === 'en' && spomen.name ? spomen.name : spomen.naziv ? escapeHtml(spomen.naziv) : spomen.name || ''
@@ -332,7 +339,7 @@ export default class Detalji extends HTMLElement {
           <button id="ruta">${t('ruta')}</button>
         </p>
         ${spomen.slika ? `
-          <figure class="slika">
+          <figure class="slika" ${spomen.slikaOdnos ? `style="aspect-ratio: ${spomen.slikaOdnos}"` : ''}>
             <img src="${escapeHtml(spomen.slika)}" alt="" onerror="this.parentNode.remove()">
             ${spomen.slikaAutor ? `<figcaption>${t('foto')}: ${escapeHtml(spomen.slikaAutor)}</figcaption>` : ''}
           </figure>
@@ -369,10 +376,13 @@ export default class Detalji extends HTMLElement {
   }
 
   praviAutore(spomen) {
-    return autoriSpomenika(spomen).map(ime => this.autori[ime]
+    const autori = autoriSpomenika(spomen)
+    if (!autori.length) return ''
+    const imena = autori.map(ime => this.autori[ime]
       ? `<a href="${escapeHtml(this.autori[ime])}" target="_blank">${escapeHtml(ime)}</a>`
       : escapeHtml(ime)
     ).join(' & ')
+    return `${t(autori.length > 1 ? 'autori' : 'grupaAutor')}: ${imena}`
   }
 
   sakrij() {

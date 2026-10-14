@@ -61,6 +61,7 @@ const tekstovi = {
   neposecen: {sh: 'Još neposećeno', en: 'Not visited yet'},
   grupaDrzava: {sh: 'Država', en: 'Country'},
   grupaAutor: {sh: 'Autor', en: 'Artist'},
+  autori: {sh: 'Autori', en: 'Artists'},
   sviAutori: {sh: 'Svi autori', en: 'All artists'},
   traziAutora: {sh: 'Traži autora', en: 'Find an artist'},
   nemaAutora: {sh: 'Nema takvog autora', en: 'No such artist'},
