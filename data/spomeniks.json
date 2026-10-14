@@ -3343,13 +3343,14 @@
     },
     "googleCid": "9686730666626509891",
     "title": "Kumanovo",
+    "info": "http://www.spomenikdatabase.org/kumanovo",
     "slika": "slike/spomenici/kumanovo-revolution.webp",
     "slikaOdnos": 1.023,
     "naziv": "Споменик на Револуцијата",
     "name": "Monument to the Revolution",
     "year": "1962",
     "author": "Kosta Angeli Radovani",
-    "type": "spomenik",
+    "type": "istaknut",
     "drzava": "Macedonia"
   },
   {
@@ -54082,5 +54083,5378 @@
     "name": "Memorial House of the Dame Gruev Partisan Detachment",
     "type": "muzej",
     "drzava": "Macedonia"
+  },
+  {
+    "id": "bihac-partizansko-obiljezje",
+    "koordinate": {
+      "lat": 44.8139728,
+      "lng": 15.8707595
+    },
+    "title": "Bihać",
+    "info": "https://www.openstreetmap.org/node/3618183931",
+    "naziv": "Partizansko Obiljezje",
+    "type": "lokalni",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "blagaj-rijeka-partizanski-spomenik-nob",
+    "koordinate": {
+      "lat": 45.0375183,
+      "lng": 16.4687041
+    },
+    "title": "Blagaj Rijeka",
+    "info": "https://www.openstreetmap.org/node/6784271662",
+    "naziv": "Partizanski spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "bojmunte-bikusa-spomen-obelisk-u-znak-sjecanja-na",
+    "koordinate": {
+      "lat": 43.9730509,
+      "lng": 16.76053
+    },
+    "title": "Bojmunte",
+    "info": "https://www.openstreetmap.org/node/10822266406",
+    "naziv": "Bikuša-Spomen obelisk u znak sjećanja na žrtve ustaškog terora",
+    "type": "lokalni",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "brod-partizanski-spomenik",
+    "koordinate": {
+      "lat": 44.8603742,
+      "lng": 18.7649458
+    },
+    "title": "Brod",
+    "info": "https://www.openstreetmap.org/node/1684683204",
+    "naziv": "Partizanski spomenik",
+    "type": "lokalni",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "doboj-bulevar-spomenik-heroju-spomenku-gosticu",
+    "koordinate": {
+      "lat": 44.7268102,
+      "lng": 18.0840507
+    },
+    "title": "Doboj (Bulevar)",
+    "info": "https://www.openstreetmap.org/node/9604012836",
+    "naziv": "Spomenik heroju Spomenku Gostiću",
+    "type": "lokalni",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "dovlici-narodnom-heroju-vasi-miskinu-crnom",
+    "koordinate": {
+      "lat": 43.8197268,
+      "lng": 18.460825
+    },
+    "title": "Dovlići",
+    "info": "https://www.openstreetmap.org/node/13245644198",
+    "naziv": "Narodnom heroju Vasi Miskinu-Crnom",
+    "type": "ploca",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "dragnjic-spomenik-nob",
+    "koordinate": {
+      "lat": 43.9182327,
+      "lng": 17.0840297
+    },
+    "title": "Dragnjić",
+    "info": "https://www.openstreetmap.org/node/10848252858",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "drakulic-streljana",
+    "koordinate": {
+      "lat": 44.8000829,
+      "lng": 17.18274
+    },
+    "title": "Drakulić",
+    "info": "https://www.openstreetmap.org/node/1643641099",
+    "naziv": "Streljana",
+    "type": "lokalni",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "glamoc-kozomare-spomenik-zrtvama-fasistickog-teror",
+    "koordinate": {
+      "lat": 44.1517369,
+      "lng": 16.7773791
+    },
+    "title": "Glamoč (Kozomare)",
+    "info": "https://www.openstreetmap.org/node/9703268671",
+    "naziv": "Spomenik žrtvama fašističkog terora",
+    "type": "lokalni",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "glamoc-luke-spomenik-na-mjestu-stratista-oko-300-z",
+    "koordinate": {
+      "lat": 44.0389592,
+      "lng": 16.8544173
+    },
+    "title": "Glamoč (Luke)",
+    "info": "https://www.openstreetmap.org/node/10606969781",
+    "naziv": "Spomenik na mjestu stratišta oko 300 žrtava ustaškog terora u kolovozu 1941",
+    "type": "lokalni",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "gustovara-spomenik-nob-saracevac",
+    "koordinate": {
+      "lat": 44.4450677,
+      "lng": 17.1089883
+    },
+    "title": "Gustovara",
+    "info": "https://www.openstreetmap.org/node/7760603927",
+    "naziv": "Spomenik NOB-Saračevac",
+    "type": "lokalni",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "jagare-spomen-obiljezja-zrtvama-fasistickog-terora",
+    "koordinate": {
+      "lat": 44.7112242,
+      "lng": 17.2149365
+    },
+    "title": "Jagare",
+    "info": "https://www.openstreetmap.org/node/3621408004",
+    "naziv": "Spomen obilježja žrtvama fašističkog terora",
+    "type": "lokalni",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "kamen-spomenik-palim-borcima-i-zrtvama-fasistickog",
+    "koordinate": {
+      "lat": 44.026923,
+      "lng": 16.8866353
+    },
+    "title": "Kamen",
+    "info": "https://www.openstreetmap.org/node/10606791867",
+    "naziv": "Spomenik Palim Borcima i Žrtvama Fašističkog Terora",
+    "type": "lokalni",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "korenita-spomenik-borcima-nor-a",
+    "koordinate": {
+      "lat": 44.7543534,
+      "lng": 18.9631018
+    },
+    "title": "Korenita",
+    "info": "https://www.openstreetmap.org/node/12915720508",
+    "naziv": "Spomenik borcima NOR-a",
+    "type": "lokalni",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "livno-stara-carsija-spomen-ploca-ivanu-goranu-kova",
+    "koordinate": {
+      "lat": 43.8317872,
+      "lng": 17.0078454
+    },
+    "title": "Livno (Stara Čaršija)",
+    "info": "https://www.openstreetmap.org/node/11542347175",
+    "naziv": "Spomen ploča Ivanu Goranu Kovačiću",
+    "type": "ploca",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "malesevici-spomenik-palim-borcima-i-zrtvama-fasist",
+    "koordinate": {
+      "lat": 44.1647792,
+      "lng": 16.7582838
+    },
+    "title": "Maleševići",
+    "info": "https://www.openstreetmap.org/node/10162127090",
+    "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+    "type": "lokalni",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "naseobina-babanovci-spomen-obiljezje-zrtvama-fasis",
+    "koordinate": {
+      "lat": 44.8730361,
+      "lng": 17.6694469
+    },
+    "title": "Naseobina Babanovci",
+    "info": "https://www.openstreetmap.org/node/12085993143",
+    "naziv": "Spomen-obilježje žrtvama fašističkog terora Radlovac",
+    "type": "lokalni",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "nozicko-spomenik-zrtvama-nor-a",
+    "koordinate": {
+      "lat": 45.0222042,
+      "lng": 17.4850963
+    },
+    "title": "Nožičko",
+    "info": "https://www.openstreetmap.org/node/4396138890",
+    "naziv": "Spomenik žrtvama NOR-a",
+    "type": "lokalni",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "odzak-spomenik-borcima-novj-a",
+    "koordinate": {
+      "lat": 45.0118979,
+      "lng": 18.3250816
+    },
+    "title": "Odžak",
+    "info": "https://www.openstreetmap.org/node/11110818183",
+    "naziv": "Spomenik Borcima NOVJ-a",
+    "type": "lokalni",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "podorugla-spomenik-nob-previle",
+    "koordinate": {
+      "lat": 44.4010408,
+      "lng": 17.1041499
+    },
+    "title": "Podorugla",
+    "info": "https://www.openstreetmap.org/node/7760560149",
+    "naziv": "Spomenik NOB-Previle",
+    "type": "lokalni",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "popovac-spomenik-zrtvama-fasistickog-terora",
+    "koordinate": {
+      "lat": 44.6699528,
+      "lng": 17.2799756
+    },
+    "title": "Popovac",
+    "info": "https://www.openstreetmap.org/node/10928867829",
+    "naziv": "Spomenik žrtvama fašističkog terora",
+    "type": "lokalni",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "sarajevo-kovacici-spomen-zrtvama-fasistickog-teror",
+    "koordinate": {
+      "lat": 43.850259,
+      "lng": 18.4079437
+    },
+    "title": "Sarajevo (Kovačići)",
+    "info": "https://www.openstreetmap.org/node/2107829807",
+    "naziv": "Spomen žrtvama fašističkog terora",
+    "year": "1952",
+    "type": "lokalni",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "stara-gradiska-spomenik-zrtvama-logora-i-kosturnic",
+    "koordinate": {
+      "lat": 45.1487322,
+      "lng": 17.2460124
+    },
+    "title": "Stara Gradiška",
+    "info": "https://www.openstreetmap.org/node/11982824048",
+    "naziv": "Spomenik žrtvama logora i kosturnica u Staroj Gradiški",
+    "type": "lokalni",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "stekerovci-spomenik-nob-a",
+    "koordinate": {
+      "lat": 44.2373863,
+      "lng": 16.7262611
+    },
+    "title": "Stekerovci",
+    "info": "https://www.openstreetmap.org/node/9683980725",
+    "naziv": "Spomenik NOB-a",
+    "type": "lokalni",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "strijezevica-spomenik-nob-a",
+    "koordinate": {
+      "lat": 44.6925902,
+      "lng": 18.1367118
+    },
+    "title": "Striježevica",
+    "info": "https://www.openstreetmap.org/node/1015579507",
+    "naziv": "Spomenik NOB-a",
+    "type": "lokalni",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "tjentiste-savin-grob",
+    "koordinate": {
+      "lat": 43.3515568,
+      "lng": 18.6783416
+    },
+    "title": "Tjentište",
+    "info": "https://www.openstreetmap.org/node/7773550548",
+    "naziv": "Savin grob",
+    "type": "lokalni",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "tjentiste-grob-nurije-pozderca",
+    "koordinate": {
+      "lat": 43.321427,
+      "lng": 18.7076858
+    },
+    "title": "Tjentište",
+    "info": "https://www.openstreetmap.org/node/10693539671",
+    "naziv": "Grob Nurije Pozderca",
+    "type": "lokalni",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "tjentiste-mjesto-ranjavanja-tita",
+    "koordinate": {
+      "lat": 43.349602,
+      "lng": 18.6641148
+    },
+    "title": "Tjentište",
+    "info": "https://www.openstreetmap.org/node/12073100611",
+    "naziv": "Mjesto ranjavanja Tita",
+    "type": "lokalni",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "tjentiste-spomenik-kragujevackom-bataljonu",
+    "koordinate": {
+      "lat": 43.3532566,
+      "lng": 18.7022455
+    },
+    "title": "Tjentište",
+    "info": "https://www.openstreetmap.org/node/12073244619",
+    "naziv": "Spomenik Kragujevačkom bataljonu",
+    "type": "lokalni",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "tjentiste-spomenik-centralnoj-partizanskoj-bolnici",
+    "koordinate": {
+      "lat": 43.3218955,
+      "lng": 18.7085235
+    },
+    "title": "Tjentište",
+    "info": "https://www.openstreetmap.org/node/12073271624",
+    "naziv": "Spomenik Centralnoj partizanskoj bolnici",
+    "type": "lokalni",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "tutnjevac-spomenik-borcima-nor-a-i-zft",
+    "koordinate": {
+      "lat": 44.7118505,
+      "lng": 18.9354062
+    },
+    "title": "Tutnjevac",
+    "info": "https://www.openstreetmap.org/node/11330669495",
+    "naziv": "Spomenik borcima NOR-a i ŽFT",
+    "type": "lokalni",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "ugljevik-spomenik-borcima-nor-a-i-zft",
+    "koordinate": {
+      "lat": 44.6945672,
+      "lng": 18.9948949
+    },
+    "title": "Ugljevik",
+    "info": "https://www.openstreetmap.org/node/2189814037",
+    "naziv": "Spomenik borcima NOR-a i ŽFT",
+    "type": "lokalni",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "ugljevik-cetkovic-spomen-kuca-oslobodjenje",
+    "koordinate": {
+      "lat": 44.6694083,
+      "lng": 19.1043035
+    },
+    "title": "Ugljevik (Ćetković)",
+    "info": "https://www.openstreetmap.org/node/12012387481",
+    "naziv": "Spomen kuća \"Oslobođenje\"",
+    "type": "ploca",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "vidimlije-spomenik-zrtvama-ustaskog-terora",
+    "koordinate": {
+      "lat": 43.9503677,
+      "lng": 16.9264038
+    },
+    "title": "Vidimlije",
+    "info": "https://www.openstreetmap.org/node/11142835837",
+    "naziv": "Spomenik žrtvama ustaškog terora",
+    "type": "lokalni",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "vitovlje-spomenik-nob-2",
+    "koordinate": {
+      "lat": 44.3185502,
+      "lng": 17.5019319
+    },
+    "title": "Vitovlje",
+    "info": "https://www.openstreetmap.org/node/5934122128",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "alaginci-spomen-ploca-zrtvama-fasizma-na-senjaku",
+    "koordinate": {
+      "lat": 45.3627911,
+      "lng": 17.6868249
+    },
+    "title": "Alaginci",
+    "info": "https://www.openstreetmap.org/node/13465076113",
+    "naziv": "Spomen-ploča žrtvama fašizma na Senjaku",
+    "type": "ploca",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "andigola-spomenik-ustanku-naroda-moslavine",
+    "koordinate": {
+      "lat": 45.674844,
+      "lng": 16.6288813
+    },
+    "title": "Andigola",
+    "info": "https://www.openstreetmap.org/node/13122991430",
+    "naziv": "Spomenik ustanku naroda Moslavine",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "apatovec-spomenik-palim-borcima-nob-a",
+    "koordinate": {
+      "lat": 46.1458452,
+      "lng": 16.576164
+    },
+    "title": "Apatovec",
+    "info": "https://www.openstreetmap.org/node/14157445093",
+    "naziv": "Spomenik palim borcima NOB-a",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "badljevina-nob",
+    "koordinate": {
+      "lat": 45.5137258,
+      "lng": 17.1924013
+    },
+    "title": "Badljevina",
+    "info": "https://www.openstreetmap.org/node/13044798755",
+    "naziv": "NOB",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "banova-jaruga-spomenik-palim-borcima-i-zrtvama-fas",
+    "koordinate": {
+      "lat": 45.4410098,
+      "lng": 16.9032984
+    },
+    "title": "Banova Jaruga",
+    "info": "https://www.openstreetmap.org/node/9582516243",
+    "naziv": "Spomenik palim borcima i žrtvama fašizma",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "bedenik-postolje-spomenika-nob",
+    "koordinate": {
+      "lat": 45.8275192,
+      "lng": 17.0091908
+    },
+    "title": "Bedenik",
+    "info": "https://www.openstreetmap.org/node/13114778623",
+    "naziv": "Postolje spomenika NOB",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "bjelovar-fenor-spomen-kosturnica-150-boraca-palih",
+    "koordinate": {
+      "lat": 45.796524,
+      "lng": 16.9600117
+    },
+    "title": "Bjelovar (Fenor)",
+    "info": "https://www.openstreetmap.org/node/13148248951",
+    "naziv": "Spomen-kosturnica 150 boraca palih za oslobođenje bjelovarskog kraja",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "bjelovar-gornja-prespa-spomen-ploca-palim-borcima",
+    "koordinate": {
+      "lat": 45.8670266,
+      "lng": 16.9367462
+    },
+    "title": "Bjelovar (Gornja Prespa)",
+    "info": "https://www.openstreetmap.org/node/13103959173",
+    "naziv": "Spomen-ploča palim borcima",
+    "type": "ploca",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "bjelovar-grm-spomenik-11-poginulih-heroja-na-barut",
+    "koordinate": {
+      "lat": 45.9323125,
+      "lng": 16.8223692
+    },
+    "title": "Bjelovar (Grm)",
+    "info": "https://www.openstreetmap.org/node/10825028562",
+    "naziv": "Spomenik 11 poginulih heroja na Barutani",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "bjelovar-sajmiste-spomen-kosturnica-nob-kapela",
+    "koordinate": {
+      "lat": 45.9943006,
+      "lng": 16.8501928
+    },
+    "title": "Bjelovar (Sajmište)",
+    "info": "https://www.openstreetmap.org/node/12047006590",
+    "naziv": "Spomen kosturnica NOB Kapela",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "bjelovar-stari-brijeg-rusevine-nob",
+    "koordinate": {
+      "lat": 45.8958438,
+      "lng": 17.0043331
+    },
+    "title": "Bjelovar (Stari Brijeg)",
+    "info": "https://www.openstreetmap.org/node/12245092228",
+    "naziv": "Ruševine NOB",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "bjelovar-trokut-spomenik-borcima-nob-a-ivanska",
+    "koordinate": {
+      "lat": 45.7829398,
+      "lng": 16.7975711
+    },
+    "title": "Bjelovar (Trokut)",
+    "info": "https://www.openstreetmap.org/node/12544156035",
+    "naziv": "Spomenik borcima NOB-a Ivanska",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "bjelovar-zigic-vir-spomenik-palim-borcima-nor-a-na",
+    "koordinate": {
+      "lat": 45.8340824,
+      "lng": 16.8122929
+    },
+    "title": "Bjelovar (Žigić vir)",
+    "info": "https://www.openstreetmap.org/node/10030158263",
+    "naziv": "Spomenik palim borcima NOR-a Narta",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "bojana-spomenik-palim-borcima-nor-a",
+    "koordinate": {
+      "lat": 45.7567009,
+      "lng": 16.6812468
+    },
+    "title": "Bojana",
+    "info": "https://www.openstreetmap.org/node/13533012347",
+    "naziv": "Spomenik palim borcima NOR-a",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "bolc-postolje-spomenika-nor-a",
+    "koordinate": {
+      "lat": 45.89032,
+      "lng": 16.6754173
+    },
+    "title": "Bolč",
+    "info": "https://www.openstreetmap.org/node/13136920437",
+    "naziv": "Postolje spomenika NOR-a",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "borova-spomenik-palim-borcima",
+    "koordinate": {
+      "lat": 45.7848769,
+      "lng": 17.4608599
+    },
+    "title": "Borova",
+    "info": "https://www.openstreetmap.org/node/13564656811",
+    "naziv": "Spomenik palim borcima",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "borovo-spomenik-palim-borcima",
+    "koordinate": {
+      "lat": 45.4040183,
+      "lng": 18.9797583
+    },
+    "title": "Borovo",
+    "info": "https://www.openstreetmap.org/node/7386358309",
+    "naziv": "Spomenik Palim Borcima",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "bosiljevo-spomen-plak-palim-borcima-nob-a",
+    "koordinate": {
+      "lat": 45.7432558,
+      "lng": 16.5807199
+    },
+    "title": "Bosiljevo",
+    "info": "https://www.openstreetmap.org/node/12021021090",
+    "naziv": "Spomen plak palim borcima NOB-a",
+    "type": "ploca",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "bregi-spomenik-nob",
+    "koordinate": {
+      "lat": 45.3494595,
+      "lng": 14.2993196
+    },
+    "title": "Bregi",
+    "info": "https://www.openstreetmap.org/node/11592566577",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "brestova-draga-spomenik-narodnooslobodilackoj-borb",
+    "koordinate": {
+      "lat": 45.3362161,
+      "lng": 14.7961242
+    },
+    "title": "Brestova Draga",
+    "info": "https://www.openstreetmap.org/node/4236518534",
+    "naziv": "Spomenik Narodnooslobodilačkoj borbi",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "bribir-spomenik-partizanskog-odreda-matije-gupca",
+    "koordinate": {
+      "lat": 45.1861788,
+      "lng": 14.7631538
+    },
+    "title": "Bribir",
+    "info": "https://www.openstreetmap.org/node/7805986730",
+    "naziv": "Spomenik partizanskog odreda Matije Gupca",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "brinjani-spomenik-palim-borcima",
+    "koordinate": {
+      "lat": 45.5281291,
+      "lng": 16.8252704
+    },
+    "title": "Brinjani",
+    "info": "https://www.openstreetmap.org/node/13462208826",
+    "naziv": "Spomenik palim borcima",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "brodski-varos-grob-neznanog-palog-borca",
+    "koordinate": {
+      "lat": 45.1792867,
+      "lng": 17.9693354
+    },
+    "title": "Brodski Varoš",
+    "info": "https://www.openstreetmap.org/node/14156292416",
+    "naziv": "Grob neznanog palog borca",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "brcevec-20-godisnjica-ustanka-naroda-jugoslavije",
+    "koordinate": {
+      "lat": 45.8637442,
+      "lng": 16.4117953
+    },
+    "title": "Brčevec",
+    "info": "https://www.openstreetmap.org/node/2203413174",
+    "naziv": "20. godišnjica ustanka naroda Jugoslavije",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "brcevec-spomenik-ubijenim-vrbovcanima-u-drugom-svj",
+    "koordinate": {
+      "lat": 45.8736984,
+      "lng": 16.4068095
+    },
+    "title": "Brčevec",
+    "info": "https://www.openstreetmap.org/node/2203436349",
+    "naziv": "Spomenik ubijenim Vrbovčanima u Drugom svjetskom ratu",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "budrovac-spomenik-palim-borcima-nob-a",
+    "koordinate": {
+      "lat": 45.9882209,
+      "lng": 17.0568555
+    },
+    "title": "Budrovac",
+    "info": "https://www.openstreetmap.org/node/14178041234",
+    "naziv": "Spomenik palim borcima NOB-a",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "bukevje-nob",
+    "koordinate": {
+      "lat": 45.7232864,
+      "lng": 16.2072656
+    },
+    "title": "Bukevje",
+    "info": "https://www.openstreetmap.org/node/3822156502",
+    "naziv": "NOB",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "cremusina-spomenik-palim-borcima-nor-a",
+    "koordinate": {
+      "lat": 45.8056864,
+      "lng": 17.2073773
+    },
+    "title": "Cremušina",
+    "info": "https://www.openstreetmap.org/node/13512250886",
+    "naziv": "Spomenik palim borcima NOR-a",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "cugovec-spomenik-boricima-nob-a",
+    "koordinate": {
+      "lat": 45.9127633,
+      "lng": 16.5149192
+    },
+    "title": "Cugovec",
+    "info": "https://www.openstreetmap.org/node/12878674912",
+    "naziv": "Spomenik boricima NOB-a",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "daruvar-antuna-matije-reljkovica-spomenik-nob-donj",
+    "koordinate": {
+      "lat": 45.6073996,
+      "lng": 17.2241408
+    },
+    "title": "Daruvar (Antuna Matije Reljkovića)",
+    "info": "https://www.openstreetmap.org/node/13410792769",
+    "naziv": "Spomenik NOB Donji",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "daruvar-stjepanovici-grob-narodnog-heroja-paje-oro",
+    "koordinate": {
+      "lat": 45.5562197,
+      "lng": 17.378281
+    },
+    "title": "Daruvar (Stjepanovići)",
+    "info": "https://www.openstreetmap.org/node/13414716782",
+    "naziv": "Grob narodnog heroja Paje Orozovića",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "daruvarski-brestovac-nob",
+    "koordinate": {
+      "lat": 45.620748,
+      "lng": 17.1280926
+    },
+    "title": "Daruvarski Brestovac",
+    "info": "https://www.openstreetmap.org/node/12049738884",
+    "naziv": "NOB",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "dezanovac-spomenik-nob",
+    "koordinate": {
+      "lat": 45.5656579,
+      "lng": 17.0836272
+    },
+    "title": "Dežanovac",
+    "info": "https://www.openstreetmap.org/node/4775896732",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "dijakovac-spomenik-palim-borcima-turcevic-polje",
+    "koordinate": {
+      "lat": 45.7114493,
+      "lng": 17.3470255
+    },
+    "title": "Dijakovac",
+    "info": "https://www.openstreetmap.org/node/13111184671",
+    "naziv": "Spomenik palim borcima Turčević Polje",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "doljani-spomenik-nob",
+    "koordinate": {
+      "lat": 45.5674777,
+      "lng": 17.2243099
+    },
+    "title": "Doljani",
+    "info": "https://www.openstreetmap.org/node/14004999772",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "domasinec-spomenik-nob-u",
+    "koordinate": {
+      "lat": 46.4305672,
+      "lng": 16.5967825
+    },
+    "title": "Domašinec",
+    "info": "https://www.openstreetmap.org/node/7356032646",
+    "naziv": "Spomenik NOB-u",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "donja-kovacica-spomen-ploca-palim-borcima",
+    "koordinate": {
+      "lat": 45.7539396,
+      "lng": 16.9978704
+    },
+    "title": "Donja Kovačica",
+    "info": "https://www.openstreetmap.org/node/13406821152",
+    "naziv": "Spomen-ploča palim borcima",
+    "type": "ploca",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "donja-rasenica-spomenik-nob",
+    "koordinate": {
+      "lat": 45.6753858,
+      "lng": 17.2061416
+    },
+    "title": "Donja Rašenica",
+    "info": "https://www.openstreetmap.org/node/8041895080",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "donja-slabinja-nob",
+    "koordinate": {
+      "lat": 45.18015,
+      "lng": 16.6453884
+    },
+    "title": "Donja Slabinja",
+    "info": "https://www.openstreetmap.org/node/11778919255",
+    "naziv": "NOB",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "donja-stubica-bidrovec-i-bataljon-kalnickog-partiz",
+    "koordinate": {
+      "lat": 45.9138647,
+      "lng": 15.9746138
+    },
+    "title": "Donja Stubica (Bidrovec)",
+    "info": "https://www.openstreetmap.org/node/9599395585",
+    "naziv": "I. bataljon kalničkog partizanskog odreda",
+    "type": "ploca",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "donja-vrijeska-spomenik-zrtvama-fasizma",
+    "koordinate": {
+      "lat": 45.6467005,
+      "lng": 17.2715943
+    },
+    "title": "Donja Vrijeska",
+    "info": "https://www.openstreetmap.org/node/4988152712",
+    "naziv": "Spomenik žrtvama fašizma",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "donje-cjepidlake-spomenik-nob",
+    "koordinate": {
+      "lat": 45.6888858,
+      "lng": 17.4004119
+    },
+    "title": "Donje Cjepidlake",
+    "info": "https://www.openstreetmap.org/node/13111161302",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "donji-miklous-spomenik-nob",
+    "koordinate": {
+      "lat": 45.7249337,
+      "lng": 16.6916355
+    },
+    "title": "Donji Miklouš",
+    "info": "https://www.openstreetmap.org/node/13115405269",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "fuka-spomenik-palim-borcima",
+    "koordinate": {
+      "lat": 45.8863002,
+      "lng": 16.5285821
+    },
+    "title": "Fuka",
+    "info": "https://www.openstreetmap.org/node/13535873121",
+    "naziv": "Spomenik palim borcima",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "golubinjak-spomen-ploca-palim-borcima-sela-golubnj",
+    "koordinate": {
+      "lat": 45.5608291,
+      "lng": 17.1596697
+    },
+    "title": "Golubinjak",
+    "info": "https://www.openstreetmap.org/node/13414716763",
+    "naziv": "Spomen ploča palim borcima sela Golubnjak",
+    "type": "ploca",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "gornja-vrijeska-spomenik-palim-borcima-i-zrtvama-f",
+    "koordinate": {
+      "lat": 45.6238801,
+      "lng": 17.2866463
+    },
+    "title": "Gornja Vrijeska",
+    "info": "https://www.openstreetmap.org/node/13348869177",
+    "naziv": "Spomenik palim borcima i žrtvama fašizma",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "gornja-susnjara-spomenik-nob",
+    "koordinate": {
+      "lat": 45.7755839,
+      "lng": 16.7669992
+    },
+    "title": "Gornja Šušnjara",
+    "info": "https://www.openstreetmap.org/node/13115405251",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "gornje-cjepidlake-nob",
+    "koordinate": {
+      "lat": 45.6736257,
+      "lng": 17.4209247
+    },
+    "title": "Gornje Cjepidlake",
+    "info": "https://www.openstreetmap.org/node/13111165427",
+    "naziv": "NOB",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "gornji-daruvar-spomenik-zrtvama-fasizma",
+    "koordinate": {
+      "lat": 45.5915039,
+      "lng": 17.1856783
+    },
+    "title": "Gornji Daruvar",
+    "info": "https://www.openstreetmap.org/node/13414716725",
+    "naziv": "Spomenik žrtvama fašizma",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "gornji-draganec-nob",
+    "koordinate": {
+      "lat": 45.7842885,
+      "lng": 16.647025
+    },
+    "title": "Gornji Draganec",
+    "info": "https://www.openstreetmap.org/node/11338033534",
+    "naziv": "NOB",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "gornji-cehi-palim-borcima",
+    "koordinate": {
+      "lat": 45.7426398,
+      "lng": 15.9581309
+    },
+    "title": "Gornji Čehi",
+    "info": "https://www.openstreetmap.org/node/8817894125",
+    "naziv": "Palim borcima",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "grabovnica-spomenik-nob",
+    "koordinate": {
+      "lat": 45.7475961,
+      "lng": 16.6450876
+    },
+    "title": "Grabovnica",
+    "info": "https://www.openstreetmap.org/node/11297913043",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "gradec-nob",
+    "koordinate": {
+      "lat": 45.9110139,
+      "lng": 16.484071
+    },
+    "title": "Gradec",
+    "info": "https://www.openstreetmap.org/node/2213201328",
+    "naziv": "NOB",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "groznjan-spomenik-palim-borcima-i-zrtvama-fasizma",
+    "koordinate": {
+      "lat": 45.3797775,
+      "lng": 13.7225716
+    },
+    "title": "Grožnjan",
+    "info": "https://www.openstreetmap.org/node/5798642455",
+    "naziv": "Spomenik palim borcima i žrtvama fašizma",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "grubisno-polje-stari-kolodvor-spomen-ploca-zrtvama",
+    "koordinate": {
+      "lat": 45.7046389,
+      "lng": 17.163165
+    },
+    "title": "Grubišno Polje (Stari Kolodvor)",
+    "info": "https://www.openstreetmap.org/node/14156345836",
+    "naziv": "Spomen-ploča žrtvama fašizma",
+    "type": "ploca",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "grubisno-polje-zdenacko-raskrizje-grobnica-palih-b",
+    "koordinate": {
+      "lat": 45.6800645,
+      "lng": 17.1037167
+    },
+    "title": "Grubišno Polje (Zdenačko Raskrižje)",
+    "info": "https://www.openstreetmap.org/node/13414746928",
+    "naziv": "Grobnica palih boraca NOR-a",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "gunjevci-narodni-heroji",
+    "koordinate": {
+      "lat": 45.1649481,
+      "lng": 16.9042765
+    },
+    "title": "Gunjevci",
+    "info": "https://www.openstreetmap.org/node/6611114143",
+    "naziv": "Narodni heroji",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "haganj-spomenik-palim-borcima-i-zrtvama-fasizma",
+    "koordinate": {
+      "lat": 45.9126613,
+      "lng": 16.5774783
+    },
+    "title": "Haganj",
+    "info": "https://www.openstreetmap.org/node/13536034029",
+    "naziv": "Spomenik palim borcima i žrtvama fašizma",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "hampovica-spomen-ploca-palim-borcima",
+    "koordinate": {
+      "lat": 46.0158214,
+      "lng": 16.9543425
+    },
+    "title": "Hampovica",
+    "info": "https://www.openstreetmap.org/node/13110354744",
+    "naziv": "Spomen-ploča palim borcima",
+    "type": "ploca",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "havidic-selo-memorijal-nob-a",
+    "koordinate": {
+      "lat": 45.6207434,
+      "lng": 15.9264903
+    },
+    "title": "Havidić Selo",
+    "info": "https://www.openstreetmap.org/node/6291619618",
+    "naziv": "Memorijal NOB-a",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "hercegovac-spomenik-zrtvama-fasizma",
+    "koordinate": {
+      "lat": 45.6541607,
+      "lng": 17.008443
+    },
+    "title": "Hercegovac",
+    "info": "https://www.openstreetmap.org/node/6514912896",
+    "naziv": "Spomenik žrtvama fašizma",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "heresin-slava-palim-borcima-nor-a-i-zrtvama-fasist",
+    "koordinate": {
+      "lat": 46.1769888,
+      "lng": 16.8669466
+    },
+    "title": "Herešin",
+    "info": "https://www.openstreetmap.org/node/6277390221",
+    "naziv": "Slava palim borcima NOR-a i žrtvama fašističkog terora",
+    "type": "ploca",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "hrastovac-spomenik-nob",
+    "koordinate": {
+      "lat": 45.5595396,
+      "lng": 17.0023163
+    },
+    "title": "Hrastovac",
+    "info": "https://www.openstreetmap.org/node/14156345835",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "imsovac-spomenik-nob",
+    "koordinate": {
+      "lat": 45.6027813,
+      "lng": 17.055452
+    },
+    "title": "Imsovac",
+    "info": "https://www.openstreetmap.org/node/13005338286",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "ivanic-grad-podcentar-zeravinec-spomenik-palim-bor",
+    "koordinate": {
+      "lat": 45.7103691,
+      "lng": 16.3984271
+    },
+    "title": "Ivanić-Grad (Podcentar Žeravinec)",
+    "info": "https://www.openstreetmap.org/node/12398683912",
+    "naziv": "Spomenik palim borcima i žrtvama fašizma",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "ivanovo-selo-nob",
+    "koordinate": {
+      "lat": 45.6737949,
+      "lng": 17.2495693
+    },
+    "title": "Ivanovo Selo",
+    "info": "https://www.openstreetmap.org/node/12019936397",
+    "naziv": "NOB",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "icici-nob",
+    "koordinate": {
+      "lat": 45.3146146,
+      "lng": 14.2882498
+    },
+    "title": "Ičići",
+    "info": "https://www.openstreetmap.org/node/11187155652",
+    "naziv": "NOB",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "jabuceta-spomen-ploca-zrtvama-fasizma",
+    "koordinate": {
+      "lat": 46.0222089,
+      "lng": 16.9005209
+    },
+    "title": "Jabučeta",
+    "info": "https://www.openstreetmap.org/node/13115460786",
+    "naziv": "Spomen-ploča Žrtvama fašizma",
+    "type": "ploca",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "jagnjedovec-spomenik-palim-borcima",
+    "koordinate": {
+      "lat": 46.1024374,
+      "lng": 16.8055505
+    },
+    "title": "Jagnjedovec",
+    "info": "https://www.openstreetmap.org/node/13589458044",
+    "naziv": "Spomenik palim borcima",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "jaksic-spomenik-nob",
+    "koordinate": {
+      "lat": 45.3564646,
+      "lng": 17.7619022
+    },
+    "title": "Jakšić",
+    "info": "https://www.openstreetmap.org/node/12999105200",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "jasenak-spomenik-narodnooslobodilacke-borbe",
+    "koordinate": {
+      "lat": 45.2086771,
+      "lng": 15.0296479
+    },
+    "title": "Jasenak",
+    "info": "https://www.openstreetmap.org/node/4241016151",
+    "naziv": "Spomenik Narodnooslobodilačke borbe",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "jasenas-spomenik-palim-borcima",
+    "koordinate": {
+      "lat": 45.7283169,
+      "lng": 17.4124575
+    },
+    "title": "Jasenaš",
+    "info": "https://www.openstreetmap.org/node/13111184672",
+    "naziv": "Spomenik palim borcima",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "jasenovac-spomenik-zrtvama-fasizma",
+    "koordinate": {
+      "lat": 45.2694877,
+      "lng": 16.9096747
+    },
+    "title": "Jasenovac",
+    "info": "https://www.openstreetmap.org/node/2260904227",
+    "naziv": "Spomenik žrtvama fašizma",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "kalnik-spomen-palim-borcima-nob",
+    "koordinate": {
+      "lat": 46.1276327,
+      "lng": 16.4647605
+    },
+    "title": "Kalnik",
+    "info": "https://www.openstreetmap.org/node/13972131319",
+    "naziv": "Spomen palim borcima NOB",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "kaniska-iva-spomenik-palim-borcima-nor-a",
+    "koordinate": {
+      "lat": 45.528879,
+      "lng": 16.9231149
+    },
+    "title": "Kaniška Iva",
+    "info": "https://www.openstreetmap.org/node/13413915549",
+    "naziv": "Spomenik palim borcima NOR-a",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "kapela-spomenik-palim-borcima",
+    "koordinate": {
+      "lat": 45.9883084,
+      "lng": 16.851475
+    },
+    "title": "Kapela",
+    "info": "https://www.openstreetmap.org/node/12047006572",
+    "naziv": "Spomenik palim borcima",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "kastav-orbani-nob-ljubljanska-cesta",
+    "koordinate": {
+      "lat": 45.3514921,
+      "lng": 14.3453375
+    },
+    "title": "Kastav (Orbani)",
+    "info": "https://www.openstreetmap.org/node/10180208990",
+    "naziv": "NOB Ljubljanska cesta",
+    "type": "ploca",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "kasljavac-spomen-ploca-palim-borcima",
+    "koordinate": {
+      "lat": 45.8772805,
+      "lng": 17.0012781
+    },
+    "title": "Kašljavac",
+    "info": "https://www.openstreetmap.org/node/13115438572",
+    "naziv": "Spomen-ploča palim borcima",
+    "type": "ploca",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "kerestinec-spomenik-zrtvama-proboja-iz-logora-1941",
+    "koordinate": {
+      "lat": 45.7749889,
+      "lng": 15.8170836
+    },
+    "title": "Kerestinec",
+    "info": "https://www.openstreetmap.org/node/9080100557",
+    "naziv": "Spomenik žrtvama proboja iz logora 1941.",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "kip-spomenik-nob",
+    "koordinate": {
+      "lat": 45.5423466,
+      "lng": 17.1939327
+    },
+    "title": "Kip",
+    "info": "https://www.openstreetmap.org/node/14005018326",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "klostar-ivanic-spomenik-nob",
+    "koordinate": {
+      "lat": 45.7382001,
+      "lng": 16.4182487
+    },
+    "title": "Kloštar Ivanić",
+    "info": "https://www.openstreetmap.org/node/13482672170",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "klostar-podravski-spomen-ploca-palim-borcima-nor-a",
+    "koordinate": {
+      "lat": 45.9837805,
+      "lng": 17.1575238
+    },
+    "title": "Kloštar Podravski",
+    "info": "https://www.openstreetmap.org/node/13017656839",
+    "naziv": "Spomen-ploča palim borcima NOR-a",
+    "type": "ploca",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "klostar-vojakovacki-spomenik-palim-borcima",
+    "koordinate": {
+      "lat": 46.0425516,
+      "lng": 16.6238832
+    },
+    "title": "Kloštar Vojakovački",
+    "info": "https://www.openstreetmap.org/node/14178107572",
+    "naziv": "Spomenik palim borcima",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "kolarevo-selo-spomenik-nob",
+    "koordinate": {
+      "lat": 45.8189753,
+      "lng": 16.8370281
+    },
+    "title": "Kolarevo Selo",
+    "info": "https://www.openstreetmap.org/node/13140839040",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "kometnik-jorgici-spomenik-zrtvama-fasistickog-tero",
+    "koordinate": {
+      "lat": 45.611399,
+      "lng": 17.5680311
+    },
+    "title": "Kometnik-Jorgići",
+    "info": "https://www.openstreetmap.org/node/9714096212",
+    "naziv": "Spomenik žrtvama fašističkog terora",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "koncanica-spomenik-nob",
+    "koordinate": {
+      "lat": 45.6380515,
+      "lng": 17.1647617
+    },
+    "title": "Končanica",
+    "info": "https://www.openstreetmap.org/node/13005296330",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "koprivnica-kusticev-breg-spomen-kosturnica-palim-b",
+    "koordinate": {
+      "lat": 46.1712492,
+      "lng": 16.8139068
+    },
+    "title": "Koprivnica (Kustićev breg)",
+    "info": "https://www.openstreetmap.org/node/13447166698",
+    "naziv": "Spomen Kosturnica Palim Borcima",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "koprivnica-podolice-spomenik-palim-borcima",
+    "koordinate": {
+      "lat": 46.1575545,
+      "lng": 16.8080739
+    },
+    "title": "Koprivnica (Podolice)",
+    "info": "https://www.openstreetmap.org/node/13447166696",
+    "naziv": "Spomenik Palim Borcima",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "koprivnicki-bregi-spomenik-borcima-narodnooslobodi",
+    "koordinate": {
+      "lat": 46.132976,
+      "lng": 16.900666
+    },
+    "title": "Koprivnički Bregi",
+    "info": "https://www.openstreetmap.org/node/6715741822",
+    "naziv": "Spomenik borcima Narodnooslobodilačke borbe",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "korenicani-spomenik-nob",
+    "koordinate": {
+      "lat": 45.6479654,
+      "lng": 17.3646781
+    },
+    "title": "Koreničani",
+    "info": "https://www.openstreetmap.org/node/13414716724",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "kovacic-partizanski-spomenik",
+    "koordinate": {
+      "lat": 44.042942,
+      "lng": 16.2277155
+    },
+    "title": "Kovačić",
+    "info": "https://www.openstreetmap.org/node/8037431514",
+    "naziv": "Partizanski spomenik",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "kozarevac-spomen-ploca-zrtvama-fasizma",
+    "koordinate": {
+      "lat": 45.934232,
+      "lng": 17.1220843
+    },
+    "title": "Kozarevac",
+    "info": "https://www.openstreetmap.org/node/13404305549",
+    "naziv": "Spomen-ploča Žrtvama fašizma",
+    "type": "ploca",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "kraj-world-war-2-memorial",
+    "koordinate": {
+      "lat": 43.8657075,
+      "lng": 15.3126452
+    },
+    "title": "Kraj",
+    "info": "https://www.openstreetmap.org/node/12017507264",
+    "naziv": "World War 2 Memorial",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "kriz-gornji-spomen-kosturnica-palim-boricma-nor-a",
+    "koordinate": {
+      "lat": 46.0455179,
+      "lng": 16.7604935
+    },
+    "title": "Križ Gornji",
+    "info": "https://www.openstreetmap.org/node/13115405272",
+    "naziv": "Spomen kosturnica palim boricma NOR-a",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "krizevci-spomenik-palim-borcima",
+    "koordinate": {
+      "lat": 46.0247877,
+      "lng": 16.5517638
+    },
+    "title": "Križevci",
+    "info": "https://www.openstreetmap.org/node/13409885216",
+    "naziv": "Spomenik Palim Borcima",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "krusljevo-selo-nob-spomenik",
+    "koordinate": {
+      "lat": 45.9787663,
+      "lng": 15.9042188
+    },
+    "title": "Krušljevo Selo",
+    "info": "https://www.openstreetmap.org/node/6535988785",
+    "naziv": "NOB spomenik",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "kusonje-spomenik-palim-borcima-nor-a",
+    "koordinate": {
+      "lat": 45.4600523,
+      "lng": 17.2282167
+    },
+    "title": "Kusonje",
+    "info": "https://www.openstreetmap.org/node/8041793383",
+    "naziv": "Spomenik palim borcima NOR-a",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "kutina-spomen-kosturnica-palim-borcima-nor-a",
+    "koordinate": {
+      "lat": 45.4911202,
+      "lng": 16.7782635
+    },
+    "title": "Kutina",
+    "info": "https://www.openstreetmap.org/node/13458817423",
+    "naziv": "Spomen-kosturnica palim borcima NOR-a",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "kuciste-palim-borcima",
+    "koordinate": {
+      "lat": 42.9807379,
+      "lng": 17.1147018
+    },
+    "title": "Kučište",
+    "info": "https://www.openstreetmap.org/node/12909365751",
+    "naziv": "Palim borcima",
+    "type": "ploca",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "ladislav-spomenik-nob",
+    "koordinate": {
+      "lat": 45.6945724,
+      "lng": 17.0069281
+    },
+    "title": "Ladislav",
+    "info": "https://www.openstreetmap.org/node/13115404221",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "lasovac-spomenik-palim-borcima",
+    "koordinate": {
+      "lat": 45.8514846,
+      "lng": 17.0294984
+    },
+    "title": "Lasovac",
+    "info": "https://www.openstreetmap.org/node/13115438574",
+    "naziv": "Spomenik palim borcima",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "lepoglava-spomenik-zrtvama-fasizma",
+    "koordinate": {
+      "lat": 46.2104577,
+      "lng": 16.0398863
+    },
+    "title": "Lepoglava",
+    "info": "https://www.openstreetmap.org/node/4606589059",
+    "naziv": "Spomenik žrtvama fašizma",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "levinovac-skupna-grobnica-prvoboraca-nor-a",
+    "koordinate": {
+      "lat": 45.7217945,
+      "lng": 17.5184595
+    },
+    "title": "Levinovac",
+    "info": "https://www.openstreetmap.org/way/1481733569",
+    "naziv": "Skupna grobnica prvoboraca NOR-a",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "lipa-palim-borcima",
+    "koordinate": {
+      "lat": 45.4664126,
+      "lng": 14.3045099
+    },
+    "title": "Lipa",
+    "info": "https://www.openstreetmap.org/node/7798476129",
+    "naziv": "Palim borcima",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "lonjica-spomen-ploca-palim-borcima",
+    "koordinate": {
+      "lat": 45.8567689,
+      "lng": 16.3228864
+    },
+    "title": "Lonjica",
+    "info": "https://www.openstreetmap.org/node/13041264011",
+    "naziv": "Spomen-ploča palim borcima",
+    "type": "ploca",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "mala-brsljanica-spomenik-palim-borcima-nor-a",
+    "koordinate": {
+      "lat": 45.584215,
+      "lng": 16.8349165
+    },
+    "title": "Mala Bršljanica",
+    "info": "https://www.openstreetmap.org/node/13462010640",
+    "naziv": "Spomenik palim borcima NOR-a",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "mala-mlinska-nob",
+    "koordinate": {
+      "lat": 45.6619036,
+      "lng": 16.9425599
+    },
+    "title": "Mala Mlinska",
+    "info": "https://www.openstreetmap.org/node/13115438576",
+    "naziv": "NOB",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "mala-mucna-spomenik-palim-borcima",
+    "koordinate": {
+      "lat": 46.0679232,
+      "lng": 16.7374305
+    },
+    "title": "Mala Mučna",
+    "info": "https://www.openstreetmap.org/node/14157488312",
+    "naziv": "Spomenik palim borcima",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "mala-pisanica-spomen-ploca-palim-borcima",
+    "koordinate": {
+      "lat": 45.7744869,
+      "lng": 17.017528
+    },
+    "title": "Mala Pisanica",
+    "info": "https://www.openstreetmap.org/node/13406789436",
+    "naziv": "Spomen-ploča palim borcima",
+    "type": "ploca",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "mali-grabicani-spomenik-palim-borcima",
+    "koordinate": {
+      "lat": 46.0987754,
+      "lng": 16.6835606
+    },
+    "title": "Mali Grabičani",
+    "info": "https://www.openstreetmap.org/node/14157500301",
+    "naziv": "Spomenik palim borcima",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "mali-grdjevac-spomenik-palim-borcima",
+    "koordinate": {
+      "lat": 45.7742683,
+      "lng": 17.1725723
+    },
+    "title": "Mali Grđevac",
+    "info": "https://www.openstreetmap.org/node/13414716792",
+    "naziv": "Spomenik palim borcima",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "mali-pasijan-spomenik-palim-borcima",
+    "koordinate": {
+      "lat": 45.6381993,
+      "lng": 16.9215449
+    },
+    "title": "Mali Pašijan",
+    "info": "https://www.openstreetmap.org/node/13462162043",
+    "naziv": "Spomenik palim borcima",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "malo-vukovje-postolje-spomenika-nob",
+    "koordinate": {
+      "lat": 45.5187408,
+      "lng": 16.9098445
+    },
+    "title": "Malo Vukovje",
+    "info": "https://www.openstreetmap.org/node/13462039917",
+    "naziv": "Postolje spomenika NOB",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "martinac-spomenik-nob",
+    "koordinate": {
+      "lat": 45.7423462,
+      "lng": 16.7300603
+    },
+    "title": "Martinac",
+    "info": "https://www.openstreetmap.org/node/13115405270",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "marcana-zrtvama-fasistickog-terora",
+    "koordinate": {
+      "lat": 44.9566813,
+      "lng": 13.9567714
+    },
+    "title": "Marčana",
+    "info": "https://www.openstreetmap.org/node/4268740554",
+    "naziv": "Žrtvama Fašističkog Terora",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "matulji-spomenik-zrtvama-fasizma",
+    "koordinate": {
+      "lat": 45.3638405,
+      "lng": 14.3226365
+    },
+    "title": "Matulji",
+    "info": "https://www.openstreetmap.org/node/11775230849",
+    "naziv": "Spomenik žrtvama fašizma",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "medjuric-spomenik-palim-borcima-i-zrtvama-fasizma",
+    "koordinate": {
+      "lat": 45.4566595,
+      "lng": 16.9183019
+    },
+    "title": "Međurić",
+    "info": "https://www.openstreetmap.org/node/9496841305",
+    "naziv": "Spomenik palim borcima i žrtvama fašizma",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "miholjanec-spomen-ploca-palim-borcima",
+    "koordinate": {
+      "lat": 46.0419725,
+      "lng": 16.949211
+    },
+    "title": "Miholjanec",
+    "info": "https://www.openstreetmap.org/node/13398640568",
+    "naziv": "Spomen-ploča palim borcima",
+    "type": "ploca",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "milasevac-spomenik-nob",
+    "koordinate": {
+      "lat": 45.758937,
+      "lng": 16.6485925
+    },
+    "title": "Milaševac",
+    "info": "https://www.openstreetmap.org/node/13115405271",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "micevec-zrtvama-nob-a",
+    "koordinate": {
+      "lat": 45.7530202,
+      "lng": 16.0528634
+    },
+    "title": "Mičevec",
+    "info": "https://www.openstreetmap.org/node/8702053279",
+    "naziv": "Žrtvama NOB-a",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "molve-spomen-ploca-palim-borcima",
+    "koordinate": {
+      "lat": 46.1063923,
+      "lng": 17.0309356
+    },
+    "title": "Molve",
+    "info": "https://www.openstreetmap.org/node/14157476559",
+    "naziv": "Spomen-ploča palim borcima",
+    "type": "ploca",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "nova-gradiska-spomenik-borcima-nob-a",
+    "koordinate": {
+      "lat": 45.2638504,
+      "lng": 17.373716
+    },
+    "title": "Nova Gradiška",
+    "info": "https://www.openstreetmap.org/node/14156281832",
+    "naziv": "Spomenik Borcima NOB-a",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "nova-krivaja-nob-stara-krivaja",
+    "koordinate": {
+      "lat": 45.6663417,
+      "lng": 17.4687421
+    },
+    "title": "Nova Krivaja",
+    "info": "https://www.openstreetmap.org/node/4988103622",
+    "naziv": "NOB Stara Krivaja",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "nova-krivaja-spomenik-nob-u-novoj-krivaji",
+    "koordinate": {
+      "lat": 45.6552401,
+      "lng": 17.445745
+    },
+    "title": "Nova Krivaja",
+    "info": "https://www.openstreetmap.org/node/13004327239",
+    "naziv": "Spomenik NOB u Novoj Krivaji",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "novi-pavljani-spomenik-nob-ostecen",
+    "koordinate": {
+      "lat": 45.8571784,
+      "lng": 16.8461709
+    },
+    "title": "Novi Pavljani",
+    "info": "https://www.openstreetmap.org/node/13103965787",
+    "naziv": "Spomenik NOB oštećen",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "novigrad-podravski-spomenik-borcima-nor-a",
+    "koordinate": {
+      "lat": 46.0767481,
+      "lng": 16.9498833
+    },
+    "title": "Novigrad Podravski",
+    "info": "https://www.openstreetmap.org/node/12908541863",
+    "naziv": "Spomenik borcima NOR-a",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "ogulin-klikino-brdo-spomenik-palim-borcima-nob-a-j",
+    "koordinate": {
+      "lat": 45.186295,
+      "lng": 15.2887806
+    },
+    "title": "Ogulin (Klikino Brdo)",
+    "info": "https://www.openstreetmap.org/node/9149681946",
+    "naziv": "Spomenik palim borcima NOB-a Josipdol",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "orlovac-spomenik-palim-borcima",
+    "koordinate": {
+      "lat": 45.7436838,
+      "lng": 16.952665
+    },
+    "title": "Orlovac",
+    "info": "https://www.openstreetmap.org/node/13148248944",
+    "naziv": "Spomenik palim borcima",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "osijek-jug-ii-spomenik-zrtvama-fasistickog-logora",
+    "koordinate": {
+      "lat": 45.5281066,
+      "lng": 18.7215757
+    },
+    "title": "Osijek (Jug II)",
+    "info": "https://www.openstreetmap.org/way/560826507",
+    "naziv": "Spomenik žrtvama fašističkog logora Tenja",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "osijek-vijenac-ivana-mazuranica-spomen-ploca-antif",
+    "koordinate": {
+      "lat": 45.5604115,
+      "lng": 18.6877641
+    },
+    "title": "Osijek (Vijenac Ivana Mažuranića)",
+    "info": "https://www.openstreetmap.org/node/12909160752",
+    "naziv": "Spomen ploča Antifašistima 1941.-1945.",
+    "type": "ploca",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "ostri-zid-spomenik-palim-borcima-nor-a",
+    "koordinate": {
+      "lat": 45.6732219,
+      "lng": 16.8247479
+    },
+    "title": "Oštri Zid",
+    "info": "https://www.openstreetmap.org/node/13530545552",
+    "naziv": "Spomenik palim borcima NOR-a",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "pavlovac-spomenik-nob",
+    "koordinate": {
+      "lat": 45.7185693,
+      "lng": 17.0481633
+    },
+    "title": "Pavlovac",
+    "info": "https://www.openstreetmap.org/node/13115404222",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "pazin-juraleti-spomenik-borcima-nob-a",
+    "koordinate": {
+      "lat": 45.2390303,
+      "lng": 13.92737
+    },
+    "title": "Pazin (Juraleti)",
+    "info": "https://www.openstreetmap.org/node/3415862293",
+    "naziv": "Spomenik borcima NOB-a",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "pitomaca-spomenik-narodnooslobodilackoj-borbi",
+    "koordinate": {
+      "lat": 45.9521339,
+      "lng": 17.2338545
+    },
+    "title": "Pitomača",
+    "info": "https://www.openstreetmap.org/node/13406430318",
+    "naziv": "Spomenik Narodnooslobodilačkoj borbi",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "pivnica-slavonska-postolje-spomenika-nob",
+    "koordinate": {
+      "lat": 45.7141003,
+      "lng": 17.4823636
+    },
+    "title": "Pivnica Slavonska",
+    "info": "https://www.openstreetmap.org/node/13564688072",
+    "naziv": "Postolje spomenika NOB",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "podgora-spomenik-partizanskim-pomorskim-vezama",
+    "koordinate": {
+      "lat": 43.2597359,
+      "lng": 17.1012339
+    },
+    "title": "Podgora",
+    "info": "https://www.openstreetmap.org/node/9369968368",
+    "naziv": "Spomenik partizanskim pomorskim vezama",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "poljana-palim-borcima",
+    "koordinate": {
+      "lat": 44.0915996,
+      "lng": 15.1834706
+    },
+    "title": "Poljana",
+    "info": "https://www.openstreetmap.org/node/1457778463",
+    "naziv": "Palim borcima",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "poljane-nob",
+    "koordinate": {
+      "lat": 45.3283089,
+      "lng": 14.2589857
+    },
+    "title": "Poljane",
+    "info": "https://www.openstreetmap.org/node/4392455176",
+    "naziv": "NOB",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "potok-musulinski-spomenik-narodnooslobodilacke-bor",
+    "koordinate": {
+      "lat": 45.2114199,
+      "lng": 15.1303506
+    },
+    "title": "Potok Musulinski",
+    "info": "https://www.openstreetmap.org/node/3682685292",
+    "naziv": "Spomenik Narodnooslobodilačke borbe",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "potok-musulinski-spomenik-narodnooslobodilacke-bor-2",
+    "koordinate": {
+      "lat": 45.232115,
+      "lng": 15.1312711
+    },
+    "title": "Potok Musulinski",
+    "info": "https://www.openstreetmap.org/node/4241071772",
+    "naziv": "Spomenik Narodnooslobodilačke borbe",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "pozega-spomen-kosturnica-palim-oslobodiocima-grada",
+    "koordinate": {
+      "lat": 45.3326749,
+      "lng": 17.6803349
+    },
+    "title": "Požega",
+    "info": "https://www.openstreetmap.org/node/14102531251",
+    "naziv": "Spomen kosturnica palim oslobodiocima grada",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "prugovac-spomenik-palim-borcima",
+    "koordinate": {
+      "lat": 45.9725409,
+      "lng": 17.1206974
+    },
+    "title": "Prugovac",
+    "info": "https://www.openstreetmap.org/node/13404235209",
+    "naziv": "Spomenik palim borcima",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "puklica-spomenik-nob",
+    "koordinate": {
+      "lat": 45.6544654,
+      "lng": 17.428216
+    },
+    "title": "Puklica",
+    "info": "https://www.openstreetmap.org/node/13411221991",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "pcelic-spomenik-palim-borcima",
+    "koordinate": {
+      "lat": 45.7727773,
+      "lng": 17.5142082
+    },
+    "title": "Pčelić",
+    "info": "https://www.openstreetmap.org/node/13564688073",
+    "naziv": "Spomenik palim borcima",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "rab-varos-spomenik-palim-borcima",
+    "koordinate": {
+      "lat": 44.7597537,
+      "lng": 14.7597021
+    },
+    "title": "Rab (Varoš)",
+    "info": "https://www.openstreetmap.org/node/855146594",
+    "naziv": "Spomenik palim borcima",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "rakovica-spomen-kosturnica-palim-borcima-nob-a-i-c",
+    "koordinate": {
+      "lat": 44.9940729,
+      "lng": 15.6507017
+    },
+    "title": "Rakovica",
+    "info": "https://www.openstreetmap.org/node/6613056091",
+    "naziv": "Spomen kosturnica palim borcima NOB-a i civilima",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "rastovac-spomenik-nob",
+    "koordinate": {
+      "lat": 45.6822968,
+      "lng": 17.2788355
+    },
+    "title": "Rastovac",
+    "info": "https://www.openstreetmap.org/node/14005155990",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "ravnes-spomenik-nob",
+    "koordinate": {
+      "lat": 45.8682283,
+      "lng": 17.0119618
+    },
+    "title": "Ravneš",
+    "info": "https://www.openstreetmap.org/node/13115438573",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "reka-spomen-ploca-palim-borcima",
+    "koordinate": {
+      "lat": 46.1290746,
+      "lng": 16.7685908
+    },
+    "title": "Reka",
+    "info": "https://www.openstreetmap.org/node/14157454947",
+    "naziv": "Spomen-ploča palim borcima",
+    "type": "ploca",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "removac-spomenik-palim-borcima-nor-a",
+    "koordinate": {
+      "lat": 45.7099473,
+      "lng": 17.4082684
+    },
+    "title": "Removac",
+    "info": "https://www.openstreetmap.org/node/4988103646",
+    "naziv": "Spomenik palim borcima NOR-a",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "rijeka-kozala-spomenik-palim-borcima-nor-a-sa-koza",
+    "koordinate": {
+      "lat": 45.3334292,
+      "lng": 14.4463241
+    },
+    "title": "Rijeka (Kozala)",
+    "info": "https://www.openstreetmap.org/node/14183789116",
+    "naziv": "Spomenik palim borcima NOR-a sa Kozale",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "rijeka-kozala-spomenik-trinaestorici-znanih-i-troj",
+    "koordinate": {
+      "lat": 45.3344557,
+      "lng": 14.441792
+    },
+    "title": "Rijeka (Kozala)",
+    "info": "https://www.openstreetmap.org/node/14183789117",
+    "naziv": "Spomenik trinaestorici znanih i trojici neznanih strijeljanih boraca",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "rijeka-naselje-vulkan-spomenik-borcima-vezice-pali",
+    "koordinate": {
+      "lat": 45.3201954,
+      "lng": 14.4701365
+    },
+    "title": "Rijeka (Naselje Vulkan)",
+    "info": "https://www.openstreetmap.org/node/11401148672",
+    "naziv": "Spomenik borcima Vežice palim u NOR-u",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "rijeka-pehlin-spomenik-palim-borcima-i-zrtvama-fas",
+    "koordinate": {
+      "lat": 45.362989,
+      "lng": 14.4117304
+    },
+    "title": "Rijeka (Pehlin)",
+    "info": "https://www.openstreetmap.org/node/9452557561",
+    "naziv": "Spomenik palim borcima i žrtvama fašizma",
+    "year": "1980",
+    "author": "Vlasta Šušanj",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "rogoznica-poginuli-borci-u-nob-u-1941-1945",
+    "koordinate": {
+      "lat": 43.5257848,
+      "lng": 15.9692169
+    },
+    "title": "Rogoznica",
+    "info": "https://www.openstreetmap.org/node/3726813523",
+    "naziv": "Poginuli borci u NOB-u 1941-1945",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "rogoza-spomenik-palim-borcima-i-zrtvama-fasisticko",
+    "koordinate": {
+      "lat": 45.543077,
+      "lng": 16.8696066
+    },
+    "title": "Rogoža",
+    "info": "https://www.openstreetmap.org/node/13530589541",
+    "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "samarica-spomenik-palim-borcima",
+    "koordinate": {
+      "lat": 45.6980023,
+      "lng": 16.7592768
+    },
+    "title": "Samarica",
+    "info": "https://www.openstreetmap.org/node/13434189137",
+    "naziv": "Spomenik palim borcima",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "samobor-spomenik-palim-borcima-novj",
+    "koordinate": {
+      "lat": 45.8026194,
+      "lng": 15.7125003
+    },
+    "title": "Samobor",
+    "info": "https://www.openstreetmap.org/node/3535762022",
+    "naziv": "Spomenik palim borcima NOVJ",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "severin-spomen-ploca-palim-borcima",
+    "koordinate": {
+      "lat": 45.8396273,
+      "lng": 16.9657003
+    },
+    "title": "Severin",
+    "info": "https://www.openstreetmap.org/node/13004859869",
+    "naziv": "Spomen-ploča palim borcima",
+    "type": "ploca",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "sibenik-spomenik-palim-borcima-zrinska",
+    "koordinate": {
+      "lat": 45.8153973,
+      "lng": 17.1534388
+    },
+    "title": "Sibenik",
+    "info": "https://www.openstreetmap.org/node/13414737304",
+    "naziv": "Spomenik palim borcima Zrinska",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "sibenik-mjesto-strijeljanja-87-zrtava-fasistickog",
+    "koordinate": {
+      "lat": 45.8073544,
+      "lng": 17.188746
+    },
+    "title": "Sibenik",
+    "info": "https://www.openstreetmap.org/node/14026981605",
+    "naziv": "Mjesto strijeljanja 87 žrtava fašističkog terora",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "sibenik-grobnica-32-zrtve-fasistickog-terora",
+    "koordinate": {
+      "lat": 45.8367836,
+      "lng": 17.1585735
+    },
+    "title": "Sibenik",
+    "info": "https://www.openstreetmap.org/way/1462462092",
+    "naziv": "Grobnica 32 žrtve fašističkog terora",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "sirac-spomenik-borcima-nor-a",
+    "koordinate": {
+      "lat": 45.5274388,
+      "lng": 17.2575422
+    },
+    "title": "Sirač",
+    "info": "https://www.openstreetmap.org/node/12049400820",
+    "naziv": "Spomenik borcima NOR-a",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "sirova-katalena-spomen-ploca-palim-borcima",
+    "koordinate": {
+      "lat": 45.9610211,
+      "lng": 17.0636439
+    },
+    "title": "Sirova Katalena",
+    "info": "https://www.openstreetmap.org/node/13404182309",
+    "naziv": "Spomen-ploča palim borcima",
+    "type": "ploca",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "siscani-spomenik-borcima-nob-a",
+    "koordinate": {
+      "lat": 45.8105316,
+      "lng": 16.6540905
+    },
+    "title": "Sišćani",
+    "info": "https://www.openstreetmap.org/node/13140818528",
+    "naziv": "Spomenik borcima NOB-a",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "slavonski-brod-lutvinka-spomenik-palim-borcima",
+    "koordinate": {
+      "lat": 45.1541618,
+      "lng": 18.0354326
+    },
+    "title": "Slavonski Brod (Lutvinka)",
+    "info": "https://www.openstreetmap.org/node/13465007299",
+    "naziv": "Spomenik palim borcima",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "slunj-spomen-kosturnica-nob",
+    "koordinate": {
+      "lat": 45.1146129,
+      "lng": 15.5849855
+    },
+    "title": "Slunj",
+    "info": "https://www.openstreetmap.org/node/1928721210",
+    "naziv": "Spomen-kosturnica NOB",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "slunjcica-spomenik-nob",
+    "koordinate": {
+      "lat": 45.0823734,
+      "lng": 15.5776061
+    },
+    "title": "Slunjčica",
+    "info": "https://www.openstreetmap.org/node/1977087042",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "sokolovac-spomenik-palim-borcima-nob-a",
+    "koordinate": {
+      "lat": 46.1108323,
+      "lng": 16.7076859
+    },
+    "title": "Sokolovac",
+    "info": "https://www.openstreetmap.org/node/13090756224",
+    "naziv": "Spomenik palim borcima NOB-a",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "split-skrape-spomenik-borcima-prvog-splitskog-part",
+    "koordinate": {
+      "lat": 43.5123772,
+      "lng": 16.45684
+    },
+    "title": "Split (Škrape)",
+    "info": "https://www.openstreetmap.org/node/8876567403",
+    "naziv": "Spomenik borcima Prvog splitskog partizanskog odreda",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "sredice-gornje-spomen-grobnica-palim-borcima-nor-a",
+    "koordinate": {
+      "lat": 46.0346773,
+      "lng": 16.8217349
+    },
+    "title": "Sredice Gornje",
+    "info": "https://www.openstreetmap.org/node/13393165058",
+    "naziv": "Spomen-grobnica palim borcima NOR-a",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "srijedska-spomenik-nob",
+    "koordinate": {
+      "lat": 45.7614912,
+      "lng": 16.8493162
+    },
+    "title": "Srijedska",
+    "info": "https://www.openstreetmap.org/node/13115438589",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "stancici-postolje-spomenika-nob",
+    "koordinate": {
+      "lat": 45.9035321,
+      "lng": 16.7558533
+    },
+    "title": "Stančići",
+    "info": "https://www.openstreetmap.org/node/13565370470",
+    "naziv": "Postolje spomenika NOB",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "starjak-palim-borcima-nor-a",
+    "koordinate": {
+      "lat": 45.6719721,
+      "lng": 15.8726718
+    },
+    "title": "Starjak",
+    "info": "https://www.openstreetmap.org/node/7242411606",
+    "naziv": "Palim borcima NOR-a",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "stupovaca-spomenik-nob",
+    "koordinate": {
+      "lat": 45.5345557,
+      "lng": 16.8428354
+    },
+    "title": "Stupovača",
+    "info": "https://www.openstreetmap.org/node/13462208815",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "susine-spomenik-palim-borcima-nob-a",
+    "koordinate": {
+      "lat": 45.549775,
+      "lng": 18.0637652
+    },
+    "title": "Sušine",
+    "info": "https://www.openstreetmap.org/node/4999820921",
+    "naziv": "Spomenik palim borcima NOB-a",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "sveti-juraj-palim-borsima-nor-a-1941-1945",
+    "koordinate": {
+      "lat": 44.9286983,
+      "lng": 14.9192156
+    },
+    "title": "Sveti Juraj",
+    "info": "https://www.openstreetmap.org/node/4995598372",
+    "naziv": "Palim Borsima Nor-a 1941-1945",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "sveti-martin-palim-borcima",
+    "koordinate": {
+      "lat": 45.1276162,
+      "lng": 14.0522432
+    },
+    "title": "Sveti Martin",
+    "info": "https://www.openstreetmap.org/node/8984365982",
+    "naziv": "Palim borcima",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "tinjan-zrtve-fasistickog-terora",
+    "koordinate": {
+      "lat": 45.2170564,
+      "lng": 13.8400516
+    },
+    "title": "Tinjan",
+    "info": "https://www.openstreetmap.org/node/10247713571",
+    "naziv": "Žrtve fašističkog terora",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "tomasica-spomenik-palim-borcima-nob-a",
+    "koordinate": {
+      "lat": 45.6079162,
+      "lng": 17.0061927
+    },
+    "title": "Tomašica",
+    "info": "https://www.openstreetmap.org/node/13140810474",
+    "naziv": "Spomenik palim borcima NOB-a",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "tomici-nob",
+    "koordinate": {
+      "lat": 45.1721013,
+      "lng": 14.9718424
+    },
+    "title": "Tomići",
+    "info": "https://www.openstreetmap.org/node/6801301289",
+    "naziv": "NOB",
+    "year": "1941",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "trnoviticki-popovac-spomenik-palim-borcima-nor-a",
+    "koordinate": {
+      "lat": 45.6465117,
+      "lng": 16.8689007
+    },
+    "title": "Trnovitički Popovac",
+    "info": "https://www.openstreetmap.org/node/13140818521",
+    "naziv": "Spomenik palim borcima NOR-a",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "trojeglava-spomenik-nob",
+    "koordinate": {
+      "lat": 45.5376589,
+      "lng": 17.1148167
+    },
+    "title": "Trojeglava",
+    "info": "https://www.openstreetmap.org/node/13462228388",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "turnasica-spomenik-nob",
+    "koordinate": {
+      "lat": 45.8870749,
+      "lng": 17.2185966
+    },
+    "title": "Turnašica",
+    "info": "https://www.openstreetmap.org/node/14103742129",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "vela-ucka-nob",
+    "koordinate": {
+      "lat": 45.3081832,
+      "lng": 14.2156154
+    },
+    "title": "Vela Učka",
+    "info": "https://www.openstreetmap.org/node/13974095165",
+    "naziv": "NOB",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "veli-iz-veli-iz-svojim-palim-borcima-za-slobodu-19",
+    "koordinate": {
+      "lat": 44.051821,
+      "lng": 15.1083146
+    },
+    "title": "Veli Iž",
+    "info": "https://www.openstreetmap.org/node/12086651639",
+    "naziv": "Veli Iž svojim palim borcima za slobodu 1941–1945",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "velika-spomen-kosturnica-poginulih-boraca-nor-a",
+    "koordinate": {
+      "lat": 45.4430179,
+      "lng": 17.6659681
+    },
+    "title": "Velika",
+    "info": "https://www.openstreetmap.org/node/14156309211",
+    "naziv": "Spomen kosturnica poginulih boraca NOR-a",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "velika-babina-gora-spomenik-nob",
+    "koordinate": {
+      "lat": 45.7140958,
+      "lng": 17.4428323
+    },
+    "title": "Velika Babina Gora",
+    "info": "https://www.openstreetmap.org/node/14087885550",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "velika-barna-spomenik-palim-borcima",
+    "koordinate": {
+      "lat": 45.7346819,
+      "lng": 17.1395897
+    },
+    "title": "Velika Barna",
+    "info": "https://www.openstreetmap.org/node/13411187634",
+    "naziv": "Spomenik palim borcima",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "velika-brsljanica-spomenik-palim-borcima-nor-a",
+    "koordinate": {
+      "lat": 45.5840895,
+      "lng": 16.8508986
+    },
+    "title": "Velika Bršljanica",
+    "info": "https://www.openstreetmap.org/node/13462034876",
+    "naziv": "Spomenik palim borcima NOR-a",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "velika-mucna-spomenik-palim-borcima-i-zrtvama-fasi",
+    "koordinate": {
+      "lat": 46.1196238,
+      "lng": 16.7447615
+    },
+    "title": "Velika Mučna",
+    "info": "https://www.openstreetmap.org/node/9435263575",
+    "naziv": "Spomenik palim borcima i žrtvama fašizma",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "velika-peratovica-ostaci-spomenika-nob",
+    "koordinate": {
+      "lat": 45.7560799,
+      "lng": 17.2528927
+    },
+    "title": "Velika Peratovica",
+    "info": "https://www.openstreetmap.org/node/13411187570",
+    "naziv": "Ostaci spomenika NOB",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "velika-trnovitica-spomenik-borcima-nor-a",
+    "koordinate": {
+      "lat": 45.683284,
+      "lng": 16.9544801
+    },
+    "title": "Velika Trnovitica",
+    "info": "https://www.openstreetmap.org/node/12909688185",
+    "naziv": "Spomenik borcima NOR-a",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "velika-trnovitica-spomen-kosturnica-palim-borcima",
+    "koordinate": {
+      "lat": 45.6882191,
+      "lng": 16.9404989
+    },
+    "title": "Velika Trnovitica",
+    "info": "https://www.openstreetmap.org/node/13446552941",
+    "naziv": "Spomen-kosturnica palim borcima",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "velika-cresnjevica-spomenik-nob",
+    "koordinate": {
+      "lat": 45.9071815,
+      "lng": 17.1800239
+    },
+    "title": "Velika Črešnjevica",
+    "info": "https://www.openstreetmap.org/node/6717280913",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "veliki-bastaji-spomenik-nob",
+    "koordinate": {
+      "lat": 45.644125,
+      "lng": 17.3214815
+    },
+    "title": "Veliki Bastaji",
+    "info": "https://www.openstreetmap.org/node/13414565391",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "veliki-botinovac-spomenik-palim-borcima-nob-a",
+    "koordinate": {
+      "lat": 46.1172309,
+      "lng": 16.660884
+    },
+    "title": "Veliki Botinovac",
+    "info": "https://www.openstreetmap.org/node/14157476517",
+    "naziv": "Spomenik palim borcima NOB-a",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "veliki-grdjevac-grobnica-boraca-nor-a",
+    "koordinate": {
+      "lat": 45.7484315,
+      "lng": 17.049744
+    },
+    "title": "Veliki Grđevac",
+    "info": "https://www.openstreetmap.org/node/13414716795",
+    "naziv": "Grobnica boraca NOR-a",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "veliki-pasijan-spomenik-palim-borcima",
+    "koordinate": {
+      "lat": 45.6388582,
+      "lng": 16.9315728
+    },
+    "title": "Veliki Pašijan",
+    "info": "https://www.openstreetmap.org/node/13462162024",
+    "naziv": "Spomenik palim borcima",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "veliko-vukovje-spomenik-palim-borcima",
+    "koordinate": {
+      "lat": 45.5197855,
+      "lng": 16.886701
+    },
+    "title": "Veliko Vukovje",
+    "info": "https://www.openstreetmap.org/node/13413904382",
+    "naziv": "Spomenik palim borcima",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "vinjerac-palim-borcima",
+    "koordinate": {
+      "lat": 44.2566655,
+      "lng": 15.4642083
+    },
+    "title": "Vinjerac",
+    "info": "https://www.openstreetmap.org/node/9569024127",
+    "naziv": "Palim borcima",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "vojakovac-spomenik-zrtvama-fasizma-bivse-vojakovac",
+    "koordinate": {
+      "lat": 46.0643691,
+      "lng": 16.5947223
+    },
+    "title": "Vojakovac",
+    "info": "https://www.openstreetmap.org/node/13459206756",
+    "naziv": "Spomenik žrtvama fašizma bivše Vojakovačke općine",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "vocin-spomenik-palim-borcima",
+    "koordinate": {
+      "lat": 45.6189155,
+      "lng": 17.5432428
+    },
+    "title": "Voćin",
+    "info": "https://www.openstreetmap.org/node/13565671586",
+    "naziv": "Spomenik palim borcima",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "vrbovec-spomenik-palim-borcima-nob-a",
+    "koordinate": {
+      "lat": 45.8842856,
+      "lng": 16.4168527
+    },
+    "title": "Vrbovec",
+    "info": "https://www.openstreetmap.org/node/5264669428",
+    "naziv": "Spomenik palim borcima NOB-a",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "vukovar-ii-kolonija-spomenik-palim-borcima",
+    "koordinate": {
+      "lat": 45.3763268,
+      "lng": 18.9642574
+    },
+    "title": "Vukovar (II. kolonija)",
+    "info": "https://www.openstreetmap.org/node/2988662336",
+    "naziv": "Spomenik Palim Borcima",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "vukovar-sapudl-spomen-kosturnica-zrtava-fasizma",
+    "koordinate": {
+      "lat": 45.3566959,
+      "lng": 18.9940331
+    },
+    "title": "Vukovar (Šapudl)",
+    "info": "https://www.openstreetmap.org/node/8047730375",
+    "naziv": "Spomen-kosturnica žrtava fašizma",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "zabok-zivote-su-dali-u-narodno-oslobodilackoj-borb",
+    "koordinate": {
+      "lat": 46.0254177,
+      "lng": 15.9061412
+    },
+    "title": "Zabok",
+    "info": "https://www.openstreetmap.org/node/7262931614",
+    "naziv": "Živote su dali u Narodno-oslobodilačkoj borbi",
+    "type": "ploca",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "zabrdje-spomenik-palim-borcima-nob-a",
+    "koordinate": {
+      "lat": 45.8846296,
+      "lng": 16.4990002
+    },
+    "title": "Zabrđe",
+    "info": "https://www.openstreetmap.org/node/14114227717",
+    "naziv": "Spomenik palim borcima NOB-a",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "zagreb-luksic-spomen-ploca-palim-borcima-i-zrtvama",
+    "koordinate": {
+      "lat": 45.8530485,
+      "lng": 15.9495112
+    },
+    "title": "Zagreb (Lukšić)",
+    "info": "https://www.openstreetmap.org/node/10212051132",
+    "naziv": "Spomen ploča palim borcima i žrtvama fašizma",
+    "type": "ploca",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "zagreb-marticeva-mjesto-sastajanja-mjesnog-komitet",
+    "koordinate": {
+      "lat": 45.8136402,
+      "lng": 15.9986462
+    },
+    "title": "Zagreb (Martićeva)",
+    "info": "https://www.openstreetmap.org/node/5310257378",
+    "naziv": "Mjesto sastajanja mjesnog komiteta SKOJ-a 1941. i 1942.",
+    "type": "ploca",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "zagreb-tuskanac-vjesnik-radnog-naroda",
+    "koordinate": {
+      "lat": 45.81622,
+      "lng": 15.9674929
+    },
+    "title": "Zagreb (Tuškanac)",
+    "info": "https://www.openstreetmap.org/node/4820535148",
+    "naziv": "Vjesnik radnog naroda",
+    "type": "ploca",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "zagreb-vurovcica-istranina-palim-borcima-nor-a",
+    "koordinate": {
+      "lat": 45.7947931,
+      "lng": 15.943609
+    },
+    "title": "Zagreb (Vurovčica)",
+    "info": "https://www.openstreetmap.org/node/6464898096",
+    "naziv": "Istranina palim borcima NOR-a",
+    "type": "ploca",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "zagreb-crnomerec-plamen-revolucije",
+    "koordinate": {
+      "lat": 45.8198117,
+      "lng": 15.9386906
+    },
+    "title": "Zagreb (Črnomerec)",
+    "info": "https://www.openstreetmap.org/node/2825194963",
+    "naziv": "Plamen revolucije",
+    "year": "1959",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "zvoneca-stab-nov-1944",
+    "koordinate": {
+      "lat": 45.3809529,
+      "lng": 14.2397084
+    },
+    "title": "Zvoneća",
+    "info": "https://www.openstreetmap.org/node/4910212448",
+    "naziv": "Štab NOV 1944",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "zvoneca-nob",
+    "koordinate": {
+      "lat": 45.3880729,
+      "lng": 14.2496972
+    },
+    "title": "Zvoneća",
+    "info": "https://www.openstreetmap.org/node/9814596394",
+    "naziv": "NOB",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "cazma-spomen-ploca-savjetovanja-kph-a-za-sjevernu",
+    "koordinate": {
+      "lat": 45.7507416,
+      "lng": 16.6181625
+    },
+    "title": "Čazma",
+    "info": "https://www.openstreetmap.org/node/12061072042",
+    "naziv": "Spomen-ploča savjetovanja KPH-a za Sjevernu Hrvatsku 1944",
+    "type": "ploca",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "cazma-klet-brdo-spomenik-nob",
+    "koordinate": {
+      "lat": 45.7371625,
+      "lng": 16.6530316
+    },
+    "title": "Čazma (Klet Brdo)",
+    "info": "https://www.openstreetmap.org/node/13122971411",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "djakovo-groblje-spomen-grobnica-palim-borcima-nor",
+    "koordinate": {
+      "lat": 45.3049491,
+      "lng": 18.4051745
+    },
+    "title": "Đakovo (Groblje)",
+    "info": "https://www.openstreetmap.org/node/14140595195",
+    "naziv": "Spomen-grobnica palim borcima NOR-a",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "djelekovec-spomenik-palim-borcima",
+    "koordinate": {
+      "lat": 46.2502559,
+      "lng": 16.8617972
+    },
+    "title": "Đelekovec",
+    "info": "https://www.openstreetmap.org/node/14143063451",
+    "naziv": "Spomenik palim borcima",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "djurdjevac-ciglana-spomenik-palim-borcima-kalinova",
+    "koordinate": {
+      "lat": 46.0208122,
+      "lng": 17.1128428
+    },
+    "title": "Đurđevac (Ciglana)",
+    "info": "https://www.openstreetmap.org/node/13404323627",
+    "naziv": "Spomenik palim borcima Kalinovac",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "djurdjevac-novo-selo-nob-novo-selo",
+    "koordinate": {
+      "lat": 46.0463859,
+      "lng": 17.0546631
+    },
+    "title": "Đurđevac (Novo Selo)",
+    "info": "https://www.openstreetmap.org/node/12300553323",
+    "naziv": "NOB Novo Selo",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "sandrovac-spomenik-palim-borcima-nob-a",
+    "koordinate": {
+      "lat": 45.9047957,
+      "lng": 17.0287571
+    },
+    "title": "Šandrovac",
+    "info": "https://www.openstreetmap.org/node/7944909150",
+    "naziv": "Spomenik palim borcima NOB-a",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "sarengrad-spomenik-nob",
+    "koordinate": {
+      "lat": 45.2330074,
+      "lng": 19.2752338
+    },
+    "title": "Šarengrad",
+    "info": "https://www.openstreetmap.org/node/14024511725",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "sibovac-spomenik-palim-borcima",
+    "koordinate": {
+      "lat": 45.5682868,
+      "lng": 17.1982009
+    },
+    "title": "Šibovac",
+    "info": "https://www.openstreetmap.org/node/4776439990",
+    "naziv": "Spomenik palim borcima",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "scitarjevo-spomenik-palim-borcima",
+    "koordinate": {
+      "lat": 45.7732814,
+      "lng": 16.1169566
+    },
+    "title": "Šćitarjevo",
+    "info": "https://www.openstreetmap.org/node/3822156508",
+    "naziv": "Spomenik palim borcima",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "zupanja-bivsi-spomenik-nob",
+    "koordinate": {
+      "lat": 45.0760694,
+      "lng": 18.695288
+    },
+    "title": "Županja",
+    "info": "https://www.openstreetmap.org/node/12321188380",
+    "naziv": "Bivši spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "brezovica-spomenik-streljanim-pripadnicima-nop-a",
+    "koordinate": {
+      "lat": 42.2274499,
+      "lng": 21.0138798
+    },
+    "title": "Brezovica",
+    "info": "https://www.openstreetmap.org/node/13154589853",
+    "naziv": "Spomenik streljanim pripadnicima NOP-a",
+    "type": "lokalni",
+    "drzava": "Kosovo"
+  },
+  {
+    "id": "kavadarci-naroden-heroj-kiro-atanasovski-nalbatot",
+    "koordinate": {
+      "lat": 41.4336396,
+      "lng": 22.019484
+    },
+    "title": "Kavadarci",
+    "info": "https://www.openstreetmap.org/node/11845001868",
+    "naziv": "Народен херој Киро Атанасовски-Налбатот;Народен херој Димче Мирчев",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "prilep-naroden-heroj-narednik-borka-veleski-levata",
+    "koordinate": {
+      "lat": 41.3435379,
+      "lng": 21.5527512
+    },
+    "title": "Prilep",
+    "info": "https://www.openstreetmap.org/node/13245854994",
+    "naziv": "Народен Херој Наредник Борка Велески-Левата",
+    "type": "ploca",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "prilep-carsija-naroden-heroj-kire-gavriloski-jane",
+    "koordinate": {
+      "lat": 41.3465084,
+      "lng": 21.5630015
+    },
+    "title": "Prilep (Čaršija)",
+    "info": "https://www.openstreetmap.org/node/8048135011",
+    "naziv": "Народен Херој Кире Гаврилоски-Јане\nНароден Херој Круме Волнароски-Коле\n09-V-1944",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "pletvar-naroden-heroj-borka-taleski-crniot-naroden",
+    "koordinate": {
+      "lat": 41.3701633,
+      "lng": 21.6787178
+    },
+    "title": "Pletvar",
+    "info": "https://www.openstreetmap.org/node/8484052150",
+    "naziv": "Народен херој Борка Талески-Црниот;Народен херој Лазо Филиповски-Лавски",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "radiovce-spomenik-na-zrtvi-od-nov",
+    "koordinate": {
+      "lat": 41.9062455,
+      "lng": 20.9636431
+    },
+    "title": "Radiovce",
+    "info": "https://www.openstreetmap.org/node/3039854149",
+    "naziv": "Споменик на жртви од НОВ",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "skopje-novo-maalo-slave-georgievski-snajderot",
+    "koordinate": {
+      "lat": 41.9919231,
+      "lng": 21.4364226
+    },
+    "title": "Skopje (Novo Maalo)",
+    "info": "https://www.openstreetmap.org/node/13308387070",
+    "naziv": "Славе Георгиевски Шнајдерот",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "smilanci-spomenik-na-malesevskiot-maleski-narodnoo",
+    "koordinate": {
+      "lat": 41.7213441,
+      "lng": 22.6569551
+    },
+    "title": "Smilanci",
+    "info": "https://www.openstreetmap.org/node/6349721704",
+    "naziv": "Споменик на Малешевскиот (Малешки) народноослободителен одред",
+    "type": "ploca",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "faris-spomenik-na-makedonskite-partizani-i-patriot",
+    "koordinate": {
+      "lat": 41.4412381,
+      "lng": 21.8218762
+    },
+    "title": "Fariš",
+    "info": "https://www.openstreetmap.org/node/12198984366",
+    "naziv": "Споменик на македонските партизани и патриоти стрелани од бугарскиот фашистички окупатор",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "bratesici-spomenik-nob-u",
+    "koordinate": {
+      "lat": 42.3431461,
+      "lng": 18.7900454
+    },
+    "title": "Bratešići",
+    "info": "https://www.openstreetmap.org/node/4968401997",
+    "naziv": "Spomenik NOB-u",
+    "type": "lokalni",
+    "drzava": "Montenegro"
+  },
+  {
+    "id": "cerovo-stela-u-znak-secanja-na-izgubljene-partizan",
+    "koordinate": {
+      "lat": 42.6803631,
+      "lng": 18.978134
+    },
+    "title": "Cerovo",
+    "info": "https://www.openstreetmap.org/node/7402991632",
+    "naziv": "Stela u znak sećanja na izgubljene partizane",
+    "type": "lokalni",
+    "drzava": "Montenegro"
+  },
+  {
+    "id": "cerovo-stela-sa-prezimenima-poginulih-partizana-cr",
+    "koordinate": {
+      "lat": 42.6696176,
+      "lng": 19.0272499
+    },
+    "title": "Cerovo",
+    "info": "https://www.openstreetmap.org/node/7402991633",
+    "naziv": "Stela sa prezimenima poginulih Partizana-Crnogorci u Drugom svetskom ratu",
+    "type": "lokalni",
+    "drzava": "Montenegro"
+  },
+  {
+    "id": "milovici-memorial-to-the-victims-of-italian-fascis",
+    "koordinate": {
+      "lat": 42.402051,
+      "lng": 18.674409
+    },
+    "title": "Milovići",
+    "info": "https://www.openstreetmap.org/node/14178408403",
+    "naziv": "Memorial to the Victims of Italian Fascism WW2",
+    "type": "lokalni",
+    "drzava": "Montenegro"
+  },
+  {
+    "id": "petrov-do-ww2-memorial",
+    "koordinate": {
+      "lat": 42.4254585,
+      "lng": 18.8729924
+    },
+    "title": "Petrov Do",
+    "info": "https://www.openstreetmap.org/node/14214486411",
+    "naziv": "WW2 Memorial",
+    "type": "lokalni",
+    "drzava": "Montenegro"
+  },
+  {
+    "id": "zagarac-spomenik-palim-borcima-i-zrtvama-u-drugom",
+    "koordinate": {
+      "lat": 42.5048168,
+      "lng": 19.089311
+    },
+    "title": "Zagarač",
+    "info": "https://www.openstreetmap.org/node/8547259251",
+    "naziv": "Spomenik palim borcima i žrtvama u Drugom svjetskom ratu",
+    "type": "lokalni",
+    "drzava": "Montenegro"
+  },
+  {
+    "id": "apatin-spomen-obelezija-palim-borcima",
+    "koordinate": {
+      "lat": 45.6735064,
+      "lng": 18.9789592
+    },
+    "title": "Apatin",
+    "info": "https://www.openstreetmap.org/node/3121934536",
+    "naziv": "Spomen obeležija palim borcima",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "arilje-spomenik-nob",
+    "koordinate": {
+      "lat": 43.7527514,
+      "lng": 20.1014019
+    },
+    "title": "Arilje",
+    "info": "https://www.openstreetmap.org/way/1292146674",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "arnajevo-spomenik-palim-borcima",
+    "koordinate": {
+      "lat": 44.4896511,
+      "lng": 20.3698555
+    },
+    "title": "Arnajevo",
+    "info": "https://www.openstreetmap.org/node/4113742469",
+    "naziv": "Spomenik palim borcima",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "banatski-brestovac-spomenik-palim-borcima-nor-i-zf",
+    "koordinate": {
+      "lat": 44.7287351,
+      "lng": 20.8104778
+    },
+    "title": "Banatski Brestovac",
+    "info": "https://www.openstreetmap.org/node/8305960672",
+    "naziv": "Spomenik palim borcima NOR i ŽFT",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "banatsko-novo-selo-spomenik-palim-borcima-i-zrtvam",
+    "koordinate": {
+      "lat": 44.9913729,
+      "lng": 20.7842392
+    },
+    "title": "Banatsko Novo Selo",
+    "info": "https://www.openstreetmap.org/node/8468934196",
+    "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "beli-potok-spomen-cesma-palim-borcima-u-drugom-sve",
+    "koordinate": {
+      "lat": 44.7062819,
+      "lng": 20.5202908
+    },
+    "title": "Beli Potok",
+    "info": "https://www.openstreetmap.org/node/14006518232",
+    "naziv": "Spomen-česma palim borcima u Drugom svetskom ratu",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "belosavci-zrtava-terora-1941-1945",
+    "koordinate": {
+      "lat": 44.3280429,
+      "lng": 20.690963
+    },
+    "title": "Belosavci",
+    "info": "https://www.openstreetmap.org/node/3691362601",
+    "naziv": "Žrtava terora 1941-1945.",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "beograd-spomenik-obalskim-radnicima-palim-u-nob-u",
+    "koordinate": {
+      "lat": 44.8181235,
+      "lng": 20.4491133
+    },
+    "title": "Beograd",
+    "info": "https://www.openstreetmap.org/node/2319208115",
+    "naziv": "Spomenik obalskim radnicima palim u NOB-u",
+    "year": "1952",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "beograd-savamala-ovde-je-ziveo-ucitelj-miladin-zar",
+    "koordinate": {
+      "lat": 44.8119591,
+      "lng": 20.4538855
+    },
+    "title": "Beograd (Savamala)",
+    "info": "https://www.openstreetmap.org/node/12699414554",
+    "naziv": "Ovde je živeo učitelj Miladin Zarić koji je 20.X 1944. godine, tokom bitke za oslobođenje Beograda od nacističke okupacije, spasao Savski most od rušenja eksplozivom.",
+    "type": "ploca",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "beograd-skadarlija-iz-ove-bolnice-oslobodjen-je-30",
+    "koordinate": {
+      "lat": 44.8160944,
+      "lng": 20.4703647
+    },
+    "title": "Beograd (Skadarlija)",
+    "info": "https://www.openstreetmap.org/node/12714391747",
+    "naziv": "Iz ove bolnice oslobođen je 30. jula 1941. godine narodni heroj Aleksandar Ranković-Marko",
+    "type": "ploca",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "beograd-staro-sajmiste-spomen-ploca-zrtvama-logora",
+    "koordinate": {
+      "lat": 44.8134728,
+      "lng": 20.4426894
+    },
+    "title": "Beograd (Staro Sajmište)",
+    "info": "https://www.openstreetmap.org/node/1782440160",
+    "naziv": "Spomen-ploča žrtvama logora Sajmište",
+    "type": "ploca",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "beocin-stari-rakovac-spomenik-3-ceti-fruskogorskog",
+    "koordinate": {
+      "lat": 45.1574588,
+      "lng": 19.7421058
+    },
+    "title": "Beočin (Stari Rakovac)",
+    "info": "https://www.openstreetmap.org/node/6680901462",
+    "naziv": "Spomenik 3. četi Fruškogorskog partizanskog odreda",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "besenovacki-prnjavor-spomenik-6-ceti-fruskogorskog",
+    "koordinate": {
+      "lat": 45.1423978,
+      "lng": 19.7024924
+    },
+    "title": "Bešenovački Prnjavor",
+    "info": "https://www.openstreetmap.org/node/6558067551",
+    "naziv": "Spomenik 6. četi Fruškogorskog partizanskog odreda",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "besenovacki-prnjavor-spomenik-prvim-sremskim-parti",
+    "koordinate": {
+      "lat": 45.1498895,
+      "lng": 19.6749884
+    },
+    "title": "Bešenovački Prnjavor",
+    "info": "https://www.openstreetmap.org/node/10054764800",
+    "naziv": "Spomenik prvim sremskim partizanima",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "borca-sutjeska-spomenik-streljanim-rodoljubima",
+    "koordinate": {
+      "lat": 44.8633324,
+      "lng": 20.3689681
+    },
+    "title": "Borča (Sutjeska)",
+    "info": "https://www.openstreetmap.org/node/12903046185",
+    "naziv": "Spomenik streljanim rodoljubima",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "bukor-spomenik-palim-borcima-od-1941-do-1945",
+    "koordinate": {
+      "lat": 44.5118598,
+      "lng": 19.5907992
+    },
+    "title": "Bukor",
+    "info": "https://www.openstreetmap.org/node/11123737530",
+    "naziv": "Spomenik palim borcima od 1941. do 1945.",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "cerje-palim-borcima-1941-1945",
+    "koordinate": {
+      "lat": 43.4292615,
+      "lng": 21.9106294
+    },
+    "title": "Cerje",
+    "info": "https://www.openstreetmap.org/node/3061852521",
+    "naziv": "Palim borcima 1941-1945",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "deliblato-spomenik-streljanim-jevrejima",
+    "koordinate": {
+      "lat": 44.8666941,
+      "lng": 21.061503
+    },
+    "title": "Deliblato",
+    "info": "https://www.openstreetmap.org/node/7787478260",
+    "naziv": "Spomenik streljanim Jevrejima",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "dobanovci-batajnica-spomenik-nastradalim-zeleznick",
+    "koordinate": {
+      "lat": 44.898942,
+      "lng": 20.2727241
+    },
+    "title": "Dobanovci (Batajnica)",
+    "info": "https://www.openstreetmap.org/node/9939639223",
+    "naziv": "Spomenik nastradalim železničkim radnicima u Narodnooslobodilačkoj borbi",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "dojkinci-spomenicki-prostor-sa-spomen-plocom-strel",
+    "koordinate": {
+      "lat": 43.2811339,
+      "lng": 22.8450368
+    },
+    "title": "Dojkinci",
+    "info": "https://www.openstreetmap.org/node/6389590782",
+    "naziv": "Spomenički prostor sa spomen pločom streljanim pripadnicima NOR-a na Kaca",
+    "type": "ploca",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "dolovo-spomenik-za-slobodu-i-zrtvama-fasistickog-t",
+    "koordinate": {
+      "lat": 44.9070918,
+      "lng": 20.8799806
+    },
+    "title": "Dolovo",
+    "info": "https://www.openstreetmap.org/node/10000645403",
+    "naziv": "Spomenik za slobodu i žrtvama fašističkog terora 1941-1945",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "drenovac-spomenik-palim-borcima-u-2-svetskom-ratu",
+    "koordinate": {
+      "lat": 44.8672734,
+      "lng": 19.7098716
+    },
+    "title": "Drenovac",
+    "info": "https://www.openstreetmap.org/node/4894366031",
+    "naziv": "Spomenik palim borcima u 2 svetskom ratu",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "dreznik-spomenik-bici-na-dreznickoj-gradini",
+    "koordinate": {
+      "lat": 43.7839842,
+      "lng": 19.9367998
+    },
+    "title": "Drežnik",
+    "info": "https://www.openstreetmap.org/node/5637157236",
+    "naziv": "Spomenik bici na Drežničkoj gradini",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "gornja-satornja-spomenik-zrtvama-narodnooslobodila",
+    "koordinate": {
+      "lat": 44.2065628,
+      "lng": 20.5910841
+    },
+    "title": "Gornja Šatornja",
+    "info": "https://www.openstreetmap.org/node/13144844701",
+    "naziv": "Spomenik žrtvama narodnooslobodilačke borbe 1941-1945",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "gornjane-spomenik-palim-borcima-nob-a",
+    "koordinate": {
+      "lat": 44.243678,
+      "lng": 22.0619396
+    },
+    "title": "Gornjane",
+    "info": "https://www.openstreetmap.org/node/13987876459",
+    "naziv": "Spomenik palim borcima NOB-a",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "grgeteg-spomenik-2-ceti-podunavskog-partizanskog-o",
+    "koordinate": {
+      "lat": 45.1577227,
+      "lng": 19.877277
+    },
+    "title": "Grgeteg",
+    "info": "https://www.openstreetmap.org/node/6680896887",
+    "naziv": "Spomenik 2. četi Podunavskog partizanskog odreda",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "grgeteg-spomenik-3-ceti-podunavskog-partizanskog-o",
+    "koordinate": {
+      "lat": 45.1506547,
+      "lng": 19.8979388
+    },
+    "title": "Grgeteg",
+    "info": "https://www.openstreetmap.org/node/6681312059",
+    "naziv": "Spomenik 3. četi Podunavskog partizanskog odreda",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "grgurevci-spomenik-1-ceti-fruskogorskog-partizansk",
+    "koordinate": {
+      "lat": 45.1357444,
+      "lng": 19.6684402
+    },
+    "title": "Grgurevci",
+    "info": "https://www.openstreetmap.org/node/6680911820",
+    "naziv": "Spomenik 1. četi Fruškogorskog partizanskog odreda i Partizanskoj bolnici",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "irig-spomenik-streljanima",
+    "koordinate": {
+      "lat": 45.0924871,
+      "lng": 19.8666063
+    },
+    "title": "Irig",
+    "info": "https://www.openstreetmap.org/node/6681270769",
+    "naziv": "Spomenik streljanima",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "irig-krstasice-spomenik-1-ceti-podunavskog-partiza",
+    "koordinate": {
+      "lat": 45.1537822,
+      "lng": 19.8454006
+    },
+    "title": "Irig (Krstašice)",
+    "info": "https://www.openstreetmap.org/node/6681270572",
+    "naziv": "Spomenik 1. četi Podunavskog partizanskog odreda",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "karadjordjevo-spomenik-partizanima",
+    "koordinate": {
+      "lat": 45.8558096,
+      "lng": 19.5882361
+    },
+    "title": "Karađorđevo",
+    "info": "https://www.openstreetmap.org/node/6379094485",
+    "naziv": "Spomenik partizanima",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "kladurovo-spomenik-palim-borcima",
+    "koordinate": {
+      "lat": 44.4395762,
+      "lng": 21.5407349
+    },
+    "title": "Kladurovo",
+    "info": "https://www.openstreetmap.org/node/4745342799",
+    "naziv": "Spomenik palim borcima",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "kostrosevci-partizanski-pametnik",
+    "koordinate": {
+      "lat": 42.7739083,
+      "lng": 22.5047781
+    },
+    "title": "Kostroševci",
+    "info": "https://www.openstreetmap.org/node/4729213169",
+    "naziv": "Partizanski pametnik",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "krusevac-zrtava-fasizma",
+    "koordinate": {
+      "lat": 43.5773507,
+      "lng": 21.331811
+    },
+    "title": "Kruševac",
+    "info": "https://www.openstreetmap.org/node/4585062121",
+    "naziv": "Žrtava fašizma",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "lazarevac-pregnanci-iz-slovenije-1941-1945-bratstv",
+    "koordinate": {
+      "lat": 44.3825482,
+      "lng": 20.2624007
+    },
+    "title": "Lazarevac",
+    "info": "https://www.openstreetmap.org/node/10172474543",
+    "naziv": "Pregnanci iz Slovenije 1941-1945 Bratstvi Enotnost",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "mandjelos-spomenik-borcima-nob-a",
+    "koordinate": {
+      "lat": 45.0829108,
+      "lng": 19.5955401
+    },
+    "title": "Manđelos",
+    "info": "https://www.openstreetmap.org/node/9516159973",
+    "naziv": "Spomenik borcima NOB-a",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "metovnica-spomen-cesma-palim-borcima-u-nob-u",
+    "koordinate": {
+      "lat": 43.9555462,
+      "lng": 22.1409177
+    },
+    "title": "Metovnica",
+    "info": "https://www.openstreetmap.org/node/13991049745",
+    "naziv": "Spomen-česma palim borcima u NOB-u",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "novi-kozjak-spomenik-streljanima-u-ii-svetskom-rat",
+    "koordinate": {
+      "lat": 45.183616,
+      "lng": 20.8640858
+    },
+    "title": "Novi Kozjak",
+    "info": "https://www.openstreetmap.org/way/43565074",
+    "naziv": "Spomenik streljanima u II svetskom ratu",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "novi-sad-severni-telep-spomen-kuca-narodnog-heroja",
+    "koordinate": {
+      "lat": 45.245942,
+      "lng": 19.8253197
+    },
+    "title": "Novi Sad (Severni Telep)",
+    "info": "https://www.openstreetmap.org/node/11730286488",
+    "naziv": "Spomen-kuća narodnog heroja Olge Petrov",
+    "type": "ploca",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "novi-zednik-spomenik-palim-borcima-i-zrtvama-fasis",
+    "koordinate": {
+      "lat": 45.9397402,
+      "lng": 19.6717045
+    },
+    "title": "Novi Žednik",
+    "info": "https://www.openstreetmap.org/node/8293119319",
+    "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "omoljica-pali-borci-u-narodnooslobodilackom-ratu",
+    "koordinate": {
+      "lat": 44.7583343,
+      "lng": 20.7371154
+    },
+    "title": "Omoljica",
+    "info": "https://www.openstreetmap.org/node/8381307750",
+    "naziv": "Pali borci u narodnooslobodilačkom ratu",
+    "type": "ploca",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "ostruznica-stari-zeleznik-spomenik-palim-borcima",
+    "koordinate": {
+      "lat": 44.7241315,
+      "lng": 20.3718938
+    },
+    "title": "Ostružnica (Stari Železnik)",
+    "info": "https://www.openstreetmap.org/node/6369850058",
+    "naziv": "Spomenik palim borcima",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "pancevo-spomen-ploca-streljanim-gradjanima-panceva",
+    "koordinate": {
+      "lat": 44.8753009,
+      "lng": 20.6524133
+    },
+    "title": "Pančevo",
+    "info": "https://www.openstreetmap.org/node/14052360975",
+    "naziv": "Spomen-ploča streljanim građanima Pančeva",
+    "type": "ploca",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "petrovac-na-mlavi-spomenik-borcima-nob-a",
+    "koordinate": {
+      "lat": 44.3756915,
+      "lng": 21.4173439
+    },
+    "title": "Petrovac na Mlavi",
+    "info": "https://www.openstreetmap.org/node/2311680728",
+    "naziv": "Spomenik borcima NOB-a",
+    "type": "ploca",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "pinosava-rakovica-spomen-cesma-u-spomen-palim-borc",
+    "koordinate": {
+      "lat": 44.7489078,
+      "lng": 20.4384591
+    },
+    "title": "Pinosava (Rakovica)",
+    "info": "https://www.openstreetmap.org/node/6400587027",
+    "naziv": "Spomen česma „U spomen palim borcima u Prvom i Drugom svetskom ratu”",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "podgorac-spomen-cesma-borcima-nob-a-na-valja-rnzu",
+    "koordinate": {
+      "lat": 43.9673017,
+      "lng": 21.9592247
+    },
+    "title": "Podgorac",
+    "info": "https://www.openstreetmap.org/node/9793974194",
+    "naziv": "Spomen-česma borcima NOB-a na Valja Rnžu",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "postenje-spomenik-palim-borcima",
+    "koordinate": {
+      "lat": 43.1757825,
+      "lng": 20.5344388
+    },
+    "title": "Postenje",
+    "info": "https://www.openstreetmap.org/node/5841582779",
+    "naziv": "Spomenik palim borcima",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "radanovci-mesto-pogibije-zikice-jovanovica-spanca",
+    "koordinate": {
+      "lat": 44.0898867,
+      "lng": 19.8447188
+    },
+    "title": "Radanovci",
+    "info": "https://www.openstreetmap.org/node/11954128677",
+    "naziv": "Mesto pogibije Žikice Jovanovića - Španca",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "ranovac-spomenik-palim-borcima",
+    "koordinate": {
+      "lat": 44.4258167,
+      "lng": 21.4722891
+    },
+    "title": "Ranovac",
+    "info": "https://www.openstreetmap.org/node/5306583502",
+    "naziv": "Spomenik palim borcima",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "slavkovica-rajacka-jama",
+    "koordinate": {
+      "lat": 44.1430466,
+      "lng": 20.2433103
+    },
+    "title": "Slavkovica",
+    "info": "https://www.openstreetmap.org/node/8972411674",
+    "naziv": "Rajačka jama",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "smilovci-spomenik-palim-borcima",
+    "koordinate": {
+      "lat": 43.0848748,
+      "lng": 22.8501708
+    },
+    "title": "Smilovci",
+    "info": "https://www.openstreetmap.org/way/355111352",
+    "naziv": "Spomenik palim borcima",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "sremska-kamenica-palim-borcima-n-o-rata",
+    "koordinate": {
+      "lat": 45.2240629,
+      "lng": 19.8386886
+    },
+    "title": "Sremska Kamenica",
+    "info": "https://www.openstreetmap.org/node/10821766724",
+    "naziv": "Palim borcima N. O. Rata",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "strezimirovci-partizanski-pametnik",
+    "koordinate": {
+      "lat": 42.815029,
+      "lng": 22.5214896
+    },
+    "title": "Strezimirovci",
+    "info": "https://www.openstreetmap.org/node/4729206399",
+    "naziv": "Partizanski pametnik",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "strezimirovci-partizanski-pametnik-2",
+    "koordinate": {
+      "lat": 42.8126802,
+      "lng": 22.5102134
+    },
+    "title": "Strezimirovci",
+    "info": "https://www.openstreetmap.org/node/4729217900",
+    "naziv": "Partizanski pametnik",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "subotica-aleksandrovo-spomenik-palim-borcima-i-zrt",
+    "koordinate": {
+      "lat": 46.0722594,
+      "lng": 19.6797728
+    },
+    "title": "Subotica (Aleksandrovo)",
+    "info": "https://www.openstreetmap.org/node/4008347338",
+    "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "tegoviste-spomenik-zrtvama-fasistickog-terora",
+    "koordinate": {
+      "lat": 42.7611293,
+      "lng": 22.0748906
+    },
+    "title": "Tegovište",
+    "info": "https://www.openstreetmap.org/node/3473695406",
+    "naziv": "Spomenik žrtvama fašističkog terora",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "trsic-spomenik-palim-borcima",
+    "koordinate": {
+      "lat": 44.4651401,
+      "lng": 19.1233061
+    },
+    "title": "Tršić",
+    "info": "https://www.openstreetmap.org/node/4930497321",
+    "naziv": "Spomenik palim borcima",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "uljma-spomenik-palim-borcima",
+    "koordinate": {
+      "lat": 45.0422697,
+      "lng": 21.1576043
+    },
+    "title": "Uljma",
+    "info": "https://www.openstreetmap.org/node/1598045602",
+    "naziv": "Spomenik palim borcima",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "uzice-aleksica-most-cveta-dabic-1911-1942",
+    "koordinate": {
+      "lat": 43.8555661,
+      "lng": 19.8353124
+    },
+    "title": "Užice (Aleksića most)",
+    "info": "https://www.openstreetmap.org/node/13838839001",
+    "naziv": "Cveta Dabić 1911-1942",
+    "type": "bista",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "uzice-dovarje-partizanska-spomen-kosturnica",
+    "koordinate": {
+      "lat": 43.8499499,
+      "lng": 19.8494186
+    },
+    "title": "Užice (Dovarje)",
+    "info": "https://www.openstreetmap.org/way/891588249",
+    "naziv": "Partizanska spomen kosturnica",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "uzice-slanusa-nada-matic-1924-1944",
+    "koordinate": {
+      "lat": 43.8577906,
+      "lng": 19.8436313
+    },
+    "title": "Užice (Slanuša)",
+    "info": "https://www.openstreetmap.org/node/9272899563",
+    "naziv": "Nada Matić 1924-1944",
+    "type": "bista",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "velika-plana-spomenik-borcima-nob",
+    "koordinate": {
+      "lat": 44.3329893,
+      "lng": 21.0766656
+    },
+    "title": "Velika Plana",
+    "info": "https://www.openstreetmap.org/node/11069330852",
+    "naziv": "Spomenik borcima NOB",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "velika-remeta-spomenik-4-ceti-podunavskog-partizan",
+    "koordinate": {
+      "lat": 45.1483416,
+      "lng": 19.9074492
+    },
+    "title": "Velika Remeta",
+    "info": "https://www.openstreetmap.org/node/6680893418",
+    "naziv": "Spomenik 4. četi Podunavskog partizanskog odreda",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "velika-strana-spomenik-nob-a",
+    "koordinate": {
+      "lat": 45.1095442,
+      "lng": 19.5091403
+    },
+    "title": "Velika strana",
+    "info": "https://www.openstreetmap.org/node/7578704219",
+    "naziv": "Spomenik NOB-a",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "vitosevac-spomenik-palim-borcima-u-nor-u",
+    "koordinate": {
+      "lat": 43.7470191,
+      "lng": 21.5811156
+    },
+    "title": "Vitoševac",
+    "info": "https://www.openstreetmap.org/node/10958206537",
+    "naziv": "spomenik palim borcima u NOR-u",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "vlaski-do-spomenik-palim-borcima",
+    "koordinate": {
+      "lat": 44.4608607,
+      "lng": 20.9293933
+    },
+    "title": "Vlaški Do",
+    "info": "https://www.openstreetmap.org/node/13629765258",
+    "naziv": "Spomenik palim borcima",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "zlatibor-spomenik-palim-partizanima",
+    "koordinate": {
+      "lat": 43.7358582,
+      "lng": 19.7132505
+    },
+    "title": "Zlatibor",
+    "info": "https://www.openstreetmap.org/node/1747383444",
+    "naziv": "Spomenik palim partizanima",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "zrenjanin-gradnulica-guvno-spomenik-streljanim-rod",
+    "koordinate": {
+      "lat": 45.4330027,
+      "lng": 20.3919824
+    },
+    "title": "Zrenjanin (Gradnulica guvno)",
+    "info": "https://www.openstreetmap.org/node/13683487663",
+    "naziv": "Spomenik streljanim rodoljubima na Mihajlovačkom drumu",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "zrenjanin-potkovica-spomenik-zrtvama-fasistickog-t",
+    "koordinate": {
+      "lat": 45.3843247,
+      "lng": 20.3638785
+    },
+    "title": "Zrenjanin (Potkovica)",
+    "info": "https://www.openstreetmap.org/node/2115063463",
+    "naziv": "Spomenik žrtvama fašističkog terora",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "cirikovac-spomen-ploca-streljanima-u-drugom-svetsk",
+    "koordinate": {
+      "lat": 44.6459657,
+      "lng": 21.2115478
+    },
+    "title": "Ćirikovac",
+    "info": "https://www.openstreetmap.org/node/13362330409",
+    "naziv": "Spomen ploča streljanima u Drugom svetskom ratu",
+    "type": "ploca",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "cacak-ljubic-kej-spomenik-palim-igracima-borca-u-n",
+    "koordinate": {
+      "lat": 43.8965228,
+      "lng": 20.3412597
+    },
+    "title": "Čačak (Ljubić kej)",
+    "info": "https://www.openstreetmap.org/node/4446457805",
+    "naziv": "Spomenik palim igračima Borca u NOR-u",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "cacak-ljubic-spomenik-palim-borcima-1941-1945",
+    "koordinate": {
+      "lat": 43.9141242,
+      "lng": 20.3670182
+    },
+    "title": "Čačak (Ljubić)",
+    "info": "https://www.openstreetmap.org/node/9124986386",
+    "naziv": "Spomenik palim borcima 1941-1945.",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "sanac-spomenik-palim-borcima",
+    "koordinate": {
+      "lat": 43.624237,
+      "lng": 21.3545399
+    },
+    "title": "Šanac",
+    "info": "https://www.openstreetmap.org/way/701625841",
+    "naziv": "Spomenik palim borcima",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "ajsevica-nob",
+    "koordinate": {
+      "lat": 45.9480274,
+      "lng": 13.7072529
+    },
+    "title": "Ajševica",
+    "info": "https://www.openstreetmap.org/node/13420720057",
+    "naziv": "NOB",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "bojtina-v-spomin-padlim-kurirjem",
+    "koordinate": {
+      "lat": 46.4835493,
+      "lng": 15.5409187
+    },
+    "title": "Bojtina",
+    "info": "https://www.openstreetmap.org/node/1151044922",
+    "naziv": "V spomin padlim kurirjem",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "branik-spomenik-padlim-partizanom",
+    "koordinate": {
+      "lat": 45.8411307,
+      "lng": 13.7718764
+    },
+    "title": "Branik",
+    "info": "https://www.openstreetmap.org/way/1475245875",
+    "naziv": "Spomenik padlim partizanom",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "bregana-spomenika-palim-borcima-i-zrtvama-fasizma",
+    "koordinate": {
+      "lat": 45.8395905,
+      "lng": 15.6875414
+    },
+    "title": "Bregana",
+    "info": "https://www.openstreetmap.org/node/9341928090",
+    "naziv": "Spomenika palim borcima i žrtvama fašizma u Drugom svjetskom ratu",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "brestovica-trentennale-liberazione-tridesetletnica",
+    "koordinate": {
+      "lat": 45.7733006,
+      "lng": 13.6045194
+    },
+    "title": "Brestovica",
+    "info": "https://www.openstreetmap.org/node/10108720224",
+    "naziv": "Trentennale Liberazione / Tridesetletnica osvoboditve",
+    "year": "1975",
+    "type": "ploca",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "brezovica-ivan-cengle",
+    "koordinate": {
+      "lat": 46.3043128,
+      "lng": 14.2156565
+    },
+    "title": "Brezovica",
+    "info": "https://www.openstreetmap.org/node/12766258638",
+    "naziv": "Ivan Cengle",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "dobovlje-oklo-spomenik-padlim-in-pozgani-vasi",
+    "koordinate": {
+      "lat": 46.1198885,
+      "lng": 14.6533001
+    },
+    "title": "Dobovlje",
+    "info": "https://www.openstreetmap.org/way/262861827",
+    "naziv": "Oklo - spomenik padlim in požgani vasi",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "dolenja-trebusa-nepoznani-borec",
+    "koordinate": {
+      "lat": 46.0977012,
+      "lng": 13.8437852
+    },
+    "title": "Dolenja Trebuša",
+    "info": "https://www.openstreetmap.org/node/13990118424",
+    "naziv": "Nepoznani borec",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "dolenja-vas-franc-gustincic",
+    "koordinate": {
+      "lat": 45.7473012,
+      "lng": 14.0298214
+    },
+    "title": "Dolenja vas",
+    "info": "https://www.openstreetmap.org/node/3967758169",
+    "naziv": "Franc Gustinčič",
+    "year": "1943",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "dolenja-vas-spomenik-nob",
+    "koordinate": {
+      "lat": 45.7546322,
+      "lng": 13.994622
+    },
+    "title": "Dolenja vas",
+    "info": "https://www.openstreetmap.org/node/12171670246",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "domzale-gradisce-spomenik-nob",
+    "koordinate": {
+      "lat": 46.0632463,
+      "lng": 14.6246373
+    },
+    "title": "Domžale (Gradišče)",
+    "info": "https://www.openstreetmap.org/node/14028631691",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "dovje-franc-knaflic",
+    "koordinate": {
+      "lat": 46.4792433,
+      "lng": 13.9636332
+    },
+    "title": "Dovje",
+    "info": "https://www.openstreetmap.org/node/12003092080",
+    "naziv": "Franc Knaflič",
+    "type": "ploca",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "gabrovcec-partizansko-obelezje",
+    "koordinate": {
+      "lat": 45.8856909,
+      "lng": 14.7975809
+    },
+    "title": "Gabrovčec",
+    "info": "https://www.openstreetmap.org/node/4656921600",
+    "naziv": "Partizansko obeležje",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "genterovci-gonterhaza-spomin-padlim-med-2-sv-vojno",
+    "koordinate": {
+      "lat": 46.6209727,
+      "lng": 16.4037059
+    },
+    "title": "Genterovci / Göntérháza",
+    "info": "https://www.openstreetmap.org/node/6289316193",
+    "naziv": "Spomin padlim med 2. sv. vojno",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "hrasce-spomenik-nob-vojkov-vod",
+    "koordinate": {
+      "lat": 45.7940733,
+      "lng": 14.0008672
+    },
+    "title": "Hrašče",
+    "info": "https://www.openstreetmap.org/node/10726731357",
+    "naziv": "Spomenik NOB – Vojkov vod",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "hrusevo-padlim-iz-dolomitskega-odreda",
+    "koordinate": {
+      "lat": 46.0720699,
+      "lng": 14.3875898
+    },
+    "title": "Hruševo",
+    "info": "https://www.openstreetmap.org/node/4129311256",
+    "naziv": "Padlim Iz Dolomitskega Odreda",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "iska-partizan-maharadza-in-franc-sturm-iski-vintga",
+    "koordinate": {
+      "lat": 45.9092434,
+      "lng": 14.4957324
+    },
+    "title": "Iška",
+    "info": "https://www.openstreetmap.org/node/13965300550",
+    "naziv": "Partizan Maharadža in Franc Šturm, Iški Vintgar",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "javorje-spomenik-nob",
+    "koordinate": {
+      "lat": 46.1727417,
+      "lng": 15.4501555
+    },
+    "title": "Javorje",
+    "info": "https://www.openstreetmap.org/node/13098327712",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "kambresko-nob-slovenije-pomniki-upora",
+    "koordinate": {
+      "lat": 46.1442916,
+      "lng": 13.6640415
+    },
+    "title": "Kambreško",
+    "info": "https://www.openstreetmap.org/node/13730134617",
+    "naziv": "NOB Slovenije - pomniki upora",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "kapelski-vrh-spomenik-padlim-partizanom",
+    "koordinate": {
+      "lat": 46.6204366,
+      "lng": 16.0328317
+    },
+    "title": "Kapelski Vrh",
+    "info": "https://www.openstreetmap.org/node/3352952263",
+    "naziv": "Spomenik padlim partizanom",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "kasaze-spomenik-nob",
+    "koordinate": {
+      "lat": 46.2206674,
+      "lng": 15.1745932
+    },
+    "title": "Kasaze",
+    "info": "https://www.openstreetmap.org/node/12089185443",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "kazlje-spomenik-nob-2",
+    "koordinate": {
+      "lat": 45.7589686,
+      "lng": 13.9382115
+    },
+    "title": "Kazlje",
+    "info": "https://www.openstreetmap.org/node/12233179830",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "kazlje-pupis-stanislav-in-franc",
+    "koordinate": {
+      "lat": 45.7665699,
+      "lng": 13.9077128
+    },
+    "title": "Kazlje",
+    "info": "https://www.openstreetmap.org/node/12367460344",
+    "naziv": "Pupis Stanislav in Franc",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "kicar-spomenik-nob-lackova-ceta",
+    "koordinate": {
+      "lat": 46.4592378,
+      "lng": 15.9033503
+    },
+    "title": "Kicar",
+    "info": "https://www.openstreetmap.org/node/9804697617",
+    "naziv": "Spomenik NOB - Lackova četa",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "knej-spomenik-nob",
+    "koordinate": {
+      "lat": 45.8531674,
+      "lng": 14.5966156
+    },
+    "title": "Knej",
+    "info": "https://www.openstreetmap.org/node/3037406832",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "kostanjevica-na-krasu-1941-slava-1945-padlim-borce",
+    "koordinate": {
+      "lat": 45.8440467,
+      "lng": 13.6415974
+    },
+    "title": "Kostanjevica na Krasu",
+    "info": "https://www.openstreetmap.org/node/9162891043",
+    "naziv": "1941-SLAVA-1945 PADLIM BORCEM",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "kovk-spomenik-nob",
+    "koordinate": {
+      "lat": 45.9068048,
+      "lng": 13.9461787
+    },
+    "title": "Kovk",
+    "info": "https://www.openstreetmap.org/node/10731262767",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "kresniske-poljane-spomenik-nob",
+    "koordinate": {
+      "lat": 46.0912292,
+      "lng": 14.7640881
+    },
+    "title": "Kresniške Poljane",
+    "info": "https://www.openstreetmap.org/node/5226707406",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "krvavi-potok-nob",
+    "koordinate": {
+      "lat": 45.6339538,
+      "lng": 13.9087364
+    },
+    "title": "Krvavi Potok",
+    "info": "https://www.openstreetmap.org/node/3451887118",
+    "naziv": "NOB",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "lautari-josip-krizaj",
+    "koordinate": {
+      "lat": 45.5610622,
+      "lng": 14.4967454
+    },
+    "title": "Lautari",
+    "info": "https://www.openstreetmap.org/node/3290661635",
+    "naziv": "Josip Križaj",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "leskovec-spomenik-nob",
+    "koordinate": {
+      "lat": 46.3880432,
+      "lng": 15.6279315
+    },
+    "title": "Leskovec",
+    "info": "https://www.openstreetmap.org/node/4340094155",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "ljubljana-vrtaca-radio-kricac",
+    "koordinate": {
+      "lat": 46.0443235,
+      "lng": 14.4961404
+    },
+    "title": "Ljubljana (Vrtača)",
+    "info": "https://www.openstreetmap.org/node/7725560732",
+    "naziv": "Radio Kričač",
+    "type": "ploca",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "loke-pri-zagorju-spomenik-nob",
+    "koordinate": {
+      "lat": 46.1440792,
+      "lng": 14.9512158
+    },
+    "title": "Loke pri Zagorju",
+    "info": "https://www.openstreetmap.org/node/10307233885",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "mance-spomenik-skerjanc-ivanu",
+    "koordinate": {
+      "lat": 45.8095963,
+      "lng": 13.9279085
+    },
+    "title": "Manče",
+    "info": "https://www.openstreetmap.org/node/12367487236",
+    "naziv": "Spomenik Škerjanc Ivanu",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "maribor-betnava-spomenik-narodnemu-heroju-slavku-s",
+    "koordinate": {
+      "lat": 46.5398727,
+      "lng": 15.6378624
+    },
+    "title": "Maribor (Betnava)",
+    "info": "https://www.openstreetmap.org/node/12846719302",
+    "naziv": "Spomenik Narodnemu Heroju Slavku Šlandru",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "maribor-nova-vas-spomenik-talcem-padlim-ob-zori-sv",
+    "koordinate": {
+      "lat": 46.5397354,
+      "lng": 15.6228897
+    },
+    "title": "Maribor (Nova vas)",
+    "info": "https://www.openstreetmap.org/node/5332033875",
+    "naziv": "Spomenik talcem padlim ob zori svobode aprila 1945",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "maribor-pobrezje-partizanska-grobnica",
+    "koordinate": {
+      "lat": 46.5484924,
+      "lng": 15.6653747
+    },
+    "title": "Maribor (Pobrežje)",
+    "info": "https://www.openstreetmap.org/node/5170043904",
+    "naziv": "Partizanska grobnica",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "marija-gradec-spomenik-nob",
+    "koordinate": {
+      "lat": 46.1443959,
+      "lng": 15.243271
+    },
+    "title": "Marija Gradec",
+    "info": "https://www.openstreetmap.org/node/10598568644",
+    "naziv": "Spomenik NOB",
+    "type": "ploca",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "marno-partizanski-spomenik",
+    "koordinate": {
+      "lat": 46.1412911,
+      "lng": 15.1413567
+    },
+    "title": "Marno",
+    "info": "https://www.openstreetmap.org/node/1115486691",
+    "naziv": "Partizanski spomenik",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "martinusevec-spomenik-nob",
+    "koordinate": {
+      "lat": 46.4488239,
+      "lng": 16.3010847
+    },
+    "title": "Martinuševec",
+    "info": "https://www.openstreetmap.org/node/13370103966",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "migojnice-spomenik-nob",
+    "koordinate": {
+      "lat": 46.23072,
+      "lng": 15.1762953
+    },
+    "title": "Migojnice",
+    "info": "https://www.openstreetmap.org/node/12089219295",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "moste-joze-koder",
+    "koordinate": {
+      "lat": 46.4303939,
+      "lng": 14.1683336
+    },
+    "title": "Moste",
+    "info": "https://www.openstreetmap.org/node/12030773847",
+    "naziv": "Jože Koder",
+    "type": "ploca",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "mostje-spomenik-nob",
+    "koordinate": {
+      "lat": 46.4561221,
+      "lng": 15.953287
+    },
+    "title": "Mostje",
+    "info": "https://www.openstreetmap.org/node/11442947763",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "mose-spominsko-obelezje-komandantu-tomazu",
+    "koordinate": {
+      "lat": 46.1881832,
+      "lng": 14.415886
+    },
+    "title": "Moše",
+    "info": "https://www.openstreetmap.org/node/8551956000",
+    "naziv": "Spominsko obeležje komandantu Tomažu",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "moscanci-padlim-med-nob",
+    "koordinate": {
+      "lat": 46.7485803,
+      "lng": 16.1665639
+    },
+    "title": "Moščanci",
+    "info": "https://www.openstreetmap.org/node/4692725482",
+    "naziv": "Padlim med NOB",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "mrzlo-polje-zumberacko-spomenik-palim-borcima-nob",
+    "koordinate": {
+      "lat": 45.776184,
+      "lng": 15.4912599
+    },
+    "title": "Mrzlo Polje Žumberačko",
+    "info": "https://www.openstreetmap.org/node/6332032751",
+    "naziv": "Spomenik palim borcima NOB-a",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "mursko-sredisce-spomenik-palim-borcima-nor-a-i-zrt",
+    "koordinate": {
+      "lat": 46.5138011,
+      "lng": 16.4377035
+    },
+    "title": "Mursko Središće",
+    "info": "https://www.openstreetmap.org/node/14178105415",
+    "naziv": "Spomenik palim borcima NOR-a i žrtvama fašizma",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "nova-cerkev-spomenik-nob",
+    "koordinate": {
+      "lat": 46.3120254,
+      "lng": 15.2855532
+    },
+    "title": "Nova Cerkev",
+    "info": "https://www.openstreetmap.org/node/10559239101",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "nova-vas-monumento-ai-caduti-della-resistenza-spom",
+    "koordinate": {
+      "lat": 45.8458263,
+      "lng": 13.5394982
+    },
+    "title": "Nova vas",
+    "info": "https://www.openstreetmap.org/node/8180398306",
+    "naziv": "Monumento ai Caduti della Resistenza / Spomenik padlim v NOB",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "nova-vas-spominska-plosca-zrtvam-fasizma",
+    "koordinate": {
+      "lat": 45.8435802,
+      "lng": 13.581318
+    },
+    "title": "Nova vas",
+    "info": "https://www.openstreetmap.org/node/12366997503",
+    "naziv": "Spominska plošča žrtvam fašizma",
+    "type": "ploca",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "opatje-selo-plosca-bostjancic-antonu-in-jelen-albe",
+    "koordinate": {
+      "lat": 45.8534895,
+      "lng": 13.5853013
+    },
+    "title": "Opatje selo",
+    "info": "https://www.openstreetmap.org/node/10790534448",
+    "naziv": "Plošča Boštjančič Antonu in Jelen Albertu",
+    "type": "ploca",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "opatje-selo-monumento-ai-caduti-slavi-nella-guerra",
+    "koordinate": {
+      "lat": 45.8562467,
+      "lng": 13.5671834
+    },
+    "title": "Opatje selo",
+    "info": "https://www.openstreetmap.org/way/1232186698",
+    "naziv": "Monumento ai Caduti slavi nella guerra di Liberazione 1943-1945",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "opatje-selo-spomenik-padlim-garibaldincem-udarnega",
+    "koordinate": {
+      "lat": 45.8580854,
+      "lng": 13.5858354
+    },
+    "title": "Opatje selo",
+    "info": "https://www.openstreetmap.org/way/1237551290",
+    "naziv": "Spomenik padlim garibaldincem udarnega tržaškega bataljona v 2. svetovni vojni.",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "orle-spomenik-nob",
+    "koordinate": {
+      "lat": 46.0216069,
+      "lng": 14.5781444
+    },
+    "title": "Orle",
+    "info": "https://www.openstreetmap.org/node/4060800018",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "orlek-spomenik-71-talcem-ustreljenih-od-nacistov-3",
+    "koordinate": {
+      "lat": 45.6905264,
+      "lng": 13.7979159
+    },
+    "title": "Orlek",
+    "info": "https://www.openstreetmap.org/node/823391171",
+    "naziv": "Spomenik 71 talcem ustreljenih od nacistov 3.4.1944",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "orlek-alma-vivoda",
+    "koordinate": {
+      "lat": 45.6538475,
+      "lng": 13.7911701
+    },
+    "title": "Orlek",
+    "info": "https://www.openstreetmap.org/node/7863040180",
+    "naziv": "Alma Vivoda",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "orlek-spomenik-na-smrt-obsojenim-v-2-trzaskem-proc",
+    "koordinate": {
+      "lat": 45.69089,
+      "lng": 13.7995
+    },
+    "title": "Orlek",
+    "info": "https://www.openstreetmap.org/node/9641093951",
+    "naziv": "Spomenik na smrt obsojenim v 2. tržaškem procesu 15.12.1941",
+    "type": "ploca",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "orlek-spomenik-padlim-nob-monumento-ai-caduti-dell",
+    "koordinate": {
+      "lat": 45.689055,
+      "lng": 13.7932473
+    },
+    "title": "Orlek",
+    "info": "https://www.openstreetmap.org/way/815970769",
+    "naziv": "Spomenik padlim NOB / Monumento ai Caduti della Resistenza",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "pasjak-nob",
+    "koordinate": {
+      "lat": 45.4851805,
+      "lng": 14.2381178
+    },
+    "title": "Pasjak",
+    "info": "https://www.openstreetmap.org/node/10026245710",
+    "naziv": "NOB",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "planina-spomenik-na-vahti",
+    "koordinate": {
+      "lat": 46.4012598,
+      "lng": 14.8351465
+    },
+    "title": "Planina",
+    "info": "https://www.openstreetmap.org/node/8516238999",
+    "naziv": "Spomenik na Vahti",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "pluzna-spomenik-padlim-v-nob",
+    "koordinate": {
+      "lat": 46.3278294,
+      "lng": 13.5011745
+    },
+    "title": "Plužna",
+    "info": "https://www.openstreetmap.org/node/8725179245",
+    "naziv": "Spomenik padlim v NOB",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "podblica-jamnik-grob-heroja-lojzeta-kebeta-stefana",
+    "koordinate": {
+      "lat": 46.2739808,
+      "lng": 14.20781
+    },
+    "title": "Podblica",
+    "info": "https://www.openstreetmap.org/node/11408565943",
+    "naziv": "Jamnik - Grob heroja Lojzeta Kebeta-Štefana",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "podcetrtek-po-trije-talci",
+    "koordinate": {
+      "lat": 46.1572085,
+      "lng": 15.5996708
+    },
+    "title": "Podčetrtek",
+    "info": "https://www.openstreetmap.org/node/6156200385",
+    "naziv": "Po \"Trije talci\"",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "postojna-spomenik-nob",
+    "koordinate": {
+      "lat": 45.7725848,
+      "lng": 14.2067595
+    },
+    "title": "Postojna",
+    "info": "https://www.openstreetmap.org/node/9310271125",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "predgrad-padlim-gasilcem-v-nov",
+    "koordinate": {
+      "lat": 45.5066585,
+      "lng": 15.0546481
+    },
+    "title": "Predgrad",
+    "info": "https://www.openstreetmap.org/node/12505266506",
+    "naziv": "Padlim gasilcem v NOV",
+    "type": "ploca",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "predmeja-spomenik-nob-2",
+    "koordinate": {
+      "lat": 45.9347038,
+      "lng": 13.8795727
+    },
+    "title": "Predmeja",
+    "info": "https://www.openstreetmap.org/node/11975317626",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "predmeja-padlim-partizanskim-kurirjem",
+    "koordinate": {
+      "lat": 45.9444274,
+      "lng": 13.8977857
+    },
+    "title": "Predmeja",
+    "info": "https://www.openstreetmap.org/node/12458930709",
+    "naziv": "Padlim partizanskim kurirjem",
+    "type": "ploca",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "preska-skupni-grob-borcev-talcev-in-zrtev-fasizma",
+    "koordinate": {
+      "lat": 46.13509,
+      "lng": 14.4096287
+    },
+    "title": "Preska",
+    "info": "https://www.openstreetmap.org/node/13246240581",
+    "naziv": "Skupni grob borcev, talcev in žrtev fašizma",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "ptuj-spominska-plosca-narodnemu-heroju-jozetu-lack",
+    "koordinate": {
+      "lat": 46.4195441,
+      "lng": 15.8731586
+    },
+    "title": "Ptuj",
+    "info": "https://www.openstreetmap.org/node/12118974159",
+    "naziv": "Spominska plošča narodnemu heroju Jožetu Lacku",
+    "type": "ploca",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "razdrto-spominska-plosca-nob",
+    "koordinate": {
+      "lat": 45.7615715,
+      "lng": 14.0245753
+    },
+    "title": "Razdrto",
+    "info": "https://www.openstreetmap.org/node/11121830443",
+    "naziv": "Spominska plošča NOB",
+    "type": "ploca",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "rence-spomenik-sestanku-na-kremancah",
+    "koordinate": {
+      "lat": 45.8739843,
+      "lng": 13.655928
+    },
+    "title": "Renče",
+    "info": "https://www.openstreetmap.org/node/5875265461",
+    "naziv": "Spomenik sestanku na Kremancah",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "rence-plosca-bizjak-emilu-juriju",
+    "koordinate": {
+      "lat": 45.8736981,
+      "lng": 13.6822891
+    },
+    "title": "Renče",
+    "info": "https://www.openstreetmap.org/node/8308878159",
+    "naziv": "Plošča Bizjak Emilu-Juriju",
+    "type": "ploca",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "sedraz-spomenik-nob",
+    "koordinate": {
+      "lat": 46.1441762,
+      "lng": 15.1750555
+    },
+    "title": "Sedraž",
+    "info": "https://www.openstreetmap.org/node/10601269192",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "senicno-spomenik-nob",
+    "koordinate": {
+      "lat": 46.333855,
+      "lng": 14.31207
+    },
+    "title": "Senično",
+    "info": "https://www.openstreetmap.org/node/2018928146",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "senozeti-grobisce-padlih-na-murovici-1943",
+    "koordinate": {
+      "lat": 46.107406,
+      "lng": 14.7222295
+    },
+    "title": "Senožeti",
+    "info": "https://www.openstreetmap.org/node/10944079411",
+    "naziv": "Grobišče padlih na Murovici 1943",
+    "type": "groblje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "setnica-v-spomin-na-zrtve-i-bataljona-dolomitskega",
+    "koordinate": {
+      "lat": 46.0787641,
+      "lng": 14.3314275
+    },
+    "title": "Setnica",
+    "info": "https://www.openstreetmap.org/node/2976549078",
+    "naziv": "V spomin na žrtve I. bataljona Dolomitskega odreda",
+    "type": "ploca",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "socerb-zrtvam-osvobodilne-borbe-1941-1946",
+    "koordinate": {
+      "lat": 45.6150623,
+      "lng": 13.85792
+    },
+    "title": "Socerb",
+    "info": "https://www.openstreetmap.org/node/1297075012",
+    "naziv": "Žrtvam osvobodilne borbe 1941-1946",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "socerb-spomenik-padlim-nob",
+    "koordinate": {
+      "lat": 45.6005185,
+      "lng": 13.8594823
+    },
+    "title": "Socerb",
+    "info": "https://www.openstreetmap.org/node/2570452448",
+    "naziv": "Spomenik padlim NOB",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "socerb-padlim-borcem-za-svobodo",
+    "koordinate": {
+      "lat": 45.5880573,
+      "lng": 13.849308
+    },
+    "title": "Socerb",
+    "info": "https://www.openstreetmap.org/way/1312813281",
+    "naziv": "Padlim borcem za svobodo",
+    "author": "Dario Jagodic, Mario Sancin, Stanko Zidarič",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "soca-spominsko-obelezje-orkozne-partijske-konferen",
+    "koordinate": {
+      "lat": 46.3812945,
+      "lng": 13.7516761
+    },
+    "title": "Soča",
+    "info": "https://www.openstreetmap.org/node/11149814047",
+    "naziv": "Spominsko obeležje orkožne partijske konference za Tolminsko 1944",
+    "type": "ploca",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "spodnja-senica-spomenik-zrtvam-nov",
+    "koordinate": {
+      "lat": 46.1500058,
+      "lng": 14.3890037
+    },
+    "title": "Spodnja Senica",
+    "info": "https://www.openstreetmap.org/node/13256779309",
+    "naziv": "Spomenik žrtvam NOV",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "spodnje-stranice-grob-padlega-borca-nov",
+    "koordinate": {
+      "lat": 46.344767,
+      "lng": 15.3386854
+    },
+    "title": "Spodnje Stranice",
+    "info": "https://www.openstreetmap.org/node/11704753315",
+    "naziv": "Grob padlega borca NOV",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "trnovo-v-spomin-padlim-borcem",
+    "koordinate": {
+      "lat": 45.9723716,
+      "lng": 13.7402196
+    },
+    "title": "Trnovo",
+    "info": "https://www.openstreetmap.org/node/4698095108",
+    "naziv": "V spomin padlim borcem",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "ukanc-umrlemu-partizanu-1945",
+    "koordinate": {
+      "lat": 46.2894441,
+      "lng": 13.8021658
+    },
+    "title": "Ukanc",
+    "info": "https://www.openstreetmap.org/node/7858651052",
+    "naziv": "Umrlemu partizanu 1945",
+    "type": "ploca",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "valburga-spomenik-nob",
+    "koordinate": {
+      "lat": 46.1710745,
+      "lng": 14.4325544
+    },
+    "title": "Valburga",
+    "info": "https://www.openstreetmap.org/node/10707370627",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "vaneca-dom-spominov-na-nob",
+    "koordinate": {
+      "lat": 46.7330508,
+      "lng": 16.1591128
+    },
+    "title": "Vaneča",
+    "info": "https://www.openstreetmap.org/way/418319444",
+    "naziv": "Dom spominov na NOB",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "vogrsko-spominska-plosca-pokrajinski-konferenci-kp",
+    "koordinate": {
+      "lat": 45.9084689,
+      "lng": 13.6965873
+    },
+    "title": "Vogrsko",
+    "info": "https://www.openstreetmap.org/node/12836947905",
+    "naziv": "Spominska plošča pokrajinski konferenci KPS",
+    "type": "ploca",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "vransko-spomenik-nob",
+    "koordinate": {
+      "lat": 46.2402025,
+      "lng": 14.9443258
+    },
+    "title": "Vransko",
+    "info": "https://www.openstreetmap.org/node/4351566895",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "vuhred-dajnikova-spominska-plosca-padlim-borcem",
+    "koordinate": {
+      "lat": 46.5624904,
+      "lng": 15.1953527
+    },
+    "title": "Vuhred",
+    "info": "https://www.openstreetmap.org/node/428118366",
+    "naziv": "Dajnikova spominska plošča padlim borcem",
+    "type": "ploca",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "zabukovica-spomenik-nob",
+    "koordinate": {
+      "lat": 46.1984981,
+      "lng": 15.1639892
+    },
+    "title": "Zabukovica",
+    "info": "https://www.openstreetmap.org/node/11332624274",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "zagorje-ob-savi-spomenik-trem-padlim-partizanom",
+    "koordinate": {
+      "lat": 46.1268399,
+      "lng": 15.0052364
+    },
+    "title": "Zagorje ob Savi",
+    "info": "https://www.openstreetmap.org/node/1272520727",
+    "naziv": "Spomenik trem padlim partizanom",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "zakojca-spomenik-nob-2",
+    "koordinate": {
+      "lat": 46.1537689,
+      "lng": 13.9268145
+    },
+    "title": "Zakojca",
+    "info": "https://www.openstreetmap.org/node/10680772902",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "zavrh-pod-smarno-goro-spomenik-petim-padlim-talcem",
+    "koordinate": {
+      "lat": 46.1513187,
+      "lng": 14.4452963
+    },
+    "title": "Zavrh pod Šmarno goro",
+    "info": "https://www.openstreetmap.org/node/13246240570",
+    "naziv": "Spomenik petim padlim talcem",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "zgornja-recica-partizanski-spomenik",
+    "koordinate": {
+      "lat": 46.1831019,
+      "lng": 15.12415
+    },
+    "title": "Zgornja Rečica",
+    "info": "https://www.openstreetmap.org/node/1207769648",
+    "naziv": "Partizanski spomenik",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "cadrg-cvetko-lipicar",
+    "koordinate": {
+      "lat": 46.2273632,
+      "lng": 13.721625
+    },
+    "title": "Čadrg",
+    "info": "https://www.openstreetmap.org/node/12452901659",
+    "naziv": "Cvetko Lipičar",
+    "type": "ploca",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "cresnjevec-spomenik-nob",
+    "koordinate": {
+      "lat": 46.3722856,
+      "lng": 15.6144991
+    },
+    "title": "Črešnjevec",
+    "info": "https://www.openstreetmap.org/node/4338609167",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "sempeter-pri-gorici-spomenik-goranski-diviziji",
+    "koordinate": {
+      "lat": 45.9297775,
+      "lng": 13.6416546
+    },
+    "title": "Šempeter pri Gorici",
+    "info": "https://www.openstreetmap.org/node/12031574131",
+    "naziv": "Spomenik Goranski diviziji",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "zagolic-spomenik-pesmi-vstala-primorska",
+    "koordinate": {
+      "lat": 45.914584,
+      "lng": 13.9946572
+    },
+    "title": "Žagolič",
+    "info": "https://www.openstreetmap.org/node/14144410629",
+    "naziv": "spomenik pesmi Vstala Primorska",
+    "type": "lokalni",
+    "drzava": "Slovenia"
   }
 ]
