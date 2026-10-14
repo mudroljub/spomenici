@@ -21,6 +21,9 @@ export const nazivSpomenika = ({naziv, name}) => jezik === 'en'
   ? bezLinkova(name) || naziv || ''
   : naziv || bezLinkova(name)
 
+// vise autora jednog spomenika upisano je kao „Ime & Ime“
+export const autoriSpomenika = ({author}) => author ? author.split(' & ') : []
+
 // uklonjen spomenik vise nema sta da se obidje; od srusenog obicno ostanu delovi
 export const nestao = stanje => stanje === 'uklonjen'
 

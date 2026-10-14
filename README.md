@@ -14,5 +14,4 @@ live-server
 
 ## TODO
 
-- dodaj pretragu spomenika po autorima
-- napravi da može da se preuzme na mobilnom i radi offline
+- pogledaj još jednom sve ikonice u legendi sa dizajnerske strane i predloži poboljšanja ako treba

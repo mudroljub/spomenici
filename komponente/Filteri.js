@@ -1,21 +1,30 @@
 import {mapa} from '../klase/mapa.js'
-import {nestao, ruine} from '../utils/helpers.js'
+import {nestao, ruine, autoriSpomenika} from '../utils/helpers.js'
 import {dajOznaku, promene} from '../utils/oznake.js'
 import {t, nazivDrzave} from '../utils/jezik.js'
 
 const boja = '#822323'
 
 // unutar grupe vazi bilo koja izabrana opcija (ili), a izmedju grupa sve (i)
-const praviGrupe = drzave => [
+const praviGrupe = (drzave, autori) => [
   {kljuc: 'tip', naziv: t('grupaVrsta'), opcije: Object.fromEntries(['istaknut', 'spomenik', 'lokalni', 'kompleks', 'ploca', 'groblje', 'muzej', 'bista'].map(o => [o, t(o)])),
     uslov: (s, o) => o === 'istaknut' ? Boolean(s.istaknut) : (s.type || 'spomenik') === o},
   {kljuc: 'stanje', naziv: t('grupaStanje'), opcije: {postoji: t('postoji'), rusevine: t('ruine'), nestao: t('uklonjen')},
     uslov: (s, o) => o === 'nestao' ? nestao(s.stanje) : o === 'rusevine' ? ruine(s.stanje) : !nestao(s.stanje) && !ruine(s.stanje)},
   {kljuc: 'drzava', naziv: t('grupaDrzava'), opcije: Object.fromEntries(drzave.map(d => [d, nazivDrzave(d)])),
     uslov: (s, o) => s.drzava === o},
+  {kljuc: 'autor', naziv: t('grupaAutor'), opcije: Object.fromEntries(autori.map(a => [a, a])),
+    uslov: (s, o) => autoriSpomenika(s).includes(o)},
   {kljuc: 'poseta', naziv: t('grupaPoseta'), opcije: {neposecen: t('neposecen'), lista: t('lista'), posetio: t('posetio')},
     uslov: (s, o) => o === 'neposecen' ? dajOznaku(s.id) !== 'posetio' : dajOznaku(s.id) === o},
 ]
+
+// autori sa bar tri dela, od najplodnijeg; ostale nalazi pretraga
+const praviAutore = stavke => {
+  const brojDela = {}
+  stavke.forEach(({spomenik}) => autoriSpomenika(spomenik).forEach(a => brojDela[a] = (brojDela[a] || 0) + 1))
+  return Object.keys(brojDela).filter(a => brojDela[a] >= 3).sort((a, b) => brojDela[b] - brojDela[a] || a.localeCompare(b))
+}
 
 const style = document.createElement('style')
 style.textContent = `
@@ -159,7 +168,7 @@ export default class Filteri extends HTMLElement {
   constructor(stavke) {
     super()
     const drzave = [...new Set(stavke.map(({spomenik}) => spomenik.drzava))].sort((a, b) => nazivDrzave(a).localeCompare(nazivDrzave(b)))
-    this.grupe = praviGrupe(drzave)
+    this.grupe = praviGrupe(drzave, praviAutore(stavke))
     this.izbor = Object.fromEntries(this.grupe.map(g => [g.kljuc, new Set()]))
     this.osnova = stavke
 

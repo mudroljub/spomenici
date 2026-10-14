@@ -22,9 +22,11 @@ img {
   max-width: 100%;
 }
 
+/* naziv pocinje odmah desno od dugmeta Legenda, da ga ono ne zaklanja */
 h1 {
   bottom: 0;
   color: #822323;
+  left: 110px;
   font-size: 28px;
   line-height: 80%;
   margin-bottom: calc(var(--visina-slajdera) + var(--dno));
@@ -124,6 +126,13 @@ h1 {
   position: absolute;
   width: 32px;
   z-index: 1;
+}
+
+/* na telefonu donji levi ugao zauzimaju Legenda i Trenutna ruta, pa za naziv nema mesta */
+@media (max-width: 599px) {
+  h1 {
+    display: none;
+  }
 }
 
 @media (min-width: 768px) {

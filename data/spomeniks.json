@@ -3418,6 +3418,7 @@
     "naziv": "Спомен-дом на Разловечкото востание",
     "name": "Memorial House of the <a href=\"https://en.wikipedia.org/wiki/Kresna%E2%80%93Razlog_uprising\" target=\"_blank\">Razlog Uprising</a>",
     "year": "1981",
+    "author": "Georgi Konstantinovski",
     "type": "kompleks",
     "drzava": "Macedonia"
   },
@@ -7129,6 +7130,7 @@
     "naziv": "Spomenik revoluciji",
     "name": "Monument to the Revolution",
     "year": "1985",
+    "author": "Ante Gržetić",
     "type": "spomenik",
     "drzava": "Serbia"
   },
@@ -7371,6 +7373,7 @@
     "naziv": "Tretji bataljon Prešernove brigade",
     "name": "Mon. to 3rd Battalion of Prešeren Brig.",
     "year": "1956",
+    "author": "Edvard Ravnikar & Tone Svetina",
     "type": "spomenik",
     "drzava": "Slovenia"
   },
@@ -7947,6 +7950,7 @@
     "naziv": "Spomenik ustanku",
     "name": "Monument to The Uprising",
     "year": "1964",
+    "author": "Aleksandar Zarin",
     "type": "spomenik",
     "drzava": "Serbia"
   },
@@ -8277,6 +8281,7 @@
     "naziv": "Spomenik palim borcima u Bolmanskoj bici",
     "name": "Monument to the Battle of Bolman",
     "year": "1951",
+    "author": "Nikola Kečanin",
     "type": "spomenik",
     "drzava": "Croatia"
   },
@@ -9058,6 +9063,7 @@
     "naziv": "Spomenik padlim borcem",
     "name": "Monument to Fallen Fighters",
     "year": "1951",
+    "author": "Edvard Ravnikar",
     "type": "spomenik",
     "drzava": "Slovenia"
   },
@@ -9190,6 +9196,7 @@
     "naziv": "Spomenik padlim na Urhu",
     "name": "Tomb of Partisan Heroes",
     "year": "1955",
+    "author": "Boris Kobe & Karel Putrih & Zdenko Kalin",
     "type": "spomenik",
     "drzava": "Slovenia"
   },
@@ -9289,6 +9296,7 @@
     "naziv": "Spomenik palim borcima",
     "name": "Monument to Fallen Fighters",
     "year": "1957",
+    "author": "Aleksandar Zarin",
     "type": "spomenik",
     "drzava": "Serbia"
   },
@@ -10881,6 +10889,7 @@
     "naziv": "Spomenik padlim borcem",
     "name": "Monument to Fallen Fighters",
     "year": "1958",
+    "author": "Stojan Batič",
     "type": "spomenik",
     "drzava": "Slovenia"
   },
@@ -11290,6 +11299,7 @@
     "naziv": "Spomenik Zdravku Čelaru",
     "name": "Monument to Zdravko Čelar",
     "year": "1965",
+    "author": "Aleksandar Zarin",
     "type": "spomenik",
     "drzava": "Serbia"
   },
@@ -11419,6 +11429,7 @@
     "naziv": "Spomenik palim borcima",
     "name": "Monument to Fallen Fighters",
     "year": "1962",
+    "author": "Nikola Kečanin",
     "stanje": "rusevine",
     "type": "spomenik",
     "drzava": "Croatia"
@@ -13706,7 +13717,9 @@
     "slika": "slike/spomenici/ig.webp",
     "slikaAutor": "Google Maps",
     "naziv": "Spomenik NOB",
-    "type": "lokalni",
+    "year": "1958",
+    "author": "Edvard Ravnikar",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -18892,7 +18905,8 @@
     "googleCid": "14736481293164255438",
     "title": "Poljče",
     "naziv": "Spomenik NOB",
-    "type": "lokalni",
+    "author": "Tone Svetina",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -25572,6 +25586,8 @@
     "slikaAutor": "Mofesty, CC BY-SA 3.0",
     "naziv": "Spomenik Bola i Prkosa",
     "name": "Monument of Pain and Defiance",
+    "year": "1959",
+    "author": "Ante Gržetić",
     "type": "spomenik",
     "drzava": "Serbia"
   },
@@ -26485,6 +26501,7 @@
     "slika": "slike/spomenici/cepin-spomenik-palim-borcima-i-zrtvama-fasizma.webp",
     "slikaAutor": "Flammard, CC BY-SA 3.0",
     "naziv": "Spomenik palim borcima NOB-a i žrtvama fašizma",
+    "author": "Nikola Kečanin",
     "type": "spomenik",
     "drzava": "Croatia"
   },
@@ -26539,5 +26556,125 @@
     "year": "1961",
     "type": "lokalni",
     "drzava": "Croatia"
+  },
+  {
+    "id": "zrenjanin-spomenik-zarku-zrenjaninu",
+    "koordinate": {
+      "lat": 45.3815469,
+      "lng": 20.3907897
+    },
+    "title": "Zrenjanin",
+    "info": "https://www.openstreetmap.org/node/9152940970",
+    "slika": "slike/spomenici/zrenjanin-spomenik-zarku-zrenjaninu.webp",
+    "slikaAutor": "Alexzr88, Public domain",
+    "naziv": "Spomenik Žarku Zrenjaninu",
+    "name": "Monument to Žarko Zrenjanin",
+    "year": "1952",
+    "author": "Radeta Stanković",
+    "type": "spomenik",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "solkan-spomenik-osvoboditvi-primorske",
+    "koordinate": {
+      "lat": 45.9814888,
+      "lng": 13.6564739
+    },
+    "title": "Solkan",
+    "info": "https://www.openstreetmap.org/node/8954742972",
+    "naziv": "Spomenik osvoboditvi Primorske",
+    "name": "Monument to the Liberation of Primorska",
+    "year": "1980",
+    "author": "Tone Svetina",
+    "type": "spomenik",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "pivka-kostnica-borcev-nob",
+    "koordinate": {
+      "lat": 45.6773424,
+      "lng": 14.1947239
+    },
+    "title": "Pivka",
+    "info": "https://www.openstreetmap.org/node/9281590264",
+    "naziv": "Kostnica borcev NOB",
+    "name": "Ossuary of WWII Fighters",
+    "year": "1958",
+    "author": "Edvard Ravnikar",
+    "type": "spomenik",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "porezen-grobnica-nob",
+    "koordinate": {
+      "lat": 46.1771511,
+      "lng": 13.9744574
+    },
+    "title": "Porezen",
+    "info": "https://www.openstreetmap.org/node/2973732723",
+    "naziv": "Grobnica NOB",
+    "name": "WWII Tomb",
+    "year": "1949",
+    "author": "Tone Svetina",
+    "type": "spomenik",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "lesce-spomenik-delavcem-veriga",
+    "koordinate": {
+      "lat": 46.3621351,
+      "lng": 14.1561612
+    },
+    "title": "Lesce",
+    "info": "https://www.openstreetmap.org/node/12731727439",
+    "naziv": "Spomenik padlim delavcem tovarne Veriga",
+    "name": "Monument to Fallen Workers of the Veriga Factory",
+    "year": "1977",
+    "author": "Tone Svetina",
+    "type": "spomenik",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "bojanja-vas",
+    "koordinate": {
+      "lat": 45.6956685,
+      "lng": 15.3282743
+    },
+    "title": "Bojanja vas",
+    "info": "https://www.openstreetmap.org/node/7721282788",
+    "naziv": "Spomenik NOB",
+    "name": "WWII Monument",
+    "year": "1977",
+    "author": "Tone Svetina & Milan Bajc & Vinko Kepic",
+    "type": "spomenik",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "kozana-spomenik-nob-na-gmajni",
+    "koordinate": {
+      "lat": 45.9924259,
+      "lng": 13.5576029
+    },
+    "title": "Kozana",
+    "naziv": "Spomenik NOB na Gmajni",
+    "name": "WWII Monument at Gmajna",
+    "year": "1975",
+    "author": "Tone Svetina",
+    "type": "spomenik",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "spitalic-spominsko-znamenje-nob-v-zobavi",
+    "koordinate": {
+      "lat": 46.2104265,
+      "lng": 14.8380743
+    },
+    "title": "Špitalič",
+    "naziv": "Spominsko znamenje NOB v Zobavi",
+    "name": "WWII Memorial in Zobava",
+    "year": "1981",
+    "author": "Tone Svetina",
+    "type": "spomenik",
+    "drzava": "Slovenia"
   }
 ]

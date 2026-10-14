@@ -1,5 +1,5 @@
 import {mapa} from '../klase/mapa.js'
-import {mestoUrl, navigacijaUrl, escapeHtml, naziviStanja, nestao} from '../utils/helpers.js'
+import {mestoUrl, navigacijaUrl, escapeHtml, naziviStanja, nestao, autoriSpomenika} from '../utils/helpers.js'
 import {dajOznaku, postaviOznaku, promene} from '../utils/oznake.js'
 import {uRuti, dodajURutu, ukloniIzRute, promeneRute} from '../utils/ruta.js'
 import {jezik, t, nazivDrzave} from '../utils/jezik.js'
@@ -306,7 +306,7 @@ export default class Detalji extends HTMLElement {
   prikazi(marker, izRute) {
     this.marker = marker
     const spomen = marker.spomen
-    const podaci = [this.praviAutore(spomen.author), escapeHtml(spomen.year || '')].filter(Boolean).join(' · ')
+    const podaci = [this.praviAutore(spomen), escapeHtml(spomen.year || '')].filter(Boolean).join(' · ')
 
     // jedan link za vise: clanak na Wikipediji, a bez njega drugi izvor
     const vise = spomen.wiki || spomen.info
@@ -368,9 +368,8 @@ export default class Detalji extends HTMLElement {
     this.autori = autori
   }
 
-  praviAutore(autor) {
-    if (!autor) return ''
-    return autor.split(' & ').map(ime => this.autori[ime]
+  praviAutore(spomen) {
+    return autoriSpomenika(spomen).map(ime => this.autori[ime]
       ? `<a href="${escapeHtml(this.autori[ime])}" target="_blank">${escapeHtml(ime)}</a>`
       : escapeHtml(ime)
     ).join(' & ')

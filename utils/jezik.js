@@ -60,6 +60,7 @@ const tekstovi = {
   grupaPoseta: {sh: 'Moje posete', en: 'My visits'},
   neposecen: {sh: 'Još neposećeno', en: 'Not visited yet'},
   grupaDrzava: {sh: 'Država', en: 'Country'},
+  grupaAutor: {sh: 'Autor', en: 'Artist'},
   grupaVrsta: {sh: 'Vrsta', en: 'Type'},
   istaknut: {sh: 'Istaknuti spomenici', en: 'Featured monuments'},
   kompleks: {sh: 'Spomen-parkovi', en: 'Memorial parks'},
