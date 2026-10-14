@@ -1,5 +1,5 @@
 import {mapa} from '../klase/mapa.js'
-import {nestao, ruine, autoriSpomenika} from '../utils/helpers.js'
+import {nestao, ruine, autoriSpomenika, normalizuj} from '../utils/helpers.js'
 import {dajOznaku, promene} from '../utils/oznake.js'
 import {t, nazivDrzave} from '../utils/jezik.js'
 
@@ -9,12 +9,12 @@ const boja = '#822323'
 const praviGrupe = (drzave, autori) => [
   {kljuc: 'tip', naziv: t('grupaVrsta'), opcije: Object.fromEntries(['istaknut', 'spomenik', 'lokalni', 'kompleks', 'groblje', 'muzej', 'bista', 'ploca'].map(o => [o, t(o)])),
     uslov: (s, o) => (s.type || 'spomenik') === o},
+  {kljuc: 'autor', naziv: t('grupaAutor'), opcije: Object.fromEntries(autori.map(a => [a, a])), padajuci: true,
+    uslov: (s, o) => autoriSpomenika(s).includes(o)},
   {kljuc: 'stanje', naziv: t('grupaStanje'), opcije: {postoji: t('postoji'), rusevine: t('ruine'), nestao: t('uklonjen')},
     uslov: (s, o) => o === 'nestao' ? nestao(s.stanje) : o === 'rusevine' ? ruine(s.stanje) : !nestao(s.stanje) && !ruine(s.stanje)},
   {kljuc: 'drzava', naziv: t('grupaDrzava'), opcije: Object.fromEntries(drzave.map(d => [d, nazivDrzave(d)])),
     uslov: (s, o) => s.drzava === o},
-  {kljuc: 'autor', naziv: t('grupaAutor'), opcije: Object.fromEntries(autori.map(a => [a, a])),
-    uslov: (s, o) => autoriSpomenika(s).includes(o)},
   {kljuc: 'poseta', naziv: t('grupaPoseta'), opcije: {neposecen: t('neposecen'), lista: t('lista'), posetio: t('posetio')},
     uslov: (s, o) => o === 'neposecen' ? dajOznaku(s.id) !== 'posetio' : dajOznaku(s.id) === o},
 ]
@@ -136,6 +136,80 @@ style.textContent = `
     opacity: 0.4;
   }
 
+  button.polje, input {
+    background: white;
+    border: 1px solid #c9bfb0;
+    border-radius: 18px;
+    box-sizing: border-box;
+    color: #333;
+    font: inherit;
+    font-size: 16px; /* manji font na iPhone-u zumira stranicu pri kucanju */
+    min-height: 40px;
+    padding: 6px 12px;
+    width: 100%;
+  }
+
+  button.polje {
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+  }
+
+  button.polje[aria-expanded="true"] .strelica {
+    transform: rotate(180deg);
+  }
+
+  .spisak {
+    border: 1px solid #c9bfb0;
+    border-radius: 12px;
+    margin-top: 6px;
+    padding: 6px;
+  }
+
+  [role="listbox"] {
+    list-style: none;
+    margin: 6px 0 0;
+    max-height: 240px;
+    overflow-y: auto;
+    padding: 0;
+  }
+
+  [role="option"] {
+    align-items: center;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: #333;
+    cursor: pointer;
+    display: flex;
+    font-size: 15px;
+    min-height: 44px;
+    padding: 6px 10px;
+  }
+
+  [role="option"].aktivna {
+    background: #ece2d4;
+    box-shadow: inset 0 0 0 2px #9c8f7d;
+  }
+
+  @media (hover: hover) {
+    button.polje:hover {
+      border-color: #9c8f7d;
+    }
+
+    [role="option"]:hover {
+      background: #ece2d4;
+    }
+  }
+
+  .prazno {
+    color: #666;
+    font-size: 15px;
+    margin: 0;
+    padding: 12px 10px;
+  }
+
   .broj {
     margin-left: 4px;
     opacity: 0.7;
@@ -191,7 +265,20 @@ export default class Filteri extends HTMLElement {
     this.sadrzaj.addEventListener('click', e => {
       const cip = e.target.closest('button.cip')
       if (cip) this.obrni(cip.dataset.grupa, cip.dataset.opcija)
+      const polje = e.target.closest('button.polje')
+      if (polje) this.otvorenSpisak ? this.zatvoriSpisak() : this.otvoriSpisak(polje.dataset.grupa)
+      const opcija = e.target.closest('[role="option"]')
+      if (opcija) this.izaberiSaSpiska(opcija)
     })
+    // dodir ili klik bilo gde van padajuceg spiska ga zatvara
+    this.panel.addEventListener('click', e => {
+      if (this.otvorenSpisak && !e.target.closest('.padajuci')) this.zatvoriSpisak()
+    })
+    this.sadrzaj.addEventListener('focusout', e => {
+      if (this.otvorenSpisak && e.relatedTarget && !e.relatedTarget.closest('.padajuci')) this.zatvoriSpisak()
+    })
+    this.sadrzaj.addEventListener('input', e => this.filtrirajSpisak(e.target.value))
+    this.sadrzaj.addEventListener('keydown', e => this.tasterSpiska(e))
 
     this.attachShadow({mode: 'open'})
     this.shadowRoot.append(style, this.panel)
@@ -224,7 +311,86 @@ export default class Filteri extends HTMLElement {
     this.javi()
   }
 
+  otvoriSpisak(grupa) {
+    this.otvorenSpisak = grupa
+    this.prikaziGrupe()
+    this.sadrzaj.querySelector('.spisak').scrollIntoView({block: 'nearest'})
+    this.sadrzaj.querySelector('[role="option"][aria-selected="true"]').scrollIntoView({block: 'nearest'})
+    // na telefonu tastatura ne iskace sama, jer bi prekrila spisak
+    if (matchMedia('(pointer: fine)').matches) this.sadrzaj.querySelector('.spisak input').focus()
+  }
+
+  zatvoriSpisak() {
+    this.otvorenSpisak = null
+    this.prikaziGrupe()
+  }
+
+  // fokus se vraca na polje, da tastatura nastavi odatle
+  vratiFokus(grupa) {
+    this.sadrzaj.querySelector(`button.polje[data-grupa="${grupa}"]`).focus({preventScroll: true})
+  }
+
+  izaberiSaSpiska(opcija) {
+    const grupa = this.otvorenSpisak
+    this.otvorenSpisak = null
+    this.izaberi(grupa, opcija.dataset.opcija)
+    this.vratiFokus(grupa)
+  }
+
+  // kucanje samo sakriva stavke koje ne odgovaraju, da polje ne izgubi fokus
+  filtrirajSpisak(tekst) {
+    const trazeno = normalizuj(tekst.trim())
+    const opcije = [...this.sadrzaj.querySelectorAll('[role="option"]')]
+    opcije.forEach(o => o.hidden = !normalizuj(o.dataset.naziv).includes(trazeno))
+    this.sadrzaj.querySelector('.prazno').hidden = opcije.some(o => !o.hidden)
+    this.oznaciAktivnu(trazeno ? opcije.find(o => !o.hidden) : null)
+  }
+
+  oznaciAktivnu(opcija) {
+    this.sadrzaj.querySelector('[role="option"].aktivna')?.classList.remove('aktivna')
+    opcija?.classList.add('aktivna')
+    opcija?.scrollIntoView({block: 'nearest'})
+    this.sadrzaj.querySelector('.spisak input').setAttribute('aria-activedescendant', opcija?.id || '')
+  }
+
+  // tastatura kao kod obicnog padajuceg spiska: strelice, Enter i Escape
+  tasterSpiska(e) {
+    if (e.target.matches('button.polje') && e.key === 'ArrowDown' && !this.otvorenSpisak) {
+      e.preventDefault()
+      return this.otvoriSpisak(e.target.dataset.grupa)
+    }
+    if (!e.target.matches('.spisak input')) return
+    const vidljive = [...this.sadrzaj.querySelectorAll('[role="option"]:not([hidden])')]
+    const aktivna = this.sadrzaj.querySelector('[role="option"].aktivna')
+    const polazna = aktivna || this.sadrzaj.querySelector('[role="option"][aria-selected="true"]:not([hidden])')
+    const korak = {ArrowDown: 1, ArrowUp: -1}[e.key]
+    if (korak) {
+      e.preventDefault()
+      const i = vidljive.indexOf(polazna)
+      this.oznaciAktivnu(vidljive[i < 0 ? (korak > 0 ? 0 : vidljive.length - 1) : (i + korak + vidljive.length) % vidljive.length])
+    }
+    if (e.key === 'Enter' && aktivna) {
+      e.preventDefault()
+      this.izaberiSaSpiska(aktivna)
+    }
+    if (e.key === 'Escape') {
+      e.preventDefault()
+      const grupa = this.otvorenSpisak
+      this.zatvoriSpisak()
+      this.vratiFokus(grupa)
+    }
+  }
+
+  // padajuci spisak bira samo jednu opciju, a prazna vrednost je bez filtera
+  izaberi(grupa, opcija) {
+    const izabrano = this.izbor[grupa]
+    izabrano.clear()
+    if (opcija) izabrano.add(opcija)
+    this.javi()
+  }
+
   ponisti() {
+    this.otvorenSpisak = null
     Object.values(this.izbor).forEach(izabrano => izabrano.clear())
     this.javi()
   }
@@ -241,20 +407,46 @@ export default class Filteri extends HTMLElement {
   }
 
   zatvori() {
+    this.otvorenSpisak = null
     this.panel.hidden = true
   }
 
   prikaziGrupe() {
-    const cipovi = g => Object.entries(g.opcije).map(([opcija, naziv]) => {
-      const broj = this.osnova.filter(({spomenik}) => this.odgovara(spomenik, g.kljuc) && g.uslov(spomenik, opcija)).length
-      const izabran = this.izbor[g.kljuc].has(opcija)
-      return `<button class="cip" data-grupa="${g.kljuc}" data-opcija="${opcija}" aria-pressed="${izabran}"
-        ${!broj && !izabran ? 'disabled' : ''}>${naziv}<span class="broj">${broj}</span></button>`
-    }).join('')
+    const opcije = g => Object.entries(g.opcije).map(([opcija, naziv]) => ({
+      opcija, naziv,
+      broj: this.osnova.filter(({spomenik}) => this.odgovara(spomenik, g.kljuc) && g.uslov(spomenik, opcija)).length,
+      izabran: this.izbor[g.kljuc].has(opcija),
+    }))
+
+    const cipovi = g => `<div class="cipovi">${opcije(g).map(({opcija, naziv, broj, izabran}) =>
+      `<button class="cip" data-grupa="${g.kljuc}" data-opcija="${opcija}" aria-pressed="${izabran}"
+        ${!broj && !izabran ? 'disabled' : ''}>${naziv}<span class="broj">${broj}</span></button>`).join('')}</div>`
+
+    const stavka = (g, i, opcija, naziv, izabran, broj = '') =>
+      `<li role="option" id="opcija-${g.kljuc}-${i}" data-opcija="${opcija}" data-naziv="${naziv}" aria-selected="${izabran}">${naziv}<span class="broj">${broj}</span></li>`
+
+    const padajuci = g => {
+      const otvoren = this.otvorenSpisak === g.kljuc
+      const izabran = [...this.izbor[g.kljuc]][0]
+      return `<div class="padajuci">
+        <button class="polje" data-grupa="${g.kljuc}" aria-haspopup="listbox" aria-expanded="${otvoren}">
+          ${izabran || t('sviAutori')}<span class="strelica" aria-hidden="true">▾</span>
+        </button>
+        ${otvoren ? `<div class="spisak">
+          <input type="search" role="combobox" autocomplete="off" aria-autocomplete="list" aria-expanded="true"
+            aria-controls="spisak-${g.kljuc}" aria-label="${t('traziAutora')}" placeholder="${t('traziAutora')}">
+          <ul role="listbox" id="spisak-${g.kljuc}" aria-label="${g.naziv}">
+            ${stavka(g, 0, '', t('sviAutori'), !izabran)}
+            ${opcije(g).filter(o => o.broj || o.izabran).map((o, i) => stavka(g, i + 1, o.opcija, o.naziv, o.izabran, o.broj)).join('')}
+          </ul>
+          <p class="prazno" hidden>${t('nemaAutora')}</p>
+        </div>` : ''}
+      </div>`
+    }
 
     this.sadrzaj.innerHTML = this.grupe.map(g => `
       <h3>${g.naziv}</h3>
-      <div class="cipovi">${cipovi(g)}</div>
+      ${g.padajuci ? padajuci(g) : cipovi(g)}
     `).join('')
 
     const ukupno = this.osnova.filter(({spomenik}) => this.odgovara(spomenik)).length
