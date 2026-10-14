@@ -19,11 +19,11 @@ const praviGrupe = (drzave, autori) => [
     uslov: (s, o) => o === 'neposecen' ? dajOznaku(s.id) !== 'posetio' : dajOznaku(s.id) === o},
 ]
 
-// autori sa bar tri dela, od najplodnijeg; ostale nalazi pretraga
+// autori sa bar tri dela, abecedno; ostale nalazi pretraga
 const praviAutore = stavke => {
   const brojDela = {}
   stavke.forEach(({spomenik}) => autoriSpomenika(spomenik).forEach(a => brojDela[a] = (brojDela[a] || 0) + 1))
-  return Object.keys(brojDela).filter(a => brojDela[a] >= 3).sort((a, b) => brojDela[b] - brojDela[a] || a.localeCompare(b))
+  return Object.keys(brojDela).filter(a => brojDela[a] >= 3).sort((a, b) => a.localeCompare(b, 'sh'))
 }
 
 const style = document.createElement('style')
