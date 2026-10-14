@@ -7,7 +7,7 @@ const boja = '#822323'
 
 // unutar grupe vazi bilo koja izabrana opcija (ili), a izmedju grupa sve (i)
 const praviGrupe = (drzave, autori) => [
-  {kljuc: 'tip', naziv: t('grupaVrsta'), opcije: Object.fromEntries(['istaknut', 'spomenik', 'lokalni', 'kompleks', 'ploca', 'groblje', 'muzej', 'bista'].map(o => [o, t(o)])),
+  {kljuc: 'tip', naziv: t('grupaVrsta'), opcije: Object.fromEntries(['istaknut', 'spomenik', 'lokalni', 'kompleks', 'groblje', 'muzej', 'bista', 'ploca'].map(o => [o, t(o)])),
     uslov: (s, o) => (s.type || 'spomenik') === o},
   {kljuc: 'stanje', naziv: t('grupaStanje'), opcije: {postoji: t('postoji'), rusevine: t('ruine'), nestao: t('uklonjen')},
     uslov: (s, o) => o === 'nestao' ? nestao(s.stanje) : o === 'rusevine' ? ruine(s.stanje) : !nestao(s.stanje) && !ruine(s.stanje)},
@@ -183,8 +183,11 @@ export default class Filteri extends HTMLElement {
     this.sadrzaj = this.panel.querySelector('.grupe')
     this.panel.querySelector('#zatvori').addEventListener('click', () => this.zatvori())
     this.panel.querySelector('#ponisti').addEventListener('click', () => this.ponisti())
-    // filteri ne menjaju zum ni polozaj mape; to odredjuje korisnik
-    this.panel.querySelector('#prikazi').addEventListener('click', () => this.zatvori())
+    // izbor opcija ne pomera mapu, a potvrda izbora pokazuje rezultate
+    this.panel.querySelector('#prikazi').addEventListener('click', () => {
+      this.zatvori()
+      this.dispatchEvent(new Event('potvrda'))
+    })
     this.sadrzaj.addEventListener('click', e => {
       const cip = e.target.closest('button.cip')
       if (cip) this.obrni(cip.dataset.grupa, cip.dataset.opcija)

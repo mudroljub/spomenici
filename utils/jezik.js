@@ -33,7 +33,6 @@ const tekstovi = {
   filteri: {sh: 'Filteri', en: 'Filters'},
   pretraga: {sh: 'Pretraga', en: 'Search'},
   obrisi: {sh: 'Obriši', en: 'Clear'},
-  prikaziNaMapi: {sh: 'Prikaži na mapi', en: 'Show on map'},
   obrisiSve: {sh: 'Obriši sve', en: 'Clear all'},
   zatvori: {sh: 'Zatvori', en: 'Close'},
   uBlizini: {sh: 'U blizini', en: 'Nearby'},

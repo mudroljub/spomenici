@@ -2646,7 +2646,7 @@
       "lat": 45.7577317,
       "lng": 20.4025838
     },
-    "title": "Simić's Farm",
+    "title": "Kikinda (Simićev salaš)",
     "slika": "slike/spomenici/simic-s-farm.webp",
     "naziv": "Spomenik Kikindskom partizanskom odredu",
     "name": "Monument to the Kikinda Detachment",
@@ -11454,13 +11454,30 @@
       "lat": 44.7553607,
       "lng": 19.6931294
     },
-    "googleCid": "5036941800001443183",
     "title": "Šabac",
     "slika": "slike/spomenici/sabac.webp",
     "naziv": "Spomenik palim borcima",
     "name": "Monument to Fallen Fighters",
     "year": "1968",
     "type": "spomenik",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "sabac-bista-vere-blagojevic",
+    "koordinate": {
+      "lat": 44.7555483,
+      "lng": 19.6923408
+    },
+    "googleCid": "5036941800001443183",
+    "title": "Šabac",
+    "info": "https://commons.wikimedia.org/wiki/File:%C5%A0abac,_Zgrada_vladi%C4%8Dinog_konaka_(zgrada_biblioteke)_019.jpg",
+    "slika": "slike/spomenici/sabac-bista-vere-blagojevic.webp",
+    "slikaAutor": "Ванилица, CC BY-SA 4.0",
+    "naziv": "Spomen-bista Vere Blagojević",
+    "name": "Bust of People's Hero Vera Blagojević",
+    "year": "1958",
+    "author": "Vida Jocić",
+    "type": "bista",
     "drzava": "Serbia"
   },
   {
@@ -12321,6 +12338,7 @@
     "slika": "slike/spomenici/radanovci.webp",
     "slikaAutor": "AdamRadosavljevic, CC BY-SA 3.0",
     "naziv": "Spomenik Žikici Jovanoviću Špancu",
+    "author": "Miroslav Protić",
     "type": "spomenik",
     "drzava": "Serbia"
   },
@@ -21061,6 +21079,7 @@
     "slika": "slike/spomenici/valjevo-park-vide-jocic.webp",
     "slikaAutor": "Google Maps",
     "naziv": "Park Vide Jocić",
+    "author": "Vida Jocić",
     "type": "kompleks",
     "drzava": "Serbia"
   },
@@ -24107,6 +24126,8 @@
     },
     "title": "Zagreb (Trnje)",
     "info": "https://www.openstreetmap.org/node/321540195",
+    "slika": "slike/spomenici/zagreb-holjevac.webp",
+    "slikaAutor": "Flammard, CC BY-SA 3.0",
     "naziv": "Većeslav Holjevac",
     "name": "Statue of Većeslav Holjevac",
     "type": "spomenik",
@@ -24204,6 +24225,8 @@
     },
     "title": "Beograd (Braće Jerković)",
     "info": "https://www.openstreetmap.org/node/3943315664",
+    "slika": "slike/spomenici/beograd-jerkovic.webp",
+    "slikaAutor": "Pinki, CC BY-SA 4.0",
     "naziv": "Biste Dušana i Nebojše Jerkovića",
     "name": "Bust of Nebojša Jerković",
     "type": "bista",
@@ -24356,6 +24379,8 @@
     },
     "title": "Crikvenica",
     "info": "https://www.openstreetmap.org/node/6735313280",
+    "slika": "slike/spomenici/crikvenica-crni.webp",
+    "slikaAutor": "Roberta F., CC BY-SA 3.0",
     "naziv": "Narodni heroj Nikola Car Črni",
     "name": "Bust of Narodni heroj Nikola Car Črni",
     "type": "bista",
@@ -24382,6 +24407,8 @@
     },
     "title": "Beograd (Prokop)",
     "info": "https://www.openstreetmap.org/node/6844044160",
+    "slika": "slike/spomenici/beograd-filipovic.webp",
+    "slikaAutor": "Pinki, CC BY-SA 4.0",
     "naziv": "Stjepan - Stevan Filipović",
     "name": "Bust of Stjepan Filipović",
     "type": "bista",
@@ -24491,6 +24518,8 @@
     },
     "title": "Skopje (Krnjevo)",
     "info": "https://www.openstreetmap.org/node/8883349543",
+    "slika": "slike/spomenici/skopje-apostolski.webp",
+    "slikaAutor": "Zdravko, CC BY-SA 4.0",
     "naziv": "Генерал Михајло Апостолски",
     "name": "Statue of Mihailo Apostolski",
     "type": "spomenik",
@@ -24595,6 +24624,8 @@
     },
     "title": "Beograd (Lion)",
     "info": "https://www.openstreetmap.org/node/10020880635",
+    "slika": "slike/spomenici/beograd-cetkovic.webp",
+    "slikaAutor": "Pinki, Public domain",
     "naziv": "Bista Jelene Ćetković",
     "name": "Bust of Jelena Ćetković",
     "type": "bista",
@@ -24651,6 +24682,8 @@
     },
     "title": "Niš",
     "info": "https://www.openstreetmap.org/node/10103295230",
+    "slika": "slike/spomenici/nis-jovic.webp",
+    "slikaAutor": "Alexmilt at Serbian Wikipedia, Public domain",
     "naziv": "Narodni Heroj Ratko Jović",
     "name": "Bust of Narodni Heroj Ratko Jović",
     "type": "bista",
@@ -26736,15 +26769,18 @@
   {
     "id": "skopje-spomenik-na-vera-jocik",
     "koordinate": {
-      "lat": 42.0016804,
-      "lng": 21.4283664
+      "lat": 42.0019179,
+      "lng": 21.4282574
     },
+    "googleCid": "17780998209776405594",
     "title": "Skopje",
     "info": "https://www.openstreetmap.org/node/4477202789",
+    "slika": "slike/spomenici/skopje-spomenik-na-vera-jocik.webp",
+    "slikaAutor": "Спасимир, CC BY-SA 3.0",
     "naziv": "Споменик на Вера Јоциќ",
     "name": "Monument to Vera Jocić",
     "author": "Vida Jocić",
-    "type": "spomenik",
+    "type": "bista",
     "drzava": "Macedonia"
   },
   {
@@ -27832,6 +27868,36 @@
     "title": "Likodra",
     "naziv": "Spomenik rodoljubima",
     "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "zrenjanin-spomenik-streljanim-rodoljubima",
+    "koordinate": {
+      "lat": 45.3783065,
+      "lng": 20.3989734
+    },
+    "title": "Zrenjanin",
+    "info": "https://www.openstreetmap.org/node/12886695370",
+    "naziv": "Spomenik streljanim rodoljubima",
+    "name": "Monument to Executed Patriots",
+    "year": "1986",
+    "author": "Milorad Berbakov",
+    "type": "spomenik",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "zrenjanin-spomenik-palim-crvenoarmejcima",
+    "koordinate": {
+      "lat": 45.3774757,
+      "lng": 20.3897721
+    },
+    "title": "Zrenjanin",
+    "info": "https://www.openstreetmap.org/node/13653333363",
+    "naziv": "Spomenik palim crvenoarmejcima 1944. godine",
+    "name": "Monument to Fallen Red Army Soldiers",
+    "year": "1947",
+    "author": "Aleksandar Solodov",
+    "type": "spomenik",
     "drzava": "Serbia"
   }
 ]
