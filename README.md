@@ -17,3 +17,5 @@ live-server
 Slovenian memorials: [Register nepremične kulturne dediščine](https://podatki.gov.si/dataset/register-nepremicne-kulturne-dediscine), Ministrstvo za kulturo RS, CC BY 4.0.
 
 ## TODO
+
+- potpunost podataka: tražiti fotografije sa unose kojima nedostaju

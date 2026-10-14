@@ -289,7 +289,21 @@ const pokaziNaMapi = (marker, panel) => {
     ? L.point((velicina.x + okvir.right) / 2, velicina.y / 2)
     : L.point(velicina.x / 2, (velicina.y - okvir.height) / 2 + 25)
   const tacka = mapa.latLngToContainerPoint(marker.dajPoziciju())
-  mapa.panBy(tacka.subtract(cilj))
+  mapa.panBy(unutarGranica(tacka.subtract(cilj)))
+}
+
+// pomeraj ne izlazi van granica mape; inace mapa ode preko granice pa se vrati (Slovenija je uz zapadnu)
+const unutarGranica = pomeraj => {
+  const granice = mapa.options.maxBounds
+  const zum = mapa.getZoom()
+  const min = mapa.project(granice.getNorthWest(), zum)
+  const max = mapa.project(granice.getSouthEast(), zum)
+  const pogled = mapa.getPixelBounds()
+  const ogranici = (vrednost, najmanje, najvise) => Math.min(Math.max(vrednost, najmanje), najvise)
+  return L.point(
+    ogranici(pomeraj.x, min.x - pogled.min.x, max.x - pogled.max.x),
+    ogranici(pomeraj.y, min.y - pogled.min.y, max.y - pogled.max.y),
+  )
 }
 
 export default class Detalji extends HTMLElement {
