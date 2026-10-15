@@ -1,6 +1,6 @@
 import {mapa} from '../klase/mapa.js'
 import {t} from '../utils/jezik.js'
-import {izgledMarkera} from '../utils/ikonice.js'
+import {izgledMarkera, senka} from '../utils/ikonice.js'
 
 const boja = '#822323'
 
@@ -114,10 +114,6 @@ style.textContent = `
     width: 20px;
   }
 
-  .ikona img {
-    filter: drop-shadow(2px 3px 2px rgba(0, 0, 0, 0.4));
-  }
-
   /* na telefonu tri uze kolone, da panel bude nizak */
   @media (max-width: 599px) {
     .stavke,
@@ -142,30 +138,34 @@ style.textContent = `
   }
 `
 
-const stavka = (slika, sirina, visina, naziv, stil = '') => `
+// senka iz slike ne zauzima mesto, da znakovi ostanu poravnati
+const stavka = ({slika, sirina, visina}, visinaIkone, naziv, stil = '') => {
+  const px = vrednost => Math.round(vrednost * visinaIkone / visina)
+  const margine = `margin: 0 -${px(senka.desno)}px -${px(senka.dole)}px -${px(senka.levo)}px`
+  return `
   <div class="stavka">
-    <span class="ikona"><img src="${slika}" width="${sirina}" height="${visina}" alt=""${stil ? ` style="${stil}"` : ''}></span>
+    <span class="ikona"><img src="${slika}" width="${px(sirina + senka.levo + senka.desno)}" height="${px(visina + senka.dole)}" alt=""
+      style="${margine}${stil ? `; ${stil}` : ''}"></span>
     <span>${naziv}</span>
   </div>`
+}
 
 // istaknuti i obican spomenik razlikuju se samo velicinom znaka, a bista je malo manja od spomenika, kao na mapi;
 // muzej i ploca su siroki, pa bi na visini ostalih znakova izgledali preveliki
 const visineIkona = {istaknut: 44, statua: 33, bista: 28, lokalni: 24, groblje: 29, muzej: 26, ploca: 17}
 
-const vrsta = type => {
-  const {slika, sirina, visina} = izgledMarkera({type})
-  const visinaIkone = visineIkona[type] || 34
-  return stavka(slika, Math.round(sirina * visinaIkone / visina), visinaIkone, t(type + 'Jednina'))
-}
+const vrsta = type => stavka(izgledMarkera({type}), visineIkona[type] || 34, t(type + 'Jednina'))
 
 const vrste = ['istaknut', 'spomenik', 'lokalni', 'kompleks', 'groblje', 'muzej', 'statua', 'bista', 'ploca'].map(vrsta).join('')
 
 const grupa = ([naslov, stavke]) => `<div><h3>${naslov}</h3><div class="stavke">${stavke}</div></div>`
 
+const obelisk = stanje => izgledMarkera({type: 'spomenik', stanje})
+
 const maleGrupe = [
-  [t('grupaPosetaJednina'), stavka('slike/obelisk.png', 10, 34, t('lista'), 'filter: drop-shadow(0 0 3px #f2b705) drop-shadow(0 0 2px #f2b705)')
-    + stavka('slike/obelisk.png', 10, 34, t('posetio'), 'opacity: 0.5')],
-  [t('grupaStanje'), stavka('slike/obelisk-rusevina.png', 10, 34, t('ruineJednina')) + stavka('slike/obelisk-uklonjen.png', 10, 34, t('nestao'))],
+  [t('grupaPosetaJednina'), stavka(obelisk(), 34, t('lista'), 'filter: drop-shadow(0 0 3px #f2b705) drop-shadow(0 0 2px #f2b705)')
+    + stavka(obelisk(), 34, t('posetio'), 'opacity: 0.5')],
+  [t('grupaStanje'), stavka(obelisk('rusevine'), 34, t('ruineJednina')) + stavka(obelisk('uklonjen'), 34, t('nestao'))],
 ]
 
 // legenda je u donjem levom uglu mape i otvara se samo na zahtev, da ne zaklanja spomenike

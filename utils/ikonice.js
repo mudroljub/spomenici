@@ -1,5 +1,9 @@
 import {nestao, ruine} from './helpers.js'
 
+// senka je ucrtana u slike markera, jer css senka na stotinama markera koci telefon pri pomeranju mape;
+// zato je slika veca od znaka za mesto senke levo, desno i dole, u pikselima pri punoj velicini (velicine su bez senke)
+export const senka = {levo: 2, desno: 8, dole: 10}
+
 const velicine = {kompleks: [34, 50], groblje: [29, 32], lokalni: [20, 28], muzej: [34, 38], ploca: [22, 16], bista: [22, 35], statua: [24, 48]}
 
 export const izgledMarkera = ({type, stanje}) => {

@@ -114,7 +114,7 @@
     "year": "1952",
     "author": "Miodrag Živković",
     "posveta": [
-      "Q13567243"
+      "Q12956415"
     ],
     "type": "istaknut",
     "drzava": "Serbia"
@@ -13743,12 +13743,15 @@
       "lng": 19.890376
     },
     "googleCid": "1188353502293401043",
-    "title": "Valjevo",
+    "title": "Valjevo (Krušik)",
     "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD_%D0%B3%D1%80%D0%BE%D0%B1%D1%99%D0%B5_%D0%BD%D0%B0_%D0%9A%D1%80%D1%83%D1%88%D0%B8%D0%BA%D1%83",
     "slika": "slike/spomenici/valjevo-spomen-groblje-krusiku.webp",
     "slikaOdnos": 1.5,
     "slikaAutor": "Ванилица, CC BY-SA 4.0",
     "naziv": "Spomen groblje na Krušiku",
+    "posveta": [
+      "Q11163232"
+    ],
     "type": "groblje",
     "drzava": "Serbia"
   },
@@ -28221,13 +28224,18 @@
       "lat": 43.9986795,
       "lng": 20.9255371
     },
-    "title": "Kragujevac",
+    "title": "Kragujevac (Metino brdo)",
     "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%E2%80%9E%D0%A2%D0%B0%D0%BB%D0%B0%D1%86%E2%80%9D_%D0%BD%D0%B0_%D0%9C%D0%B5%D1%82%D0%B8%D0%BD%D0%BE%D0%BC_%D0%B1%D1%80%D0%B4%D1%83",
     "slika": "slike/spomenici/kragujevac-spomenik-talac-na-metinom-brdu.webp",
     "slikaOdnos": 0.667,
     "slikaAutor": "Miomir Magdevski, CC BY-SA 4.0",
     "naziv": "Spomenik „Talac“ na Metinom brdu",
     "name": "The \"Hostage\" Monument on Metino Brdo",
+    "year": "1987",
+    "author": "Dragan Panić",
+    "posveta": [
+      "Q133864850"
+    ],
     "type": "statua",
     "drzava": "Serbia"
   },

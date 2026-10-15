@@ -44,10 +44,6 @@ h1 {
   top: calc(50px + var(--vrh));
   position: absolute;
 }
-.leaflet-marker-icon {
-  filter: drop-shadow(3px 5px 3px rgba(0, 0, 0, 0.5));
-}
-
 /* oznake sa uredjaja i izabran spomenik */
 .leaflet-marker-icon.posecen {
   opacity: 0.5;

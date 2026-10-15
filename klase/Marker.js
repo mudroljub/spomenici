@@ -1,6 +1,6 @@
 import {mapa} from './mapa.js'
 import {dajOznaku} from '../utils/oznake.js'
-import {izgledMarkera} from '../utils/ikonice.js'
+import {izgledMarkera, senka} from '../utils/ikonice.js'
 
 const razmeraZuma = {6: 0.5, 7: 0.55, 8: 0.65, 9: 0.8} // ostali zumovi pun obelisk
 const vazneVrste = ['istaknut', 'kompleks', 'groblje']
@@ -12,12 +12,11 @@ const razmeraVrste = {istaknut: 1.25, kompleks: 1.25, groblje: 1.25, bista: 0.8,
 // prelomljen obelisk i isprekidan obris onoga cega vise nema
 const ikonice = {}
 const dajIkonicu = ({slika, sirina, visina}, razmera, klasa) => {
-  const sirinaPrikaza = Math.round(sirina * razmera)
-  const visinaPrikaza = Math.round(visina * razmera)
+  const px = vrednost => Math.round(vrednost * razmera)
   return ikonice[slika + razmera + klasa] ??= L.icon({
     iconUrl: slika,
-    iconSize: [sirinaPrikaza, visinaPrikaza],
-    iconAnchor: [Math.round(sirinaPrikaza / 2), visinaPrikaza],
+    iconSize: [px(sirina + senka.levo + senka.desno), px(visina + senka.dole)],
+    iconAnchor: [px(senka.levo + sirina / 2), px(visina)],
     className: klasa,
   })
 }
