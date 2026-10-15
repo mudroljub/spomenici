@@ -56,6 +56,9 @@
     "name": "Battle of Sutjeska Monument",
     "year": "1971",
     "author": "Miodrag Živković",
+    "posveta": [
+      "Q1419973"
+    ],
     "type": "istaknut",
     "drzava": "Bosnia and Herzegovina"
   },
@@ -129,6 +132,9 @@
     "name": "Monument to the Uprising",
     "year": "1981",
     "author": "Vojin Bakić",
+    "posveta": [
+      "Q142721"
+    ],
     "stanje": "rusevine",
     "type": "istaknut",
     "drzava": "Croatia"
@@ -400,6 +406,9 @@
     "name": "Monument to the 1st Split Partisan Unit",
     "year": "1961",
     "author": "Vuko Bombardelli",
+    "posveta": [
+      "Q12640709"
+    ],
     "stanje": "rusevine",
     "type": "istaknut",
     "drzava": "Croatia"
@@ -636,6 +645,9 @@
     "naziv": "Spomenik palima u bitki na Kozari",
     "name": "Monu. to Victims of Battle of Kozara",
     "year": "1973",
+    "posveta": [
+      "Q2985697"
+    ],
     "type": "istaknut",
     "drzava": "Bosnia and Herzegovina"
   },
@@ -840,6 +852,9 @@
     "slikaOdnos": 1.0,
     "naziv": "Споменик на востанието",
     "name": "Monument to the Uprising",
+    "posveta": [
+      "Q12905650"
+    ],
     "type": "istaknut",
     "drzava": "Macedonia"
   },
@@ -1729,6 +1744,9 @@
     "name": "Monument to Novi Sad Partisans",
     "year": "1971",
     "author": "Pavle Radovanović",
+    "posveta": [
+      "Q110046889"
+    ],
     "type": "istaknut",
     "drzava": "Serbia"
   },
@@ -1748,6 +1766,9 @@
     "name": "Monument to Šar Mtn. Partisan Unit",
     "year": "1964",
     "author": "Svetomir Arsić-Basara",
+    "posveta": [
+      "Q132459457"
+    ],
     "type": "istaknut",
     "drzava": "Kosovo"
   },
@@ -1946,6 +1967,9 @@
     "naziv": "Spomenik ustanku",
     "name": "Monument to the Uprising",
     "year": "1978",
+    "posveta": [
+      "Q142721"
+    ],
     "type": "spomenik",
     "drzava": "Croatia"
   },
@@ -2070,6 +2094,9 @@
     "naziv": "Споменик на 50. Македонска партизанска дивизија",
     "name": "Monu. to the 50th Maced. Partisan Div.",
     "year": "1974",
+    "posveta": [
+      "Q1007943"
+    ],
     "type": "istaknut",
     "drzava": "Macedonia"
   },
@@ -2601,6 +2628,9 @@
     "name": "Monument to Ivan Goran Kovačić",
     "year": "1964",
     "author": "Vojin Bakić",
+    "posveta": [
+      "Q835790"
+    ],
     "type": "istaknut",
     "drzava": "Croatia"
   },
@@ -2798,6 +2828,9 @@
     "name": "Monument to <a href=\"https://en.wikipedia.org/wiki/Sava_Kova%C4%8Devi%C4%87\" target=\"_blank\">Sava Kovačević</a>",
     "year": "1987",
     "author": "Miodrag Živković",
+    "posveta": [
+      "Q1566835"
+    ],
     "type": "kompleks",
     "drzava": "Montenegro"
   },
@@ -3102,6 +3135,9 @@
     "naziv": "Spomenik Prvom banijskom ustanku",
     "name": "Monument to the 1st Banija Uprising",
     "year": "1986",
+    "posveta": [
+      "Q142721"
+    ],
     "type": "spomenik",
     "drzava": "Croatia"
   },
@@ -3140,6 +3176,9 @@
     "naziv": "Spomenik Šestoj crnogorskoj udarnoj brigadi",
     "name": "Monument to 6th Montenegrin Brigade",
     "year": "1974",
+    "posveta": [
+      "Q16088819"
+    ],
     "type": "istaknut",
     "drzava": "Montenegro"
   },
@@ -3289,6 +3328,9 @@
     "slikaOdnos": 1.102,
     "naziv": "Spomenik Rasinskom partizanskom odredu",
     "name": "Monument to the Rasina Partisan Unit",
+    "posveta": [
+      "Q85998290"
+    ],
     "type": "spomenik",
     "drzava": "Serbia"
   },
@@ -3708,24 +3750,6 @@
     "drzava": "Macedonia"
   },
   {
-    "id": "razlovci",
-    "koordinate": {
-      "lat": 41.8436331,
-      "lng": 22.7677861
-    },
-    "title": "Razlovci",
-    "wiki": "https://mk.wikipedia.org/wiki/%D0%9C%D0%B0%D0%BA%D0%B5%D0%B4%D0%BE%D0%BD%D1%81%D0%BA%D0%BE_%D0%B2%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%B8%D0%B5",
-    "wikiEn": "https://en.wikipedia.org/wiki/Kresna%E2%80%93Razlog_uprising",
-    "slika": "slike/spomenici/razlovci.webp",
-    "slikaOdnos": 1.413,
-    "naziv": "Спомен-дом на Разловечкото востание",
-    "name": "Memorial House of the <a href=\"https://en.wikipedia.org/wiki/Kresna%E2%80%93Razlog_uprising\" target=\"_blank\">Razlog Uprising</a>",
-    "year": "1981",
-    "author": "Georgi Konstantinovski",
-    "type": "spomenik",
-    "drzava": "Macedonia"
-  },
-  {
     "id": "kotor-varos",
     "koordinate": {
       "lat": 44.6134238,
@@ -4117,6 +4141,9 @@
     "name": "Monument to the 31st NOVJ Division",
     "year": "1985",
     "author": "Tone Svetina",
+    "posveta": [
+      "Q12782969"
+    ],
     "type": "spomenik",
     "drzava": "Slovenia"
   },
@@ -5002,6 +5029,9 @@
     "slikaOdnos": 1.498,
     "naziv": "Memorijalni kompleks „Bitka na Neretvi“",
     "year": "1978",
+    "posveta": [
+      "Q127872674"
+    ],
     "type": "muzej",
     "drzava": "Bosnia and Herzegovina"
   },
@@ -5342,6 +5372,9 @@
     "naziv": "Spomenik Prve proleterske brigade",
     "name": "Monument to 1st Proletariat Brigade",
     "year": "1961",
+    "posveta": [
+      "Q2190675"
+    ],
     "type": "spomenik",
     "drzava": "Bosnia and Herzegovina"
   },
@@ -6077,6 +6110,9 @@
     "naziv": "Споменик на жените борци",
     "name": "Monument to Women Fighters",
     "year": "1961",
+    "posveta": [
+      "Q192045"
+    ],
     "type": "statua",
     "drzava": "Macedonia"
   },
@@ -6347,6 +6383,9 @@
     "naziv": "Споменик на жените борци",
     "name": "Monument to Women Fighters",
     "year": "1970",
+    "posveta": [
+      "Q192045"
+    ],
     "type": "istaknut",
     "drzava": "Macedonia"
   },
@@ -6416,6 +6455,9 @@
     "name": "Partisan Memorial Cemetery",
     "year": "1976",
     "author": "Zdenko Kolacio & Dušan Džamonja",
+    "posveta": [
+      "Q3299011"
+    ],
     "type": "groblje",
     "drzava": "Croatia"
   },
@@ -6447,6 +6489,9 @@
     "naziv": "Споменик на Деветтата македонска бригада",
     "name": "Monu. to 9th Maced. Partisan Brigade",
     "year": "1974",
+    "posveta": [
+      "Q3655638"
+    ],
     "type": "spomenik",
     "drzava": "Macedonia"
   },
@@ -6478,6 +6523,9 @@
     "slika": "slike/spomenici/museum-to-1st-prolet-brigade.webp",
     "slikaOdnos": 1.46,
     "naziv": "Muzej Prve proleterske brigade u Rudom",
+    "posveta": [
+      "Q2190675"
+    ],
     "type": "muzej",
     "drzava": "Bosnia and Herzegovina"
   },
@@ -6584,6 +6632,9 @@
     "name": "Monument to the 14th Division",
     "year": "1977",
     "author": "Antun Augustinčić",
+    "posveta": [
+      "Q6594051"
+    ],
     "type": "statua",
     "drzava": "Slovenia"
   },
@@ -6650,6 +6701,9 @@
     "name": "Monument to Gorski Kotar Uprising",
     "year": "1954",
     "author": "Belizar Bahorić",
+    "posveta": [
+      "Q142721"
+    ],
     "type": "statua",
     "drzava": "Croatia"
   },
@@ -7025,6 +7079,9 @@
     "naziv": "Spomen-dom 6. ličke proleterske divizije",
     "name": "Memorial House to 6th Lika Prolet. Div.",
     "year": "1981",
+    "posveta": [
+      "Q2347039"
+    ],
     "type": "spomenik",
     "drzava": "Croatia"
   },
@@ -7136,6 +7193,9 @@
     "naziv": "Spomenik „Ustanak”",
     "name": "'Ustanak' (Uprising) Monument",
     "year": "1982",
+    "posveta": [
+      "Q142721"
+    ],
     "type": "spomenik",
     "drzava": "Bosnia and Herzegovina"
   },
@@ -8051,6 +8111,9 @@
     "name": "Mon. to 3rd Battalion of Prešeren Brig.",
     "year": "1956",
     "author": "Edvard Ravnikar & Tone Svetina",
+    "posveta": [
+      "Q12783619"
+    ],
     "type": "spomenik",
     "drzava": "Slovenia"
   },
@@ -8316,6 +8379,9 @@
     "slikaOdnos": 1.533,
     "naziv": "Spomenik ustanku NOB",
     "name": "Monument to Fallen Fighters",
+    "posveta": [
+      "Q142721"
+    ],
     "type": "spomenik",
     "drzava": "Croatia"
   },
@@ -8681,6 +8747,9 @@
     "name": "Monument to The Uprising",
     "year": "1964",
     "author": "Aleksandar Zarin",
+    "posveta": [
+      "Q10459578"
+    ],
     "type": "statua",
     "drzava": "Serbia"
   },
@@ -9774,6 +9843,9 @@
     "naziv": "Spomenik Podunavskom odredu",
     "name": "Monument to the Danube Partisan Unit",
     "year": "1981",
+    "posveta": [
+      "Q110050106"
+    ],
     "type": "spomenik",
     "drzava": "Serbia"
   },
@@ -11347,6 +11419,9 @@
     "slika": "slike/spomenici/otocac.webp",
     "slikaOdnos": 1.46,
     "naziv": "Spomenik Vladimiru Nazoru",
+    "posveta": [
+      "Q380529"
+    ],
     "type": "spomenik",
     "drzava": "Croatia"
   },
@@ -11377,6 +11452,9 @@
     "slikaOdnos": 1.695,
     "naziv": "8. македонска народноослободителна ударна бригада",
     "name": "Mon. to 8th Mac. Strike Brigade",
+    "posveta": [
+      "Q1763953"
+    ],
     "type": "spomenik",
     "drzava": "Macedonia"
   },
@@ -11393,6 +11471,9 @@
     "naziv": "Poljanska vstaja",
     "name": "Mem. Mural to the Poljane Uprising",
     "year": "1981",
+    "posveta": [
+      "Q12960377"
+    ],
     "type": "spomenik",
     "drzava": "Slovenia"
   },
@@ -11473,6 +11554,9 @@
     "naziv": "Spomenik ustanku naroda Banije i Korduna",
     "name": "Mon. to Uprising of Banija & Kordun",
     "year": "1966",
+    "posveta": [
+      "Q142721"
+    ],
     "type": "spomenik",
     "drzava": "Croatia"
   },
@@ -11566,6 +11650,9 @@
     "naziv": "Spomenik Prvom šumadijskom partizanskom odredu",
     "name": "Mon. to the 1st Šumadija Detachment",
     "year": "1968",
+    "posveta": [
+      "Q11157772"
+    ],
     "type": "spomenik",
     "drzava": "Serbia"
   },
@@ -11791,7 +11878,7 @@
       "lat": 45.7041618,
       "lng": 20.0864815
     },
-    "title": "Bački Petrovac",
+    "title": "Bačko Petrovo Selo",
     "slika": "slike/spomenici/backi-petrovac.webp",
     "slikaOdnos": 1.389,
     "naziv": "Spomenik palim borcima",
@@ -12037,6 +12124,9 @@
     "naziv": "Spomenik Jovanu „Ivi” Marinkoviću",
     "name": "Monument to Jovan \"Ivo\" Marinković",
     "year": "1952",
+    "posveta": [
+      "Q15150346"
+    ],
     "stanje": "uklonjen",
     "type": "statua",
     "drzava": "Croatia"
@@ -12167,6 +12257,9 @@
     "naziv": "Spomenik „Poziv na ustanak”",
     "name": "\"Call to Uprising\" Monument",
     "year": "1952",
+    "posveta": [
+      "Q10459578"
+    ],
     "type": "statua",
     "drzava": "Serbia"
   },
@@ -13128,6 +13221,9 @@
     "naziv": "Mjesto osnivanja Komunističke partije Hrvatske, 1937.",
     "name": "1937 Founding of Cro. Communist Party",
     "year": "1952",
+    "posveta": [
+      "Q1268048"
+    ],
     "type": "ploca",
     "drzava": "Croatia"
   },
@@ -13163,6 +13259,9 @@
     "naziv": "Spomenik ustanku",
     "name": "Monument to the Uprising",
     "year": "1952",
+    "posveta": [
+      "Q142721"
+    ],
     "stanje": "uklonjen",
     "type": "statua",
     "drzava": "Croatia"
@@ -13338,6 +13437,9 @@
     "slikaOdnos": 0.667,
     "slikaAutor": "Ванилица, CC BY-SA 4.0",
     "naziv": "Spomenik Vladi Zečeviću",
+    "posveta": [
+      "Q11255985"
+    ],
     "type": "statua",
     "drzava": "Serbia"
   },
@@ -14141,6 +14243,9 @@
     "slikaOdnos": 1.333,
     "slikaAutor": "Јелена Продановић, CC BY-SA 4.0",
     "naziv": "Spomenik NOR – Posavski partizanski odred",
+    "posveta": [
+      "Q11161272"
+    ],
     "type": "statua",
     "drzava": "Serbia"
   },
@@ -14408,6 +14513,9 @@
     "slikaOdnos": 1.498,
     "slikaAutor": "Google Maps",
     "naziv": "Spomenik NOB - posvečen preboja XIV. divizije",
+    "posveta": [
+      "Q6594051"
+    ],
     "type": "lokalni",
     "drzava": "Slovenia"
   },
@@ -19300,6 +19408,9 @@
     },
     "googleCid": "9938779105539914732",
     "title": "Bački Petrovac",
+    "slika": "slike/spomenici/backi-petrovac-2.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "M Todorovic, CC BY-SA 4.0",
     "naziv": "Spomenik borcima NOB",
     "type": "spomenik",
     "drzava": "Serbia"
@@ -19569,6 +19680,9 @@
     },
     "googleCid": "4748322540612240957",
     "title": "Laćarak",
+    "slika": "slike/spomenici/lacarak.webp",
+    "slikaOdnos": 0.667,
+    "slikaAutor": "Srđan Popović, CC BY-SA 4.0",
     "naziv": "Spomenik NOB",
     "type": "lokalni",
     "drzava": "Serbia"
@@ -19976,6 +20090,9 @@
     "slikaOdnos": 1.333,
     "slikaAutor": "Google Maps",
     "naziv": "Spomenik petoj sandžačkoj narodnooslobodilačkoj udarnoj brigadi",
+    "posveta": [
+      "Q12783286"
+    ],
     "type": "lokalni",
     "drzava": "Serbia"
   },
@@ -22715,6 +22832,9 @@
     "info": "https://www.openstreetmap.org/node/1064600350",
     "naziv": "Spomenik Miši Pantiću",
     "name": "Monument to Miša Pantić",
+    "posveta": [
+      "Q1567606"
+    ],
     "type": "statua",
     "drzava": "Serbia"
   },
@@ -23655,6 +23775,9 @@
     "googleCid": "12719746667190233055",
     "title": "Vučak",
     "naziv": "Spomenik Kosmajskom partizanskom odredu",
+    "posveta": [
+      "Q11117229"
+    ],
     "type": "spomenik",
     "drzava": "Serbia"
   },
@@ -25193,6 +25316,9 @@
     "googleCid": "4258507172067244998",
     "title": "Ruše",
     "naziv": "Spomenik padlim borcem XIV. divizije",
+    "posveta": [
+      "Q6594051"
+    ],
     "type": "lokalni",
     "drzava": "Slovenia"
   },
@@ -25352,6 +25478,9 @@
     "slikaOdnos": 0.75,
     "slikaAutor": "Google Maps",
     "naziv": "Spomenik padlim partizanom XIV. divizije",
+    "posveta": [
+      "Q6594051"
+    ],
     "type": "lokalni",
     "drzava": "Slovenia"
   },
@@ -27287,6 +27416,9 @@
     "info": "https://www.openstreetmap.org/node/1880642620",
     "naziv": "Gradnikova brigada",
     "name": "Monument to a Partisan Brigade",
+    "posveta": [
+      "Q19932010"
+    ],
     "type": "spomenik",
     "drzava": "Slovenia"
   },
@@ -27300,6 +27432,9 @@
     "info": "https://www.openstreetmap.org/node/1883578552",
     "naziv": "Gradnikova brigada",
     "name": "Monument to a Partisan Brigade",
+    "posveta": [
+      "Q19932010"
+    ],
     "type": "spomenik",
     "drzava": "Slovenia"
   },
@@ -27313,6 +27448,9 @@
     "info": "https://www.openstreetmap.org/node/3680237603",
     "naziv": "Komandiru Stevu Vlahoviću i petorici Neznanih Boraca II dalmatinske brigade palih 7 i 8 XI 1944 u Dobroti",
     "name": "Monument to a Partisan Brigade",
+    "posveta": [
+      "Q117668"
+    ],
     "type": "spomenik",
     "drzava": "Montenegro"
   },
@@ -27342,6 +27480,9 @@
     "slikaAutor": "dominkod, CC BY 3.0",
     "naziv": "Spomenik padlim in ranjenim Cankarjeve brigade 1941-1945",
     "name": "Monument to a Partisan Brigade",
+    "posveta": [
+      "Q12783285"
+    ],
     "type": "spomenik",
     "drzava": "Slovenia"
   },
@@ -27371,6 +27512,9 @@
     "info": "https://www.openstreetmap.org/node/9001894620",
     "naziv": "Spomenik 4. crnogorske brigade",
     "name": "Monument to a Partisan Brigade",
+    "posveta": [
+      "Q12761191"
+    ],
     "type": "spomenik",
     "drzava": "Bosnia and Herzegovina"
   },
@@ -27384,6 +27528,9 @@
     "info": "https://www.openstreetmap.org/node/9399721138",
     "naziv": "Spominsko znamenje 2. prekomorski brigadi v Semedeli",
     "name": "Monument to a Partisan Brigade",
+    "posveta": [
+      "Q12782730"
+    ],
     "type": "lokalni",
     "drzava": "Slovenia"
   },
@@ -27426,6 +27573,9 @@
     "info": "https://www.openstreetmap.org/node/11862903148",
     "naziv": "15. Македонска Народноослободителна Ударна Бригада",
     "name": "Memorial Plaque to a Partisan Brigade",
+    "posveta": [
+      "Q3402609"
+    ],
     "type": "ploca",
     "drzava": "Macedonia"
   },
@@ -27439,6 +27589,9 @@
     "info": "https://www.openstreetmap.org/node/11866592650",
     "naziv": "Spominska plošča Tomšičevi brigadi",
     "name": "Memorial Plaque to a Partisan Brigade",
+    "posveta": [
+      "Q2193805"
+    ],
     "type": "ploca",
     "drzava": "Slovenia"
   },
@@ -27453,6 +27606,9 @@
     "info": "https://www.openstreetmap.org/node/12073222861",
     "naziv": "Spomenik Prvoj dalmatinskoj brigadi",
     "name": "Monument to a Partisan Brigade",
+    "posveta": [
+      "Q2190821"
+    ],
     "type": "spomenik",
     "drzava": "Bosnia and Herzegovina"
   },
@@ -27466,6 +27622,9 @@
     "info": "https://www.openstreetmap.org/node/12139191467",
     "naziv": "Spomenik 6. proleterskoj istočnobosanskoj NOU brigadi",
     "name": "Monument to a Partisan Brigade",
+    "posveta": [
+      "Q16761390"
+    ],
     "type": "spomenik",
     "drzava": "Bosnia and Herzegovina"
   },
@@ -27498,6 +27657,9 @@
     "slikaAutor": "Bojan Marušič, CC BY-SA 4.0",
     "naziv": "Padlim borcem Gradnikove brigade, Krnska Škrbina",
     "name": "Memorial Plaque to a Partisan Brigade",
+    "posveta": [
+      "Q19932010"
+    ],
     "type": "ploca",
     "drzava": "Slovenia"
   },
@@ -28103,6 +28265,9 @@
     "googleCid": "18287381553384780025",
     "title": "Petrijevo",
     "naziv": "Spomenik Kosmajskom partizanskom odredu",
+    "posveta": [
+      "Q11117229"
+    ],
     "type": "lokalni",
     "drzava": "Serbia"
   },
@@ -28115,6 +28280,9 @@
     "googleCid": "12798198819651671806",
     "title": "Zagreb",
     "naziv": "Spomenik 13. proleterskoj brigadi",
+    "posveta": [
+      "Q402503"
+    ],
     "type": "spomenik",
     "drzava": "Croatia"
   },
@@ -28127,6 +28295,9 @@
     "googleCid": "16359028104540156247",
     "title": "Ilirska Bistrica",
     "naziv": "Spomenik tretji prekomorski brigadi",
+    "posveta": [
+      "Q12782945"
+    ],
     "type": "spomenik",
     "drzava": "Slovenia"
   },
@@ -28139,6 +28310,9 @@
     "googleCid": "17684734523981439070",
     "title": "Soze",
     "naziv": "Partizanski spomenik Brkinski brigadi",
+    "posveta": [
+      "Q12786515"
+    ],
     "type": "spomenik",
     "drzava": "Slovenia"
   },
@@ -28151,6 +28325,9 @@
     "googleCid": "5430056385340633449",
     "title": "Popov Most",
     "naziv": "Spomenik IV proleterskoj brigadi",
+    "posveta": [
+      "Q12761191"
+    ],
     "type": "spomenik",
     "drzava": "Bosnia and Herzegovina"
   },
@@ -28178,6 +28355,9 @@
     "googleCid": "5839463198998040141",
     "title": "Brijeg",
     "naziv": "Spomenik III sandžačkoj brigadi",
+    "posveta": [
+      "Q12760203"
+    ],
     "type": "spomenik",
     "drzava": "Montenegro"
   },
@@ -28190,6 +28370,9 @@
     "googleCid": "1547966602562177623",
     "title": "Goražde",
     "naziv": "Spomenik XVI muslimanskoj brigadi",
+    "posveta": [
+      "Q12782563"
+    ],
     "type": "spomenik",
     "drzava": "Bosnia and Herzegovina"
   },
@@ -28612,6 +28795,9 @@
     "slikaOdnos": 0.61,
     "slikaAutor": "Plamen, Public domain",
     "naziv": "Vladimir Nazor",
+    "posveta": [
+      "Q380529"
+    ],
     "type": "bista",
     "drzava": "Croatia"
   },
@@ -29117,6 +29303,9 @@
     "slikaAutor": "Kiril Simeonovski, CC BY-SA 4.0",
     "naziv": "Биста на Стефан Наумов Стив",
     "name": "Bust of Stefan Naumov Stiv",
+    "posveta": [
+      "Q2984534"
+    ],
     "type": "bista",
     "drzava": "Macedonia"
   },
@@ -29406,6 +29595,9 @@
     "slikaAutor": "Zdravko, CC BY-SA 4.0",
     "naziv": "Биста на Орце Николов",
     "name": "Bust of Orce Nikolov",
+    "posveta": [
+      "Q3397086"
+    ],
     "type": "bista",
     "drzava": "Macedonia"
   },
@@ -29670,6 +29862,9 @@
     "slikaAutor": "Lotom, CC BY-SA 4.0",
     "naziv": "Spomenik Marijani Gregoran",
     "name": "Monument to Marijana Gregoran",
+    "posveta": [
+      "Q12754936"
+    ],
     "type": "bista",
     "drzava": "Serbia"
   },
@@ -30150,6 +30345,9 @@
     "slikaAutor": "Vanjagenije, CC BY-SA 4.0",
     "naziv": "Bista Lidije Aldan",
     "name": "Bust of Lidija Aldan",
+    "posveta": [
+      "Q85995757"
+    ],
     "type": "bista",
     "drzava": "Serbia"
   },
@@ -30199,6 +30397,9 @@
     "googleCid": "1435404183766699205",
     "title": "Kosmaj",
     "naziv": "Spomen-ploča ustanku",
+    "posveta": [
+      "Q10459578"
+    ],
     "type": "ploca",
     "drzava": "Serbia"
   },
@@ -30308,6 +30509,9 @@
     "info": "https://eid.gov.si/S/10074",
     "naziv": "Spominska plošča bojem 2. grupe odredov",
     "year": "1952",
+    "posveta": [
+      "Q19933373"
+    ],
     "type": "ploca",
     "drzava": "Slovenia"
   },
@@ -30448,6 +30652,9 @@
     "info": "https://eid.gov.si/S/17240",
     "naziv": "Spominska plošča izvršnem odboru OF",
     "year": "1951",
+    "posveta": [
+      "Q172071"
+    ],
     "type": "ploca",
     "drzava": "Slovenia"
   },
@@ -31023,6 +31230,9 @@
     "slikaOdnos": 1.338,
     "slikaAutor": "Katarina Richter, CC BY 4.0",
     "naziv": "Spominska plošča borcem 1. bataljona Dolomitskega odreda",
+    "posveta": [
+      "Q134430097"
+    ],
     "type": "ploca",
     "drzava": "Slovenia"
   },
@@ -31353,6 +31563,9 @@
     "info": "https://eid.gov.si/S/11525",
     "naziv": "Spominska plošča ustanovitvi odbora OF",
     "year": "1981",
+    "posveta": [
+      "Q172071"
+    ],
     "type": "ploca",
     "drzava": "Slovenia"
   },
@@ -31410,6 +31623,9 @@
     "slikaAutor": "Bernarda Jesenko Filipič, CC BY 4.0",
     "naziv": "Spominska plošča Janku Smoleju",
     "year": "1979",
+    "posveta": [
+      "Q3503913"
+    ],
     "type": "ploca",
     "drzava": "Slovenia"
   },
@@ -31423,6 +31639,9 @@
     "info": "https://eid.gov.si/S/21184",
     "naziv": "Spominsko znamenje drugi grupi odredov",
     "year": "1952",
+    "posveta": [
+      "Q19933373"
+    ],
     "type": "lokalni",
     "drzava": "Slovenia"
   },
@@ -31504,6 +31723,9 @@
     "info": "https://eid.gov.si/S/10364",
     "naziv": "Spomenik ljudske vstaje in boja proti okupatorju",
     "year": "1979",
+    "posveta": [
+      "Q12960377"
+    ],
     "type": "lokalni",
     "drzava": "Slovenia"
   },
@@ -31549,6 +31771,9 @@
     "slikaAutor": "Bernarda Jesenko Filipič, CC BY 4.0",
     "naziv": "Spominska plošča organiziranju vstaje v Bohinju",
     "year": "1979",
+    "posveta": [
+      "Q12960377"
+    ],
     "type": "ploca",
     "drzava": "Slovenia"
   },
@@ -31565,6 +31790,9 @@
     "slikaAutor": "Bernarda Jesenko Filipič, CC BY 4.0",
     "naziv": "Spominska plošča začetku vstaje 1941",
     "year": "1977",
+    "posveta": [
+      "Q12960377"
+    ],
     "type": "ploca",
     "drzava": "Slovenia"
   },
@@ -31859,6 +32087,9 @@
     "info": "https://eid.gov.si/S/7260",
     "naziv": "Grobišče borcev XIV. Divizije",
     "year": "1952",
+    "posveta": [
+      "Q6594051"
+    ],
     "type": "lokalni",
     "drzava": "Slovenia"
   },
@@ -32195,6 +32426,9 @@
     "info": "https://eid.gov.si/S/20687",
     "naziv": "Spominsko znamenje ustanovitvi krajevne OF",
     "year": "1961",
+    "posveta": [
+      "Q172071"
+    ],
     "type": "lokalni",
     "drzava": "Slovenia"
   },
@@ -32250,6 +32484,9 @@
     "info": "https://eid.gov.si/S/21714",
     "naziv": "Spominska plošča odboru OF",
     "year": "1982",
+    "posveta": [
+      "Q172071"
+    ],
     "type": "ploca",
     "drzava": "Slovenia"
   },
@@ -33046,6 +33283,10 @@
     "slikaAutor": "Mitja Pergar, CC BY 4.0",
     "naziv": "Spomenik borcem Cankarjeve in Šercerjeve brigade",
     "year": "1960",
+    "posveta": [
+      "Q12782731",
+      "Q12783285"
+    ],
     "type": "lokalni",
     "drzava": "Slovenia"
   },
@@ -33258,6 +33499,9 @@
     "slikaAutor": "Ernesta Drole, CC BY 4.0",
     "naziv": "Spomenik artileriji IX. korpusa",
     "year": "1981",
+    "posveta": [
+      "Q2075237"
+    ],
     "type": "lokalni",
     "drzava": "Slovenia"
   },
@@ -33670,6 +33914,9 @@
     "slikaAutor": "Martin Pungerčar, CC BY 4.0",
     "naziv": "Spomenik 14. diviziji",
     "year": "1954",
+    "posveta": [
+      "Q6594051"
+    ],
     "type": "lokalni",
     "drzava": "Slovenia"
   },
@@ -33810,6 +34057,9 @@
     "info": "https://eid.gov.si/S/5329",
     "naziv": "Spominska plošča decembrski vstaji 1941",
     "year": "1961",
+    "posveta": [
+      "Q12960377"
+    ],
     "type": "ploca",
     "drzava": "Slovenia"
   },
@@ -34154,6 +34404,9 @@
     "info": "https://eid.gov.si/S/24351",
     "naziv": "Spominska plošča ustanovitvi prvega bataljona VOS OF",
     "year": "1982",
+    "posveta": [
+      "Q10975196"
+    ],
     "type": "ploca",
     "drzava": "Slovenia"
   },
@@ -34266,6 +34519,9 @@
     "info": "https://eid.gov.si/S/4412",
     "naziv": "Spominski kamen petim borcem Šercerjeve brigade",
     "year": "1955",
+    "posveta": [
+      "Q12782731"
+    ],
     "type": "lokalni",
     "drzava": "Slovenia"
   },
@@ -34454,6 +34710,9 @@
     "slikaAutor": "Bernarda Jesenko Filipič, CC BY 4.0",
     "naziv": "Spomenik vstaji na Golniku in okolici",
     "year": "1981",
+    "posveta": [
+      "Q12960377"
+    ],
     "type": "lokalni",
     "drzava": "Slovenia"
   },
@@ -34568,6 +34827,9 @@
     "info": "https://eid.gov.si/S/28072",
     "naziv": "Spominska plošča ustanovitvi IX. korpusa",
     "year": "1949",
+    "posveta": [
+      "Q2075237"
+    ],
     "type": "ploca",
     "drzava": "Slovenia"
   },
@@ -34584,6 +34846,9 @@
     "slikaAutor": "Bojan Zaletelj, CC BY 4.0",
     "naziv": "Spominska plošča aktivistom OF",
     "year": "1952",
+    "posveta": [
+      "Q172071"
+    ],
     "type": "ploca",
     "drzava": "Slovenia"
   },
@@ -34795,6 +35060,9 @@
     "slikaAutor": "Martin Pungerčar, CC BY 4.0",
     "naziv": "Spomenik 3. bataljonu Tomšičeve brigade",
     "year": "1985",
+    "posveta": [
+      "Q2193805"
+    ],
     "type": "lokalni",
     "drzava": "Slovenia"
   },
@@ -35319,6 +35587,9 @@
     "info": "https://eid.gov.si/S/24425",
     "naziv": "Spominsko znamenje trem padlim aktivistom OF",
     "year": "1961",
+    "posveta": [
+      "Q172071"
+    ],
     "type": "lokalni",
     "drzava": "Slovenia"
   },
@@ -36240,6 +36511,9 @@
     "slikaAutor": "Ernesta Drole, CC BY 4.0",
     "naziv": "Spomenik Nadi Žagar",
     "year": "1966",
+    "posveta": [
+      "Q12797219"
+    ],
     "type": "bista",
     "drzava": "Slovenia"
   },
@@ -37619,6 +37893,9 @@
     "info": "https://eid.gov.si/S/17093",
     "naziv": "Spominska plošča VOS",
     "year": "1989",
+    "posveta": [
+      "Q10975196"
+    ],
     "type": "ploca",
     "drzava": "Slovenia"
   },
@@ -37729,6 +38006,9 @@
     "title": "Klanec pri Gabrovki",
     "info": "https://eid.gov.si/S/25845",
     "naziv": "Spominska plošča borcem Dolenjskega odreda",
+    "posveta": [
+      "Q12787679"
+    ],
     "type": "ploca",
     "drzava": "Slovenia"
   },
@@ -38009,6 +38289,9 @@
     "info": "https://eid.gov.si/S/21927",
     "naziv": "Spominska plošča prvemu bataljonu Dolenjskega odreda",
     "year": "1982",
+    "posveta": [
+      "Q12787679"
+    ],
     "type": "ploca",
     "drzava": "Slovenia"
   },
@@ -38022,6 +38305,9 @@
     "info": "https://eid.gov.si/S/17072",
     "naziv": "Spominsko znamenje 2. prekomorski brigadi v Semedeli",
     "year": "1982",
+    "posveta": [
+      "Q12782730"
+    ],
     "type": "lokalni",
     "drzava": "Slovenia"
   },
@@ -38051,6 +38337,9 @@
     "slikaAutor": "Tea Lukan Klavžer, CC BY 4.0",
     "naziv": "Spominska plošča OF",
     "year": "1987",
+    "posveta": [
+      "Q172071"
+    ],
     "type": "ploca",
     "drzava": "Slovenia"
   },
@@ -38294,6 +38583,9 @@
     "info": "https://eid.gov.si/S/17124",
     "naziv": "Spomenik bojem Tomšičeve brigade",
     "year": "1952",
+    "posveta": [
+      "Q2193805"
+    ],
     "type": "lokalni",
     "drzava": "Slovenia"
   },
@@ -38322,6 +38614,9 @@
     "slikaOdnos": 1.498,
     "slikaAutor": "Srečko Štajnbaher, CC BY 4.0",
     "naziv": "Grobnica borcev XIV. in XVII. divizije",
+    "posveta": [
+      "Q6594051"
+    ],
     "type": "lokalni",
     "drzava": "Slovenia"
   },
@@ -39084,6 +39379,9 @@
     "info": "https://eid.gov.si/S/24327",
     "naziv": "Spominski plošči ustanovitvi Dolenjskega odreda",
     "year": "1981",
+    "posveta": [
+      "Q12787679"
+    ],
     "type": "ploca",
     "drzava": "Slovenia"
   },
@@ -39576,6 +39874,9 @@
     "info": "https://eid.gov.si/S/20707",
     "naziv": "Grobišče borcev Prešernove brigade",
     "year": "1989",
+    "posveta": [
+      "Q12783619"
+    ],
     "type": "lokalni",
     "drzava": "Slovenia"
   },
@@ -40019,6 +40320,9 @@
     "info": "https://eid.gov.si/S/29238",
     "naziv": "Spominska plošča ustanovitvi okrožnega odbora OF",
     "year": "1952",
+    "posveta": [
+      "Q172071"
+    ],
     "type": "ploca",
     "drzava": "Slovenia"
   },
@@ -40630,6 +40934,9 @@
     "slikaAutor": "Branka Majerič, CC BY 4.0",
     "naziv": "Spomenik ustanovitvi Osvobodilne fronte",
     "year": "1951",
+    "posveta": [
+      "Q172071"
+    ],
     "type": "lokalni",
     "drzava": "Slovenia"
   },
@@ -40724,6 +41031,9 @@
     "info": "https://eid.gov.si/S/5698",
     "naziv": "Spomenik vstaje proti okupatorju",
     "year": "1956",
+    "posveta": [
+      "Q12960377"
+    ],
     "type": "lokalni",
     "drzava": "Slovenia"
   },
@@ -41092,6 +41402,9 @@
     "info": "https://eid.gov.si/S/11574",
     "naziv": "Spominska plošča Dolomitskemu odredu",
     "year": "1981",
+    "posveta": [
+      "Q134430097"
+    ],
     "type": "ploca",
     "drzava": "Slovenia"
   },
@@ -41476,6 +41789,9 @@
     "info": "https://eid.gov.si/S/21755",
     "naziv": "Spominska plošča v NOB padlima borcema IX. korpusa",
     "year": "1985",
+    "posveta": [
+      "Q2075237"
+    ],
     "type": "ploca",
     "drzava": "Slovenia"
   },
@@ -41502,6 +41818,9 @@
     "info": "https://eid.gov.si/S/21768",
     "naziv": "Spominska plošča IX. korpusu",
     "year": "1950",
+    "posveta": [
+      "Q2075237"
+    ],
     "type": "ploca",
     "drzava": "Slovenia"
   },
@@ -41945,6 +42264,9 @@
     "info": "https://eid.gov.si/S/24331",
     "naziv": "Spominska plošča ustanovitvi prvega odbora OF Hudo",
     "year": "1965",
+    "posveta": [
+      "Q172071"
+    ],
     "type": "ploca",
     "drzava": "Slovenia"
   },
@@ -42040,6 +42362,9 @@
     "slikaAutor": "Srečko Štajnbaher, CC BY 4.0",
     "naziv": "Spominska plošča članom okrožnega odbora OF",
     "year": "1952",
+    "posveta": [
+      "Q172071"
+    ],
     "type": "ploca",
     "drzava": "Slovenia"
   },
@@ -42053,6 +42378,9 @@
     "info": "https://eid.gov.si/S/17132",
     "naziv": "Spomenik ustanovitvi Bračičeve brigade",
     "year": "1968",
+    "posveta": [
+      "Q12782437"
+    ],
     "type": "lokalni",
     "drzava": "Slovenia"
   },
@@ -42673,6 +43001,9 @@
     "info": "https://eid.gov.si/S/23379",
     "naziv": "Spominska plošča drugemu bataljonu Dolomitskega odreda",
     "year": "1980",
+    "posveta": [
+      "Q134430097"
+    ],
     "type": "ploca",
     "drzava": "Slovenia"
   },
@@ -43101,6 +43432,9 @@
     "info": "https://eid.gov.si/S/22469",
     "naziv": "Spominska plošča Franji Bojc-Bidovec",
     "year": "1997",
+    "posveta": [
+      "Q15695279"
+    ],
     "type": "ploca",
     "drzava": "Slovenia"
   },
@@ -43471,6 +43805,9 @@
     "slikaAutor": "Martin Pungerčar, CC BY 4.0",
     "naziv": "Spominska plošča Vinku Kristanu",
     "year": "1976",
+    "posveta": [
+      "Q12805773"
+    ],
     "type": "ploca",
     "drzava": "Slovenia"
   },
@@ -43720,6 +44057,9 @@
     "slikaAutor": "Borut Križ, CC BY 4.0",
     "naziv": "Spominska plošča Jožetu Šaliju",
     "year": "1952",
+    "posveta": [
+      "Q12792921"
+    ],
     "type": "ploca",
     "drzava": "Slovenia"
   },
@@ -43946,6 +44286,9 @@
     "info": "https://eid.gov.si/S/4408",
     "naziv": "Spominsko znamenje preboju XIV. divizije",
     "year": "1958",
+    "posveta": [
+      "Q6594051"
+    ],
     "type": "lokalni",
     "drzava": "Slovenia"
   },
@@ -43962,6 +44305,9 @@
     "slikaAutor": "Srečko Štajnbaher, CC BY 4.0",
     "naziv": "Spomenik borcem XIV. divizije",
     "year": "1980",
+    "posveta": [
+      "Q6594051"
+    ],
     "type": "lokalni",
     "drzava": "Slovenia"
   },
@@ -44023,6 +44369,9 @@
     "info": "https://eid.gov.si/S/17270",
     "naziv": "Spomenik v NOB padlim aktivistom OF",
     "year": "1959",
+    "posveta": [
+      "Q172071"
+    ],
     "type": "lokalni",
     "drzava": "Slovenia"
   },
@@ -44293,6 +44642,9 @@
     "slikaAutor": "Srečko Štajnbaher, CC BY 4.0",
     "naziv": "Spomenik boju Šercerjeve brigade",
     "year": "1979",
+    "posveta": [
+      "Q12782731"
+    ],
     "type": "lokalni",
     "drzava": "Slovenia"
   },
@@ -44376,6 +44728,9 @@
     "naziv": "Spomenik NOB in ustanovitvi 1. odbora OF za Slovensko Istro",
     "year": "1981",
     "author": "Zvest Apollonio",
+    "posveta": [
+      "Q172071"
+    ],
     "type": "lokalni",
     "drzava": "Slovenia"
   },
@@ -44469,6 +44824,9 @@
     "info": "https://eid.gov.si/S/11594",
     "naziv": "Spominska plošča aktivistom OF",
     "year": "1979",
+    "posveta": [
+      "Q172071"
+    ],
     "type": "ploca",
     "drzava": "Slovenia"
   },
@@ -44482,6 +44840,9 @@
     "info": "https://eid.gov.si/S/11595",
     "naziv": "Znamenje sestanku aktivistov OF",
     "year": "1979",
+    "posveta": [
+      "Q172071"
+    ],
     "type": "lokalni",
     "drzava": "Slovenia"
   },
@@ -44611,6 +44972,9 @@
     "info": "https://eid.gov.si/S/17135",
     "naziv": "Spominska plošča Matevžu Hacetu",
     "year": "1980",
+    "posveta": [
+      "Q12796099"
+    ],
     "type": "ploca",
     "drzava": "Slovenia"
   },
@@ -44656,6 +45020,9 @@
     "slikaAutor": "Srečko Štajnbaher, CC BY 4.0",
     "naziv": "Grobišče borcev XIV. divizije",
     "year": "1961",
+    "posveta": [
+      "Q6594051"
+    ],
     "type": "lokalni",
     "drzava": "Slovenia"
   },
@@ -44672,6 +45039,9 @@
     "slikaAutor": "Srečko Štajnbaher, CC BY 4.0",
     "naziv": "Grobišče borcev Šercerjeve brigade",
     "year": "1968",
+    "posveta": [
+      "Q12782731"
+    ],
     "type": "lokalni",
     "drzava": "Slovenia"
   },
@@ -44688,6 +45058,9 @@
     "slikaAutor": "Srečko Štajnbaher, CC BY 4.0",
     "naziv": "Spomenik borcem XIV. Divizije na Graški gori",
     "year": "1953",
+    "posveta": [
+      "Q6594051"
+    ],
     "type": "lokalni",
     "drzava": "Slovenia"
   },
@@ -44834,6 +45207,9 @@
     "slikaAutor": "Katarina Richter, CC BY 4.0",
     "naziv": "Spominska plošča Mihu Arihu",
     "year": "1979",
+    "posveta": [
+      "Q12796483"
+    ],
     "type": "ploca",
     "drzava": "Slovenia"
   },
@@ -44862,6 +45238,9 @@
     "title": "Podkraj pri Velenju",
     "info": "https://eid.gov.si/S/4403",
     "naziv": "Grobnica borcev XIV. divizije",
+    "posveta": [
+      "Q6594051"
+    ],
     "type": "lokalni",
     "drzava": "Slovenia"
   },
@@ -44901,6 +45280,9 @@
     "info": "https://eid.gov.si/S/24211",
     "naziv": "Spomenik ustanovitvi Cankarjeve brigade v Lapinju",
     "year": "1959",
+    "posveta": [
+      "Q12783285"
+    ],
     "type": "lokalni",
     "drzava": "Slovenia"
   },
@@ -44995,6 +45377,9 @@
     "info": "https://eid.gov.si/S/21373",
     "naziv": "Spominski kamen posvetovanju aktivistov OF",
     "year": "1954",
+    "posveta": [
+      "Q172071"
+    ],
     "type": "lokalni",
     "drzava": "Slovenia"
   },
@@ -45056,6 +45441,9 @@
     "slikaAutor": "Andreja Bahar Muršič, CC BY 4.0",
     "naziv": "Spominska plošča Deseti Ljubljanski brigadi",
     "year": "1953",
+    "posveta": [
+      "Q855794"
+    ],
     "type": "ploca",
     "drzava": "Slovenia"
   },
@@ -45707,6 +46095,9 @@
     "info": "https://eid.gov.si/S/19566",
     "naziv": "Spominska plošča aktivistoma OF",
     "year": "1958",
+    "posveta": [
+      "Q172071"
+    ],
     "type": "ploca",
     "drzava": "Slovenia"
   },
@@ -45986,6 +46377,9 @@
     "info": "https://eid.gov.si/S/11736",
     "naziv": "Kip Jožeta Moleka-Puntarja",
     "year": "1970",
+    "posveta": [
+      "Q18604315"
+    ],
     "type": "bista",
     "drzava": "Slovenia"
   },
@@ -46025,6 +46419,9 @@
     "info": "https://eid.gov.si/S/10713",
     "naziv": "Spomenik vstaji",
     "year": "1957",
+    "posveta": [
+      "Q12960377"
+    ],
     "type": "lokalni",
     "drzava": "Slovenia"
   },
@@ -46159,6 +46556,9 @@
     "slikaAutor": "Tjaša Rotar, CC BY 4.0",
     "naziv": "Spominska plošča taborišču VOS za jeseniško okrožje",
     "year": "1974",
+    "posveta": [
+      "Q10975196"
+    ],
     "type": "ploca",
     "drzava": "Slovenia"
   },
@@ -46286,6 +46686,9 @@
     "slikaAutor": "Alenka Možina, CC BY 4.0",
     "naziv": "Spomenik zboru aktivistov OF",
     "year": "1951",
+    "posveta": [
+      "Q172071"
+    ],
     "type": "lokalni",
     "drzava": "Slovenia"
   },
@@ -46500,6 +46903,9 @@
     "info": "https://eid.gov.si/S/9392",
     "naziv": "Spominska plošča Tomšičevi brigadi",
     "year": "1952",
+    "posveta": [
+      "Q2193805"
+    ],
     "type": "ploca",
     "drzava": "Slovenia"
   },
@@ -46651,6 +47057,9 @@
     "title": "Ravne pri Šoštanju",
     "info": "https://eid.gov.si/S/4398",
     "naziv": "Spomenik borcem XIV. divizije",
+    "posveta": [
+      "Q6594051"
+    ],
     "type": "lokalni",
     "drzava": "Slovenia"
   },
@@ -46866,6 +47275,9 @@
     "info": "https://eid.gov.si/S/22489",
     "naziv": "Spomenik vstaje in revolucije",
     "year": "1982",
+    "posveta": [
+      "Q12960377"
+    ],
     "type": "lokalni",
     "drzava": "Slovenia"
   },
@@ -47668,6 +48080,9 @@
     "info": "https://eid.gov.si/S/22718",
     "naziv": "Spomenik letalcu Josipu Križaju",
     "year": "1980",
+    "posveta": [
+      "Q2353788"
+    ],
     "type": "bista",
     "drzava": "Slovenia"
   },
@@ -47834,6 +48249,9 @@
     "info": "https://eid.gov.si/S/4396",
     "naziv": "Grobišče 19 borcev Šercerjeve brigade",
     "year": "1957",
+    "posveta": [
+      "Q12782731"
+    ],
     "type": "lokalni",
     "drzava": "Slovenia"
   },
@@ -48618,6 +49036,9 @@
     "slikaAutor": "Srečko Štajnbaher, CC BY 4.0",
     "naziv": "Spomenik preboju XIV. divizije",
     "year": "1955",
+    "posveta": [
+      "Q6594051"
+    ],
     "type": "lokalni",
     "drzava": "Slovenia"
   },
@@ -48878,6 +49299,9 @@
     "info": "https://eid.gov.si/S/24207",
     "naziv": "Spomenik ustanovitvi Tomšičeve brigade",
     "year": "1952",
+    "posveta": [
+      "Q2193805"
+    ],
     "type": "lokalni",
     "drzava": "Slovenia"
   },
@@ -49720,6 +50144,9 @@
     "info": "https://eid.gov.si/S/28069",
     "naziv": "Spominsko znamenje Vidi Krošelj",
     "year": "1979",
+    "posveta": [
+      "Q12805646"
+    ],
     "type": "lokalni",
     "drzava": "Slovenia"
   },
@@ -50158,6 +50585,9 @@
     "title": "Trzin",
     "info": "https://eid.gov.si/S/11939",
     "naziv": "Spomenik Cenetu Štuparju",
+    "posveta": [
+      "Q12786761"
+    ],
     "type": "lokalni",
     "drzava": "Slovenia"
   },
@@ -50229,6 +50659,9 @@
     "info": "https://eid.gov.si/S/5182",
     "naziv": "Spominska plošča ustanovitvi mestnega odbora OF",
     "year": "1977",
+    "posveta": [
+      "Q172071"
+    ],
     "type": "ploca",
     "drzava": "Slovenia"
   },
@@ -50241,6 +50674,9 @@
     "title": "Tuji Grm",
     "info": "https://eid.gov.si/S/5709",
     "naziv": "Spomenik zmagi II. grupe odredov nad Nemci",
+    "posveta": [
+      "Q19933373"
+    ],
     "type": "lokalni",
     "drzava": "Slovenia"
   },
@@ -50283,6 +50719,9 @@
     "slikaAutor": "Tea Lukan Klavžer, CC BY 4.0",
     "naziv": "Spominska plošča posvetovanju aktivistov OF",
     "year": "1954",
+    "posveta": [
+      "Q172071"
+    ],
     "type": "ploca",
     "drzava": "Slovenia"
   },
@@ -50636,6 +51075,9 @@
     "naziv": "Spominska plošča ustanovitvi okrožnega odbora OF",
     "year": "1977",
     "author": "Stojan Batič",
+    "posveta": [
+      "Q172071"
+    ],
     "type": "ploca",
     "drzava": "Slovenia"
   },
@@ -50771,6 +51213,9 @@
     "info": "https://eid.gov.si/S/23417",
     "naziv": "Spomenik ustanovitvi brigade Srečka Kosovela",
     "year": "1948",
+    "posveta": [
+      "Q12782671"
+    ],
     "type": "lokalni",
     "drzava": "Slovenia"
   },
@@ -51163,6 +51608,9 @@
     "slikaAutor": "Bernarda Jesenko Filipič, CC BY 4.0",
     "naziv": "Spomenik ustanovitvi odbora OF",
     "year": "1961",
+    "posveta": [
+      "Q172071"
+    ],
     "type": "lokalni",
     "drzava": "Slovenia"
   },
@@ -51398,6 +51846,9 @@
     "info": "https://eid.gov.si/S/27651",
     "naziv": "Spomenik Goriški brigadi",
     "year": "1976",
+    "posveta": [
+      "Q12790106"
+    ],
     "type": "lokalni",
     "drzava": "Slovenia"
   },
@@ -52109,6 +52560,9 @@
     "info": "https://eid.gov.si/S/21379",
     "naziv": "Spominsko znamenje ustanovitvi Prešernove brigade",
     "year": "1954",
+    "posveta": [
+      "Q12783619"
+    ],
     "type": "lokalni",
     "drzava": "Slovenia"
   },
@@ -52398,6 +52852,9 @@
     "info": "https://eid.gov.si/S/4375",
     "naziv": "Grobišče borcev XIV. divizije",
     "year": "1962",
+    "posveta": [
+      "Q6594051"
+    ],
     "type": "lokalni",
     "drzava": "Slovenia"
   },
@@ -53266,6 +53723,9 @@
     "info": "https://eid.gov.si/S/16932",
     "naziv": "Spomenik Petru Držaju",
     "year": "1975",
+    "posveta": [
+      "Q12798610"
+    ],
     "type": "lokalni",
     "drzava": "Slovenia"
   },
@@ -53775,6 +54235,9 @@
     "info": "https://eid.gov.si/S/19299",
     "naziv": "Spominska plošča aktivistu OF Mirku Vrtačniku",
     "year": "1957",
+    "posveta": [
+      "Q172071"
+    ],
     "type": "ploca",
     "drzava": "Slovenia"
   },
@@ -54230,6 +54693,9 @@
     "title": "Šmartno ob Paki",
     "info": "https://eid.gov.si/S/4392",
     "naziv": "Grobišče borcev Šercerjeve brigade",
+    "posveta": [
+      "Q12782731"
+    ],
     "type": "lokalni",
     "drzava": "Slovenia"
   },
@@ -54444,6 +54910,9 @@
     "info": "https://eid.gov.si/S/21442",
     "naziv": "Spominska plošča ustanovitvi OF",
     "year": "1961",
+    "posveta": [
+      "Q172071"
+    ],
     "type": "ploca",
     "drzava": "Slovenia"
   },
@@ -54512,6 +54981,9 @@
     "slikaOdnos": 1.556,
     "slikaAutor": "Alenka Možina, CC BY 4.0",
     "naziv": "Spominsko znamenje drugemu bataljonu Dolomitskega odreda",
+    "posveta": [
+      "Q134430097"
+    ],
     "type": "lokalni",
     "drzava": "Slovenia"
   },
@@ -54559,6 +55031,9 @@
     "slikaAutor": "Damjana Pediček Terseglav, CC BY 4.0",
     "naziv": "Spominska plošča padlim borcem Prešernove brigade",
     "year": "1966",
+    "posveta": [
+      "Q12783619"
+    ],
     "type": "ploca",
     "drzava": "Slovenia"
   },
@@ -54665,6 +55140,9 @@
     "info": "https://eid.gov.si/S/21548",
     "naziv": "Spominska plošča Francetu Popitu",
     "year": "1955",
+    "posveta": [
+      "Q3504027"
+    ],
     "type": "ploca",
     "drzava": "Slovenia"
   },
@@ -54681,6 +55159,9 @@
     "slikaAutor": "Aleksandra Renčelj Škedelj, CC BY 4.0",
     "naziv": "Spominska plošča aktivistu OF Jožetu Popitu",
     "year": "1967",
+    "posveta": [
+      "Q172071"
+    ],
     "type": "ploca",
     "drzava": "Slovenia"
   },
@@ -54693,6 +55174,9 @@
     "title": "Žibrše",
     "info": "https://eid.gov.si/S/21850",
     "naziv": "Spominska plošča ustanovitvi odbora OF",
+    "posveta": [
+      "Q172071"
+    ],
     "type": "ploca",
     "drzava": "Slovenia"
   },
@@ -54748,6 +55232,9 @@
     "info": "https://eid.gov.si/S/5438",
     "naziv": "Spominska plošča sestanku OF",
     "year": "1958",
+    "posveta": [
+      "Q172071"
+    ],
     "type": "ploca",
     "drzava": "Slovenia"
   },
@@ -54874,6 +55361,9 @@
     "slikaAutor": "MariceskiIvanco, CC BY-SA 4.0",
     "naziv": "Спомен куќа на Битолско-преспанскиот партизански одред „Даме Груев“",
     "name": "Memorial House of the Dame Gruev Partisan Detachment",
+    "posveta": [
+      "Q3400945"
+    ],
     "type": "muzej",
     "drzava": "Macedonia"
   },
@@ -55060,6 +55550,9 @@
     "title": "Livno (Stara Čaršija)",
     "info": "https://www.openstreetmap.org/node/11542347175",
     "naziv": "Spomen ploča Ivanu Goranu Kovačiću",
+    "posveta": [
+      "Q835790"
+    ],
     "type": "ploca",
     "drzava": "Bosnia and Herzegovina"
   },
@@ -55205,6 +55698,9 @@
     "title": "Tjentište",
     "info": "https://www.openstreetmap.org/node/10693539671",
     "naziv": "Grob Nurije Pozderca",
+    "posveta": [
+      "Q12756368"
+    ],
     "type": "lokalni",
     "drzava": "Bosnia and Herzegovina"
   },
@@ -55325,6 +55821,9 @@
     "title": "Andigola",
     "info": "https://www.openstreetmap.org/node/13122991430",
     "naziv": "Spomenik ustanku naroda Moslavine",
+    "posveta": [
+      "Q142721"
+    ],
     "type": "lokalni",
     "drzava": "Croatia"
   },
@@ -55592,6 +56091,9 @@
     "title": "Brčevec",
     "info": "https://www.openstreetmap.org/node/2203413174",
     "naziv": "20. godišnjica ustanka naroda Jugoslavije",
+    "posveta": [
+      "Q12960377"
+    ],
     "type": "lokalni",
     "drzava": "Croatia"
   },
@@ -57355,6 +57857,9 @@
     "title": "Split (Škrape)",
     "info": "https://www.openstreetmap.org/node/8876567403",
     "naziv": "Spomenik borcima Prvog splitskog partizanskog odreda",
+    "posveta": [
+      "Q12640709"
+    ],
     "type": "lokalni",
     "drzava": "Croatia"
   },
@@ -59363,6 +59868,9 @@
     "title": "Hruševo",
     "info": "https://www.openstreetmap.org/node/4129311256",
     "naziv": "Padlim Iz Dolomitskega Odreda",
+    "posveta": [
+      "Q134430097"
+    ],
     "type": "lokalni",
     "drzava": "Slovenia"
   },
@@ -60107,6 +60615,9 @@
     "title": "Setnica",
     "info": "https://www.openstreetmap.org/node/2976549078",
     "naziv": "V spomin na žrtve I. bataljona Dolomitskega odreda",
+    "posveta": [
+      "Q134430097"
+    ],
     "type": "ploca",
     "drzava": "Slovenia"
   },
@@ -60904,6 +61415,9 @@
     "slikaOdnos": 0.599,
     "slikaAutor": "Zdravko, CC BY-SA 4.0",
     "naziv": "Биста на Панде Јовчевски Кајзеро",
+    "posveta": [
+      "Q12289820"
+    ],
     "type": "bista",
     "drzava": "Macedonia"
   },
@@ -60964,6 +61478,9 @@
     "slikaOdnos": 0.563,
     "slikaAutor": "Zdravko, CC BY-SA 4.0",
     "naziv": "Биста на Трифун Пановски",
+    "posveta": [
+      "Q12296994"
+    ],
     "type": "bista",
     "drzava": "Macedonia"
   },
@@ -61369,6 +61886,9 @@
     "slikaOdnos": 1.333,
     "slikaAutor": "Македонец, CC BY-SA 4.0",
     "naziv": "Споменик на формирањето на Деветтата македонска бригада",
+    "posveta": [
+      "Q3655638"
+    ],
     "type": "lokalni",
     "drzava": "Macedonia"
   },
@@ -62710,6 +63230,10 @@
     "slikaOdnos": 1.778,
     "slikaAutor": "Zdravko, CC BY-SA 4.0",
     "naziv": "Бисти на Љупчо Сантов и Раде Кратовче",
+    "posveta": [
+      "Q106291806",
+      "Q106291820"
+    ],
     "type": "bista",
     "drzava": "Macedonia"
   },
@@ -63160,6 +63684,9 @@
     "slikaOdnos": 1.342,
     "slikaAutor": "Тајга, CC BY-SA 3.0",
     "naziv": "Spomenik Novosadskom partizanskom odredu",
+    "posveta": [
+      "Q110046889"
+    ],
     "type": "lokalni",
     "drzava": "Serbia"
   },
@@ -63220,6 +63747,9 @@
     "slikaOdnos": 0.526,
     "slikaAutor": "Zdravko, CC BY-SA 4.0",
     "naziv": "Биста на Душко Наумоски",
+    "posveta": [
+      "Q20570062"
+    ],
     "type": "bista",
     "drzava": "Macedonia"
   },
@@ -63832,6 +64362,9 @@
     "slikaOdnos": 1.333,
     "slikaAutor": "Vanjagenije, CC BY-SA 4.0",
     "naziv": "Spomen-ploča Milošu Popovu Klimi i Arkadiju Popovu",
+    "posveta": [
+      "Q15176703"
+    ],
     "type": "ploca",
     "drzava": "Serbia"
   },
@@ -64012,6 +64545,9 @@
     "slikaOdnos": 1.498,
     "slikaAutor": "BrankaVV, CC BY-SA 4.0",
     "naziv": "Spomenik Čačanskom partizanskom odredu",
+    "posveta": [
+      "Q12761160"
+    ],
     "type": "lokalni",
     "drzava": "Serbia"
   },
@@ -64210,6 +64746,10 @@
     "slikaOdnos": 1.333,
     "slikaAutor": "Dvacet, Public domain",
     "name": "Monument to Macedonian communists Pero Nakov and Panče Pešev",
+    "posveta": [
+      "Q110135272",
+      "Q12289890"
+    ],
     "type": "lokalni",
     "drzava": "Macedonia"
   },
@@ -64242,6 +64782,9 @@
     "naziv": "Spomenik kurirjem Dolomitskega odreda",
     "year": "1961",
     "author": "Stane Keržič & Marko Šlajmer",
+    "posveta": [
+      "Q134430097"
+    ],
     "type": "statua",
     "drzava": "Slovenia"
   },
@@ -64401,6 +64944,9 @@
     "name": "Monument to Ivan Goran Kovačić",
     "year": "1964",
     "author": "Vojin Bakić",
+    "posveta": [
+      "Q835790"
+    ],
     "type": "spomenik",
     "drzava": "Croatia"
   },
@@ -64740,6 +65286,9 @@
     "slikaOdnos": 1.778,
     "slikaAutor": "SBoki, CC BY-SA 4.0",
     "naziv": "Spomen-ploča formiranju Pirotskog partizanskog odreda",
+    "posveta": [
+      "Q108805953"
+    ],
     "type": "ploca",
     "drzava": "Serbia"
   },
@@ -64993,6 +65542,9 @@
     },
     "title": "Beograd",
     "info": "https://skulptura-hronologijaizlaganja.rs/spomenik-mosi-pijade-u-beogradu/",
+    "slika": "slike/spomenici/beograd-spomenik-mosi-pijade.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "Draganapopovic, CC BY-SA 4.0",
     "naziv": "Spomenik Moši Pijade",
     "year": "1969",
     "author": "Branko Ružić",
@@ -65010,6 +65562,9 @@
     },
     "title": "Užice",
     "info": "https://skulptura-hronologijaizlaganja.rs/spomenik-josipu-brozu-titu-uzice/",
+    "slika": "slike/spomenici/uzice-spomenik-josipu-brozu-titu.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "Pinki, Public domain",
     "naziv": "Spomenik Josipu Brozu Titu",
     "year": "1962",
     "author": "Frano Kršinić",
@@ -65027,6 +65582,9 @@
     },
     "title": "Kragujevac",
     "info": "https://skulptura-hronologijaizlaganja.rs/spomenik-otpora-i-slobode-spomen-park-kragujevacki-oktobar-kragujevac/",
+    "slika": "slike/spomenici/kragujevac-spomenik-otpora-i-slobode.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "Јованвб, CC BY-SA 3.0",
     "naziv": "Spomenik otpora i slobode",
     "year": "1966",
     "author": "Ante Gržetić",
@@ -65048,6 +65606,9 @@
     "name": "Memorial to Duško Popović",
     "year": "1977",
     "author": "Petar Hadži Boškov",
+    "posveta": [
+      "Q12279253"
+    ],
     "type": "spomenik",
     "drzava": "Macedonia"
   },
@@ -65066,6 +65627,9 @@
     "name": "Monument to Blagoja Despotovski – Šovelj",
     "year": "1975",
     "author": "Ljupčo Stefanovski",
+    "posveta": [
+      "Q4148256"
+    ],
     "type": "statua",
     "drzava": "Macedonia"
   },
