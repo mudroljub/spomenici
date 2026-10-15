@@ -7,7 +7,7 @@ sys.stdout.reconfigure(encoding='utf-8')
 SPISAK, FAJLOVI = sys.argv[1:]
 A = os.path.dirname(os.path.abspath(__file__))  # naselja_osm.json je pored alata
 UA = {'User-Agent': 'spomenici-wiki/1.0 (https://mudroljub.github.io/spomeniks)'}
-RED = ['id', 'koordinate', 'googleCid', 'title', 'info', 'wiki', 'wikiEn', 'slika', 'slikaOdnos', 'slikaAutor', 'naziv', 'name', 'year', 'author', 'stanje', 'type', 'drzava']
+RED = ['id', 'koordinate', 'googleCid', 'title', 'info', 'wiki', 'wikiEn', 'slika', 'slikaOdnos', 'slikaAutor', 'naziv', 'name', 'year', 'author', 'posveta', 'stanje', 'type', 'drzava']
 LAT = dict(zip('абвгдђежзијклљмнњопрстћуфхцчџшѓќѕ', ['a', 'b', 'v', 'g', 'd', 'đ', 'e', 'ž', 'z', 'i', 'j', 'k', 'l', 'lj', 'm', 'n', 'nj', 'o', 'p', 'r', 's', 't', 'ć', 'u', 'f', 'h', 'c', 'č', 'dž', 'š', 'gj', 'kj', 'dz']))
 def latinica(t):
     return ''.join((LAT[z.lower()].capitalize() if z.isupper() else LAT[z]) if z.lower() in LAT else z for z in t)

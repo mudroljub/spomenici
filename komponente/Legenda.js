@@ -150,7 +150,7 @@ const stavka = (slika, sirina, visina, naziv, stil = '') => `
 
 // istaknuti i obican spomenik razlikuju se samo velicinom znaka, a bista je malo manja od spomenika, kao na mapi;
 // muzej i ploca su siroki, pa bi na visini ostalih znakova izgledali preveliki
-const visineIkona = {istaknut: 44, bista: 28, lokalni: 24, groblje: 29, muzej: 26, ploca: 17}
+const visineIkona = {istaknut: 44, statua: 29, bista: 28, lokalni: 24, groblje: 29, muzej: 26, ploca: 17}
 
 const vrsta = type => {
   const {slika, sirina, visina} = izgledMarkera({type})
@@ -158,7 +158,7 @@ const vrsta = type => {
   return stavka(slika, Math.round(sirina * visinaIkone / visina), visinaIkone, t(type + 'Jednina'))
 }
 
-const vrste = ['istaknut', 'spomenik', 'lokalni', 'kompleks', 'groblje', 'muzej', 'bista', 'ploca'].map(vrsta).join('')
+const vrste = ['istaknut', 'spomenik', 'lokalni', 'kompleks', 'groblje', 'muzej', 'statua', 'bista', 'ploca'].map(vrsta).join('')
 
 const grupa = ([naslov, stavke]) => `<div><h3>${naslov}</h3><div class="stavke">${stavke}</div></div>`
 
