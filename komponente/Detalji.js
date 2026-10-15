@@ -311,7 +311,10 @@ const unutarGranica = pomeraj => {
   const min = mapa.project(granice.getNorthWest(), zum)
   const max = mapa.project(granice.getSouthEast(), zum)
   const pogled = mapa.getPixelBounds()
-  const ogranici = (vrednost, najmanje, najvise) => Math.min(Math.max(vrednost, najmanje), najvise)
+  // kad je oblast uza od ekrana, Leaflet je centrira, pa i pomeraj ide na sredinu
+  const ogranici = (vrednost, najmanje, najvise) => najmanje > najvise
+    ? Math.round((najmanje + najvise) / 2)
+    : Math.min(Math.max(vrednost, najmanje), najvise)
   return L.point(
     ogranici(pomeraj.x, min.x - pogled.min.x, max.x - pogled.max.x),
     ogranici(pomeraj.y, min.y - pogled.min.y, max.y - pogled.max.y),
