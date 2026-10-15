@@ -259,7 +259,7 @@ Posle provere i korisnikove komande „ispravi“, promenjeno je samo polje `tit
 
 ### 2026-10-15 — Potpuna provera preostalih fotografija u Srbiji
 
-Na izričit zahtev korisnika prolazi se ceo preostali spisak od **132** zapisa, bez prekidanja posle malih grupa. Radni pregled i rezultati svakog zapisa čuvaju se u `docs/FOTOGRAFIJE_SRBIJA.md`. Procena: do približno **400 Commons zahteva** (pretrage po mestu/ličnosti na oba pisma, geografska dopuna i preuzimanje odabranih umanjenih fotografija), uz korišćenje već preuzetih metapodataka; zahtevi idu redom, na najmanje 3 s. Granica bez nove procene je 450 zahteva. Na 429/504 pretraga se zaustavlja i nastavlja kasnije sporijim ili lakšim upitom. Ne pristupa se masovno spomenikdatabase.org niti se koristi spomenicinob.info.
+Na izričit zahtev korisnika prolazi se ceo preostali spisak od **132** zapisa, bez prekidanja posle malih grupa. Radni pregled i rezultati svakog zapisa čuvaju se u `docs/FOTOGRAFIJE_SRBIJA.md`. Procena: do približno **400 Commons zahteva** (pretrage po mestu/ličnosti na oba pisma, geografska dopuna i preuzimanje odabranih umanjenih fotografija), uz korišćenje već preuzetih metapodataka; zahtevi idu redom, na najmanje 3 s. Početna granica bila je 450 zahteva; posle početne pretrage procena je dopunjena na najviše **490 zahteva**, uključujući ćirilične varijante svih naziva, sve 132 geografske provere i zbirno čitanje licenci. Zaštitna granica u alatima je 499, ispod projektne granice od oko 500. Na 429/504 pretraga se zaustavlja i nastavlja kasnije sporijim ili lakšim upitom. Ne pristupa se masovno spomenikdatabase.org niti se koristi spomenicinob.info.
 
 ## Izvori koji su već obrađeni
 

@@ -18,6 +18,5 @@ Slovenian memorials: [Register nepremične kulturne dediščine](https://podatki
 
 ## TODO
 
-- bilo bi korisno mapirati istorijske ličnosti (i vojne jedinice, događaje i sl.) za svoje spomenike. za početak dodati polje kome ili čemu je spomenik posvećen u info prozor?
 - spomenicinob.info: popis svih spomenika NOB u BiH po opštinama (naziv, mesto, vrsta, godina, autor, da li postoji; bez koordinata), oko 140 stranica sporog preuzimanja; dogovoriti pre početka
 - Nastaviti ciljanu potragu za slobodnim fotografijama: u Srbiji je ostalo 132 zapisa bez slike (izvori i obrađeni kandidati u `docs/BELESKE.md`).

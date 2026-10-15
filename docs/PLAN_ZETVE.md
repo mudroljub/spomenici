@@ -1,6 +1,6 @@
 # Plan žetve podataka — uputstvo za agenta
 
-Ažurirano 2026-10-14. Ovaj dokument je dovoljan za samostalan rad: šta se radi, kojim redom, kojim alatima, šta se ne sme i kad je zadatak gotov. Istorija izvora i iskustva sa serverima su u `docs/BELESKE.md`; pročitaj je pre početka.
+Ažurirano 2026-10-15. Ovaj dokument je dovoljan za samostalan rad: šta se radi, kojim redom, kojim alatima, šta se ne sme i kad je zadatak gotov. Istorija izvora i iskustva sa serverima su u `docs/BELESKE.md`; pročitaj je pre početka.
 
 ## 1. Kontekst
 
@@ -8,7 +8,6 @@ Ažurirano 2026-10-14. Ovaj dokument je dovoljan za samostalan rad: šta se radi
 - **Podaci:** `data/spomeniks.json`, niz od oko 4.150 objekata. Slike su u `slike/spomenici/<id>.webp`.
 - **Alati:** `alati/` u repozitorijumu: `integritet.py`, `slike_odnos.py`, `commons_dodaj.py`, `proveri.py`, `upisi_cid.py`, `dodaj_google.py`, `snimi.mjs` i `naselja_osm.json`. Pokreću se **iz korena repozitorijuma**, sa `python -I alati/<alat>.py`.
 - **Jednokratni alati i preuzeti ulazi:** folder `nazivi-alati` u Claude Code memoriji projekta, `~/.claude/projects/<putanja repozitorijuma, sa crticama umesto / \ i :>/nazivi-alati` (u daljem tekstu `$A`): `osm_dodaj.py`, `rnpd_*.py`, `spisak.py`, `koraci.mjs`, `pregledac_json.mjs`, `spomenici_osm.json` i `ulaz/`. Nisu u repozitorijumu, pa na drugom računaru postoje samo ako se prenesu ručno.
-- **Ulazi koji su već preuzeti:** `$A/ulaz/` (videti zadatke).
 - **Korisnik:** piše na srpskom i želi kratke odgovore, najviše dve rečenice. Sporne slučajeve rešavaš sam ili ih preskačeš, bez spiskova za korisnika. Ne komituješ; to radi korisnik.
 
 ## 2. Standard zapisa (obavezno za svaki novi ili izmenjen spomenik)
@@ -47,9 +46,7 @@ Ažurirano 2026-10-14. Ovaj dokument je dovoljan za samostalan rad: šta se radi
 | `alati/slike_odnos.py` | Upisuje `slikaOdnos` svim slikama. Pokreni posle dodavanja slika. |
 | `alati/commons_dodaj.py <spisak.json> <fajlovi.json>` | Dodaje spomenike ili slike sa Commons-a: preuzima sliku, pravi webp, potpis i naslov iz najbližeg naselja. Spisak: `[{fajl,id,naziv,name,type,drzava,[title]}]` ili `[{fajl,postojeci}]`; `fajlovi.json`: `{fajl: {"k": [lat,lng]}}`. |
 | `$A/osm_dodaj.py <alati> <osm_kand.json> [--upisi]` | Primer filtera za NOB (`JEZGRO`, `NE`, `RUCNO`), naslova „Grad (deo)“ i vrste po imenu. Bez `--upisi` samo ispisuje. |
-| `$A/rnpd_dodaj.py`, `$A/rnpd_slike.py` | Slovenački registar (završeno). |
 | `alati/upisi_cid.py`, `alati/dodaj_google.py <vrsta> <link> <naziv> …`, `alati/proveri.py` | Rad sa Google linkovima koje šalje korisnik. |
-| `$A/spisak.py <wikitext> <drzava>` | Redovi wiki spiska upoređeni sa našim spomenicima po mestu (polazna tačka za zadatak B). |
 | `alati/snimi.mjs`, `$A/koraci.mjs` | Headless Chrome za proveru aplikacije (`python -m http.server 8765` u korenu repozitorijuma; `W`/`H` za desktop, `HASH=#<id>` za otvaranje spomenika). |
 | `$A/pregledac_json.mjs <url> <izlaz.json>` | Jedno učitavanje stranice uz čuvanje JSON odgovora koje ona sama povuče (Flickr, spomenikdatabase). |
 | `alati/naselja_osm.json` | Naselja za naslove (`place` = city/town/village/suburb…). |
@@ -58,39 +55,9 @@ Pregled slika: `magick montage -label '%t' <fajlovi> -tile 5x3 -geometry 220x165
 
 ## 5. Zadaci, redom
 
-**Stanje 2026-10-14 uveče:** A, B i C su urađeni, D je u toku (Hrvatska, BiH, Makedonija, Crna Gora, Kosovo; Srbija čeka dogovor jer prelazi 500 zahteva), a E i F su zatvoreni (videti `docs/BELESKE.md`). Novi kandidat je spomenicinob.info (popis spomenika NOB-a u BiH, bez koordinata), ali tek posle dogovora sa korisnikom. Spomenici bez lokacije se skupljaju u `data/bez_lokacije.json`.
+**Stanje 2026-10-15:** završeni zadaci A, B, C i F su uklonjeni iz plana, a njihova istorija je u `docs/BELESKE.md`. D je u toku: Srbiju obrađuje drugi agent u `docs/FOTOGRAFIJE_SRBIJA.md`. E je delimično urađen. G (Wiki Loves Monuments) je sledeći. Novi kandidat je spomenicinob.info (popis spomenika NOB-a u BiH, bez koordinata), ali tek posle dogovora sa korisnikom. Spomenici bez lokacije se skupljaju u `data/bez_lokacije.json`.
 
 Posle svakog zadatka: `integritet.py` bez novih grešaka, `slike_odnos.py` ako ima novih slika, kratak unos u `docs/BELESKE.md` (šta je urađeno, brojevi, šta je preskočeno i zašto), brisanje stavke iz `## TODO` u `README.md`.
-
-### A. Commons: geotagovana mesta koja nemamo
-
-- **Ulaz:** `$A/ulaz/commons_ww2_geo.json` (1.586 fajlova iz 243 kategorije „World War II memorials in …“ i „Monuments to the Yugoslav Partisans in …“, sa koordinatama i kategorijom).
-- **Koraci:**
-  1. Izdvoj fajlove dalje od 300 m od svih naših spomenika i grupiši ih po 100 m (oko 383 mesta: Makedonija oko 340 fajlova, Srbija 260, Hrvatska 62).
-  2. Po kategoriji i imenu fajla odbaci one koji nisu spomenici NOB-a (npr. Almaški krst, spomen-kuće poznatih ljudi, groblja iz Prvog svetskog rata, NATO).
-  3. Za svako mesto izaberi jedan fajl i naziv. Naziv uzmi iz imena kategorije ili fajla, a za Makedoniju ćirilicom. Za proveru opisa koristi jedan zbirni `imageinfo` sa `extmetadata` (ImageDescription) po 50 fajlova.
-  4. Pokreni `commons_dodaj.py`; type je `lokalni`, osim kad je očigledno bista, ploča ili groblje.
-  5. Napravi montažu svih novih slika i ukloni pogrešne (spomenik i slika ostaju samo ako slika prikazuje spomen-obeležje).
-- **Procena:** oko 380 zahteva za slike (3 s), 15 zahteva za opise. Rezultat je oko 250 do 350 novih spomenika sa slikom.
-
-### B. sr Wikipedija: spiskovi spomenika NOB
-
-- **Ulaz:** `$A/ulaz/sr_spiskovi/*.txt`, wikitext spiskova: Србија (117 redova), БиХ (96), Македонија (130), Словенија (124), Црна Гора (44), Косово и Метохија (29), Ниш (17). Kolone su slika, naziv (često link na članak), mesto, posveta, „autor i godina“ i napomena. Koordinata nema.
-- **Koraci:**
-  1. Parsiraj redove (`|-` deli redove, `| align="center" |` ćelije). Iz kolone autora izvuci imena i godinu: „вајар X и архитекта Y, 1961.“ daje `X & Y` i `1961`.
-  2. Upari sa našim spomenicima po mestu (naslov) i sličnosti naziva. Kod uparenih dopuni samo prazna polja `author`, `year` i `wiki` (ako je naziv link na postojeći članak); ništa postojeće ne prepisuj.
-  3. Za neuparene potraži OSM obeležje u `spomenici_osm.json` u krugu od 3 km od naselja (`naselja_osm.json`) sa sličnim imenom. Dodaj samo kad je par jasan; inače preskoči.
-  4. Slika iz kolone „Слика“ se uzima samo ako nije `Spomenik NOB-bez slike.jpg`, i to preko `commons_dodaj.py`.
-- **Napomena:** spiskovi za Vojvodinu i Hrvatsku su već obrađeni.
-
-### C. Wiki Loves Monuments Srbija
-
-- **Ulaz:** `$A/ulaz/sr_spiskovi/Списак_знаменитих_места_у_Србији.txt` (81 mesto sa `{{coord|lat|lng}}`, oznake ZM).
-- **Koraci:**
-  1. Parsiraj mesta i koordinate. Zadrži ona koja su vezana za NOB (stratišta, logori, partizanske baze, spomen-parkovi), a odbaci Prvi srpski ustanak, srednji vek i slično.
-  2. Upari sa našim spomenicima na manje od 300 m. Kod nas dodaj samo nova mesta, kao `kompleks` ili `lokalni`.
-  3. Fotografije: Commons fajlovi nose `{{Cultural Heritage Serbia|<ID>}}` (26.605 fajlova). Za ID-ove iz spiska traži `hastemplate:"Cultural Heritage Serbia" insource:/Heritage Serbia\|(ID1|ID2|…)\}/` po 100 do 150 ID-ova u jednom upitu, pa zbirno pročitaj wikitext pogođenih fajlova (po 50) i upari po ID-u. Isti postupak je za Sloveniju opisan u `docs/BELESKE.md`.
-  4. Slike dodaj preko `commons_dodaj.py` (`postojeci`), pa ih pregledaj na montaži.
 
 ### D. Fotografije za spomenike bez slike, van Slovenije
 
@@ -105,9 +72,16 @@ Posle svakog zadatka: `integritet.py` bez novih grešaka, `slike_odnos.py` ako i
 - **Cilj:** srušeni i oštećeni spomenici u Hrvatskoj (oko 3.000), sa `stanje` `uklonjen` ili `ostecen`.
 - **Koraci:** prvo pronađi dostupan tekst knjige (izdanje SABA RH 2002; Documenta, scribd, archive.org) i zabeleži izvor. Ako je dostupan, parsiraj spisak po opštinama i mestima. Upari sa postojećim (po mestu), i postojećima samo dopuni `stanje`. Nove dodaj samo kad postoji tačna lokacija (OSM, Commons); ostale ne dodaji na centar sela bez dogovora sa korisnikom.
 
-### F. SANU „Споменици културе у Србији“
+### G. Wiki Loves Monuments: Srbija i Republika Srpska
 
-- **Cilj:** istraži `spomenicikulture.mi.sanu.ac.rs`: da li ima znamenita mesta NOB-a sa lokacijom, fotografijom i licencom koja dozvoljava upotrebu. Napiši nalaz u `docs/BELESKE.md`. Masovno preuzimanje ide tek posle dogovora sa korisnikom.
+- **Zašto:** WLM u Srbiji ne pokriva samo zaštićena dobra nego i seoske spomenike, a sve fotografije su na Commonsu. `Category:Images from Wiki Loves Monuments in Serbia` ima oko 25.900 fajlova (potkategorije po godinama, npr. `… 2024 in Serbia` sa 4.038), a `Category:Images from Wiki Loves Monuments 2021 in the Republika Srpska` pokriva RS. Ranija provera (Srbija, 2026-10-14) gledala je samo spiskove znamenitih mesta i spomenika kulture, ne same fotografije.
+- **Koraci:**
+  1. Za svaku godišnju kategoriju po jedan zbirni upit: `generator=search`, `gsrsearch=deepcat:"Images from Wiki Loves Monuments <godina> in Serbia"` (odnosno RS), `gsrnamespace=6`, `gsrlimit=500`, `prop=coordinates`, uz `gsroffset` dok ima rezultata. Podela po godinama je potrebna jer pretraga ne ide dalje od 10.000 rezultata. Rezultat (naslov, koordinate) sačuvati na disku, da se ne preuzima ponovo.
+  2. Fajlove bez koordinata u fajlu ne nagađati; preskočiti ih.
+  3. **Postojeći bez slike:** fajlovi na manje od 80 m od naših spomenika bez `slika` u Srbiji i BiH. Za kandidate jedan zbirni `imageinfo` sa `extmetadata` (opis, autor, licenca) po 50 fajlova, pa obavezna montaža. Kandidate za Srbiju upisati u `docs/FOTOGRAFIJE_SRBIJA.md` (posebno odeljak „WLM kandidati“) za agenta koji obrađuje Srbiju, a ne upisivati ih sam; BiH upisati preko `commons_dodaj.py` (`postojeci`).
+  4. **Novi spomenici:** fajlovi dalje od 300 m od svih naših spomenika čiji naslov ili opis ima reč spomenik/споменик, NOB/НОБ, palim/палим, borcima/борцима, partizan/партизан, grupisani po 100 m. Posle provere opisa i montaže dodati preko `commons_dodaj.py`, uz pravila obuhvata iz odeljka 2 (bez Prvog svetskog i starijih ratova, bez ratova 1990-ih).
+  5. Unos u `docs/BELESKE.md` i ažuriranje `README.md`.
+- **Procena:** oko 55 zahteva za Srbiju i nekoliko za RS, plus po jedan `imageinfo` na 50 kandidata.
 
 ## 6. Kad je posao gotov
 
