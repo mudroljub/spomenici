@@ -1766,6 +1766,7 @@
     "naziv": "Spomen-park Vraca",
     "name": "Vraca Memorial Park",
     "year": "1981",
+    "author": "Vladimir Dobrović & Alija Kučukalić & Aleksandar Maltarić",
     "type": "kompleks",
     "drzava": "Bosnia and Herzegovina"
   },
@@ -2850,6 +2851,7 @@
     "naziv": "Spomenik NOB",
     "name": "Monument to Fallen Fighters",
     "year": "1971",
+    "author": "Miloš Bajić",
     "type": "spomenik",
     "drzava": "Bosnia and Herzegovina"
   },
@@ -3192,6 +3194,7 @@
     "slikaOdnos": 1.333,
     "naziv": "Spomenik palim borcima",
     "name": "Monument to Fallen Fighters",
+    "author": "Irfan Maglajlić",
     "type": "spomenik",
     "drzava": "Bosnia and Herzegovina"
   },
@@ -4418,6 +4421,7 @@
     "naziv": "Partizansko spomen-groblje",
     "name": "Partisan Memorial Cemetery",
     "year": "1972",
+    "author": "Vinko Kragić & Frano Buskareli",
     "type": "groblje",
     "drzava": "Bosnia and Herzegovina"
   },
@@ -5977,6 +5981,7 @@
     "naziv": "Spomenik palim borcima NOB-a",
     "name": "Monument to Fallen NOB Fighters",
     "year": "1958",
+    "author": "Mirko Ostoja",
     "type": "statua",
     "drzava": "Bosnia and Herzegovina"
   },
@@ -6609,6 +6614,7 @@
     "slika": "slike/spomenici/museum-to-1st-prolet-brigade.webp",
     "slikaOdnos": 1.46,
     "naziv": "Muzej Prve proleterske brigade u Rudom",
+    "year": "1976",
     "posveta": [
       "Q2190675"
     ],
@@ -7031,7 +7037,7 @@
     "naziv": "Spomenik „Majka partizanka”",
     "name": "'Partisan Mother' Monument",
     "year": "1964",
-    "author": "Marijan Kocković",
+    "author": "Marijan Kocković & Lujo Schwerer",
     "type": "spomenik",
     "drzava": "Bosnia and Herzegovina"
   },
@@ -9781,6 +9787,7 @@
     "naziv": "Partizansko spomen-groblje",
     "name": "Partisan Memorial Cemetery",
     "year": "1967",
+    "author": "Jusuf Begović & Edhem Kamenica & Rizah Štetić",
     "type": "groblje",
     "drzava": "Bosnia and Herzegovina"
   },
@@ -10897,6 +10904,7 @@
     "slikaOdnos": 1.333,
     "naziv": "Partizansko spomen-groblje",
     "name": "Partisan Memorial Cemetery",
+    "year": "1957",
     "type": "groblje",
     "drzava": "Bosnia and Herzegovina"
   },
@@ -11291,6 +11299,7 @@
     "naziv": "Partizansko spomen-groblje",
     "name": "Partisan Memorial Cemetery",
     "year": "1968",
+    "author": "Stanislav Mišić",
     "type": "groblje",
     "drzava": "Bosnia and Herzegovina"
   },
@@ -11340,6 +11349,8 @@
     "slikaOdnos": 1.379,
     "naziv": "Partizansko spomen-groblje",
     "name": "Partisan Memorial Graveyard",
+    "year": "1957",
+    "author": "Nedžad Hotić",
     "type": "groblje",
     "drzava": "Bosnia and Herzegovina"
   },
@@ -11447,6 +11458,7 @@
     "slikaOdnos": 1.429,
     "naziv": "Partizansko spomen-groblje",
     "name": "Partisan Memorial Cemetery",
+    "year": "1961",
     "type": "groblje",
     "drzava": "Bosnia and Herzegovina"
   },
@@ -11896,6 +11908,7 @@
     "naziv": "Spomen-kosturnica",
     "name": "Monument & Memorial Ossuary",
     "year": "1951",
+    "author": "Alfred Pilc & Danko Lazić & Mehmed Fazlić",
     "type": "statua",
     "drzava": "Bosnia and Herzegovina"
   },
@@ -12927,7 +12940,7 @@
     "naziv": "Spomenik borcima Srema i istočne Bosne",
     "name": "Monument to Fighters of Srem and Eastern Bosnia",
     "year": "1952",
-    "author": "Jovan Kratohvil",
+    "author": "Leon Kabiljo & Jovan Kratohvil",
     "type": "spomenik",
     "drzava": "Bosnia and Herzegovina"
   },
@@ -13104,6 +13117,7 @@
     "naziv": "Partizansko spomen-groblje",
     "name": "Partisan Memorial Cemetery",
     "year": "1966",
+    "author": "Dragiša Trifković",
     "type": "groblje",
     "drzava": "Bosnia and Herzegovina"
   },
@@ -13561,6 +13575,7 @@
     "slikaOdnos": 0.75,
     "slikaAutor": "Knoken (), CC BY-SA 4.0",
     "naziv": "Partizansko spomen-groblje",
+    "year": "1959",
     "type": "groblje",
     "drzava": "Bosnia and Herzegovina"
   },
@@ -23255,6 +23270,7 @@
     "googleCid": "14357291275055913336",
     "title": "Ponijeri",
     "naziv": "Spomen-obilježje palim borcima narodnooslobodilačkog rata",
+    "year": "1984",
     "type": "lokalni",
     "drzava": "Bosnia and Herzegovina"
   },
@@ -23501,6 +23517,7 @@
     "slikaOdnos": 1.333,
     "slikaAutor": "Google Maps",
     "naziv": "Spomen-kosturnica poginulim borcima i žrtvama narodno-oslobodilačke borbe 1941–1945",
+    "year": "1950",
     "type": "lokalni",
     "drzava": "Bosnia and Herzegovina"
   },
@@ -26687,6 +26704,8 @@
     "info": "https://www.openstreetmap.org/node/8949538341",
     "naziv": "Veselin Masleša",
     "name": "Bust of Veselin Masleša",
+    "year": "1951",
+    "author": "Ante Kostović",
     "posveta": [
       "Q82914"
     ],
@@ -27267,6 +27286,7 @@
     "info": "https://www.openstreetmap.org/node/2505145697",
     "naziv": "Partizansko groblje",
     "name": "Partisan Memorial Cemetery",
+    "year": "1954",
     "type": "groblje",
     "drzava": "Bosnia and Herzegovina"
   },
@@ -27306,6 +27326,8 @@
     "info": "https://www.openstreetmap.org/node/12872058945",
     "naziv": "Partizansko groblje",
     "name": "Partisan Memorial Cemetery",
+    "year": "1954",
+    "author": "Salihagić",
     "type": "groblje",
     "drzava": "Bosnia and Herzegovina"
   },
@@ -27371,6 +27393,8 @@
     "info": "https://www.openstreetmap.org/way/347370004",
     "naziv": "Partizansko groblje",
     "name": "Partisan Memorial Cemetery",
+    "year": "1964",
+    "author": "Života Đorđević",
     "type": "groblje",
     "drzava": "Bosnia and Herzegovina"
   },
@@ -27384,6 +27408,7 @@
     "info": "https://www.openstreetmap.org/way/395666857",
     "naziv": "Partizansko groblje",
     "name": "Partisan Memorial Cemetery",
+    "year": "1961",
     "type": "groblje",
     "drzava": "Bosnia and Herzegovina"
   },
@@ -27426,6 +27451,7 @@
     "slikaAutor": "Julian Nyča, CC BY-SA 3.0",
     "naziv": "Partizansko groblje",
     "name": "Partisan Memorial Cemetery",
+    "year": "1971",
     "type": "groblje",
     "drzava": "Bosnia and Herzegovina"
   },
@@ -27495,6 +27521,7 @@
     "info": "https://www.openstreetmap.org/way/1554805260",
     "naziv": "Partizansko groblje",
     "name": "Partisan Memorial Cemetery",
+    "year": "1961",
     "type": "groblje",
     "drzava": "Bosnia and Herzegovina"
   },
@@ -28370,6 +28397,7 @@
     "googleCid": "2915517266427337781",
     "title": "Memići",
     "naziv": "Partizanski spomenik",
+    "year": "1957",
     "type": "lokalni",
     "drzava": "Bosnia and Herzegovina"
   },
@@ -55682,6 +55710,7 @@
     "title": "Livno (Stara Čaršija)",
     "info": "https://www.openstreetmap.org/node/11542347175",
     "naziv": "Spomen ploča Ivanu Goranu Kovačiću",
+    "year": "1964",
     "posveta": [
       "Q835790"
     ],
@@ -55770,6 +55799,7 @@
     "info": "https://www.openstreetmap.org/node/2107829807",
     "naziv": "Spomen žrtvama fašističkog terora",
     "year": "1952",
+    "author": "Jahijel Finci & Ivan Taubman",
     "type": "lokalni",
     "drzava": "Bosnia and Herzegovina"
   },
@@ -65920,5 +65950,498 @@
     ],
     "type": "lokalni",
     "drzava": "Serbia"
+  },
+  {
+    "id": "banja-luka-vaso-butozan",
+    "koordinate": {
+      "lat": 44.7737494,
+      "lng": 17.1869012
+    },
+    "title": "Banja Luka",
+    "info": "https://www.spomenicinob.info/banjaluka",
+    "naziv": "Vaso Butozan",
+    "name": "Bust of Vaso Butozan",
+    "year": "1975",
+    "author": "Ahmed Bešić",
+    "type": "bista",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "banja-luka-spomen-ploca-na-kuci-pave-radana",
+    "koordinate": {
+      "lat": 44.7783096,
+      "lng": 17.1935299
+    },
+    "title": "Banja Luka",
+    "info": "https://www.spomenicinob.info/banjaluka",
+    "naziv": "Spomen-ploča na kući Pave Radana",
+    "name": "Plaque to mark the house of Pavo Radan",
+    "year": "1951",
+    "type": "ploca",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "banja-luka-spomen-ploca-akciji-milana-radmana",
+    "koordinate": {
+      "lat": 44.778982,
+      "lng": 17.1913367
+    },
+    "title": "Banja Luka",
+    "info": "https://www.spomenicinob.info/banjaluka",
+    "naziv": "Spomen-ploča akciji Milana Radmana i drugih 21. septembra 1941.",
+    "name": "Plaque to commemorate actions by Milan Radman and others on 21 September 1941",
+    "type": "ploca",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "banja-luka-spomenik-osnivanju-lista-glas-1943",
+    "koordinate": {
+      "lat": 44.7623495,
+      "lng": 17.183243
+    },
+    "title": "Banja Luka",
+    "info": "https://www.spomenicinob.info/banjaluka",
+    "naziv": "Spomenik osnivanju lista „Glas“ 1943.",
+    "name": "Monument to commemorate the founding of 'Glas' in 1943",
+    "year": "1983",
+    "type": "lokalni",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "dragocaj-spomenik-palim-borcima-i-zrtvama",
+    "koordinate": {
+      "lat": 44.8552787,
+      "lng": 17.1607035
+    },
+    "title": "Dragočaj",
+    "info": "https://www.spomenicinob.info/banjaluka",
+    "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+    "name": "Monument to fallen fighters and Victims of Fascist Terror",
+    "type": "lokalni",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "bihac-spomen-ploca-sjedistu-ck-skoj",
+    "koordinate": {
+      "lat": 44.815657,
+      "lng": 15.8798814
+    },
+    "title": "Bihać",
+    "info": "https://www.spomenicinob.info/bihac",
+    "naziv": "Spomen-ploča sjedištu CK SKOJ-a i Sekretarijata USAOJ-a",
+    "name": "Plaque to commemorate location of SKOJ Central Committee and Secretariat of USAOJ",
+    "year": "1957",
+    "type": "ploca",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "bijeljina-spomenik-palim-ucenicima-i-nastavnicima",
+    "koordinate": {
+      "lat": 44.7584682,
+      "lng": 19.212291
+    },
+    "title": "Bijeljina",
+    "info": "https://www.spomenicinob.info/bijeljina",
+    "naziv": "Spomenik palim učenicima i nastavnicima",
+    "name": "Monument to fallen students and teachers",
+    "year": "1961",
+    "type": "lokalni",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "dragaljevac-donji-spomenik-27-palih-boraca",
+    "koordinate": {
+      "lat": 44.8103537,
+      "lng": 19.066884
+    },
+    "title": "Dragaljevac Donji",
+    "info": "https://www.spomenicinob.info/bijeljina",
+    "naziv": "Spomenik 27 palih boraca i 44 žrtve fašističkog terora",
+    "name": "Monument to 27 fallen fighters and 44 Victims of Fascist Terror",
+    "year": "1966",
+    "type": "lokalni",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "medjasi-spomen-ploca-formiranju-agitpropa",
+    "koordinate": {
+      "lat": 44.8251729,
+      "lng": 19.3046755
+    },
+    "title": "Međaši",
+    "info": "https://www.spomenicinob.info/bijeljina",
+    "naziv": "Spomen-ploča formiranju Agitpropa za istočnu Bosnu",
+    "name": "Plaque to commemorate formation of Agitprop group for Eastern Bosnia",
+    "year": "1988",
+    "type": "ploca",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "bosanska-krupa-safet-krupic",
+    "koordinate": {
+      "lat": 44.8823675,
+      "lng": 16.1588632
+    },
+    "title": "Bosanska Krupa",
+    "info": "https://www.spomenicinob.info/bosanskakrupa",
+    "naziv": "Safet Krupić",
+    "name": "Bust of Safet Krupić",
+    "type": "bista",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "bosanski-petrovac-spomen-ploce-u-domu-kulture",
+    "koordinate": {
+      "lat": 44.5539446,
+      "lng": 16.3678574
+    },
+    "title": "Bosanski Petrovac",
+    "info": "https://www.spomenicinob.info/bosanskipetrovac",
+    "naziv": "Spomen-ploče u Domu kulture",
+    "name": "Plaques to commemorate the first congress of medics of the NOB and the inspection of the III Krajina Brigade by Tito on 14 November 1942",
+    "type": "ploca",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "sarajevo-marijin-dvor-spomen-ploca-nezavisnim",
+    "koordinate": {
+      "lat": 43.8571635,
+      "lng": 18.4123914
+    },
+    "title": "Sarajevo (Marijin Dvor)",
+    "info": "https://www.spomenicinob.info/centarsarajevo",
+    "naziv": "Spomen-ploča Nezavisnim sindikatima i redakciji „Radničkog jedinstva“",
+    "name": "Plaque to commemorate Independent Union and Editorial of 'Radničko Jedinstvo'",
+    "year": "1955",
+    "type": "ploca",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "sarajevo-marijin-dvor-spomen-ploca-na-mjestu",
+    "koordinate": {
+      "lat": 43.8559179,
+      "lng": 18.4088283
+    },
+    "title": "Sarajevo (Marijin Dvor)",
+    "info": "https://www.spomenicinob.info/centarsarajevo",
+    "naziv": "Spomen-ploča na mjestu pogibije Vladimira Perića Valtera",
+    "name": "Plaque and marker to mark place of death of Vladimir Valter Perić",
+    "year": "1981",
+    "type": "ploca",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "sarajevo-ciglane-spomen-ploca-petoj-pokrajinskoj",
+    "koordinate": {
+      "lat": 43.8589952,
+      "lng": 18.4101142
+    },
+    "title": "Sarajevo (Ciglane)",
+    "info": "https://www.spomenicinob.info/centarsarajevo",
+    "naziv": "Spomen-ploča Petoj pokrajinskoj konferenciji KPJ",
+    "name": "Plaque to commemorate holding of Fifth Provincial Conference of the KPJ in apartment of Slaviša Vajner Čiča",
+    "year": "1988",
+    "type": "ploca",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "sarajevo-dzidzikovac-spomen-ploca-miljenku",
+    "koordinate": {
+      "lat": 43.8634768,
+      "lng": 18.4148938
+    },
+    "title": "Sarajevo (Džidžikovac)",
+    "info": "https://www.spomenicinob.info/centarsarajevo",
+    "naziv": "Spomen-ploča Miljenku Cvitkoviću Špancu",
+    "name": "Plaque to commemorate residence of NH Miljenko Cvitković Španac",
+    "year": "1988",
+    "type": "ploca",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "sarajevo-skenderija-vladimir-peric-valter",
+    "koordinate": {
+      "lat": 43.8535488,
+      "lng": 18.4103403
+    },
+    "title": "Sarajevo (Skenderija)",
+    "info": "https://www.spomenicinob.info/centarsarajevo",
+    "naziv": "Vladimir Perić Valter",
+    "name": "Bust of NH Vladimir Valter Perić",
+    "year": "1983",
+    "author": "Ljupko Antunović",
+    "type": "bista",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "sarajevo-skenderija-spomen-ploca-na-mjestu",
+    "koordinate": {
+      "lat": 43.8547111,
+      "lng": 18.4166028
+    },
+    "title": "Sarajevo (Skenderija)",
+    "info": "https://www.spomenicinob.info/centarsarajevo",
+    "naziv": "Spomen-ploča na mjestu Luburićeve vile i 816 žrtava fašističkog terora",
+    "name": "Plaque to commemorate location of Luburić Villa and 816 Victims of Fascist Terror",
+    "year": "1988",
+    "type": "ploca",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "osinja-djordjo-panzalovic",
+    "koordinate": {
+      "lat": 44.8543953,
+      "lng": 17.8649002
+    },
+    "title": "Osinja",
+    "info": "https://www.spomenicinob.info/derventa",
+    "naziv": "Đorđo Panzalović",
+    "name": "Bust of Đorđo Panzalović",
+    "type": "bista",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "derventa-spomenik-nob",
+    "koordinate": {
+      "lat": 44.9764872,
+      "lng": 17.9074585
+    },
+    "title": "Derventa",
+    "info": "https://www.spomenicinob.info/derventa",
+    "naziv": "Spomenik NOB-u",
+    "name": "Monument to the NOB",
+    "year": "1966",
+    "author": "Antun Augustinčić",
+    "type": "spomenik",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "foca-spomen-ploca-donosenju-focanskih-propisa",
+    "koordinate": {
+      "lat": 43.5079131,
+      "lng": 18.7750247
+    },
+    "title": "Foča",
+    "info": "https://www.spomenicinob.info/foca",
+    "naziv": "Spomen-ploča donošenju Fočanskih propisa",
+    "name": "Plaque to commemorate the creation of the Foča Regulations",
+    "year": "1950",
+    "type": "ploca",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "gracanica-hasan-kikic",
+    "koordinate": {
+      "lat": 44.706365,
+      "lng": 18.3115369
+    },
+    "title": "Gračanica",
+    "info": "https://www.spomenicinob.info/gracanica",
+    "naziv": "Hasan Kikić",
+    "name": "Bust of Hasan Kikić",
+    "year": "1986",
+    "author": "Drago Handanović",
+    "type": "bista",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "knezevo-spomen-ploca-prvoj-regionalnoj",
+    "koordinate": {
+      "lat": 44.4890523,
+      "lng": 17.3781974
+    },
+    "title": "Kneževo",
+    "info": "https://www.spomenicinob.info/knezevo",
+    "naziv": "Spomen-ploča prvoj regionalnoj konferenciji KPJ 1942.",
+    "name": "Plaque to commemorate first KPJ regional conference in 1942",
+    "year": "1959",
+    "type": "ploca",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "kotor-varos-larisa-sugic",
+    "koordinate": {
+      "lat": 44.6172239,
+      "lng": 17.3715239
+    },
+    "title": "Kotor Varoš",
+    "info": "https://www.spomenicinob.info/kotorvaros",
+    "naziv": "Larisa Šugić",
+    "name": "Bust of Larisa Šugić",
+    "year": "1977",
+    "author": "Ahmed Bešić",
+    "type": "bista",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "siprage-danica-perovic",
+    "koordinate": {
+      "lat": 44.46562,
+      "lng": 17.5552779
+    },
+    "title": "Šiprage",
+    "info": "https://www.spomenicinob.info/kotorvaros",
+    "naziv": "Danica Perović",
+    "name": "Bust of Danica Perović",
+    "type": "bista",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "lukavac-djuro-pucar-stari",
+    "koordinate": {
+      "lat": 44.5412921,
+      "lng": 18.5270575
+    },
+    "title": "Lukavac",
+    "info": "https://www.spomenicinob.info/lukavac",
+    "naziv": "Đuro Pucar Stari",
+    "name": "Bust of NH Đuro Pucar Stari",
+    "year": "1980",
+    "author": "Pero Jelisić",
+    "type": "bista",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "mostar-safet-mujic",
+    "koordinate": {
+      "lat": 43.3244774,
+      "lng": 17.823529
+    },
+    "title": "Mostar",
+    "info": "https://www.spomenicinob.info/mostar",
+    "naziv": "Safet Mujić",
+    "name": "Bust of NH Dr. Safet Mujić",
+    "year": "1961",
+    "author": "Florijan Mićković",
+    "type": "bista",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "mostar-mustafa-cemalovic-cimba",
+    "koordinate": {
+      "lat": 43.3345143,
+      "lng": 17.8150167
+    },
+    "title": "Mostar",
+    "info": "https://www.spomenicinob.info/mostar",
+    "naziv": "Mustafa Ćemalović Ćimba",
+    "name": "Bust of NH Mustafa Ćemalović Ćimba",
+    "year": "1985",
+    "author": "Florijan Mićković",
+    "type": "bista",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "petrovo-spomenik-palim-borcima-i-zrtvama",
+    "koordinate": {
+      "lat": 44.6272452,
+      "lng": 18.3600916
+    },
+    "title": "Petrovo",
+    "info": "https://www.spomenicinob.info/petrovo",
+    "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+    "name": "Monument to fallen fighters and Victims of Fascist Terror",
+    "year": "1961",
+    "author": "Mika Josipović & Anton Šego",
+    "type": "spomenik",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "kozarac-rade-kondic",
+    "koordinate": {
+      "lat": 44.9749613,
+      "lng": 16.8402431
+    },
+    "title": "Kozarac",
+    "info": "https://www.spomenicinob.info/prijedor",
+    "naziv": "Rade Kondić",
+    "name": "Bust of NH Rade Kondić",
+    "year": "1981",
+    "author": "Alija Rešić",
+    "type": "bista",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "donji-srdjevici-spomenik-na-mjestu-pogibije-danka",
+    "koordinate": {
+      "lat": 45.006445,
+      "lng": 17.5601266
+    },
+    "title": "Donji Srđevići",
+    "info": "https://www.spomenicinob.info/srbac",
+    "naziv": "Spomenik na mjestu pogibije Danka Mitrova",
+    "name": "Monument to mark the place of death of Danko Mitrov",
+    "year": "1986",
+    "type": "lokalni",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "donja-trnova-spomen-park-pesaljevica-gaj",
+    "koordinate": {
+      "lat": 44.6593854,
+      "lng": 19.1165653
+    },
+    "title": "Donja Trnova",
+    "info": "https://www.spomenicinob.info/ugljevik",
+    "naziv": "Spomen-park Pešaljevića gaj",
+    "name": "Pešaljevića gaj memorial complex",
+    "type": "kompleks",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "zvornik-mitar-trifunovic-uco",
+    "koordinate": {
+      "lat": 44.3821262,
+      "lng": 19.1031009
+    },
+    "title": "Zvornik",
+    "info": "https://www.spomenicinob.info/zvornik",
+    "naziv": "Mitar Trifunović Učo",
+    "name": "Bust of Mitar Trifunović Učo",
+    "author": "Pero Jelisić",
+    "type": "bista",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "sarajevo-bistrik-spomen-ploca-palim-clanovima",
+    "koordinate": {
+      "lat": 43.8559449,
+      "lng": 18.4299188
+    },
+    "title": "Sarajevo (Bistrik)",
+    "info": "https://www.spomenicinob.info/starigradsarajevo",
+    "naziv": "Spomen-ploča palim članovima ćilimarskog kolektiva",
+    "name": "Plaque commemorating members of carpetmakers' collective who fell in the NOB",
+    "year": "1959",
+    "type": "ploca",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "tuzla-moluhe-spomen-ploca-palim-borcima-moluha",
+    "koordinate": {
+      "lat": 44.5345231,
+      "lng": 18.6418659
+    },
+    "title": "Tuzla (Moluhe)",
+    "info": "https://www.spomenicinob.info/tuzla",
+    "naziv": "Spomen-ploča palim borcima Moluha i Solane Tuzla",
+    "name": "Plaque to commemorate fallen fighters of Moluhe and Solana Tuzla",
+    "year": "1977",
+    "type": "ploca",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "zvornik-spomen-ploca-stabu-prve-proleterske",
+    "koordinate": {
+      "lat": 44.3852421,
+      "lng": 19.1004604
+    },
+    "title": "Zvornik",
+    "info": "https://www.spomenicinob.info/zvornik",
+    "naziv": "Spomen-ploča Štabu Prve proleterske divizije 1943.",
+    "name": "Plaque to commemorate Command of First Proletarian Division in 1943",
+    "year": "1951",
+    "type": "ploca",
+    "drzava": "Bosnia and Herzegovina"
   }
 ]
