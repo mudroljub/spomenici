@@ -63,7 +63,7 @@ const tekstovi = {
   grupaDrzava: {sh: 'Država', en: 'Country'},
   grupaAutor: {sh: 'Autor', en: 'Artist'},
   autori: {sh: 'Autori', en: 'Artists'},
-  posveta: {sh: 'Posveta', en: 'Dedicated to'},
+  posveta: {sh: 'Posvećeno', en: 'Dedicated to'},
   sviAutori: {sh: 'Svi autori', en: 'All artists'},
   traziAutora: {sh: 'Traži autora', en: 'Find an artist'},
   nemaAutora: {sh: 'Nema takvog autora', en: 'No such artist'},

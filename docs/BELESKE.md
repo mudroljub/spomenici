@@ -267,6 +267,20 @@ Dva zapisa nazvana Strezimirovci zapravo su u Glavanovcima i Nasalevcima u Bugar
 
 Provere: `slike_odnos.py` — 0 promena; `integritet.py` — 17 poznatih bliskih parova, bez novih upozorenja. Svaka od 21 mobilne kartice otvorena je lokalno: slike su učitane, krediti prikazani, nema JS izuzetaka; pregledani su i snimci ekrana. Baza je pri poslednjoj proveri imala 4.464 zapisa, uz očuvane paralelne izmene drugih zadataka.
 
+### 2026-10-15 — Posvete istaknutih spomenika
+
+Od 81 istaknutog spomenika bez posvete, 30 ima članak na Wikipediji, a 80 vezu ka spomenikdatabase.org. Članci su pročitani zbirno (`prop=revisions` po vikiju), a njihove veze razvrstane po Wikidata P31 (ljudi, jedinice, bitke, događaji). Spomenikdatabase nije čitan direktno: jedan CDX upit Wayback Machine-a (`filter=original:` sa svim slugovima) dao je najnoviji arhivski snimak za 79 stranica, preuzetih sa `id_/` adresa na 3 s. Iz teksta su izdvojene rečenice sa „commemorates“, „dedicated“ i sl.
+
+Upisane su samo izričite posvete imenovanoj jedinici, ličnosti ili događaju sa člankom; „pali borci i žrtve kraja“ se ne upisuju. Posvetu je dobio 21 spomenik: Jasenovac (Logor Jasenovac; veze ka logorima su prvo bile propuštene u filteru), Knin (Kninska operacija, Osmi dalmatinski korpus), Kamenska i Donji Miholjac (Šesti slavonski korpus), Makljen (Bitka na Neretvi), Draginac (masakr), Kruševo, Kočani i Gevgelija (Ilindanski ustanak; Gevgelija i Gevgelijski odred), Dražgoše (bitka i Cankarjev bataljon), Črni Kal (Prekomorske brigade), Kolašin (CASNO), Koprivnica (logor Danica), Kozara (Bitka na Kozari), Šumarice (masakr u Kragujevcu), Landovica (Boro Vukmirović i Ramiz Sadiku), Oteševo (Prespansko savetovanje), Podgora (Mornarica NOVJ), Župa Nikšićka (Peta crnogorska brigada i Sutjeska), Avala (avionska nesreća 1964) i Brzeće (Bitka na Kopaoniku 1944). Dodato je 17 novih posveta.
+
+Bez posvete su ostali spomenici sa opštom posvetom ili jedinicom bez članka (Bravska i Vođenička četa, Zlatibor, Medeno Polje, Pleso, Zrenjanin). Stranica za Kumanovo nije arhivirana.
+
+### 2026-10-15 — Strezimirovci, Progar i Zlatibor
+
+- **Strezimirovci:** oba zapisa (`strezimirovci-partizanski-pametnik`, `…-2`, OSM n4729206399 i n4729217900) su prema Nominatimu u Glavanovcima i Nasalevcima, opština Trn, Bugarska. Van obuhvata, pa su uklonjeni.
+- **Progar:** `progar-spomen-ploca` (Commons „Spomen ploča u Bojčinskoj šumi“, 44.731804, 20.155728) imao je istu fotografiju kao `progar` (bajt po bajt), a drugi agent je poređenjem potvrdio da je to objekat Google CID 3823855634187011955. Uklonjen je zapis sa Commons tačkom, a ostao je `progar` sa tačkom Google mesta.
+- **Zlatibor:** OSM n1747383444 („Spomenik palim partizanima“, ucrtan 2012. u naselju) dobio je 2022. Wikidata Q97180579 i članak „Споменик стрељаним партизанима (Златибор)“, dakle isti spomenik kao naš istaknuti `zlatibor` na Šumatnom brdu (43.7111887, 19.711964, Google CID), 2,7 km južnije. Panoramax snimci oko OSM tačke pokazuju borovu šumu uz put, bez vidljivog spomenika. Po odluci korisnika zapis je uklonjen kao duplikat.
+
 ### 2026-10-15 — Hrvatska: županijski spiskovi i Panoramax
 
 Stavke bez lokacije upoređene su sa sedam spiskova `Dodatak:Popis antifašističkih spomenika u …` na hr Wikipediji (jedan zbirni zahtev). Pored svakog mesta su provereni OSM spomenici (jedan Overpass upit, krug od 2 km, odnosno 600 m u Zagrebu) i ulični snimci sa Panoramax-a (`api.panoramax.xyz/api/search?bbox=…`). Spiskovi imaju fotografije sa Commonsa, ali bez koordinata.
@@ -284,6 +298,20 @@ Sve WLM fotografije preuzete su zbirno, preko `generator=categorymembers` po god
 - Po imenu mesta i naziva izdvojeno je pet kandidata za Srbiju (Zlatibor, Bubanj, Inđija, Kraljevo, Zrenjanin). Upisani su u `docs/FOTOGRAFIJE_SRBIJA.md` („WLM kandidati“) za agenta koji obrađuje Srbiju.
 - Dalje od 300 m od svih naših spomenika nema novog spomenika NOB-a: „Spomenik streljanim taocima“ (СК 806) je naš `skela-obrenovac`, a ostalo su spomenici iz drugih epoha (Prvi svetski rat, ustanci, ličnosti, crkve).
 - Republika Srpska (1.202 fajla, samo 14 sa koordinatama) ima tri NOB teme. Bileću i Vlasenicu već imamo sa slikom. Korićka jama (OSM 7726862226; obeležje iz 1966, skulptura Nandora Glida iz 1991) danas je kapela, a spomen-groblje u Vlasenici je uređeno krstovima 2009, pa oba ostaju van obuhvata.
+
+### 2026-10-15 — Spomenik Kosmajskom odredu kod Malog Orašja
+
+Na zahtev korisnika dodat je `malo-orasje-kosmajski-partizanski-odred`, 44.5495128, 20.7847293, Google CID `16572041606938670608`, sa [korisnikovog mapnog linka](https://maps.app.goo.gl/Tjm3rhE4AAN7cvHa9). Korisnik je identifikovao posvetu palim borcima Kosmajskog partizanskog odreda; upisana je postojeća posveta `Q11117229`. Iako je prvobitno pomenut Drugovac, pojedinačno otvoren Google objekat izričito navodi Karađorđevu 205, Malo Orašje, što odgovara i najbližem naselju iz lokalnih OSM podataka. Zato je naslov Malo Orašje. Nema istog CID-a u bazi; najbliži postojeći spomenik je udaljen oko 8,6 km. Nisu potvrđeni autor, godina ni slobodna fotografija; upisan je podrazumevani tip `lokalni`.
+
+### 2026-10-15 — Drugovac: spomenik žrtvama četničkog masakra
+
+Na zahtev korisnika istražen i dodat `drugovac-spomenik-zrtvama-cetnickog-masakra`, 44.5452400, 20.8371746, Google CID `10429613251320446142`. Imenovana [Google tačka „Spomenik Poljana“](https://maps.google.com/?cid=10429613251320446142) navodi Drugovac; uzete su koordinate objekta iz `!3d`/`!4d`, a ne centar prikaza mape. [Grad Smederevo, komemoracija 2024](https://smederevo.ls.gov.rs/obelezena-osma-decenija-od-stradanja-drugovcana-u-drugom-svetskom-ratu/) i [komemoracija 2025](https://ebranicevo.com/dogadjaji/komemorativni-skup-povodom-stradanja-drugovcana-u-drugom-svetskom-ratu/) identifikuju spomenik na Poljani i žrtve masakra od 29. aprila 1944. Posveta je događaj `Q12761203`, potvrđen kroz Wikipedijin `pageprops`, sa korisnikovim [člankom „Masakr u Drugovcu“](https://sh.wikipedia.org/wiki/Masakr_u_Drugovcu); dopunjena je `data/posvete.json`.
+
+[Izabrana Commons fotografija](https://commons.wikimedia.org/wiki/File:Drugovac,_Spomenik_%C5%BErtvama_%C4%8Detni%C4%8Dkog_masakra,_01.jpg), Dungodung, CC BY-SA 3.0, snimljena 7. septembra 2013, vizuelno je pregledana: kameni obelisk sa petokrakom i imenima boraca i ubijenih meštana. Dodata je kao lokalni WebP širine 400 px, kvaliteta 75, sa kreditom i odnosom stranica. Nijedna od pet fotografija iste Commons kategorije nema objavljene GPS koordinate; zato lokacija nije preuzeta iz slike ni iz centra naselja. Mali OSM obuhvat nema odgovarajući objekat; prošireni upit završio je istekom vremena i nije ponavljan. Google pretraga spomen-parka Poljana dala je imenovanu tačku, za razliku od generičkih upita koji su vraćali druga mesta.
+
+Spomenik je oko 4,18 km od prethodno dodatog obeležja Kosmajskom odredu i Drugoj šumadijskoj brigadi kod Malog Orašja; to su zasebni objekti. Autor i godina podizanja nisu pouzdano utvrđeni, pa nisu upisani. Google poslovna oznaka „trajno zatvoreno“ nije preneta kao fizičko stanje spomenika. Prvobitni pregled fotografija Srbije ostaje istorijski obuhvat od 132 zapisa; ovo je naknadno dodat novi spomenik.
+
+Provere unosa Drugovca: `slike_odnos.py` — 0 promena; `integritet.py` — samo 17 poznatih bliskih parova. Mobilna kartica vizuelno je pregledana: fotografija i kredit učitani, posveta vodi na traženi članak, 4.463 markera, bez JS izuzetaka. Poređenje sa snimkom pre upisa potvrđuje jedan novi spomenik i jednu novu posvetu, uz očuvane postojeće zapise; `git diff --check` prolazi.
 
 ## Izvori koji su već obrađeni
 

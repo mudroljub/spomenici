@@ -23,4 +23,3 @@ Provera fotografija za svih 132 tadašnja zapisa bez slike u Srbiji završena je
 ## TODO
 
 - spomenicinob.info: popis svih spomenika NOB u BiH po opštinama (naziv, mesto, vrsta, godina, autor, da li postoji; bez koordinata), oko 140 stranica sporog preuzimanja; dogovoriti pre početka
-- Proveriti pogrešno razvrstane tačke Strezimirovci (dva zapisa u Bugarskoj), nesaglasne koordinate Progara i mogući duplikat na Zlatiboru; [dokazi iz provere fotografija](docs/FOTOGRAFIJE_SRBIJA.md).

@@ -5,7 +5,7 @@ Ažurirano 2026-10-15. Ovaj dokument je dovoljan za samostalan rad: šta se radi
 ## 1. Kontekst
 
 - **Aplikacija:** Spomeniks, mapa spomenika NOB-a sa prostora Jugoslavije (vanilla JS + Leaflet). Putanje su relativne u odnosu na koren repozitorijuma, osim onih sa `$A`.
-- **Podaci:** `data/spomeniks.json`, niz od oko 4.150 objekata. Slike su u `slike/spomenici/<id>.webp`.
+- **Podaci:** `data/spomeniks.json`, niz od 4.464 objekta pri proveri 2026-10-15. Slike su u `slike/spomenici/<id>.webp`.
 - **Alati:** `alati/` u repozitorijumu: `integritet.py`, `slike_odnos.py`, `commons_dodaj.py`, `proveri.py`, `upisi_cid.py`, `dodaj_google.py`, `snimi.mjs` i `naselja_osm.json`. Pokreću se **iz korena repozitorijuma**, sa `python -I alati/<alat>.py`.
 - **Jednokratni alati i preuzeti ulazi:** folder `nazivi-alati` u Claude Code memoriji projekta, `~/.claude/projects/<putanja repozitorijuma, sa crticama umesto / \ i :>/nazivi-alati` (u daljem tekstu `$A`): `osm_dodaj.py`, `rnpd_*.py`, `spisak.py`, `koraci.mjs`, `pregledac_json.mjs`, `spomenici_osm.json` i `ulaz/`. Nisu u repozitorijumu, pa na drugom računaru postoje samo ako se prenesu ručno.
 - **Korisnik:** piše na srpskom i želi kratke odgovore, najviše dve rečenice. Sporne slučajeve rešavaš sam ili ih preskačeš, bez spiskova za korisnika. Ne komituješ; to radi korisnik.
@@ -55,22 +55,9 @@ Pregled slika: `magick montage -label '%t' <fajlovi> -tile 5x3 -geometry 220x165
 
 ## 5. Zadaci, redom
 
-**Stanje 2026-10-15:** završeni zadaci A, B, C, F i G su uklonjeni iz plana, a njihova istorija je u `docs/BELESKE.md`. D je u toku: Srbiju obrađuje drugi agent u `docs/FOTOGRAFIJE_SRBIJA.md`. E je delimično urađen. Novi kandidat je spomenicinob.info (popis spomenika NOB-a u BiH, bez koordinata), ali tek posle dogovora sa korisnikom. Spomenici bez lokacije se skupljaju u `data/bez_lokacije.json`.
+**Stanje 2026-10-15:** završeni zadaci A, B, C, D, E, F i G su uklonjeni iz plana, a njihova istorija je u `docs/BELESKE.md`. U završnoj proveri Srbije u okviru zadatka D obrađena su sva 132 tadašnja zapisa bez slike: dodata je 21 fotografija, a 111 zapisa ostaje bez odgovarajuće potvrđene slike za dodavanje. [Rezultat za svaki zapis](FOTOGRAFIJE_SRBIJA.md) sadrži izvore i razloge; ovaj prolaz pretrage je završen. Otvorene provere države, koordinata i mogućeg duplikata vode se zasebno u `README.md`, odeljak TODO. Kod zadatka E obrađeno je sve što dostupni izvori potvrđuju; preostale hrvatske stavke čekaju nov izvor. Novi kandidat je spomenicinob.info (popis spomenika NOB-a u BiH, bez koordinata), ali tek posle dogovora sa korisnikom. Spomenici bez lokacije se skupljaju u `data/bez_lokacije.json`.
 
 Posle svakog zadatka: `integritet.py` bez novih grešaka, `slike_odnos.py` ako ima novih slika, kratak unos u `docs/BELESKE.md` (šta je urađeno, brojevi, šta je preskočeno i zašto), brisanje stavke iz `## TODO` u `README.md`.
-
-### D. Fotografije za spomenike bez slike, van Slovenije
-
-- **Ulaz:** naši spomenici bez `slika`, a `drzava != Slovenia` (oko 270).
-- **Koraci:** za svaki po jedan Commons `list=geosearch` (`gscoord`, `gsradius=100`, `gsnamespace=6`, `gslimit=10`), sa pauzom od 3 s. Kandidat mora imati u imenu ili opisu reč spomenik/spomen/memorial/NOB/partizan ili ime mesta. Posle toga dolazi `commons_dodaj.py` (`postojeci`) i obavezna montaža. Fotografija parka koja prikazuje spomenik sa posebnim unosom se ne uzima.
-- **Procena:** oko 270 zahteva.
-
-### E. Hrženjak, „Rušenje antifašističkih spomenika u Hrvatskoj 1990–2000“
-
-**Dopuna 2026-10-15:** pronađen je dostupan [indeks srušenih, oštećenih i uklonjenih spomenika](https://plusportal.hr/media/images/old_sb/Files/180319164051354/popis%20uklonjenih%20bisti%20i%20spomenika%20iz%20NOB-a.pdf) (63 PDF strane, autori indeksa Zrnka Novak i Relja Bosanac, 2.120 evidentiranih spomenika). Pun tekst knjige i bibliografska veza još nisu potvrđeni. Tema više nije bez dostupnog spiska: prvo ciljano proveriti postojeće hrvatske stavke iz `data/bez_lokacije.json`; opis i staro stanje čuvati uz izvor, a unos na mapu zahteva potvrđenu lokaciju. Ne prepisivati istorijsko stanje preko današnjeg bez novije potvrde. Svih 37 tadašnjih hrvatskih stavki ciljano je pregledano 2026-10-15: dodati su Peroj i grobnica na Senjaku, uklonjen duplikat Anke Butorac, ostale su 34 hrvatske stavke bez tačke. Detalji su u `docs/BELESKE.md`, odeljak „Provera hrvatskih stavki u indeksu“; preostale lokacije i širi popis nisu završeni.
-
-- **Cilj:** srušeni i oštećeni spomenici u Hrvatskoj (oko 3.000), sa `stanje` `uklonjen` ili `ostecen`.
-- **Koraci:** prvo pronađi dostupan tekst knjige (izdanje SABA RH 2002; Documenta, scribd, archive.org) i zabeleži izvor. Ako je dostupan, parsiraj spisak po opštinama i mestima. Upari sa postojećim (po mestu), i postojećima samo dopuni `stanje`. Nove dodaj samo kad postoji tačna lokacija (OSM, Commons); ostale ne dodaji na centar sela bez dogovora sa korisnikom.
 
 ## 6. Kad je posao gotov
 

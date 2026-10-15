@@ -83,6 +83,12 @@
     "wiki": "https://sh.wikipedia.org/wiki/Veljko_Vlahovi%C4%87",
     "wikiEn": "https://en.wikipedia.org/wiki/Veljko_Vlahovi%C4%87"
   },
+  "Q334224": {
+    "naziv": "Crnogorska antifašistička skupština narodnog oslobođenja",
+    "name": "Montenegrin Anti-Fascist Assembly of National Liberation",
+    "wiki": "https://sh.wikipedia.org/wiki/Crnogorska_antifa%C5%A1isti%C4%8Dka_skup%C5%A1tina_narodnog_oslobo%C4%91enja",
+    "wikiEn": "https://en.wikipedia.org/wiki/Montenegrin_Anti-Fascist_Assembly_of_National_Liberation"
+  },
   "Q347277": {
     "naziv": "Vladimir Gortan",
     "wiki": "https://sh.wikipedia.org/wiki/Vladimir_Gortan"
@@ -174,6 +180,11 @@
     "wiki": "https://sh.wikipedia.org/wiki/Franc_Rozman",
     "wikiEn": "https://en.wikipedia.org/wiki/Franc_Rozman"
   },
+  "Q855731": {
+    "naziv": "Peta proleterska crnogorska udarna brigada",
+    "name": "5th Montenegrin Proletarian Brigade",
+    "wiki": "https://sh.wikipedia.org/wiki/5._proleterska_(crnogorska)_udarna_brigada"
+  },
   "Q855794": {
     "naziv": "Deseta ljubljanska brigada",
     "name": "Ljubljana Brigade",
@@ -193,6 +204,12 @@
     "name": "Novi Sad raid",
     "wiki": "https://sh.wikipedia.org/wiki/Novosadska_racija",
     "wikiEn": "https://en.wikipedia.org/wiki/Novi_Sad_raid"
+  },
+  "Q1145682": {
+    "naziv": "Ilindanski ustanak",
+    "name": "Ilinden Uprising",
+    "wiki": "https://sh.wikipedia.org/wiki/Ilindanski_ustanak",
+    "wikiEn": "https://en.wikipedia.org/wiki/Ilinden%E2%80%93Preobrazhenie_Uprising"
   },
   "Q1254204": {
     "naziv": "Božidar Maslarić",
@@ -295,6 +312,11 @@
     "name": "Battle of the Sutjeska",
     "wiki": "https://sh.wikipedia.org/wiki/Bitka_na_Sutjesci",
     "wikiEn": "https://en.wikipedia.org/wiki/Operation_Schwarz"
+  },
+  "Q1445288": {
+    "naziv": "Šesti slavonski korpus",
+    "name": "6th Slavonian Corps",
+    "wiki": "https://sh.wikipedia.org/wiki/6._slavonski_korpus"
   },
   "Q1560939": {
     "naziv": "Slavko Rodić",
@@ -547,6 +569,11 @@
     "wiki": "https://sh.wikipedia.org/wiki/Anka_Butorac",
     "wikiEn": "https://en.wikipedia.org/wiki/Anka_Butorac"
   },
+  "Q3446426": {
+    "naziv": "Prekomorske brigade",
+    "name": "Overseas Brigades",
+    "wiki": "https://sh.wikipedia.org/wiki/Prekomorske_brigade_Narodnooslobodila%C4%8Dke_vojske_Jugoslavije"
+  },
   "Q3446522": {
     "naziv": "Dragomir Benčić",
     "name": "Dragomir Benčič",
@@ -578,6 +605,11 @@
     "naziv": "Milko Kos",
     "wiki": "https://sl.wikipedia.org/wiki/Milko_Kos",
     "wikiEn": "https://en.wikipedia.org/wiki/Milko_Kos"
+  },
+  "Q4055769": {
+    "naziv": "Avionska nesreća na Avali 1964.",
+    "name": "1964 Avala plane crash",
+    "wiki": "https://sr.wikipedia.org/wiki/%D0%90%D0%B2%D0%B8%D0%BE%D0%BD%D1%81%D0%BA%D0%B0_%D0%BD%D0%B5%D1%81%D1%80%D0%B5%D1%9B%D0%B0_%D0%BD%D0%B0_%D0%90%D0%B2%D0%B0%D0%BB%D0%B8_1964."
   },
   "Q4085057": {
     "naziv": "Jakob Bernard",
@@ -635,11 +667,23 @@
     "name": "Mitar-Učo Trifunović",
     "wiki": "https://sh.wikipedia.org/wiki/Mitar_Trifunovi%C4%87"
   },
+  "Q4870916": {
+    "naziv": "Dražgoška bitka",
+    "name": "Battle of Dražgoše",
+    "wiki": "https://sh.wikipedia.org/wiki/Dra%C5%BEgo%C5%A1ka_bitka",
+    "wikiEn": "https://en.wikipedia.org/wiki/Battle_of_Dra%C5%BEgo%C5%A1e"
+  },
   "Q6154855": {
     "naziv": "Janko Premrl Vojko",
     "name": "Janko Premrl",
     "wiki": "https://sr.wikipedia.org/wiki/%D0%88%D0%B0%D0%BD%D0%BA%D0%BE_%D0%9F%D1%80%D0%B5%D0%BC%D1%80%D0%BB_%D0%92%D0%BE%D1%98%D0%BA%D0%BE",
     "wikiEn": "https://en.wikipedia.org/wiki/Janko_Premrl"
+  },
+  "Q6461523": {
+    "naziv": "Kninska operacija",
+    "name": "Knin operation",
+    "wiki": "https://sh.wikipedia.org/wiki/Kninska_operacija",
+    "wikiEn": "https://en.wikipedia.org/wiki/Battle_of_Knin"
   },
   "Q6470722": {
     "naziv": "Milan Tepić",
@@ -716,6 +760,11 @@
     "name": "Kosmaj Partisan Detachment",
     "wiki": "https://sh.wikipedia.org/wiki/Kosmajski_partizanski_odred"
   },
+  "Q11155508": {
+    "naziv": "Masakr u Vraniću",
+    "name": "Vranić massacre",
+    "wiki": "https://sh.wikipedia.org/wiki/Masakr_u_Vrani%C4%87u"
+  },
   "Q11157772": {
     "naziv": "Prvi šumadijski partizanski odred",
     "name": "1st Šumadija partisan detachment",
@@ -734,9 +783,20 @@
     "wiki": "https://sh.wikipedia.org/wiki/Vlada_Ze%C4%8Devi%C4%87",
     "wikiEn": "https://en.wikipedia.org/wiki/Vlada_Ze%C4%8Devi%C4%87"
   },
+  "Q11295127": {
+    "naziv": "Logor Danica",
+    "name": "Danica concentration camp",
+    "wiki": "https://sh.wikipedia.org/wiki/Koncentracijski_logor_Danica",
+    "wikiEn": "https://en.wikipedia.org/wiki/Danica_concentration_camp"
+  },
   "Q12274587": {
     "naziv": "Vangel Todorovski",
     "wiki": "https://sr.wikipedia.org/wiki/%D0%92%D0%B0%D0%BD%D0%B3%D0%B5%D0%BB_%D0%A2%D0%BE%D0%B4%D0%BE%D1%80%D0%BE%D0%B2%D1%81%D0%BA%D0%B8"
+  },
+  "Q12276166": {
+    "naziv": "Gevgelijski partizanski odred „Sava Mihajlov“",
+    "name": "Gevgelija Partisan Detachment",
+    "wiki": "https://sr.wikipedia.org/wiki/%D0%82%D0%B5%D0%B2%D1%92%D0%B5%D0%BB%D0%B8%D1%98%D1%81%D0%BA%D0%B8_%D0%BF%D0%B0%D1%80%D1%82%D0%B8%D0%B7%D0%B0%D0%BD%D1%81%D0%BA%D0%B8_%D0%BE%D0%B4%D1%80%D0%B5%D0%B4"
   },
   "Q12278749": {
     "naziv": "Dimče Mirčev",
@@ -755,6 +815,11 @@
   "Q12289890": {
     "naziv": "Panče Pešev",
     "wiki": "https://mk.wikipedia.org/wiki/%D0%9F%D0%B0%D0%BD%D1%87%D0%B5_%D0%9F%D0%B5%D1%88%D0%B5%D0%B2"
+  },
+  "Q12291399": {
+    "naziv": "Prespansko savetovanje",
+    "name": "Prespa Party Conference",
+    "wiki": "https://sr.wikipedia.org/wiki/%D0%9F%D1%80%D0%B5%D1%81%D0%BF%D0%B0%D0%BD%D1%81%D0%BA%D0%BE_%D1%81%D0%B0%D0%B2%D0%B5%D1%82%D0%BE%D0%B2%D0%B0%D1%9A%D0%B5_%D0%A6%D0%9A_%D0%9A%D0%9F%D0%9C"
   },
   "Q12296994": {
     "naziv": "Trifun Panovski",
@@ -831,6 +896,12 @@
   "Q12756811": {
     "naziv": "Oskar Kovačič",
     "wiki": "https://sr.wikipedia.org/wiki/%D0%9E%D1%81%D0%BA%D0%B0%D1%80_%D0%9A%D0%BE%D0%B2%D0%B0%D1%87%D0%B8%D1%87"
+  },
+  "Q12756822": {
+    "naziv": "Osmi dalmatinski korpus",
+    "name": "8th Dalmatian Corps",
+    "wiki": "https://hr.wikipedia.org/wiki/Osmi_dalmatinski_korpus_NOVJ-a",
+    "wikiEn": "https://en.wikipedia.org/wiki/8th_Corps_(Yugoslav_Partisans)"
   },
   "Q12759679": {
     "naziv": "Stevan Dukić",
@@ -919,6 +990,11 @@
   "Q12786515": {
     "naziv": "Brkinska brigada",
     "wiki": "https://sr.wikipedia.org/wiki/%D0%91%D1%80%D0%BA%D0%B8%D0%BD%D1%81%D0%BA%D0%B0_%D0%B1%D1%80%D0%B8%D0%B3%D0%B0%D0%B4%D0%B0"
+  },
+  "Q12786675": {
+    "naziv": "Cankarjev bataljon",
+    "name": "Cankar Battalion",
+    "wiki": "https://sl.wikipedia.org/wiki/Cankarjev_bataljon"
   },
   "Q12786761": {
     "naziv": "Cene Štupar",
@@ -1134,6 +1210,11 @@
     "naziv": "Jože Klanjšek",
     "wiki": "https://sr.wikipedia.org/wiki/%D0%88%D0%BE%D0%B6%D0%B5_%D0%9A%D0%BB%D0%B0%D1%9A%D1%88%D0%B5%D0%BA"
   },
+  "Q18404751": {
+    "naziv": "Mornarica NOVJ",
+    "name": "Yugoslav Partisan Navy",
+    "wiki": "https://sr.wikipedia.org/wiki/%D0%9C%D0%BE%D1%80%D0%BD%D0%B0%D1%80%D0%B8%D1%86%D0%B0_%D0%9D%D0%9E%D0%92%D0%88"
+  },
   "Q18529707": {
     "naziv": "Ivan Stariha",
     "wiki": "https://sr.wikipedia.org/wiki/%D0%98%D0%B2%D0%B0%D0%BD_%D0%A1%D1%82%D0%B0%D1%80%D0%B8%D1%85%D0%B0"
@@ -1145,6 +1226,11 @@
   "Q18604315": {
     "naziv": "Jože Molek",
     "wiki": "https://sl.wikipedia.org/wiki/Jo%C5%BEe_Molek"
+  },
+  "Q19738589": {
+    "naziv": "Zenički partizanski odred",
+    "name": "Zenica Partisan Detachment",
+    "wiki": "https://sh.wikipedia.org/wiki/Zeni%C4%8Dki_partizanski_odred"
   },
   "Q19932010": {
     "naziv": "Gradnikova brigada",
@@ -1183,6 +1269,11 @@
   "Q31181109": {
     "naziv": "Vukman Kruščić",
     "wiki": "https://sr.wikipedia.org/wiki/%D0%92%D1%83%D0%BA%D0%BC%D0%B0%D0%BD_%D0%9A%D1%80%D1%83%D1%88%D1%87%D0%B8%D1%9B"
+  },
+  "Q31182474": {
+    "naziv": "Masakr u Dragincu",
+    "name": "Draginac massacre",
+    "wiki": "https://sr.wikipedia.org/wiki/%D0%9C%D0%B0%D1%81%D0%B0%D0%BA%D1%80_%D1%83_%D0%94%D1%80%D0%B0%D0%B3%D0%B8%D0%BD%D1%86%D1%83"
   },
   "Q31183113": {
     "naziv": "Mileta Okiljević",
@@ -1250,6 +1341,11 @@
     "wiki": "https://sh.wikipedia.org/wiki/Bitka_na_Neretvi",
     "wikiEn": "https://en.wikipedia.org/wiki/Operation_Weiss"
   },
+  "Q130464154": {
+    "naziv": "Bitka na Kopaoniku 1944.",
+    "name": "Battle of Kopaonik",
+    "wiki": "https://sh.wikipedia.org/wiki/Bitka_na_Kopaoniku_(1944.)"
+  },
   "Q132459457": {
     "naziv": "Šarplaninski partizanski odred",
     "name": "Šara Partisan Detachment",
@@ -1258,5 +1354,10 @@
   "Q134430097": {
     "naziv": "Dolomitski partizanski odred",
     "wiki": "https://sr.wikipedia.org/wiki/%D0%94%D0%BE%D0%BB%D0%BE%D0%BC%D0%B8%D1%82%D1%81%D0%BA%D0%B8_%D0%BF%D0%B0%D1%80%D1%82%D0%B8%D0%B7%D0%B0%D0%BD%D1%81%D0%BA%D0%B8_%D0%BE%D0%B4%D1%80%D0%B5%D0%B4"
+  },
+  "Q12761203": {
+    "naziv": "Masakr u Drugovcu",
+    "name": "Drugovac massacre",
+    "wiki": "https://sh.wikipedia.org/wiki/Masakr_u_Drugovcu"
   }
 }

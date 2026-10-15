@@ -351,7 +351,7 @@ export default class Detalji extends HTMLElement {
   prikazi(marker, izRute) {
     this.marker = marker
     const spomen = marker.spomen
-    const podaci = [this.praviAutore(spomen), this.praviPosvetu(spomen)].filter(Boolean).join(' · ')
+    const podaci = [this.praviAutore(spomen), this.praviPosvetu(spomen)].filter(Boolean)
 
     // jedan link za vise: clanak na Wikipediji na jeziku aplikacije, pa na drugom, a bez njih drugi izvor
     const vise = (jezik === 'en' ? spomen.wikiEn || spomen.wiki : spomen.wiki || spomen.wikiEn) || spomen.info
@@ -370,7 +370,7 @@ export default class Detalji extends HTMLElement {
       </header>
       <div class="sadrzaj">
         <p class="mesto"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3.5 11.5 12 4.5l8.5 7M6 9.5V19.5h12V9.5M10 19.5v-5h4v5"/></svg>${[naziv ? escapeHtml(spomen.title) : '', escapeHtml(nazivDrzave(spomen.drzava || ''))].filter(Boolean).join(', ')}${spomen.year ? ` · ${escapeHtml(spomen.year)}` : ''}</p>
-        ${podaci ? `<p class="podaci">${podaci}</p>` : ''}
+        ${podaci.map(red => `<p class="podaci">${red}</p>`).join('')}
         <p class="akcije">
           <a href="${escapeHtml(navigacijaUrl(spomen.koordinate))}" target="_blank" class="glavna ikona"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 2.6 21.4 12 12 21.4 2.6 12Z" stroke-linejoin="round"/><path d="M9.6 14.6v-2.8c0-.8.6-1.4 1.4-1.4h4.4M13.2 8.2l2.2 2.2-2.2 2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>${t('navigacija')}</a>
           <a href="${escapeHtml(mestoUrl(spomen))}" target="_blank" class="ikona"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s-6.5-5.8-6.5-11.2a6.5 6.5 0 0 1 13 0C18.5 15.2 12 21 12 21Z" stroke-linejoin="round"/><circle cx="12" cy="9.8" r="2.3"/></svg>${t('mesto')}</a>

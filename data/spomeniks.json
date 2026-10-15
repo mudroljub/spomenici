@@ -158,6 +158,9 @@
     "name": "Monument to the Revolution",
     "year": "1972",
     "author": "Dušan Džamonja",
+    "posveta": [
+      "Q2985697"
+    ],
     "type": "istaknut",
     "drzava": "Bosnia and Herzegovina"
   },
@@ -216,6 +219,9 @@
     "name": "The Flower Monument",
     "year": "1966",
     "author": "Bogdan Bogdanović",
+    "posveta": [
+      "Q155032"
+    ],
     "type": "istaknut",
     "drzava": "Croatia"
   },
@@ -251,6 +257,9 @@
     "name": "The Makedonium (Ilinden Memorial)",
     "year": "1974",
     "author": "Jordan Grabul",
+    "posveta": [
+      "Q1145682"
+    ],
     "type": "istaknut",
     "drzava": "Macedonia"
   },
@@ -287,6 +296,9 @@
     "naziv": "Spomenik na Smetovima",
     "name": "Monument on Smetovi Hill",
     "year": "1968",
+    "posveta": [
+      "Q19738589"
+    ],
     "type": "istaknut",
     "drzava": "Bosnia and Herzegovina"
   },
@@ -358,6 +370,10 @@
     "naziv": "Partizanski spomenik iznad Knina",
     "name": "Monument to the Knin Liberators",
     "year": "1969",
+    "posveta": [
+      "Q6461523",
+      "Q12756822"
+    ],
     "stanje": "rusevine",
     "type": "istaknut",
     "drzava": "Croatia"
@@ -468,7 +484,7 @@
     "info": "http://www.spomenikdatabase.org/cacak",
     "slika": "slike/spomenici/cacak.webp",
     "slikaOdnos": 1.77,
-    "naziv": "Megaron",
+    "naziv": "Mauzolej borbe i pobede",
     "name": "Mausoleum of Struggle & Victory",
     "year": "1980",
     "author": "Bogdan Bogdanović",
@@ -547,6 +563,9 @@
     "name": "Interrupted Flight Monument",
     "year": "1963",
     "author": "Miodrag Živković",
+    "posveta": [
+      "Q685201"
+    ],
     "type": "istaknut",
     "drzava": "Serbia"
   },
@@ -618,6 +637,10 @@
     "name": "Monument to the Cankar Battalion",
     "year": "1976",
     "author": "Boris Kobe",
+    "posveta": [
+      "Q4870916",
+      "Q12786675"
+    ],
     "type": "istaknut",
     "drzava": "Slovenia"
   },
@@ -637,6 +660,9 @@
     "name": "Seagull Wings Monument",
     "year": "1962",
     "author": "Rajko Radović",
+    "posveta": [
+      "Q18404751"
+    ],
     "type": "istaknut",
     "drzava": "Croatia"
   },
@@ -751,6 +777,9 @@
     "name": "Soviet War Veterans Monument",
     "year": "1965",
     "author": "Jovan Kratohvil",
+    "posveta": [
+      "Q4055769"
+    ],
     "type": "istaknut",
     "drzava": "Serbia"
   },
@@ -845,6 +874,10 @@
     "name": "'Flower of Freedom' Monument",
     "year": "1969",
     "author": "Jordan Grabul",
+    "posveta": [
+      "Q1145682",
+      "Q12276166"
+    ],
     "type": "istaknut",
     "drzava": "Macedonia"
   },
@@ -1039,6 +1072,9 @@
     "name": "Monument to the Revolutionary Victory",
     "year": "1968",
     "author": "Vojin Bakić & Josip Sajsl",
+    "posveta": [
+      "Q1445288"
+    ],
     "stanje": "uklonjen",
     "type": "istaknut",
     "drzava": "Croatia"
@@ -1058,6 +1094,9 @@
     "name": "The Freedom Monument",
     "year": "1968",
     "author": "Stjepan Brlošić",
+    "posveta": [
+      "Q1445288"
+    ],
     "type": "istaknut",
     "drzava": "Croatia"
   },
@@ -1276,6 +1315,9 @@
     "name": "Kolašin Memorial House",
     "year": "1975",
     "author": "Marko Mušič",
+    "posveta": [
+      "Q334224"
+    ],
     "type": "istaknut",
     "drzava": "Montenegro"
   },
@@ -1405,6 +1447,9 @@
     "name": "Freedom Monument",
     "year": "1977",
     "author": "Gligor Čemerski",
+    "posveta": [
+      "Q1145682"
+    ],
     "type": "istaknut",
     "drzava": "Macedonia"
   },
@@ -1568,6 +1613,9 @@
     "naziv": "Spomen-kosturnica",
     "name": "Monument & Crypt to Executed Victims",
     "year": "1961",
+    "posveta": [
+      "Q31182474"
+    ],
     "type": "istaknut",
     "drzava": "Serbia"
   },
@@ -1697,6 +1745,9 @@
     "name": "Monument to Overseas Brigades",
     "year": "1966",
     "author": "Edo Mihevc",
+    "posveta": [
+      "Q3446426"
+    ],
     "type": "istaknut",
     "drzava": "Slovenia"
   },
@@ -1794,6 +1845,10 @@
     "naziv": "Spomenik bratstvu i jedinstvu",
     "name": "Monument to Brother & Unity",
     "year": "1963",
+    "posveta": [
+      "Q1562871",
+      "Q1568696"
+    ],
     "stanje": "uklonjen",
     "type": "istaknut",
     "drzava": "Kosovo"
@@ -1812,6 +1867,9 @@
     "naziv": "Spomenik na Mramoru",
     "name": "Mramor Monument",
     "year": "1969",
+    "posveta": [
+      "Q130464154"
+    ],
     "type": "istaknut",
     "drzava": "Serbia"
   },
@@ -1940,6 +1998,9 @@
     "name": "Monument to the Battle of the Wounded",
     "year": "1978",
     "author": "Boško Kućanski",
+    "posveta": [
+      "Q127872674"
+    ],
     "stanje": "rusevine",
     "type": "istaknut",
     "drzava": "Bosnia and Herzegovina"
@@ -2205,6 +2266,9 @@
     "name": "Mon. to the Prespa Party Conference",
     "year": "1973",
     "author": "Jordan Grabul",
+    "posveta": [
+      "Q12291399"
+    ],
     "type": "istaknut",
     "drzava": "Macedonia"
   },
@@ -3623,6 +3687,10 @@
     "naziv": "Spomenik palim borcima na Sutjesci",
     "name": "Monument to Fallen Sutjeska Fighters",
     "year": "1984",
+    "posveta": [
+      "Q855731",
+      "Q1419973"
+    ],
     "type": "istaknut",
     "drzava": "Montenegro"
   },
@@ -5958,6 +6026,9 @@
     "name": "Gallows Monument",
     "year": "1979",
     "author": "Lenko Pleština",
+    "posveta": [
+      "Q11295127"
+    ],
     "type": "istaknut",
     "drzava": "Croatia"
   },
@@ -59458,30 +59529,6 @@
     "drzava": "Serbia"
   },
   {
-    "id": "strezimirovci-partizanski-pametnik",
-    "koordinate": {
-      "lat": 42.815029,
-      "lng": 22.5214896
-    },
-    "title": "Strezimirovci",
-    "info": "https://www.openstreetmap.org/node/4729206399",
-    "naziv": "Partizanski pametnik",
-    "type": "lokalni",
-    "drzava": "Serbia"
-  },
-  {
-    "id": "strezimirovci-partizanski-pametnik-2",
-    "koordinate": {
-      "lat": 42.8126802,
-      "lng": 22.5102134
-    },
-    "title": "Strezimirovci",
-    "info": "https://www.openstreetmap.org/node/4729217900",
-    "naziv": "Partizanski pametnik",
-    "type": "lokalni",
-    "drzava": "Serbia"
-  },
-  {
     "id": "subotica-aleksandrovo-spomenik-palim-borcima-i-zrt",
     "koordinate": {
       "lat": 46.0722594,
@@ -59633,18 +59680,6 @@
     "slikaOdnos": 0.75,
     "slikaAutor": "Katarina Cvetkovic, CC BY-SA 4.0",
     "naziv": "Spomenik palim borcima",
-    "type": "lokalni",
-    "drzava": "Serbia"
-  },
-  {
-    "id": "zlatibor-spomenik-palim-partizanima",
-    "koordinate": {
-      "lat": 43.7358582,
-      "lng": 19.7132505
-    },
-    "title": "Zlatibor",
-    "info": "https://www.openstreetmap.org/node/1747383444",
-    "naziv": "Spomenik palim partizanima",
     "type": "lokalni",
     "drzava": "Serbia"
   },
@@ -63887,21 +63922,6 @@
     "drzava": "Serbia"
   },
   {
-    "id": "progar-spomen-ploca",
-    "koordinate": {
-      "lat": 44.731804,
-      "lng": 20.155728
-    },
-    "title": "Progar",
-    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD_%D0%BF%D0%BB%D0%BE%D1%87%D0%B0_%D1%83_%D0%91%D0%BE%D1%98%D1%87%D0%B8%D0%BD%D1%81%D0%BA%D0%BE%D1%98_%D1%88%D1%83%D0%BC%D0%B8.jpg",
-    "slika": "slike/spomenici/progar-spomen-ploca.webp",
-    "slikaOdnos": 1.498,
-    "slikaAutor": "Тајга, CC BY-SA 3.0",
-    "naziv": "Spomen-ploča",
-    "type": "ploca",
-    "drzava": "Serbia"
-  },
-  {
     "id": "banatsko-arandjelovo-spomenik-palim-borcima-u-nob",
     "koordinate": {
       "lat": 46.064482,
@@ -65834,5 +65854,58 @@
     "year": "1962",
     "type": "lokalni",
     "drzava": "Croatia"
+  },
+  {
+    "id": "malo-orasje-kosmajski-partizanski-odred",
+    "koordinate": {
+      "lat": 44.5495128,
+      "lng": 20.7847293
+    },
+    "googleCid": "16572041606938670608",
+    "title": "Malo Orašje",
+    "info": "https://maps.app.goo.gl/Tjm3rhE4AAN7cvHa9",
+    "naziv": "Spomenik palim borcima Kosmajskog partizanskog odreda i Druge šumadijske brigade",
+    "posveta": [
+      "Q11117229"
+    ],
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "vranic-spomen-dom-spomenik-obelisk",
+    "koordinate": {
+      "lat": 44.5947836,
+      "lng": 20.3090608
+    },
+    "googleCid": "1980192352468295943",
+    "title": "Vranić",
+    "slika": "slike/spomenici/vranic-spomen-dom-spomenik-obelisk.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "Gorran at Serbian Wikipedia, Public domain",
+    "naziv": "Spomen-dom u Vraniću",
+    "posveta": [
+      "Q11155508"
+    ],
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "drugovac-spomenik-zrtvama-cetnickog-masakra",
+    "koordinate": {
+      "lat": 44.54524,
+      "lng": 20.8371746
+    },
+    "googleCid": "10429613251320446142",
+    "title": "Drugovac",
+    "info": "https://commons.wikimedia.org/wiki/File:Drugovac,_Spomenik_%C5%BErtvama_%C4%8Detni%C4%8Dkog_masakra,_01.jpg",
+    "slika": "slike/spomenici/drugovac-spomenik-zrtvama-cetnickog-masakra.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "Dungodung, CC BY-SA 3.0",
+    "naziv": "Spomenik žrtvama četničkog masakra",
+    "posveta": [
+      "Q12761203"
+    ],
+    "type": "lokalni",
+    "drzava": "Serbia"
   }
 ]
