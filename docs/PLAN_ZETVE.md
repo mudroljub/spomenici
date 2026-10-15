@@ -55,7 +55,7 @@ Pregled slika: `magick montage -label '%t' <fajlovi> -tile 5x3 -geometry 220x165
 
 ## 5. Zadaci, redom
 
-**Stanje 2026-10-15:** završeni zadaci A, B, C i F su uklonjeni iz plana, a njihova istorija je u `docs/BELESKE.md`. D je u toku: Srbiju obrađuje drugi agent u `docs/FOTOGRAFIJE_SRBIJA.md`. E je delimično urađen. G (Wiki Loves Monuments) je sledeći. Novi kandidat je spomenicinob.info (popis spomenika NOB-a u BiH, bez koordinata), ali tek posle dogovora sa korisnikom. Spomenici bez lokacije se skupljaju u `data/bez_lokacije.json`.
+**Stanje 2026-10-15:** završeni zadaci A, B, C, F i G su uklonjeni iz plana, a njihova istorija je u `docs/BELESKE.md`. D je u toku: Srbiju obrađuje drugi agent u `docs/FOTOGRAFIJE_SRBIJA.md`. E je delimično urađen. Novi kandidat je spomenicinob.info (popis spomenika NOB-a u BiH, bez koordinata), ali tek posle dogovora sa korisnikom. Spomenici bez lokacije se skupljaju u `data/bez_lokacije.json`.
 
 Posle svakog zadatka: `integritet.py` bez novih grešaka, `slike_odnos.py` ako ima novih slika, kratak unos u `docs/BELESKE.md` (šta je urađeno, brojevi, šta je preskočeno i zašto), brisanje stavke iz `## TODO` u `README.md`.
 
@@ -71,17 +71,6 @@ Posle svakog zadatka: `integritet.py` bez novih grešaka, `slike_odnos.py` ako i
 
 - **Cilj:** srušeni i oštećeni spomenici u Hrvatskoj (oko 3.000), sa `stanje` `uklonjen` ili `ostecen`.
 - **Koraci:** prvo pronađi dostupan tekst knjige (izdanje SABA RH 2002; Documenta, scribd, archive.org) i zabeleži izvor. Ako je dostupan, parsiraj spisak po opštinama i mestima. Upari sa postojećim (po mestu), i postojećima samo dopuni `stanje`. Nove dodaj samo kad postoji tačna lokacija (OSM, Commons); ostale ne dodaji na centar sela bez dogovora sa korisnikom.
-
-### G. Wiki Loves Monuments: Srbija i Republika Srpska
-
-- **Zašto:** WLM u Srbiji ne pokriva samo zaštićena dobra nego i seoske spomenike, a sve fotografije su na Commonsu. `Category:Images from Wiki Loves Monuments in Serbia` ima oko 25.900 fajlova (potkategorije po godinama, npr. `… 2024 in Serbia` sa 4.038), a `Category:Images from Wiki Loves Monuments 2021 in the Republika Srpska` pokriva RS. Ranija provera (Srbija, 2026-10-14) gledala je samo spiskove znamenitih mesta i spomenika kulture, ne same fotografije.
-- **Koraci:**
-  1. Za svaku godišnju kategoriju po jedan zbirni upit: `generator=search`, `gsrsearch=deepcat:"Images from Wiki Loves Monuments <godina> in Serbia"` (odnosno RS), `gsrnamespace=6`, `gsrlimit=500`, `prop=coordinates`, uz `gsroffset` dok ima rezultata. Podela po godinama je potrebna jer pretraga ne ide dalje od 10.000 rezultata. Rezultat (naslov, koordinate) sačuvati na disku, da se ne preuzima ponovo.
-  2. Fajlove bez koordinata u fajlu ne nagađati; preskočiti ih.
-  3. **Postojeći bez slike:** fajlovi na manje od 80 m od naših spomenika bez `slika` u Srbiji i BiH. Za kandidate jedan zbirni `imageinfo` sa `extmetadata` (opis, autor, licenca) po 50 fajlova, pa obavezna montaža. Kandidate za Srbiju upisati u `docs/FOTOGRAFIJE_SRBIJA.md` (posebno odeljak „WLM kandidati“) za agenta koji obrađuje Srbiju, a ne upisivati ih sam; BiH upisati preko `commons_dodaj.py` (`postojeci`).
-  4. **Novi spomenici:** fajlovi dalje od 300 m od svih naših spomenika čiji naslov ili opis ima reč spomenik/споменик, NOB/НОБ, palim/палим, borcima/борцима, partizan/партизан, grupisani po 100 m. Posle provere opisa i montaže dodati preko `commons_dodaj.py`, uz pravila obuhvata iz odeljka 2 (bez Prvog svetskog i starijih ratova, bez ratova 1990-ih).
-  5. Unos u `docs/BELESKE.md` i ažuriranje `README.md`.
-- **Procena:** oko 55 zahteva za Srbiju i nekoliko za RS, plus po jedan `imageinfo` na 50 kandidata.
 
 ## 6. Kad je posao gotov
 

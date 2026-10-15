@@ -16,7 +16,11 @@ live-server
 
 Slovenian memorials: [Register nepremične kulturne dediščine](https://podatki.gov.si/dataset/register-nepremicne-kulturne-dediscine), Ministrstvo za kulturo RS, CC BY 4.0.
 
+Fotografija spomenika u Starim Banovcima: Andrija1234567, GFDL 1.2 ili kasnija; [izvor, izmene i licenca](docs/licence/STARI_BANOVCI.md).
+
+Provera fotografija za svih 132 tadašnja zapisa bez slike u Srbiji završena je 2026-10-15: dodata 21 slika, preostalo 111 bez potvrđene upotrebljive slike; [rezultat za svaki zapis](docs/FOTOGRAFIJE_SRBIJA.md).
+
 ## TODO
 
 - spomenicinob.info: popis svih spomenika NOB u BiH po opštinama (naziv, mesto, vrsta, godina, autor, da li postoji; bez koordinata), oko 140 stranica sporog preuzimanja; dogovoriti pre početka
-- Nastaviti ciljanu potragu za slobodnim fotografijama: u Srbiji je ostalo 132 zapisa bez slike (izvori i obrađeni kandidati u `docs/BELESKE.md`).
+- Proveriti pogrešno razvrstane tačke Strezimirovci (dva zapisa u Bugarskoj), nesaglasne koordinate Progara i mogući duplikat na Zlatiboru; [dokazi iz provere fotografija](docs/FOTOGRAFIJE_SRBIJA.md).

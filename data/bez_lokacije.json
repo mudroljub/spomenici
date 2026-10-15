@@ -629,16 +629,18 @@
     "izvor": "https://sh.wikipedia.org/wiki/Djela_Joke_Kne%C5%BEevi%C4%87a_u_biv%C5%A1oj_Vojnoj_bolnici_u_Splitu"
   },
   {
-    "naziv": "Antifašistički spomenik",
+    "naziv": "Spomenik palim borcima NOVJ",
     "mesto": "Trpinja",
     "drzava": "Croatia",
-    "izvor": "hr Wikipedija, Dodatak:Popis antifašističkih spomenika"
+    "izvor": "hr Wikipedija, Dodatak:Popis antifašističkih spomenika",
+    "slika": "Споменик борцима НОБ-а у Трпињи.jpg"
   },
   {
-    "naziv": "Antifašistički spomenik",
-    "mesto": "Blato",
+    "naziv": "Spomenik palim borcima NOVJ",
+    "mesto": "Blato (Korčula)",
     "drzava": "Croatia",
-    "izvor": "hr Wikipedija, Dodatak:Popis antifašističkih spomenika",
+    "izvor": "hr Wikipedija, Dodatak:Popis antifašističkih spomenika u Dubrovačko-neretvanskoj županiji",
+    "slika": "Partizanski spomenik, Blato n.k.07807.JPG",
     "kandidati": [
       {
         "lat": 42.9387614,
@@ -649,46 +651,54 @@
     ]
   },
   {
-    "naziv": "Antifašistički spomenik",
+    "naziv": "Biste Jurice Grbina Grozdea i Antuna Sardelića Bioka",
+    "mesto": "Blato (Korčula)",
+    "drzava": "Croatia",
+    "izvor": "hr Wikipedija, Dodatak:Popis antifašističkih spomenika u Dubrovačko-neretvanskoj županiji",
+    "slika": "Biste partizana. Blato n.K.07884.JPG"
+  },
+  {
+    "naziv": "Spomenik palim borcima NOVJ",
     "mesto": "Ston",
     "drzava": "Croatia",
-    "izvor": "hr Wikipedija, Dodatak:Popis antifašističkih spomenika"
+    "year": "1955",
+    "izvor": "hr Wikipedija, Dodatak:Popis antifašističkih spomenika u Dubrovačko-neretvanskoj županiji",
+    "slika": "Spomenik palim borcima, Ston.008.jpg"
   },
   {
-    "naziv": "Antifašistički spomenik",
-    "mesto": "Kuna",
+    "naziv": "Spomenik palim borcima NOVJ i žrtvama fašizma",
+    "mesto": "Kuna Pelješka",
     "drzava": "Croatia",
-    "izvor": "hr Wikipedija, Dodatak:Popis antifašističkih spomenika"
+    "izvor": "hr Wikipedija, Dodatak:Popis antifašističkih spomenika u Dubrovačko-neretvanskoj županiji",
+    "slika": "Partizanski spomenik žrtvama, Kuna Peliška03076.JPG"
   },
   {
-    "naziv": "Antifašistički spomenik",
-    "mesto": "Županje",
+    "naziv": "Spomenik palim borcima NOVJ i žrtvama fašizma",
+    "mesto": "Županje Selo",
     "drzava": "Croatia",
-    "izvor": "hr Wikipedija, Dodatak:Popis antifašističkih spomenika"
+    "year": "1983",
+    "izvor": "hr Wikipedija, Dodatak:Popis antifašističkih spomenika u Dubrovačko-neretvanskoj županiji",
+    "slika": "Spomenik poginulima iz 2SR, Županje Selo.019.jpg"
   },
   {
-    "naziv": "Antifašistički spomenik",
+    "naziv": "Spomenik palim borcima NOVJ",
     "mesto": "Ilovik",
     "drzava": "Croatia",
-    "izvor": "hr Wikipedija, Dodatak:Popis antifašističkih spomenika"
+    "izvor": "hr Wikipedija, Dodatak:Popis antifašističkih spomenika u Primorsko-goranskoj županiji"
   },
   {
-    "naziv": "Antifašistički spomenik",
+    "naziv": "Bista Vladimira Nazora",
     "mesto": "Postira",
     "drzava": "Croatia",
-    "izvor": "hr Wikipedija, Dodatak:Popis antifašističkih spomenika"
+    "izvor": "hr Wikipedija, Dodatak:Popis antifašističkih spomenika u Splitsko-dalmatinskoj županiji",
+    "slika": "Bista V. Nazora-Postira.6090088.jpg"
   },
   {
-    "naziv": "Antifašistički spomenik",
-    "mesto": "Sreser",
-    "drzava": "Croatia",
-    "izvor": "hr Wikipedija, Dodatak:Popis antifašističkih spomenika"
-  },
-  {
-    "naziv": "Antifašistički spomenik",
+    "naziv": "Bista Slobodana Bajića Paje",
     "mesto": "Šidski Banovci",
     "drzava": "Croatia",
-    "izvor": "hr Wikipedija, Dodatak:Popis antifašističkih spomenika"
+    "izvor": "hr Wikipedija, Dodatak:Popis antifašističkih spomenika",
+    "slika": "Banovci School2.jpg"
   },
   {
     "naziv": "Logor „Svilara”",
@@ -709,39 +719,28 @@
     "izvor": "Списак споменика културе у Нишавском округу (СК 2190)"
   },
   {
-    "naziv": "Spomenik palim borcima NOVJ",
-    "mesto": "Zagreb (Gajevo)",
-    "drzava": "Croatia",
-    "year": "1962",
-    "izvor": "https://sh.wikipedia.org/wiki/Lista_antifa%C5%A1isti%C4%8Dkih_spomenika_u_Zagrebu; https://zagrebacki-kutak.hr/koprivnicka-bb-spomenik-palim-borcima-i-zrtvama-fasizma/",
-    "kandidati": [
-      {
-        "lat": 45.7898573,
-        "lng": 15.9343145,
-        "izvor": "https://www.openstreetmap.org/node/8356166132",
-        "opis": "Neimenovana kamena stela kod Koprivničke ulice; adresa iz opisa traženog spomenika odgovara okolini, a Commons fotografija Spomenik palim borcima-Jarun Zagreb.JPG prikazuje stelu za Gajevo-Jarun-Staglišće. Identitet OSM tačke još nije neposredno potvrđen; ne prebacivati na mapu."
-      }
-    ]
-  },
-  {
     "naziv": "Spomenik palim borcima NOVJ i žrtvama fašizma",
     "mesto": "Zagreb (Trg siječanjskih žrtava)",
     "drzava": "Croatia",
     "year": "1959",
-    "izvor": "https://sh.wikipedia.org/wiki/Lista_antifa%C5%A1isti%C4%8Dkih_spomenika_u_Zagrebu"
+    "izvor": "https://sh.wikipedia.org/wiki/Lista_antifa%C5%A1isti%C4%8Dkih_spomenika_u_Zagrebu",
+    "slika": "Spomenik palim borcima NOB, Kustošija.JPG"
   },
   {
     "naziv": "Spomenik Dragici Končar",
     "mesto": "Zagreb (Knežija)",
     "drzava": "Croatia",
-    "izvor": "https://sh.wikipedia.org/wiki/Lista_antifa%C5%A1isti%C4%8Dkih_spomenika_u_Zagrebu"
+    "author": "Lujo Lozica",
+    "izvor": "https://sh.wikipedia.org/wiki/Lista_antifa%C5%A1isti%C4%8Dkih_spomenika_u_Zagrebu",
+    "slika": "Dragica Koncar-Zagreb.JPG"
   },
   {
     "naziv": "Spomenik Većeslavu Holjevcu",
     "mesto": "Zagreb (Siget)",
     "drzava": "Croatia",
-    "izvor": "https://sh.wikipedia.org/wiki/Lista_antifa%C5%A1isti%C4%8Dkih_spomenika_u_Zagrebu; https://zagrebacki-kutak.hr/siget-veceslav-holjevac/",
     "author": "Ivan Sabolić",
-    "year": "1972"
+    "year": "1972",
+    "izvor": "https://sh.wikipedia.org/wiki/Lista_antifa%C5%A1isti%C4%8Dkih_spomenika_u_Zagrebu; https://zagrebacki-kutak.hr/siget-veceslav-holjevac/",
+    "slika": "Bista Vece Holjevca-Novi Zagreb.JPG"
   }
 ]
