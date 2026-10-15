@@ -21,7 +21,7 @@ Ažurirano 2026-10-14. Ovaj dokument je dovoljan za samostalan rad: šta se radi
 - **title:** samo mesto, latinicom, u obliku „Grad (deo grada)“, npr. „Beograd (Banjica)“. Bez engleskih reči.
 - **naziv:** izvorni naziv. Srbija, Hrvatska, BiH, Crna Gora i Kosovo: sh latinicom (ćirilicu preslovi). Slovenija: slovenački. Makedonija: makedonska ćirilica. `integritet.py` proverava pismo.
 - **name:** engleski, samo kad se razlikuje od naziva.
-- **type:** `istaknut` (samo kad postoji stranica na spomenikdatabase), `spomenik` (umetničko delo poznatog autora ili veći spomenik), `lokalni` (spomen-obeležje, podrazumevano za nove), `kompleks` (spomen-park), `groblje`, `muzej` (i spomen-kuća), `bista`, `ploca`.
+- **type:** `istaknut` (samo kad postoji stranica na spomenikdatabase), `spomenik` (umetničko delo poznatog autora ili veći spomenik), `lokalni` (spomen-obeležje, podrazumevano za nove), `kompleks` (spomen-park), `groblje`, `muzej` (i spomen-kuća), `statua` (cela figura čoveka ili grupa figura), `bista`, `ploca`.
 - **stanje:** samo `rusevine`, `uklonjen`, `ostecen`, `zatvoren`, `srusen`; kad je spomenik očuvan, polje se izostavlja.
 - **drzava:** `Slovenia, Croatia, Bosnia and Herzegovina, Serbia, Montenegro, Macedonia, Kosovo, Italy`.
 - **info:** izvor (OSM link `https://www.openstreetmap.org/node/…`, Commons fajl, registar). **wiki:** domaći članak (redom sh, sr, hr, bs, pa jezik države). **wikiEn:** engleski članak.

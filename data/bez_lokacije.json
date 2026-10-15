@@ -139,19 +139,11 @@
     "slika": "Spomenik-Zubovce 05.JPG"
   },
   {
-    "naziv": "Spomenik palim borcima i žrtvama fašizma",
-    "mesto": "Leunovo",
-    "drzava": "Macedonia",
-    "author": "Tome Serafimovski",
-    "izvor": "sr Wikipedija, Списак споменика НОБ",
-    "slika": "Fusillade Monument in Leunovo (5).jpg"
-  },
-  {
     "naziv": "Spomenik palim borcima",
     "mesto": "Makedonski Brod",
     "drzava": "Macedonia",
     "year": "1981",
-    "izvor": "sr Wikipedija, Списак споменика НОБ",
+    "izvor": "sr Wikipedija, Списак споменика НОБ; https://www.mbrod.gov.mk/80-godini-sloboden-makedonski-brod/",
     "slika": "Spomenik palim borcima NOB, Makedonski Brod.JPG"
   },
   {
@@ -177,46 +169,19 @@
     "slika": "Spomenik pod Rusjaci.JPG"
   },
   {
-    "naziv": "Spomenik palim borcima",
-    "mesto": "Sveti Nikole",
-    "drzava": "Macedonia",
-    "izvor": "sr Wikipedija, Списак споменика НОБ",
-    "slika": "Sveti Nikole 32.JPG"
-  },
-  {
-    "naziv": "Spomenik palim borcima",
-    "mesto": "Skoplje",
-    "drzava": "Macedonia",
-    "izvor": "sr Wikipedija, Списак споменика НОБ",
-    "slika": "Spomenik kameni most.jpg"
-  },
-  {
-    "naziv": "Spomenik Prvoj makedonsko-kosovskoj brigadi",
-    "mesto": "Slivovo",
-    "drzava": "Macedonia",
-    "author": "Jordan Grabuloski",
-    "izvor": "sr Wikipedija, Списак споменика НОБ"
-  },
-  {
-    "naziv": "Bista Metodija Andonov Čento",
-    "mesto": "Skoplje",
-    "drzava": "Macedonia",
-    "izvor": "sr Wikipedija, Списак споменика НОБ",
-    "slika": "Cento monument on Macedonian National holiday Ilinden - 2 Aug 2010.JPG"
-  },
-  {
     "naziv": "Bista Josif Josifovski Sveštarot",
-    "mesto": "Resan",
+    "mesto": "Carev Dvor",
     "drzava": "Macedonia",
-    "izvor": "https://sr.wikipedia.org/wiki/%D0%88%D0%BE%D1%81%D0%B8%D1%84%20%D0%88%D0%BE%D1%81%D0%B8%D1%84%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%20%D0%A1%D0%B2%D0%B5%D1%88%D1%82%D0%B0%D1%80%D0%BE%D1%82",
-    "slika": "Josif Josifovski Sveshtarot.JPG"
-  },
-  {
-    "naziv": "Bista Vera Jocić",
-    "mesto": "Makedonska Kamenica",
-    "drzava": "Macedonia",
-    "izvor": "https://sr.wikipedia.org/wiki/%D0%92%D0%B5%D1%80%D0%B0%20%D0%88%D0%BE%D1%86%D0%B8%D1%9B",
-    "slika": "Vera-Jocic-statue.JPG"
+    "izvor": "https://prespa.mk/monuments/index.html",
+    "slika": "Josif Josifovski Sveshtarot.JPG",
+    "kandidati": [
+      {
+        "lat": 41.0425154,
+        "lng": 21.0068214,
+        "izvor": "https://www.openstreetmap.org/node/9907558764",
+        "opis": "Jedina OSM bista u proverenom obuhvatu Carevog Dvora; nema ime ni fotografiju. Lokalni registar Prespe potvrđuje bistu Josifa Josifovskog u Carevom Dvoru, sa istom fotografijom kao radni spisak. Identitet ove konkretne OSM tačke još nije nezavisno potvrđen; ne prebacivati na mapu samo po mestu i vrsti."
+      }
+    ]
   },
   {
     "naziv": "Partizanska bolnica „Pavla",

@@ -4,7 +4,7 @@ d = json.load(open('data/spomeniks.json', encoding='utf8'))
 ture = json.load(open('data/ture.json', encoding='utf8'))
 autori = json.load(open('data/autori.json', encoding='utf8'))
 greske = collections.defaultdict(list)
-TIPOVI = {'istaknut', 'kompleks', 'spomenik', 'bista', 'lokalni', 'ploca', 'groblje', 'muzej'}
+TIPOVI = {'istaknut', 'kompleks', 'spomenik', 'statua', 'bista', 'lokalni', 'ploca', 'groblje', 'muzej'}
 STANJA = {'rusevine', 'srusen', 'uklonjen', 'ostecen', 'zatvoren'}
 DRZAVE = {'Slovenia', 'Croatia', 'Bosnia and Herzegovina', 'Serbia', 'Montenegro', 'Macedonia', 'Kosovo', 'Italy'}
 POZNATA = {'id', 'koordinate', 'googleCid', 'title', 'info', 'wiki', 'wikiEn', 'slika', 'slikaOdnos', 'slikaAutor', 'naziv', 'name', 'author', 'year', 'type', 'drzava', 'stanje'}
