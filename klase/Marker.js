@@ -44,7 +44,9 @@ export default class Marker {
       oznaka === 'posetio' && 'posecen',
       oznaka === 'lista' && 'na-listi',
     ].filter(Boolean).join(' ')
-    this.element.setIcon(dajIkonicu(this.izgled, razmera, klasa))
+    const ikonica = dajIkonicu(this.izgled, razmera, klasa)
+    // nova ikonica pravi novu sliku u DOM-u, pa samo kad se promeni
+    if (ikonica !== this.element.options.icon) this.element.setIcon(ikonica)
   }
 
   dajPoziciju() {

@@ -1,5 +1,5 @@
 import {mapa} from '../klase/mapa.js'
-import {naziviStanja, nazivSpomenika} from '../utils/helpers.js'
+import {naziviStanja, nazivSpomenika, malaSlika} from '../utils/helpers.js'
 import {t, jezik} from '../utils/jezik.js'
 import {dajRutu, dajNaziv, postaviRutu, izaberiTuru, ukloniIzRute, pomeri, promeneRute} from '../utils/ruta.js'
 
@@ -457,7 +457,7 @@ export default class Ruta extends HTMLElement {
     // fotografija koju ranije ture nisu uzele, da se ture razlikuju na prvi pogled
     const slika = (clanovi.find(s => s.slika && !iskorisceneSlike.has(s.slika)) ?? clanovi.find(s => s.slika))?.slika
     iskorisceneSlike.add(slika)
-    if (slika) red.querySelector('.tura').prepend(Object.assign(new Image(), {src: slika, alt: '', loading: 'lazy'}))
+    if (slika) red.querySelector('.tura').prepend(Object.assign(new Image(), {src: malaSlika(slika), alt: '', loading: 'lazy'}))
     red.querySelector('.ime').textContent = prevedi(naziv)
     red.querySelector('.opis').textContent = `${t('stanice', mesta.length)}: ${mesta.join(', ')}`
     red.querySelector('button').addEventListener('click', () => {

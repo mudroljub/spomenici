@@ -46,14 +46,19 @@ const najmanjiZum = marker => marker.vazan ? 0 : marker.sitan ? zumSitnih : zumO
 const vidljiv = marker => suzeno || mapa.getZoom() >= najmanjiZum(marker) || marker === izabran
   || Boolean(dajOznaku(marker.spomen.id))
 
+// crtaju se samo obelisci na ekranu, sa pola ekrana rezerve za pomeranje, jer hiljade slika gusi slab telefon
 // izdaleka su obelisci manji, da se manje preklapaju; ikonica pokazuje i oznake
-const osvezi = () => markeri.forEach(marker => {
-  if (!vidljiv(marker)) return sloj.removeLayer(marker.element)
-  sloj.addLayer(marker.element)
-  marker.osvezi(mapa.getZoom(), izabran)
-})
+const osvezi = () => {
+  const granice = mapa.getBounds().pad(0.5)
+  markeri.forEach(marker => {
+    if (!vidljiv(marker) || !granice.contains(marker.dajPoziciju())) return sloj.removeLayer(marker.element)
+    marker.osvezi(mapa.getZoom(), izabran)
+    sloj.addLayer(marker.element)
+  })
+}
 
-mapa.on('zoomend', osvezi)
+// moveend stize i posle zuma
+mapa.on('moveend', osvezi)
 promene.addEventListener('promena', osvezi)
 
 mapa.on('izbor', ({marker}) => {
@@ -61,10 +66,12 @@ mapa.on('izbor', ({marker}) => {
   osvezi()
 })
 
+// uklanjaju se samo oni kojih vise nema, da se zajednicki ne crtaju iznova
 export const postaviMarkere = (noviMarkeri, jeSuzeno) => {
+  const ostaju = new Set(noviMarkeri)
+  markeri.forEach(marker => ostaju.has(marker) || sloj.removeLayer(marker.element))
   markeri = noviMarkeri
   suzeno = jeSuzeno
-  sloj.clearLayers()
   osvezi()
 }
 

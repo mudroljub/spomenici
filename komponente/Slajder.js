@@ -65,6 +65,7 @@ style.textContent = `
   div img {
     display: block;
     height: calc(var(--visina-slajdera) - 24px);
+    width: auto;
     cursor: pointer;
   }
 

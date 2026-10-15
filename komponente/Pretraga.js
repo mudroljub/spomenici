@@ -88,6 +88,7 @@ export default class Pretraga extends HTMLElement {
   constructor(stavke, callback) {
     super()
     this.stavke = stavke
+    this.tekstovi = new Map(stavke.map(stavka => [stavka, praviTekst(stavka.spomenik)])) // jezik se menja uz ponovno ucitavanje
     this.callback = callback
     this.filtrirano = stavke
 
@@ -121,7 +122,7 @@ export default class Pretraga extends HTMLElement {
 
   pretrazi() {
     const fraza = normalizuj(this.polje.value)
-    const pronadjeno = this.stavke.filter(({spomenik}) => praviTekst(spomenik).includes(fraza))
+    const pronadjeno = this.stavke.filter(stavka => this.tekstovi.get(stavka).includes(fraza))
     this.filteri.postaviOsnovu(pronadjeno)
     this.filtrirano = pronadjeno.filter(({spomenik}) => this.filteri.odgovara(spomenik))
     this.osveziPrikaz()

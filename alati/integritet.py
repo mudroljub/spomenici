@@ -28,6 +28,8 @@ for s in d:
         if isinstance(v, str) and (not v.strip() or v != v.strip()): greske['prazno ili razmak'].append((i, polje, v))
     if s.get('slika'):
         if s['slika'].startswith('slike/') and not os.path.exists(s['slika']): greske['nema slike'].append((i, s['slika']))
+        mala = s['slika'].replace('slike/spomenici/', 'slike/male/')
+        if mala != s['slika'] and not os.path.exists(mala): greske['nema male slike (pokreni male_slike.py)'].append((i, mala))
     if s.get('slikaAutor') and not s.get('slika'): greske['autor bez slike'].append(i)
     if bool(s.get('slika')) != bool(s.get('slikaOdnos')): greske['slika bez odnosa (pokreni slike_odnos.py)'].append(i)
     for polje in ('info', 'wiki', 'wikiEn'):

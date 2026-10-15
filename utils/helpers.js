@@ -21,6 +21,9 @@ export const nazivSpomenika = ({naziv, name}) => jezik === 'en'
   ? bezLinkova(name) || naziv || ''
   : naziv || bezLinkova(name)
 
+// umanjena slika (alati/male_slike.py) za trake i spiskove, gde je velika suvisna
+export const malaSlika = putanja => putanja.replace('slike/spomenici/', 'slike/male/')
+
 // vise autora jednog spomenika upisano je kao „Ime & Ime“
 export const autoriSpomenika = ({author}) => author ? author.split(' & ') : []
 

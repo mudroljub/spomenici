@@ -24,7 +24,7 @@ Ažurirano 2026-10-15. Ovaj dokument je dovoljan za samostalan rad: šta se radi
 - **stanje:** samo `rusevine`, `uklonjen`, `ostecen`, `zatvoren`, `srusen`; kad je spomenik očuvan, polje se izostavlja.
 - **drzava:** `Slovenia, Croatia, Bosnia and Herzegovina, Serbia, Montenegro, Macedonia, Kosovo, Italy`.
 - **info:** izvor (OSM link `https://www.openstreetmap.org/node/…`, Commons fajl, registar). **wiki:** domaći članak (redom sh, sr, hr, bs, pa jezik države). **wikiEn:** engleski članak.
-- **slika:** 400 px širine, webp kvaliteta 75 (`magick - -resize 400x -quality 75 out.webp`). **slikaAutor:** „Autor, licenca“. **slikaOdnos:** posle svake nove slike pokreni `slike_odnos.py`.
+- **slika:** 400 px širine, webp kvaliteta 75 (`magick - -resize 400x -quality 75 out.webp`). **slikaAutor:** „Autor, licenca“. **slikaOdnos:** posle svake nove slike pokreni `slike_odnos.py`, pa `bez_metapodataka.py --upisi` (izbacuje EXIF i XMP bez gubitka kvaliteta), a zatim `male_slike.py`, koji pravi umanjenu sliku za traku na dnu.
 - **author:** više autora se spaja sa „ & “. Park dobija autora samo ako su sva dela u njemu jednog autora.
 - **posveta:** spisak Wikidata stavki (ličnost, jedinica, događaj) kojima je spomenik posvećen, npr. `["Q9161"]`; svaka mora postojati u `data/posvete.json` (`naziv`, `name`, `wiki`, `wikiEn`). Opšte posvete („palim borcima“, „žrtvama fašizma“, Drugi svetski rat, NOVJ) se ne upisuju.
 - **Obuhvat:** samo spomenici NOB-a i Drugog svetskog rata iz jugoslovenske perspektive. **Ne dodaju se:** Prvi svetski i stariji ratovi, ratovi 1991–1999 (branitelji, VRS, ARBiH, HVO, šehidi, „otadžbinski rat“), četnici i domobranci, „žrtve komunizma“ i posleratnih pokolja (Bleiburg, Križni put, „zamolčane žrtve“), NATO bombardovanje, Holokaust-obeležja postavljena posle 1990, partizanske bolnice, tehnike, staze, domovi i bunkeri bez spomenika, ulice i obeležja van Jugoslavije.
@@ -44,6 +44,8 @@ Ažurirano 2026-10-15. Ovaj dokument je dovoljan za samostalan rad: šta se radi
 |---|---|
 | `alati/integritet.py` | Provera celog fajla (polja, pismo, slike, duplikati na manje od 30 m). Pokreni posle svake izmene; 17 parova „manje od 30 m“ su namerni (park i spomenik u njemu, odnosno grobnica i ploča na Senjaku). |
 | `alati/slike_odnos.py` | Upisuje `slikaOdnos` svim slikama. Pokreni posle dodavanja slika. |
+| `alati/bez_metapodataka.py [--upisi]` | Izbacuje EXIF i XMP iz velikih slika, bez ponovnog sažimanja; ICC i EXIF koji okreće sliku ostaju. Pokreni posle dodavanja slika, pre `male_slike.py`. |
+| `alati/male_slike.py` | Pravi `slike/male/<id>.webp` (visina 116 px, bez metapodataka) za nove ili izmenjene slike i briše male bez velike. Pokreni posle dodavanja slika. |
 | `alati/commons_dodaj.py <spisak.json> <fajlovi.json>` | Dodaje spomenike ili slike sa Commons-a: preuzima sliku, pravi webp, potpis i naslov iz najbližeg naselja. Spisak: `[{fajl,id,naziv,name,type,drzava,[title]}]` ili `[{fajl,postojeci}]`; `fajlovi.json`: `{fajl: {"k": [lat,lng]}}`. |
 | `$A/osm_dodaj.py <alati> <osm_kand.json> [--upisi]` | Primer filtera za NOB (`JEZGRO`, `NE`, `RUCNO`), naslova „Grad (deo)“ i vrste po imenu. Bez `--upisi` samo ispisuje. |
 | `alati/upisi_cid.py`, `alati/dodaj_google.py <vrsta> <link> <naziv> …`, `alati/proveri.py` | Rad sa Google linkovima koje šalje korisnik. |
@@ -57,7 +59,7 @@ Pregled slika: `magick montage -label '%t' <fajlovi> -tile 5x3 -geometry 220x165
 
 **Stanje 2026-10-15:** završeni zadaci A, B, C, D, E, F i G su uklonjeni iz plana, a njihova istorija je u `docs/BELESKE.md`. U završnoj proveri Srbije u okviru zadatka D obrađena su sva 132 tadašnja zapisa bez slike: dodata je 21 fotografija, a 111 zapisa ostaje bez odgovarajuće potvrđene slike za dodavanje. [Rezultat za svaki zapis](FOTOGRAFIJE_SRBIJA.md) sadrži izvore i razloge; ovaj prolaz pretrage je završen. Otvorene provere države, koordinata i mogućeg duplikata vode se zasebno u `README.md`, odeljak TODO. Kod zadatka E obrađeno je sve što dostupni izvori potvrđuju; preostale hrvatske stavke čekaju nov izvor. Popis sa spomenicinob.info (spomenici NOB-a u BiH, bez koordinata) je preuzet i upisan u `data/bez_lokacije.json`. Spomenici bez lokacije se skupljaju u `data/bez_lokacije.json`.
 
-Posle svakog zadatka: `integritet.py` bez novih grešaka, `slike_odnos.py` ako ima novih slika, kratak unos u `docs/BELESKE.md` (šta je urađeno, brojevi, šta je preskočeno i zašto), brisanje stavke iz `## TODO` u `README.md`.
+Posle svakog zadatka: `integritet.py` bez novih grešaka, `slike_odnos.py`, `bez_metapodataka.py --upisi` i `male_slike.py` ako ima novih slika, kratak unos u `docs/BELESKE.md` (šta je urađeno, brojevi, šta je preskočeno i zašto), brisanje stavke iz `## TODO` u `README.md`.
 
 ## 6. Kad je posao gotov
 
