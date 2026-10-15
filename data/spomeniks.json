@@ -5895,10 +5895,13 @@
     "wiki": "https://sh.wikipedia.org/wiki/Spomenik_Prijepoljskoj_bici",
     "slika": "slike/spomenici/prijepolje.webp",
     "slikaOdnos": 1.266,
-    "naziv": "Spomenik 4. decembar",
-    "name": "Monument to Fallen Fighters",
+    "naziv": "Spomenik Prijepoljskoj bici",
+    "name": "Monument to the Battle of Prijepolje",
     "year": "1953",
     "author": "Lojze Dolinar",
+    "posveta": [
+      "Q127172450"
+    ],
     "type": "statua",
     "drzava": "Serbia"
   },

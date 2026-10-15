@@ -150,7 +150,7 @@ const stavka = (slika, sirina, visina, naziv, stil = '') => `
 
 // istaknuti i obican spomenik razlikuju se samo velicinom znaka, a bista je malo manja od spomenika, kao na mapi;
 // muzej i ploca su siroki, pa bi na visini ostalih znakova izgledali preveliki
-const visineIkona = {istaknut: 44, statua: 29, bista: 28, lokalni: 24, groblje: 29, muzej: 26, ploca: 17}
+const visineIkona = {istaknut: 44, statua: 33, bista: 28, lokalni: 24, groblje: 29, muzej: 26, ploca: 17}
 
 const vrsta = type => {
   const {slika, sirina, visina} = izgledMarkera({type})
