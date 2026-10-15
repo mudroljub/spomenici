@@ -1375,5 +1375,75 @@
     "naziv": "Predaja zarobljenih partizana Nijemcima novembra 1941.",
     "name": "Handover of captured Partisans to the Germans, November 1941",
     "wiki": "https://sh.wikipedia.org/wiki/Predaja_zarobljenih_partizana_Nijemcima_novembra_1941."
+  },
+  "Q701910": {
+    "naziv": "Koncentracijski logor Sajmište",
+    "name": "Semlin concentration camp",
+    "wiki": "https://sh.wikipedia.org/wiki/Koncentracijski_logor_Sajmi%C5%A1te",
+    "wikiEn": "https://en.wikipedia.org/wiki/Sajmi%C5%A1te_concentration_camp"
+  },
+  "Q698270": {
+    "naziv": "Koncentracijski logor Banjica",
+    "name": "Banjica concentration camp",
+    "wiki": "https://sh.wikipedia.org/wiki/Koncentracijski_logor_Banjica",
+    "wikiEn": "https://en.wikipedia.org/wiki/Banjica_concentration_camp"
+  },
+  "Q1561988": {
+    "naziv": "Strelište u Jajincima",
+    "name": "Jajinci execution site",
+    "wiki": "https://sh.wikipedia.org/wiki/Streli%C5%A1te_u_Jajincima"
+  },
+  "Q1560920": {
+    "naziv": "Topovske šupe",
+    "name": "Topovske Šupe concentration camp",
+    "wiki": "https://sh.wikipedia.org/wiki/Topovske_%C5%A1upe",
+    "wikiEn": "https://en.wikipedia.org/wiki/Topovske_%C5%A0upe_concentration_camp"
+  },
+  "Q1561708": {
+    "naziv": "Koncentracijski logor Stara Gradiška",
+    "name": "Stara Gradiška concentration camp",
+    "wiki": "https://sh.wikipedia.org/wiki/Koncentracijski_logor_Stara_Gradi%C5%A1ka",
+    "wikiEn": "https://en.wikipedia.org/wiki/Stara_Gradi%C5%A1ka_concentration_camp"
+  },
+  "Q698250": {
+    "naziv": "Koncentracijski logor Crveni krst",
+    "name": "Crveni Krst concentration camp",
+    "wiki": "https://sh.wikipedia.org/wiki/Koncentracijski_logor_Crveni_krst",
+    "wikiEn": "https://en.wikipedia.org/wiki/Crveni_Krst_concentration_camp"
+  },
+  "Q1562273": {
+    "naziv": "Koncentracijski logor Lepoglava",
+    "name": "Lepoglava concentration camp",
+    "wiki": "https://sh.wikipedia.org/wiki/Koncentracijski_logor_Lepoglava",
+    "wikiEn": "https://en.wikipedia.org/wiki/Lepoglava_concentration_camp"
+  },
+  "Q1290410": {
+    "naziv": "Masakri u Glini",
+    "name": "Glina massacres",
+    "wiki": "https://sh.wikipedia.org/wiki/Masakri_u_Glini",
+    "wikiEn": "https://en.wikipedia.org/wiki/Glina_massacres"
+  },
+  "Q27016263": {
+    "naziv": "Masakr u Skeli",
+    "name": "Massacre in Skela",
+    "wiki": "https://sh.wikipedia.org/wiki/Masakr_u_Skeli"
+  },
+  "Q12958349": {
+    "naziv": "Masakr u Kraljevu",
+    "name": "Kraljevo massacre",
+    "wiki": "https://sh.wikipedia.org/wiki/Masakr_u_Kraljevu",
+    "wikiEn": "https://en.wikipedia.org/wiki/Kraljevo_massacre"
+  },
+  "Q112968013": {
+    "naziv": "Masakr u Pivskoj župi",
+    "name": "Doli Pivski massacre",
+    "wiki": "https://sh.wikipedia.org/wiki/Masakr_u_Pivskoj_%C5%BEupi",
+    "wikiEn": "https://en.wikipedia.org/wiki/Doli_Pivski_massacre"
+  },
+  "Q7919085": {
+    "naziv": "Masakr u Blagaju",
+    "name": "Blagaj massacre",
+    "wiki": "https://sh.wikipedia.org/wiki/Masakr_u_Blagaju",
+    "wikiEn": "https://en.wikipedia.org/wiki/Blagaj_massacre"
   }
 }

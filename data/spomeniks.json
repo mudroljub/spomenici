@@ -1282,6 +1282,9 @@
     "name": "Memorial Park \"14th of October\"",
     "year": "1970",
     "author": "Spasoje Krunić & Dragutin Kovačević",
+    "posveta": [
+      "Q12958349"
+    ],
     "type": "kompleks",
     "drzava": "Serbia"
   },
@@ -1488,6 +1491,9 @@
     "name": "Monument to the Victims of Fascism",
     "year": "1988",
     "author": "Vojin Stojić",
+    "posveta": [
+      "Q1561988"
+    ],
     "type": "istaknut",
     "drzava": "Serbia"
   },
@@ -1505,6 +1511,9 @@
     "slikaAutor": "Snežana Negovanović, CC BY-SA 3.0",
     "naziv": "Spomen-park Jajinci",
     "name": "Jajinci Memorial Park",
+    "posveta": [
+      "Q1561988"
+    ],
     "type": "kompleks",
     "drzava": "Serbia"
   },
@@ -2098,6 +2107,9 @@
     "name": "Lepoglava Memorial Graveyard",
     "year": "1981",
     "author": "Stevan Luketić",
+    "posveta": [
+      "Q1562273"
+    ],
     "type": "groblje",
     "drzava": "Croatia"
   },
@@ -3165,6 +3177,9 @@
     "name": "Monument to Sajmište Concentration Camp",
     "year": "1995",
     "author": "Miodrag Popović",
+    "posveta": [
+      "Q701910"
+    ],
     "type": "spomenik",
     "drzava": "Serbia"
   },
@@ -3275,6 +3290,9 @@
     "naziv": "Spomen-kompleks Dola",
     "name": "Dola Memorial Complex",
     "year": "1977",
+    "posveta": [
+      "Q112968013"
+    ],
     "type": "kompleks",
     "drzava": "Montenegro"
   },
@@ -4735,6 +4753,9 @@
     "name": "Monument to <a href=\"https://en.wikipedia.org/wiki/Jadovno_concentration_camp\" target=\"_blank\">Jadovno Concentration Camp</a>",
     "year": "1955",
     "author": "Vanja Radauš",
+    "posveta": [
+      "Q1284521"
+    ],
     "stanje": "uklonjen",
     "type": "spomenik",
     "drzava": "Croatia"
@@ -5349,6 +5370,9 @@
     "slika": "slike/spomenici/red-cross-camp-museum.webp",
     "slikaOdnos": 1.498,
     "naziv": "Logor Crveni krst",
+    "posveta": [
+      "Q698250"
+    ],
     "type": "muzej",
     "drzava": "Serbia"
   },
@@ -7257,6 +7281,9 @@
     "slika": "slike/spomenici/banjica-concen-camp-museum.webp",
     "slikaOdnos": 1.6,
     "naziv": "Muzej Banjičkog logora",
+    "posveta": [
+      "Q698270"
+    ],
     "type": "muzej",
     "drzava": "Serbia"
   },
@@ -10605,6 +10632,9 @@
     "naziv": "Spomenik žrtvama pokolja u Glini 1941.",
     "name": "Monument to 1941 Glina Massacres",
     "year": "1969",
+    "posveta": [
+      "Q1290410"
+    ],
     "type": "statua",
     "drzava": "Croatia"
   },
@@ -13653,6 +13683,9 @@
     "naziv": "Spomenik streljanim taocima",
     "year": "1951",
     "author": "Boža Obradović",
+    "posveta": [
+      "Q27016263"
+    ],
     "type": "spomenik",
     "drzava": "Serbia"
   },
@@ -27446,6 +27479,9 @@
     "slikaAutor": "Andrija12345678, CC BY-SA 4.0",
     "naziv": "Spomen-park Topovske šupe",
     "name": "Memorial Park",
+    "posveta": [
+      "Q1560920"
+    ],
     "type": "kompleks",
     "drzava": "Serbia"
   },
@@ -55799,6 +55835,9 @@
     "title": "Stara Gradiška",
     "info": "https://www.openstreetmap.org/node/11982824048",
     "naziv": "Spomenik žrtvama logora i kosturnica u Staroj Gradiški",
+    "posveta": [
+      "Q1561708"
+    ],
     "type": "lokalni",
     "drzava": "Bosnia and Herzegovina"
   },
@@ -59035,6 +59074,9 @@
     "slikaOdnos": 0.563,
     "slikaAutor": "Ljiljana Sundać, CC BY-SA 4.0",
     "naziv": "Spomen-ploča žrtvama logora Sajmište",
+    "posveta": [
+      "Q701910"
+    ],
     "type": "ploca",
     "drzava": "Serbia"
   },
@@ -66430,5 +66472,24 @@
     "year": "1951",
     "type": "ploca",
     "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "veljun-spomen-kosturnica",
+    "koordinate": {
+      "lat": 45.2509501,
+      "lng": 15.553494
+    },
+    "title": "Veljun",
+    "info": "https://commons.wikimedia.org/wiki/File%3AVeljun%2C_Antifa%C5%A1isti%C4%8Dki_spomenik.jpg",
+    "slika": "slike/spomenici/veljun-spomen-kosturnica.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "Szajci, CC BY-SA 4.0",
+    "naziv": "Spomen-kosturnica boraca i žrtava fašističkog terora",
+    "name": "Ossuary of Fighters and Victims of Fascist Terror",
+    "posveta": [
+      "Q7919085"
+    ],
+    "type": "groblje",
+    "drzava": "Croatia"
   }
 ]
