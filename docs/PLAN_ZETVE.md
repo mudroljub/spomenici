@@ -42,7 +42,7 @@ Ažurirano 2026-10-14. Ovaj dokument je dovoljan za samostalan rad: šta se radi
 
 | Alat | Namena |
 |---|---|
-| `alati/integritet.py` | Provera celog fajla (polja, pismo, slike, duplikati na manje od 30 m). Pokreni posle svake izmene; 16 parova „manje od 30 m“ su namerni (park i spomenik u njemu). |
+| `alati/integritet.py` | Provera celog fajla (polja, pismo, slike, duplikati na manje od 30 m). Pokreni posle svake izmene; 17 parova „manje od 30 m“ su namerni (park i spomenik u njemu, odnosno grobnica i ploča na Senjaku). |
 | `alati/slike_odnos.py` | Upisuje `slikaOdnos` svim slikama. Pokreni posle dodavanja slika. |
 | `alati/commons_dodaj.py <spisak.json> <fajlovi.json>` | Dodaje spomenike ili slike sa Commons-a: preuzima sliku, pravi webp, potpis i naslov iz najbližeg naselja. Spisak: `[{fajl,id,naziv,name,type,drzava,[title]}]` ili `[{fajl,postojeci}]`; `fajlovi.json`: `{fajl: {"k": [lat,lng]}}`. |
 | `$A/osm_dodaj.py <alati> <osm_kand.json> [--upisi]` | Primer filtera za NOB (`JEZGRO`, `NE`, `RUCNO`), naslova „Grad (deo)“ i vrste po imenu. Bez `--upisi` samo ispisuje. |
@@ -98,6 +98,8 @@ Posle svakog zadatka: `integritet.py` bez novih grešaka, `slike_odnos.py` ako i
 - **Procena:** oko 270 zahteva.
 
 ### E. Hrženjak, „Rušenje antifašističkih spomenika u Hrvatskoj 1990–2000“
+
+**Dopuna 2026-10-15:** pronađen je dostupan [indeks srušenih, oštećenih i uklonjenih spomenika](https://plusportal.hr/media/images/old_sb/Files/180319164051354/popis%20uklonjenih%20bisti%20i%20spomenika%20iz%20NOB-a.pdf) (63 PDF strane, autori indeksa Zrnka Novak i Relja Bosanac, 2.120 evidentiranih spomenika). Pun tekst knjige i bibliografska veza još nisu potvrđeni. Tema više nije bez dostupnog spiska: prvo ciljano proveriti postojeće hrvatske stavke iz `data/bez_lokacije.json`; opis i staro stanje čuvati uz izvor, a unos na mapu zahteva potvrđenu lokaciju. Ne prepisivati istorijsko stanje preko današnjeg bez novije potvrde. Svih 37 tadašnjih hrvatskih stavki ciljano je pregledano 2026-10-15: dodati su Peroj i grobnica na Senjaku, uklonjen duplikat Anke Butorac, ostale su 34 hrvatske stavke bez tačke. Detalji su u `docs/BELESKE.md`, odeljak „Provera hrvatskih stavki u indeksu“; preostale lokacije i širi popis nisu završeni.
 
 - **Cilj:** srušeni i oštećeni spomenici u Hrvatskoj (oko 3.000), sa `stanje` `uklonjen` ili `ostecen`.
 - **Koraci:** prvo pronađi dostupan tekst knjige (izdanje SABA RH 2002; Documenta, scribd, archive.org) i zabeleži izvor. Ako je dostupan, parsiraj spisak po opštinama i mestima. Upari sa postojećim (po mestu), i postojećima samo dopuni `stanje`. Nove dodaj samo kad postoji tačna lokacija (OSM, Commons); ostale ne dodaji na centar sela bez dogovora sa korisnikom.

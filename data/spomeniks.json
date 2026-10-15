@@ -963,6 +963,9 @@
     },
     "title": "Zagreb (Dotrščina)",
     "wiki": "https://sh.wikipedia.org/wiki/Spomen-park_Dotr%C5%A1%C4%8Dina",
+    "slika": "slike/spomenici/zagreb-spomen-park-dotrscina.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "Plamen at Serbian Wikipedia, Public domain",
     "naziv": "Spomen-park Dotrščina",
     "name": "Dotrščina Memorial Park",
     "type": "kompleks",
@@ -1156,6 +1159,9 @@
     },
     "title": "Bela Crkva (Mačva)",
     "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D1%87%D0%BA%D0%B8_%D0%BA%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%81_%D0%91%D0%B5%D0%BB%D0%B0_%D0%A6%D1%80%D0%BA%D0%B2%D0%B0",
+    "slika": "slike/spomenici/bela-crkva-spomenicki-kompleks.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "The original uploader was Dare.987 at Serbian Wikipedia., CC BY 3.0 rs",
     "naziv": "Spomenički kompleks Bela Crkva",
     "name": "Bela Crkva Memorial Complex",
     "type": "kompleks",
@@ -1407,6 +1413,9 @@
     "title": "Jajinci",
     "info": "https://www.openstreetmap.org/way/482462319",
     "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D0%BF%D0%B0%D1%80%D0%BA_%D0%88%D0%B0%D1%98%D0%B8%D0%BD%D1%86%D0%B8",
+    "slika": "slike/spomenici/jajinci-spomen-park.webp",
+    "slikaOdnos": 1.493,
+    "slikaAutor": "Snežana Negovanović, CC BY-SA 3.0",
     "naziv": "Spomen-park Jajinci",
     "name": "Jajinci Memorial Park",
     "type": "kompleks",
@@ -4085,7 +4094,7 @@
     "naziv": "Spomenik revoluciji",
     "name": "Monument to the Revolution",
     "year": "1972",
-    "author": "Ante Gržetić",
+    "author": "Ante Gržetić & Dragoljub Momčilović",
     "stanje": "srusen",
     "type": "spomenik",
     "drzava": "Kosovo"
@@ -5855,6 +5864,9 @@
     },
     "title": "Koprivnica",
     "wiki": "https://hr.wikipedia.org/wiki/Sabirni_logor_Danica",
+    "slika": "slike/spomenici/koprivnica-spomen-podrucje-danica.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "Flammard, CC BY-SA 4.0",
     "naziv": "Spomen-područje Danica",
     "name": "Danica Concentration Camp Memorial Area",
     "type": "kompleks",
@@ -6066,6 +6078,9 @@
     "title": "Bjelovar",
     "info": "https://www.openstreetmap.org/way/1053952255",
     "wiki": "https://sh.wikipedia.org/wiki/Spomen-park_Borik",
+    "slika": "slike/spomenici/bjelovar-spomen-park-borik.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "Plamen at Serbian Wikipedia, Public domain",
     "naziv": "Spomen-park Borik",
     "name": "Borik Memorial Park",
     "type": "kompleks",
@@ -20175,6 +20190,9 @@
     },
     "googleCid": "12846484045655914854",
     "title": "Dravograd",
+    "slika": "slike/spomenici/dravograd.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "dominkod, CC BY 3.0",
     "naziv": "Spomenik NOB",
     "type": "lokalni",
     "drzava": "Slovenia"
@@ -26080,6 +26098,9 @@
     },
     "title": "Beograd (Savamala)",
     "info": "https://www.openstreetmap.org/node/8379658062",
+    "slika": "slike/spomenici/beograd-kidric.webp",
+    "slikaOdnos": 0.562,
+    "slikaAutor": "Ivan VA, CC BY-SA 4.0",
     "naziv": "Spomenik Borisu Kidriču",
     "name": "Statue of Boris Kidrič",
     "year": "1963",
@@ -27079,6 +27100,9 @@
     },
     "title": "Drežnica",
     "info": "https://www.openstreetmap.org/node/12369128512",
+    "slika": "slike/spomenici/dreznica-padlim-borcem-gradnikove-brigade-krnska-s.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "Bojan Marušič, CC BY-SA 4.0",
     "naziv": "Padlim borcem Gradnikove brigade, Krnska Škrbina",
     "name": "Memorial Plaque to a Partisan Brigade",
     "type": "ploca",
@@ -27092,6 +27116,9 @@
     },
     "title": "Volarje",
     "info": "https://www.openstreetmap.org/node/13061692747",
+    "slika": "slike/spomenici/volarje-boju-gregorciceve-brigade.webp",
+    "slikaOdnos": 1.504,
+    "slikaAutor": "Bojan Marušič, CC BY-SA 4.0",
     "naziv": "Boju Gregorčičeve brigade",
     "name": "Monument to a Partisan Brigade",
     "type": "spomenik",
@@ -27105,6 +27132,9 @@
     },
     "title": "Beograd",
     "info": "https://www.openstreetmap.org/node/1801457255",
+    "slika": "slike/spomenici/beograd-spomenik-internacionalnim-brigadama.webp",
+    "slikaOdnos": 0.563,
+    "slikaAutor": "Ljiljana Sundać, CC BY-SA 4.0",
     "naziv": "Spomenik Internacionalnim brigadama",
     "name": "Monument to the International Brigades",
     "type": "spomenik",
@@ -53314,6 +53344,9 @@
     },
     "title": "Škrbina",
     "info": "https://eid.gov.si/S/28233",
+    "slika": "slike/spomenici/skrbina-spominsko-znamenje-talcem.webp",
+    "slikaOdnos": 1.498,
+    "slikaAutor": "Bojan Marušič, CC BY-SA 4.0",
     "naziv": "Spominsko znamenje talcem",
     "year": "1952",
     "type": "lokalni",
@@ -55723,6 +55756,9 @@
     },
     "title": "Kučište",
     "info": "https://www.openstreetmap.org/node/12909365751",
+    "slika": "slike/spomenici/kuciste-palim-borcima.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "Quahadi Añtó 13:08, 13 October 2012 (UTC), CC BY-SA 3.0",
     "naziv": "Palim borcima",
     "type": "ploca",
     "drzava": "Croatia"
@@ -57531,6 +57567,9 @@
     },
     "title": "Beograd",
     "info": "https://www.openstreetmap.org/node/2319208115",
+    "slika": "slike/spomenici/beograd-spomenik-obalskim-radnicima-palim-u-nob-u.webp",
+    "slikaOdnos": 0.73,
+    "slikaAutor": "Андрей Романенко, CC BY-SA 4.0",
     "naziv": "Spomenik obalskim radnicima palim u NOB-u",
     "year": "1952",
     "type": "lokalni",
@@ -57604,6 +57643,9 @@
     },
     "title": "Bešenovački Prnjavor",
     "info": "https://www.openstreetmap.org/node/10054764800",
+    "slika": "slike/spomenici/besenovacki-prnjavor-spomenik-prvim-sremskim-parti.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "Duja, CC0",
     "naziv": "Spomenik prvim sremskim partizanima",
     "type": "lokalni",
     "drzava": "Serbia"
@@ -58228,6 +58270,9 @@
     },
     "title": "Vlaški Do",
     "info": "https://www.openstreetmap.org/node/13629765258",
+    "slika": "slike/spomenici/vlaski-do-spomenik-palim-borcima.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "Katarina Cvetkovic, CC BY-SA 4.0",
     "naziv": "Spomenik palim borcima",
     "type": "lokalni",
     "drzava": "Serbia"
@@ -58264,6 +58309,9 @@
     },
     "title": "Zrenjanin (Potkovica)",
     "info": "https://www.openstreetmap.org/node/2115063463",
+    "slika": "slike/spomenici/zrenjanin-potkovica-spomenik-zrtvama-fasistickog-t.webp",
+    "slikaOdnos": 1.504,
+    "slikaAutor": "Pinki, CC BY-SA 3.0",
     "naziv": "Spomenik žrtvama fašističkog terora",
     "type": "lokalni",
     "drzava": "Serbia"
@@ -58348,6 +58396,9 @@
     },
     "title": "Branik",
     "info": "https://www.openstreetmap.org/way/1475245875",
+    "slika": "slike/spomenici/branik-spomenik-padlim-partizanom.webp",
+    "slikaOdnos": 1.594,
+    "slikaAutor": "Bojan Marušič, CC BY-SA 4.0",
     "naziv": "Spomenik padlim partizanom",
     "type": "lokalni",
     "drzava": "Slovenia"
@@ -58421,6 +58472,9 @@
     },
     "title": "Dolenja vas",
     "info": "https://www.openstreetmap.org/node/3967758169",
+    "slika": "slike/spomenici/dolenja-vas-franc-gustincic.webp",
+    "slikaOdnos": 1.504,
+    "slikaAutor": "Bojan Marušič, CC BY-SA 4.0",
     "naziv": "Franc Gustinčič",
     "year": "1943",
     "type": "lokalni",
@@ -58626,6 +58680,9 @@
     },
     "title": "Kostanjevica na Krasu",
     "info": "https://www.openstreetmap.org/node/9162891043",
+    "slika": "slike/spomenici/kostanjevica-na-krasu-1941-slava-1945-padlim-borce.webp",
+    "slikaOdnos": 1.498,
+    "slikaAutor": "Bojan Marušič, CC BY-SA 4.0",
     "naziv": "1941-SLAVA-1945 PADLIM BORCEM",
     "type": "lokalni",
     "drzava": "Slovenia"
@@ -58926,6 +58983,9 @@
     },
     "title": "Opatje selo",
     "info": "https://www.openstreetmap.org/node/10790534448",
+    "slika": "slike/spomenici/opatje-selo-plosca-bostjancic-antonu-in-jelen-albe.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "BojanM79, CC BY-SA 4.0",
     "naziv": "Plošča Boštjančič Antonu in Jelen Albertu",
     "type": "ploca",
     "drzava": "Slovenia"
@@ -59311,6 +59371,9 @@
     },
     "title": "Trnovo",
     "info": "https://www.openstreetmap.org/node/4698095108",
+    "slika": "slike/spomenici/trnovo-v-spomin-padlim-borcem.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "dominkod, CC BY 3.0",
     "naziv": "V spomin padlim borcem",
     "type": "lokalni",
     "drzava": "Slovenia"
@@ -63252,5 +63315,218 @@
     "naziv": "Spomen-kuća NOR-a",
     "type": "muzej",
     "drzava": "Serbia"
+  },
+  {
+    "id": "kusadak-spomen-ploce-palima-u-nob-u",
+    "koordinate": {
+      "lat": 44.40163,
+      "lng": 20.809116
+    },
+    "title": "Kusadak",
+    "info": "https://commons.wikimedia.org/wiki/File%3ASpomenik_palim_borcima%2C_Kusadak_04.jpg",
+    "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D0%BF%D0%BB%D0%BE%D1%87%D0%B5_%D0%BF%D0%B0%D0%BB%D0%B8%D0%BC%D0%B0_%D1%83_%D0%9D%D0%9E%D0%91-%D1%83_%D1%83_%D0%9A%D1%83%D1%81%D0%B0%D1%82%D0%BA%D1%83",
+    "slika": "slike/spomenici/kusadak-spomen-ploce-palima-u-nob-u.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "Katarina Cvetkovic, CC BY-SA 4.0",
+    "naziv": "Spomen-ploče palima u NOB-u",
+    "type": "ploca",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "rosci-spomen-kosturnica",
+    "koordinate": {
+      "lat": 43.93328,
+      "lng": 20.200072
+    },
+    "title": "Rošci",
+    "info": "https://commons.wikimedia.org/wiki/File%3ARo%C5%A1ci_30.jpg",
+    "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D0%BA%D0%BE%D1%81%D1%82%D1%83%D1%80%D0%BD%D0%B8%D1%86%D0%B0_%D1%83_%D0%A0%D0%BE%D1%88%D1%86%D0%B8%D0%BC%D0%B0",
+    "slika": "slike/spomenici/rosci-spomen-kosturnica.webp",
+    "slikaOdnos": 1.498,
+    "slikaAutor": "BrankaVV, CC BY-SA 4.0",
+    "naziv": "Spomen-kosturnica",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "skopje-pero-nakov-pance-pesev",
+    "koordinate": {
+      "lat": 41.995002,
+      "lng": 21.4258803
+    },
+    "title": "Skopje (Centar)",
+    "info": "https://commons.wikimedia.org/wiki/File%3AMonument_to_Macedonian_communists_Pero_Nakov_and_Pance_Pesev.JPG",
+    "slika": "slike/spomenici/skopje-pero-nakov-pance-pesev.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "Dvacet, Public domain",
+    "name": "Monument to Macedonian communists Pero Nakov and Panče Pešev",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "sveti-nikole-spomenik-na-lazar-kolisevski",
+    "koordinate": {
+      "lat": 41.864744,
+      "lng": 21.94092
+    },
+    "title": "Sveti Nikole",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BD%D0%B0_%D0%9B%D0%B0%D0%B7%D0%B0%D1%80_%D0%9A%D0%BE%D0%BB%D0%B8%D1%88%D0%B5%D0%B2%D1%81%D0%BA%D0%B8_%2801%29.jpg",
+    "slika": "slike/spomenici/sveti-nikole-spomenik-na-lazar-kolisevski.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "Dandarmkd, CC BY-SA 4.0",
+    "naziv": "Споменик на Лазар Колишевски",
+    "type": "spomenik",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "tosko-celo-spomenik-kurirjem-dolomitskega-odreda",
+    "koordinate": {
+      "lat": 46.0784191,
+      "lng": 14.4329372
+    },
+    "title": "Toško Čelo",
+    "info": "https://www.openstreetmap.org/node/8072894661",
+    "naziv": "Spomenik kurirjem Dolomitskega odreda",
+    "year": "1961",
+    "author": "Stane Keržič & Marko Šlajmer",
+    "type": "spomenik",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "vester-vestrski-mlin",
+    "koordinate": {
+      "lat": 46.1723009,
+      "lng": 14.285533
+    },
+    "title": "Vešter",
+    "info": "https://www.openstreetmap.org/way/1023029667",
+    "wiki": "https://sl.wikipedia.org/wiki/Ve%C5%A1trski_mlin",
+    "slika": "slike/spomenici/vester-vestrski-mlin.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "Semjon at Slovenian Wikipedia, CC BY-SA 3.0",
+    "naziv": "Veštrski mlin",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "velika-mostanica-spomenik-u-velikoj-mostanici",
+    "koordinate": {
+      "lat": 44.6653032,
+      "lng": 20.3536072
+    },
+    "title": "Velika Moštanica",
+    "info": "https://www.openstreetmap.org/node/12873153123",
+    "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D1%83_%D0%92%D0%B5%D0%BB%D0%B8%D0%BA%D0%BE%D1%98_%D0%9C%D0%BE%D1%88%D1%82%D0%B0%D0%BD%D0%B8%D1%86%D0%B8",
+    "slika": "slike/spomenici/velika-mostanica-spomenik-u-velikoj-mostanici.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "Dungodung, CC BY-SA 3.0",
+    "naziv": "Spomenik u Velikoj Moštanici",
+    "year": "1968",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "tomislavgrad-novo-selo-spomen-partizanima-razmine",
+    "koordinate": {
+      "lat": 43.8396847,
+      "lng": 17.1896513
+    },
+    "title": "Tomislavgrad (Novo selo)",
+    "info": "https://www.openstreetmap.org/node/5198617883",
+    "naziv": "Spomen partizanima Razmine",
+    "type": "lokalni",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "pec-spomenik-palim-borcima",
+    "koordinate": {
+      "lat": 42.6593889,
+      "lng": 20.2896944
+    },
+    "title": "Peć",
+    "info": "https://www.spomenikdatabase.org/peje-pec",
+    "naziv": "Spomenik palim borcima",
+    "name": "Monument to the Fallen Fighters",
+    "stanje": "uklonjen",
+    "type": "lokalni",
+    "drzava": "Kosovo"
+  },
+  {
+    "id": "medjuvodje-uremovac-spomenik-kluzu-i-cajavecu",
+    "koordinate": {
+      "lat": 45.1111111,
+      "lng": 16.7618056
+    },
+    "title": "Međuvođe (Uremovac)",
+    "info": "https://www.spomenikdatabase.org/gornji-jelovac",
+    "naziv": "Spomenik Franji Kluzu i Rudiju Čajavecu",
+    "name": "Monument to Franjo Kluz and Rudi Čajavec",
+    "type": "spomenik",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "peroj-palim-borcima-i-zrtvama-fasizma",
+    "koordinate": {
+      "lat": 44.950881,
+      "lng": 13.798337
+    },
+    "title": "Peroj",
+    "info": "https://www.openstreetmap.org/node/8994177443",
+    "slika": "slike/spomenici/peroj-palim-borcima-i-zrtvama-fasizma.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "Annebethmi, CC BY-SA 3.0",
+    "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+    "name": "Monument to Fallen Fighters and Victims of Fascism",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "pozega-senjak-spomen-grobnica-logorasa",
+    "koordinate": {
+      "lat": 45.362717,
+      "lng": 17.6867831
+    },
+    "title": "Požega (Senjak)",
+    "info": "https://www.openstreetmap.org/way/1468105548",
+    "naziv": "Spomen-grobnica logoraša na Senjaku",
+    "name": "Senjak Memorial Tomb of Camp Victims",
+    "year": "1960",
+    "author": "Grozdan Knežević & Želimir Žagar",
+    "type": "groblje",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "drivenik-spomenik-palim-borcima-i-zrtvama-fasizma",
+    "koordinate": {
+      "lat": 45.240316,
+      "lng": 14.649395
+    },
+    "title": "Drivenik",
+    "info": "https://hr-cro.com/croatia/drivenik-monument-spomenik-nob/slo",
+    "slika": "slike/spomenici/drivenik-spomenik-palim-borcima-i-zrtvama-fasizma.webp",
+    "slikaOdnos": 0.749,
+    "slikaAutor": "Roberta F., CC BY-SA 3.0",
+    "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+    "name": "Monument to Fallen Fighters and Victims of Fascism",
+    "author": "Zvonko Car",
+    "type": "spomenik",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "bobota-spomenik-borcima-i-zrtvama-fasizma",
+    "koordinate": {
+      "lat": 45.4222214,
+      "lng": 18.8574213
+    },
+    "title": "Bobota",
+    "info": "https://www.openstreetmap.org/node/10579249216",
+    "slika": "slike/spomenici/bobota-spomenik-borcima-i-zrtvama-fasizma.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "MirkoS18, CC BY-SA 3.0",
+    "naziv": "Spomenik borcima i žrtvama fašizma",
+    "name": "Monument to Fighters and Victims of Fascism",
+    "year": "1955",
+    "type": "spomenik",
+    "drzava": "Croatia"
   }
 ]
