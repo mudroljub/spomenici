@@ -24,7 +24,7 @@ const malo = n => [2, 3, 4].includes(n % 10) && ![12, 13, 14].includes(n % 100)
 
 const tekstovi = {
   navigacija: {sh: 'Navigacija', en: 'Navigate'},
-  mesto: {sh: 'Mapa', en: 'Find place'},
+  mesto: {sh: 'Mapa', en: 'Map'},
   dodajURutu: {sh: 'U rutu', en: 'To route'},
   vecURuti: {sh: 'U ruti', en: 'In route'},
   trenutnaRuta: {sh: 'Trenutna ruta', en: 'Current route'},
