@@ -23,3 +23,4 @@ Provera fotografija za svih 132 tadašnja zapisa bez slike u Srbiji završena je
 ## TODO
 
 - optimizovati aplikaciju za stare telefone i spor internet ([plan](docs/PLAN_OPTIMIZACIJE.md))
+- dodati tooltip na hover spomenika da se vidi naziv i mesto. možda biblioteka ima ugrađen tooltip

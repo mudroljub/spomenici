@@ -3485,6 +3485,9 @@
     "naziv": "Меморијален центар на АСНОМ",
     "year": "2004",
     "author": "Georgi Konstantinovski",
+    "posveta": [
+      "Q163013"
+    ],
     "type": "muzej",
     "drzava": "Macedonia"
   },
@@ -7618,21 +7621,6 @@
     ],
     "type": "kompleks",
     "drzava": "Croatia"
-  },
-  {
-    "id": "prohor-pcinjski-monastery",
-    "koordinate": {
-      "lat": 42.3300995,
-      "lng": 21.8955179
-    },
-    "googleCid": "18314644877012579059",
-    "title": "Manastir Prohor Pčinjski",
-    "wiki": "https://sh.wikipedia.org/wiki/Antifa%C5%A1isti%C4%8Dko_sobranje_narodnog_oslobo%C4%91enja_Makedonije",
-    "wikiEn": "https://en.wikipedia.org/wiki/Anti-fascist_Assembly_for_the_National_Liberation_of_Macedonia",
-    "slika": "slike/spomenici/prohor-pcinjski-monastery.webp",
-    "slikaOdnos": 1.498,
-    "type": "kompleks",
-    "drzava": "Serbia"
   },
   {
     "id": "strumica-fallen-fighters",
