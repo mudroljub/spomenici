@@ -583,6 +583,9 @@
     "slikaAutor": "Струјајое, CC BY-SA 3.0",
     "naziv": "Spomen-park Kragujevački oktobar",
     "name": "Šumarice Memorial Park",
+    "posveta": [
+      "Q685201"
+    ],
     "type": "kompleks",
     "drzava": "Serbia"
   },
@@ -2124,13 +2127,13 @@
     },
     "googleCid": "11476005265633871522",
     "title": "Mali Požarevac",
-    "wiki": "https://sh.wikipedia.org/wiki/Koncentracijski_logor_Banjica",
-    "wikiEn": "https://en.wikipedia.org/wiki/Banjica_concentration_camp",
+    "info": "https://www.sopot.org.rs/pomen-zrtvama-fasizma-u-malom-pozarevcu/",
     "slika": "slike/spomenici/mali-pozarevac.webp",
     "slikaOdnos": 1.556,
-    "naziv": "Spomenik i grobnica žrtvama logora Banjica",
-    "name": "Mon. & Grave to Victims of the <a href=\"https://en.wikipedia.org/wiki/Banjica_concentration_camp\" target=\"_blank\">Banjica Camp</a>",
-    "year": "1966",
+    "naziv": "Spomenik streljanim logorašima Banjice 1943",
+    "name": "Monument to Prisoners of the Banjica Camp Executed in 1943",
+    "year": "1969",
+    "author": "Momčilo Krković",
     "type": "spomenik",
     "drzava": "Serbia"
   },
@@ -4524,25 +4527,6 @@
     "name": "Memorial Ossuary to Fallen Fighters",
     "year": "1961",
     "stanje": "srusen",
-    "type": "spomenik",
-    "drzava": "Croatia"
-  },
-  {
-    "id": "mirogoj-cemetery-1974-railway-disaster",
-    "koordinate": {
-      "lat": 45.8345934,
-      "lng": 15.9886139
-    },
-    "googleCid": "11419108088414823306",
-    "title": "Zagreb (Mirogoj)",
-    "wiki": "https://sh.wikipedia.org/wiki/%C5%BDeljezni%C4%8Dka_nesre%C4%87a_u_Zagrebu",
-    "wikiEn": "https://en.wikipedia.org/wiki/Zagreb_train_disaster",
-    "slika": "slike/spomenici/mirogoj-cemetery-1974-railway-disaster.webp",
-    "slikaOdnos": 1.333,
-    "naziv": "Spomenik neidentificiranim žrtvama željezničke nesreće 1974.",
-    "name": "Monument to <a href=\"https://en.wikipedia.org/wiki/Zagreb_train_disaster\" target=\"_blank\">1974 Railway Disaster</a>",
-    "year": "1975",
-    "author": "Vojin Bakić",
     "type": "spomenik",
     "drzava": "Croatia"
   },
@@ -9048,22 +9032,6 @@
     "year": "1976",
     "type": "spomenik",
     "drzava": "Croatia"
-  },
-  {
-    "id": "stragari",
-    "koordinate": {
-      "lat": 44.1597085,
-      "lng": 20.6657289
-    },
-    "title": "Stragari",
-    "info": "https://www.nytimes.com/1971/02/15/archives/fire-aboard-train-in-yugoslavia-kills-34-and-injures-113.html?_r=1&referer=",
-    "slika": "slike/spomenici/stragari.webp",
-    "slikaOdnos": 1.521,
-    "naziv": "Spomenik žrtvama železničke nesreće 1971.",
-    "name": "Monument to <a href=\"https://www.nytimes.com/1971/02/15/archives/fire-aboard-train-in-yugoslavia-kills-34-and-injures-113.html?_r=1&referer=\" target=\"_blank\">1971 Train Accident</a>",
-    "year": "1972",
-    "type": "spomenik",
-    "drzava": "Serbia"
   },
   {
     "id": "staro-bacilo",
@@ -23902,6 +23870,9 @@
     },
     "googleCid": "12719746667190233055",
     "title": "Vučak",
+    "slika": "slike/spomenici/vucak.webp",
+    "slikaOdnos": 0.889,
+    "slikaAutor": "Google Maps",
     "naziv": "Spomenik Kosmajskom partizanskom odredu",
     "posveta": [
       "Q11117229"
@@ -28071,6 +28042,9 @@
     "name": "The \"Hundred for One\" Monument",
     "year": "1980",
     "author": "Nandor Glid",
+    "posveta": [
+      "Q685201"
+    ],
     "type": "spomenik",
     "drzava": "Serbia"
   },
@@ -28292,12 +28266,14 @@
       "lng": 21.1980055
     },
     "googleCid": "18402840625098879768",
-    "title": "Požarevac",
+    "title": "Požarevac (Čačalica)",
     "slika": "slike/spomenici/pozarevac-spomenik-streljanim-rodoljubima.webp",
     "slikaOdnos": 1.333,
     "slikaAutor": "Bojan Cvetanović, CC BY-SA 4.0",
     "naziv": "Spomenik streljanim rodoljubima",
-    "type": "lokalni",
+    "year": "1962",
+    "author": "Bratislav Stojanović & Stanislav Mićić",
+    "type": "spomenik",
     "drzava": "Serbia"
   },
   {
