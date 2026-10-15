@@ -22,4 +22,5 @@ Provera fotografija za svih 132 tadašnja zapisa bez slike u Srbiji završena je
 
 ## TODO
 
-- mapirati spomenike iz `data/bez_lokacije.json` (poznati, ali bez tačne lokacije)
+- mapirati spomenike iz `data/bez_lokacije.json` (bez tačne lokacije ali na spomenicinob.info sadrže adresu, neke je moguće približno locirati). posebno korisno što ima autora, godinu, tip, status spomenika i druge podatke.
+- optimizovati aplikaciju za stare telefone i spor internet ([plan](docs/PLAN_OPTIMIZACIJE.md))
