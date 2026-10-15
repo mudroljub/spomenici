@@ -13149,9 +13149,12 @@
     },
     "googleCid": "1490786285612807086",
     "title": "Drča (Vrhnika)",
+    "info": "https://partizanstvo.si/sl/podrobno/partizanskispomenik/929/",
     "slika": "slike/spomenici/drca-vrhnika.webp",
     "slikaOdnos": 1.333,
     "naziv": "Spomenik na Drči",
+    "year": "1949",
+    "author": "Boris Kalin & Boris Kobe",
     "type": "spomenik",
     "drzava": "Slovenia"
   },
@@ -14663,12 +14666,15 @@
       "lng": 14.4176469
     },
     "googleCid": "17020889418629528291",
-    "title": "Draževnik",
+    "title": "Dobrova",
+    "info": "https://partizanstvo.si/sl/podrobno/partizanskispomenik/2555/",
     "slika": "slike/spomenici/drazevnik.webp",
     "slikaOdnos": 0.75,
     "slikaAutor": "Google Maps",
-    "naziv": "Spomenik NOB",
-    "type": "lokalni",
+    "naziv": "Spomenik padlim borcem NOV in žrtvam fašističnega nasilja",
+    "year": "1956",
+    "author": "Marko Šlajmer",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -15790,12 +15796,15 @@
       "lng": 15.9911992
     },
     "googleCid": "5003058276220624585",
-    "title": "Podgrad",
+    "title": "Gornja Radgona",
+    "info": "https://partizanstvo.si/sl/podrobno/partizanskispomenik/3216/",
     "slika": "slike/spomenici/podgrad.webp",
     "slikaOdnos": 0.75,
     "slikaAutor": "Google Maps",
     "naziv": "Spomenik NOB",
-    "type": "lokalni",
+    "year": "1961",
+    "author": "Milan Černigoj",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -16564,6 +16573,9 @@
     },
     "googleCid": "13671767427235939733",
     "title": "Drežniške Ravne",
+    "slika": "slike/spomenici/drezniske-ravne.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "Aschroet, CC0",
     "naziv": "Spomenik padlim v NOB in žrtvam fašizma",
     "type": "lokalni",
     "drzava": "Slovenia"
@@ -17265,12 +17277,15 @@
       "lng": 15.0914387
     },
     "googleCid": "9915431268987550291",
-    "title": "Podkraj",
+    "title": "Hrastnik",
+    "info": "https://partizanstvo.si/sl/podrobno/partizanskispomenik/725/",
     "slika": "slike/spomenici/podkraj.webp",
     "slikaOdnos": 0.75,
     "slikaAutor": "Google Maps",
-    "naziv": "Spomenik NOB",
-    "type": "lokalni",
+    "naziv": "Spomenik borcem in žrtvam NOB",
+    "year": "1964",
+    "author": "Stojan Batič & Vlasto Kopač & Juta Krulc",
+    "type": "spomenik",
     "drzava": "Slovenia"
   },
   {
@@ -18425,7 +18440,9 @@
     },
     "googleCid": "1051356826906985064",
     "title": "Zagreb (Trešnjevka)",
+    "info": "https://zagrebacki-kutak.hr/ulica-bozidara-adzije-spomenik-palim-borcima-1941-1945/",
     "naziv": "Spomenik palim borcima NOB Trešnjevke",
+    "year": "1953",
     "type": "lokalni",
     "drzava": "Croatia"
   },
@@ -26406,6 +26423,8 @@
     "info": "https://www.openstreetmap.org/node/10774011772",
     "naziv": "Janko Premrl - Vojko",
     "name": "Bust of Janko Premrl",
+    "year": "1976",
+    "author": "Marjan Keršič - Belač",
     "type": "bista",
     "drzava": "Slovenia"
   },
@@ -26953,6 +26972,9 @@
     },
     "title": "Nova Gora",
     "info": "https://www.openstreetmap.org/node/7739939649",
+    "slika": "slike/spomenici/nova-gora-spomenik-padlim-in-ranjenim-cankarjeve-b.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "dominkod, CC BY 3.0",
     "naziv": "Spomenik padlim in ranjenim Cankarjeve brigade 1941-1945",
     "name": "Monument to a Partisan Brigade",
     "type": "spomenik",
@@ -27087,6 +27109,9 @@
     },
     "title": "Brestovica",
     "info": "https://www.openstreetmap.org/node/12367213828",
+    "slika": "slike/spomenici/brestovica-spominsko-obelezje-8-borcem-kosovelove.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "Uzel, CC BY 3.0",
     "naziv": "Spominsko obeležje 8 borcem Kosovelove brigade",
     "name": "Monument to a Partisan Brigade",
     "type": "lokalni",
@@ -34388,6 +34413,9 @@
     },
     "title": "Gornji Ig",
     "info": "https://eid.gov.si/S/11552",
+    "slika": "slike/spomenici/gornji-ig-spominska-plosca-talcem.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "Doremo, CC BY-SA 4.0",
     "naziv": "Spominska plošča talcem",
     "year": "1986",
     "type": "ploca",
@@ -37740,6 +37768,9 @@
     },
     "title": "Kočevje",
     "info": "https://eid.gov.si/S/24225",
+    "slika": "slike/spomenici/kocevje-grobnica-padlih-v-nob-na-pokopaliscu.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "Cris77, CC BY-SA 4.0",
     "naziv": "Grobnica padlih v NOB na pokopališču",
     "year": "1968",
     "type": "lokalni",
@@ -37858,8 +37889,10 @@
     "slika": "slike/spomenici/kocevski-rog-partizanska-bolnisnica-pugled.webp",
     "slikaOdnos": 1.509,
     "slikaAutor": "Judita Podgornik Zaletelj, CC BY 4.0",
-    "naziv": "Partizanska bolnišnica Pugled",
-    "type": "lokalni",
+    "naziv": "Grobišče partizanske bolnišnice Pugled",
+    "year": "1959",
+    "author": "Miloš Lapajne",
+    "type": "groblje",
     "drzava": "Slovenia"
   },
   {
@@ -44003,32 +44036,6 @@
     "drzava": "Slovenia"
   },
   {
-    "id": "podgorje-pri-kamniku-grobisce-povojnih-zrtev-v-sve",
-    "koordinate": {
-      "lat": 46.219459,
-      "lng": 14.589062
-    },
-    "title": "Podgorje pri Kamniku",
-    "info": "https://eid.gov.si/S/20867",
-    "naziv": "Grobišče povojnih žrtev v Svetelovem gozdu",
-    "year": "1996",
-    "type": "lokalni",
-    "drzava": "Slovenia"
-  },
-  {
-    "id": "podgorje-pri-kamniku-grobisce-povojnih-zrtev-za-me",
-    "koordinate": {
-      "lat": 46.220821,
-      "lng": 14.595183
-    },
-    "title": "Podgorje pri Kamniku",
-    "info": "https://eid.gov.si/S/20868",
-    "naziv": "Grobišče povojnih žrtev za Medvedom",
-    "year": "1996",
-    "type": "lokalni",
-    "drzava": "Slovenia"
-  },
-  {
     "id": "podgrad-pri-ilirski-bistrici-spomenik-nob",
     "koordinate": {
       "lat": 45.521632,
@@ -49318,6 +49325,9 @@
     },
     "title": "Trebenče",
     "info": "https://eid.gov.si/S/21038",
+    "slika": "slike/spomenici/trebence-spominsko-znamenje-nob.webp",
+    "slikaOdnos": 1.246,
+    "slikaAutor": "Doremo, CC BY-SA 3.0",
     "naziv": "Spominsko znamenje NOB",
     "year": "1985",
     "type": "lokalni",
@@ -50014,6 +50024,9 @@
     },
     "title": "Velike Žablje",
     "info": "https://eid.gov.si/S/24077",
+    "slika": "slike/spomenici/velike-zablje-grobnica-nob.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "Lan G., CC BY-SA 4.0",
     "naziv": "Grobnica NOB",
     "year": "1961",
     "type": "lokalni",
@@ -53765,18 +53778,6 @@
     "slikaOdnos": 1.556,
     "slikaAutor": "Alenka Možina, CC BY 4.0",
     "naziv": "Spominsko znamenje drugemu bataljonu Dolomitskega odreda",
-    "type": "lokalni",
-    "drzava": "Slovenia"
-  },
-  {
-    "id": "zeje-pri-komendi-grobisce-povojnih-zrtev",
-    "koordinate": {
-      "lat": 46.188992,
-      "lng": 14.532441
-    },
-    "title": "Žeje pri Komendi",
-    "info": "https://eid.gov.si/S/15245",
-    "naziv": "Grobišče povojnih žrtev",
     "type": "lokalni",
     "drzava": "Slovenia"
   },
@@ -58423,6 +58424,9 @@
     },
     "title": "Brestovica",
     "info": "https://www.openstreetmap.org/node/10108720224",
+    "slika": "slike/spomenici/brestovica-trentennale-liberazione-tridesetletnica.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "Damjange, CC BY-SA 4.0",
     "naziv": "Trentennale Liberazione / Tridesetletnica osvoboditve",
     "year": "1975",
     "type": "ploca",
@@ -58815,6 +58819,9 @@
     },
     "title": "Maribor (Pobrežje)",
     "info": "https://www.openstreetmap.org/node/5170043904",
+    "slika": "slike/spomenici/maribor-pobrezje-partizanska-grobnica.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "Miha Kukovec, CC BY-SA 3.0",
     "naziv": "Partizanska grobnica",
     "type": "lokalni",
     "drzava": "Slovenia"
@@ -59010,6 +59017,9 @@
     },
     "title": "Opatje selo",
     "info": "https://www.openstreetmap.org/way/1237551290",
+    "slika": "slike/spomenici/opatje-selo-spomenik-padlim-garibaldincem-udarnega.webp",
+    "slikaOdnos": 1.778,
+    "slikaAutor": "Rosanna Rizzi, CC BY-SA 4.0",
     "naziv": "Spomenik padlim garibaldincem udarnega tržaškega bataljona v 2. svetovni vojni.",
     "type": "lokalni",
     "drzava": "Slovenia"
@@ -59166,6 +59176,9 @@
     },
     "title": "Predmeja",
     "info": "https://www.openstreetmap.org/node/11975317626",
+    "slika": "slike/spomenici/predmeja-spomenik-nob-2.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "Pipi Skoda, CC0",
     "naziv": "Spomenik NOB",
     "type": "lokalni",
     "drzava": "Slovenia"
@@ -59506,6 +59519,9 @@
     },
     "title": "Zgornja Rečica",
     "info": "https://www.openstreetmap.org/node/1207769648",
+    "slika": "slike/spomenici/zgornja-recica-partizanski-spomenik.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "romanm (talk), CC BY-SA 2.5 si",
     "naziv": "Partizanski spomenik",
     "type": "lokalni",
     "drzava": "Slovenia"
@@ -63528,5 +63544,188 @@
     "year": "1955",
     "type": "spomenik",
     "drzava": "Croatia"
+  },
+  {
+    "id": "zagreb-ribnjak-ivan-goran-kovacic",
+    "koordinate": {
+      "lat": 45.8177204,
+      "lng": 15.9794784
+    },
+    "title": "Zagreb (Ribnjak)",
+    "info": "https://www.openstreetmap.org/way/804640648",
+    "slika": "slike/spomenici/zagreb-ribnjak-ivan-goran-kovacic.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "Runolist, CC BY-SA 4.0",
+    "naziv": "Spomenik Ivanu Goranu Kovačiću",
+    "name": "Monument to Ivan Goran Kovačić",
+    "year": "1964",
+    "author": "Vojin Bakić",
+    "type": "spomenik",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "zagreb-veterinarski-nosenje-ranjenika",
+    "koordinate": {
+      "lat": 45.8066933,
+      "lng": 16.0080115
+    },
+    "title": "Zagreb (Veterinarski fakultet)",
+    "info": "https://www.openstreetmap.org/node/2826672671",
+    "slika": "slike/spomenici/zagreb-veterinarski-nosenje-ranjenika.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "Flammard, CC BY-SA 3.0",
+    "naziv": "Nošenje ranjenika",
+    "name": "The Carrying of the Wounded",
+    "year": "1953",
+    "author": "Antun Augustinčić",
+    "type": "spomenik",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "molat-memorijalna-cjelina-bivseg-logora",
+    "koordinate": {
+      "lat": 44.2165,
+      "lng": 14.8791
+    },
+    "title": "Molat (Uvala Jazi)",
+    "info": "https://registar.kulturnadobra.hr/api/kulturno-dobro/detail/Z-7029",
+    "wikiEn": "https://en.wikipedia.org/wiki/Molat_concentration_camp",
+    "naziv": "Povijesno-memorijalna cjelina bivšeg koncentracijskog logora",
+    "name": "Memorial Site of the Former Concentration Camp",
+    "type": "kompleks",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "vrbovsko-spomenik-palim-borcima",
+    "koordinate": {
+      "lat": 45.3757724,
+      "lng": 15.0697706
+    },
+    "title": "Vrbovsko",
+    "info": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/231/",
+    "slika": "slike/spomenici/vrbovsko-spomenik-palim-borcima.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "Flammard, CC BY-SA 3.0",
+    "naziv": "Spomenik palim borcima NOB-a",
+    "name": "Monument to Fallen Partisan Fighters",
+    "type": "spomenik",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "martinscica-spomenik-josipu-linardicu",
+    "koordinate": {
+      "lat": 44.8190971,
+      "lng": 14.3503834
+    },
+    "title": "Martinšćica",
+    "info": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/237/",
+    "naziv": "Spomenik prvoborcu Josipu Linardiću",
+    "name": "Monument to Partisan Fighter Josip Linardić",
+    "year": "1946",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "susak-spomenik-palim-borcima",
+    "koordinate": {
+      "lat": 44.5114302,
+      "lng": 14.3081004
+    },
+    "title": "Susak",
+    "info": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/145/",
+    "naziv": "Spomenik palim borcima u Narodnooslobodilačkom ratu",
+    "name": "Monument to Fallen Partisan Fighters",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "koprivna-plosca-padlim-borcem-in-zrtvam-nasilja",
+    "koordinate": {
+      "lat": 46.4579755,
+      "lng": 14.751865
+    },
+    "title": "Koprivna",
+    "info": "https://www.openstreetmap.org/node/4396047939",
+    "naziv": "Spominska plošča padlim borcem in žrtvam fašističnega nasilja",
+    "name": "Memorial Plaque to Fallen Fighters and Victims of Fascism",
+    "year": "1953",
+    "type": "ploca",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "zrece-padlim-za-svobodo",
+    "koordinate": {
+      "lat": 46.3721356,
+      "lng": 15.3892914
+    },
+    "title": "Zreče",
+    "info": "https://partizanstvo.si/sl/podrobno/partizanskispomenik/6034/",
+    "naziv": "Spomenik padlim za svobodo",
+    "name": "Monument to Those Fallen for Freedom",
+    "author": "Stojan Batič",
+    "type": "spomenik",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "vrhpolje-grobisce-zrtev-nacizma",
+    "koordinate": {
+      "lat": 45.8613011,
+      "lng": 13.9587645
+    },
+    "title": "Vrhpolje (Vipava)",
+    "info": "https://partizanstvo.si/sl/podrobno/partizanskispomenik/6079/",
+    "naziv": "Grobišče žrtev nacizma",
+    "name": "Memorial Grave of Victims of Nazism",
+    "year": "1961",
+    "author": "Izidor Simčič",
+    "type": "groblje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "brezje-plosca-duhovnikom-zrtvam-fasizma",
+    "koordinate": {
+      "lat": 46.3289856,
+      "lng": 14.232032
+    },
+    "title": "Brezje (Radovljica)",
+    "info": "https://partizanstvo.si/sl/podrobno/partizanskispomenik/1583/",
+    "wiki": "https://sl.wikipedia.org/wiki/Spominska_plošča_duhovnikom_žrtvam_fašizma,_Brezje",
+    "slika": "slike/spomenici/brezje-plosca-duhovnikom-zrtvam-fasizma.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "Hladnikm, CC BY-SA 4.0",
+    "naziv": "Spominska plošča duhovnikom žrtvam fašizma",
+    "name": "Memorial Plaque to Priests Who Were Victims of Fascism",
+    "year": "1955",
+    "stanje": "uklonjen",
+    "type": "ploca",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "hrastnik-lidija-sentjurc",
+    "koordinate": {
+      "lat": 46.1389844,
+      "lng": 15.0913003
+    },
+    "title": "Hrastnik",
+    "info": "https://partizanstvo.si/sl/podrobno/partizanskispomenik/4217/",
+    "naziv": "Doprsni kip Lidije Šentjurc",
+    "name": "Bust of Lidija Šentjurc",
+    "type": "bista",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "ljubljana-zale-spominski-park-borcev-in-talcev",
+    "koordinate": {
+      "lat": 46.0725893,
+      "lng": 14.5318796
+    },
+    "title": "Ljubljana (Žale)",
+    "info": "https://partizanstvo.si/sl/podrobno/partizanskispomenik/3188/",
+    "wiki": "https://sl.wikipedia.org/wiki/Spominski_park_padlih_borcev_in_talcev",
+    "naziv": "Spominski park padlih borcev in talcev",
+    "name": "Memorial Park of Fallen Fighters and Hostages",
+    "year": "1955",
+    "type": "kompleks",
+    "drzava": "Slovenia"
   }
 ]

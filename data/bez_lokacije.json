@@ -278,27 +278,6 @@
     "izvor": "https://sr.wikipedia.org/wiki/%D0%9F%D0%B0%D1%80%D1%82%D0%B8%D0%B7%D0%B0%D0%BD%D1%81%D0%BA%D0%B0%20%D0%B1%D0%BE%D0%BB%D0%BD%D0%B8%D1%86%D0%B0%20%D0%9F%D0%B0%D0%B2%D0%BB%D0%B0"
   },
   {
-    "naziv": "Partizanska bolnica „Pugled",
-    "mesto": "Pugled",
-    "drzava": "Slovenia",
-    "author": "Miloš Lapajne",
-    "year": "1957",
-    "izvor": "https://sr.wikipedia.org/wiki/%D0%9F%D0%B0%D1%80%D1%82%D0%B8%D0%B7%D0%B0%D0%BD%D1%81%D0%BA%D0%B0%20%D0%B1%D0%BE%D0%BB%D0%BD%D0%B8%D1%86%D0%B0%20%D0%9F%D1%83%D0%B3%D0%BB%D0%B5%D0%B4"
-  },
-  {
-    "naziv": "Spomen-grobnica palih boraca",
-    "mesto": "Vrhpolje, kod Vipave",
-    "drzava": "Slovenia",
-    "izvor": "sr Wikipedija, Списак споменика НОБ"
-  },
-  {
-    "naziv": "Spomen-kamen Cankarevom bataljonu",
-    "mesto": "Vodička planina",
-    "drzava": "Slovenia",
-    "izvor": "sr Wikipedija, Списак споменика НОБ",
-    "slika": "Partizanski spomenik nad Vodiško planino.jpg"
-  },
-  {
     "naziv": "Spomenik borbama za konačno oslobođenje",
     "mesto": "Uršlja Gora",
     "drzava": "Slovenia",
@@ -343,23 +322,9 @@
         "lat": 46.5204267,
         "lng": 15.8865746,
         "izvor": "https://www.openstreetmap.org/node/11584640417",
-        "opis": "OSM historic=memorial, bez imena"
+        "opis": "OSM historic=memorial, bez imena; Provera 2026-10-15: gotovo ista tačka kao Partizanstvo zapis 6788, koji opisuje drugi spomenik iz 1996. za nemačku vojsku, taoce i posleratne žrtve, ne sastanak OF 1942. sa Commons fotografije NOB-Trnovska vas.JPG. Ne koristiti za ovu stavku."
       }
     ]
-  },
-  {
-    "naziv": "Spomenik palim borcima",
-    "mesto": "Vrhnika",
-    "drzava": "Slovenia",
-    "author": "Boris Kalin",
-    "izvor": "sr Wikipedija, Списак споменика НОБ"
-  },
-  {
-    "naziv": "Spomenik palim borcima",
-    "mesto": "Gornja Radgona",
-    "drzava": "Slovenia",
-    "izvor": "sr Wikipedija, Списак споменика НОБ",
-    "slika": "SLO-Gornja Radgona3.JPG"
   },
   {
     "naziv": "Spomenik palim borcima",
@@ -369,31 +334,18 @@
   },
   {
     "naziv": "Spomenik palim borcima",
-    "mesto": "Koprivna",
-    "drzava": "Slovenia",
-    "izvor": "sr Wikipedija, Списак споменика НОБ",
-    "slika": "Koprivna - spomenik NOB.jpg",
-    "kandidati": [
-      {
-        "lat": 46.4579755,
-        "lng": 14.751865,
-        "izvor": "https://www.openstreetmap.org/node/4396047939",
-        "opis": "OSM ploča, natpis „1941 – Povsod ste z nami četudi ni vas več saj smrt vas je svobodi darovala – 1945“"
-      }
-    ]
-  },
-  {
-    "naziv": "Spomenik palim borcima",
     "mesto": "Krvavec",
     "drzava": "Slovenia",
     "izvor": "sr Wikipedija, Списак споменика НОБ",
-    "slika": "Krvavec WW2 memorial.jpg"
-  },
-  {
-    "naziv": "Spomenik palim borcima",
-    "mesto": "Hrastnik",
-    "drzava": "Slovenia",
-    "izvor": "sr Wikipedija, Списак споменика НОБ"
+    "slika": "Krvavec WW2 memorial.jpg",
+    "kandidati": [
+      {
+        "lat": 46.041782,
+        "lng": 13.715658,
+        "izvor": "https://commons.wikimedia.org/wiki/File:Krvavec_WW2_memorial.jpg",
+        "opis": "Objavljena GPS tačka fotografije udaljena je od Krvavca i ne potvrđuje položaj prikazanog groba boraca II grupe odredov i Kokrskog odreda. Fotografija prikazuje kamenu petokraku, ne već postojeću ploču na planinskom domu. Ne koristiti ove koordinate za unos."
+      }
+    ]
   },
   {
     "naziv": "Spomenik palim borcima",
@@ -402,35 +354,10 @@
     "izvor": "sr Wikipedija, Списак споменика НОБ"
   },
   {
-    "naziv": "Spomenik palim borcima i žrtvama fašizma",
-    "mesto": "Dobrova",
-    "drzava": "Slovenia",
-    "izvor": "sr Wikipedija, Списак споменика НОБ"
-  },
-  {
     "naziv": "Spomenik palom borcu",
     "mesto": "Žlebe",
     "drzava": "Slovenia",
     "izvor": "sr Wikipedija, Списак споменика НОБ"
-  },
-  {
-    "naziv": "Spomenik palima za slobodu",
-    "mesto": "Zreče",
-    "drzava": "Slovenia",
-    "author": "Stojan Batič",
-    "izvor": "sr Wikipedija, Списак споменика НОБ"
-  },
-  {
-    "naziv": "Bista Janko Premrl Vojko",
-    "mesto": "?",
-    "drzava": "Slovenia",
-    "izvor": "https://sr.wikipedia.org/wiki/%D0%88%D0%B0%D0%BD%D0%BA%D0%BE%20%D0%9F%D1%80%D0%B5%D0%BC%D1%80%D0%BB%20%D0%92%D0%BE%D1%98%D0%BA%D0%BE"
-  },
-  {
-    "naziv": "Bista Lidija Šentjurc",
-    "mesto": "Hrastnik",
-    "drzava": "Slovenia",
-    "izvor": "https://sr.wikipedia.org/wiki/%D0%9B%D0%B8%D0%B4%D0%B8%D1%98%D0%B0%20%D0%A8%D0%B5%D0%BD%D1%82%D1%98%D1%83%D1%80%D1%86"
   },
   {
     "naziv": "Spomenik palim borcima",
@@ -559,7 +486,7 @@
     "drzava": "Croatia",
     "author": "Valerij Michieli",
     "year": "1957",
-    "izvor": "Registar kulturnih dobara RH"
+    "izvor": "Registar kulturnih dobara RH; https://registar.kulturnadobra.hr/api/kulturno-dobro/detail/Z-7209"
   },
   {
     "naziv": "Spomen-kosturnica",
@@ -578,7 +505,7 @@
     "naziv": "Skupna grobnica i spomenik djeci Kozare",
     "mesto": "Noskovačka Dubrava",
     "drzava": "Croatia",
-    "izvor": "Registar kulturnih dobara RH"
+    "izvor": "Registar kulturnih dobara RH; https://registar.kulturnadobra.hr/api/kulturno-dobro/detail/Z-7028"
   },
   {
     "naziv": "Spomen-ploča borcima NOR-a i žrtvama fašističkog terora",
@@ -617,20 +544,6 @@
     "mesto": "Zlarin",
     "drzava": "Croatia",
     "izvor": "Registar kulturnih dobara RH"
-  },
-  {
-    "naziv": "Povijesno-memorijalna cjelina bivšeg koncentracijskog logora",
-    "mesto": "Molat",
-    "drzava": "Croatia",
-    "izvor": "Registar kulturnih dobara RH",
-    "kandidati": [
-      {
-        "lat": 44.2147854,
-        "lng": 14.872458,
-        "izvor": "https://www.openstreetmap.org/node/1934163256",
-        "opis": "OSM historic=memorial, bez imena"
-      }
-    ]
   },
   {
     "naziv": "Memorijalno mjesto stradanja Roma u Drugom svjetskom ratu",
@@ -804,18 +717,6 @@
     "slika": "Selo_Bogojevce_6.jpg"
   },
   {
-    "naziv": "Spominski park padlih borcev in talcev",
-    "mesto": "Ljubljana",
-    "drzava": "Slovenia",
-    "izvor": "https://sl.wikipedia.org/wiki/Spominski_park_padlih_borcev_in_talcev"
-  },
-  {
-    "naziv": "Spominska plošča duhovnikom žrtvam fašizma",
-    "mesto": "Brezje",
-    "drzava": "Slovenia",
-    "izvor": "https://sl.wikipedia.org/wiki/Spominska_plo%C5%A1%C4%8Da_duhovnikom_%C5%BErtvam_fa%C5%A1izma%2C_Brezje"
-  },
-  {
     "naziv": "Djela Joke Kneževića u bivšoj Vojnoj bolnici",
     "mesto": "Split",
     "drzava": "Croatia",
@@ -861,40 +762,6 @@
   },
   {
     "naziv": "Antifašistički spomenik",
-    "mesto": "Vrbovsko",
-    "drzava": "Croatia",
-    "izvor": "hr Wikipedija, Dodatak:Popis antifašističkih spomenika"
-  },
-  {
-    "naziv": "Antifašistički spomenik",
-    "mesto": "Martinšćica",
-    "drzava": "Croatia",
-    "izvor": "hr Wikipedija, Dodatak:Popis antifašističkih spomenika",
-    "kandidati": [
-      {
-        "lat": 44.8190971,
-        "lng": 14.3503834,
-        "izvor": "https://www.openstreetmap.org/node/452495739",
-        "opis": "OSM war_memorial, kamen, bez imena"
-      }
-    ]
-  },
-  {
-    "naziv": "Antifašistički spomenik",
-    "mesto": "Susak",
-    "drzava": "Croatia",
-    "izvor": "hr Wikipedija, Dodatak:Popis antifašističkih spomenika",
-    "kandidati": [
-      {
-        "lat": 44.5114302,
-        "lng": 14.3081004,
-        "izvor": "https://www.openstreetmap.org/node/10011027298",
-        "opis": "OSM memorial=stone, bez imena"
-      }
-    ]
-  },
-  {
-    "naziv": "Antifašistički spomenik",
     "mesto": "Ilovik",
     "drzava": "Croatia",
     "izvor": "hr Wikipedija, Dodatak:Popis antifašističkih spomenika"
@@ -937,37 +804,24 @@
   },
   {
     "naziv": "Spomenik palim borcima NOVJ",
-    "mesto": "Zagreb (Veterinarski fakultet)",
-    "drzava": "Croatia",
-    "author": "Antun Augustinčić",
-    "year": "1953",
-    "izvor": "https://sh.wikipedia.org/wiki/Lista_antifa%C5%A1isti%C4%8Dkih_spomenika_u_Zagrebu"
-  },
-  {
-    "naziv": "Spomenik palim borcima NOVJ",
-    "mesto": "Zagreb (Ulica Božidara Adžije)",
-    "drzava": "Croatia",
-    "year": "1953",
-    "izvor": "https://sh.wikipedia.org/wiki/Lista_antifa%C5%A1isti%C4%8Dkih_spomenika_u_Zagrebu"
-  },
-  {
-    "naziv": "Spomenik palim borcima NOVJ",
     "mesto": "Zagreb (Gajevo)",
     "drzava": "Croatia",
     "year": "1962",
-    "izvor": "https://sh.wikipedia.org/wiki/Lista_antifa%C5%A1isti%C4%8Dkih_spomenika_u_Zagrebu; https://zagrebacki-kutak.hr/koprivnicka-bb-spomenik-palim-borcima-i-zrtvama-fasizma/"
+    "izvor": "https://sh.wikipedia.org/wiki/Lista_antifa%C5%A1isti%C4%8Dkih_spomenika_u_Zagrebu; https://zagrebacki-kutak.hr/koprivnicka-bb-spomenik-palim-borcima-i-zrtvama-fasizma/",
+    "kandidati": [
+      {
+        "lat": 45.7898573,
+        "lng": 15.9343145,
+        "izvor": "https://www.openstreetmap.org/node/8356166132",
+        "opis": "Neimenovana kamena stela kod Koprivničke ulice; adresa iz opisa traženog spomenika odgovara okolini, a Commons fotografija Spomenik palim borcima-Jarun Zagreb.JPG prikazuje stelu za Gajevo-Jarun-Staglišće. Identitet OSM tačke još nije neposredno potvrđen; ne prebacivati na mapu."
+      }
+    ]
   },
   {
     "naziv": "Spomenik palim borcima NOVJ i žrtvama fašizma",
     "mesto": "Zagreb (Trg siječanjskih žrtava)",
     "drzava": "Croatia",
     "year": "1959",
-    "izvor": "https://sh.wikipedia.org/wiki/Lista_antifa%C5%A1isti%C4%8Dkih_spomenika_u_Zagrebu"
-  },
-  {
-    "naziv": "Spomenik Ivanu Goranu Kovačiću",
-    "mesto": "Zagreb (Park Ribnjak)",
-    "drzava": "Croatia",
     "izvor": "https://sh.wikipedia.org/wiki/Lista_antifa%C5%A1isti%C4%8Dkih_spomenika_u_Zagrebu"
   },
   {
