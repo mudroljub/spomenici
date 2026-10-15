@@ -63797,5 +63797,380 @@
     "author": "Jordan Grabul",
     "type": "spomenik",
     "drzava": "Macedonia"
+  },
+  {
+    "id": "bitola-partizanski-grobishta",
+    "koordinate": {
+      "lat": 41.0128179,
+      "lng": 21.3432102
+    },
+    "googleCid": "12137841105132275886",
+    "title": "Bitola",
+    "info": "https://frontline.mk/2024/01/23/vo-bitola-se-obnovuva-spomen-obelezh-eto-na-partizanskite-grobishta/",
+    "naziv": "Партизански гробишта",
+    "name": "Partisan Memorial Cemetery",
+    "year": "1956",
+    "type": "groblje",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "gjavato-spomen-ploca-na-nob",
+    "koordinate": {
+      "lat": 41.080544,
+      "lng": 21.138226
+    },
+    "title": "Gjavato",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D0%BF%D0%BB%D0%BE%D1%87%D0%B0_%D0%BD%D0%B0_%D0%9D%D0%9E%D0%91_%D0%B2%D0%BE_%D0%83%D0%B0%D0%B2%D0%B0%D1%82%D0%BE.jpg",
+    "slika": "slike/spomenici/gjavato-spomen-ploca-na-nob.webp",
+    "slikaOdnos": 1.498,
+    "slikaAutor": "Kiril Simeonovski, CC BY-SA 4.0",
+    "naziv": "Спомен-плоча на НОБ",
+    "type": "ploca",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "ramna-spomen-ploca-na-nob",
+    "koordinate": {
+      "lat": 41.088848,
+      "lng": 21.18508
+    },
+    "title": "Ramna",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D0%BF%D0%BB%D0%BE%D1%87%D0%B0_%D0%BD%D0%B0_%D0%9D%D0%9E%D0%91_%D0%B2%D0%BE_%D0%A0%D0%B0%D0%BC%D0%BD%D0%B0.jpg",
+    "slika": "slike/spomenici/ramna-spomen-ploca-na-nob.webp",
+    "slikaOdnos": 1.498,
+    "slikaAutor": "Kiril Simeonovski, CC BY-SA 4.0",
+    "naziv": "Спомен-плоча на НОБ",
+    "type": "ploca",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "gorno-lakocerej-spomenik-na-padnatite-borci-od-nar",
+    "koordinate": {
+      "lat": 41.168698,
+      "lng": 20.8050899
+    },
+    "title": "Gorno Lakočerej",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BD%D0%B0_%D0%BF%D0%B0%D0%B4%D0%BD%D0%B0%D1%82%D0%B8%D1%82%D0%B5_%D0%B1%D0%BE%D1%80%D1%86%D0%B8_%D0%BE%D0%B4_%D0%9D%D0%B0%D1%80%D0%BE%D0%B4%D0%BD%D0%BE_%D0%BE%D1%81%D0%BB%D0%BE%D0%B1%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D0%BD%D0%B0%D1%82%D0%B0_%D0%B2%D0%BE%D1%98%D0%BD%D0%B0_%D0%B2%D0%BE_%D0%93%D0%BE%D1%80%D0%BD%D0%BE_%D0%9B%D0%B0%D0%BA%D0%BE%D1%87%D0%B5%D1%80%D0%B5%D1%98_%2801%29.jpg",
+    "slika": "slike/spomenici/gorno-lakocerej-spomenik-na-padnatite-borci-od-nar.webp",
+    "slikaOdnos": 0.563,
+    "slikaAutor": "MariceskiIvanco, CC BY-SA 4.0",
+    "naziv": "Споменик на паднатите борци од Народноослободителната војна",
+    "type": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "sopotnica-spomen-ploca-na-nob",
+    "koordinate": {
+      "lat": 41.294628,
+      "lng": 21.155882
+    },
+    "title": "Sopotnica",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D0%BF%D0%BB%D0%BE%D1%87%D0%B0_%D0%BD%D0%B0_%D0%9D%D0%9E%D0%91_%D0%B2%D0%BE_%D0%A1%D0%BE%D0%BF%D0%BE%D1%82%D0%BD%D0%B8%D1%86%D0%B0.jpg",
+    "slika": "slike/spomenici/sopotnica-spomen-ploca-na-nob.webp",
+    "slikaOdnos": 1.498,
+    "slikaAutor": "Kiril Simeonovski, CC BY-SA 4.0",
+    "naziv": "Спомен-плоча на НОБ",
+    "type": "ploca",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "novo-konjarevo-spomen-ploca-na-nob",
+    "koordinate": {
+      "lat": 41.396011,
+      "lng": 22.952845
+    },
+    "title": "Novo Konjarevo",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D0%BF%D0%BB%D0%BE%D1%87%D0%B0_%D0%BD%D0%B0_%D0%9D%D0%9E%D0%91_%D0%BA%D0%B0%D1%98_%D0%9D%D0%BE%D0%B2%D0%BE_%D0%9A%D0%BE%D1%9A%D0%B0%D1%80%D0%B5%D0%B2%D0%BE.jpg",
+    "slika": "slike/spomenici/novo-konjarevo-spomen-ploca-na-nob.webp",
+    "slikaOdnos": 1.498,
+    "slikaAutor": "Kiril Simeonovski, CC BY-SA 4.0",
+    "naziv": "Спомен-плоча на НОБ",
+    "type": "ploca",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "skopje-vodno-spomen-ploca-na-boro-petrusevski",
+    "koordinate": {
+      "lat": 41.988998,
+      "lng": 21.417447
+    },
+    "title": "Skopje (Vodno)",
+    "info": "https://commons.wikimedia.org/wiki/File%3ABoro_Petrushevski_-_spomen_ploca_8_septemvri_1941.jpg",
+    "slika": "slike/spomenici/skopje-vodno-spomen-ploca-na-boro-petrusevski.webp",
+    "slikaOdnos": 1.498,
+    "slikaAutor": "Zdravko, CC BY-SA 4.0",
+    "naziv": "Спомен-плоча на Боро Петрушевски",
+    "type": "ploca",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "djakovica-spomen-ploca-nob-a",
+    "koordinate": {
+      "lat": 42.383041,
+      "lng": 20.424116
+    },
+    "title": "Đakovica",
+    "info": "https://commons.wikimedia.org/wiki/File%3AWW_II_Plaque_Gjakova.jpg",
+    "slika": "slike/spomenici/djakovica-spomen-ploca-nob-a.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "Arianit, CC BY-SA 4.0",
+    "naziv": "Spomen-ploča NOB-a",
+    "type": "ploca",
+    "drzava": "Kosovo"
+  },
+  {
+    "id": "herceg-novi-spomen-ploca-oslobodjenju-herceg-novog",
+    "koordinate": {
+      "lat": 42.451748,
+      "lng": 18.537092
+    },
+    "title": "Herceg Novi",
+    "info": "https://commons.wikimedia.org/wiki/File%3ASpomen-plo%C4%8Da_oslobo%C4%91enju_Herceg-Novog.jpg",
+    "slika": "slike/spomenici/herceg-novi-spomen-ploca-oslobodjenju-herceg-novog.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "August Dominus, CC0",
+    "naziv": "Spomen-ploča oslobođenju Herceg-Novog",
+    "type": "ploca",
+    "drzava": "Montenegro"
+  },
+  {
+    "id": "studena-spomen-ploca-formiranju-pirotskog-partizan",
+    "koordinate": {
+      "lat": 42.970242,
+      "lng": 22.506653
+    },
+    "title": "Studena",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD-%D0%BF%D0%BB%D0%BE%D1%87%D0%B0_%D0%9F%D0%B8%D1%80%D0%BE%D1%82%D1%81%D0%BA%D0%B8_%D0%BF%D0%B0%D1%80%D1%82%D0%B8%D0%B7%D0%B0%D0%BD%D1%81%D0%BA%D0%B8_%D0%BE%D0%B4%D1%80%D0%B5%D0%B4_%D0%A1%D1%82%D1%83%D0%B4%D0%B5%D0%BD%D0%B0.jpg",
+    "slika": "slike/spomenici/studena-spomen-ploca-formiranju-pirotskog-partizan.webp",
+    "slikaOdnos": 1.778,
+    "slikaAutor": "SBoki, CC BY-SA 4.0",
+    "naziv": "Spomen-ploča formiranju Pirotskog partizanskog odreda",
+    "type": "ploca",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "novi-pazar-spomenik-borcima-nob-a",
+    "koordinate": {
+      "lat": 43.139128,
+      "lng": 20.517229
+    },
+    "title": "Novi Pazar",
+    "info": "https://commons.wikimedia.org/wiki/File%3AGradski_park_u_Novom_Pazaru_-_spomenik_borcima_NOB-a.jpg",
+    "slika": "slike/spomenici/novi-pazar-spomenik-borcima-nob-a.webp",
+    "slikaOdnos": 1.504,
+    "slikaAutor": "Miomir Magdevski, CC BY-SA 4.0",
+    "naziv": "Spomenik borcima NOB-a",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "lopas-spomenik-borcima-nob-a",
+    "koordinate": {
+      "lat": 43.807368,
+      "lng": 20.129623
+    },
+    "title": "Lopaš",
+    "info": "https://commons.wikimedia.org/wiki/File%3ALopa%C5%A1%2C_spomenik_borcima_NOB-a.jpg",
+    "slika": "slike/spomenici/lopas-spomenik-borcima-nob-a.webp",
+    "slikaOdnos": 1.498,
+    "slikaAutor": "BrankaVV, CC BY-SA 4.0",
+    "naziv": "Spomenik borcima NOB-a",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "ducalovici-krajputas-partizanu-vojislavu-voju-paji",
+    "koordinate": {
+      "lat": 43.861895,
+      "lng": 20.199034
+    },
+    "title": "Dučalovići",
+    "info": "https://commons.wikimedia.org/wiki/File%3AKrajputa%C5%A1_partizanu_Vojislavu_Voju_Paji%C4%87u_u_Du%C4%8Dalovi%C4%87ima_02.jpg",
+    "slika": "slike/spomenici/ducalovici-krajputas-partizanu-vojislavu-voju-paji.webp",
+    "slikaOdnos": 0.667,
+    "slikaAutor": "BrankaVV, CC BY-SA 4.0",
+    "naziv": "Krajputaš partizanu Vojislavu Voju Pajiću",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "svrackovci-spomen-obelezje-milosu-djuricu",
+    "koordinate": {
+      "lat": 44.059086,
+      "lng": 20.490623
+    },
+    "title": "Svračkovci",
+    "info": "https://commons.wikimedia.org/wiki/File%3ASpomen-obelezje_Milosu_Djuricu_%281920-1941%29_kraj_skole_u_Svrackovcima%2C_Gornji_Milanovac_%281%29.jpg",
+    "slika": "slike/spomenici/svrackovci-spomen-obelezje-milosu-djuricu.webp",
+    "slikaOdnos": 0.667,
+    "slikaAutor": "BrankaVV, CC BY-SA 4.0",
+    "naziv": "Spomen-obeležje Milošu Đuriću",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "mosna-spomenik-palim-borcima-u-drugom-svetskom-rat",
+    "koordinate": {
+      "lat": 44.42894,
+      "lng": 22.173963
+    },
+    "title": "Mosna",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BF%D0%B0%D0%BB%D0%B8%D0%BC_%D0%B1%D0%BE%D1%80%D1%86%D0%B8%D0%BC%D0%B0_%D1%83_II_%D1%81%D0%B2%D0%B5%D1%82%D1%81%D0%BA%D0%BE%D0%BC_%D1%80%D0%B0%D1%82%D1%83.jpg",
+    "slika": "slike/spomenici/mosna-spomenik-palim-borcima-u-drugom-svetskom-rat.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "Жарко Миловановић, CC BY-SA 4.0",
+    "naziv": "Spomenik palim borcima u Drugom svetskom ratu",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "pancevo-vojlovica-spomenik-palim-borcima-nob-a-iz",
+    "koordinate": {
+      "lat": 44.842864,
+      "lng": 20.668958
+    },
+    "title": "Pančevo (Vojlovica)",
+    "info": "https://commons.wikimedia.org/wiki/File%3ASpomenik_palim_borcima_NOB-a_iz_Vojlovice.jpg",
+    "slika": "slike/spomenici/pancevo-vojlovica-spomenik-palim-borcima-nob-a-iz.webp",
+    "slikaOdnos": 0.563,
+    "slikaAutor": "Mickey Mystique, CC BY-SA 4.0",
+    "naziv": "Spomenik palim borcima NOB-a iz Vojlovice",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "glogonj-spomenik-partizanima",
+    "koordinate": {
+      "lat": 44.985881,
+      "lng": 20.524869
+    },
+    "title": "Glogonj",
+    "info": "https://commons.wikimedia.org/wiki/File%3ASpomenik_partizanima%2C_Glogonj.jpg",
+    "slika": "slike/spomenici/glogonj-spomenik-partizanima.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "Vacant0, CC BY-SA 4.0",
+    "naziv": "Spomenik partizanima",
+    "type": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "vrata-spomenik-nob",
+    "koordinate": {
+      "lat": 45.3129,
+      "lng": 14.7252
+    },
+    "title": "Vrata",
+    "info": "https://commons.wikimedia.org/wiki/File%3ASpomenik_NOB%2C_Vrata.jpg",
+    "slika": "slike/spomenici/vrata-spomenik-nob.webp",
+    "slikaOdnos": 1.498,
+    "slikaAutor": "Lan Glad, CC BY-SA 4.0",
+    "naziv": "Spomenik NOB",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "zilje-spominska-plosca-padlim-domacinom-v-narodno",
+    "koordinate": {
+      "lat": 45.460688,
+      "lng": 15.309534
+    },
+    "title": "Zilje",
+    "info": "https://commons.wikimedia.org/wiki/File%3ASpominska_plo%C5%A1%C4%8Da_padlim_doma%C4%8Dinom_v_narodno_osvobodilni_vojni_1941-1945-3.jpg",
+    "slika": "slike/spomenici/zilje-spominska-plosca-padlim-domacinom-v-narodno.webp",
+    "slikaOdnos": 1.498,
+    "slikaAutor": "Unknown authorUnknown author, CC BY 4.0",
+    "naziv": "Spominska plošča padlim domačinom v narodnoosvobodilni vojni 1941–1945",
+    "type": "ploca",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "briga-spomenik-stirim-padlim-v-narodnoosvobodilni",
+    "koordinate": {
+      "lat": 45.5121,
+      "lng": 14.8621
+    },
+    "title": "Briga",
+    "info": "https://commons.wikimedia.org/wiki/File%3APartizanski_spomenik_pri_Dre%C5%BEniku.jpg",
+    "slika": "slike/spomenici/briga-spomenik-stirim-padlim-v-narodnoosvobodilni.webp",
+    "slikaOdnos": 1.498,
+    "slikaAutor": "Lan Glad, CC BY-SA 4.0",
+    "naziv": "Spomenik štirim padlim v narodnoosvobodilni vojni",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "lalic-spomenik-palim-borcima",
+    "koordinate": {
+      "lat": 45.518666,
+      "lng": 19.358166
+    },
+    "title": "Lalić",
+    "info": "https://commons.wikimedia.org/wiki/File%3ASpomenik_palim_borcima_u_Lali%C4%87u.JPG",
+    "slika": "slike/spomenici/lalic-spomenik-palim-borcima.webp",
+    "slikaOdnos": 0.669,
+    "slikaAutor": "Dobrislava, CC BY-SA 4.0",
+    "naziv": "Spomenik palim borcima",
+    "type": "spomenik",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "gaciste-spomenik-palim-borcima-u-nob-u",
+    "koordinate": {
+      "lat": 45.825467,
+      "lng": 17.582017
+    },
+    "title": "Gaćište",
+    "info": "https://commons.wikimedia.org/wiki/File%3A%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BF%D0%B0%D0%BB%D0%B8%D0%BC_%D0%B1%D0%BE%D1%80%D1%86%D0%B8%D0%BC%D0%B0_%D1%83_%D0%9D%D0%9E%D0%91%2C_%D0%BD%D0%B0%D0%BA%D0%BE%D0%BD_%D0%BE%D0%B1%D0%BD%D0%BE%D0%B2%D0%B5_2020._%D0%B3%D0%BE%D0%B4%D0%B8%D0%BD%D0%B5.jpg",
+    "slika": "slike/spomenici/gaciste-spomenik-palim-borcima-u-nob-u.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "Зоран Радановић, CC BY-SA 4.0",
+    "naziv": "Spomenik palim borcima u NOB-u",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "preseka-partizanski-spomenik",
+    "koordinate": {
+      "lat": 45.96418,
+      "lng": 16.390277
+    },
+    "title": "Preseka",
+    "info": "https://commons.wikimedia.org/wiki/File%3APreseka_-_Partizan%27s_Monument_-_panoramio.jpg",
+    "slika": "slike/spomenici/preseka-partizanski-spomenik.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "Eranyo, CC BY 3.0",
+    "naziv": "Partizanski spomenik",
+    "type": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "brnica-spomenik-padlim-borcem",
+    "koordinate": {
+      "lat": 46.1432615,
+      "lng": 15.0968134
+    },
+    "title": "Brnica",
+    "info": "https://commons.wikimedia.org/wiki/File%3ASpomenik_padlim_borcem_-_razpelo_-_klop.jpg",
+    "slika": "slike/spomenici/brnica-spomenik-padlim-borcem.webp",
+    "slikaOdnos": 1.282,
+    "slikaAutor": "Propivo, CC BY-SA 4.0",
+    "naziv": "Spomenik padlim borcem",
+    "type": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "grahovo-ob-baci-spominska-plosca-ubitim-talcem-in",
+    "koordinate": {
+      "lat": 46.15881,
+      "lng": 13.867154
+    },
+    "title": "Grahovo ob Bači",
+    "info": "https://commons.wikimedia.org/wiki/File%3ASpominska_plo%C5%A1%C4%8Da_ubitim_talcem_in_akcijam_9._korpusa_v_Grahovem_ob_Ba%C4%8Di.jpg",
+    "slika": "slike/spomenici/grahovo-ob-baci-spominska-plosca-ubitim-talcem-in.webp",
+    "slikaOdnos": 1.778,
+    "slikaAutor": "Bb63lj, CC BY-SA 4.0",
+    "naziv": "Spominska plošča ubitim talcem in akcijam 9. korpusa",
+    "type": "ploca",
+    "drzava": "Slovenia"
   }
 ]
