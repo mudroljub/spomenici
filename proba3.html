@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="sh">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="referrer" content="no-referrer">
+  <title>Proba kao naslovna</title>
+  <meta name="description" content="Yugoslav monuments travel app" />
+  <meta property="og:image" content="https://mudroljub.github.io/spomeniks/screen.png" />
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="lib/leaflet/leaflet.css" />
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="style.css">
+  <!-- sve odjednom, umesto lanca uvoza i podataka tek posle njega -->
+  <link rel="modulepreload" href="main.js">
+  <link rel="modulepreload" href="klase/mapa.js">
+  <link rel="modulepreload" href="klase/Marker.js">
+  <link rel="modulepreload" href="komponente/Detalji.js">
+  <link rel="modulepreload" href="komponente/Filteri.js">
+  <link rel="modulepreload" href="komponente/Jezik.js">
+  <link rel="modulepreload" href="komponente/Legenda.js">
+  <link rel="modulepreload" href="komponente/Lokator.js">
+  <link rel="modulepreload" href="komponente/Najblizi.js">
+  <link rel="modulepreload" href="komponente/Pretraga.js">
+  <link rel="modulepreload" href="komponente/PunEkran.js">
+  <link rel="modulepreload" href="komponente/Ruta.js">
+  <link rel="modulepreload" href="komponente/Slajder.js">
+  <link rel="modulepreload" href="komponente/Slika.js">
+  <link rel="modulepreload" href="utils/helpers.js">
+  <link rel="modulepreload" href="utils/ikonice.js">
+  <link rel="modulepreload" href="utils/jezik.js">
+  <link rel="modulepreload" href="utils/oznake.js">
+  <link rel="modulepreload" href="utils/ruta.js">
+  <link rel="preload" href="data/spomeniks.json" as="fetch" crossorigin>
+  <link rel="preload" href="data/autori.json" as="fetch" crossorigin>
+  <link rel="preload" href="data/posvete.json" as="fetch" crossorigin>
+  <link rel="preload" href="data/ture.json" as="fetch" crossorigin>
+</head>
+
+<body>
+  <dugme-pun-ekran></dugme-pun-ekran>
+  <dugme-jezik></dugme-jezik>
+
+  <h1>Spomeniks <span class="podnaslov">Yugoslav monuments</span></h1>
+  <div id="dugmad-dole">
+    <dugme-legenda></dugme-legenda>
+    <dugme-lokator></dugme-lokator>
+  </div>
+
+  <div id="mapa"></div>
+  <div id="slajder-okvir"></div>
+
+  <script src="lib/leaflet/leaflet.js"></script>
+  <script defer src="main.js" type="module"></script>
+</body>
+
+</html>
