@@ -5334,12 +5334,13 @@
       "lng": 21.4353531
     },
     "title": "Skopje (Butel)",
+    "info": "https://arhiva.zaum.mk/wp-content/uploads/2020/03/2006_06_29_Jordan_Grabuloski_Grabul_Omaz.pdf",
     "slika": "slike/spomenici/butel-cemetery-graveyard-fallen-fighters.webp",
     "slikaOdnos": 1.274,
     "naziv": "Меморијален комплекс Бутел",
     "name": "Memorial Graveyard to Fallen Fighters",
     "year": "1964",
-    "author": "Jordan Grabul",
+    "author": "Jordan Grabul & Dušan Pecovski",
     "type": "groblje",
     "drzava": "Macedonia"
   },
@@ -22469,6 +22470,9 @@
     },
     "googleCid": "6940591147520599285",
     "title": "Crepaja",
+    "slika": "slike/spomenici/crepaja.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "Никола Ђорђевић, CC BY-SA 4.0",
     "naziv": "Spomenik palim borcima u Drugom svetskom ratu",
     "type": "lokalni",
     "drzava": "Serbia"
@@ -24935,6 +24939,9 @@
     },
     "googleCid": "12845686569263607083",
     "title": "Bečej",
+    "slika": "slike/spomenici/becej.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "Miljan Simonović, CC BY-SA 4.0",
     "naziv": "Spomenik žrtvama fašizma",
     "type": "lokalni",
     "drzava": "Serbia"
@@ -25818,6 +25825,9 @@
     },
     "title": "Skopje (Centar)",
     "info": "https://www.openstreetmap.org/node/3713662739",
+    "slika": "slike/spomenici/skopje-tito.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "METOKARA, CC BY-SA 3.0",
     "naziv": "Јосип Броз Тито",
     "name": "Statue of Josip Broz - Tito",
     "type": "spomenik",
@@ -26243,6 +26253,9 @@
     },
     "title": "Jabuka",
     "info": "https://www.openstreetmap.org/node/9514865651",
+    "slika": "slike/spomenici/jabuka-buha.webp",
+    "slikaOdnos": 2.564,
+    "slikaAutor": "Pinki, CC BY-SA 3.0",
     "naziv": "Spomenik Bošku Buhi",
     "name": "Statue of Boško Buha",
     "type": "spomenik",
@@ -54767,6 +54780,9 @@
     },
     "title": "Borovo",
     "info": "https://www.openstreetmap.org/node/7386358309",
+    "slika": "slike/spomenici/borovo-spomenik-palim-borcima.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "MirkoS18, CC BY-SA 4.0",
     "naziv": "Spomenik Palim Borcima",
     "type": "lokalni",
     "drzava": "Croatia"
@@ -57026,6 +57042,9 @@
     },
     "title": "Vrbovec",
     "info": "https://www.openstreetmap.org/node/5264669428",
+    "slika": "slike/spomenici/vrbovec-spomenik-palim-borcima-nob-a.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "Eranyo, CC BY 3.0",
     "naziv": "Spomenik palim borcima NOB-a",
     "type": "lokalni",
     "drzava": "Croatia"
@@ -57364,6 +57383,9 @@
     },
     "title": "Radiovce",
     "info": "https://www.openstreetmap.org/node/3039854149",
+    "slika": "slike/spomenici/radiovce-spomenik-na-zrtvi-od-nov.webp",
+    "slikaOdnos": 1.498,
+    "slikaAutor": "Kiril Simeonovski, CC BY-SA 4.0",
     "naziv": "Споменик на жртви од НОВ",
     "type": "lokalni",
     "drzava": "Macedonia"
@@ -57376,6 +57398,9 @@
     },
     "title": "Skopje (Novo Maalo)",
     "info": "https://www.openstreetmap.org/node/13308387070",
+    "slika": "slike/spomenici/skopje-novo-maalo-slave-georgievski-snajderot.webp",
+    "slikaOdnos": 1.778,
+    "slikaAutor": "Zdravko, CC BY-SA 4.0",
     "naziv": "Славе Георгиевски Шнајдерот",
     "type": "lokalni",
     "drzava": "Macedonia"
@@ -57520,6 +57545,9 @@
     },
     "title": "Banatski Brestovac",
     "info": "https://www.openstreetmap.org/node/8305960672",
+    "slika": "slike/spomenici/banatski-brestovac-spomenik-palim-borcima-nor-i-zf.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "Никола Ђорђевић, CC BY-SA 4.0",
     "naziv": "Spomenik palim borcima NOR i ŽFT",
     "type": "lokalni",
     "drzava": "Serbia"
@@ -57532,6 +57560,9 @@
     },
     "title": "Banatsko Novo Selo",
     "info": "https://www.openstreetmap.org/node/8468934196",
+    "slika": "slike/spomenici/banatsko-novo-selo-spomenik-palim-borcima-i-zrtvam.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "Vacant0, CC BY-SA 4.0",
     "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
     "type": "lokalni",
     "drzava": "Serbia"
@@ -57620,6 +57651,9 @@
     },
     "title": "Beočin (Stari Rakovac)",
     "info": "https://www.openstreetmap.org/node/6680901462",
+    "slika": "slike/spomenici/beocin-stari-rakovac-spomenik-3-ceti-fruskogorskog.webp",
+    "slikaOdnos": 1.498,
+    "slikaAutor": "Alexkom000, CC BY 4.0",
     "naziv": "Spomenik 3. četi Fruškogorskog partizanskog odreda",
     "type": "lokalni",
     "drzava": "Serbia"
@@ -57731,6 +57765,9 @@
     },
     "title": "Dolovo",
     "info": "https://www.openstreetmap.org/node/10000645403",
+    "slika": "slike/spomenici/dolovo-spomenik-za-slobodu-i-zrtvama-fasistickog-t.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "Vacant0, CC BY-SA 4.0",
     "naziv": "Spomenik za slobodu i žrtvama fašističkog terora 1941-1945",
     "type": "lokalni",
     "drzava": "Serbia"
@@ -57971,6 +58008,9 @@
     },
     "title": "Omoljica",
     "info": "https://www.openstreetmap.org/node/8381307750",
+    "slika": "slike/spomenici/omoljica-pali-borci-u-narodnooslobodilackom-ratu.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "Vacant0, CC BY-SA 4.0",
     "naziv": "Pali borci u narodnooslobodilačkom ratu",
     "type": "ploca",
     "drzava": "Serbia"
@@ -57995,6 +58035,9 @@
     },
     "title": "Pančevo",
     "info": "https://www.openstreetmap.org/node/14052360975",
+    "slika": "slike/spomenici/pancevo-spomen-ploca-streljanim-gradjanima-panceva.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "Laslovarga, CC BY-SA 4.0",
     "naziv": "Spomen-ploča streljanim građanima Pančeva",
     "type": "ploca",
     "drzava": "Serbia"
@@ -58103,6 +58146,9 @@
     },
     "title": "Sremska Kamenica",
     "info": "https://www.openstreetmap.org/node/10821766724",
+    "slika": "slike/spomenici/sremska-kamenica-palim-borcima-n-o-rata.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "Micki, CC BY-SA 3.0",
     "naziv": "Palim borcima N. O. Rata",
     "type": "lokalni",
     "drzava": "Serbia"
@@ -58139,6 +58185,9 @@
     },
     "title": "Subotica (Aleksandrovo)",
     "info": "https://www.openstreetmap.org/node/4008347338",
+    "slika": "slike/spomenici/subotica-aleksandrovo-spomenik-palim-borcima-i-zrt.webp",
+    "slikaOdnos": 0.795,
+    "slikaAutor": "Knoken (https://www.xiwl.com/w/index.php/User:Knoken), CC BY-SA 4.0",
     "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
     "type": "lokalni",
     "drzava": "Serbia"
@@ -58298,6 +58347,9 @@
     },
     "title": "Zrenjanin (Gradnulica guvno)",
     "info": "https://www.openstreetmap.org/node/13683487663",
+    "slika": "slike/spomenici/zrenjanin-gradnulica-guvno-spomenik-streljanim-rod.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "Vanjagenije, CC BY-SA 4.0",
     "naziv": "Spomenik streljanim rodoljubima na Mihajlovačkom drumu",
     "type": "lokalni",
     "drzava": "Serbia"
@@ -63727,5 +63779,23 @@
     "year": "1955",
     "type": "kompleks",
     "drzava": "Slovenia"
+  },
+  {
+    "id": "vatasa-spomenik-na-strelanite-mladinci",
+    "koordinate": {
+      "lat": 41.4014167,
+      "lng": 22.0285
+    },
+    "title": "Kavadarci (Vataša)",
+    "info": "https://www.spomenikdatabase.org/kavadarci",
+    "slika": "slike/spomenici/vatasa-spomenik-na-strelanite-mladinci.webp",
+    "slikaOdnos": 1.778,
+    "slikaAutor": "Zdravko, CC BY-SA 4.0",
+    "naziv": "Споменик на стреланите ваташки младинци",
+    "name": "Memorial to the Executed Vataša Youth",
+    "year": "1963",
+    "author": "Jordan Grabul",
+    "type": "spomenik",
+    "drzava": "Macedonia"
   }
 ]
