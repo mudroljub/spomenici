@@ -57,6 +57,8 @@ Pregled slika: `magick montage -label '%t' <fajlovi> -tile 5x3 -geometry 220x165
 
 ## 5. Zadaci, redom
 
+**Stanje 2026-10-14 uveče:** A, B i C su urađeni, D je u toku (Hrvatska, BiH, Makedonija, Crna Gora, Kosovo; Srbija čeka dogovor jer prelazi 500 zahteva), a E i F su zatvoreni (videti `docs/BELESKE.md`). Novi kandidat je spomenicinob.info (popis spomenika NOB-a u BiH, bez koordinata), ali tek posle dogovora sa korisnikom. Spomenici bez lokacije se skupljaju u `data/bez_lokacije.json`.
+
 Posle svakog zadatka: `integritet.py` bez novih grešaka, `slike_odnos.py` ako ima novih slika, kratak unos u `docs/BELESKE.md` (šta je urađeno, brojevi, šta je preskočeno i zašto), brisanje stavke iz `## TODO` u `README.md`.
 
 ### A. Commons: geotagovana mesta koja nemamo
