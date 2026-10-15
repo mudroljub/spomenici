@@ -52,9 +52,10 @@ if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js')
 
 const ucitaj = putanja => fetch(putanja).then(res => res.json())
 
-Promise.all([ucitaj('data/spomeniks.json'), ucitaj('data/autori.json'), ucitaj('data/ture.json')])
-  .then(([spomenici, autori, ture]) => {
+Promise.all([ucitaj('data/spomeniks.json'), ucitaj('data/autori.json'), ucitaj('data/posvete.json'), ucitaj('data/ture.json')])
+  .then(([spomenici, autori, posvete, ture]) => {
     detalji.postaviAutore(autori)
+    detalji.postaviPosvete(posvete)
     const stavke = spomenici.map(praviStavku)
     render(stavke, false)
     ruta.postavi(stavke, ture)

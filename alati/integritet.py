@@ -3,11 +3,12 @@ sys.stdout.reconfigure(encoding='utf-8')
 d = json.load(open('data/spomeniks.json', encoding='utf8'))
 ture = json.load(open('data/ture.json', encoding='utf8'))
 autori = json.load(open('data/autori.json', encoding='utf8'))
+posvete = json.load(open('data/posvete.json', encoding='utf8'))
 greske = collections.defaultdict(list)
 TIPOVI = {'istaknut', 'kompleks', 'spomenik', 'statua', 'bista', 'lokalni', 'ploca', 'groblje', 'muzej'}
 STANJA = {'rusevine', 'srusen', 'uklonjen', 'ostecen', 'zatvoren'}
 DRZAVE = {'Slovenia', 'Croatia', 'Bosnia and Herzegovina', 'Serbia', 'Montenegro', 'Macedonia', 'Kosovo', 'Italy'}
-POZNATA = {'id', 'koordinate', 'googleCid', 'title', 'info', 'wiki', 'wikiEn', 'slika', 'slikaOdnos', 'slikaAutor', 'naziv', 'name', 'author', 'year', 'type', 'drzava', 'stanje'}
+POZNATA = {'id', 'koordinate', 'googleCid', 'title', 'info', 'wiki', 'wikiEn', 'slika', 'slikaOdnos', 'slikaAutor', 'naziv', 'name', 'author', 'year', 'type', 'drzava', 'stanje', 'posveta'}
 cir = re.compile('[Ѐ-ӿ]')
 ids = collections.Counter(s.get('id') for s in d)
 for i, n in ids.items():
@@ -36,8 +37,7 @@ for s in d:
     n = s.get('naziv') or ''
     if n and s.get('drzava') != 'Macedonia' and cir.search(n): greske['cirilica van Makedonije'].append((i, n))
     if n and s.get('drzava') == 'Macedonia' and not cir.search(n): greske['latinica u Makedoniji'].append((i, n))
-    for a in (s.get('author') or '').split(' & '):
-        pass
+    if 'posveta' in s and (not s['posveta'] or not all(q in posvete for q in s['posveta'])): greske['posveta van posvete.json'].append((i, s['posveta']))
 # isto mesto dvaput
 def m(a, b):
     return 6371000 * math.acos(min(1, math.sin(math.radians(a['lat'])) * math.sin(math.radians(b['lat'])) + math.cos(math.radians(a['lat'])) * math.cos(math.radians(b['lat'])) * math.cos(math.radians(b['lng'] - a['lng']))))

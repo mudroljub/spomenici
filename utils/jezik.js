@@ -24,8 +24,9 @@ const malo = n => [2, 3, 4].includes(n % 10) && ![12, 13, 14].includes(n % 100)
 
 const tekstovi = {
   navigacija: {sh: 'Navigacija', en: 'Navigate'},
-  mesto: {sh: 'Pronađi mesto', en: 'Find place'},
-  ruta: {sh: 'Ruta', en: 'Route'},
+  mesto: {sh: 'Mapa', en: 'Find place'},
+  dodajURutu: {sh: 'U rutu', en: 'To route'},
+  vecURuti: {sh: 'U ruti', en: 'In route'},
   trenutnaRuta: {sh: 'Trenutna ruta', en: 'Current route'},
   lista: {sh: 'Želim da posetim', en: 'Want to visit'},
   posetio: {sh: 'Posećeno', en: 'Visited'},
@@ -62,6 +63,7 @@ const tekstovi = {
   grupaDrzava: {sh: 'Država', en: 'Country'},
   grupaAutor: {sh: 'Autor', en: 'Artist'},
   autori: {sh: 'Autori', en: 'Artists'},
+  posveta: {sh: 'Posveta', en: 'Dedicated to'},
   sviAutori: {sh: 'Svi autori', en: 'All artists'},
   traziAutora: {sh: 'Traži autora', en: 'Find an artist'},
   nemaAutora: {sh: 'Nema takvog autora', en: 'No such artist'},

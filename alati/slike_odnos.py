@@ -3,7 +3,7 @@
 import json, subprocess
 
 PUT = 'data/spomeniks.json'
-RED = ['id', 'koordinate', 'googleCid', 'title', 'info', 'wiki', 'wikiEn', 'slika', 'slikaOdnos', 'slikaAutor', 'naziv', 'name', 'year', 'author', 'stanje', 'type', 'drzava']
+RED = ['id', 'koordinate', 'googleCid', 'title', 'info', 'wiki', 'wikiEn', 'slika', 'slikaOdnos', 'slikaAutor', 'naziv', 'name', 'year', 'author', 'posveta', 'stanje', 'type', 'drzava']
 
 d = json.load(open(PUT, encoding='utf8'))
 izlaz = subprocess.run(['magick', 'identify', '-format', '%i %w %h\n', 'slike/spomenici/*.webp'], capture_output=True, text=True, check=True).stdout

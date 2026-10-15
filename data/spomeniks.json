@@ -34,6 +34,9 @@
     "name": "Monument to the Kosmaj Detachment",
     "year": "1971",
     "author": "Vojin Stojić",
+    "posveta": [
+      "Q11117229"
+    ],
     "type": "istaknut",
     "drzava": "Serbia"
   },
@@ -104,6 +107,9 @@
     "name": "Kadinjača Memorial Complex",
     "year": "1952",
     "author": "Miodrag Živković",
+    "posveta": [
+      "Q13567243"
+    ],
     "type": "istaknut",
     "drzava": "Serbia"
   },
@@ -214,6 +220,9 @@
     "info": "https://www.openstreetmap.org/way/79494788",
     "naziv": "Spomen-područje Jasenovac",
     "name": "Jasenovac Memorial Site",
+    "posveta": [
+      "Q155032"
+    ],
     "type": "kompleks",
     "drzava": "Croatia"
   },
@@ -287,6 +296,9 @@
     "name": "Monument to the 1st Partisan Unit",
     "year": "1981",
     "author": "Želimir Janeš",
+    "posveta": [
+      "Q1858769"
+    ],
     "type": "istaknut",
     "drzava": "Croatia"
   },
@@ -697,6 +709,9 @@
     "name": "Ossuary for Executed Split Partisans",
     "year": "1962",
     "author": "Vuko Bombardelli",
+    "posveta": [
+      "Q12640709"
+    ],
     "type": "istaknut",
     "drzava": "Croatia"
   },
@@ -1618,6 +1633,9 @@
     "naziv": "Spomenik Ivi Loli Ribaru",
     "name": "Monument to Ivo Lola Ribar",
     "year": "1961",
+    "posveta": [
+      "Q1265884"
+    ],
     "stanje": "rusevine",
     "type": "istaknut",
     "drzava": "Bosnia and Herzegovina"
@@ -1834,6 +1852,9 @@
     "name": "Monument to the December Victims",
     "year": "1960",
     "author": "Dušan Džamonja",
+    "posveta": [
+      "Q1564958"
+    ],
     "type": "istaknut",
     "drzava": "Croatia"
   },
@@ -2265,6 +2286,9 @@
     "name": "Monument to Rade Končar and Comrades",
     "year": "1961",
     "author": "Kosta Angeli Radovani & Zdenko Kolacio",
+    "posveta": [
+      "Q640602"
+    ],
     "type": "spomenik",
     "drzava": "Croatia"
   },
@@ -3096,6 +3120,9 @@
     "name": "Monument to the Maced.-Kosovo Brigade",
     "year": "1958",
     "author": "Jordan Grabul",
+    "posveta": [
+      "Q2190702"
+    ],
     "type": "spomenik",
     "drzava": "Macedonia"
   },
@@ -3163,6 +3190,9 @@
     "naziv": "Spomen-dom „Mitar Trifunović Učo”",
     "name": "Spomen-dom '<a href=\"https://sr.wikipedia.org/wiki/%D0%9C%D0%B8%D1%82%D0%B0%D1%80_%D0%A2%D1%80%D0%B8%D1%84%D1%83%D0%BD%D0%BE%D0%B2%D0%B8%D1%9B_%D0%A3%D1%87%D0%BE\" target=\"_blank\">Mitar Trifunović</a>'",
     "year": "1978",
+    "posveta": [
+      "Q4616422"
+    ],
     "stanje": "rusevine",
     "type": "spomenik",
     "drzava": "Bosnia and Herzegovina"
@@ -3278,6 +3308,9 @@
     "name": "Monument to <a href=\"https://en.wikipedia.org/wiki/Boris_Kidri%C4%8D\" target=\"_blank\">Boris Kidrič</a>",
     "year": "1963",
     "author": "Stojan Batič",
+    "posveta": [
+      "Q192041"
+    ],
     "type": "spomenik",
     "drzava": "Slovenia"
   },
@@ -3741,6 +3774,9 @@
     "name": "Monument to <a href=\"https://en.wikipedia.org/wiki/Stjepan_Filipovi%C4%87\" target=\"_blank\">Stjepan Filipović</a>",
     "year": "1960",
     "author": "Vojin Bakić",
+    "posveta": [
+      "Q458061"
+    ],
     "type": "statua",
     "drzava": "Serbia"
   },
@@ -3809,6 +3845,9 @@
     "name": "Monument to Victims of the 1942 Raid",
     "year": "1971",
     "author": "Jovan Soldatović",
+    "posveta": [
+      "Q1047674"
+    ],
     "type": "istaknut",
     "drzava": "Serbia"
   },
@@ -4351,6 +4390,9 @@
     "name": "Monument to <a href=\"https://en.wikipedia.org/wiki/Stjepan_Filipovi%C4%87\" target=\"_blank\">Stjepan Filipović</a>",
     "year": "1978",
     "author": "Stjepan Gračan",
+    "posveta": [
+      "Q458061"
+    ],
     "stanje": "uklonjen",
     "type": "statua",
     "drzava": "Croatia"
@@ -4614,6 +4656,9 @@
     "name": "Tomb of <a href=\"https://sr.wikipedia.org/sr-el/%D0%94%D1%83%D1%88%D0%B0%D0%BD_%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B2%D0%B8%D1%9B_%D0%A8%D0%B0%D0%BD%D0%B5\" target=\"_blank\">Dušan Petrović Šane</a>",
     "year": "1980",
     "author": "Bogdan Bogdanović",
+    "posveta": [
+      "Q13566414"
+    ],
     "type": "spomenik",
     "drzava": "Serbia"
   },
@@ -5117,6 +5162,9 @@
     "slikaOdnos": 1.439,
     "naziv": "Spomen-muzej 21. oktobar",
     "year": "1976",
+    "posveta": [
+      "Q685201"
+    ],
     "type": "muzej",
     "drzava": "Serbia"
   },
@@ -5136,6 +5184,9 @@
     "name": "Monument to <a href=\"https://en.wikipedia.org/wiki/Edvard_Kardelj\" target=\"_blank\">Edvard Kardelj</a>",
     "year": "1981",
     "author": "Dušan Džamonja",
+    "posveta": [
+      "Q268003"
+    ],
     "type": "spomenik",
     "drzava": "Croatia"
   },
@@ -5433,6 +5484,9 @@
     "slika": "slike/spomenici/tito-museum-on-brijuni.webp",
     "slikaOdnos": 1.361,
     "naziv": "Izložba „Josip Broz Tito na Brijunima”",
+    "posveta": [
+      "Q9161"
+    ],
     "type": "muzej",
     "drzava": "Croatia"
   },
@@ -5517,6 +5571,9 @@
     "name": "Monu. to Croatian People's Uprising",
     "year": "1951",
     "author": "Vanja Radauš",
+    "posveta": [
+      "Q7582396"
+    ],
     "type": "spomenik",
     "drzava": "Croatia"
   },
@@ -5968,6 +6025,9 @@
     "naziv": "Memorijalni kompleks Boško Buha",
     "name": "Monument to Boško Buha",
     "year": "1964",
+    "posveta": [
+      "Q1280823"
+    ],
     "type": "kompleks",
     "drzava": "Serbia"
   },
@@ -6052,6 +6112,9 @@
     "name": "Battle of Batina Monument",
     "year": "1946",
     "author": "Antun Augustinčić & Srećko Lončarević",
+    "posveta": [
+      "Q2338734"
+    ],
     "type": "istaknut",
     "drzava": "Croatia"
   },
@@ -6166,6 +6229,9 @@
     "name": "Monument to Stojan Matić",
     "year": "1969",
     "author": "Vjekoslav Rukljač",
+    "posveta": [
+      "Q3741975"
+    ],
     "type": "statua",
     "drzava": "Croatia"
   },
@@ -6498,6 +6564,9 @@
     "name": "Monument to Josip Tito",
     "year": "1977",
     "author": "Antun Augustinčić",
+    "posveta": [
+      "Q9161"
+    ],
     "type": "istaknut",
     "drzava": "Slovenia"
   },
@@ -7377,6 +7446,9 @@
     "name": "Marker for <a href=\"https://en.wikipedia.org/wiki/Jadovno_concentration_camp\" target=\"_blank\">Jadovno Concentration Camp</a>",
     "year": "1975",
     "author": "Ratko Petrić",
+    "posveta": [
+      "Q1284521"
+    ],
     "type": "kompleks",
     "drzava": "Croatia"
   },
@@ -7696,6 +7768,9 @@
     "name": "Monument to <a href=\"https://en.wikipedia.org/wiki/Edvard_Rusjan\" target=\"_blank\">Edvard Rusjan</a>",
     "year": "1960",
     "author": "Janez Lenassi",
+    "posveta": [
+      "Q1291388"
+    ],
     "type": "spomenik",
     "drzava": "Slovenia"
   },
@@ -7765,6 +7840,9 @@
     "name": "Monument to <a href=\"https://en.wikipedia.org/wiki/Mladen_Stojanovi%C4%87\" target=\"_blank\">Mladen Stojanović</a>",
     "year": "1957",
     "author": "Sreten Stojanović",
+    "posveta": [
+      "Q1263753"
+    ],
     "type": "statua",
     "drzava": "Bosnia and Herzegovina"
   },
@@ -8063,6 +8141,9 @@
     "slikaOdnos": 1.481,
     "naziv": "Spomenik Vladimiru Gortanu",
     "name": "Monument to <a href=\"https://hr.wikipedia.org/wiki/Vladimir_Gortan\" target=\"_blank\">Vladimir Gortan</a>",
+    "posveta": [
+      "Q347277"
+    ],
     "type": "spomenik",
     "drzava": "Croatia"
   },
@@ -8139,6 +8220,9 @@
     "slikaOdnos": 1.481,
     "naziv": "Споменик на маршот на Македонско-косовската бригада",
     "name": "Mon. to 1943 Mac.-Kosovo Brig. March",
+    "posveta": [
+      "Q2190702"
+    ],
     "type": "spomenik",
     "drzava": "Macedonia"
   },
@@ -8369,6 +8453,9 @@
     "naziv": "Radnički spomen-dom „Božidar Maslarić”",
     "name": "Worker's Mem. House 'Božidar Maslarić'",
     "year": "1980",
+    "posveta": [
+      "Q1254204"
+    ],
     "type": "spomenik",
     "drzava": "Croatia"
   },
@@ -8475,6 +8562,10 @@
     "naziv": "Spomenik Bori Vukmiroviću i Ramizu Sadiku",
     "name": "Monument to Boro & Ramiz",
     "year": "1961",
+    "posveta": [
+      "Q1562871",
+      "Q1568696"
+    ],
     "type": "spomenik",
     "drzava": "Kosovo"
   },
@@ -9466,6 +9557,9 @@
     "naziv": "Spomenik Trećem zasjedanju ZAVNOH-a",
     "name": "Monument to 3rd Session of ZAVNOH",
     "year": "1950",
+    "posveta": [
+      "Q17490543"
+    ],
     "type": "spomenik",
     "drzava": "Croatia"
   },
@@ -9547,6 +9641,9 @@
     "name": "Monument to Janko Čmelik",
     "year": "1948",
     "author": "Stevan Bodnarov",
+    "posveta": [
+      "Q1561024"
+    ],
     "type": "statua",
     "drzava": "Serbia"
   },
@@ -9563,6 +9660,9 @@
     "naziv": "Spomenik Vukmanu Kruščiću",
     "name": "Monument to Vukman Kruščić",
     "year": "1975",
+    "posveta": [
+      "Q31181109"
+    ],
     "type": "spomenik",
     "drzava": "Serbia"
   },
@@ -10041,6 +10141,9 @@
     },
     "googleCid": "2502203508975878489",
     "title": "Lumbarda",
+    "slika": "slike/spomenici/lumbarda.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "Quahadi, CC BY 3.0",
     "naziv": "Spomenik palim borcima „Pali kurir”",
     "name": "Mon. to Fallen Fighters (Fallen Courier])",
     "type": "spomenik",
@@ -10422,6 +10525,9 @@
     "naziv": "Spomenik Drinki Pavlović",
     "name": "Monument to Drinka Pavlović",
     "year": "1955",
+    "posveta": [
+      "Q114997"
+    ],
     "type": "statua",
     "drzava": "Serbia"
   },
@@ -11333,6 +11439,9 @@
     "naziv": "Spomenik Borisu Kidriču",
     "name": "Monument to Boris Kidrič",
     "year": "1972",
+    "posveta": [
+      "Q192041"
+    ],
     "stanje": "uklonjen",
     "type": "spomenik",
     "drzava": "Slovenia"
@@ -12007,6 +12116,9 @@
     "naziv": "Spomenik Simi Šolaji",
     "name": "Monument to Simo Šolaja",
     "year": "1961",
+    "posveta": [
+      "Q206546"
+    ],
     "type": "statua",
     "drzava": "Bosnia and Herzegovina"
   },
@@ -12193,6 +12305,9 @@
     "name": "Monument to Zdravko Čelar",
     "year": "1965",
     "author": "Aleksandar Zarin",
+    "posveta": [
+      "Q16084284"
+    ],
     "type": "statua",
     "drzava": "Serbia"
   },
@@ -12383,6 +12498,9 @@
     "name": "Bust of People's Hero Vera Blagojević",
     "year": "1958",
     "author": "Vida Jocić",
+    "posveta": [
+      "Q13613463"
+    ],
     "type": "bista",
     "drzava": "Serbia"
   },
@@ -12864,6 +12982,9 @@
     "naziv": "Spomenik Marku Oreškoviću",
     "name": "Monument to Marko Orešković",
     "year": "1952",
+    "posveta": [
+      "Q1264428"
+    ],
     "stanje": "srusen",
     "type": "statua",
     "drzava": "Croatia"
@@ -13022,6 +13143,9 @@
     "naziv": "Spomenik Nikoli Miljanoviću",
     "name": "Monument to Nikola Miljanović",
     "year": "1949",
+    "posveta": [
+      "Q1565291"
+    ],
     "stanje": "uklonjen",
     "type": "statua",
     "drzava": "Croatia"
@@ -13056,6 +13180,9 @@
     "naziv": "Spomenik Ivi Loli Ribaru",
     "name": "Monument to Ivo Lola Ribar",
     "year": "1952",
+    "posveta": [
+      "Q1265884"
+    ],
     "type": "statua",
     "drzava": "Croatia"
   },
@@ -13088,6 +13215,9 @@
     "slikaOdnos": 0.667,
     "slikaAutor": "Ванилица, CC BY-SA 4.0",
     "naziv": "Spomenik Dušanu Jerkoviću",
+    "posveta": [
+      "Q12751323"
+    ],
     "type": "statua",
     "drzava": "Serbia"
   },
@@ -13249,6 +13379,9 @@
     },
     "googleCid": "6734270863913967051",
     "title": "Novi Banovci",
+    "slika": "slike/spomenici/novi-banovci.webp",
+    "slikaOdnos": 0.643,
+    "slikaAutor": "Sadko, Wikipedia, CC BY-SA 4.0",
     "naziv": "Spomenik bratstvu i jedinstvu",
     "type": "spomenik",
     "drzava": "Serbia"
@@ -13305,6 +13438,9 @@
     "slikaAutor": "AdamRadosavljevic, CC BY-SA 3.0",
     "naziv": "Spomenik Žikici Jovanoviću Špancu",
     "author": "Miroslav Protić",
+    "posveta": [
+      "Q1280992"
+    ],
     "type": "statua",
     "drzava": "Serbia"
   },
@@ -13380,6 +13516,9 @@
     "slikaOdnos": 0.667,
     "slikaAutor": "Wikimedia Commons, CC BY-SA 3.0",
     "naziv": "Spomenik Savi Kovačeviću",
+    "posveta": [
+      "Q821495"
+    ],
     "type": "spomenik",
     "drzava": "Serbia"
   },
@@ -13427,6 +13566,9 @@
     "slikaOdnos": 0.75,
     "slikaAutor": "Kocmut Dušan, CC BY-SA 2.5 si",
     "naziv": "Spomenik Joakimu Rakovcu",
+    "posveta": [
+      "Q12747705"
+    ],
     "type": "statua",
     "drzava": "Croatia"
   },
@@ -13459,6 +13601,12 @@
     "slikaAutor": "Pinki, Public domain",
     "naziv": "Grobnica narodnih heroja",
     "year": "1948",
+    "posveta": [
+      "Q1265884",
+      "Q1267791",
+      "Q1280534",
+      "Q453472"
+    ],
     "type": "groblje",
     "drzava": "Serbia"
   },
@@ -13543,6 +13691,9 @@
     "slikaOdnos": 1.498,
     "slikaAutor": "Jerry Gunner, CC BY 2.0",
     "naziv": "Spomen-park Rudolfu Perešinu",
+    "posveta": [
+      "Q2003778"
+    ],
     "type": "kompleks",
     "drzava": "Croatia"
   },
@@ -13585,6 +13736,9 @@
     "slikaOdnos": 0.58,
     "slikaAutor": "Wikimedia Commons",
     "naziv": "Spomenik Tonetu Tomšiču",
+    "posveta": [
+      "Q350128"
+    ],
     "type": "statua",
     "drzava": "Slovenia"
   },
@@ -18872,6 +19026,14 @@
     "googleCid": "371257807744575561",
     "title": "Koper",
     "naziv": "Spomenik narodnim herojem NOB",
+    "posveta": [
+      "Q1020106",
+      "Q114008347",
+      "Q12793488",
+      "Q3618889",
+      "Q61470378",
+      "Q6154855"
+    ],
     "type": "bista",
     "drzava": "Slovenia"
   },
@@ -25773,6 +25935,9 @@
     "slikaAutor": "Flammard, CC BY-SA 3.0",
     "naziv": "Većeslav Holjevac",
     "name": "Statue of Većeslav Holjevac",
+    "posveta": [
+      "Q1280010"
+    ],
     "type": "statua",
     "drzava": "Croatia"
   },
@@ -25787,6 +25952,9 @@
     "naziv": "Spomenik narodnom heroju Dragojlu Dudiću",
     "name": "Monument to People's Hero Dragojlo Dudić",
     "author": "Vida Jocić",
+    "posveta": [
+      "Q1565909"
+    ],
     "type": "statua",
     "drzava": "Serbia"
   },
@@ -25800,6 +25968,9 @@
     "info": "https://www.openstreetmap.org/node/1897892079",
     "naziv": "Josip Broz Tito",
     "name": "Bust of Josip Broz - Tito",
+    "posveta": [
+      "Q9161"
+    ],
     "type": "bista",
     "drzava": "Bosnia and Herzegovina"
   },
@@ -25816,6 +25987,9 @@
     "slikaAutor": "Plamen, Public domain",
     "naziv": "Rade Končar",
     "name": "Statue of Rade Končar",
+    "posveta": [
+      "Q640602"
+    ],
     "type": "statua",
     "drzava": "Croatia"
   },
@@ -25833,6 +26007,9 @@
     "slikaAutor": "Mickey Mystique, CC BY-SA 4.0",
     "naziv": "Spomenik narodnom heroju Žikici Jovanoviću Špancu",
     "name": "Monument to People's Hero Žikica Jovanović Španac",
+    "posveta": [
+      "Q1280992"
+    ],
     "type": "statua",
     "drzava": "Serbia"
   },
@@ -25850,6 +26027,9 @@
     "naziv": "Јосип Броз Тито",
     "name": "Statue of Josip Broz - Tito",
     "year": "2013",
+    "posveta": [
+      "Q9161"
+    ],
     "type": "statua",
     "drzava": "Macedonia"
   },
@@ -25863,6 +26043,9 @@
     "info": "https://www.openstreetmap.org/node/3889695799",
     "naziv": "Ivo Lola Ribar",
     "name": "Bust of Ivo Lola Ribar",
+    "posveta": [
+      "Q1265884"
+    ],
     "type": "bista",
     "drzava": "Croatia"
   },
@@ -25879,6 +26062,10 @@
     "slikaAutor": "Pinki, CC BY-SA 4.0",
     "naziv": "Biste Dušana i Nebojše Jerkovića",
     "name": "Bust of Nebojša Jerković",
+    "posveta": [
+      "Q12751323",
+      "Q25459947"
+    ],
     "type": "bista",
     "drzava": "Serbia"
   },
@@ -25892,6 +26079,9 @@
     "info": "https://www.openstreetmap.org/node/4236338830",
     "naziv": "Spomenik Veljku Vlahoviću",
     "name": "Statue of Veljko Vlahović",
+    "posveta": [
+      "Q317399"
+    ],
     "type": "statua",
     "drzava": "Serbia"
   },
@@ -25906,6 +26096,9 @@
     "naziv": "Ivan Lučić Lavčević",
     "name": "Bust of Ivan Lučić-Lavčević",
     "author": "Mirko Ostoja",
+    "posveta": [
+      "Q12633205"
+    ],
     "type": "bista",
     "drzava": "Croatia"
   },
@@ -25919,6 +26112,9 @@
     "info": "https://www.openstreetmap.org/node/5197665959",
     "naziv": "Spomenik narodnom heroju majoru Milanu Tepiću",
     "name": "Statue of Milan Tepić",
+    "posveta": [
+      "Q6470722"
+    ],
     "type": "statua",
     "drzava": "Serbia"
   },
@@ -25945,6 +26141,9 @@
     "info": "https://www.openstreetmap.org/node/5819178662",
     "naziv": "Stjepan Bobinec Šumski",
     "name": "Bust of Stjepan Bobinec",
+    "posveta": [
+      "Q34578"
+    ],
     "type": "bista",
     "drzava": "Croatia"
   },
@@ -25960,6 +26159,9 @@
     "name": "Bust of Majda Vrhovnik",
     "year": "1961",
     "author": "Stojan Batič",
+    "posveta": [
+      "Q4127236"
+    ],
     "type": "bista",
     "drzava": "Slovenia"
   },
@@ -25971,10 +26173,16 @@
     },
     "title": "Podgorica",
     "info": "https://www.openstreetmap.org/node/6143058905",
+    "slika": "slike/spomenici/podgorica-tito.webp",
+    "slikaOdnos": 0.534,
+    "slikaAutor": "Duklja PG, CC BY-SA 4.0",
     "naziv": "Josipu Brozu Titu",
     "name": "Statue of Josip Broz - Tito",
     "year": "2018",
     "author": "Antun Augustinčić",
+    "posveta": [
+      "Q9161"
+    ],
     "type": "statua",
     "drzava": "Montenegro"
   },
@@ -25991,6 +26199,9 @@
     "slikaAutor": "Flammard, CC BY-SA 3.0",
     "naziv": "Anka Butorac",
     "name": "Bust of Anka Butorac",
+    "posveta": [
+      "Q3438424"
+    ],
     "type": "bista",
     "drzava": "Croatia"
   },
@@ -26004,6 +26215,9 @@
     "info": "https://www.openstreetmap.org/node/6430943829",
     "naziv": "Milan Česnik",
     "name": "Bust of Milan Česnik",
+    "posveta": [
+      "Q4514855"
+    ],
     "type": "bista",
     "drzava": "Slovenia"
   },
@@ -26020,6 +26234,9 @@
     "slikaAutor": "Vanjagenije, CC BY-SA 4.0",
     "naziv": "Slavko Rodić",
     "name": "Bust of Slavko Rodić",
+    "posveta": [
+      "Q1560939"
+    ],
     "type": "bista",
     "drzava": "Serbia"
   },
@@ -26036,6 +26253,9 @@
     "slikaAutor": "Roberta F., CC BY-SA 3.0",
     "naziv": "Narodni heroj Nikola Car Črni",
     "name": "Bust of Narodni heroj Nikola Car Črni",
+    "posveta": [
+      "Q10977169"
+    ],
     "type": "bista",
     "drzava": "Croatia"
   },
@@ -26049,6 +26269,9 @@
     "info": "https://www.openstreetmap.org/node/6796739185",
     "naziv": "Bista Marka Oreškovića",
     "name": "Bust of Marko Orešković",
+    "posveta": [
+      "Q1264428"
+    ],
     "type": "bista",
     "drzava": "Serbia"
   },
@@ -26078,6 +26301,9 @@
     "info": "https://www.openstreetmap.org/node/6920443667",
     "naziv": "Karel Destovnik - Kajuh",
     "name": "Bust of Karel Destovnik",
+    "posveta": [
+      "Q752072"
+    ],
     "type": "bista",
     "drzava": "Slovenia"
   },
@@ -26091,6 +26317,9 @@
     "info": "https://www.openstreetmap.org/node/7197820899",
     "naziv": "Milan Majcen",
     "name": "Bust of Milan Majcen",
+    "posveta": [
+      "Q4275182"
+    ],
     "type": "bista",
     "drzava": "Slovenia"
   },
@@ -26108,6 +26337,9 @@
     "naziv": "Moša Pijade",
     "name": "Statue of Moša Pijade",
     "author": "Antun Augustinčić",
+    "posveta": [
+      "Q453472"
+    ],
     "type": "statua",
     "drzava": "Croatia"
   },
@@ -26121,6 +26353,9 @@
     "info": "https://www.openstreetmap.org/node/7820777550",
     "naziv": "Moša Pijade",
     "name": "Bust of Moša Pijade",
+    "posveta": [
+      "Q453472"
+    ],
     "type": "bista",
     "drzava": "Kosovo"
   },
@@ -26134,6 +26369,9 @@
     "info": "https://www.openstreetmap.org/node/7995205842",
     "naziv": "Dragojlo Dudić",
     "name": "Bust of Dragojlo Dudić",
+    "posveta": [
+      "Q1565909"
+    ],
     "type": "bista",
     "drzava": "Serbia"
   },
@@ -26152,6 +26390,9 @@
     "name": "Statue of Boris Kidrič",
     "year": "1963",
     "author": "Nikola Janković",
+    "posveta": [
+      "Q192041"
+    ],
     "type": "statua",
     "drzava": "Serbia"
   },
@@ -26165,6 +26406,9 @@
     "info": "https://www.openstreetmap.org/node/8807085495",
     "naziv": "Dr. Aleš Bebler Primož",
     "name": "Bust of Aleš Bebler",
+    "posveta": [
+      "Q10982217"
+    ],
     "type": "bista",
     "drzava": "Slovenia"
   },
@@ -26181,6 +26425,9 @@
     "slikaAutor": "Zdravko, CC BY-SA 4.0",
     "naziv": "Генерал Михајло Апостолски",
     "name": "Statue of Mihailo Apostolski",
+    "posveta": [
+      "Q3088154"
+    ],
     "type": "statua",
     "drzava": "Macedonia"
   },
@@ -26194,6 +26441,9 @@
     "info": "https://www.openstreetmap.org/node/8949538341",
     "naziv": "Veselin Masleša",
     "name": "Bust of Veselin Masleša",
+    "posveta": [
+      "Q82914"
+    ],
     "type": "bista",
     "drzava": "Bosnia and Herzegovina"
   },
@@ -26207,6 +26457,9 @@
     "info": "https://www.openstreetmap.org/node/8949538404",
     "naziv": "Rudi Čajavec",
     "name": "Bust of Rudi Čajavec",
+    "posveta": [
+      "Q2614845"
+    ],
     "type": "bista",
     "drzava": "Bosnia and Herzegovina"
   },
@@ -26220,6 +26473,9 @@
     "info": "https://www.openstreetmap.org/node/8964179168",
     "naziv": "Rudi Čajavec",
     "name": "Bust of Rudi Čajavec",
+    "posveta": [
+      "Q2614845"
+    ],
     "type": "bista",
     "drzava": "Bosnia and Herzegovina"
   },
@@ -26249,6 +26505,9 @@
     "info": "https://www.openstreetmap.org/node/9421422003",
     "naziv": "Dobrivoje Radosavljević Bobi",
     "name": "Bust of Dobrivoe Radosavljević",
+    "posveta": [
+      "Q1568475"
+    ],
     "type": "bista",
     "drzava": "Serbia"
   },
@@ -26262,6 +26521,9 @@
     "info": "https://www.openstreetmap.org/node/9443229900",
     "naziv": "Danila Kumar",
     "name": "Bust of Danila Kumar",
+    "posveta": [
+      "Q12787295"
+    ],
     "type": "bista",
     "drzava": "Slovenia"
   },
@@ -26278,6 +26540,9 @@
     "slikaAutor": "Pinki, CC BY-SA 3.0",
     "naziv": "Spomenik Bošku Buhi",
     "name": "Statue of Boško Buha",
+    "posveta": [
+      "Q1280823"
+    ],
     "type": "statua",
     "drzava": "Serbia"
   },
@@ -26294,6 +26559,9 @@
     "slikaAutor": "Pinki, Public domain",
     "naziv": "Bista Jelene Ćetković",
     "name": "Bust of Jelena Ćetković",
+    "posveta": [
+      "Q6663953"
+    ],
     "type": "bista",
     "drzava": "Serbia"
   },
@@ -26307,6 +26575,9 @@
     "info": "https://www.openstreetmap.org/node/10027627802",
     "naziv": "Bista Marije Bursać",
     "name": "Bust of Marija Bursać",
+    "posveta": [
+      "Q452668"
+    ],
     "type": "bista",
     "drzava": "Serbia"
   },
@@ -26323,6 +26594,9 @@
     "slikaAutor": "Vanjagenije, CC BY-SA 4.0",
     "naziv": "Bista Žarka Zrenjanina",
     "name": "Bust of Žarko Zrenjanin",
+    "posveta": [
+      "Q393415"
+    ],
     "type": "bista",
     "drzava": "Serbia"
   },
@@ -26339,6 +26613,9 @@
     "slikaAutor": "Vanjagenije, CC BY-SA 4.0",
     "naziv": "Bista Veselina Masleše",
     "name": "Bust of Veselin Masleša",
+    "posveta": [
+      "Q82914"
+    ],
     "type": "bista",
     "drzava": "Serbia"
   },
@@ -26381,6 +26658,9 @@
     "info": "https://www.openstreetmap.org/node/10172474876",
     "naziv": "Narodni heroj Milorad Labudović Labud",
     "name": "Bust of Milorad Labudović",
+    "posveta": [
+      "Q13534263"
+    ],
     "type": "bista",
     "drzava": "Serbia"
   },
@@ -26397,6 +26677,9 @@
     "slikaAutor": "Plamen, Public domain",
     "naziv": "Joža Vlahović",
     "name": "Bust of Joža Vlahović",
+    "posveta": [
+      "Q12747790"
+    ],
     "type": "bista",
     "drzava": "Croatia"
   },
@@ -26410,6 +26693,9 @@
     "info": "https://www.openstreetmap.org/node/10727700415",
     "naziv": "Bista Ivana Milutinovića",
     "name": "Bust of Ivan Milutinović",
+    "posveta": [
+      "Q1280534"
+    ],
     "type": "bista",
     "drzava": "Serbia"
   },
@@ -26426,6 +26712,9 @@
     "slikaAutor": "Vanjagenije, CC BY-SA 4.0",
     "naziv": "Bista Miroslava Jovanovića Mime",
     "name": "Bust of Miroslav Jovanović",
+    "posveta": [
+      "Q4205861"
+    ],
     "type": "bista",
     "drzava": "Serbia"
   },
@@ -26443,6 +26732,9 @@
     "naziv": "Spomen-bista Save Kovačevića",
     "name": "Bust of Sava Kovačević",
     "author": "Miloš Vasiljević",
+    "posveta": [
+      "Q821495"
+    ],
     "type": "bista",
     "drzava": "Serbia"
   },
@@ -26458,6 +26750,9 @@
     "name": "Bust of Janko Premrl",
     "year": "1976",
     "author": "Marjan Keršič - Belač",
+    "posveta": [
+      "Q6154855"
+    ],
     "type": "bista",
     "drzava": "Slovenia"
   },
@@ -26471,6 +26766,9 @@
     "info": "https://www.openstreetmap.org/node/10784327054",
     "naziv": "Dragomir Benčič Brkin",
     "name": "Bust of Dragomir Benčić",
+    "posveta": [
+      "Q3446522"
+    ],
     "type": "bista",
     "drzava": "Slovenia"
   },
@@ -26487,6 +26785,9 @@
     "slikaAutor": "Никола Ђорђевић, CC BY-SA 4.0",
     "naziv": "Bista Paneta Đukića",
     "name": "Bust of Pane Đukić",
+    "posveta": [
+      "Q20310089"
+    ],
     "type": "bista",
     "drzava": "Serbia"
   },
@@ -26500,6 +26801,9 @@
     "info": "https://www.openstreetmap.org/node/11548228552",
     "naziv": "Vladimir Popović Španac",
     "name": "Bust of Vladimir Popović Španac",
+    "posveta": [
+      "Q535278"
+    ],
     "type": "bista",
     "drzava": "Montenegro"
   },
@@ -26513,6 +26817,9 @@
     "info": "https://www.openstreetmap.org/node/11811791934",
     "naziv": "Bista dr Gojka Nikoliša",
     "name": "Bust of Gojko Nikoliš",
+    "posveta": [
+      "Q1272605"
+    ],
     "type": "bista",
     "drzava": "Serbia"
   },
@@ -26539,6 +26846,9 @@
     "info": "https://www.openstreetmap.org/node/12030970294",
     "naziv": "dr Aleš Bebler - Primož",
     "name": "Bust of Aleš Bebler",
+    "posveta": [
+      "Q10982217"
+    ],
     "type": "bista",
     "drzava": "Slovenia"
   },
@@ -26554,6 +26864,10 @@
     "name": "Bust of Jože Srebrnič",
     "year": "1969",
     "author": "Stojan Batič",
+    "posveta": [
+      "Q12747796",
+      "Q3857937"
+    ],
     "type": "bista",
     "drzava": "Slovenia"
   },
@@ -26580,6 +26894,9 @@
     "info": "https://www.openstreetmap.org/node/12660068307",
     "naziv": "Boris Kidrič",
     "name": "Bust of Boris Kidrič",
+    "posveta": [
+      "Q192041"
+    ],
     "type": "bista",
     "drzava": "Slovenia"
   },
@@ -26619,6 +26936,9 @@
     "info": "https://www.openstreetmap.org/node/13246240568",
     "naziv": "Franc Rozman",
     "name": "Statue of Franc Rozman",
+    "posveta": [
+      "Q854181"
+    ],
     "type": "statua",
     "drzava": "Slovenia"
   },
@@ -26635,6 +26955,9 @@
     "slikaAutor": "No.cilepogača, CC BY-SA 4.0",
     "naziv": "Žarko Zrenjanin",
     "name": "Bust of Žarko Zrenjanin",
+    "posveta": [
+      "Q393415"
+    ],
     "type": "bista",
     "drzava": "Serbia"
   },
@@ -26648,6 +26971,9 @@
     "info": "https://www.openstreetmap.org/way/1134497813",
     "naziv": "Jože Klanjšek - Vasja",
     "name": "Bust of Jože Klanjšek",
+    "posveta": [
+      "Q18282106"
+    ],
     "type": "bista",
     "drzava": "Slovenia"
   },
@@ -26664,6 +26990,9 @@
     "slikaAutor": "Emin Tarahija, CC0",
     "naziv": "Bista Josipa Broza Tita i 18 Narodnih heroja",
     "name": "Bust of Josip Broz - Tito",
+    "posveta": [
+      "Q9161"
+    ],
     "type": "bista",
     "drzava": "Bosnia and Herzegovina"
   },
@@ -26942,6 +27271,9 @@
     "info": "https://www.openstreetmap.org/node/1786227785",
     "naziv": "Spomenik 2. dalmatinskoj brigadi",
     "name": "Monument to a Partisan Brigade",
+    "posveta": [
+      "Q117668"
+    ],
     "type": "spomenik",
     "drzava": "Bosnia and Herzegovina"
   },
@@ -27023,6 +27355,9 @@
     "info": "https://www.openstreetmap.org/node/8567961021",
     "naziv": "Spomenik 6. Istočnobosanskoj brigadi",
     "name": "Monument to a Partisan Brigade",
+    "posveta": [
+      "Q16761390"
+    ],
     "type": "spomenik",
     "drzava": "Serbia"
   },
@@ -27195,6 +27530,9 @@
     "slikaAutor": "Ljiljana Sundać, CC BY-SA 4.0",
     "naziv": "Spomenik Internacionalnim brigadama",
     "name": "Monument to the International Brigades",
+    "posveta": [
+      "Q2987146"
+    ],
     "type": "spomenik",
     "drzava": "Serbia"
   },
@@ -27238,6 +27576,9 @@
     "slikaAutor": "Nepoznat autor, CC BY-SA 3.0",
     "naziv": "Kuća Koste Stamenkovića",
     "name": "Memorial House of Kosta Stamenković",
+    "posveta": [
+      "Q13639018"
+    ],
     "type": "muzej",
     "drzava": "Serbia"
   },
@@ -27307,6 +27648,9 @@
     "slikaAutor": "Pinki, Public domain",
     "naziv": "Spomen-bista Nadi Purić u Beogradu",
     "name": "Bust of Nada Purić",
+    "posveta": [
+      "Q12755952"
+    ],
     "type": "bista",
     "drzava": "Serbia"
   },
@@ -27819,6 +28163,9 @@
     "googleCid": "632863016647759046",
     "title": "Tjentište",
     "naziv": "Spomenik X hercegovačkoj brigadi",
+    "posveta": [
+      "Q137842"
+    ],
     "type": "spomenik",
     "drzava": "Bosnia and Herzegovina"
   },
@@ -27951,6 +28298,9 @@
     "slikaOdnos": 0.667,
     "slikaAutor": "SpeedyGonsales, CC BY-SA 3.0",
     "naziv": "Bista Ive Lole Ribara",
+    "posveta": [
+      "Q1265884"
+    ],
     "type": "bista",
     "drzava": "Croatia"
   },
@@ -28212,6 +28562,9 @@
     "naziv": "Spomenik Josipu Brozu Titu",
     "year": "1948",
     "author": "Antun Augustinčić",
+    "posveta": [
+      "Q9161"
+    ],
     "type": "statua",
     "drzava": "Croatia"
   },
@@ -28242,6 +28595,9 @@
     "slikaOdnos": 1.365,
     "slikaAutor": "Plamen, Public domain",
     "naziv": "Zdenka i Rajka Baković",
+    "posveta": [
+      "Q1256730"
+    ],
     "type": "bista",
     "drzava": "Croatia"
   },
@@ -28270,6 +28626,9 @@
     "slikaOdnos": 0.91,
     "slikaAutor": "Suradnik13, CC BY-SA 3.0",
     "naziv": "Većeslav Holjevac",
+    "posveta": [
+      "Q1280010"
+    ],
     "type": "bista",
     "drzava": "Croatia"
   },
@@ -28284,6 +28643,9 @@
     "slikaOdnos": 0.52,
     "slikaAutor": "Roberta F., CC BY-SA 3.0",
     "naziv": "Viktor Bubanj",
+    "posveta": [
+      "Q181814"
+    ],
     "type": "bista",
     "drzava": "Croatia"
   },
@@ -28298,6 +28660,9 @@
     "slikaOdnos": 0.645,
     "slikaAutor": "Roberta F., CC BY-SA 3.0",
     "naziv": "Vitomir Širola Pajo",
+    "posveta": [
+      "Q10977102"
+    ],
     "type": "bista",
     "drzava": "Croatia"
   },
@@ -28312,6 +28677,9 @@
     "slikaOdnos": 0.75,
     "slikaAutor": "Roberta F., CC BY-SA 3.0",
     "naziv": "Vladimir Nazor",
+    "posveta": [
+      "Q380529"
+    ],
     "type": "bista",
     "drzava": "Croatia"
   },
@@ -28327,6 +28695,11 @@
     "slikaAutor": "Flammard, CC BY-SA 3.0",
     "naziv": "Biste narodnih heroja (Josip Broz Tito, Olga Ban, Jurica Kalc, Giulio Revelante)",
     "name": "Busts of People's Heroes (Josip Broz Tito, Olga Ban, Jurica Kalc, Giulio Revelante)",
+    "posveta": [
+      "Q1263872",
+      "Q2351716",
+      "Q9161"
+    ],
     "type": "bista",
     "drzava": "Croatia"
   },
@@ -28368,6 +28741,9 @@
     "slikaOdnos": 0.75,
     "slikaAutor": "Flammard, CC BY-SA 3.0",
     "naziv": "Vinko Jeđut",
+    "posveta": [
+      "Q12749785"
+    ],
     "type": "bista",
     "drzava": "Croatia"
   },
@@ -28382,6 +28758,9 @@
     "slikaOdnos": 0.75,
     "slikaAutor": "Flammard, CC BY-SA 3.0",
     "naziv": "Pavle Pap",
+    "posveta": [
+      "Q1561537"
+    ],
     "type": "bista",
     "drzava": "Croatia"
   },
@@ -28415,6 +28794,9 @@
     "name": "Monument to Žarko Zrenjanin",
     "year": "1952",
     "author": "Radeta Stanković",
+    "posveta": [
+      "Q393415"
+    ],
     "type": "statua",
     "drzava": "Serbia"
   },
@@ -28535,6 +28917,9 @@
     "naziv": "Spomenik narodnom heroju Živanu Đurđeviću",
     "name": "Monument to People's Hero Živan Đurđević",
     "author": "Vida Jocić",
+    "posveta": [
+      "Q13603162"
+    ],
     "type": "bista",
     "drzava": "Serbia"
   },
@@ -28553,6 +28938,9 @@
     "naziv": "Споменик на Вера Јоциќ",
     "name": "Monument to Vera Jocić",
     "author": "Vida Jocić",
+    "posveta": [
+      "Q2349366"
+    ],
     "type": "bista",
     "drzava": "Macedonia"
   },
@@ -28570,6 +28958,9 @@
     "naziv": "Spomenik narodnom heroju Zdravku Jovanoviću",
     "name": "Monument to People's Hero Zdravko Jovanović",
     "author": "Vida Jocić",
+    "posveta": [
+      "Q12751954"
+    ],
     "type": "bista",
     "drzava": "Serbia"
   },
@@ -28586,6 +28977,9 @@
     "slikaAutor": "Zdravko, CC BY-SA 4.0",
     "naziv": "Биста на Вангел Тодоровски",
     "name": "Bust of Vangel Todorovski",
+    "posveta": [
+      "Q12274587"
+    ],
     "type": "bista",
     "drzava": "Macedonia"
   },
@@ -28618,6 +29012,9 @@
     "slikaAutor": "Zdravko, CC BY-SA 4.0",
     "naziv": "Биста на Елпида Караманди",
     "name": "Bust of Elpida Karamandi",
+    "posveta": [
+      "Q2993591"
+    ],
     "type": "bista",
     "drzava": "Macedonia"
   },
@@ -28666,6 +29063,9 @@
     "slikaAutor": "Zdravko, CC BY-SA 4.0",
     "naziv": "Биста на Елпида Караманди",
     "name": "Bust of Elpida Karamandi",
+    "posveta": [
+      "Q2993591"
+    ],
     "type": "bista",
     "drzava": "Macedonia"
   },
@@ -28682,6 +29082,9 @@
     "slikaAutor": "Kiril Simeonovski, CC BY-SA 4.0",
     "naziv": "Биста на Васко Карангелески",
     "name": "Bust of Vasko Karangeleski",
+    "posveta": [
+      "Q3397532"
+    ],
     "type": "bista",
     "drzava": "Macedonia"
   },
@@ -28762,6 +29165,9 @@
     "slikaAutor": "Kiril Simeonovski, CC BY-SA 4.0",
     "naziv": "Споменик на Јосиф Јосифовски Свештарот",
     "name": "Monument to Josif Josifovski",
+    "posveta": [
+      "Q3406736"
+    ],
     "type": "bista",
     "drzava": "Macedonia"
   },
@@ -28778,6 +29184,9 @@
     "slikaAutor": "Kiril Simeonovski, CC BY-SA 4.0",
     "naziv": "Биста на Манчу Матак",
     "name": "Bust of Manču Matak",
+    "posveta": [
+      "Q3403525"
+    ],
     "type": "bista",
     "drzava": "Macedonia"
   },
@@ -28794,6 +29203,9 @@
     "slikaAutor": "Flammard, CC BY-SA 3.0",
     "naziv": "Биста на Рампо Левков",
     "name": "Bust of Rampo Levkov",
+    "posveta": [
+      "Q3406952"
+    ],
     "type": "bista",
     "drzava": "Macedonia"
   },
@@ -28810,6 +29222,9 @@
     "slikaAutor": "Zdravko, CC BY-SA 4.0",
     "naziv": "Биста на Мирче Ацев",
     "name": "Bust of Mirče Acev",
+    "posveta": [
+      "Q2984520"
+    ],
     "type": "bista",
     "drzava": "Macedonia"
   },
@@ -28842,6 +29257,9 @@
     "slikaAutor": "Lili Arsova, CC BY 4.0",
     "naziv": "Споменик на Димче Мирчев",
     "name": "Monument to Dimče Mirčev",
+    "posveta": [
+      "Q12278749"
+    ],
     "type": "bista",
     "drzava": "Macedonia"
   },
@@ -28858,6 +29276,9 @@
     "slikaAutor": "Rašo, CC BY-SA 3.0",
     "naziv": "Биста на Благој Страчковски",
     "name": "Bust of Blagoj Strackovski",
+    "posveta": [
+      "Q3394509"
+    ],
     "type": "bista",
     "drzava": "Macedonia"
   },
@@ -28890,6 +29311,9 @@
     "slikaAutor": "Zdravko, CC BY-SA 4.0",
     "naziv": "Биста на Раде Кончар",
     "name": "Bust of Rade Končar",
+    "posveta": [
+      "Q640602"
+    ],
     "type": "bista",
     "drzava": "Macedonia"
   },
@@ -28906,6 +29330,9 @@
     "slikaAutor": "Tashkoskim, CC BY-SA 3.0",
     "naziv": "Споменик на Кузман Јосифовски Питу",
     "name": "Monument to Kuzman Josifovski Pitu",
+    "posveta": [
+      "Q3397220"
+    ],
     "type": "statua",
     "drzava": "Macedonia"
   },
@@ -28922,6 +29349,9 @@
     "slikaAutor": "Zdravko, CC BY-SA 4.0",
     "naziv": "Биста на Кузман Јосифовски Питу",
     "name": "Bust of Kuzman Josifovski Pitu",
+    "posveta": [
+      "Q3397220"
+    ],
     "type": "bista",
     "drzava": "Macedonia"
   },
@@ -28938,6 +29368,9 @@
     "slikaAutor": "Zdravko, CC BY-SA 4.0",
     "naziv": "Споменик на Кузман Јосифовски Питу",
     "name": "Monument to Kuzman Josifovski Pitu",
+    "posveta": [
+      "Q3397220"
+    ],
     "type": "statua",
     "drzava": "Macedonia"
   },
@@ -28954,6 +29387,9 @@
     "slikaAutor": "Zdravko, CC BY-SA 4.0",
     "naziv": "Биста на Боро Петрушевски",
     "name": "Bust of Boro Petruševski",
+    "posveta": [
+      "Q3407007"
+    ],
     "type": "bista",
     "drzava": "Macedonia"
   },
@@ -28986,6 +29422,9 @@
     "slikaAutor": "Ehrlich91, CC BY-SA 4.0",
     "naziv": "Споменик на Александар Урдаревски",
     "name": "Monument to Aleksandar Urdarevski",
+    "posveta": [
+      "Q3407761"
+    ],
     "type": "spomenik",
     "drzava": "Macedonia"
   },
@@ -29002,6 +29441,9 @@
     "slikaAutor": "Zdravko, CC BY-SA 4.0",
     "naziv": "Споменик на Вера Јоциќ",
     "name": "Monument to Vera Jocić",
+    "posveta": [
+      "Q2349366"
+    ],
     "type": "bista",
     "drzava": "Macedonia"
   },
@@ -29018,6 +29460,9 @@
     "slikaAutor": "Arianit, CC BY-SA 4.0",
     "naziv": "Bista Mustafe Bakije",
     "name": "Bust of Mustafa Bakija",
+    "posveta": [
+      "Q12755829"
+    ],
     "type": "bista",
     "drzava": "Kosovo"
   },
@@ -29034,6 +29479,9 @@
     "slikaAutor": "MirkoS18, CC BY-SA 4.0",
     "naziv": "Spomenik narodnom heroju Nikoli Đurkoviću",
     "name": "Monument to People's Hero Nikola Đurković",
+    "posveta": [
+      "Q25468925"
+    ],
     "type": "spomenik",
     "drzava": "Montenegro"
   },
@@ -29098,6 +29546,9 @@
     "slikaAutor": "Vanjagenije, CC BY-SA 4.0",
     "naziv": "Bista Trajka Stamenkovića",
     "name": "Bust of Trajko Stamenković",
+    "posveta": [
+      "Q12760175"
+    ],
     "type": "bista",
     "drzava": "Serbia"
   },
@@ -29130,6 +29581,9 @@
     "slikaAutor": "Pinki, CC BY-SA 3.0",
     "naziv": "Bista Boška Buhe",
     "name": "Bust of Boško Buha",
+    "posveta": [
+      "Q1280823"
+    ],
     "type": "bista",
     "drzava": "Serbia"
   },
@@ -29146,6 +29600,9 @@
     "slikaAutor": "BrankaVV, CC BY-SA 4.0",
     "naziv": "Spomenik narodnom heroju Petru Lekoviću",
     "name": "Monument to People's Hero Petar Leković",
+    "posveta": [
+      "Q1263987"
+    ],
     "type": "statua",
     "drzava": "Serbia"
   },
@@ -29162,6 +29619,9 @@
     "slikaAutor": "Pinki at sr.wikipedia, Public domain",
     "naziv": "Spomenik Branku Krsmanoviću",
     "name": "Monument to Branko Krsmanović",
+    "posveta": [
+      "Q1263710"
+    ],
     "type": "statua",
     "drzava": "Serbia"
   },
@@ -29226,6 +29686,9 @@
     "slikaAutor": "Vanjagenije, CC BY-SA 4.0",
     "naziv": "Bista Stevana Dukića",
     "name": "Bust of Stevan Dukić",
+    "posveta": [
+      "Q12759679"
+    ],
     "type": "bista",
     "drzava": "Serbia"
   },
@@ -29242,6 +29705,9 @@
     "slikaAutor": "Vanjagenije, CC BY-SA 4.0",
     "naziv": "Bista Zage Malivuk",
     "name": "Bust of Zaga Malivuk",
+    "posveta": [
+      "Q4140683"
+    ],
     "type": "bista",
     "drzava": "Serbia"
   },
@@ -29258,6 +29724,9 @@
     "slikaAutor": "Vanjagenije, CC BY-SA 4.0",
     "naziv": "Spomenik Olgi Petrov",
     "name": "Monument to Olga Petrov",
+    "posveta": [
+      "Q12756494"
+    ],
     "type": "statua",
     "drzava": "Serbia"
   },
@@ -29274,6 +29743,9 @@
     "slikaAutor": "Vanjagenije, CC BY-SA 4.0",
     "naziv": "Bista Olge Petrov",
     "name": "Bust of Olga Petrov",
+    "posveta": [
+      "Q12756494"
+    ],
     "type": "bista",
     "drzava": "Serbia"
   },
@@ -29322,6 +29794,9 @@
     "slikaAutor": "MirkoS18, CC BY-SA 4.0",
     "naziv": "Spomen-ploča Miladinu Zoriću Garači",
     "name": "Memorial Plaque to Miladin Zorić Garača",
+    "posveta": [
+      "Q20310536"
+    ],
     "type": "ploca",
     "drzava": "Serbia"
   },
@@ -29338,6 +29813,9 @@
     "slikaAutor": "Mickey Mystique, CC BY-SA 4.0",
     "naziv": "Bista Josipa Broza Tita",
     "name": "Bust of Josip Broz Tito",
+    "posveta": [
+      "Q9161"
+    ],
     "type": "bista",
     "drzava": "Serbia"
   },
@@ -29370,6 +29848,9 @@
     "slikaAutor": "Micki, CC BY-SA 3.0",
     "naziv": "Bista Stevana Petrovića Brileta",
     "name": "Bust of Stevan Petrović Brile",
+    "posveta": [
+      "Q12759683"
+    ],
     "type": "bista",
     "drzava": "Serbia"
   },
@@ -29386,6 +29867,9 @@
     "slikaAutor": "Micki, CC BY-SA 3.0",
     "naziv": "Bista Stanka Paunovića Veljka",
     "name": "Bust of Stanko Paunović Veljko",
+    "posveta": [
+      "Q703200"
+    ],
     "type": "bista",
     "drzava": "Serbia"
   },
@@ -29450,6 +29934,9 @@
     "slikaAutor": "Vanjagenije, CC BY-SA 4.0",
     "naziv": "Bista Dušana Ćubića",
     "name": "Bust of Dušan Ćubić",
+    "posveta": [
+      "Q31183127"
+    ],
     "type": "bista",
     "drzava": "Serbia"
   },
@@ -29482,6 +29969,9 @@
     "slikaAutor": "Vanjagenije, CC BY-SA 4.0",
     "naziv": "Spomenik Slavku Rodiću",
     "name": "Monument to Slavko Rodić",
+    "posveta": [
+      "Q1560939"
+    ],
     "type": "spomenik",
     "drzava": "Serbia"
   },
@@ -29498,6 +29988,9 @@
     "slikaAutor": "Vanjagenije, CC BY-SA 4.0",
     "naziv": "Spomenik Mileti Okiljeviću",
     "name": "Monument to Mileta Okiljević",
+    "posveta": [
+      "Q31183113"
+    ],
     "type": "statua",
     "drzava": "Serbia"
   },
@@ -29514,6 +30007,9 @@
     "slikaAutor": "Vanjagenije, CC BY-SA 4.0",
     "naziv": "Bista Milete Okiljevića",
     "name": "Bust of Mileta Okiljević",
+    "posveta": [
+      "Q31183113"
+    ],
     "type": "bista",
     "drzava": "Serbia"
   },
@@ -29530,6 +30026,9 @@
     "slikaAutor": "Vanjagenije, CC BY-SA 4.0",
     "naziv": "Bista Veljka Vlahovića",
     "name": "Bust of Veljko Vlahović",
+    "posveta": [
+      "Q317399"
+    ],
     "type": "bista",
     "drzava": "Serbia"
   },
@@ -29546,6 +30045,9 @@
     "slikaAutor": "Vanjagenije, CC BY-SA 4.0",
     "naziv": "Spomenik Petru Drapšinu",
     "name": "Monument to Petar Drapšin",
+    "posveta": [
+      "Q35892"
+    ],
     "type": "statua",
     "drzava": "Serbia"
   },
@@ -29562,6 +30064,9 @@
     "slikaAutor": "Vanjagenije, CC BY-SA 4.0",
     "naziv": "Bista Trive Latinovića",
     "name": "Bust of Trivo Latinović",
+    "posveta": [
+      "Q12760220"
+    ],
     "type": "bista",
     "drzava": "Serbia"
   },
@@ -29578,6 +30083,9 @@
     "slikaAutor": "Vanjagenije, CC BY-SA 4.0",
     "naziv": "Bista Mladena Stojanovića",
     "name": "Bust of Mladen Stojanović",
+    "posveta": [
+      "Q1263753"
+    ],
     "type": "bista",
     "drzava": "Serbia"
   },
@@ -29658,6 +30166,9 @@
     "slikaAutor": "Vanjagenije, CC BY-SA 4.0",
     "naziv": "Bista Moše Pijade",
     "name": "Bust of Moša Pijade",
+    "posveta": [
+      "Q453472"
+    ],
     "type": "bista",
     "drzava": "Serbia"
   },
@@ -30544,6 +31055,9 @@
     "slikaAutor": "Srečko Štajnbaher, CC BY 4.0",
     "naziv": "Spomenik Štefanu Kovaču-Marku",
     "year": "1951",
+    "posveta": [
+      "Q12807341"
+    ],
     "type": "lokalni",
     "drzava": "Slovenia"
   },
@@ -32128,6 +32642,9 @@
     "info": "https://eid.gov.si/S/17254",
     "naziv": "Spominska plošča Jožetu Kaduncu",
     "year": "1958",
+    "posveta": [
+      "Q14624784"
+    ],
     "type": "ploca",
     "drzava": "Slovenia"
   },
@@ -32573,6 +33090,9 @@
     "slikaAutor": "Martin Pungerčar, CC BY 4.0",
     "naziv": "Spomenik Jožetu Slaku",
     "year": "1968",
+    "posveta": [
+      "Q97189627"
+    ],
     "type": "lokalni",
     "drzava": "Slovenia"
   },
@@ -32909,6 +33429,9 @@
     "info": "https://eid.gov.si/S/19242",
     "naziv": "Spominska plošča Fricu Keršiču-Galu",
     "year": "1972",
+    "posveta": [
+      "Q12789450"
+    ],
     "type": "ploca",
     "drzava": "Slovenia"
   },
@@ -35206,6 +35729,9 @@
     "info": "https://eid.gov.si/S/25847",
     "naziv": "Spominska plošča Milošu Zidanšku",
     "year": "1952",
+    "posveta": [
+      "Q10863559"
+    ],
     "type": "ploca",
     "drzava": "Slovenia"
   },
@@ -35219,6 +35745,9 @@
     "info": "https://eid.gov.si/S/16831",
     "naziv": "Spomenik Dragomirju Benčiču-Brkinu",
     "year": "1967",
+    "posveta": [
+      "Q3446522"
+    ],
     "type": "bista",
     "drzava": "Slovenia"
   },
@@ -35384,6 +35913,9 @@
     "info": "https://eid.gov.si/S/17150",
     "naziv": "Doprsni kip Aleša Beblerja",
     "year": "1985",
+    "posveta": [
+      "Q10982217"
+    ],
     "type": "bista",
     "drzava": "Slovenia"
   },
@@ -35468,6 +36000,9 @@
     "info": "https://eid.gov.si/S/19467",
     "naziv": "Spomenik Jožetu Mihevcu-Rudarju",
     "year": "1963",
+    "posveta": [
+      "Q54826039"
+    ],
     "type": "lokalni",
     "drzava": "Slovenia"
   },
@@ -35606,6 +36141,9 @@
     "info": "https://eid.gov.si/S/21169",
     "naziv": "Spominska plošča Janku Premrlu-Vojku",
     "year": "1955",
+    "posveta": [
+      "Q6154855"
+    ],
     "type": "ploca",
     "drzava": "Slovenia"
   },
@@ -35728,6 +36266,9 @@
     "info": "https://eid.gov.si/S/24310",
     "naziv": "Doprsni kip Jožeta Kovačiča",
     "year": "1964",
+    "posveta": [
+      "Q12747789"
+    ],
     "type": "bista",
     "drzava": "Slovenia"
   },
@@ -37148,6 +37689,9 @@
     "slikaAutor": "Srečko Štajnbaher, CC BY 4.0",
     "naziv": "Rojstna hiša Jožeta Lacka",
     "year": "1957",
+    "posveta": [
+      "Q18604304"
+    ],
     "type": "ploca",
     "drzava": "Slovenia"
   },
@@ -37574,6 +38118,9 @@
     "info": "https://eid.gov.si/S/13189",
     "naziv": "Spominska plošča Jakobu Bernardu",
     "year": "1955",
+    "posveta": [
+      "Q4085057"
+    ],
     "type": "ploca",
     "drzava": "Slovenia"
   },
@@ -37627,6 +38174,9 @@
     "slikaAutor": "Judita Podgornik Zaletelj, CC BY 4.0",
     "naziv": "Spomenik Majdi Šilc",
     "year": "1949",
+    "posveta": [
+      "Q7583672"
+    ],
     "type": "lokalni",
     "drzava": "Slovenia"
   },
@@ -38002,6 +38552,9 @@
     "info": "https://eid.gov.si/S/15097",
     "naziv": "Doprsni kip Staneta Žagarja v vojašnici",
     "year": "1967",
+    "posveta": [
+      "Q4177794"
+    ],
     "type": "bista",
     "drzava": "Slovenia"
   },
@@ -38584,6 +39137,9 @@
     "info": "https://eid.gov.si/S/24305",
     "naziv": "Doprsni kip Ivana Žana Hrovata",
     "year": "1975",
+    "posveta": [
+      "Q4501536"
+    ],
     "type": "bista",
     "drzava": "Slovenia"
   },
@@ -39291,6 +39847,9 @@
     "slikaAutor": "Alenka Možina, CC BY 4.0",
     "naziv": "Doprsni kip Milke Kerin",
     "year": "1976",
+    "posveta": [
+      "Q12795033"
+    ],
     "type": "bista",
     "drzava": "Slovenia"
   },
@@ -39571,6 +40130,9 @@
     "info": "https://eid.gov.si/S/22803",
     "naziv": "Doprsni kip Borisa Kidriča",
     "author": "Boris Kalin",
+    "posveta": [
+      "Q192041"
+    ],
     "type": "bista",
     "drzava": "Slovenia"
   },
@@ -39584,6 +40146,9 @@
     "info": "https://eid.gov.si/S/22751",
     "naziv": "Doprsni kip Franca Leskoška-Luke",
     "year": "1984",
+    "posveta": [
+      "Q1264453"
+    ],
     "type": "bista",
     "drzava": "Slovenia"
   },
@@ -39597,6 +40162,9 @@
     "info": "https://eid.gov.si/S/22752",
     "naziv": "Doprsni kip Karla Destovnika-Kajuha",
     "year": "1976",
+    "posveta": [
+      "Q752072"
+    ],
     "type": "bista",
     "drzava": "Slovenia"
   },
@@ -39610,6 +40178,9 @@
     "info": "https://eid.gov.si/S/22756",
     "naziv": "Doprsni kip Mira Perca-Maksa",
     "year": "1983",
+    "posveta": [
+      "Q12796838"
+    ],
     "type": "bista",
     "drzava": "Slovenia"
   },
@@ -39623,6 +40194,9 @@
     "info": "https://eid.gov.si/S/22804",
     "naziv": "Doprsni kip Oskarja Kovačiča",
     "year": "1965",
+    "posveta": [
+      "Q12756811"
+    ],
     "type": "bista",
     "drzava": "Slovenia"
   },
@@ -39723,6 +40297,9 @@
     "slikaAutor": "Katarina Richter, CC BY 4.0",
     "naziv": "Spomenik Francu Rozmanu-Stanetu",
     "year": "1975",
+    "posveta": [
+      "Q854181"
+    ],
     "type": "lokalni",
     "drzava": "Slovenia"
   },
@@ -40294,6 +40871,9 @@
     "info": "https://eid.gov.si/S/22812",
     "naziv": "Spominsko znamenje Ivanu Kavčiču-Nandetu",
     "year": "1986",
+    "posveta": [
+      "Q6591813"
+    ],
     "type": "lokalni",
     "drzava": "Slovenia"
   },
@@ -40815,6 +41395,9 @@
     "info": "https://eid.gov.si/S/21938",
     "naziv": "Spomenik Darku Marušiču-Blažu",
     "year": "1952",
+    "posveta": [
+      "Q12787340"
+    ],
     "type": "lokalni",
     "drzava": "Slovenia"
   },
@@ -41043,6 +41626,9 @@
     "info": "https://eid.gov.si/S/17127",
     "naziv": "Doprsni kip Slavka Kovača-Smelija",
     "year": "1986",
+    "posveta": [
+      "Q16085567"
+    ],
     "type": "bista",
     "drzava": "Slovenia"
   },
@@ -41343,6 +41929,9 @@
     "info": "https://eid.gov.si/S/24330",
     "naziv": "Doprsni kip Albina Grajzarja",
     "year": "1976",
+    "posveta": [
+      "Q14934003"
+    ],
     "type": "bista",
     "drzava": "Slovenia"
   },
@@ -41400,6 +41989,9 @@
     "slikaAutor": "Dean Damjanović, CC BY 4.0",
     "naziv": "Spominska plošča Jožetu Hermanku",
     "year": "1953",
+    "posveta": [
+      "Q13613317"
+    ],
     "type": "ploca",
     "drzava": "Slovenia"
   },
@@ -41737,6 +42329,9 @@
     "info": "https://eid.gov.si/S/10704",
     "naziv": "Spominska plošča Matiji Blejcu",
     "year": "1954",
+    "posveta": [
+      "Q4088074"
+    ],
     "type": "ploca",
     "drzava": "Slovenia"
   },
@@ -42033,6 +42628,9 @@
     "slikaAutor": "Dean Damjanović, CC BY 4.0",
     "naziv": "Spominska plošča Radu Iršiču",
     "year": "1954",
+    "posveta": [
+      "Q12799768"
+    ],
     "type": "ploca",
     "drzava": "Slovenia"
   },
@@ -42152,6 +42750,9 @@
     "slikaAutor": "Ernesta Drole, CC BY 4.0",
     "naziv": "Spomenik Dušanu Munihu-Darku",
     "year": "1983",
+    "posveta": [
+      "Q12788063"
+    ],
     "type": "bista",
     "drzava": "Slovenia"
   },
@@ -42266,6 +42867,9 @@
     "slikaOdnos": 1.0,
     "slikaAutor": "Katarina Richter, CC BY 4.0",
     "naziv": "Spominsko znamenje Jožetu Šavliju in Ivanu Kavčiču",
+    "posveta": [
+      "Q6591813"
+    ],
     "type": "lokalni",
     "drzava": "Slovenia"
   },
@@ -42568,6 +43172,9 @@
     "info": "https://eid.gov.si/S/11580",
     "naziv": "Kip Lada Mavsarja-Ronka",
     "year": "1984",
+    "posveta": [
+      "Q15087866"
+    ],
     "type": "lokalni",
     "drzava": "Slovenia"
   },
@@ -42581,6 +43188,9 @@
     "info": "https://eid.gov.si/S/11585",
     "naziv": "Spominska plošča Ladu Mavsarju",
     "year": "1960",
+    "posveta": [
+      "Q15087866"
+    ],
     "type": "ploca",
     "drzava": "Slovenia"
   },
@@ -42610,6 +43220,9 @@
     "slikaAutor": "Katarina Richter, CC BY 4.0",
     "naziv": "Spomenik Sergeju Mašeri",
     "year": "1973",
+    "posveta": [
+      "Q1280314"
+    ],
     "type": "lokalni",
     "drzava": "Slovenia"
   },
@@ -44353,6 +44966,9 @@
     "info": "https://eid.gov.si/S/21270",
     "naziv": "Spominska plošča Jožetu Mihevcu-Rudarju",
     "year": "1984",
+    "posveta": [
+      "Q54826039"
+    ],
     "type": "ploca",
     "drzava": "Slovenia"
   },
@@ -44405,6 +45021,9 @@
     "info": "https://eid.gov.si/S/19216",
     "naziv": "Spominska plošča Janku Premrlu-Vojku",
     "year": "1983",
+    "posveta": [
+      "Q6154855"
+    ],
     "type": "ploca",
     "drzava": "Slovenia"
   },
@@ -45178,6 +45797,9 @@
     "title": "Praše",
     "info": "https://eid.gov.si/S/21285",
     "naziv": "Spominska plošča Vinku Zevniku-Železniku",
+    "posveta": [
+      "Q12805788"
+    ],
     "type": "ploca",
     "drzava": "Slovenia"
   },
@@ -45332,6 +45954,9 @@
     "slikaAutor": "Ernesta Drole, CC BY 4.0",
     "naziv": "Spomenik Rudiju Mahniču-Brkincu",
     "year": "1974",
+    "posveta": [
+      "Q15844691"
+    ],
     "type": "bista",
     "drzava": "Slovenia"
   },
@@ -45815,6 +46440,9 @@
     "slikaAutor": "Renata Pamić, CC BY 4.0",
     "naziv": "Doprsni kip Antona Dežmana",
     "year": "1979",
+    "posveta": [
+      "Q12784781"
+    ],
     "type": "bista",
     "drzava": "Slovenia"
   },
@@ -45901,6 +46529,9 @@
     "info": "https://eid.gov.si/S/24656",
     "naziv": "Spominska plošča narodnemu heroju Ivanu Turšiču-Iztoku",
     "year": "1963",
+    "posveta": [
+      "Q10972632"
+    ],
     "type": "ploca",
     "drzava": "Slovenia"
   },
@@ -46251,6 +46882,9 @@
     "slikaAutor": "Katarina Richter, CC BY 4.0",
     "naziv": "Spominska plošča Jožetu Šešku",
     "year": "1958",
+    "posveta": [
+      "Q20966054"
+    ],
     "type": "ploca",
     "drzava": "Slovenia"
   },
@@ -47439,6 +48073,9 @@
     "info": "https://eid.gov.si/S/16249",
     "naziv": "Spominska plošča Albinu Grajzarju-Binetu",
     "year": "1984",
+    "posveta": [
+      "Q14934003"
+    ],
     "type": "ploca",
     "drzava": "Slovenia"
   },
@@ -47667,6 +48304,9 @@
     "naziv": "Spominska plošča Andreju Žvanu-Borisu",
     "year": "1955",
     "author": "Anton Bitenc",
+    "posveta": [
+      "Q15890406"
+    ],
     "type": "ploca",
     "drzava": "Slovenia"
   },
@@ -47820,6 +48460,9 @@
     "slikaOdnos": 0.666,
     "slikaAutor": "Bernarda Jesenko Filipič, CC BY 4.0",
     "naziv": "Spominski plošči Stanetu Žagarju in izgnancem",
+    "posveta": [
+      "Q4177794"
+    ],
     "type": "ploca",
     "drzava": "Slovenia"
   },
@@ -48366,6 +49009,9 @@
     "info": "https://eid.gov.si/S/24429",
     "naziv": "Spomenik Jožetu Kovačiču",
     "year": "1979",
+    "posveta": [
+      "Q12747789"
+    ],
     "type": "lokalni",
     "drzava": "Slovenia"
   },
@@ -49459,6 +50105,9 @@
     "slikaAutor": "Srečko Štajnbaher, CC BY 4.0",
     "naziv": "Spomenik Ignacu Voljču",
     "year": "1981",
+    "posveta": [
+      "Q13630036"
+    ],
     "type": "lokalni",
     "drzava": "Slovenia"
   },
@@ -49772,6 +50421,9 @@
     "title": "Velenje",
     "info": "https://eid.gov.si/S/14428",
     "naziv": "Doprsni kip Mihi Pintarju-Toledu",
+    "posveta": [
+      "Q15103521"
+    ],
     "type": "bista",
     "drzava": "Slovenia"
   },
@@ -49812,6 +50464,9 @@
     "info": "https://eid.gov.si/S/14432",
     "naziv": "Spomenik Edvardu Kardelju",
     "author": "Stojan Batič",
+    "posveta": [
+      "Q268003"
+    ],
     "type": "lokalni",
     "drzava": "Slovenia"
   },
@@ -49836,6 +50491,9 @@
     "title": "Velenje",
     "info": "https://eid.gov.si/S/14434",
     "naziv": "Spominsko obeležje Mihi Pintarju-Toledu",
+    "posveta": [
+      "Q15103521"
+    ],
     "type": "lokalni",
     "drzava": "Slovenia"
   },
@@ -50142,6 +50800,9 @@
     "slikaAutor": "Martin Pungerčar, CC BY 4.0",
     "naziv": "Spominska plošča Dušanu Jerebu-Štefanu",
     "year": "1974",
+    "posveta": [
+      "Q4176202"
+    ],
     "type": "ploca",
     "drzava": "Slovenia"
   },
@@ -50213,6 +50874,9 @@
     "slikaAutor": "Alenka Železnik, CC BY 4.0",
     "naziv": "Spominska plošča Milki Kerin",
     "year": "1955",
+    "posveta": [
+      "Q12795033"
+    ],
     "type": "ploca",
     "drzava": "Slovenia"
   },
@@ -50429,6 +51093,9 @@
     "info": "https://eid.gov.si/S/10684",
     "naziv": "Spomenik Francu Bukovcu",
     "year": "1985",
+    "posveta": [
+      "Q4098606"
+    ],
     "type": "lokalni",
     "drzava": "Slovenia"
   },
@@ -50650,6 +51317,9 @@
     "info": "https://eid.gov.si/S/22852",
     "naziv": "Spominsko znamenje Jožetu Kovačiču",
     "year": "1961",
+    "posveta": [
+      "Q12747789"
+    ],
     "type": "lokalni",
     "drzava": "Slovenia"
   },
@@ -50834,6 +51504,9 @@
     "info": "https://eid.gov.si/S/26983",
     "naziv": "Spominsko znamenje Lojzetu Hohkrautu na Cvetežu",
     "author": "Vlasto Kopač",
+    "posveta": [
+      "Q16658307"
+    ],
     "type": "lokalni",
     "drzava": "Slovenia"
   },
@@ -52752,6 +53425,9 @@
     "title": "Črna pri Kamniku",
     "info": "https://eid.gov.si/S/11951",
     "naziv": "Spomenik Petru Stantetu-Skali",
+    "posveta": [
+      "Q12798660"
+    ],
     "type": "lokalni",
     "drzava": "Slovenia"
   },
@@ -52857,6 +53533,9 @@
     "slikaAutor": "Judita Podgornik, CC BY 4.0",
     "naziv": "Spomenik Janku Starihi",
     "year": "1954",
+    "posveta": [
+      "Q18529707"
+    ],
     "type": "bista",
     "drzava": "Slovenia"
   },
@@ -53017,6 +53696,9 @@
     "slikaAutor": "Nataša Podkrižnik, CC BY 4.0",
     "naziv": "Spomenik Milanu Majcnu in Janku Mevžlju",
     "year": "1971",
+    "posveta": [
+      "Q4275182"
+    ],
     "type": "lokalni",
     "drzava": "Slovenia"
   },
@@ -53048,6 +53730,9 @@
     "slikaAutor": "Martin Pungerčar, CC BY 4.0",
     "naziv": "Spomenik Martinu Kotarju",
     "year": "1980",
+    "posveta": [
+      "Q12795991"
+    ],
     "type": "lokalni",
     "drzava": "Slovenia"
   },
@@ -53189,6 +53874,9 @@
     "title": "Šentvid pri Zavodnju",
     "info": "https://eid.gov.si/S/9619",
     "naziv": "Spominsko znamenje Karlu Destovniku-Kajuhu",
+    "posveta": [
+      "Q752072"
+    ],
     "type": "lokalni",
     "drzava": "Slovenia"
   },
@@ -53640,6 +54328,9 @@
     "title": "Šoštanj",
     "info": "https://eid.gov.si/S/20619",
     "naziv": "Spomenik Karlu Destovniku Kajuhu",
+    "posveta": [
+      "Q752072"
+    ],
     "type": "lokalni",
     "drzava": "Slovenia"
   },
@@ -54255,6 +54946,9 @@
     "title": "Dovlići",
     "info": "https://www.openstreetmap.org/node/13245644198",
     "naziv": "Narodnom heroju Vasi Miskinu-Crnom",
+    "posveta": [
+      "Q11218575"
+    ],
     "type": "ploca",
     "drzava": "Bosnia and Herzegovina"
   },
@@ -57160,6 +57854,9 @@
     "title": "Zagreb (Tuškanac)",
     "info": "https://www.openstreetmap.org/node/4820535148",
     "naziv": "Vjesnik radnog naroda",
+    "posveta": [
+      "Q574403"
+    ],
     "type": "ploca",
     "drzava": "Croatia"
   },
@@ -57366,6 +58063,10 @@
     "title": "Kavadarci",
     "info": "https://www.openstreetmap.org/node/11845001868",
     "naziv": "Народен херој Киро Атанасовски-Налбатот;Народен херој Димче Мирчев",
+    "posveta": [
+      "Q12278749",
+      "Q2334991"
+    ],
     "type": "lokalni",
     "drzava": "Macedonia"
   },
@@ -57390,6 +58091,9 @@
     "title": "Prilep (Čaršija)",
     "info": "https://www.openstreetmap.org/node/8048135011",
     "naziv": "Народен Херој Кире Гаврилоски-Јане\nНароден Херој Круме Волнароски-Коле\n09-V-1944",
+    "posveta": [
+      "Q7997885"
+    ],
     "type": "lokalni",
     "drzava": "Macedonia"
   },
@@ -57402,6 +58106,9 @@
     "title": "Pletvar",
     "info": "https://www.openstreetmap.org/node/8484052150",
     "naziv": "Народен херој Борка Талески-Црниот;Народен херој Лазо Филиповски-Лавски",
+    "posveta": [
+      "Q3406966"
+    ],
     "type": "lokalni",
     "drzava": "Macedonia"
   },
@@ -58016,6 +58723,9 @@
     "title": "Novi Sad (Severni Telep)",
     "info": "https://www.openstreetmap.org/node/11730286488",
     "naziv": "Spomen-kuća narodnog heroja Olge Petrov",
+    "posveta": [
+      "Q12756494"
+    ],
     "type": "ploca",
     "drzava": "Serbia"
   },
@@ -58294,6 +59004,9 @@
     "title": "Užice (Slanuša)",
     "info": "https://www.openstreetmap.org/node/9272899563",
     "naziv": "Nada Matić 1924-1944",
+    "posveta": [
+      "Q12755953"
+    ],
     "type": "bista",
     "drzava": "Serbia"
   },
@@ -58821,6 +59534,9 @@
     "title": "Lautari",
     "info": "https://www.openstreetmap.org/node/3290661635",
     "naziv": "Josip Križaj",
+    "posveta": [
+      "Q2353788"
+    ],
     "type": "lokalni",
     "drzava": "Slovenia"
   },
@@ -58881,6 +59597,9 @@
     "title": "Maribor (Betnava)",
     "info": "https://www.openstreetmap.org/node/12846719302",
     "naziv": "Spomenik Narodnemu Heroju Slavku Šlandru",
+    "posveta": [
+      "Q6591775"
+    ],
     "type": "lokalni",
     "drzava": "Slovenia"
   },
@@ -59301,6 +60020,9 @@
     "title": "Ptuj",
     "info": "https://www.openstreetmap.org/node/12118974159",
     "naziv": "Spominska plošča narodnemu heroju Jožetu Lacku",
+    "posveta": [
+      "Q18604304"
+    ],
     "type": "ploca",
     "drzava": "Slovenia"
   },
@@ -59746,6 +60468,9 @@
     "slikaOdnos": 0.75,
     "slikaAutor": "Vanjagenije, CC BY-SA 4.0",
     "naziv": "Bista Žikice Jovanovića Španca",
+    "posveta": [
+      "Q1280992"
+    ],
     "type": "bista",
     "drzava": "Serbia"
   },
@@ -59761,6 +60486,9 @@
     "slikaOdnos": 0.668,
     "slikaAutor": "Petar Milošević, CC BY-SA 4.0",
     "naziv": "Bista Lepe Radić",
+    "posveta": [
+      "Q277282"
+    ],
     "type": "bista",
     "drzava": "Bosnia and Herzegovina"
   },
@@ -59836,6 +60564,9 @@
     "slikaOdnos": 0.667,
     "slikaAutor": "BrankaVV, CC BY-SA 4.0",
     "naziv": "Spomenik Milici Vučetić Trepuši",
+    "posveta": [
+      "Q12755381"
+    ],
     "type": "lokalni",
     "drzava": "Serbia"
   },
@@ -59897,6 +60628,9 @@
     "slikaOdnos": 0.75,
     "slikaAutor": "Vanjagenije, CC BY-SA 4.0",
     "naziv": "Bista Petra Stankovića Ljube",
+    "posveta": [
+      "Q31183263"
+    ],
     "type": "bista",
     "drzava": "Serbia"
   },
@@ -59912,6 +60646,9 @@
     "slikaOdnos": 0.75,
     "slikaAutor": "Vanjagenije, CC BY-SA 4.0",
     "naziv": "Bista Stanimira Veljkovića Zeleta",
+    "posveta": [
+      "Q16380587"
+    ],
     "type": "bista",
     "drzava": "Serbia"
   },
@@ -60149,6 +60886,9 @@
     "slikaOdnos": 1.342,
     "slikaAutor": "Zdravko, CC BY-SA 4.0",
     "naziv": "Спомен-плоча на Орде Чопела",
+    "posveta": [
+      "Q3406637"
+    ],
     "type": "ploca",
     "drzava": "Macedonia"
   },
@@ -60704,6 +61444,9 @@
     "slikaOdnos": 0.662,
     "slikaAutor": "Kiril Simeonovski, CC BY-SA 4.0",
     "naziv": "Спомен-куќа на Страшо Пинџур",
+    "posveta": [
+      "Q3397162"
+    ],
     "type": "muzej",
     "drzava": "Macedonia"
   },
@@ -60734,6 +61477,9 @@
     "slikaOdnos": 1.509,
     "slikaAutor": "Cibrev, CC BY-SA 4.0",
     "naziv": "Споменик на Страшо Пинџур",
+    "posveta": [
+      "Q3397162"
+    ],
     "type": "spomenik",
     "drzava": "Macedonia"
   },
@@ -63362,6 +64108,9 @@
     "title": "Ašanja",
     "info": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%B0%D0%BA_%D0%B7%D0%BD%D0%B0%D0%BC%D0%B5%D0%BD%D0%B8%D1%82%D0%B8%D1%85_%D0%BC%D0%B5%D1%81%D1%82%D0%B0_%D1%83_%D0%A1%D1%80%D0%B1%D0%B8%D1%98%D0%B8",
     "naziv": "Spomen-bista narodnom heroju Vladi Obradoviću Kamenom",
+    "posveta": [
+      "Q13554292"
+    ],
     "type": "bista",
     "drzava": "Serbia"
   },
@@ -63476,6 +64225,9 @@
     "slikaOdnos": 0.75,
     "slikaAutor": "Dandarmkd, CC BY-SA 4.0",
     "naziv": "Споменик на Лазар Колишевски",
+    "posveta": [
+      "Q470687"
+    ],
     "type": "spomenik",
     "drzava": "Macedonia"
   },
@@ -63562,6 +64314,10 @@
     "info": "https://www.spomenikdatabase.org/gornji-jelovac",
     "naziv": "Spomenik Franji Kluzu i Rudiju Čajavecu",
     "name": "Monument to Franjo Kluz and Rudi Čajavec",
+    "posveta": [
+      "Q2614258",
+      "Q2614845"
+    ],
     "type": "spomenik",
     "drzava": "Bosnia and Herzegovina"
   },
@@ -63795,6 +64551,9 @@
     "info": "https://partizanstvo.si/sl/podrobno/partizanskispomenik/4217/",
     "naziv": "Doprsni kip Lidije Šentjurc",
     "name": "Bust of Lidija Šentjurc",
+    "posveta": [
+      "Q2781986"
+    ],
     "type": "bista",
     "drzava": "Slovenia"
   },
@@ -63933,6 +64692,9 @@
     "slikaOdnos": 1.498,
     "slikaAutor": "Zdravko, CC BY-SA 4.0",
     "naziv": "Спомен-плоча на Боро Петрушевски",
+    "posveta": [
+      "Q3407007"
+    ],
     "type": "ploca",
     "drzava": "Macedonia"
   },
@@ -64217,6 +64979,9 @@
     "naziv": "Spomenik Veljku Vlahoviću",
     "year": "1989",
     "author": "Oto Logo",
+    "posveta": [
+      "Q317399"
+    ],
     "type": "statua",
     "drzava": "Montenegro"
   },
@@ -64231,6 +64996,9 @@
     "naziv": "Spomenik Moši Pijade",
     "year": "1969",
     "author": "Branko Ružić",
+    "posveta": [
+      "Q453472"
+    ],
     "type": "spomenik",
     "drzava": "Serbia"
   },
@@ -64245,6 +65013,9 @@
     "naziv": "Spomenik Josipu Brozu Titu",
     "year": "1962",
     "author": "Frano Kršinić",
+    "posveta": [
+      "Q9161"
+    ],
     "type": "statua",
     "drzava": "Serbia"
   },
@@ -64349,6 +65120,9 @@
     "slikaAutor": "Yemc, Public domain",
     "naziv": "Споменик на Вера Јоциќ",
     "name": "Monument to Vera Jocić",
+    "posveta": [
+      "Q2349366"
+    ],
     "type": "statua",
     "drzava": "Macedonia"
   },

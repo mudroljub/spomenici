@@ -185,7 +185,7 @@ style.textContent = `
   .sadrzaj > .akcije {
     display: flex;
     flex-wrap: wrap;
-    gap: 8px;
+    gap: 6px;
     margin: 14px 0 0;
   }
 
@@ -199,8 +199,20 @@ style.textContent = `
     cursor: pointer;
     font: inherit;
     min-height: 40px;
-    padding: 8px 14px;
+    padding: 8px 11px;
     text-decoration: none;
+  }
+
+  .akcije .ikona {
+    align-items: center;
+    display: inline-flex;
+    gap: 5px;
+  }
+
+  .akcije .ikona svg {
+    flex: none;
+    height: 18px;
+    width: 18px;
   }
 
   .akcije .glavna {
@@ -314,6 +326,7 @@ export default class Detalji extends HTMLElement {
     this.panel.hidden = true
 
     this.autori = {}
+    this.posvete = {}
 
     this.attachShadow({mode: 'open'})
     this.shadowRoot.append(style, this.panel)
@@ -327,7 +340,7 @@ export default class Detalji extends HTMLElement {
   prikazi(marker, izRute) {
     this.marker = marker
     const spomen = marker.spomen
-    const podaci = [this.praviAutore(spomen), escapeHtml(spomen.year || '')].filter(Boolean).join(' · ')
+    const podaci = [this.praviAutore(spomen), this.praviPosvetu(spomen)].filter(Boolean).join(' · ')
 
     // jedan link za vise: clanak na Wikipediji na jeziku aplikacije, pa na drugom, a bez njih drugi izvor
     const vise = (jezik === 'en' ? spomen.wikiEn || spomen.wiki : spomen.wiki || spomen.wikiEn) || spomen.info
@@ -345,12 +358,12 @@ export default class Detalji extends HTMLElement {
         <button id="zatvori" title="${t('zatvori')}">×</button>
       </header>
       <div class="sadrzaj">
-        <p>${[naziv ? escapeHtml(spomen.title) : '', escapeHtml(nazivDrzave(spomen.drzava || ''))].filter(Boolean).join(', ')}</p>
+        <p>${[naziv ? escapeHtml(spomen.title) : '', escapeHtml(nazivDrzave(spomen.drzava || ''))].filter(Boolean).join(', ')}${spomen.year ? ` · ${escapeHtml(spomen.year)}` : ''}</p>
         ${podaci ? `<p class="podaci">${podaci}</p>` : ''}
         <p class="akcije">
-          <a href="${escapeHtml(navigacijaUrl(spomen.koordinate))}" target="_blank" class="glavna">${t('navigacija')}</a>
-          <a href="${escapeHtml(mestoUrl(spomen))}" target="_blank">${t('mesto')}</a>
-          <button id="ruta">${t('ruta')}</button>
+          <a href="${escapeHtml(navigacijaUrl(spomen.koordinate))}" target="_blank" class="glavna ikona"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 2.6 21.4 12 12 21.4 2.6 12Z" stroke-linejoin="round"/><path d="M9.6 14.6v-2.8c0-.8.6-1.4 1.4-1.4h4.4M13.2 8.2l2.2 2.2-2.2 2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>${t('navigacija')}</a>
+          <a href="${escapeHtml(mestoUrl(spomen))}" target="_blank" class="ikona"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s-6.5-5.8-6.5-11.2a6.5 6.5 0 0 1 13 0C18.5 15.2 12 21 12 21Z" stroke-linejoin="round"/><circle cx="12" cy="9.8" r="2.3"/></svg>${t('mesto')}</a>
+          <button id="ruta"></button>
         </p>
         ${spomen.slika ? `
           <figure class="slika" ${spomen.slikaOdnos ? `style="aspect-ratio: ${spomen.slikaOdnos}"` : ''}>
@@ -399,6 +412,22 @@ export default class Detalji extends HTMLElement {
     return `${t(autori.length > 1 ? 'autori' : 'grupaAutor')}: ${imena}`
   }
 
+  // licnosti, jedinice i dogadjaji su u posebnom spisku, jer jedna posveta ima vise spomenika
+  postaviPosvete(posvete) {
+    this.posvete = posvete
+  }
+
+  praviPosvetu({posveta = []}) {
+    const stavke = posveta.map(q => this.posvete[q]).filter(Boolean)
+    if (!stavke.length) return ''
+    const linkovi = stavke.map(p => {
+      const ime = jezik === 'en' && p.name || p.naziv
+      const link = jezik === 'en' && p.wikiEn || p.wiki
+      return `<a href="${escapeHtml(link)}" target="_blank">${escapeHtml(ime)}</a>`
+    }).join(', ')
+    return `${t('posveta')}: ${linkovi}`
+  }
+
   sakrij() {
     this.marker = null
     this.panel.hidden = true
@@ -412,7 +441,10 @@ export default class Detalji extends HTMLElement {
   }
 
   osveziRutu() {
-    this.panel.querySelector('#ruta').setAttribute('aria-pressed', uRuti(this.marker.spomen.id))
+    const dugme = this.panel.querySelector('#ruta')
+    const dodat = uRuti(this.marker.spomen.id)
+    dugme.setAttribute('aria-pressed', dodat)
+    dugme.textContent = t(dodat ? 'vecURuti' : 'dodajURutu')
   }
 
 }

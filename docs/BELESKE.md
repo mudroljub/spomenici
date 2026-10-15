@@ -215,6 +215,22 @@ Dodatno je lokalno pregledan javni [katalog „Monumental MK“](https://isie.or
 
 Rezultat ovog nastavka: **šest novih spomenika**, radni spisak **110 → 104**, Makedonija **13 → 7**. Posle upisa baza ima **4.463** spomenika. Prethodne i paralelne korisnikove izmene sačuvane su čitanjem trenutnog fajla neposredno pre svakog upisa. `integritet.py` ne prijavljuje nove greške; ostaje 17 poznatih bliskih parova. `slike_odnos.py` upisao je odnose šest novih fotografija. Završno otvorene i vizuelno pregledane sve šest mobilnih kartica 390 × 844: ispravni nazivi, slike, krediti, dostupni autori i godine i navigacija, 4.463 markera; bez JS izuzetaka. `git diff --check` prolazi.
 
+### 2026-10-15 — Ciljana potraga za nedostajućim fotografijama
+
+Pretraženi su nazivi pojedinačnih spomenika na Wikimedia Commonsu (18 upita), pročitani opisi i licence i vizuelno pregledane fotografije. Dodate su tri fotografije postojećim zapisima; koordinate, nazivi i vrste nisu menjani. Broj zapisa bez slike smanjen je sa **1.838 na 1.835**, ukupan broj ostaje **4.463**.
+
+| Zapis | Izvor fotografije | Fotograf i licenca |
+| --- | --- | --- |
+| `lumbarda` | [Partizanski spomenik, Lumbarda 20131011 135945.jpg](https://commons.wikimedia.org/wiki/File:Partizanski_spomenik,_Lumbarda_20131011_135945.jpg) | Quahadi, CC BY 3.0 |
+| `novi-banovci` | [Monument WW2 Novi Banovci.jpg](https://commons.wikimedia.org/wiki/File:Monument_WW2_Novi_Banovci.jpg) | Sadko, Wikipedia, CC BY-SA 4.0 |
+| `podgorica-tito` | [Josip Broz Tito Podgorica.jpg](https://commons.wikimedia.org/wiki/File:Josip_Broz_Tito_Podgorica.jpg) | Duklja PG, CC BY-SA 4.0 |
+
+Kod Lumbarde polje Commons `Artist` greškom sadrži vreme umesto imena: autor je preuzet iz korisnika koji je postavio fotografiju, **Quahadi**, uz izjavu `own` i sopstvenu licencu u izvornom opisu. Za Nove Banovce sačuvan je zahtev autora da kredit glasi **Sadko, Wikipedia**. Fotografije su lokalne WebP kopije širine 400 px, kvaliteta 75, sa pripadajućim odnosom stranica.
+
+Nisu preuzeti rezultati za drugi spomenik istoj osobi: Miša Pantić u Beloj Crkvi i Ivan Milutinović na Kalemegdanu ne odgovaraju traženim zapisima. Vukosavci prikazuju rodni kamen i kuću, bez potvrde da predstavljaju postojeći zapis spomen-parka. Za Valjevo Commons serije `Spomenici, Valjevo 004` i `Spomenici Valjevo 033–036` prikazuju različita postolja i okruženje; veza konkretne fotografije sa tačkom `valjevo-dudic` nije dovoljno potvrđena. Potrebna je zasebna provera identiteta i lokacije; fotografija nije dodata na osnovu same kategorije.
+
+Provere: `slike_odnos.py` nema dodatnih promena, `integritet.py` zadržava istih 17 poznatih bliskih parova. Tri mobilne kartice otvorene su lokalno sa učitanim fotografijama i ispisanim kreditima, bez JS izuzetaka. Promene podataka upoređene su sa snimkom neposredno pre upisa, uz očuvanje paralelnih izmena.
+
 ## Izvori koji su već obrađeni
 
 - **sr Wikipedija, „Списак споменика НОБ у Војводини“:** obrađen. Nazivi su uzeti po vajaru i godini.
@@ -301,6 +317,13 @@ Rezultat ovog nastavka: **šest novih spomenika**, radni spisak **110 → 104**,
   - Grahovo je Živkovićevo delo kao celina (272 kubusa sa imenima), pa ostaje park. Dotrščina (Bakić, Ružić, Angeli Radovani, Luketić) i Danica (Pleštinina „Vješala“, Sabolićeva „Izvidnica“) imaju više dela koja se iz OSM-a ne mogu pouzdano smestiti, pa ostaju parkovi (hr članci „Spomen-park Dotrščina“ i „Sabirni logor Danica“).
   - Drugi pregled istog dana, po pravilu „park ima autora samo ako su sva dela u njemu jednog autora“: razdvojeni su Dotrščina (Bakićev „Put mučeništva“ i Ružićev spomenik po OSM-u), Danica („Vješala“ i Sabolićeva „Izvidnica“; tačno mesto „Vješala“ nije poznato, pa stoje kod „Izvidnice“), Bela Crkva (Bogdanovićeva „Simbolika u kamenu“; Bodnarovljeve biste iz 1951. i Stambolićeva grobnica ostaju u parku), Šubićevac (Radovani i arhitekta Kolacio, uz ploče iz 1978) i Crna Ćuprija (Soldatović; Rajčetićev lokvanj nema lokaciju). Sremski front je jedna celina: arhitekta Krstonošić i vajar Soldatović. Brdo mira (Maksimović i kosturnica) i Jadovno (Petrić) su preskočeni, jer nije sigurno šta je na slici i gde je spomenik. Dudik, Popina, Garavice, Slobodište, Leskovac, Knjaževac, Ljutotuk, Grahovo i Ploče su dela jednog autora kao celina, pa zadržavaju autora.
   - Overpass je 2026-10-14 vratio 504 na oba servera, pa je korišćen `spomenici_osm.json` (11.000 OSM spomenika sa celog prostora).
+
+## Posvete (2026-10-15)
+
+- Polje `posveta` u `data/spomeniks.json` je spisak Wikidata stavki, a nazivi i linkovi su u `data/posvete.json` (jedan zapis po ličnosti, jedinici ili događaju, kao `autori.json`). Info prozor prikazuje red „Posvećeno: …“ sa linkom na članak (sh, hr, bs, sr, sl, mk; na engleskom en), a bez članka na Wikidatu.
+- Izvori: OSM `subject:wikidata` (dva Overpass upita po pravougaoniku) i Wikidata P547 („posvećen“, SPARQL po državi), obe vrste uparene sa našim spomenikom po OSM id-u ili na manje od 60/100 m; narodni heroji (448 sa Wikidate preko P166 = Q1262166, „Orden narodnog heroja“, i oko 1.000 članaka iz `deepcat` stabla „Народни хероји Југославије“ na sr i sh Wikipediji) upareni su sa nazivom spomenika po imenu i prezimenu, uz padež (zajednička osnova bez poslednja dva slova).
+- Rezultat: 250 spomenika, 188 posveta. Ručno su izbačeni pogrešni parovi: brigade sa istim rednim brojem, Ivan Goran Kovačić (upareni sa drugim Kovačičem), desetak slovenačkih imena sa sličnim prezimenom, opšte stavke (Drugi svetski rat, NOVJ, NOP, „narod“, „žrtve fašizma“) i OSM posvete susednih obeležja (Tesla, Ivo Andrić, papa, kupus) koje se ne poklapaju sa nazivom našeg spomenika.
+- Otvoreno: oko 280 ličnosti iz naziva koje nisu narodni heroji, oko 200 jedinica i 85 događaja; oko 3.600 spomenika ima opštu posvetu.
 
 ## Imenovanje vrsta (istraženo 2026-10-13, za kasniju odluku)
 

@@ -13,7 +13,7 @@ Ažurirano 2026-10-14. Ovaj dokument je dovoljan za samostalan rad: šta se radi
 
 ## 2. Standard zapisa (obavezno za svaki novi ili izmenjen spomenik)
 
-- **Redosled polja:** `id, koordinate{lat,lng}, googleCid, title, info, wiki, wikiEn, slika, slikaOdnos, slikaAutor, naziv, name, year, author, stanje, type, drzava`. Prazna polja se izostavljaju.
+- **Redosled polja:** `id, koordinate{lat,lng}, googleCid, title, info, wiki, wikiEn, slika, slikaOdnos, slikaAutor, naziv, name, year, author, posveta, stanje, type, drzava`. Prazna polja se izostavljaju.
 - **Fajl:** UTF-8, CRLF, uvlačenje 2, `ensure_ascii=False`, sa CRLF na kraju. Upis uvek ovako:
   `open(P,'w',encoding='utf8',newline='').write(json.dumps(d,ensure_ascii=False,indent=2).replace('\n','\r\n')+'\r\n')`
 - **id:** mala ASCII slova, cifre i crtice, jedinstven, najviše oko 50 znakova (npr. `slug(mesto + naziv)`).
@@ -27,6 +27,7 @@ Ažurirano 2026-10-14. Ovaj dokument je dovoljan za samostalan rad: šta se radi
 - **info:** izvor (OSM link `https://www.openstreetmap.org/node/…`, Commons fajl, registar). **wiki:** domaći članak (redom sh, sr, hr, bs, pa jezik države). **wikiEn:** engleski članak.
 - **slika:** 400 px širine, webp kvaliteta 75 (`magick - -resize 400x -quality 75 out.webp`). **slikaAutor:** „Autor, licenca“. **slikaOdnos:** posle svake nove slike pokreni `slike_odnos.py`.
 - **author:** više autora se spaja sa „ & “. Park dobija autora samo ako su sva dela u njemu jednog autora.
+- **posveta:** spisak Wikidata stavki (ličnost, jedinica, događaj) kojima je spomenik posvećen, npr. `["Q9161"]`; svaka mora postojati u `data/posvete.json` (`naziv`, `name`, `wiki`, `wikiEn`). Opšte posvete („palim borcima“, „žrtvama fašizma“, Drugi svetski rat, NOVJ) se ne upisuju.
 - **Obuhvat:** samo spomenici NOB-a i Drugog svetskog rata iz jugoslovenske perspektive. **Ne dodaju se:** Prvi svetski i stariji ratovi, ratovi 1991–1999 (branitelji, VRS, ARBiH, HVO, šehidi, „otadžbinski rat“), četnici i domobranci, „žrtve komunizma“ i posleratnih pokolja (Bleiburg, Križni put, „zamolčane žrtve“), NATO bombardovanje, Holokaust-obeležja postavljena posle 1990, partizanske bolnice, tehnike, staze, domovi i bunkeri bez spomenika, ulice i obeležja van Jugoslavije.
 
 ## 3. Pravila prema serverima

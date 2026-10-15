@@ -15,6 +15,7 @@ const fajlovi = [
   'favicon.ico',
   'data/spomeniks.json',
   'data/autori.json',
+  'data/posvete.json',
   'data/ture.json',
   'klase/Marker.js',
   'klase/mapa.js',
