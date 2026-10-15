@@ -126,17 +126,10 @@
     "naziv": "Spomenik na mestu kuće prvoborca Pere Nakova",
     "mesto": "Skoplje",
     "drzava": "Macedonia",
-    "izvor": "sr Wikipedija, Списак споменика НОБ",
-    "slika": "Spomenik- Skopje06627.JPG"
-  },
-  {
-    "naziv": "Spomenik na mestu kuće prvoborca Duška Popovića",
-    "mesto": "Skoplje",
-    "drzava": "Macedonia",
-    "author": "Petar Hadži Boškov",
-    "year": "1977",
-    "izvor": "sr Wikipedija, Списак споменика НОБ",
-    "slika": "Kućata na Popović.JPG"
+    "izvor": "https://dokumen.pub/da-ne-se-zaboravi-spomenici-i-spomen-belezi-od-nov-vo-skopje.html",
+    "slika": "Spomenik- Skopje06627.JPG",
+    "author": "Maksim Dimanovski",
+    "year": "1975"
   },
   {
     "naziv": "Spomenik palim borcima",
@@ -198,13 +191,6 @@
     "slika": "Spomenik kameni most.jpg"
   },
   {
-    "naziv": "Spomenik palom borcu",
-    "mesto": "Skoplje",
-    "drzava": "Macedonia",
-    "izvor": "sr Wikipedija, Списак споменика НОБ",
-    "slika": "Statue Skopje.jpg"
-  },
-  {
     "naziv": "Spomenik Prvoj makedonsko-kosovskoj brigadi",
     "mesto": "Slivovo",
     "drzava": "Macedonia",
@@ -217,13 +203,6 @@
     "drzava": "Macedonia",
     "izvor": "sr Wikipedija, Списак споменика НОБ",
     "slika": "Cento monument on Macedonian National holiday Ilinden - 2 Aug 2010.JPG"
-  },
-  {
-    "naziv": "Bista Josip Broz Tito",
-    "mesto": "Skoplje",
-    "drzava": "Macedonia",
-    "izvor": "https://sr.wikipedia.org/wiki/%D0%88%D0%BE%D1%81%D0%B8%D0%BF%20%D0%91%D1%80%D0%BE%D0%B7%20%D0%A2%D0%B8%D1%82%D0%BE",
-    "slika": "Споменик - Јосип Броз Тито 3.JPG"
   },
   {
     "naziv": "Bista Josif Josifovski Sveštarot",
@@ -636,12 +615,6 @@
     "drzava": "Serbia",
     "izvor": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%9D%D0%9E%D0%91-%D1%83_%D1%83_%D0%A7%D0%B0%D0%BB%D0%BC%D0%B8",
     "slika": "Čalma_004.jpg"
-  },
-  {
-    "naziv": "Spomenik otpora i slobode",
-    "drzava": "Serbia",
-    "izvor": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BE%D1%82%D0%BF%D0%BE%D1%80%D0%B0_%D0%B8_%D1%81%D0%BB%D0%BE%D0%B1%D0%BE%D0%B4%D0%B5",
-    "slika": "Споменик_отпора_и_слободе.jpg"
   },
   {
     "naziv": "Spomenik na mestu pogibije Ise Sekickog u blizini Kule",

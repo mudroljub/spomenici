@@ -2657,6 +2657,7 @@
     "slikaOdnos": 1.389,
     "naziv": "Spomenik žrtvama fašizma",
     "name": "Monument to the Victims of Fascism",
+    "year": "1972",
     "author": "Jovan Soldatović",
     "type": "spomenik",
     "drzava": "Serbia"
@@ -5720,6 +5721,7 @@
     "naziv": "Spomenik 4. decembar",
     "name": "Monument to Fallen Fighters",
     "year": "1953",
+    "author": "Lojze Dolinar",
     "type": "spomenik",
     "drzava": "Serbia"
   },
@@ -7244,6 +7246,7 @@
     "naziv": "Spomenik otpora i pobede",
     "name": "Monument to Resistance & Torment",
     "year": "1955",
+    "author": "Lojze Dolinar",
     "type": "istaknut",
     "drzava": "Serbia"
   },
@@ -9543,6 +9546,7 @@
     "naziv": "Spomenik Janku Čmeliku",
     "name": "Monument to Janko Čmelik",
     "year": "1948",
+    "author": "Stevan Bodnarov",
     "type": "spomenik",
     "drzava": "Serbia"
   },
@@ -9853,6 +9857,7 @@
     "naziv": "Spomenik palim borcima",
     "name": "Monument to Fallen Fighters",
     "year": "1953",
+    "author": "Miodrag Miša Popović",
     "type": "spomenik",
     "drzava": "Serbia"
   },
@@ -10197,6 +10202,7 @@
     "naziv": "Spomenik akcijašima",
     "name": "Youth Work Action Monument",
     "year": "1961",
+    "author": "Milica Ribnikar",
     "type": "spomenik",
     "drzava": "Serbia"
   },
@@ -10450,6 +10456,7 @@
     "naziv": "Spomen-kosturnica palim borcima i žrtvama fašizma",
     "name": "Mem. Crypt to Fallen Fighters & Victims",
     "year": "1954",
+    "author": "Milovan Krstić & Bratislav Stojanović",
     "type": "spomenik",
     "drzava": "Serbia"
   },
@@ -11049,6 +11056,7 @@
     "naziv": "Groblje oslobodilaca Beograda",
     "name": "The Liberators of Belgrade Cemetery",
     "year": "1954",
+    "author": "Branko Bon",
     "type": "groblje",
     "drzava": "Serbia"
   },
@@ -11857,6 +11865,7 @@
     "naziv": "Spomenik palim borcima",
     "name": "Monument to Fallen Fighters",
     "year": "1967",
+    "author": "Radeta Stanković & Bojan Bon",
     "type": "spomenik",
     "drzava": "Serbia"
   },
@@ -12030,6 +12039,7 @@
     "naziv": "Spomenik palim rudarima",
     "name": "Monument to Fallen Miners",
     "year": "1951",
+    "author": "Nandor Glid",
     "type": "spomenik",
     "drzava": "Serbia"
   },
@@ -13448,6 +13458,7 @@
     "slikaOdnos": 1.361,
     "slikaAutor": "Pinki, Public domain",
     "naziv": "Grobnica narodnih heroja",
+    "year": "1948",
     "type": "groblje",
     "drzava": "Serbia"
   },
@@ -19230,6 +19241,8 @@
     "slikaOdnos": 0.562,
     "slikaAutor": "Google Maps",
     "naziv": "Spomenik NOB",
+    "year": "1969",
+    "author": "Milan Pališaški",
     "type": "lokalni",
     "drzava": "Serbia"
   },
@@ -21201,6 +21214,7 @@
     "googleCid": "8630590346234385102",
     "title": "Grgurevci",
     "naziv": "Spomenik NOB",
+    "year": "1952",
     "type": "lokalni",
     "drzava": "Serbia"
   },
@@ -22489,6 +22503,8 @@
     "slikaOdnos": 1.961,
     "slikaAutor": "Google Maps",
     "naziv": "Spomenik palim borcima za slobodu 1941–1945",
+    "year": "1954",
+    "author": "Ljubinka Savić Grasi",
     "type": "spomenik",
     "drzava": "Serbia"
   },
@@ -25830,6 +25846,7 @@
     "slikaAutor": "METOKARA, CC BY-SA 3.0",
     "naziv": "Јосип Броз Тито",
     "name": "Statue of Josip Broz - Tito",
+    "year": "2013",
     "type": "spomenik",
     "drzava": "Macedonia"
   },
@@ -27251,6 +27268,8 @@
     "slikaAutor": "Marko Stanojević, CC BY-SA 4.0",
     "naziv": "Spomenik „Kameni spavač“",
     "name": "The \"Stone Sleeper\" Monument",
+    "year": "1970",
+    "author": "Gradimir Bosnić & Jelica Bosnić",
     "type": "spomenik",
     "drzava": "Serbia"
   },
@@ -27267,6 +27286,8 @@
     "slikaAutor": "Струјајое, CC BY-SA 3.0",
     "naziv": "Spomen-obeležje naroda Hrvatske",
     "name": "Memorial of the People of Croatia (\"Circles\")",
+    "year": "1981",
+    "author": "Vojin Bakić & Josip Sajsl & Silvana Sajsl",
     "type": "spomenik",
     "drzava": "Serbia"
   },
@@ -27366,6 +27387,8 @@
     "slikaAutor": "Јованвб, CC BY-SA 3.0",
     "naziv": "Spomenik „Kristalni cvet“",
     "name": "The \"Crystal Flower\" Monument",
+    "year": "1968",
+    "author": "Nebojša Delja",
     "type": "spomenik",
     "drzava": "Serbia"
   },
@@ -27382,6 +27405,8 @@
     "slikaAutor": "Flammard, CC BY-SA 3.0",
     "naziv": "Spomenik „Sto za jednog“",
     "name": "The \"Hundred for One\" Monument",
+    "year": "1980",
+    "author": "Nandor Glid",
     "type": "spomenik",
     "drzava": "Serbia"
   },
@@ -29646,6 +29671,8 @@
     "slikaAutor": "Vanjagenije, CC BY-SA 4.0",
     "naziv": "Spomenik XIII vojvođanskoj brigadi",
     "name": "Monument to the 13th Vojvodina Brigade",
+    "year": "1969",
+    "author": "Zdravko Mandić",
     "type": "spomenik",
     "drzava": "Serbia"
   },
@@ -57604,6 +57631,7 @@
     "slikaAutor": "Андрей Романенко, CC BY-SA 4.0",
     "naziv": "Spomenik obalskim radnicima palim u NOB-u",
     "year": "1952",
+    "author": "Radeta Stanković",
     "type": "lokalni",
     "drzava": "Serbia"
   },
@@ -58189,6 +58217,8 @@
     "slikaOdnos": 0.795,
     "slikaAutor": "Knoken (https://www.xiwl.com/w/index.php/User:Knoken), CC BY-SA 4.0",
     "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+    "year": "1955",
+    "author": "Ana Bešlić",
     "type": "lokalni",
     "drzava": "Serbia"
   },
@@ -59388,7 +59418,7 @@
     "title": "Socerb",
     "info": "https://www.openstreetmap.org/way/1312813281",
     "naziv": "Padlim borcem za svobodo",
-    "author": "Dario Jagodic, Mario Sancin, Stanko Zidarič",
+    "author": "Dario Jagodic & Mario Sancin & Stanko Zidarič",
     "type": "lokalni",
     "drzava": "Slovenia"
   },
@@ -64172,5 +64202,97 @@
     "naziv": "Spominska plošča ubitim talcem in akcijam 9. korpusa",
     "type": "ploca",
     "drzava": "Slovenia"
+  },
+  {
+    "id": "kolasin-spomenik-veljku-vlahovicu",
+    "koordinate": {
+      "lat": 42.8237131,
+      "lng": 19.5227009
+    },
+    "title": "Kolašin",
+    "info": "https://skulptura-hronologijaizlaganja.rs/spomenik-veljku-vlahovicu-kolasin/",
+    "naziv": "Spomenik Veljku Vlahoviću",
+    "year": "1989",
+    "author": "Oto Logo",
+    "type": "spomenik",
+    "drzava": "Montenegro"
+  },
+  {
+    "id": "beograd-spomenik-mosi-pijade",
+    "koordinate": {
+      "lat": 44.8154888,
+      "lng": 20.4650554
+    },
+    "title": "Beograd",
+    "info": "https://skulptura-hronologijaizlaganja.rs/spomenik-mosi-pijade-u-beogradu/",
+    "naziv": "Spomenik Moši Pijade",
+    "year": "1969",
+    "author": "Branko Ružić",
+    "type": "spomenik",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "uzice-spomenik-josipu-brozu-titu",
+    "koordinate": {
+      "lat": 43.8565416,
+      "lng": 19.8401931
+    },
+    "title": "Užice",
+    "info": "https://skulptura-hronologijaizlaganja.rs/spomenik-josipu-brozu-titu-uzice/",
+    "naziv": "Spomenik Josipu Brozu Titu",
+    "year": "1962",
+    "author": "Frano Kršinić",
+    "type": "spomenik",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "kragujevac-spomenik-otpora-i-slobode",
+    "koordinate": {
+      "lat": 44.0254514,
+      "lng": 20.9001564
+    },
+    "title": "Kragujevac",
+    "info": "https://skulptura-hronologijaizlaganja.rs/spomenik-otpora-i-slobode-spomen-park-kragujevacki-oktobar-kragujevac/",
+    "naziv": "Spomenik otpora i slobode",
+    "year": "1966",
+    "author": "Ante Gržetić",
+    "type": "spomenik",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "skopje-dusko-popovik",
+    "koordinate": {
+      "lat": 41.99303,
+      "lng": 21.4391677
+    },
+    "title": "Skopje (Novo Maalo)",
+    "info": "https://www.spomenikdatabase.org/skopje",
+    "slika": "slike/spomenici/skopje-dusko-popovik.webp",
+    "slikaOdnos": 0.669,
+    "slikaAutor": "Raso mk, CC BY-SA 3.0",
+    "naziv": "Спомен-обележје на куќата на Душко Поповиќ",
+    "name": "Memorial to Duško Popović",
+    "year": "1977",
+    "author": "Petar Hadži Boškov",
+    "type": "spomenik",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "skopje-blagoja-despotovski-sovelj",
+    "koordinate": {
+      "lat": 41.9944167,
+      "lng": 21.42775
+    },
+    "title": "Skopje (Centar)",
+    "info": "https://www.spomenikdatabase.org/skopje",
+    "slika": "slike/spomenici/skopje-blagoja-despotovski-sovelj.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "Novica Nakov, CC BY-SA 2.0",
+    "naziv": "Споменик на Благоја Деспотовски – Шовељ",
+    "name": "Monument to Blagoja Despotovski – Šovelj",
+    "year": "1975",
+    "author": "Ljupčo Stefanovski",
+    "type": "spomenik",
+    "drzava": "Macedonia"
   }
 ]
