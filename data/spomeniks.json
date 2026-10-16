@@ -8711,6 +8711,7 @@
     "naziv": "Spomenik palim borcima",
     "nazivEn": "Monument to Fallen Fighters",
     "godina": "1980",
+    "autor": "Slavomir Miletić",
     "vrsta": "statua",
     "drzava": "Serbia"
   },
@@ -68311,5 +68312,49 @@
     "autor": "Lojze Knafelc",
     "vrsta": "lokalni",
     "drzava": "Slovenia"
+  },
+  {
+    "id": "smederevska-palanka-biste-narodnih-heroja",
+    "koordinate": {
+      "lat": 44.366088,
+      "lng": 20.956294
+    },
+    "mesto": "Smederevska Palanka",
+    "izvor": "https://podaci.com/srbija/lokacije/Biste-narodnih-heroja-Smederevska-Palanka.html",
+    "naziv": "Biste narodnih heroja",
+    "nazivEn": "Busts of People's Heroes",
+    "posveta": [
+      "Q16380687",
+      "Q12751151",
+      "Q4167828"
+    ],
+    "vrsta": "bista",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "smederevska-palanka-spomenik-omladincima-prvoborcima",
+    "koordinate": {
+      "lat": 44.354688,
+      "lng": 20.967225
+    },
+    "mesto": "Smederevska Palanka (Palanački kiseljak)",
+    "izvor": "https://podaci.com/srbija/lokacije/Spomenik-omladincima-prvoborcima.html",
+    "naziv": "Spomenik omladincima prvoborcima",
+    "nazivEn": "Monument to the Young First Fighters",
+    "vrsta": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "cerovac-spomenik-poginulim-borcima-1941-1945",
+    "koordinate": {
+      "lat": 44.327552,
+      "lng": 20.865363
+    },
+    "mesto": "Cerovac",
+    "izvor": "https://podaci.com/srbija/lokacije/Spomenik-poginulim-borcima-1941-1945-Cerovac.html",
+    "naziv": "Spomenik poginulim borcima 1941-1945",
+    "nazivEn": "Monument to Fighters Killed 1941-1945",
+    "vrsta": "lokalni",
+    "drzava": "Serbia"
   }
 ]

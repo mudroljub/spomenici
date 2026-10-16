@@ -22,5 +22,8 @@ Provera fotografija za svih 132 tadašnja zapisa bez slike u Srbiji završena je
 
 ## TODO
 
+- iskoristi za lokalne dopune i ispravke: https://podaci.com/srbija/OPSTINE/Opstina-SMEDEREVSKA-PALANKA.html
+- dodaj fontanu i ploču na Trgu mladih u Ćićevcu i spomen-česmu u Trubarevu kod cerovačkog mosta
+- update: rodna kuća Filipa Macure u Banjaluci je srušena i spomen ploča uklonjena. Na tom mjestu je napravljena zgrada jednog osiguranja...I ime škole koja se po njemu zvala je promijenjeno.
 - ponovo preći spisak bez lokacije i pokušati pronalaženje nekih (ne tražiti uklonjene naravno)
 - analizirati kako najlakše i kojim alatima napraviti mobilnu aplikaciju za android i iphone, i jel moguće zadržati deljeni kod.
