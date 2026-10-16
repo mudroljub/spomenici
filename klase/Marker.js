@@ -28,7 +28,8 @@ const imaMis = matchMedia('(hover: hover)').matches
 
 const opis = spomen => {
   const naziv = nazivSpomenika(spomen)
-  return naziv ? `<b>${escapeHtml(naziv)}</b><br>${escapeHtml(spomen.mesto)}` : escapeHtml(spomen.mesto)
+  const mesto = `<b>${escapeHtml(spomen.mesto)}</b>`
+  return naziv ? `${mesto}<br>${escapeHtml(naziv)}` : mesto
 }
 
 export default class Marker {

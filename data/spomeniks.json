@@ -1936,7 +1936,8 @@
     "nazivEn": "Freedom Hill Monument",
     "godina": "1970",
     "vrsta": "istaknut",
-    "drzava": "Bosnia and Herzegovina"
+    "drzava": "Bosnia and Herzegovina",
+    "naziv": "Spomenik"
   },
   {
     "id": "zagreb-december-victims",
@@ -2601,7 +2602,8 @@
     "slikaOdnos": 1.575,
     "nazivEn": "Martyrs Monument",
     "vrsta": "spomenik",
-    "drzava": "Kosovo"
+    "drzava": "Kosovo",
+    "naziv": "Spomenik"
   },
   {
     "id": "vinarce",
@@ -3557,7 +3559,8 @@
     "nazivEn": "Plum Hill Battle Monument",
     "godina": "1963",
     "vrsta": "spomenik",
-    "drzava": "Macedonia"
+    "drzava": "Macedonia",
+    "naziv": "Споменик"
   },
   {
     "id": "krnica",
@@ -4483,7 +4486,8 @@
     "nazivEn": "Mon. to the <a href=\"https://en.wikipedia.org/wiki/1963_Skopje_earthquake\" target=\"_blank\">1963 Skopje Earthquake</a>",
     "godina": "1964",
     "vrsta": "spomenik",
-    "drzava": "Macedonia"
+    "drzava": "Macedonia",
+    "naziv": "Споменик"
   },
   {
     "id": "mostar-hidden-hand-fountain",
@@ -4666,7 +4670,8 @@
     "godina": "1977",
     "stanje": "uklonjen",
     "vrsta": "spomenik",
-    "drzava": "Macedonia"
+    "drzava": "Macedonia",
+    "naziv": "Споменик"
   },
   {
     "id": "garesnica",
@@ -4712,7 +4717,8 @@
     "nazivEn": "Youth Pioneer Camp at Dojran",
     "stanje": "rusevine",
     "vrsta": "kompleks",
-    "drzava": "Macedonia"
+    "drzava": "Macedonia",
+    "naziv": "Спомен-комплекс"
   },
   {
     "id": "vitomirica",
@@ -5591,7 +5597,8 @@
     "slika": "slike/spomenici/tito-s-cave-at-vis.webp",
     "slikaOdnos": 1.455,
     "vrsta": "spomenik",
-    "drzava": "Croatia"
+    "drzava": "Croatia",
+    "naziv": "Titova špilja"
   },
   {
     "id": "tito-museum-on-brijuni",
@@ -6457,7 +6464,7 @@
       "lat": 42.0005022,
       "lng": 21.4322725
     },
-    "mesto": "Skopje (Kale Fortress)",
+    "mesto": "Skopje (Kale)",
     "slika": "slike/spomenici/skopje-strength-glory-victory.webp",
     "slikaOdnos": 1.504,
     "naziv": "Сила, слава и победа",
@@ -7099,7 +7106,8 @@
     "nazivEn": "'Casualties' Monument",
     "autor": "Vanja Radauš",
     "vrsta": "statua",
-    "drzava": "Croatia"
+    "drzava": "Croatia",
+    "naziv": "Statua"
   },
   {
     "id": "zemun-bombas",
@@ -7176,7 +7184,7 @@
       "lat": 44.8721804,
       "lng": 15.6282553
     },
-    "mesto": "Plitvice Lakes",
+    "mesto": "Plitvička Jezera",
     "slika": "slike/spomenici/plitvice-lakes.webp",
     "slikaOdnos": 1.434,
     "naziv": "Spomen-dom 6. ličke proleterske divizije",
@@ -7232,7 +7240,8 @@
     "godina": "1988",
     "autor": "Marko Mušič",
     "vrsta": "groblje",
-    "drzava": "Slovenia"
+    "drzava": "Slovenia",
+    "naziv": "Pokopališče"
   },
   {
     "id": "sarajevo-djuro-djakovic",
@@ -7742,7 +7751,8 @@
     "slikaOdnos": 1.278,
     "nazivEn": "Mon. to Fallen Fighters \"Hunger Mon.\"",
     "vrsta": "spomenik",
-    "drzava": "Bosnia and Herzegovina"
+    "drzava": "Bosnia and Herzegovina",
+    "naziv": "Spomenik"
   },
   {
     "id": "slavonski-brod",
@@ -8604,7 +8614,8 @@
     "slikaOdnos": 1.498,
     "godina": "1985",
     "vrsta": "ploca",
-    "drzava": "Montenegro"
+    "drzava": "Montenegro",
+    "naziv": "Spomen-ploča"
   },
   {
     "id": "osijek-worker-s-house",
@@ -10054,7 +10065,8 @@
     "slikaOdnos": 1.487,
     "nazivEn": "Mon. to the Battle of Vuk's Pass",
     "vrsta": "spomenik",
-    "drzava": "Croatia"
+    "drzava": "Croatia",
+    "naziv": "Spomenik"
   },
   {
     "id": "gracac",
@@ -10642,7 +10654,8 @@
     "slikaOdnos": 1.394,
     "nazivEn": "Monument to the Osogovo Group",
     "vrsta": "spomenik",
-    "drzava": "Macedonia"
+    "drzava": "Macedonia",
+    "naziv": "Споменик"
   },
   {
     "id": "pakrac",
@@ -10788,7 +10801,8 @@
     "nazivEn": "Mon. to Fallen Fighters & Dam Workers",
     "godina": "1970",
     "vrsta": "spomenik",
-    "drzava": "Croatia"
+    "drzava": "Croatia",
+    "naziv": "Spomenik"
   },
   {
     "id": "kozica",
@@ -11832,7 +11846,8 @@
     "nazivEn": "Mon. to Slain Couriers at Dom Prašnikar",
     "godina": "1971",
     "vrsta": "spomenik",
-    "drzava": "Slovenia"
+    "drzava": "Slovenia",
+    "naziv": "Spomenik"
   },
   {
     "id": "stanari",
@@ -12549,7 +12564,8 @@
     "nazivEn": "\"The Road of Krško Victims\" Monument",
     "godina": "1957",
     "vrsta": "spomenik",
-    "drzava": "Slovenia"
+    "drzava": "Slovenia",
+    "naziv": "Spomenik"
   },
   {
     "id": "belegis",
@@ -13048,7 +13064,8 @@
     "godina": "1976",
     "stanje": "uklonjen",
     "vrsta": "spomenik",
-    "drzava": "Croatia"
+    "drzava": "Croatia",
+    "naziv": "Spomenik"
   },
   {
     "id": "kakanj",
@@ -13298,7 +13315,8 @@
     "nazivEn": "The Martyrs' Monument",
     "godina": "1984",
     "vrsta": "spomenik",
-    "drzava": "Kosovo"
+    "drzava": "Kosovo",
+    "naziv": "Spomenik"
   },
   {
     "id": "plaski",
@@ -25894,7 +25912,8 @@
     "slikaOdnos": 1.333,
     "slikaPotpis": "Google Maps",
     "vrsta": "lokalni",
-    "drzava": "Macedonia"
+    "drzava": "Macedonia",
+    "naziv": "Споменик"
   },
   {
     "id": "dabrica",
@@ -26067,7 +26086,8 @@
     "slikaOdnos": 0.75,
     "slikaPotpis": "Google Maps",
     "vrsta": "lokalni",
-    "drzava": "Macedonia"
+    "drzava": "Macedonia",
+    "naziv": "Споменик"
   },
   {
     "id": "bogdanci",
@@ -26081,7 +26101,8 @@
     "slikaOdnos": 1.333,
     "slikaPotpis": "Google Maps",
     "vrsta": "bista",
-    "drzava": "Macedonia"
+    "drzava": "Macedonia",
+    "naziv": "Биста"
   },
   {
     "id": "radovis",
@@ -26095,7 +26116,8 @@
     "slikaOdnos": 0.75,
     "slikaPotpis": "Google Maps",
     "vrsta": "lokalni",
-    "drzava": "Macedonia"
+    "drzava": "Macedonia",
+    "naziv": "Споменик"
   },
   {
     "id": "nis-marger",
@@ -26124,7 +26146,8 @@
     "slikaOdnos": 1.018,
     "slikaPotpis": "Google Maps",
     "vrsta": "lokalni",
-    "drzava": "Croatia"
+    "drzava": "Croatia",
+    "naziv": "Spomenik"
   },
   {
     "id": "ledine",
@@ -26294,7 +26317,8 @@
     "slikaOdnos": 0.75,
     "slikaPotpis": "Google Maps",
     "vrsta": "lokalni",
-    "drzava": "Macedonia"
+    "drzava": "Macedonia",
+    "naziv": "Споменик"
   },
   {
     "id": "zagreb-holjevac",
@@ -65098,7 +65122,8 @@
       "Q12289890"
     ],
     "vrsta": "lokalni",
-    "drzava": "Macedonia"
+    "drzava": "Macedonia",
+    "naziv": "Споменик"
   },
   {
     "id": "sveti-nikole-spomenik-na-lazar-kolisevski",

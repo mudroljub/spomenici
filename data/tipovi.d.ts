@@ -19,10 +19,14 @@ export interface Spomenik {
   id: string
   /** 7 decimala */
   koordinate: Koordinate
-  /** ID Google mesta, samo cifre */
-  googleCid?: string
   /** mesto, „Grad (deo grada)“, npr. "Beograd (Banjica)" */
   mesto: string
+  /** domaći naziv, na jeziku i pismu države; bez poznatog imena samo vrsta („Spomenik“, „Spomen-ploča“) */
+  naziv: string
+  vrsta: Vrsta
+  drzava: Drzava
+  /** ID Google mesta, samo cifre */
+  googleCid?: string
   /** URL izvora podataka: OSM, Commons, registar, spomenicinob.info */
   izvor?: string
   /** domaći članak na Vikipediji */
@@ -35,8 +39,6 @@ export interface Spomenik {
   slikaOdnos?: number
   /** „Autor, licenca“ */
   slikaPotpis?: string
-  /** domaći naziv, na jeziku i pismu države */
-  naziv?: string
   /** engleski naziv, samo kad se razlikuje od domaćeg */
   nazivEn?: string
   /** godina podizanja: "1961", raspon "1958-1960", ili približno "pre 1960", "posle 1960", "oko 1960", "1960-ih" */
@@ -46,8 +48,6 @@ export interface Spomenik {
   /** Wikidata stavke iz data/posvete.json, npr. ["Q82914"] */
   posveta?: string[]
   stanje?: Stanje
-  vrsta: Vrsta
-  drzava: Drzava
 }
 
 /** moguća, nepotvrđena lokacija spomenika bez lokacije */
@@ -57,9 +57,9 @@ export interface Kandidat extends Koordinate {
 }
 
 /** data/bez_lokacije.json: poznat spomenik koji još ne možemo da smestimo na mapu.
- * Ista polja kao Spomenik, bez koordinata, uz podatke koji pomažu da se spomenik pronađe.
- * Spisak ovom tipu još ne odgovara u svemu; koraci su u README, odeljak TODO. */
-export interface SpomenikBezLokacije extends Omit<Spomenik, 'koordinate'> {
+ * Ista polja kao Spomenik, bez id-a i koordinata, uz podatke koji pomažu da se spomenik pronađe.
+ * Izuzetak: u 54 stavke `slika` je ime fajla na Vikipediji; slika se preuzima tek pri prebacivanju u bazu. */
+export interface SpomenikBezLokacije extends Omit<Spomenik, 'id' | 'koordinate'> {
   /** adresa ili opis položaja sa izvora, engleski */
   adresa?: string
   /** moguće, nepotvrđene lokacije */
