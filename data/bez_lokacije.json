@@ -1597,7 +1597,13 @@
     "autor": "Ištvan Lajoš",
     "godina": "1952",
     "vrsta": "lokalni",
-    "izvor": "https://www.spomenicinob.info/banjaluka"
+    "izvor": "https://www.spomenicinob.info/banjaluka",
+    "proveraLokacije": {
+      "datum": "2026-10-16",
+      "ishod": "raniji-spomenik-zamenjen",
+      "izvor": "https://www.spomenicinob.info/banjaluka",
+      "napomena": "Popis razlikuje stariji spomenik iz 1952, Ištvan Lajoš, zamenjen 1970-ih, i današnji spomenik uz školu, nastao krajem 1970-ih. Današnjem markeru ne prepisivati godinu i autora starog spomenika; nema novog potvrđenog traga stare lokacije."
+    }
   },
   {
     "naziv": "Spomenik 8 palih boraca XV krajiške brigade",
@@ -2764,15 +2770,6 @@
     "drzava": "Bosnia and Herzegovina",
     "vrsta": "lokalni",
     "izvor": "https://www.spomenicinob.info/bihac"
-  },
-  {
-    "naziv": "Spomenik palim borcima",
-    "nazivEn": "Monument to fallen fighters",
-    "mesto": "Očigrije",
-    "drzava": "Bosnia and Herzegovina",
-    "vrsta": "lokalni",
-    "izvor": "https://www.spomenicinob.info/bihac",
-    "stanje": "ostecen"
   },
   {
     "naziv": "Spomen-ploča Oficirskoj školi",
@@ -13404,18 +13401,6 @@
     "izvor": "https://www.spomenicinob.info/drvar"
   },
   {
-    "naziv": "Spomenik NOB-u",
-    "nazivEn": "Monument to the NOB",
-    "mesto": "Drvar",
-    "adresa": "Šobića Glavica, memorial park",
-    "drzava": "Bosnia and Herzegovina",
-    "autor": "Marijan Kocković",
-    "godina": "1967",
-    "vrsta": "lokalni",
-    "izvor": "https://www.spomenicinob.info/drvar",
-    "stanje": "rusevine"
-  },
-  {
     "naziv": "Spomen-ploča posvećena palim borcima",
     "nazivEn": "Plaque dedicated to fallen fighters",
     "mesto": "Drvar",
@@ -15394,17 +15379,6 @@
     "vrsta": "lokalni",
     "izvor": "https://www.spomenicinob.info/glamoc",
     "stanje": "ostecen"
-  },
-  {
-    "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
-    "nazivEn": "Monument to fallen fighters and Victims of Fascist Terror",
-    "mesto": "Kamen",
-    "adresa": "Beside main road between Kamen and Podgradina",
-    "drzava": "Bosnia and Herzegovina",
-    "autor": "Ilija Jurić",
-    "godina": "1951",
-    "vrsta": "lokalni",
-    "izvor": "https://www.spomenicinob.info/glamoc"
   },
   {
     "naziv": "Bista Ilije Barišića Ilibaša",
@@ -28428,16 +28402,6 @@
     "vrsta": "ploca",
     "izvor": "https://www.spomenicinob.info/ostraluka",
     "stanje": "ostecen"
-  },
-  {
-    "naziv": "Spomenik žrtvama fašističkog terora",
-    "nazivEn": "Monument to Victims of Fascist Terror",
-    "mesto": "Budimlić Japra",
-    "adresa": "Village centre",
-    "drzava": "Bosnia and Herzegovina",
-    "godina": "1960",
-    "vrsta": "lokalni",
-    "izvor": "https://www.spomenicinob.info/ostraluka"
   },
   {
     "naziv": "Zajednička grobnica žrtava fašističkog terora",
@@ -43471,13 +43435,6 @@
     "izvor": "https://znaci.org/00003/920.pdf#page=245",
     "naziv": "Spomenik palim 1941–1945. u krugu Pogona na Crvenom krstu",
     "vrsta": "spomenik",
-    "drzava": "Serbia"
-  },
-  {
-    "mesto": "Novi Sad",
-    "izvor": "https://znaci.org/00003/920.pdf#page=253",
-    "naziv": "Muzej socijalističke revolucije Vojvodine",
-    "vrsta": "muzej",
     "drzava": "Serbia"
   },
   {

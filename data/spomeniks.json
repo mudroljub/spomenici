@@ -56162,6 +56162,8 @@
     "mesto": "Kamen",
     "izvor": "https://www.openstreetmap.org/node/10606791867",
     "naziv": "Spomenik Palim Borcima i Žrtvama Fašističkog Terora",
+    "godina": "1951",
+    "autor": "Ilija Jurić",
     "vrsta": "lokalni",
     "drzava": "Bosnia and Herzegovina"
   },
@@ -64309,6 +64311,7 @@
     "slikaOdnos": 0.75,
     "slikaPotpis": "87Edvin, CC BY 3.0",
     "naziv": "Spomenik žrtvama fašističkog terora",
+    "godina": "1960",
     "vrsta": "lokalni",
     "drzava": "Bosnia and Herzegovina"
   },
@@ -68281,5 +68284,18 @@
     "nazivEn": "Memorial park of fallen fighters and Victims of Fascist Terror",
     "vrsta": "kompleks",
     "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "novi-sad-muzej-vojvodine-dunavska-37",
+    "koordinate": {
+      "lat": 45.2566255,
+      "lng": 19.8531914
+    },
+    "mesto": "Novi Sad",
+    "izvor": "https://znaci.org/00003/920.pdf#page=253",
+    "naziv": "Muzej Vojvodine (Dunavska 37)",
+    "nazivEn": "Museum of Vojvodina (Dunavska 37)",
+    "vrsta": "muzej",
+    "drzava": "Serbia"
   }
 ]
