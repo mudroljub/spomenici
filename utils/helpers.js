@@ -17,15 +17,15 @@ export const naziviStanja = {
 
 const bezLinkova = html => (html || '').replace(/<[^>]*>/g, '')
 
-export const nazivSpomenika = ({naziv, name}) => jezik === 'en'
-  ? bezLinkova(name) || naziv || ''
-  : naziv || bezLinkova(name)
+export const nazivSpomenika = ({naziv, nazivEn}) => jezik === 'en'
+  ? bezLinkova(nazivEn) || naziv || ''
+  : naziv || bezLinkova(nazivEn)
 
 // umanjena slika (alati/male_slike.py) za trake i spiskove, gde je velika suvisna
 export const malaSlika = putanja => putanja.replace('slike/spomenici/', 'slike/male/')
 
 // vise autora jednog spomenika upisano je kao „Ime & Ime“
-export const autoriSpomenika = ({author}) => author ? author.split(' & ') : []
+export const autoriSpomenika = ({autor}) => autor ? autor.split(' & ') : []
 
 // uklonjen spomenik vise nema sta da se obidje; od srusenog obicno ostanu delovi
 export const nestao = stanje => stanje === 'uklonjen'

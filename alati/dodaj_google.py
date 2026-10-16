@@ -49,7 +49,7 @@ for link, naziv in parovi:
     while sid in postojeci:
         sid += '-2'
     postojeci.add(sid)
-    d.append({'id': sid, 'koordinate': {'lat': lat, 'lng': lng}, 'googleCid': cid, 'title': naslov, 'naziv': naziv, 'type': vrsta, 'drzava': zemlja})
+    d.append({'id': sid, 'koordinate': {'lat': lat, 'lng': lng}, 'googleCid': cid, 'mesto': naslov, 'naziv': naziv, 'vrsta': vrsta, 'drzava': zemlja})
     print(sid, '|', naslov, '|', naziv)
 open(p, 'w', encoding='utf8', newline='').write(json.dumps(d, indent=2, ensure_ascii=False).replace('\n', '\r\n') + '\r\n')
 print('ukupno', len(d))

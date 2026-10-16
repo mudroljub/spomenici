@@ -140,13 +140,13 @@ export default class Najblizi extends HTMLElement {
   }
 
   praviRed(stavka, metara) {
-    const {title, stanje} = stavka.spomenik
+    const {mesto, stanje} = stavka.spomenik
     const red = document.createElement('li')
     red.innerHTML = '<span class="km"></span><span><span class="naziv"></span><span class="opis"></span></span>'
     red.querySelector('.km').textContent = formatirajRazdaljinu(metara)
     const naziv = nazivSpomenika(stavka.spomenik)
-    red.querySelector('.naziv').textContent = naziv || title
-    red.querySelector('.opis').textContent = [naziv && title, naziviStanja[stanje]].filter(Boolean).join(' · ')
+    red.querySelector('.naziv').textContent = naziv || mesto
+    red.querySelector('.opis').textContent = [naziv && mesto, naziviStanja[stanje]].filter(Boolean).join(' · ')
     red.addEventListener('click', () => {
       this.panel.hidden = true
       stavka.marker.otvoriProzor()

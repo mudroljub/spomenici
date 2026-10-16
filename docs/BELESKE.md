@@ -251,7 +251,7 @@ Identitet obeliska u Bačkom Petrovcu i spomenika Krilo u Laćarku dodatno je po
 
 Preskočeni su fotografija ploče Milanu Tepiću umesto statue, drugi spomenik u Arilju (već ima sliku), centralno obeležje u Laćarku umesto Krila, fotografije crkava i drugi nerelevantni rezultati za sela. Poseban otvoreni nalaz: zapis `backi-petrovac` ima mesto Bački Petrovac, ali koordinate 45.7041618, 20.0864815 izvan tog naselja; nije korišćen za uparivanje nove fotografije zapisa `backi-petrovac-2` i zahteva odvojenu proveru mesta i tačke.
 
-Fotografije su WebP, širine 400 px, kvalitet 75. `slike_odnos.py` nema dodatnih izmena. `integritet.py` zadržava samo 17 poznatih bliskih parova; svih pet mobilnih kartica 390 × 844 vizuelno je pregledano, slike i krediti se učitavaju, mapa ima 4.463 markera i nema JS izuzetaka. Poređenje sa snimkom neposredno pre upisa potvrđuje da su naše izmene samo `slika`, `slikaOdnos` i `slikaAutor` na pet zapisa; sačuvane su paralelne dopune polja `posveta`.
+Fotografije su WebP, širine 400 px, kvalitet 75. `slike_odnos.py` nema dodatnih izmena. `integritet.py` zadržava samo 17 poznatih bliskih parova; svih pet mobilnih kartica 390 × 844 vizuelno je pregledano, slike i krediti se učitavaju, mapa ima 4.463 markera i nema JS izuzetaka. Poređenje sa snimkom neposredno pre upisa potvrđuje da su naše izmene samo `slika`, `slikaOdnos` i `slikaPotpis` na pet zapisa; sačuvane su paralelne dopune polja `posveta`.
 
 ### 2026-10-15 — Provera mesta za zapis `backi-petrovac`
 
@@ -319,7 +319,7 @@ Provere unosa Drugovca: `slike_odnos.py` — 0 promena; `integritet.py` — samo
 
 ### 2026-10-15 — Google fotografije i posvete iz šablona „Drugi svjetski rat u Jugoslaviji“
 
-- **Google mape:** `alati/google_slike.mjs` je obišao svih 256 spomenika bez slike koji imaju `googleCid`, po jedno mesto na 8 s, bez provere (captcha). Glavnu fotografiju korisnika ima 91 mesto. Posle pregleda u montažama dodato je 56 fotografija (`slikaAutor`: „Google Maps“). Odbačene su fotografije bez vidljivog spomenika (pejzaž, zgrada, crkva, automobil, životinje), kolaži, ljudi u prvom planu, spomenik išaran ustaškim grafitima i jedna fotografija drugog mesta (park u Izoli).
+- **Google mape:** `alati/google_slike.mjs` je obišao svih 256 spomenika bez slike koji imaju `googleCid`, po jedno mesto na 8 s, bez provere (captcha). Glavnu fotografiju korisnika ima 91 mesto. Posle pregleda u montažama dodato je 56 fotografija (`slikaPotpis`: „Google Maps“). Odbačene su fotografije bez vidljivog spomenika (pejzaž, zgrada, crkva, automobil, životinje), kolaži, ljudi u prvom planu, spomenik išaran ustaškim grafitima i jedna fotografija drugog mesta (park u Izoli).
 - **Šablon sh Vikipedije:** pregledano je oko 270 članaka o logorima, pokoljima, bitkama i operacijama, po jedan zahtev na 3 s. Postojećim spomenicima dodate su posvete, po 13 logora i pokolja i 10 bitaka (Kozara, Sutjeska, Neretva, Sremski front, Igmanski marš, Pljevlja, Bolman, Beogradska operacija, Desant na Drvar i Prozor). Kao nov spomenik dodata je spomen-kosturnica u Veljunu (žrtve pokolja u Blagaju; OSM čvor 10829129817, fotografija sa Commons-a). Za ostale događaje nije nađen spomenik sa pouzdanom lokacijom.
 
 ## Izvori koji su već obrađeni

@@ -440,8 +440,8 @@ export default class Ruta extends HTMLElement {
     `
     const naziv = nazivSpomenika(spomenik)
     red.querySelector('.broj').textContent = i + 1
-    red.querySelector('.ime').textContent = naziv || spomenik.title
-    red.querySelector('.opis').textContent = [naziv && spomenik.title, naziviStanja[spomenik.stanje]].filter(Boolean).join(' · ')
+    red.querySelector('.ime').textContent = naziv || spomenik.mesto
+    red.querySelector('.opis').textContent = [naziv && spomenik.mesto, naziviStanja[spomenik.stanje]].filter(Boolean).join(' · ')
     red.querySelector('.naziv').addEventListener('click', () => otvoriStanicu(marker))
     red.querySelector('.gore').addEventListener('click', () => pomeri(spomenik.id, -1))
     red.querySelector('.dole').addEventListener('click', () => pomeri(spomenik.id, 1))
@@ -453,7 +453,7 @@ export default class Ruta extends HTMLElement {
     const red = document.createElement('li')
     red.innerHTML = '<button class="naziv tura"><span class="tekst"><span class="ime"></span><span class="opis"></span></span></button>'
     const clanovi = spomenici.map(id => this.stavke.get(id)?.spomenik).filter(Boolean)
-    const mesta = clanovi.map(s => s.title)
+    const mesta = clanovi.map(s => s.mesto)
     // fotografija koju ranije ture nisu uzele, da se ture razlikuju na prvi pogled
     const slika = (clanovi.find(s => s.slika && !iskorisceneSlike.has(s.slika)) ?? clanovi.find(s => s.slika))?.slika
     iskorisceneSlike.add(slika)

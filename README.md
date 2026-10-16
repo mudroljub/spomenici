@@ -22,6 +22,21 @@ Provera fotografija za svih 132 tadašnja zapisa bez slike u Srbiji završena je
 
 ## TODO
 
-- optimizovati aplikaciju za stare telefone i spor internet ([plan](docs/PLAN_OPTIMIZACIJE.md))
-- dodati tooltip na hover spomenika da se vidi naziv i mesto. možda biblioteka ima ugrađen tooltip
-- standardizovati nazive, mnogi su haotični jer su preuzeti sa google mapa gde ih dodaju laici. prvo pređi nazive i uoči obrasce. onda predloži standardizaciju
+- srediti nazive u data/bez_lokacije.json. mnogi imaju samo engleski oblik
+  - ujednačiti tip podataka i atribute sa spomeniks.json: spisak ima ista polja kao baza, bez koordinata ([tipovi](data/tipovi.d.ts))
+    - slika u spisku (54): ime fajla na Vikipediji, a u bazi je `slika` putanja do naše slike → sliku preuzeti tek pri prebacivanju u bazu
+    - izvor u spisku: tekstualni opisi („sr Wikipedija, Списак споменика НОБ“) → URL članka, kao u bazi
+    - id: svaka stavka dobija `id` po pravilu baze („mesto-naziv“), da se pri prebacivanju u bazu ne menja
+    - mesto u spisku: samo selo ili grad → oblik „Grad (deo grada)“ kao u bazi, gde adresa to kaže
+- ukloniti ostatke engleskog iz domaćih naziva, npr. Plitvice Lakes
+- na osnovu dosadašnjeg rada na projektu napraviti neke skilove ako je potrebno
+- možda dodati unit i integracione testove ako ima smisla
+- u tooltip mesto treba da bude istaknuto
+- analizirati knjige o spomenicima i izvući sve korisne podatke (dodati nove atribute ako treba):
+ - https://znaci.org/00003/736.php
+ - https://znaci.org/00003/667.pdf
+ - https://znaci.org/00003/679.pdf
+ - https://znaci.org/00003/7xx.php?bk=905
+ - https://znaci.org/00003/920.pdf
+
+

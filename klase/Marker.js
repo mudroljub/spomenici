@@ -1,6 +1,7 @@
 import {mapa} from './mapa.js'
 import {dajOznaku} from '../utils/oznake.js'
 import {izgledMarkera, senka} from '../utils/ikonice.js'
+import {nazivSpomenika, escapeHtml} from '../utils/helpers.js'
 
 const razmeraZuma = {6: 0.5, 7: 0.55, 8: 0.65, 9: 0.8} // ostali zumovi pun obelisk
 const vazneVrste = ['istaknut', 'kompleks', 'groblje']
@@ -17,21 +18,31 @@ const dajIkonicu = ({slika, sirina, visina}, razmera, klasa) => {
     iconUrl: slika,
     iconSize: [px(sirina + senka.levo + senka.desno), px(visina + senka.dole)],
     iconAnchor: [px(senka.levo + sirina / 2), px(visina)],
+    tooltipAnchor: [0, -px(visina)],
     className: klasa,
   })
+}
+
+// na dodirnom ekranu nema prelaska misem, a dodir odmah otvara spomenik
+const imaMis = matchMedia('(hover: hover)').matches
+
+const opis = spomen => {
+  const naziv = nazivSpomenika(spomen)
+  return naziv ? `<b>${escapeHtml(naziv)}</b><br>${escapeHtml(spomen.mesto)}` : escapeHtml(spomen.mesto)
 }
 
 export default class Marker {
 
   constructor(spomen) {
     this.spomen = spomen
-    this.vazan = vazneVrste.includes(spomen.type)
-    this.sitan = sitneVrste.includes(spomen.type)
-    this.razmera = razmeraVrste[spomen.type] || 1
+    this.vazan = vazneVrste.includes(spomen.vrsta)
+    this.sitan = sitneVrste.includes(spomen.vrsta)
+    this.razmera = razmeraVrste[spomen.vrsta] || 1
     this.izgled = izgledMarkera(spomen)
     this.element = L
       .marker([spomen.koordinate.lat, spomen.koordinate.lng], {icon: dajIkonicu(this.izgled, 1, ''), zIndexOffset: this.vazan ? 1000 : 0})
       .on('click', () => this.otvoriProzor())
+    if (imaMis) this.element.bindTooltip(() => opis(spomen), {direction: 'top', className: 'naziv-spomenika'})
   }
 
   // velicina zavisi od zuma, a izgled od oznaka

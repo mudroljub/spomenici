@@ -5,10 +5,10 @@ ture = json.load(open('data/ture.json', encoding='utf8'))
 autori = json.load(open('data/autori.json', encoding='utf8'))
 posvete = json.load(open('data/posvete.json', encoding='utf8'))
 greske = collections.defaultdict(list)
-TIPOVI = {'istaknut', 'kompleks', 'spomenik', 'statua', 'bista', 'lokalni', 'ploca', 'groblje', 'muzej'}
+VRSTE = {'istaknut', 'kompleks', 'spomenik', 'statua', 'bista', 'lokalni', 'ploca', 'groblje', 'muzej'}
 STANJA = {'rusevine', 'srusen', 'uklonjen', 'ostecen', 'zatvoren'}
 DRZAVE = {'Slovenia', 'Croatia', 'Bosnia and Herzegovina', 'Serbia', 'Montenegro', 'Macedonia', 'Kosovo', 'Italy'}
-POZNATA = {'id', 'koordinate', 'googleCid', 'title', 'info', 'wiki', 'wikiEn', 'slika', 'slikaOdnos', 'slikaAutor', 'naziv', 'name', 'author', 'year', 'type', 'drzava', 'stanje', 'posveta'}
+POZNATA = {'id', 'koordinate', 'googleCid', 'mesto', 'izvor', 'wiki', 'wikiEn', 'slika', 'slikaOdnos', 'slikaPotpis', 'naziv', 'nazivEn', 'autor', 'godina', 'vrsta', 'drzava', 'stanje', 'posveta'}
 cir = re.compile('[Ѐ-ӿ]')
 ids = collections.Counter(s.get('id') for s in d)
 for i, n in ids.items():
@@ -19,8 +19,8 @@ for s in d:
     k = s.get('koordinate') or {}
     if not isinstance(k.get('lat'), (int, float)) or not isinstance(k.get('lng'), (int, float)): greske['koordinate'].append(i)
     elif not (39 <= k['lat'] <= 47.5 and 13 <= k['lng'] <= 23.5) and s.get('drzava') != 'Italy': greske['van mape'].append((i, k))
-    if not s.get('title'): greske['bez naslova'].append(i)
-    if s.get('type') not in TIPOVI: greske['nepoznat tip'].append((i, s.get('type')))
+    if not s.get('mesto'): greske['bez mesta'].append(i)
+    if s.get('vrsta') not in VRSTE: greske['nepoznata vrsta'].append((i, s.get('vrsta')))
     if 'stanje' in s and s['stanje'] not in STANJA: greske['nepoznato stanje'].append((i, s['stanje']))
     if s.get('drzava') not in DRZAVE: greske['nepoznata drzava'].append((i, s.get('drzava')))
     if set(s) - POZNATA: greske['nepoznato polje'].append((i, set(s) - POZNATA))
@@ -30,12 +30,12 @@ for s in d:
         if s['slika'].startswith('slike/') and not os.path.exists(s['slika']): greske['nema slike'].append((i, s['slika']))
         mala = s['slika'].replace('slike/spomenici/', 'slike/male/')
         if mala != s['slika'] and not os.path.exists(mala): greske['nema male slike (pokreni male_slike.py)'].append((i, mala))
-    if s.get('slikaAutor') and not s.get('slika'): greske['autor bez slike'].append(i)
+    if s.get('slikaPotpis') and not s.get('slika'): greske['potpis bez slike'].append(i)
     if bool(s.get('slika')) != bool(s.get('slikaOdnos')): greske['slika bez odnosa (pokreni slike_odnos.py)'].append(i)
-    for polje in ('info', 'wiki', 'wikiEn'):
+    for polje in ('izvor', 'wiki', 'wikiEn'):
         if s.get(polje) and not re.match(r'https?://', s[polje]): greske['los link'].append((i, polje, s[polje]))
     if s.get('googleCid') and not re.fullmatch(r'\d+', str(s['googleCid'])): greske['los googleCid'].append((i, s['googleCid']))
-    if s.get('year') and not re.fullmatch(r'\d{4}(\s*[-–/]\s*\d{2,4})?', str(s['year'])): greske['cudna godina'].append((i, s['year']))
+    if s.get('godina') and not re.fullmatch(r'\d{4}(\s*[-–/]\s*\d{2,4})?|(pre|posle|oko) \d{4}|\d{3}0-ih', str(s['godina'])): greske['cudna godina'].append((i, s['godina']))
     n = s.get('naziv') or ''
     if n and s.get('drzava') != 'Macedonia' and cir.search(n): greske['cirilica van Makedonije'].append((i, n))
     if n and s.get('drzava') == 'Macedonia' and not cir.search(n): greske['latinica u Makedoniji'].append((i, n))

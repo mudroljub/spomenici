@@ -53,6 +53,14 @@ h1 {
   filter: drop-shadow(0 0 3px #f2b705) drop-shadow(0 0 2px #f2b705);
 }
 
+/* naziv i mesto pri prelasku misem; dugi nazivi se lome u vise redova */
+.leaflet-tooltip.naziv-spomenika {
+  max-width: 240px;
+  text-align: center;
+  white-space: normal;
+  width: max-content;
+}
+
 .leaflet-marker-icon.izabran {
   filter: drop-shadow(0 0 3px #822323) drop-shadow(0 0 3px #822323);
   opacity: 1;

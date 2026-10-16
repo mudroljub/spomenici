@@ -78,7 +78,7 @@ style.textContent = `
   }
 `
 
-const polja = ['title', 'naziv', 'name', 'author', 'year', 'drzava']
+const polja = ['mesto', 'naziv', 'nazivEn', 'autor', 'godina', 'drzava']
 
 const praviTekst = spomenik => normalizuj([...polja.map(polje => spomenik[polje] || ''), nazivDrzave(spomenik.drzava)]
   .join(' ')

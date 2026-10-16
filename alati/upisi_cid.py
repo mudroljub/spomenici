@@ -15,7 +15,7 @@ heks = re.search(r'!1s0x[0-9a-f]+:0x([0-9a-f]+)', url).group(1)
 lat, lng = map(float, re.search(r'!3d(-?[\d.]+)!4d(-?[\d.]+)', url).groups())
 p = 'data/spomeniks.json'
 d = json.load(open(p, encoding='utf8'))
-POLJA = ['id', 'koordinate', 'googleCid', 'title', 'info', 'wiki', 'wikiEn', 'slika', 'slikaOdnos', 'slikaAutor', 'naziv', 'name']
+POLJA = ['id', 'koordinate', 'googleCid', 'mesto', 'izvor', 'wiki', 'wikiEn', 'slika', 'slikaOdnos', 'slikaPotpis', 'naziv', 'nazivEn']
 def m(a, b, c, e):
     return 6371000 * math.acos(min(1, math.sin(math.radians(a)) * math.sin(math.radians(c)) + math.cos(math.radians(a)) * math.cos(math.radians(c)) * math.cos(math.radians(e - b))))
 n = 0

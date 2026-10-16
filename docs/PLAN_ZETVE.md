@@ -12,20 +12,21 @@ Ažurirano 2026-10-15. Ovaj dokument je dovoljan za samostalan rad: šta se radi
 
 ## 2. Standard zapisa (obavezno za svaki novi ili izmenjen spomenik)
 
-- **Redosled polja:** `id, koordinate{lat,lng}, googleCid, title, info, wiki, wikiEn, slika, slikaOdnos, slikaAutor, naziv, name, year, author, posveta, stanje, type, drzava`. Prazna polja se izostavljaju.
+- **Redosled polja:** `id, koordinate{lat,lng}, googleCid, mesto, izvor, wiki, wikiEn, slika, slikaOdnos, slikaPotpis, naziv, nazivEn, godina, autor, posveta, stanje, vrsta, drzava`. Prazna polja se izostavljaju.
 - **Fajl:** UTF-8, CRLF, uvlačenje 2, `ensure_ascii=False`, sa CRLF na kraju. Upis uvek ovako:
   `open(P,'w',encoding='utf8',newline='').write(json.dumps(d,ensure_ascii=False,indent=2).replace('\n','\r\n')+'\r\n')`
 - **id:** mala ASCII slova, cifre i crtice, jedinstven, najviše oko 50 znakova (npr. `slug(mesto + naziv)`).
 - **koordinate:** 7 decimala.
-- **title:** samo mesto, latinicom, u obliku „Grad (deo grada)“, npr. „Beograd (Banjica)“. Bez engleskih reči.
-- **naziv:** izvorni naziv. Srbija, Hrvatska, BiH, Crna Gora i Kosovo: sh latinicom (ćirilicu preslovi). Slovenija: slovenački. Makedonija: makedonska ćirilica. `integritet.py` proverava pismo.
-- **name:** engleski, samo kad se razlikuje od naziva.
-- **type:** `istaknut` (samo kad postoji stranica na spomenikdatabase), `spomenik` (umetničko delo poznatog autora ili veći spomenik), `lokalni` (spomen-obeležje, podrazumevano za nove), `kompleks` (spomen-park), `groblje`, `muzej` (i spomen-kuća), `statua` (cela figura čoveka ili grupa figura), `bista`, `ploca`.
-- **stanje:** samo `rusevine`, `uklonjen`, `ostecen`, `zatvoren`, `srusen`; kad je spomenik očuvan, polje se izostavlja.
+- **mesto:** samo mesto, latinicom, u obliku „Grad (deo grada)“, npr. „Beograd (Banjica)“. Bez engleskih reči.
+- **naziv:** izvorni naziv. Srbija, Hrvatska, BiH, Crna Gora i Kosovo: sh latinicom (ćirilicu preslovi). Slovenija: slovenački. Makedonija: makedonska ćirilica. `integritet.py` proverava pismo. Pravopis (dogovoreno 2026-10-16): opšti naziv je „Spomenik NOB-u“, a skraćenica se menja po padežima („palim borcima NOB-a“, „u NOR-u“), osim skraćenica ženskog roda („članovima KPJ“, „borcima NOV“); partijska tela po nivou: Pokrajinski komitet KPJ za BiH, oblasni (Bosanska krajina, Hercegovina), okružni (grad i okolina); složenice sa crticom („Spomen-ploča“, „Spomen-kosturnica“); raspon godina „1941-1945“, crticom, bez razmaka i tačaka; „Drugi svetski rat“ / „Drugi svjetski rat“ i „Prvi …“ rečima i velikim slovom; navodnici „…“; makedonski opšti naziv je „Споменик на НОБ“; bista se zove „Bista“ i ime u genitivu („Bista Ive Lole Ribara“). Ne ujednačava se: „žrtvama fašizma“ i „žrtvama fašističkog terora“ (različiti natpisi), slovenački nazivi iz registra i vlastita imena sa mestom („Spomen-područje Jasenovac“).
+- **nazivEn:** engleski, samo kad se razlikuje od naziva.
+- **vrsta:** `istaknut` (samo kad postoji stranica na spomenikdatabase), `spomenik` (umetničko delo poznatog autora ili veći spomenik), `lokalni` (spomen-obeležje, podrazumevano za nove), `kompleks` (spomen-park), `groblje`, `muzej` (i spomen-kuća), `statua` (cela figura čoveka ili grupa figura), `bista`, `ploca`.
+- **stanje:** samo `rusevine`, `uklonjen`, `ostecen`, `zatvoren`, `srusen`; kad je spomenik očuvan ili se to ne zna, polje se izostavlja.
 - **drzava:** `Slovenia, Croatia, Bosnia and Herzegovina, Serbia, Montenegro, Macedonia, Kosovo, Italy`.
-- **info:** izvor (OSM link `https://www.openstreetmap.org/node/…`, Commons fajl, registar). **wiki:** domaći članak (redom sh, sr, hr, bs, pa jezik države). **wikiEn:** engleski članak.
-- **slika:** 400 px širine, webp kvaliteta 75 (`magick - -resize 400x -quality 75 out.webp`). **slikaAutor:** „Autor, licenca“. **slikaOdnos:** posle svake nove slike pokreni `slike_odnos.py`, pa `bez_metapodataka.py --upisi` (izbacuje EXIF i XMP bez gubitka kvaliteta), a zatim `male_slike.py`, koji pravi umanjenu sliku za traku na dnu.
-- **author:** više autora se spaja sa „ & “. Park dobija autora samo ako su sva dela u njemu jednog autora.
+- **izvor:** URL izvora (OSM link `https://www.openstreetmap.org/node/…`, Commons fajl, registar). **wiki:** domaći članak (redom sh, sr, hr, bs, pa jezik države). **wikiEn:** engleski članak.
+- **slika:** 400 px širine, webp kvaliteta 75 (`magick - -resize 400x -quality 75 out.webp`). **slikaPotpis:** „Autor, licenca“. **slikaOdnos:** posle svake nove slike pokreni `slike_odnos.py`, pa `bez_metapodataka.py --upisi` (izbacuje EXIF i XMP bez gubitka kvaliteta), a zatim `male_slike.py`, koji pravi umanjenu sliku za traku na dnu.
+- **godina:** godina podizanja („1961“), raspon („1958-1960“) ili, kad izvor ne zna tačno, „pre 1960“, „posle 1960“, „oko 1960“, „1960-ih“.
+- **autor:** više autora se spaja sa „ & “. Park dobija autora samo ako su sva dela u njemu jednog autora.
 - **posveta:** spisak Wikidata stavki (ličnost, jedinica, događaj) kojima je spomenik posvećen, npr. `["Q9161"]`; svaka mora postojati u `data/posvete.json` (`naziv`, `name`, `wiki`, `wikiEn`). Opšte posvete („palim borcima“, „žrtvama fašizma“, Drugi svetski rat, NOVJ) se ne upisuju.
 - **Obuhvat:** samo spomenici NOB-a i Drugog svetskog rata iz jugoslovenske perspektive. **Ne dodaju se:** Prvi svetski i stariji ratovi, ratovi 1991–1999 (branitelji, VRS, ARBiH, HVO, šehidi, „otadžbinski rat“), četnici i domobranci, „žrtve komunizma“ i posleratnih pokolja (Bleiburg, Križni put, „zamolčane žrtve“), NATO bombardovanje, Holokaust-obeležja postavljena posle 1990, partizanske bolnice, tehnike, staze, domovi i bunkeri bez spomenika, ulice i obeležja van Jugoslavije.
 
@@ -46,7 +47,7 @@ Ažurirano 2026-10-15. Ovaj dokument je dovoljan za samostalan rad: šta se radi
 | `alati/slike_odnos.py` | Upisuje `slikaOdnos` svim slikama. Pokreni posle dodavanja slika. |
 | `alati/bez_metapodataka.py [--upisi]` | Izbacuje EXIF i XMP iz velikih slika, bez ponovnog sažimanja; ICC i EXIF koji okreće sliku ostaju. Pokreni posle dodavanja slika, pre `male_slike.py`. |
 | `alati/male_slike.py` | Pravi `slike/male/<id>.webp` (visina 116 px, bez metapodataka) za nove ili izmenjene slike i briše male bez velike. Pokreni posle dodavanja slika. |
-| `alati/commons_dodaj.py <spisak.json> <fajlovi.json>` | Dodaje spomenike ili slike sa Commons-a: preuzima sliku, pravi webp, potpis i naslov iz najbližeg naselja. Spisak: `[{fajl,id,naziv,name,type,drzava,[title]}]` ili `[{fajl,postojeci}]`; `fajlovi.json`: `{fajl: {"k": [lat,lng]}}`. |
+| `alati/commons_dodaj.py <spisak.json> <fajlovi.json>` | Dodaje spomenike ili slike sa Commons-a: preuzima sliku, pravi webp, potpis i naslov iz najbližeg naselja. Spisak: `[{fajl,id,naziv,nazivEn,vrsta,drzava,[mesto]}]` ili `[{fajl,postojeci}]`; `fajlovi.json`: `{fajl: {"k": [lat,lng]}}`. |
 | `$A/osm_dodaj.py <alati> <osm_kand.json> [--upisi]` | Primer filtera za NOB (`JEZGRO`, `NE`, `RUCNO`), naslova „Grad (deo)“ i vrste po imenu. Bez `--upisi` samo ispisuje. |
 | `node alati/google_slike.mjs <izlaz.json>` | Za spomenike bez slike sa `googleCid` pamti adresu glavne fotografije sa Google mapa (jedno mesto na 8 s, staje na captcha). Fotografije se preuzimaju sa `=w800-k-no` i pregledaju u montaži pre upisa. |
 | `alati/upisi_cid.py`, `alati/dodaj_google.py <vrsta> <link> <naziv> …`, `alati/proveri.py` | Rad sa Google linkovima koje šalje korisnik. |

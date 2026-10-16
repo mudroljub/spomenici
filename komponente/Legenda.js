@@ -154,13 +154,13 @@ const stavka = ({slika, sirina, visina}, visinaIkone, naziv, stil = '') => {
 // muzej i ploca su siroki, pa bi na visini ostalih znakova izgledali preveliki
 const visineIkona = {istaknut: 44, statua: 33, bista: 28, lokalni: 24, groblje: 29, muzej: 26, ploca: 17}
 
-const vrsta = type => stavka(izgledMarkera({type}), visineIkona[type] || 34, t(type + 'Jednina'))
+const vrsta = type => stavka(izgledMarkera({vrsta: type}), visineIkona[type] || 34, t(type + 'Jednina'))
 
 const vrste = ['istaknut', 'spomenik', 'lokalni', 'kompleks', 'groblje', 'muzej', 'statua', 'bista', 'ploca'].map(vrsta).join('')
 
 const grupa = ([naslov, stavke]) => `<div><h3>${naslov}</h3><div class="stavke">${stavke}</div></div>`
 
-const obelisk = stanje => izgledMarkera({type: 'spomenik', stanje})
+const obelisk = stanje => izgledMarkera({vrsta: 'spomenik', stanje})
 
 const maleGrupe = [
   [t('grupaPosetaJednina'), stavka(obelisk(), 34, t('lista'), 'filter: drop-shadow(0 0 3px #f2b705) drop-shadow(0 0 2px #f2b705)')
