@@ -312,7 +312,7 @@
     },
     "googleCid": "465372464730590114",
     "mesto": "Sisak (šuma Brezovica)",
-    "izvor": "http://www.spomenikdatabase.org/sisak",
+    "izvor": "https://www.predsjednik.hr/vijesti/predsjednik-milanovic-dan-antifasisticke-borbe-ne-bi-postojao-bez-tudmana-jer-je-on-dio-toga/",
     "slika": "slike/spomenici/sisak.webp",
     "slikaOdnos": 1.778,
     "naziv": "Spomenik Prvom sisačkom partizanskom odredu",
@@ -445,7 +445,7 @@
     },
     "googleCid": "16382937061483449684",
     "mesto": "Vukovar",
-    "izvor": "http://www.spomenikdatabase.org/vukovar",
+    "izvor": "https://srbi.hr/secanje-na-zrtve-drugog-svetskog-rata/",
     "wiki": "https://sh.wikipedia.org/wiki/Spomen-park_Dudik",
     "slika": "slike/spomenici/vukovar.webp",
     "slikaOdnos": 1.498,
@@ -453,6 +453,7 @@
     "nazivEn": "Dudik Memorial Park",
     "godina": "1980",
     "autor": "Bogdan Bogdanović",
+    "stanje": "ostecen",
     "vrsta": "kompleks",
     "drzava": "Croatia"
   },
@@ -6677,6 +6678,7 @@
     },
     "googleCid": "15904522372093608343",
     "mesto": "Zagreb (Mirogoj)",
+    "izvor": "https://skupstina.zagreb.hr/obiljezavanje-dana-europe-i-dana-pobjede-nad-fasizmom/4073",
     "wiki": "https://sh.wikipedia.org/wiki/Grobnica_narodnih_heroja_u_Zagrebu",
     "slika": "slike/spomenici/mirogoj-cemetery-tomb-people-s.webp",
     "slikaOdnos": 1.498,
@@ -11442,14 +11444,13 @@
     },
     "googleCid": "16189396716908687712",
     "mesto": "Žrnovnica",
+    "izvor": "https://www.antifasisticki-vjesnik.org/hr/spomenici/3/Spomenik_NOB_a_u_zrnovnici_isa/480/",
     "slika": "slike/spomenici/zrnovnica.webp",
     "slikaOdnos": 1.504,
-    "naziv": "Spomenik palim borcima na Sutjesci",
-    "nazivEn": "Mon. to Fallen Fighters at Sutjeska",
+    "naziv": "Spomenik palim borcima i žrtvama fašizma",
+    "nazivEn": "Monument to Fallen Fighters and Victims of Fascism",
     "godina": "1976",
-    "posveta": [
-      "Q1419973"
-    ],
+    "autor": "Mirko Ostoja",
     "vrsta": "spomenik",
     "drzava": "Croatia"
   },
@@ -26800,7 +26801,7 @@
       "lng": 16.0100245
     },
     "mesto": "Zagreb (Rebar)",
-    "izvor": "https://www.openstreetmap.org/node/7291888674",
+    "izvor": "https://commons.wikimedia.org/wiki/File:Moša_Pijade,_Zagreb.JPG",
     "slika": "slike/spomenici/zagreb-pijade.webp",
     "slikaOdnos": 0.75,
     "slikaPotpis": "Plamen, Public domain",
@@ -59012,18 +59013,6 @@
     "drzava": "Croatia"
   },
   {
-    "id": "zupanja-bivsi-spomenik-nob",
-    "koordinate": {
-      "lat": 45.0760694,
-      "lng": 18.695288
-    },
-    "mesto": "Županja",
-    "izvor": "https://www.openstreetmap.org/node/12321188380",
-    "naziv": "Bivši spomenik NOB-u",
-    "vrsta": "lokalni",
-    "drzava": "Croatia"
-  },
-  {
     "id": "brezovica-spomenik-streljanim-pripadnicima-nop-a",
     "koordinate": {
       "lat": 42.2274499,
@@ -62073,21 +62062,6 @@
     "slika": "slike/spomenici/grdoselo-spomenik-nob.webp",
     "slikaOdnos": 0.739,
     "slikaPotpis": "Petar Milošević, CC BY 4.0",
-    "naziv": "Spomenik NOB-u",
-    "vrsta": "lokalni",
-    "drzava": "Croatia"
-  },
-  {
-    "id": "djeletovci-spomenik-nob",
-    "koordinate": {
-      "lat": 45.184637,
-      "lng": 19.013116
-    },
-    "mesto": "Đeletovci",
-    "izvor": "https://commons.wikimedia.org/wiki/File%3AWorld_War_II_monument_in_Borovo_Naselje.jpg",
-    "slika": "slike/spomenici/djeletovci-spomenik-nob.webp",
-    "slikaOdnos": 1.333,
-    "slikaPotpis": "MirkoS18, CC BY-SA 4.0",
     "naziv": "Spomenik NOB-u",
     "vrsta": "lokalni",
     "drzava": "Croatia"

@@ -2,7 +2,7 @@
   "datumProvere": "2026-10-16",
   "obuhvatTrijaze": 792,
   "brojSaSirokimMogucimParovima": 370,
-  "brojPojedinacnoObradjenih": 15,
+  "brojPojedinacnoObradjenih": 24,
   "ogranicenje": "Početna trijaža nije provera opstanka svih 792. Potencijalni parovi uključuju lažna podudaranja; rang nije nalaz i istorijsko stanje se ne prepisuje u aplikaciju. Odbačen par ne potvrđuje sadašnje stanje objekta. Krapanj ostaje otvoren. Preostalih 17 kandidata iz prethodne ture još nisu ponovo istraženi.",
   "nalazi": [
     {
@@ -607,6 +607,382 @@
       "kasnijiIzvori": [],
       "datumKasnijegDokaza": null,
       "ogranicenje": "Razrešen je opisani rizik; ovo nije terenska potvrda stanja 16.10.2026."
+    },
+    {
+      "id": "zrnovnica",
+      "odluka": "ispravljen-identitet",
+      "unosPreProvere": {
+        "id": "zrnovnica",
+        "koordinate": {
+          "lat": 43.5185549,
+          "lng": 16.557869
+        },
+        "googleCid": "16189396716908687712",
+        "mesto": "Žrnovnica",
+        "slika": "slike/spomenici/zrnovnica.webp",
+        "slikaOdnos": 1.504,
+        "naziv": "Spomenik palim borcima na Sutjesci",
+        "nazivEn": "Mon. to Fallen Fighters at Sutjeska",
+        "godina": "1976",
+        "posveta": [
+          "Q1419973"
+        ],
+        "vrsta": "spomenik",
+        "drzava": "Croatia"
+      },
+      "hrzenjak": [
+        {
+          "oznaka": "C-0257-91",
+          "strana": 233,
+          "scanBroj": 257,
+          "izvor": "https://znaci.org/00003/736.php?broj=257",
+          "stanjeIzKnjige": "Izričito stanje i datumi u napomeni.",
+          "napomena": "Srušen1998 i bačen u kanjon rijeke, mesto zamijenjeno križem."
+        },
+        {
+          "oznaka": "C-IDX-380-25",
+          "strana": 380,
+          "scanBroj": 403,
+          "izvor": "https://znaci.org/00003/736.php?broj=403",
+          "stanjeIzKnjige": "Sru"
+        }
+      ],
+      "nalaz": "Fotografija u aplikaciji prikazuje Ostojinu belu kocku sa bronzanim reljefima i zidom sa imenima u centru sela. Terenski tekst od 24.11.2022. opisuje upravo taj objekat i potpisuje autora. Naziv je ispravljen na borce i žrtve fašizma, dodat autor Mirko Ostoja, uklonjena pogrešna posebna posveta bici na Sutjesci. Srušeni spomenik 25 boraca iz 1984. na skenu 257 jeste drugi objekat, zamenjen krstom. Postojeća godina 1976. ostaje; izvor koristi tu godinu i u opisu knjige i u potpisu fotografije.",
+      "kasnijiIzvori": [
+        "https://www.antifasisticki-vjesnik.org/hr/spomenici/3/Spomenik_NOB_a_u_zrnovnici_isa/480/"
+      ],
+      "datumKasnijegDokaza": "2022-11-24",
+      "ogranicenje": "Oštećenja iz teksta 2022. nisu automatski preneta kao stanje 2026; godinu podizanja valja dodatno potvrditi iz izvornog kataloga."
+    },
+    {
+      "id": "sisak",
+      "odluka": "zadržan-kasniji-dokaz",
+      "unosPreProvere": {
+        "id": "sisak",
+        "koordinate": {
+          "lat": 45.5025796,
+          "lng": 16.4583252
+        },
+        "googleCid": "465372464730590114",
+        "mesto": "Sisak (šuma Brezovica)",
+        "izvor": "http://www.spomenikdatabase.org/sisak",
+        "slika": "slike/spomenici/sisak.webp",
+        "slikaOdnos": 1.778,
+        "naziv": "Spomenik Prvom sisačkom partizanskom odredu",
+        "nazivEn": "Monument to the 1st Partisan Unit",
+        "godina": "1981",
+        "autor": "Želimir Janeš",
+        "posveta": [
+          "Q1858769"
+        ],
+        "vrsta": "istaknut",
+        "drzava": "Croatia"
+      },
+      "hrzenjak": [
+        {
+          "oznaka": "C-0228-1",
+          "strana": 204,
+          "scanBroj": 228,
+          "izvor": "https://znaci.org/00003/736.php?broj=228",
+          "stanjeIzKnjige": "devastiran;prostrijeljena skulptura i razbijena ploča",
+          "napomena": "Ranija ploča uključena u cjelinu; slike604–606; nema zasebnih novih komponenti."
+        }
+      ],
+      "nalaz": "Izveštaj Ureda predsednika od 22.6.2026. opisuje održanu svečanost i polaganje cveća kod spomenika Prvom partizanskom odredu u Brezovici. To je kasniji dokaz postojećeg spomenika, posle oštećenja iz knjige. Dodat neposredni izvor događaja; tačka i identitet ostaju isti.",
+      "kasnijiIzvori": [
+        "https://www.predsjednik.hr/vijesti/predsjednik-milanovic-dan-antifasisticke-borbe-ne-bi-postojao-bez-tudmana-jer-je-on-dio-toga/"
+      ],
+      "datumKasnijegDokaza": "2026-06-22",
+      "ogranicenje": "Potvrda događaja kod spomenika ne utvrđuje stanje svakog dela kompleksa."
+    },
+    {
+      "id": "mirogoj-cemetery-tomb-people-s",
+      "odluka": "zadržan-kasniji-dokaz",
+      "unosPreProvere": {
+        "id": "mirogoj-cemetery-tomb-people-s",
+        "koordinate": {
+          "lat": 45.8390867,
+          "lng": 15.9839664
+        },
+        "googleCid": "15904522372093608343",
+        "mesto": "Zagreb (Mirogoj)",
+        "wiki": "https://sh.wikipedia.org/wiki/Grobnica_narodnih_heroja_u_Zagrebu",
+        "slika": "slike/spomenici/mirogoj-cemetery-tomb-people-s.webp",
+        "slikaOdnos": 1.498,
+        "naziv": "Grobnica narodnih heroja u Zagrebu",
+        "nazivEn": "Tomb of the People's Heroes",
+        "godina": "1968",
+        "autor": "Đuro Kavurić",
+        "vrsta": "groblje",
+        "drzava": "Croatia"
+      },
+      "hrzenjak": [
+        {
+          "oznaka": "C-0355-N1",
+          "strana": 331,
+          "scanBroj": 355,
+          "izvor": "https://znaci.org/00003/736.php?broj=355",
+          "stanjeIzKnjige": "oštećen",
+          "napomena": "Sl912–914 isti objekat, miniranje1.II2001nije podizanje. Ne prepisati novo stanje u app."
+        }
+      ],
+      "nalaz": "Gradska skupština Zagreba 9.5.2023. izveštava o održanom polaganju venaca ispred Grobnice narodnih heroja na Mirogoju. To je dokaz korišćenja obeležja nakon miniranja 1.2.2001. opisanog u knjizi; datum 2001. nije godina podizanja. Dodat gradski izvor, bez prepisivanja starog oštećenja.",
+      "kasnijiIzvori": [
+        "https://skupstina.zagreb.hr/obiljezavanje-dana-europe-i-dana-pobjede-nad-fasizmom/4073"
+      ],
+      "datumKasnijegDokaza": "2023-05-09",
+      "ogranicenje": "Izveštaj o ceremoniji nije potvrda potpune očuvanosti niti stanja u oktobru 2026."
+    },
+    {
+      "id": "vukovar",
+      "odluka": "dopunjeno-stanje-kasniji-dokaz",
+      "unosPreProvere": {
+        "id": "vukovar",
+        "koordinate": {
+          "lat": 45.3302149,
+          "lng": 19.0173497
+        },
+        "googleCid": "16382937061483449684",
+        "mesto": "Vukovar",
+        "izvor": "http://www.spomenikdatabase.org/vukovar",
+        "wiki": "https://sh.wikipedia.org/wiki/Spomen-park_Dudik",
+        "slika": "slike/spomenici/vukovar.webp",
+        "slikaOdnos": 1.498,
+        "naziv": "Spomen-park Dudik",
+        "nazivEn": "Dudik Memorial Park",
+        "godina": "1980",
+        "autor": "Bogdan Bogdanović",
+        "vrsta": "kompleks",
+        "drzava": "Croatia"
+      },
+      "hrzenjak": [
+        {
+          "oznaka": "C-0298-197",
+          "strana": 274,
+          "scanBroj": 298,
+          "izvor": "https://znaci.org/00003/736.php?broj=298",
+          "stanjeIzKnjige": "Izričito stanje i datumi u napomeni.",
+          "napomena": "Narativ kaže srušen sa svimstožastimbuktinjama, ali sl764 prikazuje uspravnebuktinje, sl765 maleodvojeneostatke. Postojećafotomožepotvrditisavremeniopstanak; istorijskikonfliktneunositiustanje."
+        }
+      ],
+      "nalaz": "Izveštaj sa komemoracije na Dudiku održane 10.5.2026, objavljen 12.5, izričito navodi da kompleks još nije u potpunosti obnovljen. Zadržano postojeće spomen-područje i dodato ostecen uz taj kasniji dokaz. Ne tvrdi se da su sve Bogdanovićeve kupe uništene niti da je ceo park obnovljen. Obnova dva druga spomenika u Vukovaru i Borovu naselju u junu 2020. nije obnova Dudika.",
+      "kasnijiIzvori": [
+        "https://srbi.hr/secanje-na-zrtve-drugog-svetskog-rata/",
+        "https://srbi.hr/antifasisticki-spomenici-ponovo-sijaju/"
+      ],
+      "datumKasnijegDokaza": "2026-05-10",
+      "ogranicenje": "Stanje se oslanja na izveštaj sa događaja u maju 2026; nisu pojedinačno popisani svi oštećeni elementi."
+    },
+    {
+      "id": "zagreb-pijade",
+      "odluka": "zadržan-kasniji-dokaz",
+      "unosPreProvere": {
+        "id": "zagreb-pijade",
+        "koordinate": {
+          "lat": 45.8245533,
+          "lng": 16.0100245
+        },
+        "mesto": "Zagreb (Rebar)",
+        "izvor": "https://www.openstreetmap.org/node/7291888674",
+        "slika": "slike/spomenici/zagreb-pijade.webp",
+        "slikaOdnos": 0.75,
+        "slikaPotpis": "Plamen, Public domain",
+        "naziv": "Moša Pijade",
+        "nazivEn": "Statue of Moša Pijade",
+        "autor": "Antun Augustinčić",
+        "posveta": [
+          "Q453472"
+        ],
+        "vrsta": "statua",
+        "drzava": "Croatia"
+      },
+      "hrzenjak": [
+        {
+          "oznaka": "C-0368-N3",
+          "strana": 344,
+          "scanBroj": 368,
+          "izvor": "https://znaci.org/00003/736.php?broj=368",
+          "stanjeIzKnjige": "premješten",
+          "napomena": "Ranije GradaVukovara68; sl944 samo staro postolje, ne dokaz današnje ruševine. Postojeći zagreb-pijade ima skulpturu na Rebru."
+        }
+      ],
+      "nalaz": "Knjiga opisuje premeštanje sa adrese Grada Vukovara 68 u židovski dom na Bukovačkoj, a slika 944 prikazuje prazno staro postolje. Postojeća tačka aplikacije već je na Rebru, pa nije pomerena. Pregledana Commons fotografija od 18.4.2011. prikazuje istu sedeću figuru Moše Pijade sa knjigom u krilu u vrtu; to je kasniji fotografski dokaz statue, ne ruševine starog postolja. Dodat izvor fotografskog dokaza.",
+      "kasnijiIzvori": [
+        "https://commons.wikimedia.org/wiki/File:Moša_Pijade,_Zagreb.JPG"
+      ],
+      "datumKasnijegDokaza": "2011-04-18",
+      "ogranicenje": "Datum je DateTimeOriginal odabrane fotografije; druga slična datoteka ima samo datum prvog otpremanja 22.4.2011. Fotografija sama nije nova geodetska potvrda tačke."
+    },
+    {
+      "id": "crikvenica-crni",
+      "odluka": "odbačen-pogrešan-par",
+      "unosPreProvere": {
+        "id": "crikvenica-crni",
+        "koordinate": {
+          "lat": 45.1743077,
+          "lng": 14.6876638
+        },
+        "mesto": "Crikvenica",
+        "izvor": "https://www.openstreetmap.org/node/6735313280",
+        "slika": "slike/spomenici/crikvenica-crni.webp",
+        "slikaOdnos": 0.645,
+        "slikaPotpis": "Roberta F., CC BY-SA 3.0",
+        "naziv": "Bista narodnog heroja Nikole Cara Črnog",
+        "nazivEn": "Bust of Narodni heroj Nikola Car Črni",
+        "posveta": [
+          "Q10977169"
+        ],
+        "vrsta": "bista",
+        "drzava": "Croatia"
+      },
+      "hrzenjak": [
+        {
+          "oznaka": "C-IDX-371-46",
+          "strana": 371,
+          "scanBroj": 394,
+          "izvor": "https://znaci.org/00003/736.php?broj=394",
+          "stanjeIzKnjige": "Sru"
+        },
+        {
+          "oznaka": "C-IDX-371-47",
+          "strana": 371,
+          "scanBroj": 394,
+          "izvor": "https://znaci.org/00003/736.php?broj=394",
+          "stanjeIzKnjige": "Ukl"
+        },
+        {
+          "oznaka": "C-IDX-371-48",
+          "strana": 371,
+          "scanBroj": 394,
+          "izvor": "https://znaci.org/00003/736.php?broj=394",
+          "stanjeIzKnjige": "Ukl"
+        }
+      ],
+      "nalaz": "Na postojećoj fotografiji čitljivo je NARODNI HEROJ NIKOLA CAR ČRNI. Negativni indeksni redovi iz Crikvenice odnose se na Viktora Bubnja, Tomu Strizića i Slavišu Vajnera Čiču. Zajedničko mesto i vrsta bista nisu dovoljan par; nijedan od tih nalaza nije primenjen na Nikolu Cara. Nema izmene javnog zapisa.",
+      "kasnijiIzvori": [],
+      "datumKasnijegDokaza": null,
+      "ogranicenje": "Proveren je identitet negativnih parova, ne današnji opstanak biste Nikole Cara. Nema novog datiranog terenskog dokaza."
+    },
+    {
+      "id": "dugo-selo",
+      "odluka": "razjašnjeno-knjiško-stanje",
+      "unosPreProvere": {
+        "id": "dugo-selo",
+        "koordinate": {
+          "lat": 45.8066909,
+          "lng": 16.2295232
+        },
+        "googleCid": "13578884617675187529",
+        "mesto": "Dugo Selo",
+        "slika": "slike/spomenici/dugo-selo.webp",
+        "slikaOdnos": 1.408,
+        "naziv": "Spomenik palim borcima i žrtvama fašističkog terora Dugo Selo",
+        "nazivEn": "Monument to Fallen Fighters",
+        "godina": "1950",
+        "vrsta": "statua",
+        "drzava": "Croatia"
+      },
+      "hrzenjak": [
+        {
+          "oznaka": "C-0319-272",
+          "strana": 295,
+          "scanBroj": 319,
+          "izvor": "https://znaci.org/00003/736.php?broj=319",
+          "stanjeIzKnjige": "Izričito stanje i datumi u napomeni.",
+          "napomena": "PerivojgrofaDraškovića,478 žrtava. Miniran10.1.1992 uz MANJAoštećenja,1990pokušajnestao terorista, figuraostala; sl803. Autor u izvornikuNikoleKečanina, potreban nominativ."
+        }
+      ],
+      "nalaz": "Originalni opis razlikuje napad minom 10.1.1992. od rušenja: navodi manja oštećenja, a figura je ostala. Postojeća fotografija pokazuje istu figuru s puškom preko ramena i petokrakom na postolju. Reč miniran nije razlog za označavanje srusen niti za povlačenje. Nema izmene javnog zapisa.",
+      "kasnijiIzvori": [],
+      "datumKasnijegDokaza": null,
+      "ogranicenje": "Nema novog datiranog terenskog dokaza; sadašnje stanje se ne zaključuje iz stare knjige ili nedatirane aplikativne fotografije."
+    },
+    {
+      "id": "zupanja-bivsi-spomenik-nob",
+      "odluka": "radni-spisak",
+      "unosPreProvere": {
+        "id": "zupanja-bivsi-spomenik-nob",
+        "koordinate": {
+          "lat": 45.0760694,
+          "lng": 18.695288
+        },
+        "mesto": "Županja",
+        "izvor": "https://www.openstreetmap.org/node/12321188380",
+        "naziv": "Bivši spomenik NOB-u",
+        "vrsta": "lokalni",
+        "drzava": "Croatia"
+      },
+      "hrzenjak": [
+        {
+          "oznaka": "C-0305-201",
+          "strana": 281,
+          "scanBroj": 305,
+          "izvor": "https://znaci.org/00003/736.php?broj=305",
+          "stanjeIzKnjige": "Izričito stanje i datumi u napomeni.",
+          "napomena": "ParkKolodvorskeulice, figura iobeliskkriptom,1957, autoruizvoruNikoleKečanina. Miniran28.11.1992; nepretpostavitipogrešnonominativNikolaKečaninbezpotvrde."
+        },
+        {
+          "oznaka": "C-IDX-385-24",
+          "strana": 385,
+          "scanBroj": 408,
+          "izvor": "https://znaci.org/00003/736.php?broj=408",
+          "stanjeIzKnjige": "Min"
+        },
+        {
+          "oznaka": "C-0435-D3",
+          "strana": 412,
+          "scanBroj": 435,
+          "izvor": "https://znaci.org/00003/736.php?broj=435",
+          "stanjeIzKnjige": "neodređeno",
+          "napomena": "Ispravka str281: u parku pored Kolodvorske ulice, ne u Kolodvorskojulici."
+        }
+      ],
+      "nalaz": "Postojeći naziv izričito označava bivši spomenik i nema fotografije preostalog objekta. Knjiga opisuje miniranje 28.11.1992. spomenika sa kriptom iz 1957; dodatak ispravlja položaj na park J. J. Strossmayera pored Kolodvorske ulice. Nije pronađen kasniji dokaz povratka ili postojećeg obeležja na našoj tački. Sa javne mape povučeno kao nepotvrđena destinacija, uz očuvan istorijski trag; bez tvrdnje o novom rušenju 2026.",
+      "kasnijiIzvori": [],
+      "datumKasnijegDokaza": null,
+      "ogranicenje": "Današnji ostaci, zamena i tačna lokacija nisu potvrđeni. Administrativni popis stare zaštite nije dokaz sadašnjeg opstanka.",
+      "radniIndeks": 4520
+    },
+    {
+      "id": "djeletovci-spomenik-nob",
+      "odluka": "radni-spisak",
+      "unosPreProvere": {
+        "id": "djeletovci-spomenik-nob",
+        "koordinate": {
+          "lat": 45.184637,
+          "lng": 19.013116
+        },
+        "mesto": "Đeletovci",
+        "izvor": "https://commons.wikimedia.org/wiki/File%3AWorld_War_II_monument_in_Borovo_Naselje.jpg",
+        "slika": "slike/spomenici/djeletovci-spomenik-nob.webp",
+        "slikaOdnos": 1.333,
+        "slikaPotpis": "MirkoS18, CC BY-SA 4.0",
+        "naziv": "Spomenik NOB-u",
+        "vrsta": "lokalni",
+        "drzava": "Croatia"
+      },
+      "hrzenjak": [
+        {
+          "oznaka": "C-0299-142",
+          "strana": 275,
+          "scanBroj": 299,
+          "izvor": "https://znaci.org/00003/736.php?broj=299",
+          "stanjeIzKnjige": "Ošt",
+          "napomena": "Pročitano u narativu i slikama; identitet povezan s indeksom. Tekstualni oblik naziva naselja pomoćni, nije app promena."
+        }
+      ],
+      "nalaz": "Naziv i opis Commons fotografije govore Borovo Naselje, a ugrađeni EXIF GPS i naš marker vode u Đeletovce. Datum snimanja je 10.4.2021. Fotografija obeliska sa zvezdom i srpom/čekićem odgovara opisu borovskog obeležja, ali nezavisna precizna tačka nije potvrđena. Izveštaj iz jula 2020. potvrđuje obnovu spomenika u Borovu naselju, ne ovu GPS tačku. Povučeno zbog nesaglasne lokacije, a ne zbog rušenja; zapis i fotografije ostaju sačuvani.",
+      "kasnijiIzvori": [
+        "https://commons.wikimedia.org/wiki/File%3AWorld_War_II_monument_in_Borovo_Naselje.jpg",
+        "https://srbi.hr/antifasisticki-spomenici-ponovo-sijaju/"
+      ],
+      "datumKasnijegDokaza": "2021-04-10",
+      "ogranicenje": "GPS u EXIF-u i isti GPS prenet na Commons nisu dva nezavisna izvora. Pre vraćanja potvrditi tačku u Borovu naselju i identitet objekta; ne preimenovati samim verovanjem GPS-u.",
+      "radniIndeks": 4521,
+      "arhiviraneSlike": [
+        "data/provere/slike/djeletovci-spomenik-nob.webp",
+        "data/provere/slike/djeletovci-spomenik-nob-mala.webp"
+      ]
     }
   ],
   "trijaza": [
@@ -736,7 +1112,7 @@
           "score": 0
         }
       ],
-      "status": "za proveru"
+      "status": "zadržan-kasniji-dokaz"
     },
     {
       "id": "srb-croatian-people-s",
@@ -928,7 +1304,7 @@
           "score": 10
         }
       ],
-      "status": "za proveru"
+      "status": "zadržan-kasniji-dokaz"
     },
     {
       "id": "dugo-selo",
@@ -952,7 +1328,7 @@
           "score": -110
         }
       ],
-      "status": "za proveru"
+      "status": "razjašnjeno-knjiško-stanje"
     },
     {
       "id": "kumrovec",
@@ -992,7 +1368,7 @@
           "score": 20
         }
       ],
-      "status": "za proveru"
+      "status": "dopunjeno-stanje-kasniji-dokaz"
     },
     {
       "id": "podgora",
@@ -1036,7 +1412,7 @@
           "score": 35
         }
       ],
-      "status": "za proveru"
+      "status": "odbačen-pogrešan-par"
     },
     {
       "id": "okucani",
@@ -1224,7 +1600,7 @@
           "score": 5
         }
       ],
-      "status": "za proveru"
+      "status": "zadržan-kasniji-dokaz"
     },
     {
       "id": "bukevje-nob",
@@ -1264,7 +1640,7 @@
           "score": 20
         }
       ],
-      "status": "za proveru"
+      "status": "radni-spisak"
     },
     {
       "id": "park-of-the-righteous",
@@ -1712,7 +2088,7 @@
           "score": 5
         }
       ],
-      "status": "za proveru"
+      "status": "ispravljen-identitet"
     },
     {
       "id": "dramalj",
@@ -12609,7 +12985,7 @@
       "izvor": "https://commons.wikimedia.org/wiki/File%3AWorld_War_II_monument_in_Borovo_Naselje.jpg",
       "prioritet": -100,
       "kandidati": [],
-      "status": "bez kandidata u ovom prolazu"
+      "status": "radni-spisak"
     },
     {
       "id": "vidovec-spomenik-nob",
