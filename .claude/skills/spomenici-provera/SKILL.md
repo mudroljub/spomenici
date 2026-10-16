@@ -44,7 +44,15 @@ Kod je pisan bez tačke-zareza. Red koji počinje zagradom, npr. oznaka tipa `/*
 
 ## 3. Aplikacija
 
-Aplikacija se koristi samo na telefonu, pa se gleda na ekranu telefona (390 × 844, dodir):
+Prvo automatski test glavnih tokova (mapa, prozor spomenika iz `#id`, pretraga, filteri, ruta, greške u aplikaciji); sam pokreće server i traje oko pola minuta:
+
+```
+node --test alati/test.mjs
+```
+
+Kad dodaješ novu funkciju aplikacije, dodaj i njen tok u `alati/test.mjs`. Zajednički kod za upravljanje pregledačem je u `alati/pregledac.mjs`.
+
+Zatim pogledaj izmenu. Aplikacija se koristi samo na telefonu, pa se gleda na ekranu telefona (390 × 844, dodir):
 
 ```
 bash .claude/skills/spomenici-provera/scripts/aplikacija.sh <scratchpad>/proba.png "<JS izraz>" [čekanje ms]

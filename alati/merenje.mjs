@@ -2,38 +2,17 @@
 // telefon od 390 px sa procesorom usporenim CPU puta (podrazumevano 6); MREZA=1 dodaje sporu vezu (400 kb/s, 400 ms), a MREZA=kbps,ms zadatu
 // lokalni server ne sazima fajlove kao GitHub Pages, pa za mrezu meriti preko servera sa gzip-om
 // za svaku radnju: zbir i najduzi od dugih zadataka (> 50 ms) u sledece 2 s, u ms
-import {spawn} from 'node:child_process'
-import {mkdtempSync} from 'node:fs'
-import {tmpdir} from 'node:os'
-import {join} from 'node:path'
+import {otvoriPregledac, sleep} from './pregledac.mjs'
 
 const adresa = process.argv[2] || 'http://localhost:8765/'
-const port = 9300 + Math.floor(Math.random() * 500)
-const chrome = spawn('C:/Program Files/Google/Chrome/Application/chrome.exe', [
-  '--headless=new', `--remote-debugging-port=${port}`, '--disable-gpu',
-  `--user-data-dir=${mkdtempSync(join(tmpdir(), 'cdp-'))}`, 'about:blank',
-], {stdio: 'ignore'})
-const sleep = ms => new Promise(r => setTimeout(r, ms))
-
-let tabs
-for (let i = 0; i < 50; i++) {
-  try { tabs = await (await fetch(`http://127.0.0.1:${port}/json`)).json(); break } catch { await sleep(200) }
-}
-const ws = new WebSocket(tabs.find(t => t.type === 'page').webSocketDebuggerUrl)
-await new Promise(r => ws.onopen = r)
-let id = 0
-const pending = {}
+const {send, izvrsi, slusaj, zatvori} = await otvoriPregledac()
 const adrese = {}
 const bajtovi = {}
-ws.onmessage = e => {
-  const m = JSON.parse(e.data)
-  if (pending[m.id]) { pending[m.id](m); delete pending[m.id] }
+slusaj(m => {
   if (m.method === 'Network.responseReceived') adrese[m.params.requestId] = m.params.response.url
   if (m.method === 'Network.loadingFinished') bajtovi[m.params.requestId] = m.params.encodedDataLength
   if (m.method === 'Runtime.exceptionThrown') console.log('EXC', JSON.stringify(m.params.exceptionDetails).slice(0, 400))
-}
-const send = (method, params = {}) => new Promise(r => { pending[++id] = r; ws.send(JSON.stringify({id, method, params})) })
-const izvrsi = async izraz => (await send('Runtime.evaluate', {expression: izraz, awaitPromise: true, returnByValue: true})).result?.result?.value
+})
 
 await send('Emulation.setDeviceMetricsOverride', {width: 390, height: 844, deviceScaleFactor: 2, mobile: true})
 await send('Emulation.setTouchEmulationEnabled', {enabled: true})
@@ -99,5 +78,5 @@ for (const [zahtev, url] of Object.entries(adrese)) {
   grupe[grupa].kb += (bajtovi[zahtev] || 0) / 1024
 }
 console.log('preneto:', Object.entries(grupe).map(([g, {zahteva, kb}]) => `${g} ${zahteva}/${Math.round(kb)} KB`).join(', '))
-chrome.kill()
+zatvori()
 process.exit(0)
