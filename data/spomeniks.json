@@ -21010,7 +21010,8 @@
       "lng": 13.9877569
     },
     "googleCid": "10243740041581669206",
-    "mesto": "Trebenče",
+    "mesto": "Cerkno",
+    "izvor": "https://www.openstreetmap.org/node/9602891405",
     "naziv": "Spomenik NOB",
     "vrsta": "lokalni",
     "drzava": "Slovenia"
@@ -66927,5 +66928,35 @@
     "godina": "1981",
     "vrsta": "muzej",
     "drzava": "Serbia"
+  },
+  {
+    "id": "kragujevac-spomenik-prvoj-titovoj-stafeti",
+    "koordinate": {
+      "lat": 44.0104814,
+      "lng": 20.914958
+    },
+    "mesto": "Kragujevac",
+    "izvor": "https://www.openstreetmap.org/node/1655792428",
+    "slika": "slike/spomenici/kragujevac-spomenik-prvoj-titovoj-stafeti.webp",
+    "slikaOdnos": 0.667,
+    "slikaPotpis": "Ванилица, CC BY-SA 4.0",
+    "naziv": "Spomenik Prvoj Titovoj štafeti",
+    "godina": "1977",
+    "autor": "Matija Vuković",
+    "vrsta": "statua",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "veles-spomen-kukja-na-koco-racin",
+    "koordinate": {
+      "lat": 41.7133333,
+      "lng": 21.7817222
+    },
+    "mesto": "Veles",
+    "izvor": "https://www.wikidata.org/wiki/Q12910617",
+    "wiki": "https://mk.wikipedia.org/wiki/Спомен-куќа_на_Кочо_Рацин",
+    "naziv": "Спомен-куќа на Кочо Рацин",
+    "vrsta": "muzej",
+    "drzava": "Macedonia"
   }
 ]

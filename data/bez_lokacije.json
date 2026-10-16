@@ -43460,13 +43460,6 @@
     "drzava": "Croatia"
   },
   {
-    "mesto": "Cerkno",
-    "izvor": "https://znaci.org/00003/920.pdf#page=87",
-    "naziv": "Spomenik kmečki materi",
-    "vrsta": "spomenik",
-    "drzava": "Slovenia"
-  },
-  {
     "mesto": "Lušci Palanka",
     "izvor": "https://znaci.org/00003/920.pdf#page=116",
     "naziv": "Dom „Đuro Đaković“",
@@ -43551,16 +43544,13 @@
     "naziv": "Srne",
     "autor": "Jovan Soldatović",
     "vrsta": "spomenik",
-    "drzava": "Serbia"
-  },
-  {
-    "mesto": "Kragujevac",
-    "izvor": "https://znaci.org/00003/920.pdf#page=181",
-    "naziv": "Spomenik Prvoj Titovoj štafeti",
-    "godina": "1977",
-    "autor": "Matija Vuković",
-    "vrsta": "spomenik",
-    "drzava": "Serbia"
+    "drzava": "Serbia",
+    "proveraLokacije": {
+      "datum": "2026-10-16",
+      "ishod": "preskoceno-uklonjeno",
+      "izvor": "https://www.kurir.rs/crna-hronika/1902329/beskrupulozno-ukradena-mesingana-ploca-sa-muzeja-u-sumaricama",
+      "napomena": "Izveštaj iz 2015. prenosi izjavu kustoskinje da je skulptura srne ranije ukradena; povratak nije potvrđen. Ne locirati prema staroj knjizi bez novog dokaza."
+    }
   },
   {
     "mesto": "Kraljevo",
@@ -44011,22 +44001,6 @@
     "drzava": "Croatia"
   },
   {
-    "mesto": "Tacen",
-    "izvor": "https://znaci.org/00003/920.pdf#page=431",
-    "naziv": "Spomenik vstaji slovenskega naroda",
-    "autor": "Jože Valentinčič & Franc Čizman",
-    "vrsta": "lokalni",
-    "drzava": "Slovenia",
-    "adresa": "Pašnik ispod Šmartne gore, Ljubljana–Šiška"
-  },
-  {
-    "mesto": "Veles",
-    "izvor": "https://znaci.org/00003/920.pdf#page=435",
-    "naziv": "Спомен-куќа на Кочо Рацин",
-    "vrsta": "muzej",
-    "drzava": "Macedonia"
-  },
-  {
     "mesto": "Bogomila",
     "izvor": "https://znaci.org/00003/920.pdf#page=435",
     "naziv": "Споменик на Богомилската епопеја",
@@ -44370,7 +44344,13 @@
     "autor": "Vlade Petković",
     "vrsta": "statua",
     "drzava": "Croatia",
-    "adresa": "Trg 2. dalmatinske"
+    "adresa": "Trg 2. dalmatinske",
+    "proveraLokacije": {
+      "datum": "2026-10-16",
+      "ishod": "preskoceno-bez-potvrde-opstanka",
+      "izvor": "https://www.hina.hr/vijest/6610931",
+      "napomena": "HINA 28.03.2005. potvrđuje miniranje brončanog spomenika na Trgu Rudina. Izvor ne potvrđuje današnju lokaciju ni obnovu; ne locirati prema stanju iz 1980. godine."
+    }
   },
   {
     "mesto": "Smokvica (Kornati)",

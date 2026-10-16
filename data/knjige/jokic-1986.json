@@ -1379,11 +1379,12 @@
     "naziv": "Spomenik seljačkoj majci",
     "vrsta": "spomenik",
     "izvor": "https://znaci.org/00003/920.pdf#page=87",
-    "izbor": "bez-lokacije",
+    "izbor": "upareno",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 4353
-    }
+      "skup": "spomeniks",
+      "cilj": "trebence"
+    },
+    "razlogObrade": "Cilj potvrđen 2026-10-16: Kragujevac i Veles novi na mapi; Cerkno i Tacen već postoje pod drugim nazivom mesta ili spomenika. Koordinate i izvori provere u beleškama."
   },
   {
     "oznaka": "B-0084",
@@ -2017,7 +2018,7 @@
     "napomena": "Podignut u znak sećanja na 537 palih boraca sa područja Lušci Palanke.",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4354
+      "cilj": 4353
     }
   },
   {
@@ -2327,7 +2328,7 @@
     "napomena": "Kameni stub visok tri metra; 135 imena.",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4357
+      "cilj": 4356
     }
   },
   {
@@ -2343,7 +2344,7 @@
     "napomena": "Borci pali u posljednje dvije godine rata; u blizini memorijalnog prostora.",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4358
+      "cilj": 4357
     }
   },
   {
@@ -2371,7 +2372,7 @@
     "izbor": "bez-lokacije",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4355
+      "cilj": 4354
     }
   },
   {
@@ -2387,7 +2388,7 @@
     "napomena": "Pred muzejom; kćerka partizanske ljekarke Saše Božović.",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4356
+      "cilj": 4355
     }
   },
   {
@@ -2628,7 +2629,7 @@
     "napomena": "Skulptura uz muzejsku zgradu.",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4359
+      "cilj": 4358
     }
   },
   {
@@ -2662,7 +2663,7 @@
     "napomena": "Podigli pripadnici JNA.",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4360
+      "cilj": 4359
     }
   },
   {
@@ -2704,7 +2705,7 @@
     "napomena": "Knjiga navodi spomenik i stihove; posveta nije potpuno navedena.",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4361
+      "cilj": 4360
     }
   },
   {
@@ -2735,7 +2736,7 @@
     "napomena": "Spomen-dom sa memorijalnim muzejom i spomen-parkom.",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4362
+      "cilj": 4361
     }
   },
   {
@@ -2882,7 +2883,7 @@
     "izbor": "bez-lokacije",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4363
+      "cilj": 4362
     }
   },
   {
@@ -2897,7 +2898,7 @@
     "izbor": "bez-lokacije",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4364
+      "cilj": 4363
     }
   },
   {
@@ -3176,7 +3177,7 @@
     "napomena": "Skulptura u memorijalnom prostoru Šumarica.",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4365
+      "cilj": 4364
     }
   },
   {
@@ -3261,14 +3262,15 @@
     "naziv": "Spomenik Prvoj Titovoj štafeti",
     "vrsta": "spomenik",
     "izvor": "https://znaci.org/00003/920.pdf#page=181",
-    "izbor": "bez-lokacije",
+    "izbor": "upareno",
     "autor": "Matija Vuković",
     "godina": "1977",
     "napomena": "Otkriven 22. maja; u centru grada.",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 4366
-    }
+      "skup": "spomeniks",
+      "cilj": "kragujevac-spomenik-prvoj-titovoj-stafeti"
+    },
+    "razlogObrade": "Cilj potvrđen 2026-10-16: Kragujevac i Veles novi na mapi; Cerkno i Tacen već postoje pod drugim nazivom mesta ili spomenika. Koordinate i izvori provere u beleškama."
   },
   {
     "oznaka": "B-0198",
@@ -3379,7 +3381,7 @@
     "napomena": "U parku ispred Doma JNA.",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4367
+      "cilj": 4365
     }
   },
   {
@@ -3396,7 +3398,7 @@
     "napomena": "U krugu Fabrike vagona.",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4368
+      "cilj": 4366
     }
   },
   {
@@ -3412,7 +3414,7 @@
     "napomena": "Dragoslav Bogavac, Rade Vilotijević, Olga Jovičić; autori i godine nisu navedeni.",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4369
+      "cilj": 4367
     }
   },
   {
@@ -3699,7 +3701,7 @@
     "napomena": "Muzej na spratu stare kuće Titove majke; imanje u upotrebi porodice.",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4370
+      "cilj": 4368
     }
   },
   {
@@ -3719,7 +3721,7 @@
     ],
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4371
+      "cilj": 4369
     }
   },
   {
@@ -3734,7 +3736,7 @@
     "izbor": "bez-lokacije",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4372
+      "cilj": 4370
     }
   },
   {
@@ -3883,7 +3885,7 @@
     "adresa": "Cesta na pod brdo 95",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4373
+      "cilj": 4371
     }
   },
   {
@@ -4061,7 +4063,7 @@
     "adresa": "Titova obala 17/II",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4374
+      "cilj": 4372
     }
   },
   {
@@ -4083,7 +4085,7 @@
     ],
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4375
+      "cilj": 4373
     }
   },
   {
@@ -4103,7 +4105,7 @@
     ],
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4376
+      "cilj": 4374
     }
   },
   {
@@ -4441,7 +4443,7 @@
     "izbor": "bez-lokacije",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4377
+      "cilj": 4375
     }
   },
   {
@@ -4461,7 +4463,7 @@
     "izbor": "bez-lokacije",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4378
+      "cilj": 4376
     }
   },
   {
@@ -4627,7 +4629,7 @@
     "izbor": "bez-lokacije",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4379
+      "cilj": 4377
     }
   },
   {
@@ -4644,7 +4646,7 @@
     "izbor": "bez-lokacije",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4380
+      "cilj": 4378
     }
   },
   {
@@ -4789,7 +4791,7 @@
     "izbor": "bez-lokacije",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4381
+      "cilj": 4379
     }
   },
   {
@@ -4804,7 +4806,7 @@
     "izbor": "bez-lokacije",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4382
+      "cilj": 4380
     }
   },
   {
@@ -4833,7 +4835,7 @@
     "izbor": "bez-lokacije",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4383
+      "cilj": 4381
     }
   },
   {
@@ -4848,7 +4850,7 @@
     "izbor": "bez-lokacije",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4384
+      "cilj": 4382
     }
   },
   {
@@ -4864,7 +4866,7 @@
     "izbor": "bez-lokacije",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4385
+      "cilj": 4383
     }
   },
   {
@@ -4880,7 +4882,7 @@
     "izbor": "bez-lokacije",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4386
+      "cilj": 4384
     }
   },
   {
@@ -5046,7 +5048,7 @@
     "izbor": "bez-lokacije",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4387
+      "cilj": 4385
     }
   },
   {
@@ -5062,7 +5064,7 @@
     "izbor": "bez-lokacije",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4388
+      "cilj": 4386
     }
   },
   {
@@ -5459,7 +5461,7 @@
     "izbor": "bez-lokacije",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4389
+      "cilj": 4387
     }
   },
   {
@@ -5643,7 +5645,7 @@
     "izbor": "bez-lokacije",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4390
+      "cilj": 4388
     }
   },
   {
@@ -6104,7 +6106,7 @@
     "izbor": "bez-lokacije",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4391
+      "cilj": 4389
     }
   },
   {
@@ -6171,7 +6173,7 @@
     "izbor": "bez-lokacije",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4392
+      "cilj": 4390
     }
   },
   {
@@ -6208,7 +6210,7 @@
     "izbor": "bez-lokacije",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4393
+      "cilj": 4391
     }
   },
   {
@@ -6262,7 +6264,7 @@
     "izbor": "bez-lokacije",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4394
+      "cilj": 4392
     }
   },
   {
@@ -6296,7 +6298,7 @@
     "izbor": "bez-lokacije",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4395
+      "cilj": 4393
     }
   },
   {
@@ -6316,7 +6318,7 @@
     "izbor": "bez-lokacije",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4396
+      "cilj": 4394
     }
   },
   {
@@ -6368,7 +6370,7 @@
     "izbor": "bez-lokacije",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4397
+      "cilj": 4395
     }
   },
   {
@@ -6594,7 +6596,7 @@
     "izbor": "bez-lokacije",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4398
+      "cilj": 4396
     }
   },
   {
@@ -6628,7 +6630,7 @@
     "izbor": "bez-lokacije",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4399
+      "cilj": 4397
     }
   },
   {
@@ -6902,7 +6904,7 @@
     "napomena": "Konferencija održana 25. VIII 1940; u kući ratna veza, odatle Nazor i Kovačić otišli u partizane 1942.",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4400
+      "cilj": 4398
     }
   },
   {
@@ -6967,7 +6969,7 @@
     "adresa": "Obala Crnog jezera, kod Titove pećine",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4401
+      "cilj": 4399
     }
   },
   {
@@ -7046,7 +7048,7 @@
     "napomena": "Obnovljena u autentičnom izgledu 1978; to nije godina prvobitne gradnje.",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4402
+      "cilj": 4400
     }
   },
   {
@@ -7088,7 +7090,7 @@
     "adresa": "Crno jezero",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4403
+      "cilj": 4401
     }
   },
   {
@@ -7117,7 +7119,7 @@
     "adresa": "Kod mosta na Tari",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4404
+      "cilj": 4402
     }
   },
   {
@@ -7389,7 +7391,7 @@
     "adresa": "Kuća u kojoj je živeo 1921–1925; 7 km od Bjelovara",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4405
+      "cilj": 4403
     }
   },
   {
@@ -7423,7 +7425,7 @@
     "napomena": "Kuća boravka 28. XI – 20. XII 1942; nastavak opisa na PDF382.",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4406
+      "cilj": 4404
     }
   },
   {
@@ -7530,7 +7532,7 @@
     "adresa": "Vila Gorica",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4407
+      "cilj": 4405
     }
   },
   {
@@ -7566,7 +7568,7 @@
     "adresa": "Dvorište zatvora Stari pisker",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4408
+      "cilj": 4406
     }
   },
   {
@@ -7760,7 +7762,7 @@
     "napomena": "Natpis sadrži imena 19 talaca i 307 palih; nije prepisan spisak imena.",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4409
+      "cilj": 4407
     }
   },
   {
@@ -7842,7 +7844,7 @@
     "adresa": "Centar grada",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4410
+      "cilj": 4408
     }
   },
   {
@@ -8035,7 +8037,7 @@
     "napomena": "Životne godine Nikole Kovačevića 1890–1964 nisu godina muzeja; nije precizirano da li je u Nudolu.",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4411
+      "cilj": 4409
     }
   },
   {
@@ -8165,7 +8167,7 @@
     "adresa": "Kod dvorca, bivšeg logora",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4412
+      "cilj": 4410
     }
   },
   {
@@ -8357,7 +8359,7 @@
     "napomena": "U knjizi svrstan pod Kumanovo; fizički je u Srbiji. Datumi 1944. pripadaju zasedanju, a ne muzeju.",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4413
+      "cilj": 4411
     }
   },
   {
@@ -8610,7 +8612,7 @@
     "napomena": "Autori sa inicijalima, ne proširivati bez provere punog teksta/skana.",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4414
+      "cilj": 4412
     }
   },
   {
@@ -8769,7 +8771,7 @@
     "izbor": "bez-lokacije",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4415
+      "cilj": 4413
     }
   },
   {
@@ -8824,7 +8826,7 @@
     "napomena": "U OCR-u Javomica; proveriti naziv pre konačnog upisa.",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4416
+      "cilj": 4414
     }
   },
   {
@@ -8897,7 +8899,7 @@
     "adresa": "Kuća narodnog heroja Miladina Popovića",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4417
+      "cilj": 4415
     }
   },
   {
@@ -9170,7 +9172,7 @@
     "napomena": "Ploča sa 144 imena; ne poistovećivati sa spomenikom 130 Prokupčana.",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4418
+      "cilj": 4416
     }
   },
   {
@@ -9186,7 +9188,7 @@
     "adresa": "Tvrđava Kaštel",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4419
+      "cilj": 4417
     }
   },
   {
@@ -9219,7 +9221,7 @@
     "napomena": "Izvor u ovom pasusu ima očigledan poremećaj redosleda rečenica; ne prepisivati nedovršene delove kao činjenice.",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4420
+      "cilj": 4418
     }
   },
   {
@@ -9265,7 +9267,7 @@
     "izbor": "bez-lokacije",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4421
+      "cilj": 4419
     }
   },
   {
@@ -9281,7 +9283,7 @@
     "adresa": "Glavni trg",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4422
+      "cilj": 4420
     }
   },
   {
@@ -9328,7 +9330,7 @@
     "adresa": "Ulica Ivana Lučića Lavčevića 15; zgrada bivše Gradske bolnice",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4423
+      "cilj": 4421
     }
   },
   {
@@ -9343,7 +9345,7 @@
     "izbor": "bez-lokacije",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4424
+      "cilj": 4422
     }
   },
   {
@@ -9463,7 +9465,7 @@
     "napomena": "Muzej i prostor za društvene aktivnosti; ne pripisivati Vanju Radauša zgradi.",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4425
+      "cilj": 4423
     }
   },
   {
@@ -9625,13 +9627,14 @@
     "vrsta": "lokalni",
     "drzava": "Slovenia",
     "izvor": "https://znaci.org/00003/920.pdf#page=431",
-    "izbor": "bez-lokacije",
+    "izbor": "upareno",
     "adresa": "Pašnik ispod Šmartne gore, Ljubljana–Šiška",
     "autor": "Jože Valentinčič & Franc Čizman",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 4426
-    }
+      "skup": "spomeniks",
+      "cilj": "ljubljana-spomenik-vstaje-proti-okupatorju"
+    },
+    "razlogObrade": "Cilj potvrđen 2026-10-16: Kragujevac i Veles novi na mapi; Cerkno i Tacen već postoje pod drugim nazivom mesta ili spomenika. Koordinate i izvori provere u beleškama."
   },
   {
     "oznaka": "B-0591",
@@ -9705,11 +9708,12 @@
     "vrsta": "muzej",
     "drzava": "Macedonia",
     "izvor": "https://znaci.org/00003/920.pdf#page=435",
-    "izbor": "bez-lokacije",
+    "izbor": "upareno",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 4427
-    }
+      "skup": "spomeniks",
+      "cilj": "veles-spomen-kukja-na-koco-racin"
+    },
+    "razlogObrade": "Cilj potvrđen 2026-10-16: Kragujevac i Veles novi na mapi; Cerkno i Tacen već postoje pod drugim nazivom mesta ili spomenika. Koordinate i izvori provere u beleškama."
   },
   {
     "oznaka": "B-0596",
@@ -9724,7 +9728,7 @@
     "napomena": "Kod Velesa; obeležava marš brigade 1944, ne daje godinu podizanja.",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4428
+      "cilj": 4424
     }
   },
   {
@@ -9874,7 +9878,7 @@
     "napomena": "Datum 27. IX 1942 se odnosi na formiranje odreda, ne na podizanje.",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4429
+      "cilj": 4425
     }
   },
   {
@@ -9890,7 +9894,7 @@
     "adresa": "Crnoljevska klisura, 20 km od Uroševca prema Prizrenu",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4430
+      "cilj": 4426
     }
   },
   {
@@ -9943,7 +9947,7 @@
     "adresa": "Rodna kuća dr Ivana Ribara",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4431
+      "cilj": 4427
     }
   },
   {
@@ -9959,7 +9963,7 @@
     "napomena": "Muzej i monumentalni spomenik nisu isto; autor skulpture nije upisan zgradi muzeja.",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4432
+      "cilj": 4428
     }
   },
   {
@@ -10012,7 +10016,7 @@
     "napomena": "Dve kripte obeležene zajedničkim spomenikom.",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4433
+      "cilj": 4429
     }
   },
   {
