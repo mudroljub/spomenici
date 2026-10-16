@@ -44,6 +44,11 @@ h1 {
   filter: sepia(31%);
 }
 
+/* izbliza je mapa presarena, bledo da se ikonice vide */
+.leaflet-container .izbliza .leaflet-tile {
+  filter: sepia(20%) saturate(85%) brightness(102%) contrast(100%);
+}
+
 .leaflet-control-container {
   top: calc(50px + var(--vrh));
   position: absolute;
