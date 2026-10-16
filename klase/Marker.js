@@ -1,3 +1,4 @@
+// @ts-check
 import {mapa} from './mapa.js'
 import {dajOznaku} from '../utils/oznake.js'
 import {izgledMarkera, senka} from '../utils/ikonice.js'
@@ -34,6 +35,7 @@ const opis = spomen => {
 
 export default class Marker {
 
+  /** @param {import('../data/tipovi').Spomenik} spomen */
   constructor(spomen) {
     this.spomen = spomen
     this.vazan = vazneVrste.includes(spomen.vrsta)

@@ -1,3 +1,4 @@
+// @ts-check
 import {mapa} from '../klase/mapa.js'
 import {mestoUrl, navigacijaUrl, escapeHtml, naziviStanja, nestao, autoriSpomenika} from '../utils/helpers.js'
 import {dajOznaku, postaviOznaku, promene} from '../utils/oznake.js'
@@ -447,7 +448,7 @@ export default class Detalji extends HTMLElement {
 
   osveziOznake() {
     this.panel.querySelectorAll('[data-oznaka]').forEach(dugme =>
-      dugme.setAttribute('aria-pressed', dajOznaku(this.marker.spomen.id) === dugme.dataset.oznaka)
+      dugme.setAttribute('aria-pressed', String(dajOznaku(this.marker.spomen.id) === dugme.dataset.oznaka))
     )
   }
 

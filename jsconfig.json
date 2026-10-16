@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "checkJs": false,
+    "strict": false,
+    "target": "ES2022",
+    "module": "ES2022",
+    "moduleResolution": "bundler",
+    "lib": [
+      "ES2022",
+      "DOM",
+      "DOM.Iterable"
+    ],
+    "noEmit": true
+  },
+  // sw.js nije uključen: service worker ima drugo globalno okruženje (WebWorker), koje se ne slaže sa DOM tipovima
+  "include": [
+    "main.js",
+    "klase",
+    "komponente",
+    "utils",
+    "data/*.d.ts"
+  ]
+}

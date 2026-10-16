@@ -1,3 +1,4 @@
+// @ts-check
 // svaki spomenik ima najvise jednu oznaku, 'lista' ili 'posetio'; cuva se samo na ovom uredjaju
 const kljuc = 'spomenici-poseta'
 

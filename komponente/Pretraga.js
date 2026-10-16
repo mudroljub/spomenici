@@ -1,3 +1,4 @@
+// @ts-check
 import Filteri from './Filteri.js'
 import {mapa} from '../klase/mapa.js'
 import {normalizuj} from '../utils/helpers.js'

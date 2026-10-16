@@ -1,3 +1,4 @@
+// @ts-check
 import {mapa} from '../klase/mapa.js'
 import {naziviStanja, nazivSpomenika, malaSlika} from '../utils/helpers.js'
 import {t, jezik} from '../utils/jezik.js'
@@ -257,7 +258,7 @@ const tacka = ({lat, lng}) => `${lat},${lng}`
 // bez polazista Google Maps krece od trenutnog polozaja
 const googleUrl = spomenici => {
   const stanice = spomenici.slice(0, najviseZaGoogle).map(s => tacka(s.koordinate))
-  const parametri = new URLSearchParams({api: 1, destination: stanice.pop()})
+  const parametri = new URLSearchParams({api: '1', destination: stanice.pop()})
   if (stanice.length) parametri.set('waypoints', stanice.join('|'))
   return `https://www.google.com/maps/dir/?${parametri}`
 }
@@ -396,7 +397,7 @@ export default class Ruta extends HTMLElement {
     const broj = this.stanice().length
     this.panel.querySelectorAll('[data-kartica]').forEach(kartica => {
       const izabrana = kartica.dataset.kartica === this.kartica
-      kartica.setAttribute('aria-selected', izabrana)
+      kartica.setAttribute('aria-selected', String(izabrana))
       this.panel.querySelector(`#${kartica.dataset.kartica}`).hidden = !izabrana
     })
     this.panel.querySelector('[data-kartica="planer"]').textContent = broj ? `${t('trenutnaRuta')} · ${broj}` : t('trenutnaRuta')
@@ -415,7 +416,8 @@ export default class Ruta extends HTMLElement {
     stanice.forEach(({marker}, i) => this.brojevi.addLayer(praviBroj(marker, i + 1)))
 
     this.lista.replaceChildren(...stanice.map((stavka, i) => this.praviRed(stavka, i, stanice.length)))
-    this.panel.querySelector('#google').href = googleUrl(stanice.map(({spomenik}) => spomenik))
+    const google = /** @type {HTMLAnchorElement} */ (this.panel.querySelector('#google'))
+    google.href = googleUrl(stanice.map(({spomenik}) => spomenik))
     const ogranicenje = this.panel.querySelector('#ogranicenje')
     ogranicenje.hidden = stanice.length <= najviseZaGoogle
     ogranicenje.textContent = t('ogranicenje', najviseZaGoogle)

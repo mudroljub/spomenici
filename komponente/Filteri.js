@@ -1,3 +1,4 @@
+// @ts-check
 import {mapa} from '../klase/mapa.js'
 import {nestao, ruine, autoriSpomenika, normalizuj} from '../utils/helpers.js'
 import {dajOznaku, promene} from '../utils/oznake.js'
@@ -263,21 +264,23 @@ export default class Filteri extends HTMLElement {
       this.dispatchEvent(new Event('potvrda'))
     })
     this.sadrzaj.addEventListener('click', e => {
-      const cip = e.target.closest('button.cip')
+      const cilj = /** @type {HTMLElement} */ (e.target)
+      const cip = cilj.closest('button.cip')
       if (cip) this.obrni(cip.dataset.grupa, cip.dataset.opcija)
-      const polje = e.target.closest('button.polje')
+      const polje = cilj.closest('button.polje')
       if (polje) this.otvorenSpisak ? this.zatvoriSpisak() : this.otvoriSpisak(polje.dataset.grupa)
-      const opcija = e.target.closest('[role="option"]')
+      const opcija = cilj.closest('[role="option"]')
       if (opcija) this.izaberiSaSpiska(opcija)
     })
     // dodir ili klik bilo gde van padajuceg spiska ga zatvara
     this.panel.addEventListener('click', e => {
-      if (this.otvorenSpisak && !e.target.closest('.padajuci')) this.zatvoriSpisak()
+      if (this.otvorenSpisak && !/** @type {HTMLElement} */ (e.target).closest('.padajuci')) this.zatvoriSpisak()
     })
     this.sadrzaj.addEventListener('focusout', e => {
-      if (this.otvorenSpisak && e.relatedTarget && !e.relatedTarget.closest('.padajuci')) this.zatvoriSpisak()
+      const novi = /** @type {HTMLElement | null} */ (e.relatedTarget)
+      if (this.otvorenSpisak && novi && !novi.closest('.padajuci')) this.zatvoriSpisak()
     })
-    this.sadrzaj.addEventListener('input', e => this.filtrirajSpisak(e.target.value))
+    this.sadrzaj.addEventListener('input', e => this.filtrirajSpisak(/** @type {HTMLInputElement} */ (e.target).value))
     this.sadrzaj.addEventListener('keydown', e => this.tasterSpiska(e))
 
     this.attachShadow({mode: 'open'})

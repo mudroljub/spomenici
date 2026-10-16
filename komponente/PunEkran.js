@@ -1,3 +1,4 @@
+// @ts-check
 class PunEkran extends HTMLElement {
   constructor() {
     super()

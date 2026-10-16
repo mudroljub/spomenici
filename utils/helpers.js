@@ -1,3 +1,4 @@
+// @ts-check
 import {jezik, t} from './jezik.js'
 
 Element.prototype.on = Element.prototype.addEventListener
@@ -17,6 +18,7 @@ export const naziviStanja = {
 
 const bezLinkova = html => (html || '').replace(/<[^>]*>/g, '')
 
+/** @param {import('../data/tipovi').Spomenik} spomenik */
 export const nazivSpomenika = ({naziv, nazivEn}) => jezik === 'en'
   ? bezLinkova(nazivEn) || naziv || ''
   : naziv || bezLinkova(nazivEn)
@@ -25,6 +27,7 @@ export const nazivSpomenika = ({naziv, nazivEn}) => jezik === 'en'
 export const malaSlika = putanja => putanja.replace('slike/spomenici/', 'slike/male/')
 
 // vise autora jednog spomenika upisano je kao „Ime & Ime“
+/** @param {import('../data/tipovi').Spomenik} spomenik */
 export const autoriSpomenika = ({autor}) => autor ? autor.split(' & ') : []
 
 // uklonjen spomenik vise nema sta da se obidje; od srusenog obicno ostanu delovi

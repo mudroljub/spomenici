@@ -1,3 +1,4 @@
+// @ts-check
 import {nestao, ruine} from './helpers.js'
 
 // senka je ucrtana u slike markera, jer css senka na stotinama markera koci telefon pri pomeranju mape;
@@ -6,6 +7,7 @@ export const senka = {levo: 2, desno: 8, dole: 10}
 
 const velicine = {kompleks: [34, 50], groblje: [29, 32], lokalni: [20, 28], muzej: [34, 38], ploca: [22, 16], bista: [22, 35], statua: [24, 48]}
 
+/** @param {Pick<import('../data/tipovi').Spomenik, 'vrsta' | 'stanje'>} spomenik */
 export const izgledMarkera = ({vrsta, stanje}) => {
   const varijanta = nestao(stanje) ? 'uklonjen' : ruine(stanje) ? 'rusevina' : 'postoji'
   const velicina = velicine[vrsta]

@@ -1,3 +1,4 @@
+// @ts-check
 import {jezik, promeniJezik} from '../utils/jezik.js'
 
 class Jezik extends HTMLElement {

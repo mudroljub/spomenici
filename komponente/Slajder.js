@@ -1,3 +1,4 @@
+// @ts-check
 // TODO: proslediti visina-slajdera kao props
 const style = document.createElement('style')
 

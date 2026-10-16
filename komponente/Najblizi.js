@@ -1,3 +1,4 @@
+// @ts-check
 import {mapa} from '../klase/mapa.js'
 import {naziviStanja, nazivSpomenika} from '../utils/helpers.js'
 import {t} from '../utils/jezik.js'

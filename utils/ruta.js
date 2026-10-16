@@ -1,3 +1,4 @@
+// @ts-check
 // spomenici izabrani za put, redom obilaska, i ime gotove ture od koje je nastala; cuva se samo na ovom uredjaju
 const kljuc = 'spomenici-ruta'
 const prazna = {naziv: '', spomenici: []}

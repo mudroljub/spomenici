@@ -1,7 +1,9 @@
+// @ts-check
 import {malaSlika} from '../utils/helpers.js'
 
 export default class Slika extends HTMLElement {
 
+  /** @param {import('../data/tipovi').Spomenik} spomen */
   constructor(spomen, marker) {
     super()
     this.url = malaSlika(spomen.slika)

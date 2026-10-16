@@ -1,3 +1,4 @@
+// @ts-check
 import {dajOznaku, promene} from '../utils/oznake.js'
 
 const konfigMape = {

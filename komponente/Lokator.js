@@ -1,3 +1,4 @@
+// @ts-check
 // koristi globalnu css var visina-slajdera, proslediti kao props
 import {mapa} from '../klase/mapa.js'
 import {t} from '../utils/jezik.js'

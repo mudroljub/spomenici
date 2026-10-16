@@ -1,3 +1,4 @@
+// @ts-check
 import {mapa} from '../klase/mapa.js'
 import {t} from '../utils/jezik.js'
 import {izgledMarkera, senka} from '../utils/ikonice.js'

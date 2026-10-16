@@ -1,3 +1,4 @@
+// @ts-check
 const kljuc = 'spomenici-jezik'
 
 const sacuvan = () => {

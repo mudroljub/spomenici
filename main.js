@@ -1,3 +1,4 @@
+// @ts-check
 import Slika from './komponente/Slika.js'
 import Pretraga from './komponente/Pretraga.js'
 import Slajder from './komponente/Slajder.js'
@@ -22,6 +23,7 @@ const detalji = document.body.appendChild(new Detalji())
 
 /* FUNKCIJE */
 
+/** @param {import('./data/tipovi').Spomenik} spomenik */
 const praviStavku = spomenik => {
   const marker = new Marker(spomenik)
   const slika = spomenik.slika && new Slika(spomenik, marker)
