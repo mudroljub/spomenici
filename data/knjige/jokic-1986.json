@@ -4151,11 +4151,12 @@
     "vrsta": "muzej",
     "izvor": "https://znaci.org/00003/920.pdf#page=232",
     "adresa": "Bajatova ulica, Brankovac",
-    "izbor": "bez-lokacije",
+    "izbor": "upareno",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 4377
-    }
+      "skup": "spomeniks",
+      "cilj": "mostar-spomen-kuca-dzemala-bijedica"
+    },
+    "razlogObrade": "Lokacija ovjerena 2026-10-16: imenovani OSM muzej i nezavisan savremeni izvor; Brestanica je postojeći rajhenburg-castle, ostali su novi zapisi na mapi."
   },
   {
     "oznaka": "B-0249",
@@ -4440,7 +4441,7 @@
     "izbor": "bez-lokacije",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4378
+      "cilj": 4377
     }
   },
   {
@@ -4460,7 +4461,7 @@
     "izbor": "bez-lokacije",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4379
+      "cilj": 4378
     }
   },
   {
@@ -4626,7 +4627,7 @@
     "izbor": "bez-lokacije",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4380
+      "cilj": 4379
     }
   },
   {
@@ -4643,7 +4644,7 @@
     "izbor": "bez-lokacije",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4381
+      "cilj": 4380
     }
   },
   {
@@ -4788,7 +4789,7 @@
     "izbor": "bez-lokacije",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4382
+      "cilj": 4381
     }
   },
   {
@@ -4803,7 +4804,7 @@
     "izbor": "bez-lokacije",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4383
+      "cilj": 4382
     }
   },
   {
@@ -4832,7 +4833,7 @@
     "izbor": "bez-lokacije",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4384
+      "cilj": 4383
     }
   },
   {
@@ -4847,7 +4848,7 @@
     "izbor": "bez-lokacije",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4385
+      "cilj": 4384
     }
   },
   {
@@ -4863,7 +4864,7 @@
     "izbor": "bez-lokacije",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4386
+      "cilj": 4385
     }
   },
   {
@@ -4879,7 +4880,7 @@
     "izbor": "bez-lokacije",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4387
+      "cilj": 4386
     }
   },
   {
@@ -5045,7 +5046,7 @@
     "izbor": "bez-lokacije",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4388
+      "cilj": 4387
     }
   },
   {
@@ -5061,7 +5062,7 @@
     "izbor": "bez-lokacije",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4389
+      "cilj": 4388
     }
   },
   {
@@ -5458,7 +5459,7 @@
     "izbor": "bez-lokacije",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4390
+      "cilj": 4389
     }
   },
   {
@@ -5642,7 +5643,7 @@
     "izbor": "bez-lokacije",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4391
+      "cilj": 4390
     }
   },
   {
@@ -6103,7 +6104,7 @@
     "izbor": "bez-lokacije",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4392
+      "cilj": 4391
     }
   },
   {
@@ -6170,7 +6171,7 @@
     "izbor": "bez-lokacije",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4393
+      "cilj": 4392
     }
   },
   {
@@ -6207,7 +6208,7 @@
     "izbor": "bez-lokacije",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4394
+      "cilj": 4393
     }
   },
   {
@@ -6261,7 +6262,7 @@
     "izbor": "bez-lokacije",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4395
+      "cilj": 4394
     }
   },
   {
@@ -6295,7 +6296,7 @@
     "izbor": "bez-lokacije",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4396
+      "cilj": 4395
     }
   },
   {
@@ -6315,7 +6316,7 @@
     "izbor": "bez-lokacije",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4397
+      "cilj": 4396
     }
   },
   {
@@ -6367,7 +6368,7 @@
     "izbor": "bez-lokacije",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4398
+      "cilj": 4397
     }
   },
   {
@@ -6593,7 +6594,7 @@
     "izbor": "bez-lokacije",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4399
+      "cilj": 4398
     }
   },
   {
@@ -6627,7 +6628,7 @@
     "izbor": "bez-lokacije",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4400
+      "cilj": 4399
     }
   },
   {
@@ -6901,7 +6902,7 @@
     "napomena": "Konferencija održana 25. VIII 1940; u kući ratna veza, odatle Nazor i Kovačić otišli u partizane 1942.",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4401
+      "cilj": 4400
     }
   },
   {
@@ -6966,7 +6967,7 @@
     "adresa": "Obala Crnog jezera, kod Titove pećine",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4402
+      "cilj": 4401
     }
   },
   {
@@ -7045,7 +7046,7 @@
     "napomena": "Obnovljena u autentičnom izgledu 1978; to nije godina prvobitne gradnje.",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4403
+      "cilj": 4402
     }
   },
   {
@@ -7087,7 +7088,7 @@
     "adresa": "Crno jezero",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4404
+      "cilj": 4403
     }
   },
   {
@@ -7116,7 +7117,7 @@
     "adresa": "Kod mosta na Tari",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4405
+      "cilj": 4404
     }
   },
   {
@@ -7218,13 +7219,14 @@
     "vrsta": "muzej",
     "drzava": "Croatia",
     "izvor": "https://znaci.org/00003/920.pdf#page=375",
-    "izbor": "bez-lokacije",
+    "izbor": "upareno",
     "godina": "1979",
     "napomena": "Otvoren 4. VII 1979; zasebna zgrada doma u sklopu područja.",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 4406
-    }
+      "skup": "spomeniks",
+      "cilj": "batina-spomen-dom-batinske-bitke"
+    },
+    "razlogObrade": "Lokacija ovjerena 2026-10-16: imenovani OSM muzej i nezavisan savremeni izvor; Brestanica je postojeći rajhenburg-castle, ostali su novi zapisi na mapi."
   },
   {
     "oznaka": "B-0444",
@@ -7235,15 +7237,16 @@
     "vrsta": "muzej",
     "drzava": "Serbia",
     "izvor": "https://znaci.org/00003/920.pdf#page=376",
-    "izbor": "bez-lokacije",
+    "izbor": "upareno",
     "godina": "1981",
     "adresa": "Leva obala Dunava kod mosta na Batini",
     "autorIzvorno": "M. Berbakov",
     "napomena": "Sagrađena muzejska zgrada otvorena novembra 1981. Inicijal arhitekte nije proširen bez potvrde. Skulptura kameni cvijet opisana kao deo prostora muzeja.",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 4407
-    }
+      "skup": "spomeniks",
+      "cilj": "bezdan-muzej-batinske-bitke"
+    },
+    "razlogObrade": "Lokacija ovjerena 2026-10-16: imenovani OSM muzej i nezavisan savremeni izvor; Brestanica je postojeći rajhenburg-castle, ostali su novi zapisi na mapi."
   },
   {
     "oznaka": "B-0445",
@@ -7386,7 +7389,7 @@
     "adresa": "Kuća u kojoj je živeo 1921–1925; 7 km od Bjelovara",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4408
+      "cilj": 4405
     }
   },
   {
@@ -7420,7 +7423,7 @@
     "napomena": "Kuća boravka 28. XI – 20. XII 1942; nastavak opisa na PDF382.",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4409
+      "cilj": 4406
     }
   },
   {
@@ -7489,12 +7492,13 @@
     "vrsta": "muzej",
     "drzava": "Slovenia",
     "izvor": "https://znaci.org/00003/920.pdf#page=383",
-    "izbor": "bez-lokacije",
+    "izbor": "upareno",
     "adresa": "Bivši trapistički samostan nad levom obalom Save",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 4410
-    }
+      "skup": "spomeniks",
+      "cilj": "rajhenburg-castle"
+    },
+    "razlogObrade": "Lokacija ovjerena 2026-10-16: imenovani OSM muzej i nezavisan savremeni izvor; Brestanica je postojeći rajhenburg-castle, ostali su novi zapisi na mapi."
   },
   {
     "oznaka": "B-0461",
@@ -7526,7 +7530,7 @@
     "adresa": "Vila Gorica",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4411
+      "cilj": 4407
     }
   },
   {
@@ -7562,7 +7566,7 @@
     "adresa": "Dvorište zatvora Stari pisker",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4412
+      "cilj": 4408
     }
   },
   {
@@ -7756,7 +7760,7 @@
     "napomena": "Natpis sadrži imena 19 talaca i 307 palih; nije prepisan spisak imena.",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4413
+      "cilj": 4409
     }
   },
   {
@@ -7838,7 +7842,7 @@
     "adresa": "Centar grada",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4414
+      "cilj": 4410
     }
   },
   {
@@ -8031,7 +8035,7 @@
     "napomena": "Životne godine Nikole Kovačevića 1890–1964 nisu godina muzeja; nije precizirano da li je u Nudolu.",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4415
+      "cilj": 4411
     }
   },
   {
@@ -8161,7 +8165,7 @@
     "adresa": "Kod dvorca, bivšeg logora",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4416
+      "cilj": 4412
     }
   },
   {
@@ -8353,7 +8357,7 @@
     "napomena": "U knjizi svrstan pod Kumanovo; fizički je u Srbiji. Datumi 1944. pripadaju zasedanju, a ne muzeju.",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4417
+      "cilj": 4413
     }
   },
   {
@@ -8606,7 +8610,7 @@
     "napomena": "Autori sa inicijalima, ne proširivati bez provere punog teksta/skana.",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4418
+      "cilj": 4414
     }
   },
   {
@@ -8765,7 +8769,7 @@
     "izbor": "bez-lokacije",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4419
+      "cilj": 4415
     }
   },
   {
@@ -8820,7 +8824,7 @@
     "napomena": "U OCR-u Javomica; proveriti naziv pre konačnog upisa.",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4420
+      "cilj": 4416
     }
   },
   {
@@ -8893,7 +8897,7 @@
     "adresa": "Kuća narodnog heroja Miladina Popovića",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4421
+      "cilj": 4417
     }
   },
   {
@@ -9166,7 +9170,7 @@
     "napomena": "Ploča sa 144 imena; ne poistovećivati sa spomenikom 130 Prokupčana.",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4422
+      "cilj": 4418
     }
   },
   {
@@ -9182,7 +9186,7 @@
     "adresa": "Tvrđava Kaštel",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4423
+      "cilj": 4419
     }
   },
   {
@@ -9215,7 +9219,7 @@
     "napomena": "Izvor u ovom pasusu ima očigledan poremećaj redosleda rečenica; ne prepisivati nedovršene delove kao činjenice.",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4424
+      "cilj": 4420
     }
   },
   {
@@ -9261,7 +9265,7 @@
     "izbor": "bez-lokacije",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4425
+      "cilj": 4421
     }
   },
   {
@@ -9277,7 +9281,7 @@
     "adresa": "Glavni trg",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4426
+      "cilj": 4422
     }
   },
   {
@@ -9324,7 +9328,7 @@
     "adresa": "Ulica Ivana Lučića Lavčevića 15; zgrada bivše Gradske bolnice",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4427
+      "cilj": 4423
     }
   },
   {
@@ -9339,7 +9343,7 @@
     "izbor": "bez-lokacije",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4428
+      "cilj": 4424
     }
   },
   {
@@ -9459,7 +9463,7 @@
     "napomena": "Muzej i prostor za društvene aktivnosti; ne pripisivati Vanju Radauša zgradi.",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4429
+      "cilj": 4425
     }
   },
   {
@@ -9626,7 +9630,7 @@
     "autor": "Jože Valentinčič & Franc Čizman",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4430
+      "cilj": 4426
     }
   },
   {
@@ -9704,7 +9708,7 @@
     "izbor": "bez-lokacije",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4431
+      "cilj": 4427
     }
   },
   {
@@ -9720,7 +9724,7 @@
     "napomena": "Kod Velesa; obeležava marš brigade 1944, ne daje godinu podizanja.",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4432
+      "cilj": 4428
     }
   },
   {
@@ -9870,7 +9874,7 @@
     "napomena": "Datum 27. IX 1942 se odnosi na formiranje odreda, ne na podizanje.",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4433
+      "cilj": 4429
     }
   },
   {
@@ -9886,7 +9890,7 @@
     "adresa": "Crnoljevska klisura, 20 km od Uroševca prema Prizrenu",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4434
+      "cilj": 4430
     }
   },
   {
@@ -9939,7 +9943,7 @@
     "adresa": "Rodna kuća dr Ivana Ribara",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4435
+      "cilj": 4431
     }
   },
   {
@@ -9955,7 +9959,7 @@
     "napomena": "Muzej i monumentalni spomenik nisu isto; autor skulpture nije upisan zgradi muzeja.",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4436
+      "cilj": 4432
     }
   },
   {
@@ -10008,7 +10012,7 @@
     "napomena": "Dve kripte obeležene zajedničkim spomenikom.",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4437
+      "cilj": 4433
     }
   },
   {

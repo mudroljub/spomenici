@@ -66885,5 +66885,47 @@
     "naziv": "Memorijalni muzej Ivana Gorana Kovačića",
     "vrsta": "muzej",
     "drzava": "Croatia"
+  },
+  {
+    "id": "mostar-spomen-kuca-dzemala-bijedica",
+    "koordinate": {
+      "lat": 43.3390172,
+      "lng": 17.8160454
+    },
+    "mesto": "Mostar",
+    "izvor": "https://www.openstreetmap.org/node/1462925327",
+    "slika": "slike/spomenici/mostar-spomen-kuca-dzemala-bijedica.webp",
+    "slikaOdnos": 0.563,
+    "slikaPotpis": "Bosancica by MK, CC0",
+    "naziv": "Spomen-kuća Džemala Bijedića",
+    "godina": "1981",
+    "vrsta": "muzej",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "batina-spomen-dom-batinske-bitke",
+    "koordinate": {
+      "lat": 45.8542448,
+      "lng": 18.847788
+    },
+    "mesto": "Batina",
+    "izvor": "https://www.openstreetmap.org/way/376818189",
+    "naziv": "Spomen-dom Batinske bitke",
+    "godina": "1979",
+    "vrsta": "muzej",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "bezdan-muzej-batinske-bitke",
+    "koordinate": {
+      "lat": 45.8506333,
+      "lng": 18.8611496
+    },
+    "mesto": "Bezdan",
+    "izvor": "https://www.openstreetmap.org/way/307146959",
+    "naziv": "Muzej Batinske bitke",
+    "godina": "1981",
+    "vrsta": "muzej",
+    "drzava": "Serbia"
   }
 ]
