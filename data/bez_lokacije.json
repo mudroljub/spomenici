@@ -45152,5 +45152,139 @@
       "razlog": "Naziv i opis Commons fotografije govore Borovo Naselje, a ugrađeni EXIF GPS i naš marker vode u Đeletovce. Datum snimanja je 10.4.2021. Fotografija obeliska sa zvezdom i srpom/čekićem odgovara opisu borovskog obeležja, ali nezavisna precizna tačka nije potvrđena. Izveštaj iz jula 2020. potvrđuje obnovu spomenika u Borovu naselju, ne ovu GPS tačku. Povučeno zbog nesaglasne lokacije, a ne zbog rušenja; zapis i fotografije ostaju sačuvani.",
       "izvestaj": "docs/BELESKE.md#nastavak-provere-hrvatske-identiteti-i-kasniji-dokazi-2026-10-16"
     }
+  },
+  {
+    "mesto": "Badljevina",
+    "izvor": "https://www.openstreetmap.org/node/13044798755",
+    "naziv": "Spomenik NOB-u",
+    "vrsta": "lokalni",
+    "drzava": "Croatia",
+    "kandidati": [
+      {
+        "lat": 45.5137258,
+        "lng": 17.1924013,
+        "izvor": "https://www.openstreetmap.org/node/13044798755",
+        "opis": "Ranija tačka iz aplikacije; identitet postojećeg obeležja i kasnija obnova nisu potvrđeni."
+      }
+    ],
+    "proveraOpstanka": {
+      "datum": "2026-10-16",
+      "prethodniId": "badljevina-nob",
+      "ishod": "nepotvrđena-destinacija",
+      "razlog": "Sken176 navodi spomenik poginulim stanovnicima u parku usred sela, srušen 1991/92. Naš unos nema fotografiju, posvetu ili kasniji datirani dokaz obnove; aktivan OSM marker nije dovoljan. Ciljana pretraga je dala opšte planove i druge građevine, ne potvrdu ove destinacije.",
+      "izvestaj": "docs/BELESKE.md#nastavak-provere-hrvatske-sistematsko-razdvajanje-identiteta-2026-10-16"
+    }
+  },
+  {
+    "mesto": "Jakšić",
+    "izvor": "https://www.openstreetmap.org/node/12999105200",
+    "naziv": "Spomenik NOB-u",
+    "vrsta": "lokalni",
+    "drzava": "Croatia",
+    "kandidati": [
+      {
+        "lat": 45.3564646,
+        "lng": 17.7619022,
+        "izvor": "https://www.openstreetmap.org/node/12999105200",
+        "opis": "Ranija tačka iz aplikacije; identitet postojećeg obeležja i kasnija obnova nisu potvrđeni."
+      }
+    ],
+    "proveraOpstanka": {
+      "datum": "2026-10-16",
+      "prethodniId": "jaksic-spomenik-nob",
+      "ishod": "nepotvrđena-destinacija",
+      "razlog": "Indeks navodi srušen spomenik 20 boraca i civilnih žrtava. Naš marker ima samo opšti naziv NOB, bez slike ili natpisa; nije sigurno utvrđen identitet današnjeg objekta niti kasnija obnova. Ne proglašava se srušenim samo po zajedničkom naselju; privremeno je povučen kao nepotvrđena destinacija.",
+      "izvestaj": "docs/BELESKE.md#nastavak-provere-hrvatske-sistematsko-razdvajanje-identiteta-2026-10-16"
+    }
+  },
+  {
+    "mesto": "Sušine",
+    "izvor": "https://www.openstreetmap.org/node/4999820921",
+    "naziv": "Spomenik palim borcima NOB-a",
+    "vrsta": "lokalni",
+    "drzava": "Croatia",
+    "kandidati": [
+      {
+        "lat": 45.549775,
+        "lng": 18.0637652,
+        "izvor": "https://www.openstreetmap.org/node/4999820921",
+        "opis": "Ranija tačka iz aplikacije; identitet postojećeg obeležja i kasnija obnova nisu potvrđeni."
+      }
+    ],
+    "proveraOpstanka": {
+      "datum": "2026-10-16",
+      "prethodniId": "susine-spomenik-palim-borcima-nob-a",
+      "ishod": "nepotvrđena-destinacija",
+      "razlog": "Indeks navodi rušenje spomenika borcima i civilnim žrtvama. OSM sadrži njegovu posvetu, ali bez datirane fotografije; nedatirani Fotoport spisak nema fotografsku galeriju ovog objekta. Posle ciljane pretrage nije potvrđena obnova ili današnji izgled. Povučeno radi provere, ne kao novo utvrđeno rušenje.",
+      "izvestaj": "docs/BELESKE.md#nastavak-provere-hrvatske-sistematsko-razdvajanje-identiteta-2026-10-16"
+    }
+  },
+  {
+    "mesto": "Šćitarjevo",
+    "izvor": "https://www.openstreetmap.org/node/3822156508",
+    "naziv": "Spomenik palim borcima",
+    "vrsta": "lokalni",
+    "drzava": "Croatia",
+    "kandidati": [
+      {
+        "lat": 45.7732814,
+        "lng": 16.1169566,
+        "izvor": "https://www.openstreetmap.org/node/3822156508",
+        "opis": "Ranija tačka iz aplikacije; identitet postojećeg obeležja i kasnija obnova nisu potvrđeni."
+      }
+    ],
+    "proveraOpstanka": {
+      "datum": "2026-10-16",
+      "prethodniId": "scitarjevo-spomenik-palim-borcima",
+      "ishod": "nepotvrđena-destinacija",
+      "razlog": "Sken334 / sl852 prikazuje preostalo prazno postolje spomenika palim borcima. Naš marker nema fotografiju niti datirani dokaz povratka. Noviji prostorni plan samo ponavlja naziv u evidenciji; tekst iz 2023. o Dragutinu Jesihu opisuje njegov grob i crkvenu ploču, druge objekte. Povučeno kao nepotvrđena destinacija.",
+      "izvestaj": "docs/BELESKE.md#nastavak-provere-hrvatske-sistematsko-razdvajanje-identiteta-2026-10-16"
+    }
+  },
+  {
+    "mesto": "Novi Pavljani",
+    "izvor": "https://www.openstreetmap.org/node/13103965787",
+    "naziv": "Oštećeni spomenik NOB-u",
+    "vrsta": "lokalni",
+    "drzava": "Croatia",
+    "kandidati": [
+      {
+        "lat": 45.8571784,
+        "lng": 16.8461709,
+        "izvor": "https://www.openstreetmap.org/node/13103965787",
+        "opis": "Ranija tačka iz aplikacije; identitet postojećeg obeležja i kasnija obnova nisu potvrđeni."
+      }
+    ],
+    "proveraOpstanka": {
+      "datum": "2026-10-16",
+      "prethodniId": "novi-pavljani-spomenik-nob-ostecen",
+      "ishod": "nepotvrđena-destinacija",
+      "razlog": "Knjiga prikazuje rušenje spomenika sedmorici boraca i jedanaest civilnih žrtava. Naš marker nema sliku, a njegovo OSM ime kaže oštećen i oznaka destroyed=yes je saglasna riziku, ali ne datira sadašnje stanje. Nije pronađen kasniji dokaz obnove; vesti o parohu i hramu nisu ovaj spomenik. Povučeno uz očuvan trag.",
+      "izvestaj": "docs/BELESKE.md#nastavak-provere-hrvatske-sistematsko-razdvajanje-identiteta-2026-10-16"
+    }
+  },
+  {
+    "mesto": "Sloboština",
+    "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%B6%D1%80%D1%82%D0%B2%D0%B0%D0%BC%D0%B0_%D1%84%D0%B0%D1%88%D0%B8%D0%B7%D0%BC%D0%B0_%28%D0%A1%D0%BB%D0%BE%D0%B1%D0%BE%D1%88%D1%82%D0%B8%D0%BD%D0%B0%29",
+    "naziv": "Spomenik žrtvama fašizma",
+    "godina": "1951",
+    "autor": "Nikola Kečanin",
+    "vrsta": "spomenik",
+    "drzava": "Croatia",
+    "kandidati": [
+      {
+        "lat": 45.396611,
+        "lng": 17.528296,
+        "izvor": "https://znaci.org/00003/736.php?broj=394",
+        "opis": "Ranija tačka iz aplikacije; identitet postojećeg obeležja i kasnija obnova nisu potvrđeni."
+      }
+    ],
+    "proveraOpstanka": {
+      "datum": "2026-10-16",
+      "prethodniId": "slobostina",
+      "ishod": "nepotvrđena-destinacija",
+      "razlog": "Potrebno je razlikovati Kečaninovu figuru majke s detetom iz 1951. od Kolacijeve kosturnice iz 1959. Naš zapis navodi prvi objekat. Izveštaj 30.7.2018. opisuje njegove ostatke na privatnom posedu, dok je 2014. obnavljana ploča druge kosturnice. Policijska vest o oštećenju ploče u maju2026 ne dokazuje povratak figure iz1951. Bez dokaza vraćene figure ili pouzdano predstavljene dostupne celine, povučeno kao nepotvrđena destinacija.",
+      "izvestaj": "docs/BELESKE.md#nastavak-provere-hrvatske-sistematsko-razdvajanje-identiteta-2026-10-16"
+    }
   }
 ]

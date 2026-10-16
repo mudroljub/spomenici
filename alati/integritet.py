@@ -37,6 +37,14 @@ for s in d:
     if bool(s.get('slika')) != bool(s.get('slikaOdnos')): greske['slika bez odnosa (pokreni slike_odnos.py)'].append(i)
     for polje in ('izvor', 'wiki', 'wikiEn'):
         if s.get(polje) and not re.match(r'https?://', s[polje]): greske['los link'].append((i, polje, s[polje]))
+    if 'stanjeIzvor' in s:
+        izvor_stanja = s['stanjeIzvor']
+        if (not s.get('stanje') or not isinstance(izvor_stanja, dict)
+                or set(izvor_stanja) != {'naziv', 'godina', 'url'}
+                or not isinstance(izvor_stanja.get('naziv'), str) or not izvor_stanja['naziv'].strip()
+                or type(izvor_stanja.get('godina')) is not int or not 1900 <= izvor_stanja['godina'] <= 2100
+                or not isinstance(izvor_stanja.get('url'), str) or not re.match(r'https?://', izvor_stanja['url'])):
+            greske['neispravan izvor stanja'].append(i)
     if s.get('googleCid') and not re.fullmatch(r'\d+', str(s['googleCid'])): greske['los googleCid'].append((i, s['googleCid']))
     if s.get('godina') and not re.fullmatch(r'\d{4}(\s*[-–/]\s*\d{2,4})?|(pre|posle|oko) \d{4}|\d{3}0-ih', str(s['godina'])): greske['cudna godina'].append((i, s['godina']))
     n = s.get('naziv') or ''

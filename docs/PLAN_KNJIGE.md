@@ -58,11 +58,15 @@ Obrada dostupnog materijala je završena uz navedena ograničenja izvora; ovo ne
 
 ## 7. Provera opstanka hrvatskih spomenika — prioritet pre novih unosa
 
-Plan dodat 2026-10-16 na zahtev korisnika. Problem: starije knjige i preneti opisi potvrđuju izgled i nekadašnje postojanje; novija Hrženjakova knjiga dokumentuje oštećenja, rušenje, uklanjanje i premeštanje tokom 1990–2000. U trenutku pisanja plana poslednjih 49 hrvatskih unosa nije bilo sistematski provereno prema toj knjizi; [provera je sada završena](BELESKE.md#provera-49-hrvatskih-unosa-2026-10-16): 19 zadržano uz datiran kasniji prikaz, 17 vraćeno na proveru i 13 ploča povučeno iz izbora. Za ostale je započeta [trijaža 792 unosa i pregled 24 slučaja](BELESKE.md#nastavak-provere-hrvatske-identiteti-i-kasniji-dokazi-2026-10-16); provera cele Hrvatske nije završena. Ranije uspešne tehničke provere ne potvrđuju opstanak spomenika.
+Plan dodat 2026-10-16 na zahtev korisnika. Problem: starije knjige i preneti opisi potvrđuju izgled i nekadašnje postojanje; novija Hrženjakova knjiga dokumentuje oštećenja, rušenje, uklanjanje i premeštanje tokom 1990–2000. U trenutku pisanja plana poslednjih 49 hrvatskih unosa nije bilo sistematski provereno prema toj knjizi; [provera je sada završena](BELESKE.md#provera-49-hrvatskih-unosa-2026-10-16): 19 zadržano uz datiran kasniji prikaz, 17 vraćeno na proveru i 13 ploča povučeno iz izbora. Za ostale je započeta [trijaža 792 unosa i pregled 60 slučajeva](BELESKE.md#nastavak-provere-hrvatske-dokazi-odvojeni-od-izvora-podataka-2026-10-16); provera cele Hrvatske nije završena. Ranije uspešne tehničke provere ne potvrđuju opstanak spomenika.
 
 **Red rada:** prvo ovaj odeljak, zatim nastavak lociranja. Jedina lista otvorenih zadataka ostaje `README.md`, odeljak TODO. Sledećih šest koraka opisuje izvršenje tog prvog zadatka; ovaj plan sam po sebi nije izvršena provera niti nalaz o današnjem stanju 49 objekata.
 
+**Izmena obuhvata po nalogu korisnika (2026-10-16):** šira provera je obustavljena. Naknadno je odobren i završen samo [prenos stanja za 70 već povezanih spomenika](BELESKE.md#ograničen-prenos-stanja-za-70-povezanih-spomenika-2026-10-16), bez novih potraga, uz preskakanje nejasnih veza i očuvanje poznatih obnova. Preneta oznaka fizičkog oštećenja ima zaseban izvor i vidljivu godinu izdanja 2002; ne predstavlja noviju terensku potvrdu. Koraci šire provere ispod ostaju dokumentovani, ali se ne izvršavaju samostalno.
+
 ### Pravilo izvora i vremena
+
+Prvobitni izvor podataka u glavnom zapisu sačuvati. Kasnije dokaze opstanka beležiti odvojeno u evidenciji provere (`kasnijiIzvori`, datum i ograničenja), bez zamene izvornog linka samo zato što je nađen noviji dokaz.
 
 Za svaki objekat odvojiti četiri stvari: godinu podizanja, datum opisanog događaja/stanja, datum nastanka fotografije ili obilaska i godinu objavljivanja izvora. Unos na Partizanstvo iz 2025/2026. koji prenosi vodič iz 1978. nije noviji dokaz opstanka od Hrženjaka iz 2002. Nedatirana fotografija i aktivan marker na karti ne potvrđuju današnje postojanje. Isto važi za OSM objekat koji može ostati na karti posle uklanjanja.
 

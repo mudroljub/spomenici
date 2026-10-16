@@ -58,6 +58,17 @@ test('link #id otvara prozor spomenika', async () => {
   assert.match(await izvrsi(`${prozor}.querySelector('.mesto').textContent`), /Banja Luka/)
 })
 
+test('stanje iz stare knjige prikazuje godinu i zaseban izvor', async () => {
+  await otvori('#okucani')
+  const prozor = "document.querySelector('detalji-spomenika').shadowRoot"
+  const stanje = await sacekaj(`${prozor}.querySelector('.stanje')?.textContent`, 'datirano stanje')
+  assert.match(stanje, /Hrženjak, 2002/)
+  assert.match(await izvrsi(`${prozor}.querySelector('.stanje a').href`), /736\.php\?broj=52$/)
+  await otvori('#banja-luka-maslesa')
+  await sacekaj(`${prozor}.querySelector('h2')`, 'drugi spomenik')
+  assert.equal(await izvrsi(`${prozor}.querySelector('.stanje a')?.textContent || ''`), '')
+})
+
 test('pretraga suzi spomenike', async () => {
   await otvori()
   await izvrsi(`(() => { const p = document.querySelector('polje-pretraga input'); p.value = 'Tjentište'; p.dispatchEvent(new Event('input', {bubbles: true})) })()`)

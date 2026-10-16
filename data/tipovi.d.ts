@@ -50,6 +50,8 @@ export interface Spomenik {
   /** Wikidata stavke iz data/posvete.json, npr. ["Q82914"] */
   posveta?: string[]
   stanje?: Stanje
+  /** Izvor prenetog stanja; godina označava izdanje izvora, ne terenski pregled. */
+  stanjeIzvor?: {naziv: string, godina: number, url: string}
 }
 
 /** moguća, nepotvrđena lokacija spomenika bez lokacije */
