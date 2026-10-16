@@ -935,3 +935,43 @@ Razrešeni su Kamen → `kamen-spomenik-palim-borcima-i-zrtvama-fasistickog`, Bu
 **Provere:** očuvani su svi postojeći markeri osim dve izričito navedene dopune; ostatak radnog spiska je isti osim jedne dokumentovane napomene. Provereno je svih **218 ulaznih knjiških pokazivača** i aktivnih indeksa u dva hrvatska izveštaja nakon uklanjanja pet razrešenih radnih stavki; istorijski pokazivači ostaju neizmenjeni. Integritet, tipovi i svih sedam testova prolaze. Novi muzej i obe dopune otvoreni su u mobilnom prikazu 390 × 844, bez izuzetaka, a snimci su pregledani. Nisu dodavane slike niti je napravljen komit.
 
 Potpuni stari zapisi, prihvaćeni parovi, dopune, odbačena uparivanja i promene veza: [završni izveštaj](../data/provere/lociranje-zavrsni-prolaz-2026-10-16.json).
+
+
+## Ograničena provera 20 hrvatskih unosa (2026-10-16)
+
+Po izričitom odobrenju korisnika obrađeno je **tačno20 preostalih upozorenja** iz ranije trijaže. Pilot je završen i uklonjen iz aktivnog TODO; **šira provera se ne nastavlja automatski**. Izbor je ciljao preostale negativne knjiške signale i ne predstavlja statistički uzorak cele Hrvatske. Pogrešan knjiški par nije potvrda opstanka: gde nema novijeg datiranog dokaza, to je izričito ostalo neizvesno.
+
+**Dobit:** precizirani su identiteti dva markera (Sućuraj i Kalnik), ispravljena dva knjiška prepisa (dr Ivan Ribar i ispravka za Makarsku), dodata jedna proverena fotografija zagrebačke biste iz2025. i dokumentovan otvoren rizik prenamene u Garešnici. **Nijedno novo uklanjanje nije potvrđeno i nijedan marker nije povučen.** Mapa ostaje na4.588 zapisa, radni spisak na4.506. Nema nove oznake današnjeg oštećenja izvedene iz stare knjige.
+
+| Unos | Provereni skenovi Hrženjaka | Ishod i granica zaključka |
+| --- | --- | --- |
+| `bukevje-nob` |409| Uklonjeni muzejski dokumenti i ploča na domu nisu pouzdan par za samostojeći OSM spomenik; današnji opstanak nije nezavisno potvrđen. |
+| `sinj` |247| Razlikovani centralna figuralna grupa i kućna ploča od kosturnice u Ruduši; gradski program2026 opisuje Rudušu, ali nije nov terenski obilazak. |
+| `sucuraj-2` |402,433| Prepoznata ploča brodu Proleter umesto generičkog NOB naziva; terenski snimak21.3.2019 potvrđuje ploču posle razbijanja1992 navedenog u dodatku. Nije ploča braći Anđelinović. |
+| `karlovac-veceslav-holjevac` |92,420| Knjiga navodi pohranjivanje grupe bista; fotografija Holjevca iz2008 potvrđuje kasniji opstanak. Datum povratka nije izmišljen. |
+| `crikvenica-vladimir-nazor` |394| Uklonjene biste Bubnja, Strizića i Vajnera nisu Nazor; snimak30.9.2007 potvrđuje Nazora tada. |
+| `zagreb-ribar` |411,412| Fotografija1.10.2025 na istoj tački i čitljiv natpis potvrđuju bistu; bista vraćena2017 kod Selske nije automatski ista lokacija. |
+| `brinje` |386| Ploča na tvrđavi nije samostojeći kameni spomenik sa postojeće slike; datacija sadašnje slike nije utvrđena. |
+| `bjelovar-spomen-park-borik` |25,30| Borik jeste područje Vojnović iz knjige; gradski izvori potvrđuju uređeno područje i rekonstruisanu skulpturu. Nije označen kao netaknuto izvorno delo. |
+| `kruge` |387| Generički red o ploči nije dovoljno potvrđen par sa većim spomenikom iz1973; nema novog potvrđenog današnjeg stanja. |
+| `otric` |387| Razlikovani generički red o ploči i spomenik smrznutim partizanima iz planskog popisa2026; plan nije fizički pregled. |
+| `garesnica` |46| Grobljanska kosturnica i veliki parkovski spomenik nisu isto delo. Gradska vest31.3.2025 najavljuje premeštanje ploča i pozornicu na parkovskom objektu; izvršenje i nova tačka nisu potvrđeni. |
+| `bulinac` |26,33| Sačuvan Spomenik slobodi sa izmenjenim natpisom razlikovan od nestale fasadne ploče; fotografija1.11.2017 potvrđuje konkretan objekat. Nesaglasne1971/1978 zabeležene bez promene godine. |
+| `kastel-kambelovac` |399| Bista Dragana Britvića i ploča Stipi Prokaru nisu apstraktni Spomenik revoluciji. Današnji terenski pregled nije pribavljen. |
+| `oborovo` |410| Uklonjena muzejska zbirka nije figuralna kosturnica; planski popis2015 nije nov terenski dokaz. |
+| `zagreb-vlahovic` |365,412| Razlikovani oštećena bista u Novoj cesti i uklonjena bista na Krešimirovu trgu. Muzej potvrđuje identitet; datum postavljanja fotografije2010 nije proglašen datumom snimka. |
+| `kalnik-2` |115| Imenovana OSM kosturnica oko2,5m od markera razjašnjava identitet; preciziran naziv i vrsta, bez pretpostavke današnjeg stanja natpisa. |
+| `kalnik-spomen-palim-borcima-nob` |115| Zasebna tačka nije automatski poistovećena sa spomen-domom, pločom na tvrđavi ili obližnjom kosturnicom. |
+| `sibenik-crnica-2` |404| Klupska ploča veslačima nije potvrđen par s pločom na elektrani ili oslobođenju grada. Nova ploča na groblju iz2023 takođe je drugi objekat. |
+| `pazin` |81| Uklanjanje biste iz predvorja nije rušenje Spomen-doma; opstanak zgrade nije proveravan na terenu. |
+| `makarska` |240,400,433| Sam dodatak ispravlja uništen u oštećen. Reportaža26.11.2024 potvrđuje opstanak i delimičnu obnovu; kasnije najave/radovi nisu dokaz potpune obnove. |
+
+**Sprovedene promene:** `sucuraj-2` ima naziv „Spomen-ploča partizanskom brodu Proleter“ i [izvor terenskog popisa](https://www.topohvar.at/topo/orte/su/su-is-06-1/), uz istu koordinatu, GoogleCID i fotografiju. `kalnik-2` je „Spomen-kosturnica palim borcima“, vrsta `groblje`, uz [imenovani čvor](https://www.openstreetmap.org/node/13972131320), istu staru tačku i GoogleCID. Oba ranije nisu imala izvor; nijedan postojeći izvor nije zamenjen. Bista `zagreb-ribar` dobila je fotografiju mnalis ALTernative, CC BY-SA4.0, sa [Panoramax zapisa](https://api.panoramax.xyz/api/pictures/7387d888-0691-497b-9ad3-0d49c006b592); **snimljena1.10.2025**, dok je2026 samo datum izmene metapodataka. Fotografija i natpis su pregledani, automatski opis nije korišćen. Objavljena je400px WebP verzija i mala slika, sa potpisom; prvobitni OSM izvor ostaje.
+
+**Dve ispravke prepisa:** `C-0092-90` je dr Ivan Ribar, ne Ivo Lola Ribar; dodatak397/sken420 izričito kaže da bista stoji neoštećena i briše tvrdnju o nestanku iz osnovnog teksta. `C-0240-27` za Makarsku sada uz osnovni tekst čuva i ispravku410/sken433: oštećen, ne uništen; uparen je sa postojećim `makarska`, uz dokaz kasnijeg opstanka. Prepisi drugih objekata i sve brojčane veze ostali su isti.
+
+**Procena nastavka:** upozorenja iz postojeće trijaže imaju mnogo pogrešnih identiteta, pa njihov broj precenjuje očekivanu dobit. Korist pilota su dve jasne ispravke identiteta i pouzdanije razdvajanje objekata, a ne otkrivanje novih uklanjanja. Preporuka je da se šira provera ne nastavlja po istom rangiranju; sledeći opravdan rad treba da počiva na tačno potvrđenom knjiškom paru ili konkretnoj novoj dojavi. Primer takve otvorene dojave je [garešnički dogovor o premeštanju iz2025](https://www.garesnica.garesnica.hr/index.php/vijesti/2275-sa-skupstine-garesnickih-antifasista.html), za koji treba dokaz izvršenja. O nastavku odlučuje korisnik.
+
+**Provere:** tačno20 jedinstvenih obrađenih nalaza, tačno tri promene markera i dve promene knjiških zapisa; nema izgubljenih ID-jeva, promenjenih koordinata, GoogleCID-ova ili fizičkih stanja. Radni spisak je neizmenjen, pa nije bilo pomeranja numeričkih indeksa. Integritet prolazi uz istih17 poznatih bliskih parova; tipovi i svih sedam testova prolaze. Sućuraj, Kalnik i Ribar otvoreni su na telefonu390×844, slike učitane i snimci pregledani, bez izuzetaka. Nema novog koda aplikacije ni komita.
+
+Potpuni izvori, datacije, pređašnji zapisi, izmene i ograničenja za svih20: [hrvatska-pilot-20-2026-10-16.json](../data/provere/hrvatska-pilot-20-2026-10-16.json).

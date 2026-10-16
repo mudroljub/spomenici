@@ -64,6 +64,8 @@ Plan dodat 2026-10-16 na zahtev korisnika. Problem: starije knjige i preneti opi
 
 **Izmena obuhvata po nalogu korisnika (2026-10-16):** šira provera je obustavljena. Naknadno je odobren i završen samo [prenos stanja za 70 već povezanih spomenika](BELESKE.md#ograničen-prenos-stanja-za-70-povezanih-spomenika-2026-10-16), bez novih potraga, uz preskakanje nejasnih veza i očuvanje poznatih obnova. Preneta oznaka fizičkog oštećenja ima zaseban izvor i vidljivu godinu izdanja 2002; ne predstavlja noviju terensku potvrdu. Koraci šire provere ispod ostaju dokumentovani, ali se ne izvršavaju samostalno.
 
+**Naknadno odobreni pilot (2026-10-16):** korisnik je odobrio proveru20 preostalih rizičnih unosa, zatim procenu koristi. [Pilot je završen](BELESKE.md#ograničena-provera-20-hrvatskih-unosa-2026-10-16); to ne predstavlja odobrenje za nastavak cele trijaže niti potvrdu opstanka svih20 na terenu. O daljem radu odlučuje korisnik.
+
 ### Pravilo izvora i vremena
 
 Prvobitni izvor podataka u glavnom zapisu sačuvati. Kasnije dokaze opstanka beležiti odvojeno u evidenciji provere (`kasnijiIzvori`, datum i ograničenja), bez zamene izvornog linka samo zato što je nađen noviji dokaz.

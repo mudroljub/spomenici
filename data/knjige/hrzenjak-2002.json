@@ -12530,19 +12530,25 @@
       92
     ],
     "mesto": "Karlovac",
-    "naziv": "Bista Ive Lole Ribara",
+    "naziv": "Bista dr Ivana Ribara",
     "vrsta": "bista",
     "drzava": "Croatia",
     "izvor": "https://znaci.org/00003/736.php?broj=92",
     "natpisPotpun": false,
-    "izbor": "preskoceno-sruseno",
-    "stanjeIzKnjige": "srušeno/uklonjeno; detalji u napomeni",
+    "izbor": "sporno",
+    "stanjeIzKnjige": "osnovni tekst: nestala; dodatak: na mjestu neoštećena",
     "godinaStanja": "1990–2000/2002",
-    "napomena": "Ispred gimnazije, nestala.",
+    "napomena": "Ispred gimnazije. Osnovni tekst69/sken92 navodi dr Ivana Ribara, ne Ivu Lolu. Dodatak397/sken420 briše tvrdnju o nestanku i kaže da bista stoji na mjestu neoštećena.",
     "moguciRedoviIndeksa": [
       "C-IDX-360-54",
       "C-IDX-361-05"
-    ]
+    ],
+    "ispravkaIzDodatka": {
+      "scanBroj": 420,
+      "strana": 397,
+      "izvor": "https://znaci.org/00003/736.php?broj=420",
+      "nalaz": "Brisati navod o nestanku: bista dr Ivana Ribara stoji na mjestu neoštećena."
+    }
   },
   {
     "oznaka": "C-0092-91",
@@ -23520,10 +23526,10 @@
     "drzava": "Croatia",
     "izvor": "https://znaci.org/00003/736.php?broj=240",
     "natpisPotpun": false,
-    "izbor": "preskoceno-sruseno",
-    "stanjeIzKnjige": "Narativ uništen, indeks Ošt; sukob izvora, potreban savremeni dokaz.",
+    "izbor": "upareno",
+    "stanjeIzKnjige": "osnovni tekst: uništen; dodatak: oštećen, ne uništen",
     "godinaStanja": "1990–2000/2002",
-    "napomena": "Narativ navodi uništen; indeksOšt. Ne unositi pre provere savremene slike. Figuralno-apstraktni vertikalni elementi, sl628.",
+    "napomena": "Opis slike628 u osnovnom tekstu216/sken240 korigovan je u dodatku410/sken433: spomenik nije uništen nego oštećen; isto kao indeksOšt. To je nalaz izdanja2002, ne datum današnjeg stanja.",
     "vezaIndeksa": "C-IDX-377-27",
     "indeks": {
       "zupanijaBroj": 14,
@@ -23548,6 +23554,18 @@
       "vrsta": "spomenik",
       "scanBroj": 400,
       "prepis": "tekstualni-sloj-indeksa"
+    },
+    "ispravkaIzDodatka": {
+      "oznaka": "C-0433-D1",
+      "scanBroj": 433,
+      "strana": 410,
+      "izvor": "https://znaci.org/00003/736.php?broj=433",
+      "nalaz": "Spomenik sa slike628 nije uništen, nego oštećen."
+    },
+    "uparivanje": {
+      "skup": "spomeniks",
+      "cilj": "makarska",
+      "razlog": "Slika628, sva tri autora iz indeksa i postojeći marker potvrđuju isti kompleks. Dodatak410/sken433 ispravlja uništen u oštećen; reportaža26.11.2024. potvrđuje kasniji opstanak. Današnje stanje nije izvedeno iz stare oznake."
     }
   },
   {

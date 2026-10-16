@@ -20585,10 +20585,12 @@
     },
     "googleCid": "1558847460098007573",
     "mesto": "Sućuraj",
+    "izvor": "https://www.topohvar.at/topo/orte/su/su-is-06-1/",
     "slika": "slike/spomenici/sucuraj-2.webp",
     "slikaOdnos": 0.75,
     "slikaPotpis": "Google Maps",
-    "naziv": "Spomenik NOB-u",
+    "naziv": "Spomen-ploča partizanskom brodu „Proleter“",
+    "nazivEn": "Memorial plaque to the Partisan ship Proleter",
     "vrsta": "ploca",
     "drzava": "Croatia"
   },
@@ -22298,8 +22300,9 @@
     },
     "googleCid": "11496044629196582339",
     "mesto": "Kalnik",
-    "naziv": "Spomenik NOB-u",
-    "vrsta": "lokalni",
+    "izvor": "https://www.openstreetmap.org/node/13972131320",
+    "naziv": "Spomen-kosturnica palim borcima",
+    "vrsta": "groblje",
     "drzava": "Croatia"
   },
   {
@@ -26682,6 +26685,9 @@
     },
     "mesto": "Zagreb (Naselje Prve hrvatske štedionice)",
     "izvor": "https://www.openstreetmap.org/node/3889695799",
+    "slika": "slike/spomenici/zagreb-ribar.webp",
+    "slikaOdnos": 0.462,
+    "slikaPotpis": "mnalis ALTernative, CC BY-SA 4.0",
     "naziv": "Bista Ive Lole Ribara",
     "nazivEn": "Bust of Ivo Lola Ribar",
     "posveta": [
