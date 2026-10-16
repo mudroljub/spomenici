@@ -43346,5 +43346,794 @@
     "vrsta": "statua",
     "drzava": "Croatia",
     "adresa": "Mali park pre centra Desinića, nedaleko od kućice povezane s Đurom Prejcem"
+  },
+  {
+    "mesto": "Bela Crkva",
+    "izvor": "https://znaci.org/00003/920.pdf#page=36",
+    "naziv": "Bista Žikice Jovanovića",
+    "autor": "Stevan Bodnarov",
+    "vrsta": "bista",
+    "drzava": "Serbia"
+  },
+  {
+    "mesto": "Bela Crkva",
+    "izvor": "https://znaci.org/00003/920.pdf#page=36",
+    "naziv": "Bista Miše Pantića",
+    "autor": "Stevan Bodnarov",
+    "vrsta": "bista",
+    "drzava": "Serbia"
+  },
+  {
+    "mesto": "Bela Crkva",
+    "izvor": "https://znaci.org/00003/920.pdf#page=36",
+    "naziv": "Bista Čede Milosavljevića",
+    "autor": "Stevan Bodnarov",
+    "vrsta": "bista",
+    "drzava": "Serbia"
+  },
+  {
+    "mesto": "Stolice",
+    "izvor": "https://znaci.org/00003/920.pdf#page=37",
+    "naziv": "Partizanski kurir",
+    "godina": "1954",
+    "autor": "Stevan Bodnarov",
+    "vrsta": "statua",
+    "drzava": "Serbia",
+    "adresa": "Pored Istorijske kuće"
+  },
+  {
+    "mesto": "Stolice",
+    "izvor": "https://znaci.org/00003/920.pdf#page=37",
+    "naziv": "Spomenik Titu — vrhovnom komandantu",
+    "godina": "1981",
+    "autor": "Antun Augustinčić",
+    "vrsta": "statua",
+    "drzava": "Serbia"
+  },
+  {
+    "mesto": "Beograd",
+    "izvor": "https://znaci.org/00003/920.pdf#page=45",
+    "naziv": "Spomen-groblje palim borcima u Beogradu 1941–1944",
+    "vrsta": "groblje",
+    "drzava": "Serbia",
+    "adresa": "Novo groblje, Ruzveltova ulica"
+  },
+  {
+    "mesto": "Beograd",
+    "izvor": "https://znaci.org/00003/920.pdf#page=45",
+    "naziv": "Muzej ilegalnih partijskih štamparija",
+    "vrsta": "muzej",
+    "drzava": "Serbia",
+    "adresa": "Banjički venac 12"
+  },
+  {
+    "mesto": "Beograd",
+    "izvor": "https://znaci.org/00003/920.pdf#page=47",
+    "naziv": "Spomen-obilježje na mjestu Glavnjače",
+    "vrsta": "spomenik",
+    "drzava": "Serbia",
+    "adresa": "Studentski trg, mesto nekadašnjeg zatvora Glavnjača"
+  },
+  {
+    "mesto": "Beograd",
+    "izvor": "https://znaci.org/00003/920.pdf#page=49",
+    "naziv": "Kuća cveća",
+    "godina": "1975",
+    "vrsta": "muzej",
+    "drzava": "Serbia"
+  },
+  {
+    "mesto": "Trnavac",
+    "izvor": "https://znaci.org/00003/920.pdf#page=66",
+    "naziv": "Muzej Prve partizanske čete",
+    "vrsta": "muzej",
+    "drzava": "Croatia"
+  },
+  {
+    "mesto": "Končarev Kraj",
+    "izvor": "https://znaci.org/00003/920.pdf#page=66",
+    "naziv": "Memorijalni muzej Rade Končara",
+    "vrsta": "muzej",
+    "drzava": "Croatia"
+  },
+  {
+    "mesto": "Bubanj",
+    "izvor": "https://znaci.org/00003/920.pdf#page=66",
+    "naziv": "Spomenik 12 srpskih cura",
+    "vrsta": "spomenik",
+    "drzava": "Croatia"
+  },
+  {
+    "mesto": "Bosanski Šamac",
+    "izvor": "https://znaci.org/00003/920.pdf#page=74",
+    "naziv": "Bista Mitra Trifunovića Uče",
+    "vrsta": "bista",
+    "drzava": "Bosnia and Herzegovina",
+    "adresa": "Ulica 27. jula"
+  },
+  {
+    "mesto": "Vanga",
+    "izvor": "https://znaci.org/00003/920.pdf#page=78",
+    "naziv": "Titov dom na Vangi",
+    "godina": "1954",
+    "vrsta": "muzej",
+    "drzava": "Croatia"
+  },
+  {
+    "mesto": "Cerkno",
+    "izvor": "https://znaci.org/00003/920.pdf#page=87",
+    "naziv": "Spomenik kmečki materi",
+    "vrsta": "spomenik",
+    "drzava": "Slovenia"
+  },
+  {
+    "mesto": "Lušci Palanka",
+    "izvor": "https://znaci.org/00003/920.pdf#page=116",
+    "naziv": "Dom „Đuro Đaković“",
+    "vrsta": "kompleks",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "mesto": "Jabuka",
+    "izvor": "https://znaci.org/00003/920.pdf#page=131",
+    "naziv": "Muzej pionira i omladine Jugoslavije",
+    "vrsta": "muzej",
+    "drzava": "Serbia"
+  },
+  {
+    "mesto": "Jabuka",
+    "izvor": "https://znaci.org/00003/920.pdf#page=131",
+    "naziv": "Bista Dolores",
+    "vrsta": "bista",
+    "drzava": "Serbia"
+  },
+  {
+    "mesto": "Jabuka",
+    "izvor": "https://znaci.org/00003/920.pdf#page=131",
+    "naziv": "Spomenik palim borcima i žrtvama u dva svjetska rata",
+    "vrsta": "spomenik",
+    "drzava": "Serbia"
+  },
+  {
+    "mesto": "Jabuka",
+    "izvor": "https://znaci.org/00003/920.pdf#page=131",
+    "naziv": "Spomen-grobnica 17 boraca",
+    "vrsta": "groblje",
+    "drzava": "Serbia"
+  },
+  {
+    "mesto": "Jasenovac",
+    "izvor": "https://znaci.org/00003/920.pdf#page=147",
+    "naziv": "Mrtvi logoraš",
+    "autor": "Stanko Jančić",
+    "vrsta": "statua",
+    "drzava": "Croatia"
+  },
+  {
+    "mesto": "Krapje",
+    "izvor": "https://znaci.org/00003/920.pdf#page=147",
+    "naziv": "Spomenik logoru II",
+    "autor": "Radoslav Janković",
+    "vrsta": "spomenik",
+    "drzava": "Croatia"
+  },
+  {
+    "mesto": "Mlaka",
+    "izvor": "https://znaci.org/00003/920.pdf#page=147",
+    "naziv": "Spomenik u Mlaki",
+    "vrsta": "spomenik",
+    "drzava": "Croatia"
+  },
+  {
+    "mesto": "Jastrebarsko",
+    "izvor": "https://znaci.org/00003/920.pdf#page=153",
+    "naziv": "Pionirski centar „Bratstvo-jedinstvo“",
+    "vrsta": "kompleks",
+    "drzava": "Croatia"
+  },
+  {
+    "mesto": "Pleterje",
+    "izvor": "https://znaci.org/00003/920.pdf#page=160",
+    "naziv": "Muzejska zbirka NOB v kartuziji Pleterje",
+    "vrsta": "muzej",
+    "drzava": "Slovenia"
+  },
+  {
+    "mesto": "Dolenjske Toplice",
+    "izvor": "https://znaci.org/00003/920.pdf#page=160",
+    "naziv": "Krajevna zbirka NOB",
+    "vrsta": "muzej",
+    "drzava": "Slovenia"
+  },
+  {
+    "mesto": "Kragujevac",
+    "izvor": "https://znaci.org/00003/920.pdf#page=178",
+    "naziv": "Srne",
+    "autor": "Jovan Soldatović",
+    "vrsta": "spomenik",
+    "drzava": "Serbia"
+  },
+  {
+    "mesto": "Kragujevac",
+    "izvor": "https://znaci.org/00003/920.pdf#page=181",
+    "naziv": "Spomenik Prvoj Titovoj štafeti",
+    "godina": "1977",
+    "autor": "Matija Vuković",
+    "vrsta": "spomenik",
+    "drzava": "Serbia"
+  },
+  {
+    "mesto": "Kraljevo",
+    "izvor": "https://znaci.org/00003/920.pdf#page=186",
+    "naziv": "Spomenik prvom partizanskom tenku",
+    "vrsta": "spomenik",
+    "drzava": "Serbia"
+  },
+  {
+    "mesto": "Kraljevo",
+    "izvor": "https://znaci.org/00003/920.pdf#page=186",
+    "naziv": "Spomenik streljanim radnicima Fabrike vagona",
+    "autor": "Oto Logo",
+    "vrsta": "spomenik",
+    "drzava": "Serbia"
+  },
+  {
+    "mesto": "Kraljevo",
+    "izvor": "https://znaci.org/00003/920.pdf#page=186",
+    "naziv": "Biste narodnih heroja u Parku heroja",
+    "vrsta": "kompleks",
+    "drzava": "Serbia"
+  },
+  {
+    "mesto": "Podsreda",
+    "izvor": "https://znaci.org/00003/920.pdf#page=202",
+    "naziv": "Rojstna hiša Marije Javeršek",
+    "vrsta": "muzej",
+    "drzava": "Slovenia"
+  },
+  {
+    "mesto": "Trebče",
+    "izvor": "https://znaci.org/00003/920.pdf#page=202",
+    "naziv": "Muzej v hiši Ane Kostanjšek",
+    "vrsta": "muzej",
+    "drzava": "Slovenia"
+  },
+  {
+    "mesto": "Kupinec",
+    "izvor": "https://znaci.org/00003/920.pdf#page=203",
+    "naziv": "Spomen-muzej u kući Franje i Marije Broz",
+    "vrsta": "muzej",
+    "drzava": "Croatia"
+  },
+  {
+    "mesto": "Ljubljana",
+    "izvor": "https://znaci.org/00003/920.pdf#page=217",
+    "naziv": "Tiskarna Podmornica",
+    "vrsta": "muzej",
+    "drzava": "Slovenia",
+    "adresa": "Cesta na pod brdo 95"
+  },
+  {
+    "mesto": "Makarska",
+    "izvor": "https://znaci.org/00003/920.pdf#page=225",
+    "naziv": "Muzej revolucije",
+    "vrsta": "muzej",
+    "drzava": "Croatia",
+    "adresa": "Titova obala 17/II"
+  },
+  {
+    "mesto": "Makarska",
+    "izvor": "https://znaci.org/00003/920.pdf#page=225",
+    "naziv": "Muzej Partijske škole CK KPJ",
+    "vrsta": "muzej",
+    "drzava": "Croatia",
+    "adresa": "Ribarsko šetalište bb"
+  },
+  {
+    "mesto": "Podgora",
+    "izvor": "https://znaci.org/00003/920.pdf#page=225",
+    "naziv": "Muzej Prvog mornaričkog odreda",
+    "vrsta": "muzej",
+    "drzava": "Croatia",
+    "adresa": "Spomen-dom Prvog mornaričkog odreda"
+  },
+  {
+    "mesto": "Mostar",
+    "izvor": "https://znaci.org/00003/920.pdf#page=232",
+    "naziv": "Spomen-kuća Džemala Bijedića",
+    "vrsta": "muzej",
+    "drzava": "Bosnia and Herzegovina",
+    "adresa": "Bajatova ulica, Brankovac"
+  },
+  {
+    "mesto": "Niš",
+    "izvor": "https://znaci.org/00003/920.pdf#page=245",
+    "naziv": "Spomenik palim 1941–1945. u krugu Ložionice",
+    "vrsta": "spomenik",
+    "drzava": "Serbia"
+  },
+  {
+    "mesto": "Niš",
+    "izvor": "https://znaci.org/00003/920.pdf#page=245",
+    "naziv": "Spomenik palim 1941–1945. u krugu Pogona na Crvenom krstu",
+    "vrsta": "spomenik",
+    "drzava": "Serbia"
+  },
+  {
+    "mesto": "Novi Sad",
+    "izvor": "https://znaci.org/00003/920.pdf#page=253",
+    "naziv": "Muzej socijalističke revolucije Vojvodine",
+    "vrsta": "muzej",
+    "drzava": "Serbia"
+  },
+  {
+    "mesto": "Novi Sad",
+    "izvor": "https://znaci.org/00003/920.pdf#page=254",
+    "naziv": "Muzej štampe NOB Vojvodine",
+    "vrsta": "muzej",
+    "drzava": "Serbia",
+    "adresa": "Ulica Vojislava Ilića 15"
+  },
+  {
+    "mesto": "Čemernica",
+    "izvor": "https://znaci.org/00003/920.pdf#page=261",
+    "naziv": "Spomenik palim borcima i žrtvama ustaškog terora",
+    "vrsta": "spomenik",
+    "drzava": "Croatia"
+  },
+  {
+    "mesto": "Vrginmost",
+    "izvor": "https://znaci.org/00003/920.pdf#page=261",
+    "naziv": "Spomenik narodnim herojima, palim borcima i žrtvama fašizma",
+    "vrsta": "spomenik",
+    "drzava": "Croatia"
+  },
+  {
+    "mesto": "Debela kosa",
+    "izvor": "https://znaci.org/00003/920.pdf#page=261",
+    "naziv": "Spomenik palim borcima",
+    "vrsta": "spomenik",
+    "drzava": "Croatia"
+  },
+  {
+    "mesto": "Debela kosa",
+    "izvor": "https://znaci.org/00003/920.pdf#page=261",
+    "naziv": "Spomen-dom „Bratstvo-jedinstvo“",
+    "vrsta": "kompleks",
+    "drzava": "Croatia"
+  },
+  {
+    "mesto": "Mračaj",
+    "izvor": "https://znaci.org/00003/920.pdf#page=262",
+    "naziv": "Spomenik ratnoj štampariji „Vjesnika“",
+    "vrsta": "spomenik",
+    "drzava": "Croatia"
+  },
+  {
+    "mesto": "Petrova poljana",
+    "izvor": "https://znaci.org/00003/920.pdf#page=262",
+    "naziv": "Spomen-park 5. kordunaškoj udarnoj brigadi",
+    "vrsta": "kompleks",
+    "drzava": "Croatia"
+  },
+  {
+    "mesto": "Prilep",
+    "izvor": "https://znaci.org/00003/920.pdf#page=267",
+    "naziv": "Меморијален музеј на Кузман Јосифовски Питу",
+    "vrsta": "muzej",
+    "drzava": "Macedonia"
+  },
+  {
+    "mesto": "Priština",
+    "izvor": "https://znaci.org/00003/920.pdf#page=271",
+    "naziv": "Spomen-kosturnica na Matičarskom brdu",
+    "autor": "Bogdan Ličina",
+    "vrsta": "groblje",
+    "drzava": "Kosovo"
+  },
+  {
+    "mesto": "Priština",
+    "izvor": "https://znaci.org/00003/920.pdf#page=271",
+    "naziv": "Spomenik strijeljanim albanskim rodoljubima",
+    "vrsta": "spomenik",
+    "drzava": "Kosovo",
+    "adresa": "Ulica R. Sadiku"
+  },
+  {
+    "mesto": "Ivančići",
+    "izvor": "https://znaci.org/00003/920.pdf#page=287",
+    "naziv": "Spomen-muzej savjetovanja Pokrajinskog komiteta KPJ za BiH",
+    "vrsta": "muzej",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "mesto": "Šekovići",
+    "izvor": "https://znaci.org/00003/920.pdf#page=301",
+    "naziv": "Spomen-česma Šestoj proleterskoj istočnobosanskoj brigadi",
+    "vrsta": "spomenik",
+    "drzava": "Bosnia and Herzegovina",
+    "adresa": "Pećina pod Betnjom, 8 km od Šekovića"
+  },
+  {
+    "mesto": "Drvar",
+    "izvor": "https://znaci.org/00003/920.pdf#page=312",
+    "naziv": "Spomen-dom SDB",
+    "vrsta": "kompleks",
+    "drzava": "Bosnia and Herzegovina",
+    "adresa": "Centar grada"
+  },
+  {
+    "mesto": "Kadinjača",
+    "izvor": "https://znaci.org/00003/920.pdf#page=319",
+    "naziv": "Spomen-česma palim borcima",
+    "vrsta": "spomenik",
+    "drzava": "Serbia"
+  },
+  {
+    "mesto": "Užice",
+    "izvor": "https://znaci.org/00003/920.pdf#page=319",
+    "naziv": "Mozaik „Spomenica 1941“",
+    "autor": "Marinko Benzon",
+    "vrsta": "lokalni",
+    "drzava": "Serbia",
+    "adresa": "Narodno pozorište, Trg partizana"
+  },
+  {
+    "mesto": "Užice",
+    "izvor": "https://znaci.org/00003/920.pdf#page=320",
+    "naziv": "Spomenik poginulim u eksploziji partizanske fabrike oružja",
+    "autor": "Boris Anastasijević",
+    "vrsta": "spomenik",
+    "drzava": "Serbia"
+  },
+  {
+    "mesto": "Užice",
+    "izvor": "https://znaci.org/00003/920.pdf#page=320",
+    "naziv": "Spomenik „Lomača“",
+    "autor": "Milica Ribnikar-Bogunović & Uglješa Bogunović",
+    "vrsta": "spomenik",
+    "drzava": "Serbia"
+  },
+  {
+    "mesto": "Vis",
+    "izvor": "https://znaci.org/00003/920.pdf#page=328",
+    "naziv": "Muzej narodne revolucije",
+    "vrsta": "muzej",
+    "drzava": "Croatia"
+  },
+  {
+    "mesto": "Komiža",
+    "izvor": "https://znaci.org/00003/920.pdf#page=329",
+    "naziv": "Spomenik zajedništva",
+    "autor": "Mirko Ostoja",
+    "vrsta": "spomenik",
+    "drzava": "Croatia"
+  },
+  {
+    "mesto": "Vukovar",
+    "izvor": "https://znaci.org/00003/920.pdf#page=338",
+    "naziv": "Spomen-kosturnica boraca Bugarske armije",
+    "vrsta": "groblje",
+    "drzava": "Croatia"
+  },
+  {
+    "mesto": "Vukovar",
+    "izvor": "https://znaci.org/00003/920.pdf#page=339",
+    "naziv": "Spomen-muzej Drugog kongresa KPJ",
+    "vrsta": "muzej",
+    "drzava": "Croatia",
+    "adresa": "Radnički dom"
+  },
+  {
+    "mesto": "Zagreb",
+    "izvor": "https://znaci.org/00003/920.pdf#page=347",
+    "naziv": "Memorijalni muzej Prve konferencije KP Hrvatske",
+    "vrsta": "muzej",
+    "drzava": "Croatia",
+    "adresa": "Ulica Prosinačkih žrtava 205 (istorijska adresa)"
+  },
+  {
+    "mesto": "Žabljak",
+    "izvor": "https://znaci.org/00003/920.pdf#page=354",
+    "naziv": "Spomen-obilježje boravku Tita i Vrhovnog štaba",
+    "vrsta": "lokalni",
+    "drzava": "Montenegro",
+    "adresa": "Obala Crnog jezera, kod Titove pećine"
+  },
+  {
+    "mesto": "Crna Gora (Žabljak)",
+    "izvor": "https://znaci.org/00003/920.pdf#page=354",
+    "naziv": "Rodna kuća Radoja Dakića",
+    "vrsta": "muzej",
+    "drzava": "Montenegro"
+  },
+  {
+    "mesto": "Žabljak",
+    "izvor": "https://znaci.org/00003/920.pdf#page=355",
+    "naziv": "Spomen-česma palim borcima Pitomina i Bosače",
+    "vrsta": "lokalni",
+    "drzava": "Montenegro",
+    "adresa": "Crno jezero"
+  },
+  {
+    "mesto": "Đurđevića Tara",
+    "izvor": "https://znaci.org/00003/920.pdf#page=355",
+    "naziv": "Spomen-obilježje Lazaru Jaukoviću",
+    "vrsta": "lokalni",
+    "drzava": "Montenegro",
+    "adresa": "Kod mosta na Tari"
+  },
+  {
+    "mesto": "Batina",
+    "izvor": "https://znaci.org/00003/920.pdf#page=375",
+    "naziv": "Spomen-dom Batinske bitke",
+    "godina": "1979",
+    "vrsta": "muzej",
+    "drzava": "Croatia"
+  },
+  {
+    "mesto": "Bezdan",
+    "izvor": "https://znaci.org/00003/920.pdf#page=376",
+    "naziv": "Muzej Batinske bitke",
+    "godina": "1981",
+    "vrsta": "muzej",
+    "drzava": "Serbia",
+    "adresa": "Leva obala Dunava kod mosta na Batini"
+  },
+  {
+    "mesto": "Veliko Trojstvo",
+    "izvor": "https://znaci.org/00003/920.pdf#page=380",
+    "naziv": "Spomen-muzej Josipa Broza Tita",
+    "vrsta": "muzej",
+    "drzava": "Croatia",
+    "adresa": "Kuća u kojoj je živeo 1921–1925; 7 km od Bjelovara"
+  },
+  {
+    "mesto": "Bohinjska Bistrica",
+    "izvor": "https://znaci.org/00003/920.pdf#page=380",
+    "naziv": "Muzej Tomaža Godca",
+    "vrsta": "muzej",
+    "drzava": "Slovenia",
+    "adresa": "Kuća Tomaša Godca"
+  },
+  {
+    "mesto": "Bosanski Petrovac",
+    "izvor": "https://znaci.org/00003/920.pdf#page=381",
+    "naziv": "Spomen-kuća Tito u bosanskopetrovačkom kraju",
+    "vrsta": "muzej",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "mesto": "Brestanica",
+    "izvor": "https://znaci.org/00003/920.pdf#page=383",
+    "naziv": "Muzej slovenskih izgnancev",
+    "vrsta": "muzej",
+    "drzava": "Slovenia",
+    "adresa": "Bivši trapistički samostan nad levom obalom Save"
+  },
+  {
+    "mesto": "Bugojno",
+    "izvor": "https://znaci.org/00003/920.pdf#page=385",
+    "naziv": "Muzej Tito u ovom kraju",
+    "vrsta": "muzej",
+    "drzava": "Bosnia and Herzegovina",
+    "adresa": "Vila Gorica"
+  },
+  {
+    "mesto": "Celje",
+    "izvor": "https://znaci.org/00003/920.pdf#page=385",
+    "naziv": "Spominski relief ustreljenim talcem",
+    "autor": "Dušan Samec & Peter Černe",
+    "vrsta": "spomenik",
+    "drzava": "Slovenia",
+    "adresa": "Dvorište zatvora Stari pisker"
+  },
+  {
+    "mesto": "Selca",
+    "izvor": "https://znaci.org/00003/920.pdf#page=390",
+    "naziv": "Spomenik mučencem Selške doline",
+    "vrsta": "lokalni",
+    "drzava": "Slovenia",
+    "adresa": "Između Selca i Bukovice, 10 km od Škofje Loke"
+  },
+  {
+    "mesto": "Gornji Milanovac",
+    "izvor": "https://znaci.org/00003/920.pdf#page=392",
+    "naziv": "Spomenik borbe, stradanja i pobede",
+    "autor": "Radomir Stojanović",
+    "vrsta": "spomenik",
+    "drzava": "Serbia",
+    "adresa": "Centar grada"
+  },
+  {
+    "mesto": "Grahovo",
+    "izvor": "https://znaci.org/00003/920.pdf#page=394",
+    "naziv": "Memorijalni muzej Nikole Kovačevića",
+    "vrsta": "muzej",
+    "drzava": "Montenegro"
+  },
+  {
+    "mesto": "Vojsko",
+    "izvor": "https://znaci.org/00003/920.pdf#page=395",
+    "naziv": "Partizanska tiskarna Slovenija",
+    "vrsta": "muzej",
+    "drzava": "Slovenia",
+    "adresa": "12 km od Idrije"
+  },
+  {
+    "mesto": "Gornja Rijeka",
+    "izvor": "https://znaci.org/00003/920.pdf#page=397",
+    "naziv": "Spomenik djeci iz Podkozarja",
+    "vrsta": "lokalni",
+    "drzava": "Croatia",
+    "adresa": "Kod dvorca, bivšeg logora"
+  },
+  {
+    "mesto": "Prohor Pčinjski",
+    "izvor": "https://znaci.org/00003/920.pdf#page=401",
+    "naziv": "Memorijalni muzej Prvog zasjedanja ASNOM-a",
+    "vrsta": "muzej",
+    "drzava": "Serbia",
+    "adresa": "Manastirski konak Prohora Pčinjskog"
+  },
+  {
+    "mesto": "Lukovdol",
+    "izvor": "https://znaci.org/00003/920.pdf#page=406",
+    "naziv": "Memorijalni muzej Ivana Gorana Kovačića",
+    "vrsta": "muzej",
+    "drzava": "Croatia",
+    "adresa": "Rodna kuća pesnika"
+  },
+  {
+    "mesto": "Negotin",
+    "izvor": "https://znaci.org/00003/920.pdf#page=407",
+    "naziv": "Spomenik palim skojevcima",
+    "vrsta": "spomenik",
+    "drzava": "Serbia",
+    "adresa": "Trg Moše Pijade (istorijski naziv)"
+  },
+  {
+    "mesto": "Zvečevo",
+    "izvor": "https://znaci.org/00003/920.pdf#page=410",
+    "naziv": "Spomen-dom Treće operativne zone Slavonije",
+    "vrsta": "muzej",
+    "drzava": "Croatia"
+  },
+  {
+    "mesto": "Javornica (Drežnica)",
+    "izvor": "https://znaci.org/00003/920.pdf#page=411",
+    "naziv": "Spomen-obilježje Vojno-partizanskoj bolnici broj 7",
+    "vrsta": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "mesto": "Peć",
+    "izvor": "https://znaci.org/00003/920.pdf#page=412",
+    "naziv": "Muzej narodnooslobodilačke borbe",
+    "vrsta": "muzej",
+    "drzava": "Kosovo",
+    "adresa": "Kuća narodnog heroja Miladina Popovića"
+  },
+  {
+    "mesto": "Prokuplje",
+    "izvor": "https://znaci.org/00003/920.pdf#page=419",
+    "naziv": "Zajednička grobnica palih boraca",
+    "vrsta": "groblje",
+    "drzava": "Serbia",
+    "adresa": "Hisar"
+  },
+  {
+    "mesto": "Pula",
+    "izvor": "https://znaci.org/00003/920.pdf#page=419",
+    "naziv": "Muzej narodne revolucije Istre",
+    "vrsta": "muzej",
+    "drzava": "Croatia",
+    "adresa": "Tvrđava Kaštel"
+  },
+  {
+    "mesto": "Robaje",
+    "izvor": "https://znaci.org/00003/920.pdf#page=421",
+    "naziv": "Spomen-muzej u kući Sekule i Desanke Bojinović",
+    "vrsta": "muzej",
+    "drzava": "Serbia"
+  },
+  {
+    "mesto": "Slavonski Brod (Brodski Varoš)",
+    "izvor": "https://znaci.org/00003/920.pdf#page=423",
+    "naziv": "Rodna kuća Đure Đakovića",
+    "vrsta": "muzej",
+    "drzava": "Croatia"
+  },
+  {
+    "mesto": "Slovenj Gradec",
+    "izvor": "https://znaci.org/00003/920.pdf#page=424",
+    "naziv": "Muzej ljudske revolucije",
+    "vrsta": "muzej",
+    "drzava": "Slovenia",
+    "adresa": "Glavni trg"
+  },
+  {
+    "mesto": "Split",
+    "izvor": "https://znaci.org/00003/920.pdf#page=426",
+    "naziv": "Muzej narodne revolucije",
+    "vrsta": "muzej",
+    "drzava": "Croatia",
+    "adresa": "Ulica Ivana Lučića Lavčevića 15; zgrada bivše Gradske bolnice"
+  },
+  {
+    "mesto": "Split",
+    "izvor": "https://znaci.org/00003/920.pdf#page=427",
+    "naziv": "Spomen-kosturnica",
+    "vrsta": "groblje",
+    "drzava": "Croatia"
+  },
+  {
+    "mesto": "Srb",
+    "izvor": "https://znaci.org/00003/920.pdf#page=427",
+    "naziv": "Spomen-dom boraca",
+    "vrsta": "muzej",
+    "drzava": "Croatia"
+  },
+  {
+    "mesto": "Tacen",
+    "izvor": "https://znaci.org/00003/920.pdf#page=431",
+    "naziv": "Spomenik vstaji slovenskega naroda",
+    "autor": "Jože Valentinčič & Franc Čizman",
+    "vrsta": "lokalni",
+    "drzava": "Slovenia",
+    "adresa": "Pašnik ispod Šmartne gore, Ljubljana–Šiška"
+  },
+  {
+    "mesto": "Veles",
+    "izvor": "https://znaci.org/00003/920.pdf#page=435",
+    "naziv": "Спомен-куќа на Кочо Рацин",
+    "vrsta": "muzej",
+    "drzava": "Macedonia"
+  },
+  {
+    "mesto": "Bogomila",
+    "izvor": "https://znaci.org/00003/920.pdf#page=435",
+    "naziv": "Споменик на Богомилската епопеја",
+    "vrsta": "lokalni",
+    "drzava": "Macedonia"
+  },
+  {
+    "mesto": "Ramljane",
+    "izvor": "https://znaci.org/00003/920.pdf#page=439",
+    "naziv": "Spomenik odredu „Zejnel Ajdini“",
+    "vrsta": "lokalni",
+    "drzava": "Kosovo",
+    "adresa": "10 km od Uroševca"
+  },
+  {
+    "mesto": "Crnoljevo",
+    "izvor": "https://znaci.org/00003/920.pdf#page=439",
+    "naziv": "Spomen-česma",
+    "vrsta": "lokalni",
+    "drzava": "Kosovo",
+    "adresa": "Crnoljevska klisura, 20 km od Uroševca prema Prizrenu"
+  },
+  {
+    "mesto": "Vukmanić",
+    "izvor": "https://znaci.org/00003/920.pdf#page=440",
+    "naziv": "Muzej porodice Ribar",
+    "vrsta": "muzej",
+    "drzava": "Croatia",
+    "adresa": "Rodna kuća dr Ivana Ribara"
+  },
+  {
+    "mesto": "Vukosavci",
+    "izvor": "https://znaci.org/00003/920.pdf#page=441",
+    "naziv": "Spomen-muzej Prvog majevičkog partizanskog odreda",
+    "vrsta": "muzej",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "mesto": "Zaječar",
+    "izvor": "https://znaci.org/00003/920.pdf#page=442",
+    "naziv": "Spomenik i grobnice boraca NOVJ i Crvene armije",
+    "vrsta": "groblje",
+    "drzava": "Serbia",
+    "adresa": "Groblje"
   }
 ]
