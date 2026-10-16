@@ -68212,5 +68212,26 @@
     "autor": "Dušan Džamonja",
     "vrsta": "muzej",
     "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "beograd-dragica-pravica",
+    "koordinate": {
+      "lat": 44.8048379,
+      "lng": 20.4979396
+    },
+    "googleCid": "5058482636840177979",
+    "mesto": "Beograd (Zvezdara)",
+    "izvor": "https://commons.wikimedia.org/wiki/File:Spomenik_Dragici_Pravici_u_Beogradu.jpg",
+    "slika": "slike/spomenici/beograd-dragica-pravica.webp",
+    "slikaOdnos": 0.64,
+    "slikaPotpis": "Ojce, CC BY-SA 4.0",
+    "naziv": "Bista Dragice Pravice",
+    "nazivEn": "Bust of Dragica Pravica",
+    "natpis": "Драгица Правица / народни херој",
+    "posveta": [
+      "Q12751131"
+    ],
+    "vrsta": "bista",
+    "drzava": "Serbia"
   }
 ]

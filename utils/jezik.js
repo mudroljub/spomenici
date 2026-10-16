@@ -69,7 +69,6 @@ const tekstovi = {
   sviAutori: {sh: 'Svi autori', en: 'All artists'},
   traziAutora: {sh: 'Traži autora', en: 'Find an artist'},
   nemaAutora: {sh: 'Nema takvog autora', en: 'No such artist'},
-  grupaVrsta: {sh: 'Vrsta', en: 'Type'},
   istaknut: {sh: 'Istaknuti spomenici', en: 'Featured monuments'},
   kompleks: {sh: 'Spomen-parkovi', en: 'Memorial parks'},
   spomenik: {sh: 'Spomenici', en: 'Monuments'},

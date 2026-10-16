@@ -20,3 +20,4 @@ live-server
 - traka na dnu pravi svih 2.656 sličica pri otvaranju; praviti ih tek kad uđu u traku (oko 0,3 s brže na slabom telefonu)
 - proveriti aplikaciju na najstarijem telefonu (podržani su Chrome 85, Safari 14 i Firefox 79)
 - neki spomenici imaju predugačak naziv koji je verovatno natpis spomenika. pronađi najduže naslove da rešimo
+- pri velikom zumu mapa postaje prešarena i sa previše detalja, ne vide se više ikonice. to treba rešiti sa UI strane, možda neki poluprovidni overlay ili tako nešto.
