@@ -67970,5 +67970,32 @@
     "nazivEn": "Monument to Fighters Killed 1941-1945",
     "vrsta": "lokalni",
     "drzava": "Serbia"
+  },
+  {
+    "id": "cicevac-spomen-fontana",
+    "koordinate": {
+      "lat": 43.7199574,
+      "lng": 21.4407967
+    },
+    "mesto": "Ćićevac",
+    "izvor": "https://www.cicevac.rs/licnakarta",
+    "naziv": "Spomen-fontana palim borcima i žrtvama fašističkog terora",
+    "nazivEn": "Memorial Fountain to Fallen Fighters and Victims of Fascist Terror",
+    "godina": "1974",
+    "vrsta": "lokalni",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "trubarevo-spomen-cesma",
+    "koordinate": {
+      "lat": 43.6218952,
+      "lng": 21.4884077
+    },
+    "mesto": "Trubarevo",
+    "izvor": "https://www.openstreetmap.org/node/13357012840",
+    "naziv": "Spomen-česma žrtvama bugarskih fašista",
+    "nazivEn": "Memorial Fountain to the Victims of Bulgarian Fascists",
+    "vrsta": "lokalni",
+    "drzava": "Serbia"
   }
 ]
