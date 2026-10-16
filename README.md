@@ -22,7 +22,6 @@ Provera fotografija za svih 132 tadašnja zapisa bez slike u Srbiji završena je
 
 ## TODO
 
-- na osnovu dosadašnjeg rada na projektu napraviti neke skilove ako je potrebno
 - možda dodati unit i integracione testove ako ima smisla
 - analizirati knjige o spomenicima i izvući sve korisne podatke (dodati nove atribute ako treba):
  - https://znaci.org/00003/736.php
