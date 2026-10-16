@@ -43575,18 +43575,17 @@
     "drzava": "Serbia"
   },
   {
-    "mesto": "Podsreda",
-    "izvor": "https://znaci.org/00003/920.pdf#page=202",
-    "naziv": "Rojstna hiša Marije Javeršek",
-    "vrsta": "muzej",
-    "drzava": "Slovenia"
-  },
-  {
     "mesto": "Trebče",
     "izvor": "https://znaci.org/00003/920.pdf#page=202",
     "naziv": "Muzej v hiši Ane Kostanjšek",
     "vrsta": "muzej",
-    "drzava": "Slovenia"
+    "drzava": "Slovenia",
+    "proveraLokacije": {
+      "datum": "2026-10-16",
+      "ishod": "preskoceno-promenjena-namena",
+      "izvor": "https://kozjanski-park.si/kulturne-zanimivosti/kolarjeva-domacija/",
+      "napomena": "Kolarjeva domačija je od 2024. informacijski center za dvoživke. Današnji izvor ne potvrđuje da nekadašnji muzej Ane Kostanjšek i dalje postoji; ne dodavati kao aktivan muzej NOB-a bez novog dokaza. Ana Kostanjšek je Titova rođaka (slov. sestrična), a tetka je bila Ana Kolar."
+    }
   },
   {
     "mesto": "Kupinec",
@@ -43860,23 +43859,6 @@
     "vrsta": "muzej",
     "drzava": "Bosnia and Herzegovina",
     "adresa": "Vila Gorica"
-  },
-  {
-    "mesto": "Celje",
-    "izvor": "https://znaci.org/00003/920.pdf#page=385",
-    "naziv": "Spominski relief ustreljenim talcem",
-    "autor": "Dušan Samec & Peter Černe",
-    "vrsta": "spomenik",
-    "drzava": "Slovenia",
-    "adresa": "Dvorište zatvora Stari pisker"
-  },
-  {
-    "mesto": "Selca",
-    "izvor": "https://znaci.org/00003/920.pdf#page=390",
-    "naziv": "Spomenik mučencem Selške doline",
-    "vrsta": "lokalni",
-    "drzava": "Slovenia",
-    "adresa": "Između Selca i Bukovice, 10 km od Škofje Loke"
   },
   {
     "mesto": "Gornji Milanovac",

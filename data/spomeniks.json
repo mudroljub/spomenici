@@ -17354,10 +17354,13 @@
     },
     "googleCid": "5576848986293198600",
     "mesto": "Dolenja vas",
+    "izvor": "https://partizanstvo.si/sl/podrobno/partizanskispomenik/602/",
     "slika": "slike/spomenici/dolenja-vas.webp",
     "slikaOdnos": 0.75,
     "slikaPotpis": "Google Maps",
-    "naziv": "Spomenik NOB",
+    "naziv": "Spomenik na Bukovškem polju",
+    "godina": "1950",
+    "autor": "Jože Plečnik & Vladimira Bratuž - Laka & Anton Bitenc",
     "vrsta": "lokalni",
     "drzava": "Slovenia"
   },
@@ -66958,5 +66961,32 @@
     "naziv": "Спомен-куќа на Кочо Рацин",
     "vrsta": "muzej",
     "drzava": "Macedonia"
+  },
+  {
+    "id": "podsreda-javerskova-domacija",
+    "koordinate": {
+      "lat": 46.0355651,
+      "lng": 15.6194377
+    },
+    "mesto": "Podsreda",
+    "izvor": "https://www.openstreetmap.org/way/1221559573",
+    "naziv": "Javerškova domačija",
+    "godina": "1979",
+    "vrsta": "muzej",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "celje-spominski-relief-ustreljenim-talcem",
+    "koordinate": {
+      "lat": 46.229666,
+      "lng": 15.2625275
+    },
+    "mesto": "Celje",
+    "izvor": "https://partizanstvo.si/sl/podrobno/partizanskispomenik/7780/",
+    "naziv": "Spominski relief ustreljenim talcem",
+    "godina": "1965",
+    "autor": "Dušan Samec & Peter Černe",
+    "vrsta": "spomenik",
+    "drzava": "Slovenia"
   }
 ]
