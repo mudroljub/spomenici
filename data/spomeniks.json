@@ -1933,11 +1933,11 @@
     "izvor": "http://www.spomenikdatabase.org/gligino-brdo",
     "slika": "slike/spomenici/gligino-brdo.webp",
     "slikaOdnos": 1.77,
+    "naziv": "Spomenik",
     "nazivEn": "Freedom Hill Monument",
     "godina": "1970",
     "vrsta": "istaknut",
-    "drzava": "Bosnia and Herzegovina",
-    "naziv": "Spomenik"
+    "drzava": "Bosnia and Herzegovina"
   },
   {
     "id": "zagreb-december-victims",
@@ -2600,10 +2600,10 @@
     "mesto": "Kamenica",
     "slika": "slike/spomenici/kamenica-dardane.webp",
     "slikaOdnos": 1.575,
+    "naziv": "Spomenik",
     "nazivEn": "Martyrs Monument",
     "vrsta": "spomenik",
-    "drzava": "Kosovo",
-    "naziv": "Spomenik"
+    "drzava": "Kosovo"
   },
   {
     "id": "vinarce",
@@ -3556,11 +3556,11 @@
     "mesto": "Silva",
     "slika": "slike/spomenici/silva.webp",
     "slikaOdnos": 1.333,
+    "naziv": "Споменик",
     "nazivEn": "Plum Hill Battle Monument",
     "godina": "1963",
     "vrsta": "spomenik",
-    "drzava": "Macedonia",
-    "naziv": "Споменик"
+    "drzava": "Macedonia"
   },
   {
     "id": "krnica",
@@ -4483,11 +4483,11 @@
     "wikiEn": "https://en.wikipedia.org/wiki/1963_Skopje_earthquake",
     "slika": "slike/spomenici/butel-cemetery-1963-skopje-earthquake.webp",
     "slikaOdnos": 1.493,
+    "naziv": "Споменик",
     "nazivEn": "Mon. to the <a href=\"https://en.wikipedia.org/wiki/1963_Skopje_earthquake\" target=\"_blank\">1963 Skopje Earthquake</a>",
     "godina": "1964",
     "vrsta": "spomenik",
-    "drzava": "Macedonia",
-    "naziv": "Споменик"
+    "drzava": "Macedonia"
   },
   {
     "id": "mostar-hidden-hand-fountain",
@@ -4666,12 +4666,12 @@
     "mesto": "Bitola",
     "slika": "slike/spomenici/bitola-maced-polish-cooperation.webp",
     "slikaOdnos": 1.316,
+    "naziv": "Споменик",
     "nazivEn": "Monu. to Maced./Polish Cooperation",
     "godina": "1977",
     "stanje": "uklonjen",
     "vrsta": "spomenik",
-    "drzava": "Macedonia",
-    "naziv": "Споменик"
+    "drzava": "Macedonia"
   },
   {
     "id": "garesnica",
@@ -4714,11 +4714,11 @@
     "mesto": "Nikolić",
     "slika": "slike/spomenici/nikolic.webp",
     "slikaOdnos": 1.439,
+    "naziv": "Спомен-комплекс",
     "nazivEn": "Youth Pioneer Camp at Dojran",
     "stanje": "rusevine",
     "vrsta": "kompleks",
-    "drzava": "Macedonia",
-    "naziv": "Спомен-комплекс"
+    "drzava": "Macedonia"
   },
   {
     "id": "vitomirica",
@@ -5596,9 +5596,9 @@
     "izvor": "https://www.tripadvisor.com/ShowUserReviews-g424971-d622113-r509659114-Mount_Hum-Island_of_Vis_Split_Dalmatia_County_Dalmatia.html",
     "slika": "slike/spomenici/tito-s-cave-at-vis.webp",
     "slikaOdnos": 1.455,
+    "naziv": "Titova špilja",
     "vrsta": "spomenik",
-    "drzava": "Croatia",
-    "naziv": "Titova špilja"
+    "drzava": "Croatia"
   },
   {
     "id": "tito-museum-on-brijuni",
@@ -7103,11 +7103,11 @@
     "mesto": "Zagreb (Moderna galerija)",
     "slika": "slike/spomenici/zagreb-casualties.webp",
     "slikaOdnos": 1.905,
+    "naziv": "Statua",
     "nazivEn": "'Casualties' Monument",
     "autor": "Vanja Radauš",
     "vrsta": "statua",
-    "drzava": "Croatia",
-    "naziv": "Statua"
+    "drzava": "Croatia"
   },
   {
     "id": "zemun-bombas",
@@ -7236,12 +7236,12 @@
     "wiki": "https://sl.wikipedia.org/wiki/Centralno_pokopali%C5%A1%C4%8De_%C5%BDale",
     "slika": "slike/spomenici/zale-cemetery-nove-zale-cemetery.webp",
     "slikaOdnos": 1.487,
+    "naziv": "Pokopališče",
     "nazivEn": "Nove Žale Cemetery Expansion",
     "godina": "1988",
     "autor": "Marko Mušič",
     "vrsta": "groblje",
-    "drzava": "Slovenia",
-    "naziv": "Pokopališče"
+    "drzava": "Slovenia"
   },
   {
     "id": "sarajevo-djuro-djakovic",
@@ -7749,10 +7749,10 @@
     "mesto": "Brod",
     "slika": "slike/spomenici/brod.webp",
     "slikaOdnos": 1.278,
+    "naziv": "Spomenik",
     "nazivEn": "Mon. to Fallen Fighters \"Hunger Mon.\"",
     "vrsta": "spomenik",
-    "drzava": "Bosnia and Herzegovina",
-    "naziv": "Spomenik"
+    "drzava": "Bosnia and Herzegovina"
   },
   {
     "id": "slavonski-brod",
@@ -8612,10 +8612,10 @@
     "mesto": "Tivat",
     "slika": "slike/spomenici/tivat.webp",
     "slikaOdnos": 1.498,
+    "naziv": "Spomen-ploča",
     "godina": "1985",
     "vrsta": "ploca",
-    "drzava": "Montenegro",
-    "naziv": "Spomen-ploča"
+    "drzava": "Montenegro"
   },
   {
     "id": "osijek-worker-s-house",
@@ -10063,10 +10063,10 @@
     "mesto": "Badžula",
     "slika": "slike/spomenici/badzula.webp",
     "slikaOdnos": 1.487,
+    "naziv": "Spomenik",
     "nazivEn": "Mon. to the Battle of Vuk's Pass",
     "vrsta": "spomenik",
-    "drzava": "Croatia",
-    "naziv": "Spomenik"
+    "drzava": "Croatia"
   },
   {
     "id": "gracac",
@@ -10652,10 +10652,10 @@
     "mesto": "Raborci",
     "slika": "slike/spomenici/raborci.webp",
     "slikaOdnos": 1.394,
+    "naziv": "Споменик",
     "nazivEn": "Monument to the Osogovo Group",
     "vrsta": "spomenik",
-    "drzava": "Macedonia",
-    "naziv": "Споменик"
+    "drzava": "Macedonia"
   },
   {
     "id": "pakrac",
@@ -10798,11 +10798,11 @@
     "mesto": "Zakučac",
     "slika": "slike/spomenici/zakucac.webp",
     "slikaOdnos": 1.439,
+    "naziv": "Spomenik",
     "nazivEn": "Mon. to Fallen Fighters & Dam Workers",
     "godina": "1970",
     "vrsta": "spomenik",
-    "drzava": "Croatia",
-    "naziv": "Spomenik"
+    "drzava": "Croatia"
   },
   {
     "id": "kozica",
@@ -11843,11 +11843,11 @@
     "mesto": "Okroglice",
     "slika": "slike/spomenici/okroglice.webp",
     "slikaOdnos": 1.46,
+    "naziv": "Spomenik",
     "nazivEn": "Mon. to Slain Couriers at Dom Prašnikar",
     "godina": "1971",
     "vrsta": "spomenik",
-    "drzava": "Slovenia",
-    "naziv": "Spomenik"
+    "drzava": "Slovenia"
   },
   {
     "id": "stanari",
@@ -12561,11 +12561,11 @@
     "mesto": "Krško",
     "slika": "slike/spomenici/krsko.webp",
     "slikaOdnos": 1.379,
+    "naziv": "Spomenik",
     "nazivEn": "\"The Road of Krško Victims\" Monument",
     "godina": "1957",
     "vrsta": "spomenik",
-    "drzava": "Slovenia",
-    "naziv": "Spomenik"
+    "drzava": "Slovenia"
   },
   {
     "id": "belegis",
@@ -13060,12 +13060,12 @@
     "mesto": "Belišće",
     "slika": "slike/spomenici/belisce.webp",
     "slikaOdnos": 1.515,
+    "naziv": "Spomenik",
     "nazivEn": "Monument to the Six Factories",
     "godina": "1976",
     "stanje": "uklonjen",
     "vrsta": "spomenik",
-    "drzava": "Croatia",
-    "naziv": "Spomenik"
+    "drzava": "Croatia"
   },
   {
     "id": "kakanj",
@@ -13312,11 +13312,11 @@
     "mesto": "Prizren",
     "slika": "slike/spomenici/prizren.webp",
     "slikaOdnos": 1.587,
+    "naziv": "Spomenik",
     "nazivEn": "The Martyrs' Monument",
     "godina": "1984",
     "vrsta": "spomenik",
-    "drzava": "Kosovo",
-    "naziv": "Spomenik"
+    "drzava": "Kosovo"
   },
   {
     "id": "plaski",
@@ -25911,9 +25911,9 @@
     "slika": "slike/spomenici/pelince-2.webp",
     "slikaOdnos": 1.333,
     "slikaPotpis": "Google Maps",
+    "naziv": "Споменик",
     "vrsta": "lokalni",
-    "drzava": "Macedonia",
-    "naziv": "Споменик"
+    "drzava": "Macedonia"
   },
   {
     "id": "dabrica",
@@ -26085,9 +26085,9 @@
     "slika": "slike/spomenici/prikovci.webp",
     "slikaOdnos": 0.75,
     "slikaPotpis": "Google Maps",
+    "naziv": "Споменик",
     "vrsta": "lokalni",
-    "drzava": "Macedonia",
-    "naziv": "Споменик"
+    "drzava": "Macedonia"
   },
   {
     "id": "bogdanci",
@@ -26100,9 +26100,9 @@
     "slika": "slike/spomenici/bogdanci.webp",
     "slikaOdnos": 1.333,
     "slikaPotpis": "Google Maps",
+    "naziv": "Биста",
     "vrsta": "bista",
-    "drzava": "Macedonia",
-    "naziv": "Биста"
+    "drzava": "Macedonia"
   },
   {
     "id": "radovis",
@@ -26115,9 +26115,9 @@
     "slika": "slike/spomenici/radovis.webp",
     "slikaOdnos": 0.75,
     "slikaPotpis": "Google Maps",
+    "naziv": "Споменик",
     "vrsta": "lokalni",
-    "drzava": "Macedonia",
-    "naziv": "Споменик"
+    "drzava": "Macedonia"
   },
   {
     "id": "nis-marger",
@@ -26145,9 +26145,9 @@
     "slika": "slike/spomenici/nard.webp",
     "slikaOdnos": 1.018,
     "slikaPotpis": "Google Maps",
+    "naziv": "Spomenik",
     "vrsta": "lokalni",
-    "drzava": "Croatia",
-    "naziv": "Spomenik"
+    "drzava": "Croatia"
   },
   {
     "id": "ledine",
@@ -26316,9 +26316,9 @@
     "slika": "slike/spomenici/gevgelija-2.webp",
     "slikaOdnos": 0.75,
     "slikaPotpis": "Google Maps",
+    "naziv": "Споменик",
     "vrsta": "lokalni",
-    "drzava": "Macedonia",
-    "naziv": "Споменик"
+    "drzava": "Macedonia"
   },
   {
     "id": "zagreb-holjevac",
@@ -65116,14 +65116,14 @@
     "slika": "slike/spomenici/skopje-pero-nakov-pance-pesev.webp",
     "slikaOdnos": 1.333,
     "slikaPotpis": "Dvacet, Public domain",
+    "naziv": "Споменик",
     "nazivEn": "Monument to Macedonian communists Pero Nakov and Panče Pešev",
     "posveta": [
       "Q110135272",
       "Q12289890"
     ],
     "vrsta": "lokalni",
-    "drzava": "Macedonia",
-    "naziv": "Споменик"
+    "drzava": "Macedonia"
   },
   {
     "id": "sveti-nikole-spomenik-na-lazar-kolisevski",

@@ -12,7 +12,7 @@ Ažurirano 2026-10-15. Ovaj dokument je dovoljan za samostalan rad: šta se radi
 
 ## 2. Standard zapisa (obavezno za svaki novi ili izmenjen spomenik)
 
-- **Redosled polja:** `id, koordinate{lat,lng}, googleCid, mesto, izvor, wiki, wikiEn, slika, slikaOdnos, slikaPotpis, naziv, nazivEn, godina, autor, posveta, stanje, vrsta, drzava`. Prazna polja se izostavljaju.
+- **Redosled polja:** `id, koordinate{lat,lng}, googleCid, mesto, izvor, wiki, wikiEn, slika, slikaOdnos, slikaPotpis, naziv, nazivEn, godina, autor, natpis, posveta, stanje, vrsta, drzava`. Prazna polja se izostavljaju.
 - **Fajl:** UTF-8, CRLF, uvlačenje 2, `ensure_ascii=False`, sa CRLF na kraju. Upis uvek ovako:
   `open(P,'w',encoding='utf8',newline='').write(json.dumps(d,ensure_ascii=False,indent=2).replace('\n','\r\n')+'\r\n')`
 - **id:** mala ASCII slova, cifre i crtice, jedinstven, najviše oko 50 znakova (npr. `slug(mesto + naziv)`).
@@ -27,6 +27,7 @@ Ažurirano 2026-10-15. Ovaj dokument je dovoljan za samostalan rad: šta se radi
 - **slika:** 400 px širine, webp kvaliteta 75 (`magick - -resize 400x -quality 75 out.webp`). **slikaPotpis:** „Autor, licenca“. **slikaOdnos:** posle svake nove slike pokreni `slike_odnos.py`, pa `bez_metapodataka.py --upisi` (izbacuje EXIF i XMP bez gubitka kvaliteta), a zatim `male_slike.py`, koji pravi umanjenu sliku za traku na dnu.
 - **godina:** godina podizanja („1961“), raspon („1958-1960“) ili, kad izvor ne zna tačno, „pre 1960“, „posle 1960“, „oko 1960“, „1960-ih“.
 - **autor:** više autora se spaja sa „ & “. Park dobija autora samo ako su sva dela u njemu jednog autora.
+- **natpis:** tekst natpisa sa spomenika, doslovno, iz pouzdanog izvora (fotografija, knjiga); redovi se odvajaju sa „ / “. Novo polje dodaje se i u `alati/zapis.py` i `data/tipovi.d.ts`.
 - **posveta:** spisak Wikidata stavki (ličnost, jedinica, događaj) kojima je spomenik posvećen, npr. `["Q9161"]`; svaka mora postojati u `data/posvete.json` (`naziv`, `name`, `wiki`, `wikiEn`). Opšte posvete („palim borcima“, „žrtvama fašizma“, Drugi svetski rat, NOVJ) se ne upisuju.
 - **Obuhvat:** samo spomenici NOB-a i Drugog svetskog rata iz jugoslovenske perspektive. **Ne dodaju se:** Prvi svetski i stariji ratovi, ratovi 1991–1999 (branitelji, VRS, ARBiH, HVO, šehidi, „otadžbinski rat“), četnici i domobranci, „žrtve komunizma“ i posleratnih pokolja (Bleiburg, Križni put, „zamolčane žrtve“), NATO bombardovanje, Holokaust-obeležja postavljena posle 1990, partizanske bolnice, tehnike, staze, domovi i bunkeri bez spomenika, ulice i obeležja van Jugoslavije.
 

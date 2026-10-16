@@ -5,9 +5,10 @@
 import json, math, os, re, subprocess, sys, time, unicodedata, urllib.parse, urllib.request
 sys.stdout.reconfigure(encoding='utf-8')
 SPISAK, FAJLOVI = sys.argv[1:]
-A = os.path.dirname(os.path.abspath(__file__))  # naselja_osm.json je pored alata
+A = os.path.dirname(os.path.abspath(__file__))  # naselja_osm.json i zapis.py su pored alata
+sys.path.insert(0, A)
+from zapis import poredaj
 UA = {'User-Agent': 'spomenici-wiki/1.0 (https://mudroljub.github.io/spomeniks)'}
-RED = ['id', 'koordinate', 'googleCid', 'mesto', 'izvor', 'wiki', 'wikiEn', 'slika', 'slikaOdnos', 'slikaPotpis', 'naziv', 'nazivEn', 'godina', 'autor', 'posveta', 'stanje', 'vrsta', 'drzava']
 LAT = dict(zip('абвгдђежзијклљмнњопрстћуфхцчџшѓќѕ', ['a', 'b', 'v', 'g', 'd', 'đ', 'e', 'ž', 'z', 'i', 'j', 'k', 'l', 'lj', 'm', 'n', 'nj', 'o', 'p', 'r', 's', 't', 'ć', 'u', 'f', 'h', 'c', 'č', 'dž', 'š', 'gj', 'kj', 'dz']))
 def latinica(t):
     return ''.join((LAT[z.lower()].capitalize() if z.isupper() else LAT[z]) if z.lower() in LAT else z for z in t)
@@ -31,7 +32,7 @@ def slug(t):
     return re.sub(r'[^a-z0-9]+', '-', t.lower()).strip('-')[:50].rstrip('-')
 
 def sacuvaj(d):
-    d = [{k: s[k] for k in RED if s.get(k) is not None} for s in d]
+    d = [poredaj({k: v for k, v in s.items() if v is not None}) for s in d]
     open('data/spomeniks.json', 'w', encoding='utf8', newline='').write(json.dumps(d, ensure_ascii=False, indent=2).replace('\n', '\r\n') + '\r\n')
 
 info = {}

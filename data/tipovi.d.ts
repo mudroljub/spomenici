@@ -45,6 +45,8 @@ export interface Spomenik {
   godina?: string
   /** autori spojeni sa „ & “ */
   autor?: string
+  /** tekst natpisa sa spomenika, doslovno, redovi odvojeni sa „ / “ */
+  natpis?: string
   /** Wikidata stavke iz data/posvete.json, npr. ["Q82914"] */
   posveta?: string[]
   stanje?: Stanje

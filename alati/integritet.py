@@ -1,4 +1,6 @@
 import json, math, os, re, sys, collections
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))  # zapis.py je pored alata
+from zapis import REDOSLED
 sys.stdout.reconfigure(encoding='utf-8')
 d = json.load(open('data/spomeniks.json', encoding='utf8'))
 ture = json.load(open('data/ture.json', encoding='utf8'))
@@ -8,7 +10,7 @@ greske = collections.defaultdict(list)
 VRSTE = {'istaknut', 'kompleks', 'spomenik', 'statua', 'bista', 'lokalni', 'ploca', 'groblje', 'muzej'}
 STANJA = {'rusevine', 'srusen', 'uklonjen', 'ostecen', 'zatvoren'}
 DRZAVE = {'Slovenia', 'Croatia', 'Bosnia and Herzegovina', 'Serbia', 'Montenegro', 'Macedonia', 'Kosovo', 'Italy'}
-POZNATA = {'id', 'koordinate', 'googleCid', 'mesto', 'izvor', 'wiki', 'wikiEn', 'slika', 'slikaOdnos', 'slikaPotpis', 'naziv', 'nazivEn', 'autor', 'godina', 'vrsta', 'drzava', 'stanje', 'posveta'}
+POZNATA = set(REDOSLED)
 cir = re.compile('[Ѐ-ӿ]')
 ids = collections.Counter(s.get('id') for s in d)
 for i, n in ids.items():

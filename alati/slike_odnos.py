@@ -1,9 +1,10 @@
 # upisuje slikaOdnos (sirina / visina) za svaku lokalnu sliku, da prozor spomenika unapred zna oblik slike
 # pokretanje iz korena repozitorijuma: python <putanja>/slike_odnos.py
-import json, subprocess
+import json, os, subprocess, sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))  # zapis.py je pored alata
+from zapis import poredaj
 
 PUT = 'data/spomeniks.json'
-RED = ['id', 'koordinate', 'googleCid', 'mesto', 'izvor', 'wiki', 'wikiEn', 'slika', 'slikaOdnos', 'slikaPotpis', 'naziv', 'nazivEn', 'godina', 'autor', 'posveta', 'stanje', 'vrsta', 'drzava']
 
 d = json.load(open(PUT, encoding='utf8'))
 izlaz = subprocess.run(['magick', 'identify', '-format', '%i %w %h\n', 'slike/spomenici/*.webp'], capture_output=True, text=True, check=True).stdout
@@ -19,7 +20,7 @@ for i, s in enumerate(d):
         promena += 1
         s['slikaOdnos'] = odnos
     if odnos is None: s.pop('slikaOdnos', None)
-    d[i] = {k: s[k] for k in RED if k in s}
+    d[i] = poredaj(s)
 
 tekst = json.dumps(d, ensure_ascii=False, indent=2).replace('\n', '\r\n') + '\r\n'
 open(PUT, 'w', encoding='utf8', newline='').write(tekst)
