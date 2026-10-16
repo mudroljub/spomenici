@@ -43717,13 +43717,6 @@
     "drzava": "Croatia"
   },
   {
-    "mesto": "Prilep",
-    "izvor": "https://znaci.org/00003/920.pdf#page=267",
-    "naziv": "Меморијален музеј на Кузман Јосифовски Питу",
-    "vrsta": "muzej",
-    "drzava": "Macedonia"
-  },
-  {
     "mesto": "Priština",
     "izvor": "https://znaci.org/00003/920.pdf#page=271",
     "naziv": "Spomen-kosturnica na Matičarskom brdu",
@@ -43889,14 +43882,6 @@
     "adresa": "Kuća u kojoj je živeo 1921–1925; 7 km od Bjelovara"
   },
   {
-    "mesto": "Bohinjska Bistrica",
-    "izvor": "https://znaci.org/00003/920.pdf#page=380",
-    "naziv": "Muzej Tomaža Godca",
-    "vrsta": "muzej",
-    "drzava": "Slovenia",
-    "adresa": "Kuća Tomaša Godca"
-  },
-  {
     "mesto": "Bosanski Petrovac",
     "izvor": "https://znaci.org/00003/920.pdf#page=381",
     "naziv": "Spomen-kuća Tito u bosanskopetrovačkom kraju",
@@ -43953,14 +43938,6 @@
     "drzava": "Montenegro"
   },
   {
-    "mesto": "Vojsko",
-    "izvor": "https://znaci.org/00003/920.pdf#page=395",
-    "naziv": "Partizanska tiskarna Slovenija",
-    "vrsta": "muzej",
-    "drzava": "Slovenia",
-    "adresa": "12 km od Idrije"
-  },
-  {
     "mesto": "Gornja Rijeka",
     "izvor": "https://znaci.org/00003/920.pdf#page=397",
     "naziv": "Spomenik djeci iz Podkozarja",
@@ -43975,14 +43952,6 @@
     "vrsta": "muzej",
     "drzava": "Serbia",
     "adresa": "Manastirski konak Prohora Pčinjskog"
-  },
-  {
-    "mesto": "Lukovdol",
-    "izvor": "https://znaci.org/00003/920.pdf#page=406",
-    "naziv": "Memorijalni muzej Ivana Gorana Kovačića",
-    "vrsta": "muzej",
-    "drzava": "Croatia",
-    "adresa": "Rodna kuća pesnika"
   },
   {
     "mesto": "Negotin",

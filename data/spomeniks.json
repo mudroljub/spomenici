@@ -66828,5 +66828,62 @@
     "godina": "1961",
     "vrsta": "lokalni",
     "drzava": "Croatia"
+  },
+  {
+    "id": "prilep-memorijalen-muzej-kuzman-josifoski-pitu",
+    "koordinate": {
+      "lat": 41.3425114,
+      "lng": 21.5597069
+    },
+    "mesto": "Prilep",
+    "izvor": "https://www.openstreetmap.org/way/1143774305",
+    "slika": "slike/spomenici/prilep-memorijalen-muzej-kuzman-josifoski-pitu.webp",
+    "slikaOdnos": 1.498,
+    "slikaPotpis": "Filip.pere, CC BY-SA 4.0",
+    "naziv": "Меморијален музеј „Кузман Јосифоски-Питу“",
+    "vrsta": "muzej",
+    "drzava": "Macedonia"
+  },
+  {
+    "id": "bohinjska-bistrica-muzej-tomaza-godca",
+    "koordinate": {
+      "lat": 46.2712614,
+      "lng": 13.9510849
+    },
+    "mesto": "Bohinjska Bistrica",
+    "izvor": "https://www.openstreetmap.org/way/224079140",
+    "naziv": "Muzej Tomaža Godca",
+    "vrsta": "muzej",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "vojsko-partizanska-tiskarna-slovenija",
+    "koordinate": {
+      "lat": 46.0390815,
+      "lng": 13.9043002
+    },
+    "mesto": "Vojsko",
+    "izvor": "https://www.openstreetmap.org/node/8957513839",
+    "slika": "slike/spomenici/vojsko-partizanska-tiskarna-slovenija.webp",
+    "slikaOdnos": 1.333,
+    "slikaPotpis": "Janez Novak, Ljubljana, Slovenija, CC BY-SA 3.0",
+    "naziv": "Partizanska tiskarna Slovenija",
+    "vrsta": "muzej",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "lukovdol-memorijalni-muzej-ivana-gorana-kovacica",
+    "koordinate": {
+      "lat": 45.42815,
+      "lng": 15.1258511
+    },
+    "mesto": "Lukovdol",
+    "izvor": "https://www.openstreetmap.org/way/333577471",
+    "slika": "slike/spomenici/lukovdol-memorijalni-muzej-ivana-gorana-kovacica.webp",
+    "slikaOdnos": 1.333,
+    "slikaPotpis": "[ke], Public domain",
+    "naziv": "Memorijalni muzej Ivana Gorana Kovačića",
+    "vrsta": "muzej",
+    "drzava": "Croatia"
   }
 ]

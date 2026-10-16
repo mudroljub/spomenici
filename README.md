@@ -24,4 +24,3 @@ Provera fotografija za svih 132 tadašnja zapisa bez slike u Srbiji završena je
 
 - ponovo preći spisak bez lokacije i pokušati pronalaženje nekih (ne tražiti uklonjene naravno)
 - analizirati kako najlakše i kojim alatima napraviti mobilnu aplikaciju za android i iphone, i jel moguće zadržati deljeni kod.
-- proveriti kako izgleda spomenik sa natpisom

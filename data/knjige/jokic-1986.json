@@ -4993,11 +4993,12 @@
     "naziv": "Memorijalni muzej Kuzman Josifovski Pitu",
     "vrsta": "muzej",
     "izvor": "https://znaci.org/00003/920.pdf#page=267",
-    "izbor": "bez-lokacije",
+    "izbor": "upareno",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 4388
-    }
+      "skup": "spomeniks",
+      "cilj": "prilep-memorijalen-muzej-kuzman-josifoski-pitu"
+    },
+    "razlogObrade": "Lokacija potvrđena 2026-10-16 imenovanim OSM muzejom i nezavisnim opisom/adresom; prebačeno iz radnog spiska na mapu."
   },
   {
     "oznaka": "B-0303",
@@ -5044,7 +5045,7 @@
     "izbor": "bez-lokacije",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4389
+      "cilj": 4388
     }
   },
   {
@@ -5060,7 +5061,7 @@
     "izbor": "bez-lokacije",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4390
+      "cilj": 4389
     }
   },
   {
@@ -5457,7 +5458,7 @@
     "izbor": "bez-lokacije",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4391
+      "cilj": 4390
     }
   },
   {
@@ -5641,7 +5642,7 @@
     "izbor": "bez-lokacije",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4392
+      "cilj": 4391
     }
   },
   {
@@ -6102,7 +6103,7 @@
     "izbor": "bez-lokacije",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4393
+      "cilj": 4392
     }
   },
   {
@@ -6169,7 +6170,7 @@
     "izbor": "bez-lokacije",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4394
+      "cilj": 4393
     }
   },
   {
@@ -6206,7 +6207,7 @@
     "izbor": "bez-lokacije",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4395
+      "cilj": 4394
     }
   },
   {
@@ -6260,7 +6261,7 @@
     "izbor": "bez-lokacije",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4396
+      "cilj": 4395
     }
   },
   {
@@ -6294,7 +6295,7 @@
     "izbor": "bez-lokacije",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4397
+      "cilj": 4396
     }
   },
   {
@@ -6314,7 +6315,7 @@
     "izbor": "bez-lokacije",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4398
+      "cilj": 4397
     }
   },
   {
@@ -6366,7 +6367,7 @@
     "izbor": "bez-lokacije",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4399
+      "cilj": 4398
     }
   },
   {
@@ -6592,7 +6593,7 @@
     "izbor": "bez-lokacije",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4400
+      "cilj": 4399
     }
   },
   {
@@ -6626,7 +6627,7 @@
     "izbor": "bez-lokacije",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4401
+      "cilj": 4400
     }
   },
   {
@@ -6900,7 +6901,7 @@
     "napomena": "Konferencija održana 25. VIII 1940; u kući ratna veza, odatle Nazor i Kovačić otišli u partizane 1942.",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4402
+      "cilj": 4401
     }
   },
   {
@@ -6965,7 +6966,7 @@
     "adresa": "Obala Crnog jezera, kod Titove pećine",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4403
+      "cilj": 4402
     }
   },
   {
@@ -7044,7 +7045,7 @@
     "napomena": "Obnovljena u autentičnom izgledu 1978; to nije godina prvobitne gradnje.",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4404
+      "cilj": 4403
     }
   },
   {
@@ -7086,7 +7087,7 @@
     "adresa": "Crno jezero",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4405
+      "cilj": 4404
     }
   },
   {
@@ -7115,7 +7116,7 @@
     "adresa": "Kod mosta na Tari",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4406
+      "cilj": 4405
     }
   },
   {
@@ -7222,7 +7223,7 @@
     "napomena": "Otvoren 4. VII 1979; zasebna zgrada doma u sklopu područja.",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4407
+      "cilj": 4406
     }
   },
   {
@@ -7241,7 +7242,7 @@
     "napomena": "Sagrađena muzejska zgrada otvorena novembra 1981. Inicijal arhitekte nije proširen bez potvrde. Skulptura kameni cvijet opisana kao deo prostora muzeja.",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4408
+      "cilj": 4407
     }
   },
   {
@@ -7385,7 +7386,7 @@
     "adresa": "Kuća u kojoj je živeo 1921–1925; 7 km od Bjelovara",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4409
+      "cilj": 4408
     }
   },
   {
@@ -7397,13 +7398,14 @@
     "vrsta": "muzej",
     "drzava": "Slovenia",
     "izvor": "https://znaci.org/00003/920.pdf#page=380",
-    "izbor": "bez-lokacije",
+    "izbor": "upareno",
     "adresa": "Kuća Tomaša Godca",
     "napomena": "Spomen-soba sastanka CK KPJ je deo muzeja, nije zaseban objekat.",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 4410
-    }
+      "skup": "spomeniks",
+      "cilj": "bohinjska-bistrica-muzej-tomaza-godca"
+    },
+    "razlogObrade": "Lokacija potvrđena 2026-10-16 imenovanim OSM muzejom i nezavisnim opisom/adresom; prebačeno iz radnog spiska na mapu."
   },
   {
     "oznaka": "B-0455",
@@ -7418,7 +7420,7 @@
     "napomena": "Kuća boravka 28. XI – 20. XII 1942; nastavak opisa na PDF382.",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4411
+      "cilj": 4409
     }
   },
   {
@@ -7491,7 +7493,7 @@
     "adresa": "Bivši trapistički samostan nad levom obalom Save",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4412
+      "cilj": 4410
     }
   },
   {
@@ -7524,7 +7526,7 @@
     "adresa": "Vila Gorica",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4413
+      "cilj": 4411
     }
   },
   {
@@ -7560,7 +7562,7 @@
     "adresa": "Dvorište zatvora Stari pisker",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4414
+      "cilj": 4412
     }
   },
   {
@@ -7754,7 +7756,7 @@
     "napomena": "Natpis sadrži imena 19 talaca i 307 palih; nije prepisan spisak imena.",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4415
+      "cilj": 4413
     }
   },
   {
@@ -7836,7 +7838,7 @@
     "adresa": "Centar grada",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4416
+      "cilj": 4414
     }
   },
   {
@@ -8029,7 +8031,7 @@
     "napomena": "Životne godine Nikole Kovačevića 1890–1964 nisu godina muzeja; nije precizirano da li je u Nudolu.",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4417
+      "cilj": 4415
     }
   },
   {
@@ -8087,13 +8089,14 @@
     "vrsta": "muzej",
     "drzava": "Slovenia",
     "izvor": "https://znaci.org/00003/920.pdf#page=395",
-    "izbor": "bez-lokacije",
+    "izbor": "upareno",
     "adresa": "12 km od Idrije",
     "napomena": "Autentičan spomen-muzej u barakama štamparije, a ne neobeležena tehnika.",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 4418
-    }
+      "skup": "spomeniks",
+      "cilj": "vojsko-partizanska-tiskarna-slovenija"
+    },
+    "razlogObrade": "Lokacija potvrđena 2026-10-16 imenovanim OSM muzejom i nezavisnim opisom/adresom; prebačeno iz radnog spiska na mapu."
   },
   {
     "oznaka": "B-0497",
@@ -8158,7 +8161,7 @@
     "adresa": "Kod dvorca, bivšeg logora",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4419
+      "cilj": 4416
     }
   },
   {
@@ -8350,7 +8353,7 @@
     "napomena": "U knjizi svrstan pod Kumanovo; fizički je u Srbiji. Datumi 1944. pripadaju zasedanju, a ne muzeju.",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4420
+      "cilj": 4417
     }
   },
   {
@@ -8496,13 +8499,14 @@
     "vrsta": "muzej",
     "drzava": "Croatia",
     "izvor": "https://znaci.org/00003/920.pdf#page=406",
-    "izbor": "bez-lokacije",
+    "izbor": "upareno",
     "adresa": "Rodna kuća pesnika",
     "napomena": "Opis u poglavlju Matić Poljana; Lukovdol je kod Vrbovskog, zaseban lokalitet.",
     "upareno": {
-      "skup": "bez_lokacije",
-      "cilj": 4421
-    }
+      "skup": "spomeniks",
+      "cilj": "lukovdol-memorijalni-muzej-ivana-gorana-kovacica"
+    },
+    "razlogObrade": "Lokacija potvrđena 2026-10-16 imenovanim OSM muzejom i nezavisnim opisom/adresom; prebačeno iz radnog spiska na mapu."
   },
   {
     "oznaka": "B-0522",
@@ -8602,7 +8606,7 @@
     "napomena": "Autori sa inicijalima, ne proširivati bez provere punog teksta/skana.",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4422
+      "cilj": 4418
     }
   },
   {
@@ -8761,7 +8765,7 @@
     "izbor": "bez-lokacije",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4423
+      "cilj": 4419
     }
   },
   {
@@ -8816,7 +8820,7 @@
     "napomena": "U OCR-u Javomica; proveriti naziv pre konačnog upisa.",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4424
+      "cilj": 4420
     }
   },
   {
@@ -8889,7 +8893,7 @@
     "adresa": "Kuća narodnog heroja Miladina Popovića",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4425
+      "cilj": 4421
     }
   },
   {
@@ -9162,7 +9166,7 @@
     "napomena": "Ploča sa 144 imena; ne poistovećivati sa spomenikom 130 Prokupčana.",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4426
+      "cilj": 4422
     }
   },
   {
@@ -9178,7 +9182,7 @@
     "adresa": "Tvrđava Kaštel",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4427
+      "cilj": 4423
     }
   },
   {
@@ -9211,7 +9215,7 @@
     "napomena": "Izvor u ovom pasusu ima očigledan poremećaj redosleda rečenica; ne prepisivati nedovršene delove kao činjenice.",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4428
+      "cilj": 4424
     }
   },
   {
@@ -9257,7 +9261,7 @@
     "izbor": "bez-lokacije",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4429
+      "cilj": 4425
     }
   },
   {
@@ -9273,7 +9277,7 @@
     "adresa": "Glavni trg",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4430
+      "cilj": 4426
     }
   },
   {
@@ -9320,7 +9324,7 @@
     "adresa": "Ulica Ivana Lučića Lavčevića 15; zgrada bivše Gradske bolnice",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4431
+      "cilj": 4427
     }
   },
   {
@@ -9335,7 +9339,7 @@
     "izbor": "bez-lokacije",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4432
+      "cilj": 4428
     }
   },
   {
@@ -9455,7 +9459,7 @@
     "napomena": "Muzej i prostor za društvene aktivnosti; ne pripisivati Vanju Radauša zgradi.",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4433
+      "cilj": 4429
     }
   },
   {
@@ -9622,7 +9626,7 @@
     "autor": "Jože Valentinčič & Franc Čizman",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4434
+      "cilj": 4430
     }
   },
   {
@@ -9700,7 +9704,7 @@
     "izbor": "bez-lokacije",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4435
+      "cilj": 4431
     }
   },
   {
@@ -9716,7 +9720,7 @@
     "napomena": "Kod Velesa; obeležava marš brigade 1944, ne daje godinu podizanja.",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4436
+      "cilj": 4432
     }
   },
   {
@@ -9866,7 +9870,7 @@
     "napomena": "Datum 27. IX 1942 se odnosi na formiranje odreda, ne na podizanje.",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4437
+      "cilj": 4433
     }
   },
   {
@@ -9882,7 +9886,7 @@
     "adresa": "Crnoljevska klisura, 20 km od Uroševca prema Prizrenu",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4438
+      "cilj": 4434
     }
   },
   {
@@ -9935,7 +9939,7 @@
     "adresa": "Rodna kuća dr Ivana Ribara",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4439
+      "cilj": 4435
     }
   },
   {
@@ -9951,7 +9955,7 @@
     "napomena": "Muzej i monumentalni spomenik nisu isto; autor skulpture nije upisan zgradi muzeja.",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4440
+      "cilj": 4436
     }
   },
   {
@@ -10004,7 +10008,7 @@
     "napomena": "Dve kripte obeležene zajedničkim spomenikom.",
     "upareno": {
       "skup": "bez_lokacije",
-      "cilj": 4441
+      "cilj": 4437
     }
   },
   {
