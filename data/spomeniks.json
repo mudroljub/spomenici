@@ -59674,14 +59674,17 @@
     "drzava": "Serbia"
   },
   {
-    "id": "pinosava-rakovica-spomen-cesma-u-spomen-palim-borc",
+    "id": "beograd-rakovica-spomen-cesma-palim-borcima",
     "koordinate": {
       "lat": 44.7489078,
       "lng": 20.4384591
     },
-    "title": "Pinosava (Rakovica)",
+    "title": "Beograd (Rakovica)",
     "info": "https://www.openstreetmap.org/node/6400587027",
-    "naziv": "Spomen česma „U spomen palim borcima u Prvom i Drugom svetskom ratu”",
+    "slika": "slike/spomenici/beograd-rakovica-spomen-cesma-palim-borcima.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "Google Maps",
+    "naziv": "Spomen česma palim borcima u Prvom i Drugom svetskom ratu",
     "type": "lokalni",
     "drzava": "Serbia"
   },
