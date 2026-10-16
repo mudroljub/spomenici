@@ -68212,5 +68212,74 @@
     "autor": "Dušan Džamonja",
     "vrsta": "muzej",
     "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "husino-spomen-dom-husinske-bune",
+    "koordinate": {
+      "lat": 44.5142315,
+      "lng": 18.6108737
+    },
+    "mesto": "Husino",
+    "izvor": "https://www.spomenicinob.info/tuzla",
+    "naziv": "Spomen-dom Husinske bune",
+    "nazivEn": "Memorial hall of the Husino Rebellion",
+    "godina": "1960",
+    "vrsta": "muzej",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "plahovici-kompleks-titova-pecina",
+    "koordinate": {
+      "lat": 44.2335408,
+      "lng": 18.6669146
+    },
+    "mesto": "Plahovići",
+    "izvor": "https://www.spomenicinob.info/kladanj",
+    "naziv": "Kompleks „Titova pećina“",
+    "nazivEn": "“Tito’s Cave” complex",
+    "godina": "1951",
+    "vrsta": "kompleks",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "nemila-spomen-kosturnica-partizanskih-boraca",
+    "koordinate": {
+      "lat": 44.3309009,
+      "lng": 17.9138981
+    },
+    "mesto": "Nemila",
+    "izvor": "https://www.spomenicinob.info/zenica",
+    "naziv": "Spomen-kosturnica partizanskih boraca",
+    "nazivEn": "Memorial ossuary of Partisan fighters",
+    "godina": "1956",
+    "vrsta": "groblje",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "donja-gradina-spomen-podrucje",
+    "koordinate": {
+      "lat": 45.2695394,
+      "lng": 16.931692
+    },
+    "mesto": "Donja Gradina",
+    "izvor": "https://www.spomenicinob.info/kozarskadubica",
+    "naziv": "Spomen-područje Donja Gradina",
+    "nazivEn": "Donja Gradina Memorial Area",
+    "godina": "1988",
+    "vrsta": "kompleks",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "gradiska-spomen-park-slobode",
+    "koordinate": {
+      "lat": 45.1457979,
+      "lng": 17.2488454
+    },
+    "mesto": "Gradiška",
+    "izvor": "https://www.spomenicinob.info/gradiska",
+    "naziv": "Spomen-park palih boraca i žrtava fašističkog terora",
+    "nazivEn": "Memorial park of fallen fighters and Victims of Fascist Terror",
+    "vrsta": "kompleks",
+    "drzava": "Bosnia and Herzegovina"
   }
 ]
