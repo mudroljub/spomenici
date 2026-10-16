@@ -92,6 +92,7 @@ const praviStrelicu = tacke =>
   `<svg viewBox="0 0 24 48" preserveAspectRatio="none"><polygon points="${tacke}" fill="currentColor"/></svg>`
 
 export default class Slajder extends HTMLElement {
+  // slike su funkcije koje prave sliku, da se prave tek kad dodju na red
   constructor(slike) {
     super()
     this.slike = slike
@@ -167,7 +168,7 @@ export default class Slajder extends HTMLElement {
   dodajSlikeAkoTreba() {
     const brojUnetihSlika = this.traka.children.length
     this.slike.slice(brojUnetihSlika, brojUnetihSlika + inicijalnoSlika)
-      .forEach(slika => this.traka.appendChild(slika))
+      .forEach(dajSliku => this.traka.appendChild(dajSliku()))
   }
 
   mrdaj(jelDesno) {

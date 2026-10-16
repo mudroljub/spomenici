@@ -23154,7 +23154,7 @@
     "slika": "slike/spomenici/beograd-resnik.webp",
     "slikaOdnos": 0.562,
     "slikaPotpis": "Google Maps",
-    "naziv": "Spomenik palim borcima Crvene armije",
+    "naziv": "Spomenik palim borcima",
     "vrsta": "lokalni",
     "drzava": "Serbia"
   },
@@ -27983,8 +27983,9 @@
     },
     "mesto": "Dobrota",
     "izvor": "https://www.openstreetmap.org/node/3680237603",
-    "naziv": "Komandiru Stevu Vlahoviću i petorici Neznanih Boraca II dalmatinske brigade palih 7 i 8 XI 1944 u Dobroti",
+    "naziv": "Spomenik Stevu Vlahoviću i borcima II dalmatinske brigade",
     "nazivEn": "Monument to a Partisan Brigade",
+    "natpis": "Komandiru Stevu Vlahoviću i petorici Neznanih Boraca II dalmatinske brigade palih 7 i 8 XI 1944 u Dobroti",
     "posveta": [
       "Q117668"
     ],
@@ -28246,8 +28247,9 @@
     },
     "mesto": "Rijeka",
     "izvor": "https://www.openstreetmap.org/node/5349327667",
-    "naziv": "Gennari Mario i Duella Giuseppe, borci za bratstvo i jedinstvo Hrvata i Talijana",
+    "naziv": "Spomen-ploča Mariju Gennariju i Giuseppeu Duelli",
     "nazivEn": "Memorial plaque to Mario Gennari and Giuseppe Duella, fighters for the brotherhood and unity of Croats and Italians",
+    "natpis": "Gennari Mario i Duella Giuseppe, borci za bratstvo i jedinstvo Hrvata i Talijana",
     "vrsta": "ploca",
     "drzava": "Croatia"
   },
@@ -59179,7 +59181,8 @@
     },
     "mesto": "Kavadarci",
     "izvor": "https://www.openstreetmap.org/node/11845001868",
-    "naziv": "Народен херој Киро Атанасовски-Налбатот;Народен херој Димче Мирчев",
+    "naziv": "Спомен-обележје на народните херои Киро Атанасовски-Налбатот и Димче Мирчев",
+    "natpis": "Народен херој Киро Атанасовски-Налбатот / Народен херој Димче Мирчев",
     "posveta": [
       "Q12278749",
       "Q2334991"
@@ -59207,7 +59210,8 @@
     },
     "mesto": "Prilep (Čaršija)",
     "izvor": "https://www.openstreetmap.org/node/8048135011",
-    "naziv": "Народен Херој Кире Гаврилоски-Јане\nНароден Херој Круме Волнароски-Коле\n09-V-1944",
+    "naziv": "Спомен-обележје на народните херои Кире Гаврилоски-Јане и Круме Волнароски-Коле",
+    "natpis": "Народен Херој Кире Гаврилоски-Јане / Народен Херој Круме Волнароски-Коле / 09-V-1944",
     "posveta": [
       "Q7997885"
     ],
@@ -59222,7 +59226,8 @@
     },
     "mesto": "Pletvar",
     "izvor": "https://www.openstreetmap.org/node/8484052150",
-    "naziv": "Народен херој Борка Талески-Црниот;Народен херој Лазо Филиповски-Лавски",
+    "naziv": "Спомен-обележје на народните херои Борка Талески-Црниот и Лазо Филиповски-Лавски",
+    "natpis": "Народен херој Борка Талески-Црниот / Народен херој Лазо Филиповски-Лавски",
     "posveta": [
       "Q3406966"
     ],
@@ -59472,7 +59477,8 @@
     },
     "mesto": "Beograd (Savamala)",
     "izvor": "https://www.openstreetmap.org/node/12699414554",
-    "naziv": "Ovde je živeo učitelj Miladin Zarić koji je 20.X 1944. godine, tokom bitke za oslobođenje Beograda od nacističke okupacije, spasao Savski most od rušenja eksplozivom",
+    "naziv": "Spomen-ploča Miladinu Zariću",
+    "natpis": "Ovde je živeo učitelj Miladin Zarić koji je 20.X 1944. godine, tokom bitke za oslobođenje Beograda od nacističke okupacije, spasao Savski most od rušenja eksplozivom",
     "vrsta": "ploca",
     "drzava": "Serbia"
   },
@@ -59484,7 +59490,8 @@
     },
     "mesto": "Beograd (Skadarlija)",
     "izvor": "https://www.openstreetmap.org/node/12714391747",
-    "naziv": "Iz ove bolnice oslobođen je 30. jula 1941. godine narodni heroj Aleksandar Ranković-Marko",
+    "naziv": "Spomen-ploča oslobađanju Aleksandra Rankovića",
+    "natpis": "Iz ove bolnice oslobođen je 30. jula 1941. godine narodni heroj Aleksandar Ranković-Marko",
     "vrsta": "ploca",
     "drzava": "Serbia"
   },

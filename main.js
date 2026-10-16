@@ -26,8 +26,10 @@ const detalji = document.body.appendChild(new Detalji())
 /** @param {import('./data/tipovi').Spomenik} spomenik */
 const praviStavku = spomenik => {
   const marker = new Marker(spomenik)
-  const slika = spomenik.slika && new Slika(spomenik, marker)
-  return {spomenik, marker, slika}
+  let slika
+  // traka pravi sliku tek kad dodje na red, jer ih je hiljade
+  const dajSliku = spomenik.slika && (() => slika ??= new Slika(spomenik, marker))
+  return {spomenik, marker, dajSliku}
 }
 
 // link za deljenje (#id) otvara mapu na tom spomeniku
@@ -42,7 +44,7 @@ const otvoriIzLinka = stavke => {
 const render = (stavke, suzeno) => {
   $('#slajder-okvir').innerHTML = ''
   postaviMarkere(stavke.map(({marker}) => marker), suzeno)
-  const slike = stavke.map(({slika}) => slika).filter(Boolean)
+  const slike = stavke.map(({dajSliku}) => dajSliku).filter(Boolean)
   $('#slajder-okvir').appendChild(new Slajder(slike))
   najblizi.postavi(stavke)
 }
