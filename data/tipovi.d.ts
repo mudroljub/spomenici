@@ -1,4 +1,4 @@
-// Tip podataka u data/*.json. Pravila pisanja vrednosti (jezik naziva, pravopis, slike): docs/PLAN_ZETVE.md, odeljak 2.
+// Tip podataka u data/*.json. Pravila pisanja vrednosti (jezik naziva, pravopis, slike): .claude/skills/spomenici-zetva/references/standard.md.
 // U JS fajlu: /** @type {import('../data/tipovi').Spomenik} */
 
 export type Drzava = 'Slovenia' | 'Croatia' | 'Bosnia and Herzegovina' | 'Serbia' | 'Montenegro' | 'Macedonia' | 'Kosovo' | 'Italy'

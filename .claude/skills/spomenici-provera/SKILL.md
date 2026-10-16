@@ -73,7 +73,17 @@ Emulacija ne zamenjuje pravi telefon: za izmene izgleda reci korisniku da ih pro
 bash -c 'python -m http.server 8765 >/dev/null 2>&1 & s=$!; sleep 2; node alati/merenje.mjs; kill $s'
 ```
 
-Uporedi sa ciljevima u `docs/PLAN_OPTIMIZACIJE.md`, odeljak 4. Isto merenje varira 20–30%, pa su značajne samo veće razlike. Ako server ostane upaljen, ugasi ga kao u `scripts/aplikacija.sh`.
+Ciljevi (procesor usporen 6 puta, ekran 390 px):
+
+| Merilo | Cilj |
+|---|---|
+| Prvi obelisci (lokalno) | < 2,5 s |
+| Najduži zadatak pri otvaranju | < 0,5 s |
+| Korak zuma | < 0,2 s |
+| Slovo u pretrazi | < 0,1 s |
+| Preneto pri hladnom otvaranju | < 0,8 MB |
+
+Isto merenje varira 20–30%, pa su značajne samo veće razlike. Ako server ostane upaljen, ugasi ga kao u `scripts/aplikacija.sh`.
 
 ## Javljanje
 

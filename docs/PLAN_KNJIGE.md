@@ -1,6 +1,6 @@
 # Plan: podaci iz knjiga o spomenicima
 
-Ažurirano 2026-10-16. Plan je pisan tako da po njemu može da radi i drugi agent: šta su izvori, šta iz njih uzimamo, kojim redom, kako i kako se proverava. Pravila zapisa su u [standardu](PLAN_ZETVE.md#2-standard-zapisa-obavezno-za-svaki-novi-ili-izmenjen-spomenik), a postupak provere u skilu `spomenici-provera`.
+Ažurirano 2026-10-16. Plan je pisan tako da po njemu može da radi i drugi agent: šta su izvori, šta iz njih uzimamo, kojim redom, kako i kako se proverava. Pravila zapisa su u [standardu](../.claude/skills/spomenici-zetva/references/standard.md), a postupak provere u skilu `spomenici-provera`.
 
 ## 1. Izvori
 
