@@ -6806,15 +6806,6 @@
     "stanje": "ostecen"
   },
   {
-    "naziv": "Titov voz",
-    "nazivEn": "Tito's Train",
-    "mesto": "Oštrelj",
-    "drzava": "Bosnia and Herzegovina",
-    "godina": "1951",
-    "vrsta": "muzej",
-    "izvor": "https://www.spomenicinob.info/bosanskipetrovac"
-  },
-  {
     "naziv": "Spomenik NOB-u",
     "nazivEn": "Monument to the NOB",
     "mesto": "Krnjeuša",
@@ -14414,16 +14405,6 @@
     "vrsta": "groblje",
     "izvor": "https://www.spomenicinob.info/foca",
     "godina": "pre 1975"
-  },
-  {
-    "naziv": "Spomen-dom sa freskama",
-    "nazivEn": "Memorial hall with frescoes",
-    "mesto": "Tjentište",
-    "drzava": "Bosnia and Herzegovina",
-    "autor": "Ranko Radović & Krsto Hegedušić",
-    "godina": "1974",
-    "vrsta": "muzej",
-    "izvor": "https://www.spomenicinob.info/foca"
   },
   {
     "naziv": "Spomen-ploča logorovanju Vrhovnog štaba",
@@ -29683,16 +29664,6 @@
     "drzava": "Bosnia and Herzegovina",
     "godina": "1968",
     "vrsta": "lokalni",
-    "izvor": "https://www.spomenicinob.info/prijedor"
-  },
-  {
-    "naziv": "Muzej Nacionalnog parka Kozara",
-    "nazivEn": "Museum of Kozara National Park",
-    "mesto": "Mrakovica",
-    "drzava": "Bosnia and Herzegovina",
-    "autor": "Dušan Džamonja",
-    "godina": "1973",
-    "vrsta": "muzej",
     "izvor": "https://www.spomenicinob.info/prijedor"
   },
   {
