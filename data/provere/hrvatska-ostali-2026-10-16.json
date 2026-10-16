@@ -76,7 +76,7 @@
       "kasnijiIzvori": [],
       "datumKasnijegDokaza": null,
       "ogranicenje": "Razrešen je opisani rizik; ovo nije terenska potvrda stanja 16.10.2026.",
-      "radniIndeks": 4512,
+      "radniIndeks": 4497,
       "arhiviraneSlike": [
         "data/provere/slike/vinkovci.webp",
         "data/provere/slike/vinkovci-mala.webp"
@@ -941,7 +941,7 @@
       "kasnijiIzvori": [],
       "datumKasnijegDokaza": null,
       "ogranicenje": "Današnji ostaci, zamena i tačna lokacija nisu potvrđeni. Administrativni popis stare zaštite nije dokaz sadašnjeg opstanka.",
-      "radniIndeks": 4513
+      "radniIndeks": 4498
     },
     {
       "id": "djeletovci-spomenik-nob",
@@ -978,7 +978,7 @@
       ],
       "datumKasnijegDokaza": "2021-04-10",
       "ogranicenje": "GPS u EXIF-u i isti GPS prenet na Commons nisu dva nezavisna izvora. Pre vraćanja potvrditi tačku u Borovu naselju i identitet objekta; ne preimenovati samim verovanjem GPS-u.",
-      "radniIndeks": 4514,
+      "radniIndeks": 4499,
       "arhiviraneSlike": [
         "data/provere/slike/djeletovci-spomenik-nob.webp",
         "data/provere/slike/djeletovci-spomenik-nob-mala.webp"
@@ -1885,7 +1885,7 @@
         "scanBroj": 176,
         "izvor": "https://znaci.org/00003/736.php?broj=176"
       },
-      "radniIndeks": 4515
+      "radniIndeks": 4500
     },
     {
       "id": "jaksic-spomenik-nob",
@@ -1920,7 +1920,7 @@
         "scanBroj": 188,
         "izvor": "https://znaci.org/00003/736.php?broj=188"
       },
-      "radniIndeks": 4516
+      "radniIndeks": 4501
     },
     {
       "id": "susine-spomenik-palim-borcima-nob-a",
@@ -1957,7 +1957,7 @@
         "scanBroj": 160,
         "izvor": "https://znaci.org/00003/736.php?broj=160"
       },
-      "radniIndeks": 4517
+      "radniIndeks": 4502
     },
     {
       "id": "scitarjevo-spomenik-palim-borcima",
@@ -1992,7 +1992,7 @@
         "scanBroj": 334,
         "izvor": "https://znaci.org/00003/736.php?broj=334"
       },
-      "radniIndeks": 4518
+      "radniIndeks": 4503
     },
     {
       "id": "novi-pavljani-spomenik-nob-ostecen",
@@ -2028,7 +2028,7 @@
         "scanBroj": 28,
         "izvor": "https://znaci.org/00003/736.php?broj=28"
       },
-      "radniIndeks": 4519
+      "radniIndeks": 4504
     },
     {
       "id": "slobostina",
@@ -2068,7 +2068,7 @@
         "scanBroj": 196,
         "izvor": "https://znaci.org/00003/736.php?broj=196"
       },
-      "radniIndeks": 4520
+      "radniIndeks": 4505
     },
     {
       "id": "kupinecki-kraljevec",
