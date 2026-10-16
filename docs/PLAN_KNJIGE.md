@@ -62,6 +62,8 @@ Plan dodat 2026-10-16 na zahtev korisnika. Problem: starije knjige i preneti opi
 
 **Red rada:** prvo ovaj odeljak, zatim nastavak lociranja. Jedina lista otvorenih zadataka ostaje `README.md`, odeljak TODO. Sledećih šest koraka opisuje izvršenje tog prvog zadatka; ovaj plan sam po sebi nije izvršena provera niti nalaz o današnjem stanju 49 objekata.
 
+**Izmena obuhvata po nalogu korisnika (2026-10-16):** šira provera je obustavljena. Naknadno je odobren i završen samo [prenos stanja za 70 već povezanih spomenika](BELESKE.md#ograničen-prenos-stanja-za-70-povezanih-spomenika-2026-10-16), bez novih potraga, uz preskakanje nejasnih veza i očuvanje poznatih obnova. Preneta oznaka fizičkog oštećenja ima zaseban izvor i vidljivu godinu izdanja 2002; ne predstavlja noviju terensku potvrdu. Koraci šire provere ispod ostaju dokumentovani, ali se ne izvršavaju samostalno.
+
 ### Pravilo izvora i vremena
 
 Prvobitni izvor podataka u glavnom zapisu sačuvati. Kasnije dokaze opstanka beležiti odvojeno u evidenciji provere (`kasnijiIzvori`, datum i ograničenja), bez zamene izvornog linka samo zato što je nađen noviji dokaz.

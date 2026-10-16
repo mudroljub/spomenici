@@ -670,6 +670,12 @@
     "posveta": [
       "Q18404751"
     ],
+    "stanje": "ostecen",
+    "stanjeIzvor": {
+      "naziv": "Hrženjak",
+      "godina": 2002,
+      "url": "https://znaci.org/00003/736.php?broj=241"
+    },
     "vrsta": "istaknut",
     "drzava": "Croatia"
   },
@@ -5446,6 +5452,12 @@
     "slika": "slike/spomenici/petrova-gora-partisan-hospital.webp",
     "slikaOdnos": 1.429,
     "naziv": "Centralna partizanska bolnica",
+    "stanje": "ostecen",
+    "stanjeIzvor": {
+      "naziv": "Hrženjak",
+      "godina": 2002,
+      "url": "https://znaci.org/00003/736.php?broj=102"
+    },
     "vrsta": "muzej",
     "drzava": "Croatia"
   },
@@ -5712,6 +5724,12 @@
     "nazivEn": "Monument to the Uprising",
     "godina": "1949",
     "autor": "Kosta Angeli Radovani",
+    "stanje": "ostecen",
+    "stanjeIzvor": {
+      "naziv": "Hrženjak",
+      "godina": 2002,
+      "url": "https://znaci.org/00003/736.php?broj=94"
+    },
     "vrsta": "statua",
     "drzava": "Croatia"
   },
@@ -6149,6 +6167,12 @@
     "nazivEn": "Monument to the Istrian Uprising",
     "godina": "1952",
     "autor": "Vanja Radauš",
+    "stanje": "ostecen",
+    "stanjeIzvor": {
+      "naziv": "Hrženjak",
+      "godina": 2002,
+      "url": "https://znaci.org/00003/736.php?broj=83"
+    },
     "vrsta": "statua",
     "drzava": "Croatia"
   },
@@ -6599,6 +6623,12 @@
     "posveta": [
       "Q3299011"
     ],
+    "stanje": "ostecen",
+    "stanjeIzvor": {
+      "naziv": "Hrženjak",
+      "godina": 2002,
+      "url": "https://znaci.org/00003/736.php?broj=295"
+    },
     "vrsta": "groblje",
     "drzava": "Croatia"
   },
@@ -6867,6 +6897,12 @@
     "naziv": "Spomenik Solinskom partizanskom odredu",
     "nazivEn": "Monument to Solin Partisan Detachment",
     "godina": "1968",
+    "stanje": "ostecen",
+    "stanjeIzvor": {
+      "naziv": "Hrženjak",
+      "godina": 2002,
+      "url": "https://znaci.org/00003/736.php?broj=249"
+    },
     "vrsta": "spomenik",
     "drzava": "Croatia"
   },
@@ -7597,6 +7633,12 @@
     "naziv": "Spomenik palim borcima",
     "nazivEn": "Monument to Fallen Fighters",
     "godina": "1977",
+    "stanje": "ostecen",
+    "stanjeIzvor": {
+      "naziv": "Hrženjak",
+      "godina": 2002,
+      "url": "https://znaci.org/00003/736.php?broj=245"
+    },
     "vrsta": "statua",
     "drzava": "Croatia"
   },
@@ -8483,6 +8525,12 @@
     "slikaOdnos": 1.667,
     "naziv": "Spomenik palim borcima",
     "nazivEn": "Monument to Fallen Fighters",
+    "stanje": "ostecen",
+    "stanjeIzvor": {
+      "naziv": "Hrženjak",
+      "godina": 2002,
+      "url": "https://znaci.org/00003/736.php?broj=260"
+    },
     "vrsta": "spomenik",
     "drzava": "Croatia"
   },
@@ -9165,6 +9213,12 @@
     "nazivEn": "Monument to Fallen Fighters",
     "godina": "1950",
     "autor": "Mirko Ostoja",
+    "stanje": "ostecen",
+    "stanjeIzvor": {
+      "naziv": "Hrženjak",
+      "godina": 2002,
+      "url": "https://znaci.org/00003/736.php?broj=73"
+    },
     "vrsta": "statua",
     "drzava": "Croatia"
   },
@@ -9644,6 +9698,12 @@
     "nazivEn": "Monument to Fallen Fighters",
     "godina": "1954",
     "autor": "Stanislav Mišić",
+    "stanje": "ostecen",
+    "stanjeIzvor": {
+      "naziv": "Hrženjak",
+      "godina": 2002,
+      "url": "https://znaci.org/00003/736.php?broj=52"
+    },
     "vrsta": "spomenik",
     "drzava": "Croatia"
   },
@@ -9777,6 +9837,12 @@
     "posveta": [
       "Q17490543"
     ],
+    "stanje": "ostecen",
+    "stanjeIzvor": {
+      "naziv": "Hrženjak",
+      "godina": 2002,
+      "url": "https://znaci.org/00003/736.php?broj=107"
+    },
     "vrsta": "spomenik",
     "drzava": "Croatia"
   },
@@ -10134,6 +10200,12 @@
     "nazivEn": "Monument to Fallen Fighters and Victims on Gradina Hill",
     "godina": "1950",
     "autor": "Miroslav Vertačnik",
+    "stanje": "ostecen",
+    "stanjeIzvor": {
+      "naziv": "Hrženjak",
+      "godina": 2002,
+      "url": "https://znaci.org/00003/736.php?broj=127"
+    },
     "vrsta": "spomenik",
     "drzava": "Croatia"
   },
@@ -10277,6 +10349,12 @@
     "naziv": "Spomenik palim borcima",
     "nazivEn": "Monument to Fallen Fighters [aka: Winners]",
     "godina": "1976",
+    "stanje": "ostecen",
+    "stanjeIzvor": {
+      "naziv": "Hrženjak",
+      "godina": 2002,
+      "url": "https://znaci.org/00003/736.php?broj=117"
+    },
     "vrsta": "statua",
     "drzava": "Croatia"
   },
@@ -11145,6 +11223,12 @@
     "naziv": "Spomenik palim borcima i žrtvama",
     "nazivEn": "Monument to Fallen Fighters & Victims",
     "godina": "1985",
+    "stanje": "ostecen",
+    "stanjeIzvor": {
+      "naziv": "Hrženjak",
+      "godina": 2002,
+      "url": "https://znaci.org/00003/736.php?broj=96"
+    },
     "vrsta": "spomenik",
     "drzava": "Croatia"
   },
@@ -12356,6 +12440,12 @@
     "naziv": "Spomenik palim borcima",
     "nazivEn": "Monument to Fallen Fighters",
     "godina": "1981",
+    "stanje": "ostecen",
+    "stanjeIzvor": {
+      "naziv": "Hrženjak",
+      "godina": 2002,
+      "url": "https://znaci.org/00003/736.php?broj=246"
+    },
     "vrsta": "spomenik",
     "drzava": "Croatia"
   },
@@ -12724,6 +12814,12 @@
     "naziv": "Spomenik palim borcima i žrtvama fašističkog terora Dugo Selo",
     "nazivEn": "Monument to Fallen Fighters",
     "godina": "1950",
+    "stanje": "ostecen",
+    "stanjeIzvor": {
+      "naziv": "Hrženjak",
+      "godina": 2002,
+      "url": "https://znaci.org/00003/736.php?broj=319"
+    },
     "vrsta": "statua",
     "drzava": "Croatia"
   },
@@ -13472,6 +13568,12 @@
     "slikaOdnos": 1.336,
     "slikaPotpis": "Quahadi, CC BY-SA 3.0",
     "naziv": "Spomenik palim borcima NOB-a",
+    "stanje": "ostecen",
+    "stanjeIzvor": {
+      "naziv": "Hrženjak",
+      "godina": 2002,
+      "url": "https://znaci.org/00003/736.php?broj=76"
+    },
     "vrsta": "statua",
     "drzava": "Croatia"
   },
@@ -13793,6 +13895,12 @@
     "slikaPotpis": "Flammard, CC BY-SA 3.0",
     "naziv": "Spomenik žrtvama fašizma",
     "godina": "1968",
+    "stanje": "ostecen",
+    "stanjeIzvor": {
+      "naziv": "Hrženjak",
+      "godina": 2002,
+      "url": "https://znaci.org/00003/736.php?broj=166"
+    },
     "vrsta": "spomenik",
     "drzava": "Croatia"
   },
@@ -15932,6 +16040,12 @@
     "slikaOdnos": 1.633,
     "slikaPotpis": "Google Maps",
     "naziv": "Spomenik NOB-u",
+    "stanje": "ostecen",
+    "stanjeIzvor": {
+      "naziv": "Hrženjak",
+      "godina": 2002,
+      "url": "https://znaci.org/00003/736.php?broj=82"
+    },
     "vrsta": "lokalni",
     "drzava": "Croatia"
   },
@@ -19343,6 +19457,12 @@
     "slikaOdnos": 0.75,
     "slikaPotpis": "Google Maps",
     "naziv": "Spomenik NOB-u",
+    "stanje": "ostecen",
+    "stanjeIzvor": {
+      "naziv": "Hrženjak",
+      "godina": 2002,
+      "url": "https://znaci.org/00003/736.php?broj=283"
+    },
     "vrsta": "lokalni",
     "drzava": "Croatia"
   },
@@ -19621,6 +19741,12 @@
     "slikaOdnos": 0.75,
     "slikaPotpis": "Google Maps",
     "naziv": "Spomenik NOB-u",
+    "stanje": "ostecen",
+    "stanjeIzvor": {
+      "naziv": "Hrženjak",
+      "godina": 2002,
+      "url": "https://znaci.org/00003/736.php?broj=104"
+    },
     "vrsta": "lokalni",
     "drzava": "Croatia"
   },
@@ -19696,6 +19822,12 @@
     "slikaOdnos": 0.485,
     "slikaPotpis": "Google Maps",
     "naziv": "Spomenik NOB-u",
+    "stanje": "ostecen",
+    "stanjeIzvor": {
+      "naziv": "Hrženjak",
+      "godina": 2002,
+      "url": "https://znaci.org/00003/736.php?broj=89"
+    },
     "vrsta": "lokalni",
     "drzava": "Croatia"
   },
@@ -20298,6 +20430,12 @@
     "slikaOdnos": 1.333,
     "slikaPotpis": "Google Maps",
     "naziv": "Spomenik NOB-u",
+    "stanje": "ostecen",
+    "stanjeIzvor": {
+      "naziv": "Hrženjak",
+      "godina": 2002,
+      "url": "https://znaci.org/00003/736.php?broj=248"
+    },
     "vrsta": "lokalni",
     "drzava": "Croatia"
   },
@@ -21524,6 +21662,12 @@
     "googleCid": "1776421885719972101",
     "mesto": "Ćeralije",
     "naziv": "Spomenik NOB-u",
+    "stanje": "ostecen",
+    "stanjeIzvor": {
+      "naziv": "Hrženjak",
+      "godina": 2002,
+      "url": "https://znaci.org/00003/736.php?broj=285"
+    },
     "vrsta": "lokalni",
     "drzava": "Croatia"
   },
@@ -21936,6 +22080,12 @@
     "googleCid": "2792934718580493688",
     "mesto": "Sumartin",
     "naziv": "Spomenik NOB-u",
+    "stanje": "ostecen",
+    "stanjeIzvor": {
+      "naziv": "Hrženjak",
+      "godina": 2002,
+      "url": "https://znaci.org/00003/736.php?broj=234"
+    },
     "vrsta": "lokalni",
     "drzava": "Croatia"
   },
@@ -22062,6 +22212,12 @@
     "googleCid": "9494110963379408504",
     "mesto": "Gornja Voća",
     "naziv": "Spomenik NOB-u",
+    "stanje": "ostecen",
+    "stanjeIzvor": {
+      "naziv": "Hrženjak",
+      "godina": 2002,
+      "url": "https://znaci.org/00003/736.php?broj=275"
+    },
     "vrsta": "lokalni",
     "drzava": "Croatia"
   },
@@ -23212,6 +23368,12 @@
     "googleCid": "4365635326183825026",
     "mesto": "Seget Donji",
     "naziv": "Spomenik palim borcima i žrtvama fašističkog terora Segeta Donjeg i Seget Vranjice",
+    "stanje": "ostecen",
+    "stanjeIzvor": {
+      "naziv": "Hrženjak",
+      "godina": 2002,
+      "url": "https://znaci.org/00003/736.php?broj=258"
+    },
     "vrsta": "lokalni",
     "drzava": "Croatia"
   },
@@ -24559,6 +24721,12 @@
     "slikaOdnos": 0.75,
     "slikaPotpis": "Google Maps",
     "naziv": "Spomenik palim borcima",
+    "stanje": "ostecen",
+    "stanjeIzvor": {
+      "naziv": "Hrženjak",
+      "godina": 2002,
+      "url": "https://znaci.org/00003/736.php?broj=113"
+    },
     "vrsta": "lokalni",
     "drzava": "Croatia"
   },
@@ -24785,6 +24953,12 @@
     "slikaOdnos": 1.504,
     "slikaPotpis": "Google Maps",
     "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+    "stanje": "ostecen",
+    "stanjeIzvor": {
+      "naziv": "Hrženjak",
+      "godina": 2002,
+      "url": "https://znaci.org/00003/736.php?broj=97"
+    },
     "vrsta": "spomenik",
     "drzava": "Croatia"
   },
@@ -24875,6 +25049,12 @@
     "slikaOdnos": 0.46,
     "slikaPotpis": "Google Maps",
     "naziv": "Spomenik narodne revolucije",
+    "stanje": "ostecen",
+    "stanjeIzvor": {
+      "naziv": "Hrženjak",
+      "godina": 2002,
+      "url": "https://znaci.org/00003/736.php?broj=234"
+    },
     "vrsta": "spomenik",
     "drzava": "Croatia"
   },
@@ -57207,6 +57387,12 @@
     "mesto": "Kerestinec",
     "izvor": "https://www.openstreetmap.org/node/9080100557",
     "naziv": "Spomenik žrtvama proboja iz logora 1941.",
+    "stanje": "ostecen",
+    "stanjeIzvor": {
+      "naziv": "Hrženjak",
+      "godina": 2002,
+      "url": "https://znaci.org/00003/736.php?broj=330"
+    },
     "vrsta": "lokalni",
     "drzava": "Croatia"
   },
@@ -57231,6 +57417,12 @@
     "mesto": "Kloštar Ivanić",
     "izvor": "https://www.openstreetmap.org/node/13482672170",
     "naziv": "Spomenik NOB-u",
+    "stanje": "ostecen",
+    "stanjeIzvor": {
+      "naziv": "Hrženjak",
+      "godina": 2002,
+      "url": "https://znaci.org/00003/736.php?broj=322"
+    },
     "vrsta": "lokalni",
     "drzava": "Croatia"
   },
@@ -57703,6 +57895,12 @@
     "mesto": "Mičevec",
     "izvor": "https://www.openstreetmap.org/node/8702053279",
     "naziv": "Žrtvama NOB-a",
+    "stanje": "ostecen",
+    "stanjeIzvor": {
+      "naziv": "Hrženjak",
+      "godina": 2002,
+      "url": "https://znaci.org/00003/736.php?broj=335"
+    },
     "vrsta": "lokalni",
     "drzava": "Croatia"
   },
@@ -58113,6 +58311,12 @@
     "mesto": "Rogoznica",
     "izvor": "https://www.openstreetmap.org/node/3726813523",
     "naziv": "Poginuli borci u NOB-u 1941-1945",
+    "stanje": "ostecen",
+    "stanjeIzvor": {
+      "naziv": "Hrženjak",
+      "godina": 2002,
+      "url": "https://znaci.org/00003/736.php?broj=265"
+    },
     "vrsta": "lokalni",
     "drzava": "Croatia"
   },
@@ -58699,6 +58903,12 @@
     "slikaOdnos": 1.333,
     "slikaPotpis": "Eranyo, CC BY 3.0",
     "naziv": "Spomenik palim borcima NOB-a",
+    "stanje": "ostecen",
+    "stanjeIzvor": {
+      "naziv": "Hrženjak",
+      "godina": 2002,
+      "url": "https://znaci.org/00003/736.php?broj=340"
+    },
     "vrsta": "lokalni",
     "drzava": "Croatia"
   },
@@ -61983,6 +62193,12 @@
     "slikaOdnos": 0.474,
     "slikaPotpis": "Zblace, CC BY-SA 4.0",
     "naziv": "Spomenik žrtvama Drugog svjetskog rata",
+    "stanje": "ostecen",
+    "stanjeIzvor": {
+      "naziv": "Hrženjak",
+      "godina": 2002,
+      "url": "https://znaci.org/00003/736.php?broj=241"
+    },
     "vrsta": "lokalni",
     "drzava": "Croatia"
   },
@@ -65245,6 +65461,12 @@
     "slikaPotpis": "Annebethmi, CC BY-SA 3.0",
     "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
     "nazivEn": "Monument to Fallen Fighters and Victims of Fascism",
+    "stanje": "ostecen",
+    "stanjeIzvor": {
+      "naziv": "Hrženjak",
+      "godina": 2002,
+      "url": "https://znaci.org/00003/736.php?broj=85"
+    },
     "vrsta": "lokalni",
     "drzava": "Croatia"
   },
@@ -65854,6 +66076,12 @@
     "slikaOdnos": 1.333,
     "slikaPotpis": "Eranyo, CC BY 3.0",
     "naziv": "Partizanski spomenik",
+    "stanje": "ostecen",
+    "stanjeIzvor": {
+      "naziv": "Hrženjak",
+      "godina": 2002,
+      "url": "https://znaci.org/00003/736.php?broj=321"
+    },
     "vrsta": "lokalni",
     "drzava": "Croatia"
   },
@@ -66139,6 +66367,12 @@
     "naziv": "Spomenik palim borcima NOVJ",
     "godina": "1962",
     "autor": "T. Ostoja",
+    "stanje": "ostecen",
+    "stanjeIzvor": {
+      "naziv": "Hrženjak",
+      "godina": 2002,
+      "url": "https://znaci.org/00003/736.php?broj=365"
+    },
     "vrsta": "lokalni",
     "drzava": "Croatia"
   },
@@ -66704,6 +66938,12 @@
     "posveta": [
       "Q7919085"
     ],
+    "stanje": "ostecen",
+    "stanjeIzvor": {
+      "naziv": "Hrženjak",
+      "godina": 2002,
+      "url": "https://znaci.org/00003/736.php?broj=101"
+    },
     "vrsta": "groblje",
     "drzava": "Croatia"
   },
