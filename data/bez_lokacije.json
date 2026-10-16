@@ -43240,5 +43240,111 @@
     "autor": "Pavle Perić",
     "vrsta": "lokalni",
     "adresa": "Gornje Vrapče"
+  },
+  {
+    "mesto": "Krapina",
+    "izvor": "https://znaci.org/00003/667.pdf#page=16",
+    "naziv": "Spomen-kosturnica palim borcima",
+    "godina": "1958",
+    "vrsta": "groblje",
+    "drzava": "Croatia",
+    "adresa": "Gradsko groblje, kod srednjeg ulaza"
+  },
+  {
+    "mesto": "Radoboj",
+    "izvor": "https://znaci.org/00003/667.pdf#page=19",
+    "naziv": "Spomen-kosturnica nepoznatim borcima NOR-a",
+    "godina": "1964",
+    "natpis": "U SPOMEN NEPOZNATIM BORCIMA NARODNO-OSLOBODILAČKOG RATA PALIH NA PODRUČJU RADOBOJA TOKOM 1941—1945. GODINE\nMjesna organizacija Saveza boraca\nRadoboj 1964. (7 lipnja)",
+    "vrsta": "groblje",
+    "drzava": "Croatia",
+    "adresa": "Mjesno groblje"
+  },
+  {
+    "mesto": "Petrovsko",
+    "izvor": "https://znaci.org/00003/667.pdf#page=20",
+    "naziv": "Spomenik palim borcima",
+    "godina": "1965",
+    "natpis": "SPOMENIK PALIM BORCIMA PODIŽE MJES. ORG. SB-a NOR-a\nPETROVSKO 1965.\n\nPALI BORCI\nAntolić Eduard\nBelošević Franjo\nBolfek Mirko\nDunaj Janko\nDunaj Ljudevit\nFaget Dragutin\nFaget Milan\nFaget Ivan\nFaget Konrad\nFrljužec Slavko\nGajšak Ignac\nGolec Dragutin\nGolub Franjo\nHerak Zlatko\nHršak Slavko\nJagić Janko\nKozina Eduard\nKunštek Josip\nKunštek Barica\nKunštek Cvijeta\nLeljak Vladimir\nMališ August\nMališ Ignac\nMakar Dragica\nMužar Ivan\nMužek Marko\nMužek Slavko\nOvčar Ivan\nOstreš Milan\nPapeš Petar\nPodgajski Franjo\n\nPondeljak Dragutin\nPoslončec Janko\nPoslon Janko\nPožgaj Marija\nPožgaj Franjo\nPuh Janko\nRumbak Stjepan\nSever Josipa\nSopek Janko\nŠanjug Julijus\nŠanjug Mato\nŠkrnjug Mijo\nŠkrlec Dragutin\nŠpaniček Živko\nVučilovski Janko\nZrinjščak Franjo\nŽivičnjak Florijan\nŽivičnjak Julije\n\nŽRTVE FAŠISTIČKOG TERORA\nAntolić Antun\nFaget Josip\nGolec Josip\nGmajner Antun\nHriberski Mijo\nHršak Vladimir\nJugec Slavko\nKoret Tito\nKoret Slavko\nLeljak Dragutin\nLeljak Mirko\nPresečki Stjepan\nVrhovski Franjo\nVučilovski Pavao",
+    "vrsta": "statua",
+    "drzava": "Croatia",
+    "adresa": "Ispred Osnovne škole Petrovsko"
+  },
+  {
+    "mesto": "Žutnica",
+    "izvor": "https://znaci.org/00003/667.pdf#page=24",
+    "naziv": "Spomenik palim radnicima Krapinske tekstilne industrije",
+    "godina": "1966",
+    "vrsta": "spomenik",
+    "drzava": "Croatia",
+    "adresa": "Između tvorničkih hala Krapinske tekstilne industrije"
+  },
+  {
+    "mesto": "Jesenje",
+    "izvor": "https://znaci.org/00003/667.pdf#page=26",
+    "naziv": "Spomenik NOB-u",
+    "godina": "1952",
+    "autor": "Vjekoslav Rukljač",
+    "vrsta": "spomenik",
+    "drzava": "Croatia",
+    "adresa": "Pred zadružnim domom"
+  },
+  {
+    "mesto": "Đurmanec",
+    "izvor": "https://znaci.org/00003/667.pdf#page=27",
+    "naziv": "Spomen-kosturnica palim borcima",
+    "godina": "1959",
+    "vrsta": "groblje",
+    "drzava": "Croatia",
+    "adresa": "Mesno groblje"
+  },
+  {
+    "mesto": "Hum na Sutli",
+    "izvor": "https://znaci.org/00003/667.pdf#page=34",
+    "naziv": "Spomen-obelisk palim borcima",
+    "godina": "1963",
+    "vrsta": "lokalni",
+    "drzava": "Croatia",
+    "adresa": "Raskršće prema Prišlinu (Mali Tabor) i Druškovcu–Pregradi"
+  },
+  {
+    "mesto": "Druškovec",
+    "izvor": "https://znaci.org/00003/667.pdf#page=35",
+    "naziv": "Spomenik palim borcima područja općine Hum na Sutli",
+    "godina": "1955",
+    "natpis": "U SPOMEN PALIM BORCIMA NOR 1941 — 1945. PODRUČJA OPĆINE HUM N./S.\nSAVEZ BORACA NOR OPĆINE HUM N. S.\n15. V 1955.",
+    "vrsta": "lokalni",
+    "drzava": "Croatia",
+    "adresa": "Dolina sela Druškovec"
+  },
+  {
+    "mesto": "Pregrada",
+    "izvor": "https://znaci.org/00003/667.pdf#page=37",
+    "naziv": "Spomen-kosturnica Ede Leskovara i Franje Tkalca",
+    "godina": "1961",
+    "natpis": "ODAKLE STE? ZNAMO! TKO VAM JE DAO SNAGU DA PREZIRETE SMRT? I TO ZNAMO — PARTIJA! CRVENO ZNAMENJE NAŠE REVOLUCIJE, VIHOR OSLOBODILAČKOG RATA, TEŽNJA ZA SLOBODOM I SRETNOM BUDUĆNOŠĆU NACIJE!\n\nEDO LESKOVAR sekretar okružnog komiteta KPH za okrug Krapina, poginuo lipnja 1942.\n\nTKALEC FRANJO zamjenik komandanta bataljona zagorskog partizanskog odreda, poginuo studenoga 1943.\n\nVJERNIM SINOVIMA SVOGA NARODA U POVODU 20-GODIŠNJICE USTANKA NARODA JUGOSLAVIJE PODIŽE\n\nKotarski komitet saveza komunista i Kotarski odbor saveza boraca kotara Krapine 1961. godine",
+    "vrsta": "groblje",
+    "drzava": "Croatia",
+    "adresa": "Mesno groblje, levo od glavnog ulaza"
+  },
+  {
+    "mesto": "Vinagora",
+    "izvor": "https://znaci.org/00003/667.pdf#page=42",
+    "naziv": "Zajednička grobnica Josipa Jutriše-Janka, Mate i Mije Jutriše",
+    "godina": "1962",
+    "natpis": "SVOJE ŽIVOTE UGRADILI SMO U TEMELJE SOCIJALISTIČKE DOMOVINE, A VAS ZADUŽUJEMO DA ČUVATE TEKOVINE NARODNE REVOLUCIJE, I DA SE BORITE ZA SRETNU BUDUĆNOST NAŠEG POKOLJENJA\nJUTRIŠA JOSIP - JANKO Narodni heroj, Komandant bataljona Zagorskog partizanskog odreda Hrvatske, poginuo 1944. JUTRIŠA MATO Terenski radnik NOP, strijeljan 1944. JUTRIŠA MIJO Terenski radnik NOP, poginuo 1946.\n\nVJERNIM SINOVIMA SVOGA NARODA U ČAST DANA USTANKA NARODA HRVATSKE PODIŽE\n\nOpćinski odbor saveza boraca NOR Pregrada\n\nVinagora, 27. VII 1962.",
+    "vrsta": "groblje",
+    "drzava": "Croatia",
+    "adresa": "Na uzvisini Vinagore"
+  },
+  {
+    "mesto": "Desinić",
+    "izvor": "https://znaci.org/00003/667.pdf#page=45",
+    "naziv": "Spomenik palim borcima Desinića i Vinagore",
+    "godina": "1964",
+    "natpis": "PALIM BORCIMA U NARODNOJ REVOLUCIJI\nNAROD DESINIĆA I VINAGORE\n4. VII 1964.",
+    "vrsta": "statua",
+    "drzava": "Croatia",
+    "adresa": "Mali park pre centra Desinića, nedaleko od kućice povezane s Đurom Prejcem"
   }
 ]

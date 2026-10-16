@@ -41,7 +41,7 @@ Ažurirano 2026-10-16. Plan je pisan tako da po njemu može da radi i drugi agen
 Po odnosu koristi i truda:
 
 1. **A — Zagreb (1981).** Urađeno 2026-10-16 (`data/knjige/zagreb-1981.json`, beleška u `docs/BELESKE.md`). Najviše gotovih adresa, pa i najviše spomenika koji se mogu odmah locirati; baza za Zagreb ima samo 35 spomenika (4 ploče, 22 bez autora), pa je većina knjige novo.
-2. **D — Krapina (1966).** Mala (50 strana), dobra proba celog postupka pre velikih knjiga. Može i pre A, kao proba.
+2. **D — Krapina (1966).** Obrađeno 2026-10-16: svih 50 strana, 35 sirovih zapisa u `data/knjige/krapina-1966.json`, godina dopunjena za Marince, 11 novih obeležja u `data/bez_lokacije.json`. Položaji novih nisu potvrđeni; sporna čitanja i izuzeci opisani su u `docs/BELESKE.md`.
 3. **B — Jokić (1986).** Autori, godine i zvanični nazivi većih spomenika u celoj zemlji; malo novih spomenika, mnogo dopuna.
 4. **E — Šibenik (1980).** Dobar tekst i potpun popis po naseljima jednog kraja; posle B, da se veći spomenici uparuju samo jednom.
 5. **C — Hrženjak.** Poslednja: uglavnom opisuje srušene spomenike, koji putniku ne trebaju; traži preuzimanje 436 slika, a korisni su samo spomenici koji i dalje stoje.
