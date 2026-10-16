@@ -5959,15 +5959,6 @@
     "izvor": "https://www.spomenicinob.info/bosanskakrupa"
   },
   {
-    "naziv": "Bista Safeta Krupića",
-    "nazivEn": "Bust of Safet Krupić",
-    "mesto": "Bosanska Krupa",
-    "adresa": "Safet Krupić high school; Inside the school",
-    "drzava": "Bosnia and Herzegovina",
-    "vrsta": "bista",
-    "izvor": "https://www.spomenicinob.info/bosanskakrupa"
-  },
-  {
     "naziv": "Bista Lepe Radić",
     "nazivEn": "Bust of Lepa Radić",
     "mesto": "Bosanska Krupa",
@@ -11723,17 +11714,6 @@
     "izvor": "https://www.spomenicinob.info/centarsarajevo"
   },
   {
-    "naziv": "Vječna vatra",
-    "nazivEn": "Eternal Flame",
-    "mesto": "Sarajevo (Trg Oslobođenja)",
-    "adresa": "Ferhadija bb.",
-    "drzava": "Bosnia and Herzegovina",
-    "autor": "Juraj Neidhart",
-    "godina": "1946",
-    "vrsta": "lokalni",
-    "izvor": "https://www.spomenicinob.info/centarsarajevo"
-  },
-  {
     "naziv": "Spomen-ploča Udruženju književnika BiH i SOUR-u Svjetlost",
     "nazivEn": "Plaque to commemorate Udruženje Književnika BiH & SOUR Svjetlost",
     "mesto": "Sarajevo (Trg Oslobođenja)",
@@ -13580,15 +13560,6 @@
     "godina": "1973",
     "stanje": "uklonjen",
     "vrsta": "lokalni",
-    "izvor": "https://www.spomenicinob.info/drvar"
-  },
-  {
-    "naziv": "Titova pećina",
-    "nazivEn": "Tito's Cave",
-    "mesto": "Drvar",
-    "adresa": "Across River Unac from town centre",
-    "drzava": "Bosnia and Herzegovina",
-    "vrsta": "muzej",
     "izvor": "https://www.spomenicinob.info/drvar"
   },
   {
@@ -43207,15 +43178,6 @@
   },
   {
     "naziv": "Spomenik palim borcima",
-    "mesto": "Zagreb (Horvati)",
-    "drzava": "Croatia",
-    "izvor": "https://znaci.org/00003/679.pdf#page=466",
-    "godina": "1961",
-    "vrsta": "lokalni",
-    "adresa": "Horvati"
-  },
-  {
-    "naziv": "Spomenik palim borcima",
     "mesto": "Zagreb (Pleso)",
     "drzava": "Croatia",
     "izvor": "https://znaci.org/00003/679.pdf#page=469",
@@ -43413,14 +43375,6 @@
     "vrsta": "spomenik",
     "drzava": "Serbia",
     "adresa": "Studentski trg, mesto nekadašnjeg zatvora Glavnjača"
-  },
-  {
-    "mesto": "Beograd",
-    "izvor": "https://znaci.org/00003/920.pdf#page=49",
-    "naziv": "Kuća cveća",
-    "godina": "1975",
-    "vrsta": "muzej",
-    "drzava": "Serbia"
   },
   {
     "mesto": "Trnavac",
@@ -43757,14 +43711,6 @@
     "izvor": "https://znaci.org/00003/920.pdf#page=320",
     "naziv": "Spomenik poginulim u eksploziji partizanske fabrike oružja",
     "autor": "Boris Anastasijević",
-    "vrsta": "spomenik",
-    "drzava": "Serbia"
-  },
-  {
-    "mesto": "Užice",
-    "izvor": "https://znaci.org/00003/920.pdf#page=320",
-    "naziv": "Spomenik „Lomača“",
-    "autor": "Milica Ribnikar-Bogunović & Uglješa Bogunović",
     "vrsta": "spomenik",
     "drzava": "Serbia"
   },

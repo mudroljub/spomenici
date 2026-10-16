@@ -66988,5 +66988,650 @@
     "autor": "Dušan Samec & Peter Černe",
     "vrsta": "spomenik",
     "drzava": "Slovenia"
+  },
+  {
+    "id": "jakovlje-spomenik-palim-borcima-i-zrtvama",
+    "koordinate": {
+      "lat": 45.9459194,
+      "lng": 15.8477113
+    },
+    "mesto": "Jakovlje",
+    "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/10/",
+    "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+    "godina": "1961",
+    "autor": "Stanislav Mišić",
+    "vrsta": "spomenik",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "oborovo-bistransko-spomen-ploca-palim-borcima-i",
+    "koordinate": {
+      "lat": 45.912319,
+      "lng": 15.8829234
+    },
+    "mesto": "Oborovo Bistransko",
+    "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/23/",
+    "naziv": "Spomen-ploča palim borcima i žrtvama fašističkog terora",
+    "vrsta": "ploca",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "luka-spomenik-palim-borcima-i-zrtvama-fasistickog",
+    "koordinate": {
+      "lat": 45.9592315,
+      "lng": 15.8195439
+    },
+    "mesto": "Luka",
+    "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/134/",
+    "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+    "godina": "1971",
+    "vrsta": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "zejinci-spomenik-borbi-kalnickog-partizanskog",
+    "koordinate": {
+      "lat": 45.9774175,
+      "lng": 15.8341902
+    },
+    "mesto": "Žejinci",
+    "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/180/",
+    "naziv": "Spomenik borbi Kalničkog partizanskog odreda",
+    "godina": "1987",
+    "autor": "Miljenko Matas",
+    "vrsta": "spomenik",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "brod-na-kupi-spomenik-palim-borcima",
+    "koordinate": {
+      "lat": 45.462739,
+      "lng": 14.853838
+    },
+    "mesto": "Brod na Kupi",
+    "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/220/",
+    "naziv": "Spomenik palim borcima",
+    "vrsta": "statua",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "ljubosina-spomenik-ustanka-i-nor-a",
+    "koordinate": {
+      "lat": 45.3202161,
+      "lng": 15.1622102
+    },
+    "mesto": "Ljubošina",
+    "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/245/",
+    "naziv": "Spomenik ustanka i NOR-a",
+    "godina": "1955",
+    "vrsta": "statua",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "skrad-spomenik-palim-borcima-i-zrtvama-fasizma",
+    "koordinate": {
+      "lat": 45.4319367,
+      "lng": 14.9175069
+    },
+    "mesto": "Skrad",
+    "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/247/",
+    "naziv": "Spomenik palim borcima i žrtvama fašizma",
+    "vrsta": "statua",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "gerovo-spomenik-palim-borcima",
+    "koordinate": {
+      "lat": 45.5149659,
+      "lng": 14.6406869
+    },
+    "mesto": "Gerovo",
+    "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/42/",
+    "naziv": "Spomenik palim borcima",
+    "vrsta": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "zagreb-horvati-spomenik-palim-borcima-i-zrtvama",
+    "koordinate": {
+      "lat": 45.7131682,
+      "lng": 15.8173988
+    },
+    "mesto": "Zagreb (Horvati)",
+    "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/7/",
+    "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+    "godina": "1961",
+    "autor": "Vjekoslav Rukljač",
+    "vrsta": "statua",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "cabar-spomenik-nor-u",
+    "koordinate": {
+      "lat": 45.5962984,
+      "lng": 14.6466938
+    },
+    "mesto": "Čabar",
+    "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/133/",
+    "naziv": "Spomenik NOR-u",
+    "vrsta": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "kukuljanovo-spomenik-palim-borcima-i-zrtvama",
+    "koordinate": {
+      "lat": 45.3257078,
+      "lng": 14.5218275
+    },
+    "mesto": "Kukuljanovo",
+    "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/208/",
+    "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+    "godina": "1952",
+    "vrsta": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "kostrena-spomenik-ubijenim-ucesnicima-nob-a",
+    "koordinate": {
+      "lat": 45.2987873,
+      "lng": 14.5007131
+    },
+    "mesto": "Kostrena",
+    "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/210/",
+    "naziv": "Spomenik ubijenim učesnicima NOB-a",
+    "godina": "1966",
+    "vrsta": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "krasica-spomenik-palim-borcima-i-zrtvama-fasizma",
+    "koordinate": {
+      "lat": 45.3820919,
+      "lng": 13.6911003
+    },
+    "mesto": "Krasica",
+    "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/264/",
+    "naziv": "Spomenik palim borcima i žrtvama fašizma",
+    "godina": "1986",
+    "vrsta": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "poropati-spomenik-palim-borcima",
+    "koordinate": {
+      "lat": 45.3967018,
+      "lng": 13.7649211
+    },
+    "mesto": "Poropati",
+    "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/266/",
+    "naziv": "Spomenik palim borcima",
+    "godina": "1955",
+    "vrsta": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "nova-vas-brtonigla-spomenik-palim-borcima-i",
+    "koordinate": {
+      "lat": 45.3627489,
+      "lng": 13.6408708
+    },
+    "mesto": "Nova Vas (Brtonigla)",
+    "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/292/",
+    "naziv": "Spomenik palim borcima i strijeljanim žrtvama fašizma",
+    "vrsta": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "babici-umag-spomen-ploca-palim-borcima-i-zrtvama",
+    "koordinate": {
+      "lat": 45.3909762,
+      "lng": 13.5591931
+    },
+    "mesto": "Babići (Umag)",
+    "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/296/",
+    "naziv": "Spomen-ploča palim borcima i žrtvama fašizma",
+    "vrsta": "ploca",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "kuzelj-spomen-ploca-stabu-ii-korpusa-novj",
+    "koordinate": {
+      "lat": 45.4761797,
+      "lng": 14.8047528
+    },
+    "mesto": "Kuželj",
+    "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/297/",
+    "naziv": "Spomen-ploča Štabu II. korpusa NOVJ",
+    "godina": "1964",
+    "vrsta": "ploca",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "igrisce-spomen-ploca-kotarskom-komitetu-kph-donja",
+    "koordinate": {
+      "lat": 45.9629447,
+      "lng": 15.8806184
+    },
+    "mesto": "Igrišće",
+    "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/12/",
+    "naziv": "Spomen-ploča Kotarskom komitetu KPH Donja Stubica",
+    "godina": "1977",
+    "vrsta": "ploca",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "kraljev-vrh-grob-ivana-krkaca",
+    "koordinate": {
+      "lat": 45.9472651,
+      "lng": 15.9131496
+    },
+    "mesto": "Kraljev Vrh",
+    "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/14/",
+    "naziv": "Grob Ivana Krkača",
+    "godina": "1965",
+    "vrsta": "groblje",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "cavle-spomenik-palim-borcima",
+    "koordinate": {
+      "lat": 45.3588881,
+      "lng": 14.4892118
+    },
+    "mesto": "Čavle",
+    "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/214/",
+    "naziv": "Spomenik palim borcima",
+    "vrsta": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "crni-lug-spomenik-zrtvama-fasizma",
+    "koordinate": {
+      "lat": 45.4182021,
+      "lng": 14.7058485
+    },
+    "mesto": "Crni Lug",
+    "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/216/",
+    "naziv": "Spomenik žrtvama fašizma",
+    "godina": "1951",
+    "vrsta": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "poljanica-bistranska-grob-ivice-catele",
+    "koordinate": {
+      "lat": 45.8966102,
+      "lng": 15.8803458
+    },
+    "mesto": "Poljanica Bistranska",
+    "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/24/",
+    "naziv": "Grob Ivice Catele",
+    "vrsta": "groblje",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "plesce-spomenik-palim-borcima-i-zrtvama-fasizma",
+    "koordinate": {
+      "lat": 45.5464197,
+      "lng": 14.686491
+    },
+    "mesto": "Plešce",
+    "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/41/",
+    "naziv": "Spomenik palim borcima i žrtvama fašizma",
+    "godina": "1961",
+    "vrsta": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "prodol-spomen-ploca-formiranju-partizanske-cete",
+    "koordinate": {
+      "lat": 45.0003,
+      "lng": 13.97057
+    },
+    "mesto": "Prodol",
+    "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/5/",
+    "naziv": "Spomen-ploča formiranju partizanske čete",
+    "godina": "1978",
+    "vrsta": "ploca",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "prezid-spomen-ploca-formiranju-prve-organizacije",
+    "koordinate": {
+      "lat": 45.640292,
+      "lng": 14.573957
+    },
+    "mesto": "Prezid",
+    "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/50/",
+    "naziv": "Spomen-ploča formiranju prve organizacije KPJ",
+    "godina": "1961",
+    "vrsta": "ploca",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "gerovo-mladje-spomenik-diverzantskoj-akciji-1941",
+    "koordinate": {
+      "lat": 45.4748057,
+      "lng": 14.676151
+    },
+    "mesto": "Gerovo (Mladje)",
+    "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/48/",
+    "naziv": "Spomenik diverzantskoj akciji 1941. godine",
+    "vrsta": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "kozji-vrh-spomen-ploca-napadu-na-talijanske",
+    "koordinate": {
+      "lat": 45.6183477,
+      "lng": 14.5934103
+    },
+    "mesto": "Kozji Vrh",
+    "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/51/",
+    "naziv": "Spomen-ploča napadu na talijanske okupatore",
+    "godina": "1961",
+    "vrsta": "ploca",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "tajcari-spomenik-prvom-zboru-za-odlazak-u",
+    "koordinate": {
+      "lat": 45.6157662,
+      "lng": 14.5801923
+    },
+    "mesto": "Tajčari",
+    "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/58/",
+    "naziv": "Spomenik prvom zboru za odlazak u partizane",
+    "godina": "1961",
+    "vrsta": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "prezid-zbitke-spomenik-danijelu-ozboltu",
+    "koordinate": {
+      "lat": 45.644696,
+      "lng": 14.5852563
+    },
+    "mesto": "Prezid (Zbitke)",
+    "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/59/",
+    "naziv": "Spomenik Danijelu Ožboltu",
+    "vrsta": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "prezid-zbitke-spomenik-jakovu-kovacu",
+    "koordinate": {
+      "lat": 45.645116,
+      "lng": 14.5877025
+    },
+    "mesto": "Prezid (Zbitke)",
+    "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/62/",
+    "naziv": "Spomenik Jakovu Kovaču",
+    "vrsta": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "prezid-zbitke-spomenik-strijeljanim-partizanima",
+    "koordinate": {
+      "lat": 45.6433758,
+      "lng": 14.5839689
+    },
+    "mesto": "Prezid (Zbitke)",
+    "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/63/",
+    "naziv": "Spomenik strijeljanim partizanima",
+    "godina": "1983",
+    "vrsta": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "kavaliri-spomenik-strijeljanim-zrtvama-fasizma",
+    "koordinate": {
+      "lat": 45.5998545,
+      "lng": 14.6094606
+    },
+    "mesto": "Kavaliri",
+    "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/65/",
+    "naziv": "Spomenik strijeljanim žrtvama fašizma",
+    "vrsta": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "farjev-laz-spomen-ploca-formiranju-partizanskog",
+    "koordinate": {
+      "lat": 45.5615954,
+      "lng": 14.5884643
+    },
+    "mesto": "Farjev laz",
+    "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/66/",
+    "naziv": "Spomen-ploča formiranju partizanskog omladinskog logora",
+    "godina": "1961",
+    "vrsta": "ploca",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "muhovci-spomenik-strijeljanim-partizanima",
+    "koordinate": {
+      "lat": 45.6039379,
+      "lng": 14.6049974
+    },
+    "mesto": "Muhovci",
+    "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/67/",
+    "naziv": "Spomenik strijeljanim partizanima",
+    "vrsta": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "hrib-konjci-spomen-ploca-strijeljanim-rodoljubima",
+    "koordinate": {
+      "lat": 45.5012214,
+      "lng": 14.6892831
+    },
+    "mesto": "Hrib (Konjci)",
+    "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/68/",
+    "naziv": "Spomen-ploča strijeljanim rodoljubima",
+    "godina": "1961",
+    "vrsta": "ploca",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "korosci-gorniki-spomen-ploca-zrtvama-fasizma",
+    "koordinate": {
+      "lat": 45.5871519,
+      "lng": 14.6043966
+    },
+    "mesto": "Korošci (Gorniki)",
+    "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/69/",
+    "naziv": "Spomen-ploča žrtvama fašizma",
+    "vrsta": "ploca",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "brinjevi-dolci-spomen-ploca-obitelji-lautar",
+    "koordinate": {
+      "lat": 45.5808746,
+      "lng": 14.599118
+    },
+    "mesto": "Brinjevi dolci",
+    "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/70/",
+    "naziv": "Spomen-ploča obitelji Lautar",
+    "vrsta": "ploca",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "hrib-spomenik-strijeljanim-aktivistima-nop-a",
+    "koordinate": {
+      "lat": 45.5143644,
+      "lng": 14.6769021
+    },
+    "mesto": "Hrib",
+    "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/71/",
+    "naziv": "Spomenik strijeljanim aktivistima NOP-a",
+    "vrsta": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "gerovski-kraj-spomenik-ubijenim-prvoborcima",
+    "koordinate": {
+      "lat": 45.4987549,
+      "lng": 14.6581266
+    },
+    "mesto": "Gerovski Kraj",
+    "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/78/",
+    "naziv": "Spomenik ubijenim prvoborcima",
+    "godina": "1961",
+    "vrsta": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "gerovo-spomenik-strijeljanim-borcima-nor-a",
+    "koordinate": {
+      "lat": 45.5161988,
+      "lng": 14.6473119
+    },
+    "mesto": "Gerovo",
+    "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/103/",
+    "naziv": "Spomenik strijeljanim borcima NOR-a",
+    "godina": "1961",
+    "vrsta": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "prezid-spomen-ploca-palim-borcima-i-zrtvama",
+    "koordinate": {
+      "lat": 45.6385939,
+      "lng": 14.5768423
+    },
+    "mesto": "Prezid",
+    "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/108/",
+    "naziv": "Spomen-ploča palim borcima i žrtvama fašizma",
+    "godina": "1951",
+    "vrsta": "ploca",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "sokoli-spomenik-formiranju-prve-istarske",
+    "koordinate": {
+      "lat": 45.5496279,
+      "lng": 14.6216056
+    },
+    "mesto": "Sokoli",
+    "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/109/",
+    "naziv": "Spomenik formiranju Prve istarske partizanske čete",
+    "godina": "1982",
+    "vrsta": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "parg-spomenik-ubijenim-partizanima",
+    "koordinate": {
+      "lat": 45.5955155,
+      "lng": 14.6261332
+    },
+    "mesto": "Parg",
+    "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/120/",
+    "naziv": "Spomenik ubijenim partizanima",
+    "vrsta": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "cabar-spomen-grobnica-zrtava-fasizma",
+    "koordinate": {
+      "lat": 45.59496,
+      "lng": 14.6421192
+    },
+    "mesto": "Čabar",
+    "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/132/",
+    "naziv": "Spomen-grobnica žrtava fašizma",
+    "vrsta": "groblje",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "ribnik-spomen-ploca-petru-maticicu-i-ankici",
+    "koordinate": {
+      "lat": 45.575971,
+      "lng": 15.3497144
+    },
+    "mesto": "Ribnik",
+    "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/158/",
+    "naziv": "Spomen-ploča Petru Matičiću i Ankici Peretić",
+    "godina": "1976",
+    "vrsta": "ploca",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "kostanjica-spomenik-palim-borcima",
+    "koordinate": {
+      "lat": 45.3657408,
+      "lng": 13.7581726
+    },
+    "mesto": "Kostanjica",
+    "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/170/",
+    "naziv": "Spomenik palim borcima",
+    "vrsta": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "celovci-spomenik-vinku-ozboltu",
+    "koordinate": {
+      "lat": 45.6243356,
+      "lng": 14.5822952
+    },
+    "mesto": "Celovci",
+    "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/79/",
+    "naziv": "Spomenik Vinku Ožboltu",
+    "godina": "1961",
+    "vrsta": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "gerovski-kraj-jurjev-laz-spomenik-partizanskom",
+    "koordinate": {
+      "lat": 45.4681472,
+      "lng": 14.6816764
+    },
+    "mesto": "Gerovski Kraj (Jurjev laz)",
+    "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/80/",
+    "naziv": "Spomenik partizanskom napadu na kolonu interniraca",
+    "vrsta": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "jazbine-spomenik-partizanskom-stozeru",
+    "koordinate": {
+      "lat": 45.5762188,
+      "lng": 14.6610878
+    },
+    "mesto": "Jazbine",
+    "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/99/",
+    "naziv": "Spomenik partizanskom stožeru",
+    "vrsta": "lokalni",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "beograd-kuca-cveca",
+    "koordinate": {
+      "lat": 44.7867558,
+      "lng": 20.4516267
+    },
+    "mesto": "Beograd",
+    "izvor": "https://www.openstreetmap.org/way/146656819",
+    "naziv": "Kuća cveća",
+    "godina": "1975",
+    "vrsta": "muzej",
+    "drzava": "Serbia"
+  },
+  {
+    "id": "uzice-spomenik-lomaca",
+    "koordinate": {
+      "lat": 43.8515063,
+      "lng": 19.8511133
+    },
+    "mesto": "Užice",
+    "izvor": "https://www.openstreetmap.org/node/1822422330",
+    "naziv": "Spomenik „Lomača“",
+    "godina": "1968",
+    "autor": "Milica Ribnikar-Bogunović & Uglješa Bogunović",
+    "vrsta": "spomenik",
+    "drzava": "Serbia"
   }
 ]

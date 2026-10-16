@@ -462,6 +462,119 @@ Nove fotografije nisu dodavane. Sačuvani su izvorni sadržaji knjiga i semantik
 
 Provere: integritet 4.508 zapisa i istih 18 ranije poznatih bliskih parova, provera tipova uspešna, svih 6 postojećih testova uspešno. Tri promenjena prikaza pregledana na telefonu 390 × 844, sa učitanom postojećom fotografijom i bez `EXC`. Provereni su UTF-8 bez BOM-a, CRLF i završni novi red. Otvoreni TODO lociranja ostaje u README-u; za naredni izbor razmotriti preostale konkretne muzejske objekte (Pleterje, Dolenjske Toplice, Slovenj Gradec), bez ponavljanja već obrađenih slovenskih stavki i bez dodavanja centara naselja.
 
+### Veća tura: 51 nova lokacija i tri radna duplikata (2026-10-16)
+
+Po izričitom zahtevu korisnika „daj bar pedesetak“, urađena je veća tura: **51 novi zapis** (49 Hrvatska, 2 Srbija), sa **4.508 na 4.559** na mapi. Šest stavki skinuto je sa radnog spiska: tri su dobile novu tačku (Horvati, Kuća cveća, Lomača), a tri su potvrđeni postojeći zapisi. Bez lokacije ostaje **4.502** (pre ture 4.508). Svi raniji zapisi mape ostali su neizmenjeni.
+
+**Izbor i obuhvat:** korišćen je ranije sačuvan hrvatski sloj [Partizanstva](https://partizanstvo.si/api/brief/croatianpartisanmemorial/) (278 tačaka), bez ponovnog preuzimanja sloja. Lokalno poređenje izdvojilo je 184 kandidata udaljena najmanje 350 m od postojećih oznaka. Zatim je odabrano 85 kandidata, međusobno udaljenih najmanje 100 m, i pročitani su njihovi pojedinačni javni opisi (`api/full/croatianpartisanmemorial/<id>`). Nije uvezen ceo sloj: svaki prihvaćeni zapis ima ručnu odluku niže; izbačeno je 36 kandidata zbog uklanjanja, nejasne posvete, upozorenja na pogrešnu tačku ili mogućeg duplikata. Za veću turu nisu bile dovoljne samo preostale lako locirane stavke knjiga, pa su dodati i potvrđeni novi objekti iz tog izvora.
+
+Koordinate novih hrvatskih unosa su objavljene tačke imenovanih obeležja, zaokružene na sedam decimala; nisu zamenjene centrima naselja. NOB posveta potvrđivana je opisom ili prenetim natpisom. Vrsta je određena iz opisa oblika (cela figura — statua, ploča — ploca, grob — groblje), a za neodređeniji oblik ostaje lokalni. Godine ratnih događaja nisu upisivane kao godine podizanja. Posebno: Krasica je 1986. za sadašnji spomenik, dok je 1956. bila prethodna ploča; Prezid 108 dobio je 1951. sa natpisa, jer je 1977. godina obnove; Poljanica nema godinu jer je 1989. obnova; Kostrena dobija 1966. sa natpisa, umesto očigledne greške 21966. u posebnom polju izvora. Kod Poropata je uzeta samo godina 1955, bez prenosa nemogućeg datuma 29. februara. Nova Vas dobija naziv bez datuma jer se naslov izvora i natpis ne slažu (4. VII prema 4. X 1943).
+
+**Srbija i stari spisak:** ciljano je pretraženo 70 prepoznatljivih objekata preko Nominatima, redom sa pauzama od najmanje tri sekunde; dobijena su dva upotrebljiva, tačno imenovana objekta. [Kuća cveća, OSM w146656819](https://www.openstreetmap.org/way/146656819) je zasebna zgrada u Muzeju Jugoslavije, oko 151 m od postojećeg muzejskog zapisa; 1975. je gradnja kuće, ne početak memorijalne namene. [Lomača, OSM n1822422330](https://www.openstreetmap.org/node/1822422330) je zaseban spomenik na Dovarju, oko 220 m od postojeće kosturnice; godina 1968. i autori potvrđeni su i [pojedinačnom stranicom Kadinjače](https://www.spomenikdatabase.org/kadinjaca) i [lokalnim izveštajem sa fotografijom](https://uzice.online/vesti/spomenik-na-dovarju). Koordinata navedena na stranici Kadinjače saglasna je OSM tački u nekoliko metara. Pogoci za Trstenik (zapravo Pijavičino u Hrvatskoj), Dolenjske Toplice (skladište u Bistri) i Srb (drugo mesto i drugi dom) nisu korišćeni. Zgrada današnjeg opšteg muzeja u Puli/Slovenj Gradcu i Radnički dom u Vukovaru nisu bez potvrde aktivne memorijalne postavke pretvoreni u nekadašnji muzej revolucije.
+
+**Tri radna duplikata:** bista Safeta Krupića → `bosanska-krupa-safet-krupic` (isti naziv, mesto i isti izvorni popis); Vječna vatra → `sarajevo-vjecna-vatra` (Ferhadija, 1946); Titova pećina u Drvaru → `tito-s-cave-museum-at-drvar` (isti memorijal preko Unca, nije pećina u Bastasima). Izvorni podaci knjiga ostali su sačuvani, rešene veze vode na ID mape, a svi ostali numerički indeksi na radnom spisku pomereni su bez promene ciljnog objekta. Provereno je 225 veza u izmenjenim knjigama. Zagrebova sirova knjiga nema numeričku vezu za Horvate i nije menjana; njena stavka 2.2.62, str. 466, park škole i 1961. saglasna je izvoru Partizanstva 7. Nečitki autor „S. [?]ukljač“ u prepisu knjige nije prepravljan; javni opis posebno potvrđuje Vjekoslava Rukljača.
+
+**Novi zapisi i pojedinačne odluke:**
+
+| Mesto / novi ID | Izvor | Provera |
+|---|---|---|
+| Jakovlje — `jakovlje-spomenik-palim-borcima-i-zrtvama` | [10](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/10/) | Obelisk sa reljefom, adresa i obnova 2008. potvrđeni opisom. |
+| Oborovo Bistransko — `oborovo-bistransko-spomen-ploca-palim-borcima-i` | [23](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/23/) | Ploča na društvenom domu, Franje Gulića 26. |
+| Luka — `luka-spomenik-palim-borcima-i-zrtvama-fasistickog` | [134](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/134/) | Stepenasto kameno obeležje, Trg sv. Roka 4. |
+| Žejinci — `zejinci-spomenik-borbi-kalnickog-partizanskog` | [180](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/180/) | Arhitekta i otkrivanje potvrđeni opisom i natpisom. |
+| Brod na Kupi — `brod-na-kupi-spomenik-palim-borcima` | [220](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/220/) | Izvor izričito opisuje partizana sa puškom na postolju. |
+| Ljubošina — `ljubosina-spomenik-ustanka-i-nor-a` | [245](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/245/) | Cela figura partizana sa puškom i uzdignutom rukom. |
+| Skrad — `skrad-spomenik-palim-borcima-i-zrtvama-fasizma` | [247](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/247/) | Grupa žene i muškarca, park nasuprot škole. |
+| Gerovo — `gerovo-spomenik-palim-borcima` | [42](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/42/) | Natpis potvrđuje pale borce 1941-1945, položaj na raskrsnici u centru. |
+| Zagreb (Horvati) — `zagreb-horvati-spomenik-palim-borcima-i-zrtvama` | [7](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/7/) | Figura borca sa puškom kod škole, Horvaćanski trg 1; isti izvor kao radna stavka. |
+| Čabar — `cabar-spomenik-nor-u` | [133](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/133/) | Imenovano obeležje NOR-a na Trgu kralja Tomislava. |
+| Kukuljanovo — `kukuljanovo-spomenik-palim-borcima-i-zrtvama` | [208](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/208/) | Natpis potvrđuje podizanje 16.12.1952. i NOB 1941-1945. |
+| Kostrena — `kostrena-spomenik-ubijenim-ucesnicima-nob-a` | [210](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/210/) | Četiri imenovana učesnika NOB-a; godina 1966. iz natpisa, polje godine ima grešku 21966. |
+| Krasica — `krasica-spomenik-palim-borcima-i-zrtvama-fasizma` | [264](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/264/) | Sadašnji spomenik zamenio ploču iz 1956; godina 1986. potvrđena opisom i natpisom. |
+| Poropati — `poropati-spomenik-palim-borcima` | [266](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/266/) | NOB potvrđen natpisom; godina 1955. Izvor navodi nemoguć datum 29. februar, koji nije prenet. |
+| Nova Vas (Brtonigla) — `nova-vas-brtonigla-spomenik-palim-borcima-i` | [292](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/292/) | Natpis potvrđuje NOB i streljane 4.10.1943; naslov izvora pogrešno kaže 4.7, zato datum nije u nazivu. |
+| Babići (Umag) — `babici-umag-spomen-ploca-palim-borcima-i-zrtvama` | [296](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/296/) | Natpis NOB-a na zidu Zadružnog doma, Babići 12. |
+| Kuželj — `kuzelj-spomen-ploca-stabu-ii-korpusa-novj` | [297](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/297/) | Natpis potvrđuje boravak štaba i otkrivanje u septembru 1964. |
+| Igrišće — `igrisce-spomen-ploca-kotarskom-komitetu-kph-donja` | [12](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/12/) | Sedište komiteta 1942-1943. i okupljanje boraca; škola u Gajevoj 81. |
+| Kraljev Vrh — `kraljev-vrh-grob-ivana-krkaca` | [14](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/14/) | Grob narodnog heroja, 10-15 m od crkve, prvi desno; godina uređenja sa natpisa. |
+| Čavle — `cavle-spomenik-palim-borcima` | [214](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/214/) | Četrnaest kocaka sa imenima poginulih boraca na groblju. |
+| Crni Lug — `crni-lug-spomenik-zrtvama-fasizma` | [216](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/216/) | Izričita posveta žrtvama fašizma u Drugom svetskom ratu. |
+| Poljanica Bistranska — `poljanica-bistranska-grob-ivice-catele` | [24](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/24/) | Autor izvora lično obišao; godina 1989. označava obnovu i zato nije godina podizanja. |
+| Plešce — `plesce-spomenik-palim-borcima-i-zrtvama-fasizma` | [41](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/41/) | Natpis jasno potvrđuje period 1941-1945; od drugog obeležja u Plešcama udaljen više od 100 m. |
+| Prodol — `prodol-spomen-ploca-formiranju-partizanske-cete` | [5](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/5/) | Datum postavljanja 17.12.1978. urezan; formiranje čete u septembru 1943. |
+| Prezid — `prezid-spomen-ploca-formiranju-prve-organizacije` | [50](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/50/) | Ploča na nekadašnjoj pilani/Riječkoj banci; organizacija formirana 20.10.1941. |
+| Gerovo (Mladje) — `gerovo-mladje-spomenik-diverzantskoj-akciji-1941` | [48](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/48/) | Natpis potvrđuje akciju 12.9.1941; 20. godišnjica nije samostalno pretvorena u godinu podizanja. |
+| Kozji Vrh — `kozji-vrh-spomen-ploca-napadu-na-talijanske` | [51](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/51/) | Ploča na kući Filipa Mohorića, nasuprot bifea; napad 30.5.1942. |
+| Tajčari — `tajcari-spomenik-prvom-zboru-za-odlazak-u` | [58](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/58/) | Natpis potvrđuje zbor 18.4.1942; obeležje iz 1961. |
+| Prezid (Zbitke) — `prezid-zbitke-spomenik-danijelu-ozboltu` | [59](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/59/) | Natpis potvrđuje pogibiju od talijanskih okupatora 9.5.1942; lokalitet Brinj. |
+| Prezid (Zbitke) — `prezid-zbitke-spomenik-jakovu-kovacu` | [62](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/62/) | Natpis potvrđuje pogibiju u borbi 14.5.1942; lokalitet Klanac. |
+| Prezid (Zbitke) — `prezid-zbitke-spomenik-strijeljanim-partizanima` | [63](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/63/) | Ograja; natpis imenuje zarobljene partizane Hače Jakoba i Loknar Antuna. |
+| Kavaliri — `kavaliri-spomenik-strijeljanim-zrtvama-fasizma` | [65](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/65/) | Opis imenuje četvoricu ubijenih civila 27.7.1942; detaljan pristup od Parga. |
+| Farjev laz — `farjev-laz-spomen-ploca-formiranju-partizanskog` | [66](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/66/) | Natpis potvrđuje formiranje 6.7.1942, uz mesto nekadašnjeg dvorca. |
+| Muhovci — `muhovci-spomenik-strijeljanim-partizanima` | [67](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/67/) | Opis imenuje šest partizana streljanih 30.7.1942; položaj uz put preciziran. |
+| Hrib (Konjci) — `hrib-konjci-spomen-ploca-strijeljanim-rodoljubima` | [68](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/68/) | Natpis potvrđuje streljanje pet meštana 3.8.1942. |
+| Korošci (Gorniki) — `korosci-gorniki-spomen-ploca-zrtvama-fasizma` | [69](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/69/) | Šest žrtava streljanih 27.7.1942; opisan pristup do temelja nekadašnje kuće. |
+| Brinjevi dolci — `brinjevi-dolci-spomen-ploca-obitelji-lautar` | [70](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/70/) | Natpis i opis potvrđuju ubistvo članova porodice od fašističkih snaga; opisan pristup. |
+| Hrib — `hrib-spomenik-strijeljanim-aktivistima-nop-a` | [71](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/71/) | Na groblju istočno od Sv. Leonarda; imenovani aktivisti ubijeni 3.8.1942. |
+| Gerovski Kraj — `gerovski-kraj-spomenik-ubijenim-prvoborcima` | [78](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/78/) | Natpis imenuje Veljka i Slavka Klepca i Vida Paulina, april 1942; stara cesta. |
+| Gerovo — `gerovo-spomenik-strijeljanim-borcima-nor-a` | [103](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/103/) | Ispred nekadašnje fabrike Krep-papir; natpis imenuje tri borca streljana 22.10.1943. |
+| Prezid — `prezid-spomen-ploca-palim-borcima-i-zrtvama` | [108](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/108/) | Godina 1951. iz celog natpisa; polje izvora 1977. je obnova, ne podizanje. |
+| Sokoli — `sokoli-spomenik-formiranju-prve-istarske` | [109](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/109/) | Opis potvrđuje postavljanje 1982. povodom 40. godišnjice; obeležje na livadi iznad sela. |
+| Parg — `parg-spomenik-ubijenim-partizanima` | [120](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/120/) | Opis potvrđuje ubistvo šest partizana 29.7.1942. i prilaz do kraja puta. |
+| Čabar — `cabar-spomen-grobnica-zrtava-fasizma` | [132](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/132/) | Ploče i posmrtni ostaci žrtava iz Kavalira, Muhovaca, Tatinske drage i drugih mesta. |
+| Ribnik — `ribnik-spomen-ploca-petru-maticicu-i-ankici` | [158](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/158/) | Natpis imenuje komesara i članicu komiteta ubijene 1.11.1944; datum ploče 25.7.1976. |
+| Kostanjica — `kostanjica-spomenik-palim-borcima` | [170](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/170/) | Italijanski natpis jasno potvrđuje narodnu oslobodilačku borbu 1943-1945, adresa Kostanjica 52. |
+| Celovci — `celovci-spomenik-vinku-ozboltu` | [79](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/79/) | Natpis potvrđuje pogibiju prvoborca 21.8.1942; prilaz od Kozjeg Vrha. |
+| Gerovski Kraj (Jurjev laz) — `gerovski-kraj-jurjev-laz-spomenik-partizanskom` | [80](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/80/) | Opis potvrđuje napad 2.8.1942. radi oslobađanja civila; položaj 500 m pre livade. |
+| Jazbine — `jazbine-spomenik-partizanskom-stozeru` | [99](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/99/) | Opis potvrđuje partizanski štab u ratnom periodu; sam spomenik uz nekadašnji kolni put. |
+| Beograd — `beograd-kuca-cveca` | [OSM](https://www.openstreetmap.org/way/146656819) | Tačno imenovani OSM objekat saglasan radnoj stavci; Lomača dodatno potvrđena opisom i koordinatama pojedinačne stranice Kadinjače na Spomenik Database i izveštajem Užice Online. |
+| Užice — `uzice-spomenik-lomaca` | [OSM](https://www.openstreetmap.org/node/1822422330) | Tačno imenovani OSM objekat saglasan radnoj stavci; Lomača dodatno potvrđena opisom i koordinatama pojedinačne stranice Kadinjače na Spomenik Database i izveštajem Užice Online. |
+
+**Pregledani, preskočeni kandidati hrvatskog sloja (36):** ove odluke ne znače da su svi spomenici nestali; razlog je naveden pojedinačno.
+
+| Izvorni kandidat | Razlog preskakanja |
+|---|---|
+| [6: Palim borcima žrtvama fašizma, Plešce, Hrvatska](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/6/) | Druga tačka Plešca udaljena oko 117 m, ne razlikuje pouzdano ovo obeležje od zapisa 41; preskočeno umesto dva markera. |
+| [13: Spomenik posvećen palim borcima i žrtvama fašističkog terora, Kraljev Vrh, Hrvatska](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/13/) | NOB ploče delimično uklonjene, dodata ploča rata 1990-ih; preskočen izmenjen sklop bez vizuelne potvrde. |
+| [19: Bista narodnog heroja Ivana Krkača, Jakovlje, Hrvatska](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/19/) | Bista uklonjena sredinom 2000-ih; ne tražiti uklonjene. |
+| [21: Spomen ploča posvećena poginulim borcima i žrtvama fašističkog terora, Donja Bistra, Hrvatska](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/21/) | Ploča uklonjena devedesetih; ne tražiti uklonjene. |
+| [22: Spomenik Josipu Prši, Oborovo Bistransko, Hrvatska](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/22/) | Spomenik srušen 1992, potom na privatnom posedu; objavljena tačka je stara. |
+| [38: Spomen ploča, podignuta u čast palih boraca NOB-a i žrtava fašističkog terora, Jablanovec, Hrvatska](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/38/) | Zgrada društvenog doma u rekonstrukciji; opstanak ploče na označenom mestu nije potvrđen. |
+| [44: Spomenik Ravan, Hrvatska](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/44/) | Natpis nečitljiv i posveta nije potvrđena. |
+| [55: Spomen ploča na Kaličaku kod Prezida, Hrvatska](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/55/) | Nema dovoljno samostalnih podataka o posveti i datumu, samo pripreme za napad u Tatinskoj dragi. |
+| [82: SPOMEN OBILJEŽJE KOVAČ  - RAVAN](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/82/) | NOB posveta potvrđena, ali granični položaj kod Novog Kota treba dodatno proveriti. |
+| [157: Lupoglav](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/157/) | Bez opisa i natpisa nije potvrđena NOB posveta. |
+| [159: Kupljensko](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/159/) | Izvor izričito traži ispravku lokacije na karti. |
+| [165: Brgudac](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/165/) | Bez opisa/natpisa i uz susedne netačne markere Brgudca. |
+| [166: Brgudac](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/166/) | Bez opisa/natpisa i uz susedne netačne markere Brgudca. |
+| [168: Brgudac](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/168/) | Izvor izričito navodi da lokacije na karti nisu tačne. |
+| [169: Hum](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/169/) | Bez opisa i natpisa nije potvrđena NOB posveta. |
+| [171: Punat](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/171/) | Bez natpisa/opisa nije potvrđena posveta. |
+| [172: Stara Baška](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/172/) | Izvor izričito navodi netačnu lokaciju. |
+| [175: Krušvari](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/175/) | Bez natpisa/opisa nije potvrđena posveta. |
+| [176: Vrsar](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/176/) | Bez natpisa/opisa nije potvrđena posveta. |
+| [179: Spomenik, podignut u čast palih obješenih taoca iz zagrebačkih zatvora, Ivanec Bistranski, Hrvatska](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/179/) | Spomenik porušen do temelja 1992; čišćenje lokacije 2024. nije obnova spomenika. |
+| [181: Spomen kosturnica posvećena poginulim borcima Kalničkog partizanskog odreda 1942. godine, Žejinci, Hrvatska](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/181/) | Spomenik uklonjen 2022; kosti ostale, ali izvor ne potvrđuje obnovljeno obeležje. |
+| [187: SPOMENIK U LOKVAMA](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/187/) | Lokve već imaju NOB spomenik sa postojećom fotografijom; izvorni marker udaljen oko 590 m, bez potvrde da je zaseban objekat. Koordinate baze nisu menjane. |
+| [189: Spomenik Sleme](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/189/) | Nema čitljivog natpisa ni izričite potvrde NOB posvete. |
+| [191: Spomenik Severin na Kupi](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/191/) | Opis navodi lokaciju Damelj uz granicu; potrebno razjasniti položaj i državu. |
+| [192: Spomenik Vrata](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/192/) | Nema dovoljno podataka o posveti i identitetu. |
+| [194: Kosturnica Ravna Gora](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/194/) | Nepotvrđena posveta kosturnice, nema opisa ni pročitanog natpisa. |
+| [199: SPOMENIK SVETA JELENA KOD DRAMLJA](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/199/) | Izvor navodi neutvrđenu lokaciju i nepročitan natpis. |
+| [203: SPOMENIK MAVRINCI](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/203/) | Nečitljiv natpis, NOB posveta nije potvrđena. |
+| [206: SPOMENIK PRAPUTNJAK](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/206/) | Izvor izričito navodi da lokacija nije utvrđena. |
+| [207: SPOMENIK ŠKRLJEVO](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/207/) | Izvor navodi neutvrđenu lokaciju; nije korišćen sam marker. |
+| [218: SPOMENIK U DELNICAMA](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/218/) | Delnice već imaju Spomenik ustanku u Gorskom kotaru sa fotografijom figure s puškom. Izvorni marker udaljen oko 570 m nije dodat kao drugi spomenik. |
+| [232: BISTA SLAVKA KLOBUČARA, DELNICE](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/232/) | Bista u istom gradskom parku kao ostale delničke biste, ali objavljeni markeri su rasuti; traži proveru tačnog položaja. |
+| [234: BISTA ZDENKO PETRANOVIĆ, DELNICE](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/234/) | Isti problem položaja delničkih bista; odloženo do nezavisne potvrde. |
+| [235: BISTA NARODNI HEROJ NIKOLA RAČKI   KOLJKA   DELNICE](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/235/) | Isti problem položaja delničkih bista; odloženo do nezavisne potvrde. |
+| [238: BISTA MILAN RUSTANBEG, DELNICE](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/238/) | Isti problem položaja delničkih bista; odloženo do nezavisne potvrde. |
+| [239: BISTA IVANKE TROHAR U DELNICAMA](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/239/) | Isti problem položaja delničkih bista; odloženo do nezavisne potvrde. |
+
+**Provere:** integritet prolazi sa 4.559 zapisa i istih 18 poznatih bliskih parova, bez novog para na manje od 30 m. Provera tipova i svih šest postojećih testova prolaze. Svih 51 novih zapisa otvoreno je u skrivenom Chrome-u na telefonu 390 × 844, provereni su odgovarajući naslovi i odsustvo izuzetaka; osam reprezentativnih prikaza pregledano je vizuelno. Svih 4.508 zatečenih zapisa mape ostalo je isto, a svih 4.502 preostalih radnih zapisa identično je prethodnom sadržaju. Provereni su jedinstveni ID-jevi, format UTF-8 bez BOM-a, CRLF i završni novi red. Novih fotografija nema, pa alati za promenu slika nisu pokretani. Otvoreni TODO lociranja u README-u ostaje otvoren; ništa nije komitovano od strane agenta.
+
+**Za nastavak:** u hrvatskom sloju ostaju kandidati van ove grupe od 85; ne ponavljati preskočene bez novog dokaza. Naredni izbor ponovo dati jasnim NOB posvetama i pouzdanim pojedinačnim tačkama, uz proveru duplikata i opisa pre upisa. Sačuvani slovenački sloj ima još mnogo kandidata, ali ga ne uvoziti automatski. Jednokratni odgovori, odluke i snimci ove ture su u `%TEMP%/spomenici-lociranje-50`; trajni pregled je tabela iznad.
+
 ## Izvori koji su već obrađeni
 
 - **sr Wikipedija, „Списак споменика НОБ у Војводини“:** obrađen. Nazivi su uzeti po vajaru i godini.
