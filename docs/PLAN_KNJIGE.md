@@ -55,3 +55,118 @@ Nema; odluke su upisane uz pravila (tekst i fotografije sa izvorom, polje `natpi
 Svih pet knjiga je izvučeno u `data/knjige/`, upareni zapisi su upisani ili navedeni kao sporni u beleškama, `integritet.py`, `tsc` i `node --test alati/test.mjs` prolaze, a stavka je skinuta iz `## TODO` u `README.md`.
 
 Obrada dostupnog materijala je završena uz navedena ograničenja izvora; ovo ne znači da je svaki pomen zaseban spomenik ili da je potvrđeno današnje stanje svih obeležja. Lociranje radnog spiska i razrešavanje spornih identiteta ostaju zaseban posao.
+
+## 7. Provera opstanka hrvatskih spomenika — prioritet pre novih unosa
+
+Plan dodat 2026-10-16 na zahtev korisnika. Problem: starije knjige i preneti opisi potvrđuju izgled i nekadašnje postojanje; novija Hrženjakova knjiga dokumentuje oštećenja, rušenje, uklanjanje i premeštanje tokom 1990–2000. U trenutku pisanja plana poslednjih 49 hrvatskih unosa nije bilo sistematski provereno prema toj knjizi; [provera je sada završena](BELESKE.md#provera-49-hrvatskih-unosa-2026-10-16): 19 zadržano uz datiran kasniji prikaz, 17 vraćeno na proveru i 13 ploča povučeno iz izbora. Za ostale je započeta [trijaža 792 unosa i pregled prvih 15 slučajeva](BELESKE.md#nastavak-provere-hrvatske-prvi-rizicni-slucajevi-2026-10-16); provera cele Hrvatske nije završena. Ranije uspešne tehničke provere ne potvrđuju opstanak spomenika.
+
+**Red rada:** prvo ovaj odeljak, zatim nastavak lociranja. Jedina lista otvorenih zadataka ostaje `README.md`, odeljak TODO. Sledećih šest koraka opisuje izvršenje tog prvog zadatka; ovaj plan sam po sebi nije izvršena provera niti nalaz o današnjem stanju 49 objekata.
+
+### Pravilo izvora i vremena
+
+Za svaki objekat odvojiti četiri stvari: godinu podizanja, datum opisanog događaja/stanja, datum nastanka fotografije ili obilaska i godinu objavljivanja izvora. Unos na Partizanstvo iz 2025/2026. koji prenosi vodič iz 1978. nije noviji dokaz opstanka od Hrženjaka iz 2002. Nedatirana fotografija i aktivan marker na karti ne potvrđuju današnje postojanje. Isto važi za OSM objekat koji može ostati na karti posle uklanjanja.
+
+Hrženjakov potvrđeni nalaz o rušenju ili uklanjanju ima prednost nad opisom nastalim pre tog događaja. Kasniji konkretan dokaz obnove, novog spomenika ili premeštanja može promeniti zaključak, ali mora se utvrditi šta je obnovljeno, kada i gde. Knjiga iz 2002. sama po sebi ne potvrđuje da obeležje nikada kasnije nije obnovljeno. Izostanak iz njenog indeksa ne znači da je spomenik očuvan: knjiga nije potpun popis današnjih objekata, a i sačuvani prepis ima poznate nejasnoće i nedostajuću štampanu stranu 346.
+
+### Korak 1 — Upariti svih 49 sa knjigom i proveriti čitanje
+
+- Koristiti lokalni `data/knjige/hrzenjak-2002.json` (2.723 zapisa/pomena). Indeks i opis istog objekta računati kao jedan dokaz, ne kao dva različita spomenika.
+- Jednim lokalnim prolazom izdvojiti moguće parove po županiji, naselju i njegovim starim/alternativnim imenima; zatim suziti po vrsti, posveti, imenima, autoru, godini, natpisu, adresi i fotografiji. Isti naziv sela ili opšti naziv „palim borcima“ nije dovoljan.
+- Čitati i samostalne redove indeksa i ugnježdeno polje `indeks` uz opis, kao i `napomena`, `pohranjen`, `obnovljen`, `nejasnoce` i postojeća povezivanja. Prepoznati raniji i zamenski spomenik, samostalnu bistu, grob i ploču na istom mestu.
+- Legendu oznaka pročitati u knjizi. Odlučujući pogodak o stanju proveriti na originalnom skenu, sa tačnom štampanom stranom i brojem skena; ne odlučivati po skraćenom ili nejasnom OCR redu. Najpre koristiti već preuzete skenove, bez ponovnog preuzimanja cele knjige.
+- U trajnom izveštaju u `docs/BELESKE.md` otvoriti po jedan red za svaki od 49 ID-jeva: ID, oznake zapisa iz knjige, štampana strana/sken, potvrđen ili sporan identitet, istorijsko stanje, datum tog stanja, kasniji dokaz i njegova stvarna datacija, potvrđena današnja lokacija, odluka i razlog. Bez pogotka napisati „nije pronađen odgovarajući zapis“, a ne „očuvan“.
+
+### Korak 2 — Razvrstati rizik i napraviti hronologiju
+
+Najpre rešavati potvrđene nalaze „srušen“, „uklonjen/otuđen“, „pohranjen“ i „premješten“; zatim oštećene i zamenjene objekte; potom stavke bez pouzdanog para i bez dokaza opstanka. Za svaki složiti najkraću proverljivu hronologiju: podizanje → nalaz knjige → eventualna kasnija obnova/premeštanje → poslednje potvrđeno stanje.
+
+Ako se u istom selu jedan spomenik srušio, taj nalaz ne prenositi na drugi. Ako je naknadno napravljena replika ili novo delo, razlikovati ga od izvornog: stara godina, autor, fotografija i koordinata ne pripadaju automatski zameni. Oštećeno obeležje može i dalje biti vidljivo i dostupno putniku; oštećenje nije isto što i uklanjanje.
+
+### Korak 3 — Ciljano pribaviti kasniji dokaz tamo gde je potreban
+
+- Prvo iskoristiti već sačuvane opise i fotografije uz proveru njihovog izvornog porekla i datuma. Prednost imaju datiran neposredan obilazak, fotografija konkretnog objekta sa potvrđenim mestom, zvaničan izveštaj o obnovi ili komemoraciji na tom obeležju i lokalni konzervatorski/muzejski izvor koji opisuje konkretno stanje.
+- Za sporni ili negativni nalaz knjige tražiti dokaz nastao posle opisanog oštećenja/uklanjanja. Posebno tražiti obnovu ili preseljenje nakon 2002, umesto ponavljanja opšte pretrage naziva spomenika.
+- Prepoznatljiv izgled, natpis i okruženje moraju potvrditi identitet. Za preseljeni objekat potvrditi novu tačku; centar sela, škola, groblje ili stara tačka nisu zamena za koordinate samog obeležja.
+- Fotografija sa poznatim datumom posle 2002. potvrđuje stanje tada, ne automatski 2026. Zabeležiti poslednji dokaz; za stariju fotografiju proveriti postoje li kasnije vesti o uklanjanju ili novijoj obnovi. Noviju tvrdnju o rušenju proveriti i kada postoji starija fotografija očuvanog spomenika.
+- Ako dokaza nema ili su protivrečni, ostaviti zaključak neizvestan. Ne popravljati taj nedostatak još preciznijim koordinatama.
+
+### Korak 4 — Ispraviti paket prema dokazima
+
+| Utvrđeni ishod | Postupak pri izvršenju plana |
+|---|---|
+| Potvrđeno očuvano ili obnovljeno obeležje na tačnoj tački | Zadržati na mapi; sačuvati proverljiv noviji izvor i dataciju dokaza u izveštaju. |
+| Oštećeno, ali postoji i dostupno je za posetu | Zadržati; `stanje: ostecen` samo uz dokaz za relevantno potvrđeno stanje, ne prepisivanjem istorijske oznake. |
+| Potvrđeno premešteno | Koristiti potvrđenu današnju tačku i odgovarajući izvor; istorijsku tačku sačuvati u izveštaju, ne praviti drugi marker za isto obeležje. |
+| Srušeno, uklonjeno ili u depou, bez kasnijeg dokaza povratka | Povući novi unos iz javne mape prema postojećem pravilu da se uklonjeni ne traže; sačuvati ID, izvor i razlog u izveštaju, a sirovi zapis knjige ostaviti potpun. Ne upisivati staro stanje kao provereno današnje. |
+| Nema dovoljno dokaza za opstanak, identitet ili današnju tačku | Povući nepotvrđeni novi unos u radni spisak za proveru; ne označavati ga srušenim i ne proglašavati potvrđenim zato što ga nema u knjizi. |
+| Drugi objekat ili potvrđen duplikat | Razdvojiti identitete ili povezati sa postojećim zapisom, uz očuvanje porekla podataka i veza knjiga. |
+
+Pri povlačenju ili spajanju proveriti veze u svim `data/knjige/*.json`: ne ostaviti cilj ka nepostojećem ID-ju. Ako se menja `data/bez_lokacije.json`, pomeriti njegove numeričke indekse uz očuvanje ciljnog objekta. Slike i njihove putanje uklanjati samo ako više nisu potrebne drugim zapisima; ne dirati nepovezane korisničke izmene.
+
+Primeniti i postojeći izbor iz odeljka 2: obične spomen-ploče se preskaču osim veoma bitnih. Paket sadrži **13 zapisa vrste `ploca`**; za svaki posebno proveriti osnov za izuzetak. Sam dokaz da ploča postoji ne rešava pitanje da li pripada izboru aplikacije. Nalaz o opstanku i odluka o uključivanju moraju ostati odvojeni.
+
+### Korak 5 — Proširiti proveru na druge rizične hrvatske unose
+
+Posle svih 49 pregledati ostale hrvatske zapise dodate na osnovu starih knjiga ili izvora bez datacije stanja. Najpre slučajeve koji već imaju negativno ili sporno povezivanje sa Hrženjakom, zatim ostale iz istih knjiga i krajeva. Ne tvrditi da je cela Hrvatska proverena samo zato što je završen paket od 49. Isto pravilo važi za buduće hrvatske kandidate: stariji izvor služi identifikaciji, a opstanak zahteva proveru hronologije i kasnijih promena.
+
+### Korak 6 — Proveriti rezultat i ugraditi obaveznu proveru u nastavak
+
+Za svih 49 mora postojati pojedinačna odluka i izvor ili izričito navedena neizvesnost. Brojevi zadržanih, premeštenih, povučenih, duplikata i ploča van izbora moraju zajedno obuhvatiti ceo paket, bez dvostrukog brojanja istog ID-ja. Proveriti da su svi raniji zapisi van potvrđenih izmena sačuvani.
+
+Posle izmena pokrenuti `integritet.py`, proveru tipova i postojeće testove aplikacije; proveriti detalje izmenjenih i uklonjenih markera i očuvanje veza knjiga. Alate za slike pokrenuti samo ako se slike menjaju. Sačuvati izvore, datume i obrazloženja u `docs/BELESKE.md`, a ovaj prvi TODO ukloniti tek po završenoj proveri i dogovorenom proširenju na druge rizične hrvatske unose. Naredne ture ne najavljivati kao pouzdane na osnovu tehničkih testova ili same činjenice da su koordinate pronađene.
+
+### Početni obuhvat — 49 proverenih ID-jeva
+
+Spisak je utvrđen iz prethodne hrvatske ture i upoređen sa trenutnom bazom; spisak ispod čuva prvobitni obuhvat, dok su pojedinačni nalazi i odluke u [izveštaju provere](BELESKE.md#provera-49-hrvatskih-unosa-2026-10-16). Prvobitni izvor ostaje polazna tačka za poređenje sa novijim podacima o stanju.
+
+| ID | Mesto | Vrsta | Polazni izvor |
+|---|---|---|---|
+| `jakovlje-spomenik-palim-borcima-i-zrtvama` | Jakovlje | spomenik | [Partizanstvo 10](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/10/) |
+| `oborovo-bistransko-spomen-ploca-palim-borcima-i` | Oborovo Bistransko | ploca | [Partizanstvo 23](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/23/) |
+| `luka-spomenik-palim-borcima-i-zrtvama-fasistickog` | Luka | lokalni | [Partizanstvo 134](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/134/) |
+| `zejinci-spomenik-borbi-kalnickog-partizanskog` | Žejinci | spomenik | [Partizanstvo 180](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/180/) |
+| `brod-na-kupi-spomenik-palim-borcima` | Brod na Kupi | statua | [Partizanstvo 220](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/220/) |
+| `ljubosina-spomenik-ustanka-i-nor-a` | Ljubošina | statua | [Partizanstvo 245](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/245/) |
+| `skrad-spomenik-palim-borcima-i-zrtvama-fasizma` | Skrad | statua | [Partizanstvo 247](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/247/) |
+| `gerovo-spomenik-palim-borcima` | Gerovo | lokalni | [Partizanstvo 42](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/42/) |
+| `zagreb-horvati-spomenik-palim-borcima-i-zrtvama` | Zagreb (Horvati) | statua | [Partizanstvo 7](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/7/) |
+| `cabar-spomenik-nor-u` | Čabar | lokalni | [Partizanstvo 133](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/133/) |
+| `kukuljanovo-spomenik-palim-borcima-i-zrtvama` | Kukuljanovo | lokalni | [Partizanstvo 208](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/208/) |
+| `kostrena-spomenik-ubijenim-ucesnicima-nob-a` | Kostrena | lokalni | [Partizanstvo 210](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/210/) |
+| `krasica-spomenik-palim-borcima-i-zrtvama-fasizma` | Krasica | lokalni | [Partizanstvo 264](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/264/) |
+| `poropati-spomenik-palim-borcima` | Poropati | lokalni | [Partizanstvo 266](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/266/) |
+| `nova-vas-brtonigla-spomenik-palim-borcima-i` | Nova Vas (Brtonigla) | lokalni | [Partizanstvo 292](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/292/) |
+| `babici-umag-spomen-ploca-palim-borcima-i-zrtvama` | Babići (Umag) | ploca | [Partizanstvo 296](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/296/) |
+| `kuzelj-spomen-ploca-stabu-ii-korpusa-novj` | Kuželj | ploca | [Partizanstvo 297](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/297/) |
+| `igrisce-spomen-ploca-kotarskom-komitetu-kph-donja` | Igrišće | ploca | [Partizanstvo 12](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/12/) |
+| `kraljev-vrh-grob-ivana-krkaca` | Kraljev Vrh | groblje | [Partizanstvo 14](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/14/) |
+| `cavle-spomenik-palim-borcima` | Čavle | lokalni | [Partizanstvo 214](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/214/) |
+| `crni-lug-spomenik-zrtvama-fasizma` | Crni Lug | lokalni | [Partizanstvo 216](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/216/) |
+| `poljanica-bistranska-grob-ivice-catele` | Poljanica Bistranska | groblje | [Partizanstvo 24](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/24/) |
+| `plesce-spomenik-palim-borcima-i-zrtvama-fasizma` | Plešce | lokalni | [Partizanstvo 41](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/41/) |
+| `prodol-spomen-ploca-formiranju-partizanske-cete` | Prodol | ploca | [Partizanstvo 5](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/5/) |
+| `prezid-spomen-ploca-formiranju-prve-organizacije` | Prezid | ploca | [Partizanstvo 50](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/50/) |
+| `gerovo-mladje-spomenik-diverzantskoj-akciji-1941` | Gerovo (Mladje) | lokalni | [Partizanstvo 48](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/48/) |
+| `kozji-vrh-spomen-ploca-napadu-na-talijanske` | Kozji Vrh | ploca | [Partizanstvo 51](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/51/) |
+| `tajcari-spomenik-prvom-zboru-za-odlazak-u` | Tajčari | lokalni | [Partizanstvo 58](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/58/) |
+| `prezid-zbitke-spomenik-danijelu-ozboltu` | Prezid (Zbitke) | lokalni | [Partizanstvo 59](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/59/) |
+| `prezid-zbitke-spomenik-jakovu-kovacu` | Prezid (Zbitke) | lokalni | [Partizanstvo 62](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/62/) |
+| `prezid-zbitke-spomenik-strijeljanim-partizanima` | Prezid (Zbitke) | lokalni | [Partizanstvo 63](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/63/) |
+| `kavaliri-spomenik-strijeljanim-zrtvama-fasizma` | Kavaliri | lokalni | [Partizanstvo 65](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/65/) |
+| `farjev-laz-spomen-ploca-formiranju-partizanskog` | Farjev laz | ploca | [Partizanstvo 66](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/66/) |
+| `muhovci-spomenik-strijeljanim-partizanima` | Muhovci | lokalni | [Partizanstvo 67](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/67/) |
+| `hrib-konjci-spomen-ploca-strijeljanim-rodoljubima` | Hrib (Konjci) | ploca | [Partizanstvo 68](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/68/) |
+| `korosci-gorniki-spomen-ploca-zrtvama-fasizma` | Korošci (Gorniki) | ploca | [Partizanstvo 69](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/69/) |
+| `brinjevi-dolci-spomen-ploca-obitelji-lautar` | Brinjevi dolci | ploca | [Partizanstvo 70](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/70/) |
+| `hrib-spomenik-strijeljanim-aktivistima-nop-a` | Hrib | lokalni | [Partizanstvo 71](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/71/) |
+| `gerovski-kraj-spomenik-ubijenim-prvoborcima` | Gerovski Kraj | lokalni | [Partizanstvo 78](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/78/) |
+| `gerovo-spomenik-strijeljanim-borcima-nor-a` | Gerovo | lokalni | [Partizanstvo 103](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/103/) |
+| `prezid-spomen-ploca-palim-borcima-i-zrtvama` | Prezid | ploca | [Partizanstvo 108](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/108/) |
+| `sokoli-spomenik-formiranju-prve-istarske` | Sokoli | lokalni | [Partizanstvo 109](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/109/) |
+| `parg-spomenik-ubijenim-partizanima` | Parg | lokalni | [Partizanstvo 120](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/120/) |
+| `cabar-spomen-grobnica-zrtava-fasizma` | Čabar | groblje | [Partizanstvo 132](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/132/) |
+| `ribnik-spomen-ploca-petru-maticicu-i-ankici` | Ribnik | ploca | [Partizanstvo 158](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/158/) |
+| `kostanjica-spomenik-palim-borcima` | Kostanjica | lokalni | [Partizanstvo 170](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/170/) |
+| `celovci-spomenik-vinku-ozboltu` | Celovci | lokalni | [Partizanstvo 79](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/79/) |
+| `gerovski-kraj-jurjev-laz-spomenik-partizanskom` | Gerovski Kraj (Jurjev laz) | lokalni | [Partizanstvo 80](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/80/) |
+| `jazbine-spomenik-partizanskom-stozeru` | Jazbine | lokalni | [Partizanstvo 99](https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/99/) |

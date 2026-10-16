@@ -44701,5 +44701,411 @@
     "vrsta": "statua",
     "drzava": "Croatia",
     "adresa": "Ispred osnovne škole"
+  },
+  {
+    "mesto": "Ljubošina",
+    "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/245/",
+    "naziv": "Spomenik ustanka i NOR-a",
+    "godina": "1955",
+    "vrsta": "statua",
+    "drzava": "Croatia",
+    "kandidati": [
+      {
+        "lat": 45.3202161,
+        "lng": 15.1622102,
+        "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/245/",
+        "opis": "Ranije javna tačka; opstanak i tačna današnja lokacija nisu potvrđeni ovom proverom."
+      }
+    ],
+    "proveraOpstanka": {
+      "datum": "2026-10-16",
+      "prethodniId": "ljubosina-spomenik-ustanka-i-nor-a",
+      "ishod": "nepotvrđen",
+      "razlog": "Jedina slika je crno-bela reprodukcija stare štampane strane. Opšti prostorni plan iz 2019. ne potvrđuje opstanak baš ove statue. Potrebna nova potvrda opstanka i tačne tačke; stanje ostaje neizvesno.",
+      "izvestaj": "docs/BELESKE.md#provera-49-hrvatskih-unosa-2026-10-16"
+    }
+  },
+  {
+    "mesto": "Skrad",
+    "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/247/",
+    "naziv": "Spomenik palim borcima i žrtvama fašizma",
+    "vrsta": "statua",
+    "drzava": "Croatia",
+    "kandidati": [
+      {
+        "lat": 45.4319367,
+        "lng": 14.9175069,
+        "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/247/",
+        "opis": "Ranije javna tačka; opstanak i tačna današnja lokacija nisu potvrđeni ovom proverom."
+      }
+    ],
+    "proveraOpstanka": {
+      "datum": "2026-10-16",
+      "prethodniId": "skrad-spomenik-palim-borcima-i-zrtvama-fasizma",
+      "ishod": "nepotvrđen",
+      "razlog": "Nedatirane reprodukcije i nedovoljno potvrđena tačka parka naspram škole. Potrebna nova potvrda opstanka i tačne tačke; stanje ostaje neizvesno.",
+      "izvestaj": "docs/BELESKE.md#provera-49-hrvatskih-unosa-2026-10-16"
+    }
+  },
+  {
+    "mesto": "Zagreb (Horvati)",
+    "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/7/",
+    "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+    "godina": "1961",
+    "autor": "Vjekoslav Rukljač",
+    "vrsta": "statua",
+    "drzava": "Croatia",
+    "kandidati": [
+      {
+        "lat": 45.7131682,
+        "lng": 15.8173988,
+        "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/7/",
+        "opis": "Ranije javna tačka; opstanak i tačna današnja lokacija nisu potvrđeni ovom proverom."
+      }
+    ],
+    "proveraOpstanka": {
+      "datum": "2026-10-16",
+      "prethodniId": "zagreb-horvati-spomenik-palim-borcima-i-zrtvama",
+      "ishod": "nepotvrđen",
+      "razlog": "Nije utvrđen datum stvarnog snimanja prenete fotografije; datum datoteke iz 2024. nije prihvaćen kao terenski obilazak. Potrebna nova potvrda opstanka i tačne tačke; stanje ostaje neizvesno.",
+      "izvestaj": "docs/BELESKE.md#provera-49-hrvatskih-unosa-2026-10-16"
+    }
+  },
+  {
+    "mesto": "Gerovo (Mladje)",
+    "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/48/",
+    "naziv": "Spomenik diverzantskoj akciji 1941. godine",
+    "vrsta": "lokalni",
+    "drzava": "Croatia",
+    "kandidati": [
+      {
+        "lat": 45.4748057,
+        "lng": 14.676151,
+        "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/48/",
+        "opis": "Ranije javna tačka; opstanak i tačna današnja lokacija nisu potvrđeni ovom proverom."
+      }
+    ],
+    "proveraOpstanka": {
+      "datum": "2026-10-16",
+      "prethodniId": "gerovo-mladje-spomenik-diverzantskoj-akciji-1941",
+      "ishod": "nepotvrđen",
+      "razlog": "Sken stare štampane fotografije, bez kasnijeg dokaza opstanka. Potrebna nova potvrda opstanka i tačne tačke; stanje ostaje neizvesno.",
+      "izvestaj": "docs/BELESKE.md#provera-49-hrvatskih-unosa-2026-10-16"
+    }
+  },
+  {
+    "mesto": "Tajčari",
+    "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/58/",
+    "naziv": "Spomenik prvom zboru za odlazak u partizane",
+    "godina": "1961",
+    "vrsta": "lokalni",
+    "drzava": "Croatia",
+    "kandidati": [
+      {
+        "lat": 45.6157662,
+        "lng": 14.5801923,
+        "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/58/",
+        "opis": "Ranije javna tačka; opstanak i tačna današnja lokacija nisu potvrđeni ovom proverom."
+      }
+    ],
+    "proveraOpstanka": {
+      "datum": "2026-10-16",
+      "prethodniId": "tajcari-spomenik-prvom-zboru-za-odlazak-u",
+      "ishod": "nepotvrđen",
+      "razlog": "Nedatirana reprodukcija štampane fotografije. Potrebna nova potvrda opstanka i tačne tačke; stanje ostaje neizvesno.",
+      "izvestaj": "docs/BELESKE.md#provera-49-hrvatskih-unosa-2026-10-16"
+    }
+  },
+  {
+    "mesto": "Prezid (Zbitke)",
+    "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/59/",
+    "naziv": "Spomenik Danijelu Ožboltu",
+    "vrsta": "lokalni",
+    "drzava": "Croatia",
+    "kandidati": [
+      {
+        "lat": 45.644696,
+        "lng": 14.5852563,
+        "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/59/",
+        "opis": "Ranije javna tačka; opstanak i tačna današnja lokacija nisu potvrđeni ovom proverom."
+      }
+    ],
+    "proveraOpstanka": {
+      "datum": "2026-10-16",
+      "prethodniId": "prezid-zbitke-spomenik-danijelu-ozboltu",
+      "ishod": "nepotvrđen",
+      "razlog": "Nedatirana reprodukcija fotografije i natpisa iz štampe. Potrebna nova potvrda opstanka i tačne tačke; stanje ostaje neizvesno.",
+      "izvestaj": "docs/BELESKE.md#provera-49-hrvatskih-unosa-2026-10-16"
+    }
+  },
+  {
+    "mesto": "Prezid (Zbitke)",
+    "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/62/",
+    "naziv": "Spomenik Jakovu Kovaču",
+    "vrsta": "lokalni",
+    "drzava": "Croatia",
+    "kandidati": [
+      {
+        "lat": 45.645116,
+        "lng": 14.5877025,
+        "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/62/",
+        "opis": "Ranije javna tačka; opstanak i tačna današnja lokacija nisu potvrđeni ovom proverom."
+      }
+    ],
+    "proveraOpstanka": {
+      "datum": "2026-10-16",
+      "prethodniId": "prezid-zbitke-spomenik-jakovu-kovacu",
+      "ishod": "nepotvrđen",
+      "razlog": "Nedatirana reprodukcija fotografije i natpisa iz štampe. Potrebna nova potvrda opstanka i tačne tačke; stanje ostaje neizvesno.",
+      "izvestaj": "docs/BELESKE.md#provera-49-hrvatskih-unosa-2026-10-16"
+    }
+  },
+  {
+    "mesto": "Prezid (Zbitke)",
+    "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/63/",
+    "naziv": "Spomenik strijeljanim partizanima",
+    "godina": "1983",
+    "vrsta": "lokalni",
+    "drzava": "Croatia",
+    "kandidati": [
+      {
+        "lat": 45.6433758,
+        "lng": 14.5839689,
+        "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/63/",
+        "opis": "Ranije javna tačka; opstanak i tačna današnja lokacija nisu potvrđeni ovom proverom."
+      }
+    ],
+    "proveraOpstanka": {
+      "datum": "2026-10-16",
+      "prethodniId": "prezid-zbitke-spomenik-strijeljanim-partizanima",
+      "ishod": "nepotvrđen",
+      "razlog": "Obe slike su nedatirane reprodukcije; godina podizanja 1983. ne datira kasnije stanje. Potrebna nova potvrda opstanka i tačne tačke; stanje ostaje neizvesno.",
+      "izvestaj": "docs/BELESKE.md#provera-49-hrvatskih-unosa-2026-10-16"
+    }
+  },
+  {
+    "mesto": "Kavaliri",
+    "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/65/",
+    "naziv": "Spomenik strijeljanim žrtvama fašizma",
+    "vrsta": "lokalni",
+    "drzava": "Croatia",
+    "kandidati": [
+      {
+        "lat": 45.5998545,
+        "lng": 14.6094606,
+        "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/65/",
+        "opis": "Ranije javna tačka; opstanak i tačna današnja lokacija nisu potvrđeni ovom proverom."
+      }
+    ],
+    "proveraOpstanka": {
+      "datum": "2026-10-16",
+      "prethodniId": "kavaliri-spomenik-strijeljanim-zrtvama-fasizma",
+      "ishod": "nepotvrđen",
+      "razlog": "Nedatirana reprodukcija štampane fotografije. Potrebna nova potvrda opstanka i tačne tačke; stanje ostaje neizvesno.",
+      "izvestaj": "docs/BELESKE.md#provera-49-hrvatskih-unosa-2026-10-16"
+    }
+  },
+  {
+    "mesto": "Muhovci",
+    "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/67/",
+    "naziv": "Spomenik strijeljanim partizanima",
+    "vrsta": "lokalni",
+    "drzava": "Croatia",
+    "kandidati": [
+      {
+        "lat": 45.6039379,
+        "lng": 14.6049974,
+        "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/67/",
+        "opis": "Ranije javna tačka; opstanak i tačna današnja lokacija nisu potvrđeni ovom proverom."
+      }
+    ],
+    "proveraOpstanka": {
+      "datum": "2026-10-16",
+      "prethodniId": "muhovci-spomenik-strijeljanim-partizanima",
+      "ishod": "nepotvrđen",
+      "razlog": "Nedatirana reprodukcija štampane fotografije. Potrebna nova potvrda opstanka i tačne tačke; stanje ostaje neizvesno.",
+      "izvestaj": "docs/BELESKE.md#provera-49-hrvatskih-unosa-2026-10-16"
+    }
+  },
+  {
+    "mesto": "Hrib",
+    "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/71/",
+    "naziv": "Spomenik strijeljanim aktivistima NOP-a",
+    "vrsta": "lokalni",
+    "drzava": "Croatia",
+    "kandidati": [
+      {
+        "lat": 45.5143644,
+        "lng": 14.6769021,
+        "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/71/",
+        "opis": "Ranije javna tačka; opstanak i tačna današnja lokacija nisu potvrđeni ovom proverom."
+      }
+    ],
+    "proveraOpstanka": {
+      "datum": "2026-10-16",
+      "prethodniId": "hrib-spomenik-strijeljanim-aktivistima-nop-a",
+      "ishod": "nepotvrđen",
+      "razlog": "Nedatirana reprodukcija grobljanskog spomenika. Potrebna nova potvrda opstanka i tačne tačke; stanje ostaje neizvesno.",
+      "izvestaj": "docs/BELESKE.md#provera-49-hrvatskih-unosa-2026-10-16"
+    }
+  },
+  {
+    "mesto": "Gerovski Kraj",
+    "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/78/",
+    "naziv": "Spomenik ubijenim prvoborcima",
+    "godina": "1961",
+    "vrsta": "lokalni",
+    "drzava": "Croatia",
+    "kandidati": [
+      {
+        "lat": 45.4987549,
+        "lng": 14.6581266,
+        "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/78/",
+        "opis": "Ranije javna tačka; opstanak i tačna današnja lokacija nisu potvrđeni ovom proverom."
+      }
+    ],
+    "proveraOpstanka": {
+      "datum": "2026-10-16",
+      "prethodniId": "gerovski-kraj-spomenik-ubijenim-prvoborcima",
+      "ishod": "nepotvrđen",
+      "razlog": "Nedatirana reprodukcija fotografije i natpisa iz štampe. Potrebna nova potvrda opstanka i tačne tačke; stanje ostaje neizvesno.",
+      "izvestaj": "docs/BELESKE.md#provera-49-hrvatskih-unosa-2026-10-16"
+    }
+  },
+  {
+    "mesto": "Sokoli",
+    "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/109/",
+    "naziv": "Spomenik formiranju Prve istarske partizanske čete",
+    "godina": "1982",
+    "vrsta": "lokalni",
+    "drzava": "Croatia",
+    "kandidati": [
+      {
+        "lat": 45.5496279,
+        "lng": 14.6216056,
+        "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/109/",
+        "opis": "Ranije javna tačka; opstanak i tačna današnja lokacija nisu potvrđeni ovom proverom."
+      }
+    ],
+    "proveraOpstanka": {
+      "datum": "2026-10-16",
+      "prethodniId": "sokoli-spomenik-formiranju-prve-istarske",
+      "ishod": "nepotvrđen",
+      "razlog": "Nedatirana reprodukcija; 1982. je godina podizanja, ne noviji obilazak. Potrebna nova potvrda opstanka i tačne tačke; stanje ostaje neizvesno.",
+      "izvestaj": "docs/BELESKE.md#provera-49-hrvatskih-unosa-2026-10-16"
+    }
+  },
+  {
+    "mesto": "Parg",
+    "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/120/",
+    "naziv": "Spomenik ubijenim partizanima",
+    "vrsta": "lokalni",
+    "drzava": "Croatia",
+    "kandidati": [
+      {
+        "lat": 45.5955155,
+        "lng": 14.6261332,
+        "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/120/",
+        "opis": "Ranije javna tačka; opstanak i tačna današnja lokacija nisu potvrđeni ovom proverom."
+      }
+    ],
+    "proveraOpstanka": {
+      "datum": "2026-10-16",
+      "prethodniId": "parg-spomenik-ubijenim-partizanima",
+      "ishod": "nepotvrđen",
+      "razlog": "Nedatirana reprodukcija štampane fotografije. Potrebna nova potvrda opstanka i tačne tačke; stanje ostaje neizvesno.",
+      "izvestaj": "docs/BELESKE.md#provera-49-hrvatskih-unosa-2026-10-16"
+    }
+  },
+  {
+    "mesto": "Celovci",
+    "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/79/",
+    "naziv": "Spomenik Vinku Ožboltu",
+    "godina": "1961",
+    "vrsta": "lokalni",
+    "drzava": "Croatia",
+    "kandidati": [
+      {
+        "lat": 45.6243356,
+        "lng": 14.5822952,
+        "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/79/",
+        "opis": "Ranije javna tačka; opstanak i tačna današnja lokacija nisu potvrđeni ovom proverom."
+      }
+    ],
+    "proveraOpstanka": {
+      "datum": "2026-10-16",
+      "prethodniId": "celovci-spomenik-vinku-ozboltu",
+      "ishod": "nepotvrđen",
+      "razlog": "Nedatirana reprodukcija fotografije i natpisa iz štampe. Potrebna nova potvrda opstanka i tačne tačke; stanje ostaje neizvesno.",
+      "izvestaj": "docs/BELESKE.md#provera-49-hrvatskih-unosa-2026-10-16"
+    }
+  },
+  {
+    "mesto": "Gerovski Kraj (Jurjev laz)",
+    "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/80/",
+    "naziv": "Spomenik partizanskom napadu na kolonu interniraca",
+    "vrsta": "lokalni",
+    "drzava": "Croatia",
+    "kandidati": [
+      {
+        "lat": 45.4681472,
+        "lng": 14.6816764,
+        "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/80/",
+        "opis": "Ranije javna tačka; opstanak i tačna današnja lokacija nisu potvrđeni ovom proverom."
+      }
+    ],
+    "proveraOpstanka": {
+      "datum": "2026-10-16",
+      "prethodniId": "gerovski-kraj-jurjev-laz-spomenik-partizanskom",
+      "ishod": "nepotvrđen",
+      "razlog": "Nedatirana reprodukcija; nije nađen zaseban noviji dokaz opstanka. Potrebna nova potvrda opstanka i tačne tačke; stanje ostaje neizvesno.",
+      "izvestaj": "docs/BELESKE.md#provera-49-hrvatskih-unosa-2026-10-16"
+    }
+  },
+  {
+    "mesto": "Jazbine",
+    "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/99/",
+    "naziv": "Spomenik partizanskom stožeru",
+    "vrsta": "lokalni",
+    "drzava": "Croatia",
+    "kandidati": [
+      {
+        "lat": 45.5762188,
+        "lng": 14.6610878,
+        "izvor": "https://partizanstvo.si/sl/podrobno/hrvaskipartizanskispomenik/99/",
+        "opis": "Ranije javna tačka; opstanak i tačna današnja lokacija nisu potvrđeni ovom proverom."
+      }
+    ],
+    "proveraOpstanka": {
+      "datum": "2026-10-16",
+      "prethodniId": "jazbine-spomenik-partizanskom-stozeru",
+      "ishod": "nepotvrđen",
+      "razlog": "Nedatirana reprodukcija; knjiški nalaz o drugim Jazbinama nije dokaz rušenja ovoga objekta. Potrebna nova potvrda opstanka i tačne tačke; stanje ostaje neizvesno.",
+      "izvestaj": "docs/BELESKE.md#provera-49-hrvatskih-unosa-2026-10-16"
+    }
+  },
+  {
+    "mesto": "Vinkovci",
+    "naziv": "Spomenik Mirku Romčeviću",
+    "nazivEn": "Monument to Mirko Romčević",
+    "godina": "1973",
+    "vrsta": "spomenik",
+    "drzava": "Croatia",
+    "izvor": "https://znaci.org/00003/736.php?broj=296",
+    "kandidati": [
+      {
+        "lat": 45.2990657,
+        "lng": 18.8046881,
+        "izvor": "https://znaci.org/00003/736.php?broj=296",
+        "opis": "Ranija tačka iz aplikacije; naziv i fotografija se odnose na različite objekte. Identitet i povratak nisu potvrđeni."
+      }
+    ],
+    "proveraOpstanka": {
+      "datum": "2026-10-16",
+      "prethodniId": "vinkovci",
+      "ishod": "nepotvrđen-identitet",
+      "razlog": "Knjiga razlikuje uklonjeni spomenik Mirku Romčeviću kod stanice od uklonjenog spomenika oslobodiocima i tenkistima na prilazu gradu. Naša fotografija odgovara drugom objektu (sl. 762), a naziv i godina prvom. Kasniji dokaz povratka i pouzdan identitet tačke nisu pronađeni. Povučeno kao nepotvrđeno, bez tvrdnje o stanju u 2026. Fotografije su sačuvane u arhivi.",
+      "izvestaj": "docs/BELESKE.md#nastavak-provere-hrvatske-prvi-rizicni-slucajevi-2026-10-16"
+    }
   }
 ]
