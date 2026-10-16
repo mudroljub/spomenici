@@ -5040,16 +5040,6 @@
     "godina": "1950-ih"
   },
   {
-    "naziv": "Park narodnih heroja",
-    "nazivEn": "Park of National Heroes",
-    "mesto": "Bileća",
-    "adresa": "Ul. Ravnogorska",
-    "drzava": "Bosnia and Herzegovina",
-    "godina": "1972",
-    "vrsta": "kompleks",
-    "izvor": "https://www.spomenicinob.info/bileca"
-  },
-  {
     "naziv": "Spomen-kosturnica palih boraca iz Bileće",
     "nazivEn": "Memorial ossuary of fallen fighters from Bileća",
     "mesto": "Bileća",
@@ -6965,17 +6955,6 @@
     "vrsta": "lokalni",
     "izvor": "https://www.spomenicinob.info/bosanskipetrovac",
     "stanje": "ostecen"
-  },
-  {
-    "naziv": "Spomen-kompleks Vrtoče",
-    "nazivEn": "Vrtoče memorial complex",
-    "mesto": "Vrtoče",
-    "adresa": "Village centre",
-    "drzava": "Bosnia and Herzegovina",
-    "autor": "Nebojša Latinović & Enver Kudić",
-    "godina": "1971",
-    "vrsta": "kompleks",
-    "izvor": "https://www.spomenicinob.info/bosanskipetrovac"
   },
   {
     "naziv": "Bista Milana Atlagića",
@@ -10657,7 +10636,20 @@
     "drzava": "Bosnia and Herzegovina",
     "vrsta": "muzej",
     "izvor": "https://www.spomenicinob.info/cazin",
-    "stanje": "ostecen"
+    "stanje": "ostecen",
+    "kandidati": [
+      {
+        "lat": 44.9642322,
+        "lng": 15.9387986,
+        "izvor": "https://www.openstreetmap.org/node/11936860650",
+        "opis": "Tačno identifikovana memorijalna kuća; zvanični izveštaj 22.1.2026. najavljuje otvaranje muzeja posle završetka uređenja dvorišta. Završeno otvaranje nije potvrđeno; ne predstavljati kao otvoren muzej."
+      }
+    ],
+    "proveraLokacije": {
+      "datum": "2026-10-16",
+      "izvor": "https://ckt.ba/nova-multimedijalna-oprema-za-potrebe-stalnih-muzejskih-zbirki-u-knp/",
+      "ishod": "tačka-poznata-otvaranje-nepotvrđeno"
+    }
   },
   {
     "naziv": "Bista Hasana Mujezinovića",
@@ -18545,17 +18537,6 @@
     "autor": "Đurica Manojlović",
     "vrsta": "lokalni",
     "izvor": "https://www.spomenicinob.info/istocnonovosarajevo"
-  },
-  {
-    "naziv": "Muzej Bitke za ranjenike",
-    "nazivEn": "Museum of the Battle for the Wounded",
-    "mesto": "Jablanica",
-    "adresa": "Ul. Bitka za ranjenike",
-    "drzava": "Bosnia and Herzegovina",
-    "autor": "Branko Tadić & Zdravko Dunđerović & Mustafa Ramić",
-    "godina": "1978",
-    "vrsta": "muzej",
-    "izvor": "https://www.spomenicinob.info/jablanica"
   },
   {
     "naziv": "Ostaci mosta na Neretvi",
@@ -34644,16 +34625,6 @@
     "godina": "1974",
     "vrsta": "groblje",
     "izvor": "https://www.spomenicinob.info/sirokibrijeg"
-  },
-  {
-    "naziv": "Park narodnih heroja",
-    "nazivEn": "Park of National Heroes",
-    "mesto": "Sokolac",
-    "adresa": "Town centre",
-    "drzava": "Bosnia and Herzegovina",
-    "godina": "1978",
-    "vrsta": "kompleks",
-    "izvor": "https://www.spomenicinob.info/sokolac"
   },
   {
     "naziv": "Spomen-kosturnica palih boraca",

@@ -68133,5 +68133,34 @@
     "nazivEn": "Memorial Fountain to the Victims of Bulgarian Fascists",
     "vrsta": "lokalni",
     "drzava": "Serbia"
+  },
+  {
+    "id": "sokolac-park-boraca-romanije",
+    "koordinate": {
+      "lat": 43.9333146,
+      "lng": 18.7941384
+    },
+    "mesto": "Sokolac",
+    "izvor": "https://www.spomenicinob.info/sokolac",
+    "naziv": "Park boraca Romanije",
+    "godina": "1978",
+    "vrsta": "kompleks",
+    "drzava": "Bosnia and Herzegovina"
+  },
+  {
+    "id": "bileca-park-narodnih-heroja",
+    "koordinate": {
+      "lat": 42.8773522,
+      "lng": 18.4298233
+    },
+    "mesto": "Bileća",
+    "izvor": "https://www.spomenicinob.info/bileca",
+    "slika": "slike/spomenici/bileca-park-narodnih-heroja.webp",
+    "slikaOdnos": 1.333,
+    "slikaPotpis": "Zavičajac, CC BY-SA 4.0",
+    "naziv": "Park narodnih heroja",
+    "godina": "1972",
+    "vrsta": "kompleks",
+    "drzava": "Bosnia and Herzegovina"
   }
 ]
