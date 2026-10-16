@@ -44135,5 +44135,719 @@
     "vrsta": "groblje",
     "drzava": "Serbia",
     "adresa": "Groblje"
+  },
+  {
+    "mesto": "Šibenik",
+    "izvor": "https://znaci.org/00003/905.pdf#page=24",
+    "naziv": "Spomenik zdravstvenim radnicima poginulim u NOB-u",
+    "godina": "1975",
+    "autor": "Kosta Angeli Radovani",
+    "vrsta": "spomenik",
+    "drzava": "Croatia",
+    "adresa": "Bolnica, polukružni ogradni zid"
+  },
+  {
+    "mesto": "Šibenik",
+    "izvor": "https://znaci.org/00003/905.pdf#page=29",
+    "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+    "godina": "1979",
+    "vrsta": "spomenik",
+    "drzava": "Croatia",
+    "adresa": "Ulaz u Razore, MZ Crnica"
+  },
+  {
+    "mesto": "Šibenik",
+    "izvor": "https://znaci.org/00003/905.pdf#page=31",
+    "naziv": "Spomenik sudionicima revolucionarnog radničkog i oslobodilačkog pokreta",
+    "autor": "Ante Despot",
+    "vrsta": "spomenik",
+    "drzava": "Croatia",
+    "adresa": "Ulica Borisa Kidriča 73, pred lijevim krilom zgrade suda"
+  },
+  {
+    "mesto": "Šibenik (Mandalina)",
+    "izvor": "https://znaci.org/00003/905.pdf#page=35",
+    "naziv": "Spomenik strijeljanim rodoljubima",
+    "godina": "1953",
+    "vrsta": "spomenik",
+    "drzava": "Croatia",
+    "adresa": "Pećine, lijevo uz cestu Mandalina–Zablaće"
+  },
+  {
+    "mesto": "Sinj (Podi put)",
+    "izvor": "https://znaci.org/00003/905.pdf#page=37",
+    "naziv": "Spomen-kosturnica boraca VIII dalmatinske brigade",
+    "vrsta": "groblje",
+    "drzava": "Croatia",
+    "adresa": "Predjel Podi put, 8 km od Sinja na cesti Sinj–Livno, kod odvojka za Gljev"
+  },
+  {
+    "mesto": "Šibenik",
+    "izvor": "https://znaci.org/00003/905.pdf#page=39",
+    "naziv": "Spomen-groblje Raskrižje",
+    "vrsta": "groblje",
+    "drzava": "Croatia",
+    "adresa": "Raskrižje, oko 4 km jugoistočno od Šibenika"
+  },
+  {
+    "mesto": "Šibenik",
+    "izvor": "https://znaci.org/00003/905.pdf#page=44",
+    "naziv": "Bista Rade Končara",
+    "godina": "1969",
+    "autor": "Vojin Bakić",
+    "vrsta": "bista",
+    "drzava": "Croatia",
+    "adresa": "Šubićevac, ispred društvenog doma NK Šibenik"
+  },
+  {
+    "mesto": "Šibenik",
+    "izvor": "https://znaci.org/00003/905.pdf#page=47",
+    "naziv": "Bista Vlade Perana",
+    "godina": "1966",
+    "autor": "Ante Despot",
+    "vrsta": "bista",
+    "drzava": "Croatia",
+    "adresa": "Obala oslobođenja, park lijevo od Gradskog muzeja, ispred Kneževe palače"
+  },
+  {
+    "mesto": "Šibenik",
+    "izvor": "https://znaci.org/00003/905.pdf#page=49",
+    "naziv": "Bista Slobodana Macure",
+    "godina": "1966",
+    "autor": "Ante Despot",
+    "vrsta": "bista",
+    "drzava": "Croatia",
+    "adresa": "Obala oslobođenja, park lijevo od Gradskog muzeja, ispred Kneževe palače"
+  },
+  {
+    "mesto": "Šibenik",
+    "izvor": "https://znaci.org/00003/905.pdf#page=51",
+    "naziv": "Bista Mire Višića",
+    "godina": "1966",
+    "autor": "Ante Despot",
+    "vrsta": "bista",
+    "drzava": "Croatia",
+    "adresa": "Obala oslobođenja, park lijevo od Gradskog muzeja, ispred Kneževe palače"
+  },
+  {
+    "mesto": "Šibenik",
+    "izvor": "https://znaci.org/00003/905.pdf#page=53",
+    "naziv": "Bista Ante Jurlina",
+    "godina": "1966",
+    "autor": "Ante Despot",
+    "vrsta": "bista",
+    "drzava": "Croatia",
+    "adresa": "Poljana maršala Tita, mali park ispred Doma JNA"
+  },
+  {
+    "mesto": "Šibenik",
+    "izvor": "https://znaci.org/00003/905.pdf#page=55",
+    "naziv": "Bista Velimira Škorpika",
+    "godina": "1970",
+    "autor": "Rajko Radović",
+    "vrsta": "bista",
+    "drzava": "Croatia",
+    "adresa": "Mandalina, krug MTRZ Velimir Škorpik"
+  },
+  {
+    "mesto": "Šibenik",
+    "izvor": "https://znaci.org/00003/905.pdf#page=57",
+    "naziv": "Bista Borisa Kidriča",
+    "godina": "1953",
+    "vrsta": "bista",
+    "drzava": "Croatia",
+    "adresa": "Ražine, ispred upravne zgrade Tvornice lakih metala Boris Kidrič"
+  },
+  {
+    "mesto": "Banjevci — Kašić",
+    "izvor": "https://znaci.org/00003/905.pdf#page=126",
+    "naziv": "Spomenik palim borcima",
+    "godina": "1953",
+    "autor": "Mate Sunić",
+    "vrsta": "spomenik",
+    "drzava": "Croatia"
+  },
+  {
+    "mesto": "Bićine",
+    "izvor": "https://znaci.org/00003/905.pdf#page=138",
+    "naziv": "Spomenik žrtvama fašističkog terora",
+    "godina": "1959",
+    "vrsta": "spomenik",
+    "drzava": "Croatia",
+    "adresa": "Južni proplanak sela, lijevo od ceste Skradin–Bićine"
+  },
+  {
+    "mesto": "Bribirske Mostine (Brdenjuk)",
+    "izvor": "https://znaci.org/00003/905.pdf#page=158",
+    "naziv": "Spomenik strijeljanim Ostrovičanima i Dobropoljcu",
+    "godina": "1959",
+    "vrsta": "spomenik",
+    "drzava": "Croatia",
+    "adresa": "Neposredno uz cestu Zadar–Knin, između Žažvića i Bribirskih Mostina"
+  },
+  {
+    "mesto": "Čista Mala",
+    "izvor": "https://znaci.org/00003/905.pdf#page=162",
+    "naziv": "Spomenik strijeljanim rodoljubima",
+    "godina": "1961",
+    "vrsta": "spomenik",
+    "drzava": "Croatia",
+    "adresa": "Nasuprot osnovnoj školi, Čista Mala na pravcu Vodice–Bribirske Mostine"
+  },
+  {
+    "mesto": "Danilo Gornje",
+    "izvor": "https://znaci.org/00003/905.pdf#page=164",
+    "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+    "godina": "1961",
+    "vrsta": "spomenik",
+    "drzava": "Croatia"
+  },
+  {
+    "mesto": "Dubrava — Rakovo Selo",
+    "izvor": "https://znaci.org/00003/905.pdf#page=169",
+    "naziv": "Spomenik palim borcima i prvom rukovodstvu NOP-a",
+    "godina": "1950",
+    "vrsta": "spomenik",
+    "drzava": "Croatia",
+    "adresa": "Trg u samom mjestu, Dubrava/Rakovo Selo kod Šibenika"
+  },
+  {
+    "mesto": "Buje",
+    "izvor": "https://znaci.org/00003/905.pdf#page=173",
+    "naziv": "Bista Marka Raka",
+    "vrsta": "bista",
+    "drzava": "Croatia"
+  },
+  {
+    "mesto": "Dubravice",
+    "izvor": "https://znaci.org/00003/905.pdf#page=176",
+    "naziv": "Spomenik Marku Bilušiću",
+    "godina": "1961",
+    "vrsta": "spomenik",
+    "drzava": "Croatia",
+    "adresa": "Predio Jurino Pode, lijevo uz cestu Skradin–Dubravice"
+  },
+  {
+    "mesto": "Goriš",
+    "izvor": "https://znaci.org/00003/905.pdf#page=179",
+    "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+    "godina": "1950",
+    "vrsta": "spomenik",
+    "drzava": "Croatia"
+  },
+  {
+    "mesto": "Grebaštica",
+    "izvor": "https://znaci.org/00003/905.pdf#page=183",
+    "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+    "godina": "1968",
+    "vrsta": "spomenik",
+    "drzava": "Croatia",
+    "adresa": "U selu, desno od seoske lokve, na malom brežuljku"
+  },
+  {
+    "mesto": "Jadrtovac",
+    "izvor": "https://znaci.org/00003/905.pdf#page=185",
+    "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+    "godina": "1960",
+    "vrsta": "spomenik",
+    "drzava": "Croatia",
+    "adresa": "Središte mjesta, predio Kuralište"
+  },
+  {
+    "mesto": "Jadrtovac",
+    "izvor": "https://znaci.org/00003/905.pdf#page=187",
+    "naziv": "Spomen-kosturnica palih boraca i žrtava fašističkog terora",
+    "godina": "1961",
+    "vrsta": "groblje",
+    "drzava": "Croatia",
+    "adresa": "Groblje sv. Lovre"
+  },
+  {
+    "mesto": "Jezera",
+    "izvor": "https://znaci.org/00003/905.pdf#page=189",
+    "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+    "godina": "1978",
+    "autor": "Vlade Petković",
+    "vrsta": "spomenik",
+    "drzava": "Croatia"
+  },
+  {
+    "mesto": "Kaprije",
+    "izvor": "https://znaci.org/00003/905.pdf#page=192",
+    "naziv": "Spomenik palima za slobodu",
+    "godina": "1966",
+    "vrsta": "spomenik",
+    "drzava": "Croatia"
+  },
+  {
+    "mesto": "Cvrljevo (Konjevrate)",
+    "izvor": "https://znaci.org/00003/905.pdf#page=195",
+    "naziv": "Spomenik palim borcima i žrtvama fašizma",
+    "godina": "1962",
+    "vrsta": "spomenik",
+    "drzava": "Croatia",
+    "adresa": "Predio Vlaka, zaselak Cvrljevo kod Konjevrata"
+  },
+  {
+    "mesto": "Laškovica",
+    "izvor": "https://znaci.org/00003/905.pdf#page=218",
+    "naziv": "Spomen-kosturnica boraca Sjevernodalmatinskog odreda i V. brigade XIX. divizije",
+    "godina": "1954",
+    "vrsta": "groblje",
+    "drzava": "Croatia",
+    "adresa": "Raskrižje puta Rupe–Ićevo u Laškovici"
+  },
+  {
+    "mesto": "Lozovac (Tromilja)",
+    "izvor": "https://znaci.org/00003/905.pdf#page=223",
+    "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+    "godina": "1975",
+    "autor": "Antun Jović & Vlade Petković",
+    "vrsta": "kompleks",
+    "drzava": "Croatia",
+    "adresa": "Tromilja na putovima Šibenik–Drniš i Šibenik–Skradin"
+  },
+  {
+    "mesto": "Lozovac",
+    "izvor": "https://znaci.org/00003/905.pdf#page=229",
+    "naziv": "Spomenik palim radnicima Tvornice aluminija",
+    "godina": "1967",
+    "autor": "Niđo Erceg",
+    "vrsta": "spomenik",
+    "drzava": "Croatia",
+    "adresa": "Predio Vrh Brine, Novo naselje, lijevo od ceste prema Slapovima Krke"
+  },
+  {
+    "mesto": "Međare",
+    "izvor": "https://znaci.org/00003/905.pdf#page=238",
+    "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+    "godina": "1977",
+    "vrsta": "spomenik",
+    "drzava": "Croatia",
+    "adresa": "Pored ceste Međare–Zažvić, s lijeve strane u Međarima"
+  },
+  {
+    "mesto": "Murter",
+    "izvor": "https://znaci.org/00003/905.pdf#page=241",
+    "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+    "godina": "1966",
+    "autor": "Vlade Petković",
+    "vrsta": "statua",
+    "drzava": "Croatia",
+    "adresa": "Trg 2. dalmatinske"
+  },
+  {
+    "mesto": "Smokvica (Kornati)",
+    "izvor": "https://znaci.org/00003/905.pdf#page=245",
+    "naziv": "Spomenik prvoj partizanskoj minerskoj jedinici",
+    "godina": "1962",
+    "vrsta": "spomenik",
+    "drzava": "Croatia",
+    "adresa": "Jugozapadna strana otoka, na kamenoj litici"
+  },
+  {
+    "mesto": "Žut (Kornati)",
+    "izvor": "https://znaci.org/00003/905.pdf#page=248",
+    "naziv": "Spomenik žrtvama fašističkog terora",
+    "vrsta": "spomenik",
+    "drzava": "Croatia",
+    "adresa": "Zapadni dio otoka Žuta"
+  },
+  {
+    "mesto": "Piškera (Kornati)",
+    "izvor": "https://znaci.org/00003/905.pdf#page=250",
+    "naziv": "Spomen-kosturnica palim borcima",
+    "godina": "1955",
+    "vrsta": "groblje",
+    "drzava": "Croatia"
+  },
+  {
+    "mesto": "Murter",
+    "izvor": "https://znaci.org/00003/905.pdf#page=253",
+    "naziv": "Bista Ive Vodopije Srećka",
+    "godina": "1966",
+    "autor": "Mile Grgas",
+    "vrsta": "bista",
+    "drzava": "Croatia",
+    "adresa": "Hramina, mjesni park na raskrižju ulica Maršala Tita i Veljka Vlahovića"
+  },
+  {
+    "mesto": "Murter",
+    "izvor": "https://znaci.org/00003/905.pdf#page=256",
+    "naziv": "Bista Milana Jurana Žute",
+    "godina": "1966",
+    "autor": "Mile Grgas",
+    "vrsta": "bista",
+    "drzava": "Croatia",
+    "adresa": "Dvorište Osnovne škole, Ulica Ive Vodopije Srećka"
+  },
+  {
+    "mesto": "Kornat (Vrulje)",
+    "izvor": "https://znaci.org/00003/905.pdf#page=264",
+    "naziv": "Bista Velimira Škorpika",
+    "vrsta": "bista",
+    "drzava": "Croatia",
+    "adresa": "Luka Velike Vrulje"
+  },
+  {
+    "mesto": "Pirovac",
+    "izvor": "https://znaci.org/00003/905.pdf#page=269",
+    "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+    "godina": "1977",
+    "autor": "Branko Vukorepa",
+    "vrsta": "spomenik",
+    "drzava": "Croatia",
+    "adresa": "Park pri ulazu u mjesto, desno"
+  },
+  {
+    "mesto": "Pirovac",
+    "izvor": "https://znaci.org/00003/905.pdf#page=272",
+    "naziv": "Spomen-kosturnica palim borcima",
+    "godina": "1950",
+    "vrsta": "groblje",
+    "drzava": "Croatia",
+    "adresa": "Predio Griža, uz cestu Pirovac–Stankovci lijevo, borova šuma"
+  },
+  {
+    "mesto": "Pirovac",
+    "izvor": "https://znaci.org/00003/905.pdf#page=274",
+    "naziv": "Spomen-grobnica Josipa Ćubrića",
+    "vrsta": "groblje",
+    "drzava": "Croatia",
+    "adresa": "Mjesno groblje"
+  },
+  {
+    "mesto": "Pirovac",
+    "izvor": "https://znaci.org/00003/905.pdf#page=276",
+    "naziv": "Bista Josipa Ćubrića",
+    "godina": "1965",
+    "autor": "Vinko Matković",
+    "vrsta": "bista",
+    "drzava": "Croatia",
+    "adresa": "Trg žrtava fašizma"
+  },
+  {
+    "mesto": "Plastovo",
+    "izvor": "https://znaci.org/00003/905.pdf#page=280",
+    "naziv": "Spomenik osnivanju Općinskog NOO-a Skradin",
+    "godina": "1959",
+    "vrsta": "spomenik",
+    "drzava": "Croatia",
+    "adresa": "Glavica Kuzmanović, zaseok Kuzmanovići"
+  },
+  {
+    "mesto": "Burnji Primošten",
+    "izvor": "https://znaci.org/00003/905.pdf#page=289",
+    "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+    "godina": "1973",
+    "vrsta": "spomenik",
+    "drzava": "Croatia",
+    "adresa": "Nasuprot osnovnoj školi"
+  },
+  {
+    "mesto": "Burnji Primošten",
+    "izvor": "https://znaci.org/00003/905.pdf#page=298",
+    "naziv": "Spomenik Juri Bogdanu",
+    "vrsta": "spomenik",
+    "drzava": "Croatia",
+    "adresa": "Sarićeva kapela"
+  },
+  {
+    "mesto": "Južni Primošten",
+    "izvor": "https://znaci.org/00003/905.pdf#page=302",
+    "naziv": "Spomenik palim borcima za slobodu",
+    "godina": "1958",
+    "vrsta": "spomenik",
+    "drzava": "Croatia",
+    "adresa": "Predio Bratski dolac, ograđeni park"
+  },
+  {
+    "mesto": "Prvić Šepurine",
+    "izvor": "https://znaci.org/00003/905.pdf#page=308",
+    "naziv": "Spomenik palim borcima i žrtvama fašističkog terora i rata",
+    "godina": "1980",
+    "autor": "Dražen Cukrov",
+    "vrsta": "spomenik",
+    "drzava": "Croatia",
+    "adresa": "Mjesni park"
+  },
+  {
+    "mesto": "Sapina Doca",
+    "izvor": "https://znaci.org/00003/905.pdf#page=325",
+    "naziv": "Spomenik palim borcima i žrtvama fašizma",
+    "godina": "1957",
+    "vrsta": "spomenik",
+    "drzava": "Croatia"
+  },
+  {
+    "mesto": "Sapina Doca",
+    "izvor": "https://znaci.org/00003/905.pdf#page=328",
+    "naziv": "Spomenik Komandi mjesta Šibenik",
+    "godina": "1980",
+    "vrsta": "spomenik",
+    "drzava": "Croatia",
+    "adresa": "Raskrižje za zaselak Sarićeva Kotelja"
+  },
+  {
+    "mesto": "Kotelja",
+    "izvor": "https://znaci.org/00003/905.pdf#page=332",
+    "naziv": "Spomenik Trogirsko-rogozničkoj četi",
+    "vrsta": "spomenik",
+    "drzava": "Croatia",
+    "adresa": "Zaseok Sarićeva Kotelja"
+  },
+  {
+    "mesto": "Kotelja",
+    "izvor": "https://znaci.org/00003/905.pdf#page=334",
+    "naziv": "Spomenik Nenadu Ravliću",
+    "vrsta": "spomenik",
+    "drzava": "Croatia",
+    "adresa": "Puteljak od Kotelja prema Rastovcu desno, predio Grkov Dolac"
+  },
+  {
+    "mesto": "Skradin",
+    "izvor": "https://znaci.org/00003/905.pdf#page=341",
+    "naziv": "Spomenik Pavlu Papu i Pašku Trlaji",
+    "vrsta": "spomenik",
+    "drzava": "Croatia",
+    "adresa": "Predio Badana, lijevo od ceste Skradin–Dubravice, istočne padine brda"
+  },
+  {
+    "mesto": "Skradin",
+    "izvor": "https://znaci.org/00003/905.pdf#page=343",
+    "naziv": "Spomen-grobnica Pavla Papa i Paška Trlaje",
+    "vrsta": "groblje",
+    "drzava": "Croatia",
+    "adresa": "Mjesno groblje Sv. Jere, uz zapadni ogradni zid"
+  },
+  {
+    "mesto": "Slivno",
+    "izvor": "https://znaci.org/00003/905.pdf#page=346",
+    "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+    "godina": "1961",
+    "vrsta": "spomenik",
+    "drzava": "Croatia",
+    "adresa": "U mjestu desno od ceste, padine brda u borovoj šumi"
+  },
+  {
+    "mesto": "Srima",
+    "izvor": "https://znaci.org/00003/905.pdf#page=353",
+    "naziv": "Spomen-grobnica osmorice boraca i žrtava fašističkog terora",
+    "vrsta": "groblje",
+    "drzava": "Croatia",
+    "adresa": "Predio Srimska lokva, desno od Jadranske magistrale na polovini puta Šibenik–Vodice"
+  },
+  {
+    "mesto": "Srima",
+    "izvor": "https://znaci.org/00003/905.pdf#page=355",
+    "naziv": "Spomenik članovima Kotarskog komiteta KPH Biograd i rukovodiocima NOP-a Vodica",
+    "godina": "1973",
+    "autor": "Ante Despot",
+    "vrsta": "spomenik",
+    "drzava": "Croatia",
+    "adresa": "Predio Angrižovo, lijevo uz cestu Srima–Šibenik, dva kilometra od Srime"
+  },
+  {
+    "mesto": "Ivinj (Tijesno)",
+    "izvor": "https://znaci.org/00003/905.pdf#page=361",
+    "naziv": "Spomenik logoru prvoboraca",
+    "godina": "1949",
+    "vrsta": "spomenik",
+    "drzava": "Croatia",
+    "adresa": "Zaseok Ivinj, oko 4 km od Tijesna desno od ceste prema Šibeniku"
+  },
+  {
+    "mesto": "Tribunj",
+    "izvor": "https://znaci.org/00003/905.pdf#page=367",
+    "naziv": "Spomen-kosturnica palim borcima i žrtvama fašističkog terora",
+    "godina": "1961",
+    "vrsta": "groblje",
+    "drzava": "Croatia",
+    "adresa": "Vrh brda Sv. Nikola zapadno od mjesta"
+  },
+  {
+    "mesto": "Sopalj",
+    "izvor": "https://znaci.org/00003/905.pdf#page=372",
+    "naziv": "Spomenik borbi na Soplju i žrtvama na Sutini",
+    "godina": "1952",
+    "vrsta": "spomenik",
+    "drzava": "Croatia",
+    "adresa": "Lijevo od seoskog puta Tribunj–Sopalj–Dazline, oko 4 km od Jadranske magistrale"
+  },
+  {
+    "mesto": "Tribunj (Sovlje)",
+    "izvor": "https://znaci.org/00003/905.pdf#page=375",
+    "naziv": "Spomenik partizanskoj pomorskoj bazi",
+    "godina": "1962",
+    "vrsta": "spomenik",
+    "drzava": "Croatia",
+    "adresa": "Uvala Sovlje, borova šuma lijevo od puta"
+  },
+  {
+    "mesto": "Tribunj",
+    "izvor": "https://znaci.org/00003/905.pdf#page=378",
+    "naziv": "Bista Ante Krapljanova",
+    "godina": "1978",
+    "vrsta": "bista",
+    "drzava": "Croatia",
+    "adresa": "Dvorište područne škole"
+  },
+  {
+    "mesto": "Srima",
+    "izvor": "https://znaci.org/00003/905.pdf#page=389",
+    "naziv": "Spomenik osnivanju prvih organizacija KPJ i SKOJ-a u Vodicama",
+    "vrsta": "spomenik",
+    "drzava": "Croatia",
+    "adresa": "Srimska lokva, uz Jadransku magistralu na polovini puta Šibenik–Vodice"
+  },
+  {
+    "mesto": "Vodice",
+    "izvor": "https://znaci.org/00003/905.pdf#page=394",
+    "naziv": "Spomenik strijeljanim na Hangaru",
+    "godina": "1951",
+    "vrsta": "spomenik",
+    "drzava": "Croatia",
+    "adresa": "Borova šuma zapadno od hotela Olimpija, predio Hangar"
+  },
+  {
+    "mesto": "Vodice",
+    "izvor": "https://znaci.org/00003/905.pdf#page=397",
+    "naziv": "Spomenik na Kozari",
+    "godina": "1961",
+    "vrsta": "spomenik",
+    "drzava": "Croatia",
+    "adresa": "Predio Kozara, lijevo od ceste Vodice–Gaćelezi"
+  },
+  {
+    "mesto": "Vodice",
+    "izvor": "https://znaci.org/00003/905.pdf#page=400",
+    "naziv": "Spomenik Prvoj primorskoj partizanskoj četi",
+    "godina": "1962",
+    "vrsta": "spomenik",
+    "drzava": "Croatia",
+    "adresa": "Šuškov raskrit, uz magistralu na zapadnom izlazu iz Vodica"
+  },
+  {
+    "mesto": "Vodice",
+    "izvor": "https://znaci.org/00003/905.pdf#page=403",
+    "naziv": "Spomenik borbi Primorske čete na Kovči",
+    "godina": "1953",
+    "vrsta": "spomenik",
+    "drzava": "Croatia",
+    "adresa": "Predio Kovče, cesta Vodice–Čista Mala"
+  },
+  {
+    "mesto": "Vodice",
+    "izvor": "https://znaci.org/00003/905.pdf#page=406",
+    "naziv": "Spomen-kosturnica palih boraca",
+    "vrsta": "groblje",
+    "drzava": "Croatia",
+    "adresa": "Novo groblje, predio Pudarjica"
+  },
+  {
+    "mesto": "Vodice",
+    "izvor": "https://znaci.org/00003/905.pdf#page=408",
+    "naziv": "Bista Kamila Pamukovića",
+    "godina": "1979",
+    "autor": "Josip Poljan",
+    "vrsta": "bista",
+    "drzava": "Croatia",
+    "adresa": "Park na Poljani maršala Tita"
+  },
+  {
+    "mesto": "Vodice",
+    "izvor": "https://znaci.org/00003/905.pdf#page=410",
+    "naziv": "Bista Gušte Sprljana",
+    "godina": "1974",
+    "autor": "Josip Poljan",
+    "vrsta": "bista",
+    "drzava": "Croatia",
+    "adresa": "Park na Poljani maršala Tita"
+  },
+  {
+    "mesto": "Vrpolje",
+    "izvor": "https://znaci.org/00003/905.pdf#page=423",
+    "naziv": "Spomenik palim borcima i žrtvama fašističkog terora",
+    "godina": "1962",
+    "vrsta": "spomenik",
+    "drzava": "Croatia"
+  },
+  {
+    "mesto": "Zablaće",
+    "izvor": "https://znaci.org/00003/905.pdf#page=429",
+    "naziv": "Spomen-grobnica žrtava fašističkog terora",
+    "vrsta": "groblje",
+    "drzava": "Croatia",
+    "adresa": "Mjesno groblje"
+  },
+  {
+    "mesto": "Zaton",
+    "izvor": "https://znaci.org/00003/905.pdf#page=431",
+    "naziv": "Spomenik borcima narodne revolucije i žrtvama fašističkog terora",
+    "godina": "1955",
+    "autor": "Ante Ušljebrka",
+    "vrsta": "spomenik",
+    "drzava": "Croatia",
+    "adresa": "Trg maršala Tita"
+  },
+  {
+    "mesto": "Zaton",
+    "izvor": "https://znaci.org/00003/905.pdf#page=432",
+    "naziv": "Memorijalni zid palim borcima i žrtvama fašističkog terora i rata",
+    "godina": "1977",
+    "autor": "Branko Vukorepa",
+    "vrsta": "lokalni",
+    "drzava": "Croatia",
+    "adresa": "Trg maršala Tita, sjeverno od spomenika s borcem"
+  },
+  {
+    "mesto": "Zaton",
+    "izvor": "https://znaci.org/00003/905.pdf#page=437",
+    "naziv": "Spomenik žrtvama strijeljanja 13. lipnja 1943.",
+    "vrsta": "spomenik",
+    "drzava": "Croatia",
+    "adresa": "Mjesno groblje"
+  },
+  {
+    "mesto": "Zaton",
+    "izvor": "https://znaci.org/00003/905.pdf#page=439",
+    "naziv": "Spomen-kosturnica na Jelovači",
+    "godina": "1961",
+    "vrsta": "groblje",
+    "drzava": "Croatia",
+    "adresa": "Jelovača, oko 2,5 km od Zatona prema Raslini"
+  },
+  {
+    "mesto": "Zaton",
+    "izvor": "https://znaci.org/00003/905.pdf#page=441",
+    "naziv": "Spomen-kosturnica na Musinoj lokvi",
+    "godina": "1961",
+    "vrsta": "groblje",
+    "drzava": "Croatia",
+    "adresa": "Musina lokva, oko 2 km od Zatona prema Gaćelezima"
+  },
+  {
+    "mesto": "Zečevo",
+    "izvor": "https://znaci.org/00003/905.pdf#page=449",
+    "naziv": "Spomenik partizanskoj obalskoj artiljeriji",
+    "godina": "1952",
+    "vrsta": "spomenik",
+    "drzava": "Croatia"
+  },
+  {
+    "mesto": "Zlarin",
+    "izvor": "https://znaci.org/00003/905.pdf#page=454",
+    "naziv": "Spomen-grobnica palih boraca",
+    "vrsta": "groblje",
+    "drzava": "Croatia",
+    "adresa": "Mjesno groblje"
+  },
+  {
+    "mesto": "Žirje",
+    "izvor": "https://znaci.org/00003/905.pdf#page=464",
+    "naziv": "Spomenik strateškoj bazi Narodnooslobodilačke vojske",
+    "godina": "1962",
+    "vrsta": "spomenik",
+    "drzava": "Croatia"
   }
 ]

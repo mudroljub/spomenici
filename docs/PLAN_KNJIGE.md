@@ -43,7 +43,7 @@ Po odnosu koristi i truda:
 1. **A — Zagreb (1981).** Urađeno 2026-10-16 (`data/knjige/zagreb-1981.json`, beleška u `docs/BELESKE.md`). Najviše gotovih adresa, pa i najviše spomenika koji se mogu odmah locirati; baza za Zagreb ima samo 35 spomenika (4 ploče, 22 bez autora), pa je većina knjige novo.
 2. **D — Krapina (1966).** Obrađeno 2026-10-16: svih 50 strana, 35 sirovih zapisa u `data/knjige/krapina-1966.json`, godina dopunjena za Marince, 11 novih obeležja u `data/bez_lokacije.json`. Položaji novih nisu potvrđeni; sporna čitanja i izuzeci opisani su u `docs/BELESKE.md`.
 3. **B — Jokić (1986).** Obrađeno 2026-10-16: svih 454 PDF strana, 615 sirovih zapisa/pomena u `data/knjige/jokic-1986.json`; dopunjeno 25 postojećih zapisa (22 autora, 4 godine), dodata 103 obeležja bez potvrđene tačke. Ponavljanja i 84 sporna identiteta označeni su u sirovim zapisima; postupak i provere u `docs/BELESKE.md`.
-4. **E — Šibenik (1980).** Dobar tekst i potpun popis po naseljima jednog kraja; posle B, da se veći spomenici uparuju samo jednom.
+4. **E — Šibenik (1980).** Obrađeno 2026-10-16: svih 471 PDF strana, 199 sirovih zapisa u `data/knjige/sibenik-1980.json`; dopunjeno 7 postojećih zapisa (3 autora, 6 godina), dodato 80 obeležja bez potvrđene tačke. Devet nejasnih identiteta ostavljeno je za proveru; postupak, izuzeci i provere u `docs/BELESKE.md`.
 5. **C — Hrženjak.** Poslednja: uglavnom opisuje srušene spomenike, koji putniku ne trebaju; traži preuzimanje 436 slika, a korisni su samo spomenici koji i dalje stoje.
 
 ## 5. Otvorene odluke (korisnik)
