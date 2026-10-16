@@ -6,6 +6,11 @@ import {t, nazivDrzave} from '../utils/jezik.js'
 
 const boja = '#822323'
 
+// uklonjeni se ne prikazuju dok ih putnik ne izabere, jer niko ne putuje do spomenika kog nema
+const podrazumevano = {stanje: ['postoji', 'rusevine']}
+
+const pocetniIzbor = grupe => Object.fromEntries(grupe.map(g => [g.kljuc, new Set(podrazumevano[g.kljuc])]))
+
 // unutar grupe vazi bilo koja izabrana opcija (ili), a izmedju grupa sve (i)
 const praviGrupe = (drzave, autori) => [
   {kljuc: 'tip', naziv: t('grupaVrsta'), opcije: Object.fromEntries(['istaknut', 'spomenik', 'lokalni', 'kompleks', 'groblje', 'muzej', 'statua', 'bista', 'ploca'].map(o => [o, t(o)])),
@@ -244,7 +249,7 @@ export default class Filteri extends HTMLElement {
     super()
     const drzave = [...new Set(stavke.map(({spomenik}) => spomenik.drzava))].sort((a, b) => nazivDrzave(a).localeCompare(nazivDrzave(b)))
     this.grupe = praviGrupe(drzave, praviAutore(stavke))
-    this.izbor = Object.fromEntries(this.grupe.map(g => [g.kljuc, new Set()]))
+    this.izbor = pocetniIzbor(this.grupe)
     this.osnova = stavke
 
     this.panel = document.createElement('section')
@@ -303,8 +308,13 @@ export default class Filteri extends HTMLElement {
       [...this.izbor[g.kljuc]].some(o => g.uslov(spomenik, o)))
   }
 
+  // broje se izmene u odnosu na pocetni izbor
   brojAktivnih() {
-    return Object.values(this.izbor).reduce((zbir, izabrano) => zbir + izabrano.size, 0)
+    return this.grupe.reduce((zbir, {kljuc}) => {
+      const pocetno = podrazumevano[kljuc] || []
+      const izabrano = this.izbor[kljuc]
+      return zbir + [...izabrano].filter(o => !pocetno.includes(o)).length + pocetno.filter(o => !izabrano.has(o)).length
+    }, 0)
   }
 
   obrni(grupa, opcija) {
@@ -394,7 +404,7 @@ export default class Filteri extends HTMLElement {
 
   ponisti() {
     this.otvorenSpisak = null
-    Object.values(this.izbor).forEach(izabrano => izabrano.clear())
+    this.izbor = pocetniIzbor(this.grupe)
     this.javi()
   }
 

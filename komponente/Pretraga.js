@@ -114,7 +114,8 @@ export default class Pretraga extends HTMLElement {
     this.dugme.addEventListener('click', () => this.filteri.otvori())
     this.polje.addEventListener('input', () => this.pretrazi())
     this.polje.addEventListener('keydown', e => e.key === 'Enter' && this.potvrdi())
-    this.osveziPrikaz()
+    this.pocetnih = stavke.filter(({spomenik}) => this.filteri.odgovara(spomenik)).length
+    this.pretrazi()
   }
 
   connectedCallback() {
@@ -126,8 +127,9 @@ export default class Pretraga extends HTMLElement {
     const pronadjeno = this.stavke.filter(stavka => this.tekstovi.get(stavka).includes(fraza))
     this.filteri.postaviOsnovu(pronadjeno)
     this.filtrirano = pronadjeno.filter(({spomenik}) => this.filteri.odgovara(spomenik))
-    this.osveziPrikaz()
-    this.callback(this.filtrirano)
+    const suzeno = this.filtrirano.length < this.pocetnih
+    this.osveziPrikaz(suzeno)
+    this.callback(this.filtrirano, suzeno)
   }
 
   // kucanje i izbor filtera ne pomeraju mapu, a potvrda (Enter, Trazi na tastaturi telefona, Prikazi u filterima) pokazuje rezultate,
@@ -150,11 +152,10 @@ export default class Pretraga extends HTMLElement {
     this.filteri.ponisti() // javlja promenu, pa se i pretraga ponovi
   }
 
-  osveziPrikaz() {
+  osveziPrikaz(suzeno) {
     const aktivnih = this.filteri.brojAktivnih()
     this.dugme.textContent = aktivnih ? `${t('filteri')} · ${aktivnih}` : t('filteri')
     this.dugme.classList.toggle('aktivno', aktivnih > 0)
-    const suzeno = this.filtrirano.length < this.stavke.length
     this.rezultat.hidden = !suzeno
     this.rezultat.querySelector('.broj').textContent = t('nadjeno', this.filtrirano.length, this.stavke.length)
   }

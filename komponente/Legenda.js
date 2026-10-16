@@ -96,6 +96,11 @@ style.textContent = `
     grid-template-columns: repeat(auto-fill, minmax(165px, 1fr));
   }
 
+  .napomena {
+    letter-spacing: normal;
+    text-transform: none;
+  }
+
   .male-grupe .stavke {
     grid-template-columns: 1fr;
   }
@@ -184,7 +189,7 @@ export default class Legenda extends HTMLElement {
     this.panel.innerHTML = `
       <header><span>${t('legenda')}</span><button title="${t('zatvori')}">×</button></header>
       <div class="sadrzaj">
-        ${grupa([t('grupaVrsta'), vrste])}
+        ${grupa([`${t('grupaVrste')} <span class="napomena">(${t('viseZumom')})</span>`, vrste])}
         <div class="male-grupe">${maleGrupe.map(grupa).join('')}</div>
       </div>
     `

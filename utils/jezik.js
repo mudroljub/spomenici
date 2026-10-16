@@ -80,6 +80,8 @@ const tekstovi = {
   groblje: {sh: 'Spomen-groblja', en: 'Memorial cemeteries'},
   muzej: {sh: 'Muzeji', en: 'Museums'},
   legenda: {sh: 'Legenda', en: 'Legend'},
+  grupaVrste: {sh: 'Vrste', en: 'Types'},
+  viseZumom: {sh: 'veći zum prikazuje više vrsta spomenika', en: 'zoom in to see more types of monuments'},
   // legenda opisuje jedan znak na mapi, pa je u jednini
   istaknutJednina: {sh: 'Istaknuti spomenik', en: 'Featured monument'},
   kompleksJednina: {sh: 'Spomen-park', en: 'Memorial park'},

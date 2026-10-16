@@ -34,17 +34,12 @@ mapa.getContainer().addEventListener('wheel', e => {
 // pozicija korisnika iznad markera, da je ne prekriju
 mapa.createPane('korisnik').style.zIndex = 650
 
-const zumOstalih = 8
-const zumSitnih = 11
-
 const sloj = L.layerGroup().addTo(mapa)
 let markeri = []
 let suzeno = false
 let izabran = null
 
-const najmanjiZum = marker => marker.vazan ? 0 : marker.sitan ? zumSitnih : zumOstalih
-
-const vidljiv = marker => suzeno || mapa.getZoom() >= najmanjiZum(marker) || marker === izabran
+const vidljiv = marker => suzeno || mapa.getZoom() >= marker.najmanjiZum || marker === izabran
   || Boolean(dajOznaku(marker.spomen.id))
 
 // crtaju se samo obelisci na ekranu, sa pola ekrana rezerve za pomeranje, jer hiljade slika gusi slab telefon

@@ -5,9 +5,9 @@ import {izgledMarkera, senka} from '../utils/ikonice.js'
 import {nazivSpomenika, escapeHtml} from '../utils/helpers.js'
 
 const razmeraZuma = {6: 0.5, 7: 0.55, 8: 0.65, 9: 0.8} // ostali zumovi pun obelisk
-const vazneVrste = ['istaknut', 'kompleks', 'groblje']
-const sitneVrste = ['lokalni', 'ploca']
-// bista je umetnicko delo kao spomenik, pa se vidi kad i on, samo je malo manja
+// najmanji zum na kome se vrsta vidi: svaki korak zuma dodaje nove vrste, od najvaznijih
+const zumVrste = {istaknut: 0, kompleks: 8, muzej: 8, groblje: 9, spomenik: 9, statua: 10, bista: 10, lokalni: 11, ploca: 12}
+// bista je umetnicko delo kao spomenik, samo je malo manja
 const razmeraVrste = {istaknut: 1.25, kompleks: 1.25, groblje: 1.25, bista: 0.8, lokalni: 0.6, ploca: 0.6}
 
 // ruine i uklonjeni imaju sliku iste velicine, da se razlikuju po obliku, a ne samo po boji:
@@ -38,12 +38,11 @@ export default class Marker {
   /** @param {import('../data/tipovi').Spomenik} spomen */
   constructor(spomen) {
     this.spomen = spomen
-    this.vazan = vazneVrste.includes(spomen.vrsta)
-    this.sitan = sitneVrste.includes(spomen.vrsta)
+    this.najmanjiZum = zumVrste[spomen.vrsta || 'spomenik']
     this.razmera = razmeraVrste[spomen.vrsta] || 1
     this.izgled = izgledMarkera(spomen)
     this.element = L
-      .marker([spomen.koordinate.lat, spomen.koordinate.lng], {icon: dajIkonicu(this.izgled, 1, ''), zIndexOffset: this.vazan ? 1000 : 0})
+      .marker([spomen.koordinate.lat, spomen.koordinate.lng], {icon: dajIkonicu(this.izgled, 1, ''), zIndexOffset: (12 - this.najmanjiZum) * 1000})
       .on('click', () => this.otvoriProzor())
     if (imaMis) this.element.bindTooltip(() => opis(spomen), {direction: 'top', className: 'naziv-spomenika'})
   }

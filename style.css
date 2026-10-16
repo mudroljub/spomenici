@@ -12,7 +12,6 @@ html, body, #mapa {
 }
 
 body {
-  filter: sepia(31%);
   overflow: hidden; /* mapa zauzima ceo ekran, stranica se ne pomera */
   height: 100dvh; /* prati traku pregledaca na telefonu */
 }
@@ -38,6 +37,11 @@ h1 {
 
 #mapa {
   z-index: 0;
+}
+
+/* sepija samo na podlozi mape, jer filter preko cele stranice koci pomeranje mape na telefonu */
+.leaflet-container .leaflet-tile {
+  filter: sepia(31%);
 }
 
 .leaflet-control-container {
