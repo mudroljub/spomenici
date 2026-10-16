@@ -5087,7 +5087,31 @@
     "stanjeIzKnjige": "srušeni; zamijenjeni spomenikom Domovinskog rata",
     "izbor": "preskoceno-sruseno",
     "adresa": "Park ispred osnovne škole",
-    "napomena": "Među palima 45 iz Okučana; slika 90."
+    "napomena": "Među palima 45 iz Okučana; slika 90.",
+    "indeks": {
+      "zupanijaBroj": 2,
+      "naselje": "Okučani",
+      "vrstaIzvorna": "Spo",
+      "autorIzvorno": "Nep.",
+      "namjena": "nad grobnicom poginulih boraca i civilnih žrtava",
+      "registarIKategorija": "+ B",
+      "stanjeIzKnjige": "Sru + Pren",
+      "pohranjenIzvorno": "",
+      "obnovljenIzvorno": "",
+      "straniceOpisaIzvorno": "29",
+      "brojeviSlikaIzvorno": "90",
+      "oznaka": "C-IDX-357-07",
+      "strana": 357,
+      "izvor": "https://znaci.org/00003/736.php?broj=380",
+      "siroviRed": "2 Okučani Spo Nep. nad grobnicom poginulih boraca i civilnih žrtava + B Sru + Pren 29 90",
+      "nejasnoce": [],
+      "pohranjen": false,
+      "obnovljen": false,
+      "zupanija": "Brodsko-posavska",
+      "vrsta": "spomenik",
+      "scanBroj": 380,
+      "prepis": "tekstualni-sloj-indeksa"
+    }
   },
   {
     "oznaka": "C-0052-4",
@@ -5134,31 +5158,7 @@
       "cilj": "okucani",
       "razlog": "Tekst na skenu52(str29) izričito autor; prepoznatljivi asimetrični kameni luk i bijeli reljef slike93–94 potpuno odgovaraju postojećoj fotografiji. Godina1954 već popunjena."
     },
-    "dokazOpstanka": "Lokalna slika slike/spomenici/okucani.webp vizuelno potvrđena.",
-    "indeks": {
-      "zupanijaBroj": 2,
-      "naselje": "Okučani",
-      "vrstaIzvorna": "Spo",
-      "autorIzvorno": "Nep.",
-      "namjena": "nad grobnicom poginulih boraca i civilnih žrtava",
-      "registarIKategorija": "+ B",
-      "stanjeIzKnjige": "Sru + Pren",
-      "pohranjenIzvorno": "",
-      "obnovljenIzvorno": "",
-      "straniceOpisaIzvorno": "29",
-      "brojeviSlikaIzvorno": "90",
-      "oznaka": "C-IDX-357-07",
-      "strana": 357,
-      "izvor": "https://znaci.org/00003/736.php?broj=380",
-      "siroviRed": "2 Okučani Spo Nep. nad grobnicom poginulih boraca i civilnih žrtava + B Sru + Pren 29 90",
-      "nejasnoce": [],
-      "pohranjen": false,
-      "obnovljen": false,
-      "zupanija": "Brodsko-posavska",
-      "vrsta": "spomenik",
-      "scanBroj": 380,
-      "prepis": "tekstualni-sloj-indeksa"
-    }
+    "dokazOpstanka": "Lokalna slika slike/spomenici/okucani.webp vizuelno potvrđena."
   },
   {
     "oznaka": "C-0053-1",
@@ -20048,7 +20048,26 @@
     "godina": "1961",
     "autor": "Edo Murtić",
     "adresa": "Lijevo uz cestu Kamensko–Zvečevo",
-    "napomena": "Bitka1943; slika483; nije nasuprotni srušeni spomenik Kruševu.",
+    "napomena": "Bitka1943; slika483; nije nasuprotni srušeni spomenik Kruševu."
+  },
+  {
+    "oznaka": "C-0186-2",
+    "scanBroj": 186,
+    "strana": 162,
+    "scanStrane": [
+      186
+    ],
+    "mesto": "Doćić – Kruševo",
+    "naziv": "Spomenik spaljenom selu Kruševu",
+    "vrsta": "spomenik",
+    "drzava": "Croatia",
+    "izvor": "https://znaci.org/00003/736.php?broj=186",
+    "natpisPotpun": false,
+    "izbor": "preskoceno-sruseno",
+    "stanjeIzKnjige": "srušen",
+    "godinaStanja": "1990–2000/2002",
+    "godina": "1965",
+    "napomena": "Nasuprot mozaiku Šušnjarskoj bitki; 75 poginulih, među njima 13 žena; slika484. Ranije pogrešno pridružen indeks mozaiku; identitet razdvojen prema izvornom skenu.",
     "indeks": {
       "zupanijaBroj": 11,
       "naselje": "Dočić - Kruševo",
@@ -21809,7 +21828,9 @@
       "strana": 373,
       "izvor": "https://znaci.org/00003/736.php?broj=396",
       "siroviRed": "13 Glina Spo A. Augustinčić spomenik ispred spomen-doma posveéenoq pogibiji 1564 pripadnika srpskoq naroda (vidi gore) + B Ošt 193 571",
-      "nejasnoce": [],
+      "nejasnoce": [
+        "Indeks navodi sliku571, ali ona na skenu217 pripada Obljaju; glinska Žena s djetetom je slika572. Povezivanje zasnovano na posveti, mestu i narativu, ne pogrešnom broju slike."
+      ],
       "pohranjen": false,
       "obnovljen": false,
       "zupanija": "Sisačko-moslavačka",

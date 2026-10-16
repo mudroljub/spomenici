@@ -3839,6 +3839,7 @@
     },
     "googleCid": "15134340911775524093",
     "mesto": "Čazma",
+    "izvor": "https://bljesak.info/magazin/putujte-s-nama/cazma-setnja-zrakom-biolosko-kupatilo-i-partizani-usred-srednjovjekovlja/504142",
     "slika": "slike/spomenici/cazma.webp",
     "slikaOdnos": 1.465,
     "naziv": "Kosturnica borcima Moslavine u Čazmi",
@@ -11154,11 +11155,13 @@
       "lng": 17.5216606
     },
     "mesto": "Kamenski Vučjak",
+    "izvor": "https://znaci.org/00003/736.php?broj=186",
     "slika": "slike/spomenici/kamenski-vucjak.webp",
     "slikaOdnos": 1.46,
     "naziv": "Spomenik bici na Šušnjarima",
     "nazivEn": "Monument to the Battle of Šušnjari",
     "godina": "1968",
+    "autor": "Edo Murtić",
     "stanje": "rusevine",
     "vrsta": "spomenik",
     "drzava": "Croatia"
@@ -13445,6 +13448,7 @@
     },
     "googleCid": "5613497083429546200",
     "mesto": "Đakovo",
+    "izvor": "https://visitdjakovo.com/Istrazite/spomenici",
     "slika": "slike/spomenici/djakovo.webp",
     "slikaOdnos": 1.587,
     "naziv": "Spomenik Ivi Loli Ribaru",
@@ -14274,20 +14278,6 @@
     "autor": "Ismet Mujezinović",
     "vrsta": "kompleks",
     "drzava": "Bosnia and Herzegovina"
-  },
-  {
-    "id": "slobostina",
-    "koordinate": {
-      "lat": 45.396611,
-      "lng": 17.528296
-    },
-    "mesto": "Sloboština",
-    "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%B6%D1%80%D1%82%D0%B2%D0%B0%D0%BC%D0%B0_%D1%84%D0%B0%D1%88%D0%B8%D0%B7%D0%BC%D0%B0_%28%D0%A1%D0%BB%D0%BE%D0%B1%D0%BE%D1%88%D1%82%D0%B8%D0%BD%D0%B0%29",
-    "naziv": "Spomenik žrtvama fašizma",
-    "godina": "1951",
-    "autor": "Nikola Kečanin",
-    "vrsta": "spomenik",
-    "drzava": "Croatia"
   },
   {
     "id": "negrisori",
@@ -29245,13 +29235,13 @@
     "slika": "slike/spomenici/zagreb-vladimir-nazor.webp",
     "slikaOdnos": 0.61,
     "slikaPotpis": "Plamen, Public domain",
-    "naziv": "Bista Vladimira Nazora",
+    "naziv": "Spomenik Vladimiru Nazoru",
     "godina": "1972",
     "autor": "Stjepan Gračan",
     "posveta": [
       "Q380529"
     ],
-    "vrsta": "bista",
+    "vrsta": "statua",
     "drzava": "Croatia"
   },
   {
@@ -55780,6 +55770,7 @@
       "lng": 17.1623142
     },
     "mesto": "Lipik",
+    "izvor": "https://lipik.hr/wp-content/uploads/2021/11/PLAN-RAZVOJA-ZELENE-INFRASTRUKTURE-GRADA-LIPIKA_LQ-1.pdf#page=103",
     "naziv": "Spomen-kosturnica žrtava fašističkog terora",
     "vrsta": "spomenik",
     "drzava": "Croatia"
@@ -56315,18 +56306,6 @@
     "mesto": "Apatovec",
     "izvor": "https://www.openstreetmap.org/node/14157445093",
     "naziv": "Spomenik palim borcima NOB-a",
-    "vrsta": "lokalni",
-    "drzava": "Croatia"
-  },
-  {
-    "id": "badljevina-nob",
-    "koordinate": {
-      "lat": 45.5137258,
-      "lng": 17.1924013
-    },
-    "mesto": "Badljevina",
-    "izvor": "https://www.openstreetmap.org/node/13044798755",
-    "naziv": "Spomenik NOB-u",
     "vrsta": "lokalni",
     "drzava": "Croatia"
   },
@@ -56896,7 +56875,8 @@
     },
     "mesto": "Gornji Čehi",
     "izvor": "https://www.openstreetmap.org/node/8817894125",
-    "naziv": "Palim borcima",
+    "naziv": "Spomenik palim borcima",
+    "godina": "1961",
     "vrsta": "lokalni",
     "drzava": "Croatia"
   },
@@ -57116,18 +57096,6 @@
     "mesto": "Jagnjedovec",
     "izvor": "https://www.openstreetmap.org/node/13589458044",
     "naziv": "Spomenik palim borcima",
-    "vrsta": "lokalni",
-    "drzava": "Croatia"
-  },
-  {
-    "id": "jaksic-spomenik-nob",
-    "koordinate": {
-      "lat": 45.3564646,
-      "lng": 17.7619022
-    },
-    "mesto": "Jakšić",
-    "izvor": "https://www.openstreetmap.org/node/12999105200",
-    "naziv": "Spomenik NOB-u",
     "vrsta": "lokalni",
     "drzava": "Croatia"
   },
@@ -57787,18 +57755,6 @@
     "drzava": "Croatia"
   },
   {
-    "id": "novi-pavljani-spomenik-nob-ostecen",
-    "koordinate": {
-      "lat": 45.8571784,
-      "lng": 16.8461709
-    },
-    "mesto": "Novi Pavljani",
-    "izvor": "https://www.openstreetmap.org/node/13103965787",
-    "naziv": "Oštećeni spomenik NOB-u",
-    "vrsta": "lokalni",
-    "drzava": "Croatia"
-  },
-  {
     "id": "novigrad-podravski-spomenik-borcima-nor-a",
     "koordinate": {
       "lat": 46.0767481,
@@ -58407,18 +58363,6 @@
     "drzava": "Croatia"
   },
   {
-    "id": "susine-spomenik-palim-borcima-nob-a",
-    "koordinate": {
-      "lat": 45.549775,
-      "lng": 18.0637652
-    },
-    "mesto": "Sušine",
-    "izvor": "https://www.openstreetmap.org/node/4999820921",
-    "naziv": "Spomenik palim borcima NOB-a",
-    "vrsta": "lokalni",
-    "drzava": "Croatia"
-  },
-  {
     "id": "sveti-juraj-palim-borsima-nor-a-1941-1945",
     "koordinate": {
       "lat": 44.9286983,
@@ -58999,18 +58943,6 @@
     },
     "mesto": "Šibovac",
     "izvor": "https://www.openstreetmap.org/node/4776439990",
-    "naziv": "Spomenik palim borcima",
-    "vrsta": "lokalni",
-    "drzava": "Croatia"
-  },
-  {
-    "id": "scitarjevo-spomenik-palim-borcima",
-    "koordinate": {
-      "lat": 45.7732814,
-      "lng": 16.1169566
-    },
-    "mesto": "Šćitarjevo",
-    "izvor": "https://www.openstreetmap.org/node/3822156508",
     "naziv": "Spomenik palim borcima",
     "vrsta": "lokalni",
     "drzava": "Croatia"
@@ -66787,19 +66719,6 @@
     "autor": "Stjepan Gračan",
     "natpis": "August Cesarec",
     "vrsta": "bista",
-    "drzava": "Croatia"
-  },
-  {
-    "id": "zagreb-cehi-spomenik-palim-borcima",
-    "koordinate": {
-      "lat": 45.7426398,
-      "lng": 15.9581309
-    },
-    "mesto": "Zagreb (Čehi)",
-    "izvor": "https://www.openstreetmap.org/node/8817894125",
-    "naziv": "Spomenik palim borcima",
-    "godina": "1961",
-    "vrsta": "lokalni",
     "drzava": "Croatia"
   },
   {
