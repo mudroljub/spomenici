@@ -1037,12 +1037,14 @@
       "lng": 16.027771
     },
     "mesto": "Zagreb (Dotrščina)",
+    "izvor": "https://znaci.org/00003/679.pdf#page=128",
     "wiki": "https://sh.wikipedia.org/wiki/Spomen-park_Dotr%C5%A1%C4%8Dina",
     "slika": "slike/spomenici/zagreb-spomen-park-dotrscina.webp",
     "slikaOdnos": 1.333,
     "slikaPotpis": "Plamen at Serbian Wikipedia, Public domain",
     "naziv": "Spomen-park Dotrščina",
     "nazivEn": "Dotrščina Memorial Park",
+    "natpis": "U ŠUMI ZVANOJ DOTORŠČINA OD 1941 DO 1945 GODINE OKUPATORI I NJIHOVE SLUGE MUČILI SU UBIJALI I U JAME BACALI HILJADE ZNANIH I NEZNANIH SINOVA I KĆERI NAŠE ZEMLJE I NEPOKORENOG ZAGREBA\nNEUNIŠTIVOJ USPOMENI BORACA I MUČENIKA POSVEĆENO JE SPOMEN GROBLJE I PARK REVOLUCIJE DOTORŠČINA\n\nNEPRESUŠNI IZVORI SNAGE, NESALOMIVA KRILA SLOBODE. HRABRI U SMRTI VJEČNI U ŽIVOTU. U DJELU ŽIVIH VAŠA DJELA TRAJU",
     "vrsta": "kompleks",
     "drzava": "Croatia"
   },
@@ -3377,6 +3379,7 @@
     },
     "googleCid": "11485359655737588790",
     "mesto": "Zagreb (Park pravednika)",
+    "izvor": "https://znaci.org/00003/679.pdf#page=500",
     "slika": "slike/spomenici/park-of-the-righteous.webp",
     "slikaOdnos": 1.015,
     "naziv": "Spomenik palim borcima iz Ciglenice",
@@ -6664,6 +6667,7 @@
     },
     "googleCid": "2481294543483029461",
     "mesto": "Zagreb",
+    "izvor": "https://znaci.org/00003/679.pdf#page=273",
     "wiki": "https://sh.wikipedia.org/wiki/Strijeljanje_talaca_%28spomenik_u_Zagrebu%29",
     "slika": "slike/spomenici/zagreb-executed-hostages.webp",
     "slikaOdnos": 1.333,
@@ -7101,9 +7105,10 @@
       "lng": 15.9772777
     },
     "mesto": "Zagreb (Moderna galerija)",
+    "izvor": "https://znaci.org/00003/679.pdf#page=275",
     "slika": "slike/spomenici/zagreb-casualties.webp",
     "slikaOdnos": 1.905,
-    "naziv": "Statua",
+    "naziv": "Ranjenik",
     "nazivEn": "'Casualties' Monument",
     "autor": "Vanja Radauš",
     "vrsta": "statua",
@@ -18906,6 +18911,7 @@
     "slikaPotpis": "Google Maps",
     "naziv": "Spomenik palim borcima NOB-a Trešnjevke",
     "godina": "1953",
+    "natpis": "[spisak imena]\nSPOMEN PODIŽE ORGANIZACIJA SAVEZA BORACA N.O.R. 57. IZBORNE JEDINICE, ZAGREB 29. XI 1953. GOD.",
     "vrsta": "lokalni",
     "drzava": "Croatia"
   },
@@ -24479,6 +24485,7 @@
     },
     "googleCid": "17174831711444961157",
     "mesto": "Zagreb (Podsused)",
+    "izvor": "https://znaci.org/00003/679.pdf#page=321",
     "slika": "slike/spomenici/zagreb-podsused.webp",
     "slikaOdnos": 1.333,
     "slikaPotpis": "Google Maps",
@@ -25383,6 +25390,7 @@
     },
     "googleCid": "9904015411988817989",
     "mesto": "Zagreb (Remetinec)",
+    "izvor": "https://znaci.org/00003/679.pdf#page=458",
     "slika": "slike/spomenici/zagreb-remetinec.webp",
     "slikaOdnos": 0.752,
     "slikaPotpis": "Google Maps",
@@ -29142,10 +29150,12 @@
       "lng": 15.9735136
     },
     "mesto": "Zagreb (Prolaz sestara Baković)",
+    "izvor": "https://znaci.org/00003/679.pdf#page=271",
     "slika": "slike/spomenici/zagreb-sestre-bakovic.webp",
     "slikaOdnos": 1.365,
     "slikaPotpis": "Plamen, Public domain",
     "naziv": "Zdenka i Rajka Baković",
+    "godina": "1978",
     "posveta": [
       "Q1256730"
     ],
@@ -29159,10 +29169,13 @@
       "lng": 15.9688747
     },
     "mesto": "Zagreb (Tuškanac)",
+    "izvor": "https://znaci.org/00003/679.pdf#page=277",
     "slika": "slike/spomenici/zagreb-vladimir-nazor.webp",
     "slikaOdnos": 0.61,
     "slikaPotpis": "Plamen, Public domain",
     "naziv": "Bista Vladimira Nazora",
+    "godina": "1972",
+    "autor": "Stjepan Gračan",
     "posveta": [
       "Q380529"
     ],
@@ -29291,6 +29304,7 @@
       "lng": 15.981236
     },
     "mesto": "Zagreb (Trnjanska cesta)",
+    "izvor": "https://znaci.org/00003/679.pdf#page=339",
     "slika": "slike/spomenici/zagreb-vinko-jedjut.webp",
     "slikaOdnos": 0.75,
     "slikaPotpis": "Flammard, CC BY-SA 3.0",
@@ -29308,10 +29322,12 @@
       "lng": 15.992116
     },
     "mesto": "Zagreb (Ulica Matka Laginje)",
+    "izvor": "https://znaci.org/00003/679.pdf#page=305",
     "slika": "slike/spomenici/zagreb-pavle-pap.webp",
     "slikaOdnos": 0.75,
     "slikaPotpis": "Flammard, CC BY-SA 3.0",
     "naziv": "Bista Pavla Papa",
+    "godina": "1980",
     "posveta": [
       "Q1561537"
     ],
@@ -29325,11 +29341,13 @@
       "lng": 15.886026
     },
     "mesto": "Zagreb (Stenjevec)",
+    "izvor": "https://znaci.org/00003/679.pdf#page=494",
     "slika": "slike/spomenici/zagreb-stenjevec-spomenik-palim-borcima.webp",
     "slikaOdnos": 1.333,
     "slikaPotpis": "Flammard, CC BY-SA 3.0",
     "naziv": "Spomenik palim borcima NOB-a",
     "godina": "1961",
+    "natpis": "U SPOMEN PALIM BORCIMA OVOGA KRAJA KOJI SU DALI SVOJE ŽIVOTE ZA OSTVARENJE IDEALA I STREMLJENJA NARODNO-OSLOBODILAČKE BORBE A POVODOM DVADESETGODIŠNJICE USTANKA NARODA JUGOSLAVIJE\nSPOMENIK PODIŽE SAVEZ BORACA NARODNO OSLOBODILAČKOG RATA SUSEDGRAD",
     "vrsta": "lokalni",
     "drzava": "Croatia"
   },
@@ -65316,6 +65334,7 @@
     "nazivEn": "Monument to Ivan Goran Kovačić",
     "godina": "1964",
     "autor": "Vojin Bakić",
+    "natpis": "GORAN 1913.-1943.",
     "posveta": [
       "Q835790"
     ],
@@ -65337,6 +65356,7 @@
     "nazivEn": "The Carrying of the Wounded",
     "godina": "1953",
     "autor": "Antun Augustinčić",
+    "natpis": "SVOJIM UČENICIMA PALIM ZA SLOBODU I SOCIJALIZAM 1941 - 1945\nVETERINARSKI FAKULTET\nMCMLIII\n[spisak imena]",
     "vrsta": "statua",
     "drzava": "Croatia"
   },
@@ -66706,6 +66726,33 @@
       "Q7919085"
     ],
     "vrsta": "groblje",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "zagreb-tkalciceva-august-cesarec",
+    "koordinate": {
+      "lat": 45.8159147,
+      "lng": 15.9763702
+    },
+    "mesto": "Zagreb (Tkalčićeva)",
+    "izvor": "https://www.openstreetmap.org/node/3560901294",
+    "naziv": "Bista Augusta Cesarca",
+    "autor": "Stjepan Gračan",
+    "natpis": "August Cesarec",
+    "vrsta": "bista",
+    "drzava": "Croatia"
+  },
+  {
+    "id": "zagreb-cehi-spomenik-palim-borcima",
+    "koordinate": {
+      "lat": 45.7426398,
+      "lng": 15.9581309
+    },
+    "mesto": "Zagreb (Čehi)",
+    "izvor": "https://www.openstreetmap.org/node/8817894125",
+    "naziv": "Spomenik palim borcima",
+    "godina": "1961",
+    "vrsta": "lokalni",
     "drzava": "Croatia"
   }
 ]

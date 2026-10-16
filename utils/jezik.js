@@ -65,6 +65,7 @@ const tekstovi = {
   grupaAutor: {sh: 'Autor', en: 'Artist'},
   autori: {sh: 'Autori', en: 'Artists'},
   posveta: {sh: 'Posvećeno', en: 'Dedicated to'},
+  natpis: {sh: 'Natpis', en: 'Inscription'},
   sviAutori: {sh: 'Svi autori', en: 'All artists'},
   traziAutora: {sh: 'Traži autora', en: 'Find an artist'},
   nemaAutora: {sh: 'Nema takvog autora', en: 'No such artist'},

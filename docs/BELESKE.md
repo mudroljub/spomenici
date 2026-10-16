@@ -322,6 +322,16 @@ Provere unosa Drugovca: `slike_odnos.py` — 0 promena; `integritet.py` — samo
 - **Google mape:** `alati/google_slike.mjs` je obišao svih 256 spomenika bez slike koji imaju `googleCid`, po jedno mesto na 8 s, bez provere (captcha). Glavnu fotografiju korisnika ima 91 mesto. Posle pregleda u montažama dodato je 56 fotografija (`slikaPotpis`: „Google Maps“). Odbačene su fotografije bez vidljivog spomenika (pejzaž, zgrada, crkva, automobil, životinje), kolaži, ljudi u prvom planu, spomenik išaran ustaškim grafitima i jedna fotografija drugog mesta (park u Izoli).
 - **Šablon sh Vikipedije:** pregledano je oko 270 članaka o logorima, pokoljima, bitkama i operacijama, po jedan zahtev na 3 s. Postojećim spomenicima dodate su posvete, po 13 logora i pokolja i 10 bitaka (Kozara, Sutjeska, Neretva, Sremski front, Igmanski marš, Pljevlja, Bolman, Beogradska operacija, Desant na Drvar i Prozor). Kao nov spomenik dodata je spomen-kosturnica u Veljunu (žrtve pokolja u Blagaju; OSM čvor 10829129817, fotografija sa Commons-a). Za ostale događaje nije nađen spomenik sa pouzdanom lokacijom.
 
+### 2026-10-16 — Knjiga A: Zagreb 1981 (znaci.org 679.pdf)
+
+Postupak i pravila su u `docs/PLAN_KNJIGE.md`. Strane su čitane kao slike (OCR knjige je neupotrebljiv), u 12 delova; sirovi zapisi su u `data/knjige/zagreb-1981.json` (237, oznake 1.1.1–2.2.89 bez praznina, sa natpisom, stanjem iz 1980, kategorijom zaštite i stranom fotografije).
+
+- **Provera:** prvi uzorak od 20 imao je 6 grešaka, skoro sve u natpisima (strane na 100 dpi umesto 150, natpis prepisan iz obrasca iako se ploča na fotografiji čitala). Pravila su pooštrena (ploča ima prednost, `[?]` za slovo koje se ne razaznaje, adresa po obrascu), a natpisi i adrese svih 237 zapisa ponovo su pročitani na 150 dpi. Sedam sukoba godine (DATACIJA i natpis) rešeno je po strani; 2.2.16 je bez godine.
+- **Izbor:** ploče i zgrade sa pločom se preskaču, osim predloženih za I ili II kategoriju zaštite (8). Izbačeno je 8 Titovih zgrada bez obeležja i spomenik u Stupniku (1980. su ostali samo tragovi postolja). Kategorija se kod 15 ploča ne čita pouzdano (bledo treće „I“), pa se ne uzimaju.
+- **Upis:** dopunjeno 16 naših (godine, autor Nazora, naziv „Ranjenik“ umesto „Statua“, natpisi, izvor sa stranom knjige), dve stavke spiska (Kustošija, Dragica Končar). Na mapu su dodata dva koja postoje u OSM-u: bista Augusta Cesarca u Tkalčićevoj (godina se ne slaže: knjiga 1980, OSM 1979, pa je prazna) i spomenik palim borcima u Čehima (1961). U `bez_lokacije.json` je 51 nov spomenik sa adresom iz 1981; nije poznato koji danas stoje. Natpis ide u bazu samo ako je ceo pročitan.
+- **Sporno, nije upisano:** Rade Končar (u bazi je jedna statua, a knjiga ima tri obeležja kod tvornice i u Voltinom naselju: 2.1.30–32) i sjedeći Moša Pijade (2.1.35, Proleterskih brigada 68, a naš `zagreb-pijade` je na drugom mestu).
+- **Lociranje po kućnom broju** malo pomaže: većina spomenika ima samo ulicu, park ili naselje, a ulice su posle 1990. preimenovane.
+
 ## Izvori koji su već obrađeni
 
 - **sr Wikipedija, „Списак споменика НОБ у Војводини“:** obrađen. Nazivi su uzeti po vajaru i godini.

@@ -852,7 +852,9 @@
     "godina": "1959",
     "izvor": "https://sh.wikipedia.org/wiki/Lista_antifa%C5%A1isti%C4%8Dkih_spomenika_u_Zagrebu",
     "slika": "Spomenik palim borcima NOB, Kustošija.JPG",
-    "vrsta": "lokalni"
+    "vrsta": "lokalni",
+    "natpis": "U ZNAK SJEĆANJA NA PALE BORCE S PODRUČJA KUSTOŠIJE KAO SIMBOL BORBE ZA SLOBODU NAŠE ZEMLJE PODIŽE SE OVAJ SPOMENIK POVODOM 40 GODIŠNJICE SKJ I SKOJ-A\n29. XI 1959.",
+    "adresa": "Kustošija, Trg siječanjskih žrtava"
   },
   {
     "naziv": "Spomenik Dragici Končar",
@@ -861,7 +863,9 @@
     "autor": "Lujo Lozica",
     "izvor": "https://sh.wikipedia.org/wiki/Lista_antifa%C5%A1isti%C4%8Dkih_spomenika_u_Zagrebu",
     "slika": "Dragica Koncar-Zagreb.JPG",
-    "vrsta": "lokalni"
+    "vrsta": "lokalni",
+    "godina": "1976",
+    "adresa": "Braće Cvijića bb"
   },
   {
     "naziv": "Spomenik Većeslavu Holjevcu",
@@ -42767,5 +42771,474 @@
     "godina": "1959",
     "vrsta": "groblje",
     "izvor": "https://www.spomenicinob.info/zvornik"
+  },
+  {
+    "naziv": "Spomen-ploča",
+    "mesto": "Zagreb (Centar)",
+    "drzava": "Croatia",
+    "izvor": "https://znaci.org/00003/679.pdf#page=14",
+    "godina": "1962",
+    "natpis": "U OVOJ ZGRADI 16. TRAVNJA 1920. ODRŽANA JE SKUPŠTINA GRADSKOG ZASTUPSTVA, KOJOJ JE PRISUSTVOVALO 20 ZASTUPNIKA KOMUNISTA IZABRANIH OD NARODA. ONI SU SA JOŠ 7 DRUGIH ZASTUPNIKA IZABRALI KOMUNISTU ZA NAČELNIKA GRADA ZAGREBA\nZASTUPNICI KOMUNISTI ISTUPILI SU KAO PROTIVNICI MONARHISTIČKOG UREĐENJA DRŽAVE I TRAŽILI PROGLAŠENJE JUGOSLAVENSKE SOCIJALISTIČKE SOVJETSKE REPUBLIKE\nBURŽOASKI REŽIM PONIŠTIO JE NJIHOVE MANDATE I SILOM IZBACIO KOMUNISTIČKE ZASTUPNIKE IZ VIJEĆNICE\nU SJEĆANJE NA TE DOGAĐAJE I BORBU KOJOM JE RUKOVODILA KPJ OVU SPOMEN-PLOČU POSTAVLJA NARODNI ODBOR GRADA ZAGREBA\nSTUDENI 1962",
+    "vrsta": "ploca",
+    "adresa": "Ćirilometodska 4"
+  },
+  {
+    "naziv": "Spomen-ploča",
+    "mesto": "Zagreb (Črnomerec)",
+    "drzava": "Croatia",
+    "izvor": "https://znaci.org/00003/679.pdf#page=18",
+    "natpis": "U dvorišnoj zgradi ove kuće sastali su se 10.X.1919 godine delegati iz cijele naše zemlje i osnovali Savez komunističke omladine Jugoslavije.\nU proslavi 40-godišnjice organiziranoga revolucionarnoga omladinskog pokreta ploču podiže Narodna omladina Hrvatske.",
+    "vrsta": "ploca",
+    "adresa": "Primorska 2"
+  },
+  {
+    "naziv": "Spomen-ploče",
+    "mesto": "Zagreb (Trešnjevka)",
+    "drzava": "Croatia",
+    "izvor": "https://znaci.org/00003/679.pdf#page=56",
+    "godina": "1948",
+    "natpis": "U OVOJ KUĆI SU ZA VRIJEME OKUPACIJE ODRŽANI SASTANCI CENTRALNOG KOMITETA KOMUNISTIČKE PARTIJE HRVATSKE, KOJIMA SU MEĐU OSTALIMA PRISUSTVOVALI I POGINULI NARODNI HEROJI IVO LOLA RIBAR, MARKO OREŠKOVIĆ I JOSIP KRAŠ U ČAST II KONGRESA KOMUNISTIČKE PARTIJE HRVATSKE OVU SPOMEN PLOČU PODIŽE PARTIJSKA ORGANIZACIJA RAJONA ZAGREB, 21. XI 1948.",
+    "vrsta": "ploca",
+    "adresa": "Kučerina 72"
+  },
+  {
+    "naziv": "Spomen-ploča",
+    "mesto": "Zagreb (Trnje)",
+    "drzava": "Croatia",
+    "izvor": "https://znaci.org/00003/679.pdf#page=72",
+    "godina": "1970",
+    "natpis": "U OVOJ KUĆI OD 1937. DO 1939. RADILA JE ILEGALNA TEHNIKA CK KPH KOJOM JE RUKOVODIO NARODNI HEROJ, ČLAN CK KPJ I ČLAN CK KPH, DRUG PAVLE PAP-ŠILJO. S TEHNIKOM SU NAJUŽE SURAĐIVALI NARODNI HEROJ, ČLAN POLITBIROA CK KPJ I SEKRETAR CK KPH, DRUG RADE KONČAR-BRKO I NARODNI HEROJ I ČLAN CK KPH, DRUGARICA ANKA BUTORAC. U POVODU 25-GODIŠNJICE OSLOBOĐENJA GRADA ZAGREBA SPOMEN PLOČU PODIŽE OPĆINSKI ODBOR ZA PROSLAVU 25 GODINA OSLOBOĐENJA GRADA ZAGREBA. ZAGREB, 29. XI 1970.",
+    "vrsta": "ploca",
+    "adresa": "Murterska 25"
+  },
+  {
+    "naziv": "Spomen-ploča",
+    "mesto": "Zagreb (Centar)",
+    "drzava": "Croatia",
+    "izvor": "https://znaci.org/00003/679.pdf#page=159",
+    "godina": "1948",
+    "vrsta": "ploca",
+    "adresa": "Ilica 49"
+  },
+  {
+    "naziv": "Spomen-ploča na pročelju zgrade u kojoj je bilo sjedište organizacija KPJ i sindikata",
+    "mesto": "Zagreb (Centar)",
+    "drzava": "Croatia",
+    "izvor": "https://znaci.org/00003/679.pdf#page=171",
+    "godina": "1980",
+    "natpis": "U OVOJ ZGRADI U KOJOJ JE BILO SJEDIŠTE ORGANIZACIJA KPJ I REVOLUCIONARNIH SINDIKATA JOSIP BROZ UKLJUČIO SE U KOMUNISTIČKU PARTIJU JUGOSLAVIJE U PRVOJ POLOVICI STUDENOG 1920. GODINE\nOPĆINSKA KONFERENCIJA SKH CENTAR - ZAGREB\nSTUDENOG 1980. GODINE",
+    "vrsta": "ploca",
+    "adresa": "Ilica 53"
+  },
+  {
+    "naziv": "Spomen-ploča na pročelju zgrade u kojoj je 1927. radio Josip Broz Tito",
+    "mesto": "Zagreb (Centar)",
+    "drzava": "Croatia",
+    "izvor": "https://znaci.org/00003/679.pdf#page=175",
+    "godina": "1980",
+    "natpis": "U OVOJ JE ZGRADI, U UMJETNOJ I GRAĐEVNOJ BRAVARIJI HAMEL, 1927. GODINE RADIO JOSIP BROZ TITO\nDRUŠTVENO POLITIČKE ORGANIZACIJE OPĆINE CENTAR\n14. RUJNA 1980.",
+    "vrsta": "ploca",
+    "adresa": "Medulićeva 25"
+  },
+  {
+    "naziv": "Spomen-ploča na zgradi u kojoj su se održavali ilegalni sastanci",
+    "mesto": "Zagreb (Trnje)",
+    "drzava": "Croatia",
+    "izvor": "https://znaci.org/00003/679.pdf#page=198",
+    "godina": "1948",
+    "natpis": "U OVOJ KUĆI ODRŽAVANI SU ILEGALNI PARTIJSKI SASTANCI PRIJE RATA I ZA VRIJEME OKUPACIJE, KOJIMA SU PRISUSTVOVALI DRUGOVI E. KARDELJ, M. ĐILAS, I NARODNI HEROJ R. KONČAR. 1928. G. ODRŽAVANI SU SASTANCI CENTRALNOG KOMITETA KOMUNISTIČKE PARTIJE JUGOSLAVIJE KOJIMA SU PRISUSTVOVALI DRUGOVI TITO I ĐURO ĐAKOVIĆ. U ČAST II KONGRESA KOMUNISTIČKE PARTIJE HRVATSKE OVU PLOČU PODIŽE PARTIJSKA ORGANIZACIJA IV. RAJONA, ZAGREB, 21. XI 1948.",
+    "vrsta": "ploca",
+    "adresa": "Kašinska 12"
+  },
+  {
+    "naziv": "Muzej VIII. konferencije zagrebačkih komunista",
+    "mesto": "Zagreb (Pantovčak)",
+    "drzava": "Croatia",
+    "izvor": "https://znaci.org/00003/679.pdf#page=148",
+    "vrsta": "muzej",
+    "adresa": "Pantovčak 178"
+  },
+  {
+    "naziv": "Muzej V. zemaljske konferencije",
+    "mesto": "Zagreb (Dubrava)",
+    "drzava": "Croatia",
+    "izvor": "https://znaci.org/00003/679.pdf#page=151",
+    "godina": "1950",
+    "vrsta": "muzej",
+    "adresa": "Ulica V zemaljske konferencije 20"
+  },
+  {
+    "naziv": "Zgrada u kojoj je živio i radio Josip Broz Tito",
+    "mesto": "Zagreb (Gajnice)",
+    "drzava": "Croatia",
+    "izvor": "https://znaci.org/00003/679.pdf#page=156",
+    "godina": "1972",
+    "vrsta": "muzej",
+    "adresa": "Kerestinečkih žrtava 31"
+  },
+  {
+    "naziv": "Spomenik sedmorici strijeljanih",
+    "mesto": "Zagreb (Lukšić)",
+    "drzava": "Croatia",
+    "izvor": "https://znaci.org/00003/679.pdf#page=90",
+    "godina": "1959",
+    "vrsta": "lokalni",
+    "adresa": "Lukšić selo"
+  },
+  {
+    "naziv": "Spomenik na mjestu vješanja",
+    "mesto": "Zagreb (Peščenica)",
+    "drzava": "Croatia",
+    "izvor": "https://znaci.org/00003/679.pdf#page=116",
+    "natpis": "NE ŠTEDEĆI SVOJ ŽIVOT U BORBI S FAŠISTIČKIM ZLIKOVCIMA ZA SLOBODU SVOJE DOMOVINE, NA OVOM MJESTU DANA 5-8. I 1945. GODINE OBJEŠENI SU DRUGOVI\n[spisak imena]\nSLAVA PALIM DRUGOVIMA ZA SLOBODU SVOG NARODA!\nSPOMEN PLOČU PODIŽE SAVEZ BORACA N.O. RATA OPĆINE „PEŠČENICA“",
+    "vrsta": "lokalni",
+    "adresa": "Radnička cesta bb"
+  },
+  {
+    "naziv": "Spomenik na mjestu na kojem su fašisti 26. 11. 1943. ubili Pavla Lončarića",
+    "mesto": "Zagreb (Borčec)",
+    "drzava": "Croatia",
+    "izvor": "https://znaci.org/00003/679.pdf#page=121",
+    "natpis": "NA OVOME MJESTU IZVRŠILI SU FAŠISTI TEŽAK ZLOČIN NA NAŠEM DRUGU I PRVOBORCEM PAVLOM LONČARIĆEM 26. XI 1943. U BORBENOM SJEĆANJU NA TAJ DAN PODIGNUT JE OVAJ SPOMENIK NA VJEČNU ČAST I SLAVU BORCIMA MJESTA BORČEC KOJI SU PALI ZA VELIČINU I BUDUĆNOST FNR. JUGOSLAVIJE. SLAVA IM",
+    "vrsta": "lokalni",
+    "adresa": "Borčec-Stenjevec, Lončarićev put"
+  },
+  {
+    "naziv": "Spomen-područje Rakov Potok",
+    "mesto": "Zagreb (Rakov Potok)",
+    "drzava": "Croatia",
+    "izvor": "https://znaci.org/00003/679.pdf#page=139",
+    "natpis": "VIDI GDJE POČIVA ČETIRI STOTINE ŽRTAVA FAŠIZMA\n1941. GODINE\nRAKOV POTOK\n\nNA ŽEZI STRAŠNOJ TIHO SU NAS ŽELI KO MRTVO KLASJE KOJE JEDVA ŠUŠTI MI IDEMO PO TRAGU ŽIVIH I NITKO ZAUSTAVIT NAS NEĆE\nIVAN GORAN KOVAČIĆ",
+    "vrsta": "kompleks",
+    "adresa": "šuma Stupnički lug"
+  },
+  {
+    "naziv": "Grobnica boraca „Brigata Italia“",
+    "mesto": "Zagreb (Mirogoj)",
+    "drzava": "Croatia",
+    "izvor": "https://znaci.org/00003/679.pdf#page=250",
+    "natpis": "BRIGATA ITALIA JA\n24. VI. 1945\n\nOVDJE SMO NAŠLI\nVJERU\nMAJKU\nKRUH\nPUŠKU\nMRTVI TO ZNAJU\nŽIVI\nTO NEĆE ZABORAVITI\nRIJEKE KRVI SU DIJELILE\nDVA NARODA\nNEKA IH DANAS ŽRTVE\nNAJBOLJIH DRUGOVA SPAJAJU\n\nDRUŽE KAD VIDIŠ MOJU MAJKU KAŽI JOJ DA NE PLAČE, NISAM SAM SA MNOM LEŽI JEDAN JUGOSLAVENSKI DRUG NEKA NITKO NE POKUŠA BACITI LJAGU NA KRV PROLIVENU U ZAJEDNIČKOJ BORBI",
+    "vrsta": "groblje",
+    "adresa": "groblje Mirogoj"
+  },
+  {
+    "naziv": "Spomenik kozaračkoj djeci",
+    "mesto": "Zagreb (Mirogoj)",
+    "drzava": "Croatia",
+    "izvor": "https://znaci.org/00003/679.pdf#page=253",
+    "autor": "Stevo Luketić",
+    "vrsta": "spomenik",
+    "adresa": "groblje Mirogoj"
+  },
+  {
+    "naziv": "Spomenik Židovima - žrtvama logora Jasenovac",
+    "mesto": "Zagreb (Mirogoj)",
+    "drzava": "Croatia",
+    "izvor": "https://znaci.org/00003/679.pdf#page=255",
+    "autor": "Antun Augustinčić",
+    "vrsta": "spomenik",
+    "adresa": "groblje Mirogoj, židovsko groblje"
+  },
+  {
+    "naziv": "Grobovi palih boraca",
+    "mesto": "Zagreb (Mirogoj)",
+    "drzava": "Croatia",
+    "izvor": "https://znaci.org/00003/679.pdf#page=257",
+    "vrsta": "groblje",
+    "adresa": "groblje Mirogoj"
+  },
+  {
+    "naziv": "Spomenik palim borcima",
+    "mesto": "Zagreb (Stenjevec)",
+    "drzava": "Croatia",
+    "izvor": "https://znaci.org/00003/679.pdf#page=262",
+    "natpis": "OVDJE POČIVAJU DRUGOVI BABIĆ MARIJAN, KOMANDIR JUGOSLAVENSKE ARMIJE I TRINAEST OBJEŠENIH I STRIJELJANIH NARODNIH BORACA ZA VRIJEME NOB-a OD 1941. GODINE DO 1945. GODINE.",
+    "vrsta": "groblje",
+    "adresa": "Stenjevec - groblje"
+  },
+  {
+    "naziv": "Spomen-grobnica trinaestorice palih boraca",
+    "mesto": "Zagreb (Vrapče)",
+    "drzava": "Croatia",
+    "izvor": "https://znaci.org/00003/679.pdf#page=264",
+    "natpis": "SLAVA ŽRTVAMA FAŠISTIČKOG TERORA\n[spisak imena]\nMATE FRANČIŠKOVIĆ 1889 - 1945. IZ PRAPUTNJAKA",
+    "vrsta": "groblje",
+    "adresa": "Vrapče - groblje"
+  },
+  {
+    "naziv": "Bista Vilima Galjera",
+    "mesto": "Zagreb (Centar)",
+    "drzava": "Croatia",
+    "izvor": "https://znaci.org/00003/679.pdf#page=267",
+    "autor": "Grga Antunac",
+    "vrsta": "bista",
+    "adresa": "Branimirova 4, zgrada pošte"
+  },
+  {
+    "naziv": "Bista Rudija Čajavca",
+    "mesto": "Zagreb (Centar)",
+    "drzava": "Croatia",
+    "izvor": "https://znaci.org/00003/679.pdf#page=269",
+    "godina": "1971",
+    "vrsta": "bista",
+    "adresa": "Ise Kršnjavoga 2"
+  },
+  {
+    "naziv": "Bista dr. Mladena Stojanovića",
+    "mesto": "Zagreb (Črnomerec)",
+    "drzava": "Croatia",
+    "izvor": "https://znaci.org/00003/679.pdf#page=283",
+    "autor": "Sreten Stojanović",
+    "vrsta": "bista",
+    "adresa": "Vinogradska cesta 29"
+  },
+  {
+    "naziv": "Bista dr. Ivana Ribara",
+    "mesto": "Zagreb (Retkovec)",
+    "drzava": "Croatia",
+    "izvor": "https://znaci.org/00003/679.pdf#page=285",
+    "godina": "1975",
+    "autor": "Velibor Mačukatin",
+    "vrsta": "bista",
+    "adresa": "Retkovec"
+  },
+  {
+    "naziv": "Bista dr. Ozrena Novosela",
+    "mesto": "Zagreb (Maksimir)",
+    "drzava": "Croatia",
+    "izvor": "https://znaci.org/00003/679.pdf#page=289",
+    "godina": "1980",
+    "vrsta": "bista",
+    "adresa": "Zajčeva 19"
+  },
+  {
+    "naziv": "Bista Ive Lole Ribara",
+    "mesto": "Zagreb (Maksimir)",
+    "drzava": "Croatia",
+    "izvor": "https://znaci.org/00003/679.pdf#page=291",
+    "godina": "1959",
+    "vrsta": "bista",
+    "adresa": "Laščinska cesta"
+  },
+  {
+    "naziv": "Biste Stjepana i Zvonka Kavurića",
+    "mesto": "Zagreb (Maksimir)",
+    "drzava": "Croatia",
+    "izvor": "https://znaci.org/00003/679.pdf#page=293",
+    "vrsta": "bista",
+    "adresa": "Kesterčanekova ulica"
+  },
+  {
+    "naziv": "Bista Đure Salaja",
+    "mesto": "Zagreb (Medveščak)",
+    "drzava": "Croatia",
+    "izvor": "https://znaci.org/00003/679.pdf#page=295",
+    "godina": "1959",
+    "natpis": "SALAJ ĐURO, ČLAN IZVRŠNOG KOMITETA C.K.S.K.J. PREDSJEDNIK CENTRALNOG VIJEĆA SAVEZA SINDIKATA JUGOSLAVIJE.\nU ČAST NJEGOVOG REVOLUCIONARNOG RADA I POSEBNIH ZASLUGA ZA RAZVITAK SINDIKALNOG POKRETA, OVU BISTU POSTAVLJA REPUBLIČKO VIJEĆE S.S.J. ZA HRVATSKU\n20. V. 1959",
+    "vrsta": "bista",
+    "adresa": "Lenjinov trg 2"
+  },
+  {
+    "naziv": "Biste Jurice i Ive Lole Ribara",
+    "mesto": "Zagreb (Medveščak)",
+    "drzava": "Croatia",
+    "izvor": "https://znaci.org/00003/679.pdf#page=299",
+    "godina": "1961",
+    "natpis": "„MRTVI ŽIVE U NAMA.\nRASTU RASTU.\nMLADI I RASPJEVANI\nMOJI DRUGOVI.\nMRTVI ŽIVE U NAMA.“",
+    "vrsta": "bista",
+    "adresa": "Križanićeva 4"
+  },
+  {
+    "naziv": "Reljef Moše Pijade",
+    "mesto": "Zagreb (Medveščak)",
+    "drzava": "Croatia",
+    "izvor": "https://znaci.org/00003/679.pdf#page=301",
+    "godina": "1964",
+    "natpis": "NARODNOM HEROJU\nMOŠI PIJADE\n1890 - 1957\nSTUDENTI OVOG DOMA\nZAGREB 15. III 1964. GOD.",
+    "vrsta": "spomenik",
+    "adresa": "Trg žrtava fašizma 11"
+  },
+  {
+    "naziv": "Bista Otokara Keršovanija",
+    "mesto": "Zagreb (Medveščak)",
+    "drzava": "Croatia",
+    "izvor": "https://znaci.org/00003/679.pdf#page=303",
+    "autor": "Velibor Mačukatin",
+    "vrsta": "bista",
+    "adresa": "Račkoga 4"
+  },
+  {
+    "naziv": "Spomenik Marijanu Badelu",
+    "mesto": "Zagreb (Žitnjak)",
+    "drzava": "Croatia",
+    "izvor": "https://znaci.org/00003/679.pdf#page=307",
+    "godina": "1979",
+    "autor": "Ćiro Mihanović",
+    "vrsta": "spomenik",
+    "adresa": "Žitnjak bb"
+  },
+  {
+    "naziv": "Spomenik palim borcima",
+    "mesto": "Zagreb (Žitnjak)",
+    "drzava": "Croatia",
+    "izvor": "https://znaci.org/00003/679.pdf#page=309",
+    "godina": "1961",
+    "vrsta": "lokalni",
+    "adresa": "Žitnjak bb"
+  },
+  {
+    "naziv": "Bista Jaroslava Hvale",
+    "mesto": "Zagreb (Veterinarski fakultet)",
+    "drzava": "Croatia",
+    "izvor": "https://znaci.org/00003/679.pdf#page=311",
+    "autor": "Rudolf Ivanković",
+    "natpis": "J. HVALA",
+    "vrsta": "bista",
+    "adresa": "Henzelova 55"
+  },
+  {
+    "naziv": "Bista Zorka Goluba",
+    "mesto": "Zagreb (Veterinarski fakultet)",
+    "drzava": "Croatia",
+    "izvor": "https://znaci.org/00003/679.pdf#page=313",
+    "autor": "Vanja Radauš",
+    "natpis": "Z. GOLUB",
+    "vrsta": "bista",
+    "adresa": "Henzelova 55"
+  },
+  {
+    "naziv": "Bista Pavla Lončarića",
+    "mesto": "Zagreb (Vrapče)",
+    "drzava": "Croatia",
+    "izvor": "https://znaci.org/00003/679.pdf#page=317",
+    "vrsta": "bista",
+    "adresa": "Vrapče"
+  },
+  {
+    "naziv": "Bista Vlade Prišlina",
+    "mesto": "Zagreb (Gornje Vrapče)",
+    "drzava": "Croatia",
+    "izvor": "https://znaci.org/00003/679.pdf#page=319",
+    "godina": "1974",
+    "vrsta": "bista",
+    "adresa": "Gornje Vrapče"
+  },
+  {
+    "naziv": "Spomenik palim borcima",
+    "mesto": "Zagreb (Špansko)",
+    "drzava": "Croatia",
+    "izvor": "https://znaci.org/00003/679.pdf#page=323",
+    "godina": "1978",
+    "autor": "Lujo Lozica",
+    "vrsta": "lokalni",
+    "adresa": "Špansko"
+  },
+  {
+    "naziv": "Bista Kate Dumbović",
+    "mesto": "Zagreb (Trešnjevka)",
+    "drzava": "Croatia",
+    "izvor": "https://znaci.org/00003/679.pdf#page=331",
+    "godina": "1980",
+    "natpis": "NARODNI HEROJ\nKATA DUMBOVIĆ\n1903 - 1941",
+    "vrsta": "bista",
+    "adresa": "Badalićeva 24a"
+  },
+  {
+    "naziv": "Bista Božidara Dakića Jakova",
+    "mesto": "Zagreb (Trnje)",
+    "drzava": "Croatia",
+    "izvor": "https://znaci.org/00003/679.pdf#page=341",
+    "vrsta": "bista",
+    "adresa": "Leskovačka ulica, dječje igralište"
+  },
+  {
+    "naziv": "Spomenik palim borcima",
+    "mesto": "Zagreb (Šestine)",
+    "drzava": "Croatia",
+    "izvor": "https://znaci.org/00003/679.pdf#page=346",
+    "godina": "1956",
+    "vrsta": "lokalni",
+    "adresa": "Šestine"
+  },
+  {
+    "naziv": "Reljef sedam sekretara SKOJ-a",
+    "mesto": "Zagreb (Centar)",
+    "drzava": "Croatia",
+    "izvor": "https://znaci.org/00003/679.pdf#page=349",
+    "natpis": "ZLATKO ŠNAJDER JANKO MIŠIĆ MIJO OREŠKI PAJO MARGANOVIĆ JOSIP KOLUMBO PERA POPOVIĆ-AGA JOSIP DEBELJAK\nSEDAM SEKRETARA SKOJ-a",
+    "vrsta": "spomenik",
+    "adresa": "Mlinarska cesta bb"
+  },
+  {
+    "naziv": "Spomenik palim borcima",
+    "mesto": "Zagreb (Čučerje)",
+    "drzava": "Croatia",
+    "izvor": "https://znaci.org/00003/679.pdf#page=410",
+    "godina": "1951",
+    "vrsta": "lokalni",
+    "adresa": "Čučerje"
+  },
+  {
+    "naziv": "Spomenik palim borcima",
+    "mesto": "Zagreb (Remete)",
+    "drzava": "Croatia",
+    "izvor": "https://znaci.org/00003/679.pdf#page=417",
+    "godina": "1953",
+    "natpis": "1945\nU SPOMEN PALIM DRUGOVIMA KOJI SU NESEBIČNO DALI SVOJE ŽIVOTE ZA OSLOBOĐENJE I BOLJU BUDUĆNOST SVOGA NARODA\nSPOMEN DIŽE A.F.Ž. - J.N.O.F. REMETE\nOBNOVLJEN I NA OVO MJESTO POSTAVLJEN 27 SRPNJA 1953",
+    "vrsta": "lokalni",
+    "adresa": "Remete"
+  },
+  {
+    "naziv": "Spomenik palim borcima",
+    "mesto": "Zagreb (Markuševac)",
+    "drzava": "Croatia",
+    "izvor": "https://znaci.org/00003/679.pdf#page=429",
+    "vrsta": "lokalni",
+    "adresa": "Markuševac"
+  },
+  {
+    "naziv": "Spomen-kosturnica",
+    "mesto": "Zagreb (Odra)",
+    "drzava": "Croatia",
+    "izvor": "https://znaci.org/00003/679.pdf#page=451",
+    "godina": "1956",
+    "vrsta": "groblje",
+    "adresa": "Odra"
+  },
+  {
+    "naziv": "Spomenik palim borcima",
+    "mesto": "Zagreb (Horvati)",
+    "drzava": "Croatia",
+    "izvor": "https://znaci.org/00003/679.pdf#page=466",
+    "godina": "1961",
+    "vrsta": "lokalni",
+    "adresa": "Horvati"
+  },
+  {
+    "naziv": "Spomenik palim borcima",
+    "mesto": "Zagreb (Pleso)",
+    "drzava": "Croatia",
+    "izvor": "https://znaci.org/00003/679.pdf#page=469",
+    "godina": "1978",
+    "autor": "Marijan Burger",
+    "vrsta": "lokalni",
+    "adresa": "Pleso"
+  },
+  {
+    "naziv": "Spomenik palim borcima",
+    "mesto": "Zagreb (Vrapče)",
+    "drzava": "Croatia",
+    "izvor": "https://znaci.org/00003/679.pdf#page=484",
+    "vrsta": "lokalni",
+    "adresa": "Vrapče"
+  },
+  {
+    "naziv": "Spomenik palim borcima",
+    "mesto": "Zagreb (Gornje Vrapče)",
+    "drzava": "Croatia",
+    "izvor": "https://znaci.org/00003/679.pdf#page=488",
+    "autor": "Pavle Perić",
+    "vrsta": "lokalni",
+    "adresa": "Gornje Vrapče"
   }
 ]

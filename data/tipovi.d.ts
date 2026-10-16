@@ -45,7 +45,7 @@ export interface Spomenik {
   godina?: string
   /** autori spojeni sa „ & “ */
   autor?: string
-  /** tekst natpisa sa spomenika, doslovno, redovi odvojeni sa „ / “ */
+  /** tekst natpisa sa spomenika, doslovno; novi red samo gde ima smisla (potpis, datum, ime i godine, stih), prazan red između ploča */
   natpis?: string
   /** Wikidata stavke iz data/posvete.json, npr. ["Q82914"] */
   posveta?: string[]
@@ -62,7 +62,7 @@ export interface Kandidat extends Koordinate {
  * Ista polja kao Spomenik, bez id-a i koordinata, uz podatke koji pomažu da se spomenik pronađe.
  * Izuzetak: u 54 stavke `slika` je ime fajla na Vikipediji; slika se preuzima tek pri prebacivanju u bazu. */
 export interface SpomenikBezLokacije extends Omit<Spomenik, 'id' | 'koordinate'> {
-  /** adresa ili opis položaja sa izvora, engleski */
+  /** adresa ili opis položaja, na jeziku izvora */
   adresa?: string
   /** moguće, nepotvrđene lokacije */
   kandidati?: Kandidat[]

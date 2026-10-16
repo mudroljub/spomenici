@@ -23,7 +23,8 @@ Ažurirano 2026-10-16. Plan je pisan tako da po njemu može da radi i drugi agen
 - **Dopune postojećih**: prazni `autor` i `godina`; `naziv` kad knjiga daje natpis ili zvaničan naziv (natpis je autoritet, vidi skil `spomenici-nazivi`).
 - **Položaj**: tačna adresa (A, delimično B i D) za lociranje preko OSM kućnih brojeva, kao kod spomenicinob.info.
 - **Stanje**: aplikacija je za putnike, pa srušeni i uklonjeni spomenici nisu prioritet (odluka 2026-10-16). Stanje iz C (1990–2000) ne upisuje se u bazu; iz C se uzimaju spomenici koji i dalje stoje (oštećeni ili kasnije obnovljeni), a srušeni se preskaču.
-- **Natpis** (polje `natpis`, opciono, odluka 2026-10-16): doslovno, redovi odvojeni sa „ / “. Prikaz u prozoru spomenika dodaje se kad se upišu prvi natpisi.
+- **Ploče**: spomen-ploče (i zgrade obeležene samo pločom) se preskaču (odluka 2026-10-16); izuzetak su veoma bitne. Kriterij za A: predlog Zavoda za I ili II kategoriju zaštite (rubrika VALORIZACIJA). Sirovi zapisi u `data/knjige/` ostaju potpuni.
+- **Natpis** (polje `natpis`, opciono, odluka 2026-10-16): doslovno, novi red samo gde ima smisla (potpis, datum, ime i godine, stih), prazan red između ploča; redovi ploče, sa „ / “, ostaju samo u sirovim zapisima u `data/knjige/`; u bazu samo ceo pročitan (bez `[?]`). Prikazuje se u prozoru spomenika, sklopljen.
 - **Druga nova polja** samo ako se podatak javlja u više knjiga i koristi aplikaciji ili lociranju.
 
 ## 3. Postupak, za svaku knjigu
@@ -39,7 +40,7 @@ Ažurirano 2026-10-16. Plan je pisan tako da po njemu može da radi i drugi agen
 
 Po odnosu koristi i truda:
 
-1. **A — Zagreb (1981).** Najviše gotovih adresa, pa i najviše spomenika koji se mogu odmah locirati; baza za Zagreb ima samo 35 spomenika (4 ploče, 22 bez autora), pa je većina knjige novo.
+1. **A — Zagreb (1981).** Urađeno 2026-10-16 (`data/knjige/zagreb-1981.json`, beleška u `docs/BELESKE.md`). Najviše gotovih adresa, pa i najviše spomenika koji se mogu odmah locirati; baza za Zagreb ima samo 35 spomenika (4 ploče, 22 bez autora), pa je većina knjige novo.
 2. **D — Krapina (1966).** Mala (50 strana), dobra proba celog postupka pre velikih knjiga. Može i pre A, kao proba.
 3. **B — Jokić (1986).** Autori, godine i zvanični nazivi većih spomenika u celoj zemlji; malo novih spomenika, mnogo dopuna.
 4. **E — Šibenik (1980).** Dobar tekst i potpun popis po naseljima jednog kraja; posle B, da se veći spomenici uparuju samo jednom.

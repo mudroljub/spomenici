@@ -13,7 +13,7 @@ PRIDEV = {'Stari': 'Starog', 'Crni': 'Crnog', 'Črni': 'Črnog', 'Veliki': 'Veli
 NEPOSTOJANO = {  # nepostojano a/e: osnova u genitivu
     'Zagorac': 'Zagorca', 'Veletovac': 'Veletovca', 'Španac': 'Španca', 'Marijanac': 'Marijanca', 'Crnogorac': 'Crnogorca',
     'Premasunac': 'Premasunca', 'Pećanac': 'Pećanca', 'Čajavec': 'Čajavca', 'Bobinec': 'Bobinca', 'Bubanj': 'Bubnja',
-    'Mitar': 'Mitra', 'Petar': 'Petra', 'Popac': 'Popca', 'Holjevac': 'Holjevca', 'Irac': 'Irca', 'Gavran': 'Gavrana',
+    'Mitar': 'Mitra', 'Petar': 'Petra', 'Popac': 'Popca', 'Holjevac': 'Holjevca', 'Cesarec': 'Cesarca','Irac': 'Irca', 'Gavran': 'Gavrana',
 }
 
 def muski(r, prvo):

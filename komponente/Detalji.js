@@ -286,6 +286,26 @@ style.textContent = `
     color: #fff;
   }
 
+  /* natpis je sklopljen, da dugacak tekst ne odgura dugmad */
+  .natpis {
+    color: #444;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+
+  .natpis summary {
+    color: ${boja};
+    cursor: pointer;
+    line-height: 44px;
+    min-height: 44px;
+  }
+
+  /* novi red u natpisu je potpis, datum ili stih */
+  .natpis p {
+    margin: 0;
+    white-space: pre-line;
+  }
+
   .akcije #ruta[aria-pressed="true"] {
     background: #f3e1dc;
   }
@@ -389,6 +409,7 @@ export default class Detalji extends HTMLElement {
             <button data-oznaka="posetio"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="m8 12 3 3 5-6" stroke-linecap="round" stroke-linejoin="round"/></svg>${t('posetio')}</button>
           </span>
         </p>
+        ${spomen.natpis ? `<details class="natpis"><summary>${t('natpis')}</summary><p>${escapeHtml(spomen.natpis)}</p></details>` : ''}
       </div>
     `
     this.panel.querySelector('#zatvori').addEventListener('click', () => mapa.fire('izbor', {marker: null}))
