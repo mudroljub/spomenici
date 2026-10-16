@@ -3056,6 +3056,9 @@
     "name": "Sremski Front Memorial Complex",
     "year": "1988",
     "author": "Miroslav Krstonošić & Jovan Soldatović",
+    "posveta": [
+      "Q3299011"
+    ],
     "type": "kompleks",
     "drzava": "Serbia"
   },
@@ -4483,22 +4486,6 @@
     "drzava": "Macedonia"
   },
   {
-    "id": "mojkovac",
-    "koordinate": {
-      "lat": 42.9565409,
-      "lng": 19.5774404
-    },
-    "googleCid": "16623440115658074173",
-    "title": "Mojkovac",
-    "slika": "slike/spomenici/mojkovac.webp",
-    "slikaOdnos": 1.0,
-    "naziv": "Spomenik Mojkovačkoj bici",
-    "name": "Monument to the Battle of Mojkovac",
-    "year": "1966",
-    "type": "spomenik",
-    "drzava": "Montenegro"
-  },
-  {
     "id": "mostar-hidden-hand-fountain",
     "koordinate": {
       "lat": 43.3401717,
@@ -5269,6 +5256,9 @@
     "slika": "slike/spomenici/tito-s-cave-museum-at-drvar.webp",
     "slikaOdnos": 1.538,
     "naziv": "Titova pećina",
+    "posveta": [
+      "Q931125"
+    ],
     "type": "muzej",
     "drzava": "Bosnia and Herzegovina"
   },
@@ -6030,6 +6020,9 @@
     "name": "Monument to Fallen Fighters",
     "year": "1958",
     "author": "Drago Đurović",
+    "posveta": [
+      "Q4087316"
+    ],
     "type": "statua",
     "drzava": "Montenegro"
   },
@@ -6613,6 +6606,9 @@
     "name": "Monument to the Rama Valley Battle",
     "year": "1968",
     "author": "Marijan Kocković",
+    "posveta": [
+      "Q12755970"
+    ],
     "type": "spomenik",
     "drzava": "Bosnia and Herzegovina"
   },
@@ -7517,6 +7513,9 @@
     "naziv": "Spomenik proboju",
     "name": "Monument to the Breakthrough",
     "year": "1967",
+    "posveta": [
+      "Q2985697"
+    ],
     "type": "spomenik",
     "drzava": "Bosnia and Herzegovina"
   },
@@ -8013,6 +8012,9 @@
     "slika": "slike/spomenici/museum-of-kozara.webp",
     "slikaOdnos": 1.487,
     "naziv": "Muzej Kozare",
+    "posveta": [
+      "Q2985697"
+    ],
     "type": "muzej",
     "drzava": "Bosnia and Herzegovina"
   },
@@ -9185,6 +9187,9 @@
     "name": "Monument to the Battle of Bolman",
     "year": "1951",
     "author": "Nikola Kečanin",
+    "posveta": [
+      "Q12748966"
+    ],
     "type": "spomenik",
     "drzava": "Croatia"
   },
@@ -11323,6 +11328,9 @@
     "name": "The Liberators of Belgrade Cemetery",
     "year": "1954",
     "author": "Branko Bon",
+    "posveta": [
+      "Q328357"
+    ],
     "type": "groblje",
     "drzava": "Serbia"
   },
@@ -11372,6 +11380,9 @@
     "naziv": "Spomenik palim borcima na Sutjesci",
     "name": "Mon. to Fallen Fighters at Sutjeska",
     "year": "1976",
+    "posveta": [
+      "Q1419973"
+    ],
     "type": "spomenik",
     "drzava": "Croatia"
   },
@@ -12958,6 +12969,9 @@
     "naziv": "Spomenik žrtvama Četvrte ofanzive",
     "name": "Monument to victims of the 4th Offensive",
     "year": "1986",
+    "posveta": [
+      "Q127872674"
+    ],
     "type": "spomenik",
     "drzava": "Bosnia and Herzegovina"
   },
@@ -13515,6 +13529,9 @@
     },
     "googleCid": "4081064138991816983",
     "title": "Kred (Kobarid)",
+    "slika": "slike/spomenici/kred-kobarid.webp",
+    "slikaOdnos": 0.749,
+    "slikaAutor": "Google Maps",
     "naziv": "Spomenik padlim v NOB in žrtvam fašizma",
     "type": "lokalni",
     "drzava": "Slovenia"
@@ -13603,6 +13620,9 @@
     },
     "googleCid": "13401680343311498792",
     "title": "Podbela (Breginj)",
+    "slika": "slike/spomenici/podbela-breginj.webp",
+    "slikaOdnos": 0.749,
+    "slikaAutor": "Google Maps",
     "naziv": "Spomenik NOV",
     "type": "spomenik",
     "drzava": "Slovenia"
@@ -14285,6 +14305,9 @@
     },
     "googleCid": "9179716663103626284",
     "title": "Bukovik",
+    "slika": "slike/spomenici/bukovik.webp",
+    "slikaOdnos": 0.749,
+    "slikaAutor": "Google Maps",
     "naziv": "Spomenik NOB Šumadijskim partizanima",
     "type": "lokalni",
     "drzava": "Serbia"
@@ -14663,6 +14686,9 @@
     },
     "googleCid": "13920156543227921999",
     "title": "Podvolovljek",
+    "slika": "slike/spomenici/podvolovljek.webp",
+    "slikaOdnos": 2.21,
+    "slikaAutor": "Google Maps",
     "naziv": "Spomenik NOB",
     "type": "lokalni",
     "drzava": "Slovenia"
@@ -14729,6 +14755,9 @@
     },
     "googleCid": "4929727592158394027",
     "title": "Predenca",
+    "slika": "slike/spomenici/predenca.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "Google Maps",
     "naziv": "Spomenik NOB Šmarje pri Jelšah",
     "type": "lokalni",
     "drzava": "Slovenia"
@@ -14801,6 +14830,9 @@
     },
     "googleCid": "10924870566188205162",
     "title": "Moste pri Komendi",
+    "slika": "slike/spomenici/moste-pri-komendi.webp",
+    "slikaOdnos": 0.749,
+    "slikaAutor": "Google Maps",
     "naziv": "Spomenik NOB",
     "type": "lokalni",
     "drzava": "Slovenia"
@@ -15748,6 +15780,9 @@
     },
     "googleCid": "17911921453665015221",
     "title": "Rijeka (Banderovo)",
+    "slika": "slike/spomenici/rijeka-banderovo.webp",
+    "slikaOdnos": 0.749,
+    "slikaAutor": "Google Maps",
     "naziv": "Spomenik palim borcima NOB-a",
     "type": "lokalni",
     "drzava": "Croatia"
@@ -15952,6 +15987,9 @@
     },
     "googleCid": "4932103528430221365",
     "title": "Gajine",
+    "slika": "slike/spomenici/gajine.webp",
+    "slikaOdnos": 1.778,
+    "slikaAutor": "Google Maps",
     "naziv": "Spomenik NOB",
     "type": "lokalni",
     "drzava": "Croatia"
@@ -16081,6 +16119,9 @@
     },
     "googleCid": "14585731495269382400",
     "title": "Tučepi",
+    "slika": "slike/spomenici/tucepi.webp",
+    "slikaOdnos": 1.778,
+    "slikaAutor": "Google Maps",
     "naziv": "Spomenik palim borcima u NOB-u",
     "type": "lokalni",
     "drzava": "Croatia"
@@ -16108,6 +16149,9 @@
     },
     "googleCid": "17866000812133793328",
     "title": "Mojdež",
+    "slika": "slike/spomenici/mojdez.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "Google Maps",
     "naziv": "Spomenik borcima NOB",
     "type": "lokalni",
     "drzava": "Montenegro"
@@ -16213,6 +16257,9 @@
     },
     "googleCid": "17940961853694708269",
     "title": "Jareninski Dol",
+    "slika": "slike/spomenici/jareninski-dol.webp",
+    "slikaOdnos": 1.702,
+    "slikaAutor": "Google Maps",
     "naziv": "Spomenik NOB",
     "type": "lokalni",
     "drzava": "Slovenia"
@@ -16372,6 +16419,9 @@
     },
     "googleCid": "4474924923987033098",
     "title": "Razvanje",
+    "slika": "slike/spomenici/razvanje.webp",
+    "slikaOdnos": 0.749,
+    "slikaAutor": "Google Maps",
     "naziv": "Spomenik NOB Pod Ledino",
     "type": "lokalni",
     "drzava": "Slovenia"
@@ -16426,6 +16476,9 @@
     },
     "googleCid": "9392918244685983949",
     "title": "Črna na Koroškem",
+    "slika": "slike/spomenici/crna-na-koroskem.webp",
+    "slikaOdnos": 0.563,
+    "slikaAutor": "Google Maps",
     "naziv": "Spomenik NOB (Štenge)",
     "type": "lokalni",
     "drzava": "Slovenia"
@@ -16573,6 +16626,9 @@
     },
     "googleCid": "10113379314650918655",
     "title": "Plavški Rovt",
+    "slika": "slike/spomenici/plavski-rovt.webp",
+    "slikaOdnos": 1.778,
+    "slikaAutor": "Google Maps",
     "naziv": "Osrednji spomenik NOB",
     "year": "1960",
     "author": "Boris Kalin & Edvard Ravnikar",
@@ -18562,6 +18618,9 @@
     },
     "googleCid": "11798247687968894960",
     "title": "Kolut",
+    "slika": "slike/spomenici/kolut.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "Google Maps",
     "naziv": "Spomenik borcima NOB i Crvene armije",
     "type": "lokalni",
     "drzava": "Serbia"
@@ -18824,6 +18883,9 @@
     "googleCid": "1051356826906985064",
     "title": "Zagreb (Trešnjevka)",
     "info": "https://zagrebacki-kutak.hr/ulica-bozidara-adzije-spomenik-palim-borcima-1941-1945/",
+    "slika": "slike/spomenici/zagreb-tresnjevka.webp",
+    "slikaOdnos": 0.752,
+    "slikaAutor": "Google Maps",
     "naziv": "Spomenik palim borcima NOB Trešnjevke",
     "year": "1953",
     "type": "lokalni",
@@ -19155,6 +19217,9 @@
     },
     "googleCid": "6571568065507893879",
     "title": "Semič",
+    "slika": "slike/spomenici/semic.webp",
+    "slikaOdnos": 0.749,
+    "slikaAutor": "Google Maps",
     "naziv": "Spomenik NOB – Planina pri Mirni gori",
     "type": "lokalni",
     "drzava": "Slovenia"
@@ -19239,6 +19304,9 @@
     },
     "googleCid": "371257807744575561",
     "title": "Koper",
+    "slika": "slike/spomenici/koper.webp",
+    "slikaOdnos": 1.778,
+    "slikaAutor": "Google Maps",
     "naziv": "Spomenik narodnim herojem NOB",
     "posveta": [
       "Q1020106",
@@ -19919,6 +19987,9 @@
     },
     "googleCid": "11832004973192764877",
     "title": "Teslić",
+    "slika": "slike/spomenici/teslic.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "Google Maps",
     "naziv": "Spomenik NOB-a",
     "type": "lokalni",
     "drzava": "Bosnia and Herzegovina"
@@ -19991,6 +20062,9 @@
     },
     "googleCid": "6306991236851516456",
     "title": "Željezno Polje",
+    "slika": "slike/spomenici/zeljezno-polje.webp",
+    "slikaOdnos": 0.563,
+    "slikaAutor": "Google Maps",
     "naziv": "Spomenik NOB-a",
     "type": "lokalni",
     "drzava": "Bosnia and Herzegovina"
@@ -20003,6 +20077,9 @@
     },
     "googleCid": "5912837356084461545",
     "title": "Venčane",
+    "slika": "slike/spomenici/vencane.webp",
+    "slikaOdnos": 0.473,
+    "slikaAutor": "Google Maps",
     "naziv": "Spomenik NOB „Žuti oglavak”",
     "type": "lokalni",
     "drzava": "Serbia"
@@ -21520,6 +21597,9 @@
     },
     "googleCid": "13300661267347891248",
     "title": "Lokve",
+    "slika": "slike/spomenici/lokve.webp",
+    "slikaOdnos": 0.749,
+    "slikaAutor": "Google Maps",
     "naziv": "Spomenik NOB",
     "type": "spomenik",
     "drzava": "Croatia"
@@ -22172,6 +22252,9 @@
     },
     "googleCid": "7182045806648861131",
     "title": "Velika Bršljanica",
+    "slika": "slike/spomenici/velika-brsljanica.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "Google Maps",
     "naziv": "Spomenik Narodnooslobodilačkoj borbi (NOB)",
     "type": "lokalni",
     "drzava": "Croatia"
@@ -22583,6 +22666,9 @@
     },
     "googleCid": "17631128873494723153",
     "title": "Selce",
+    "slika": "slike/spomenici/selce-2.webp",
+    "slikaOdnos": 1.498,
+    "slikaAutor": "Google Maps",
     "naziv": "Spomenik Narodnooslobodilačkoj borbi (NOB)",
     "type": "ploca",
     "drzava": "Croatia"
@@ -22733,6 +22819,9 @@
     },
     "googleCid": "9653935679444018848",
     "title": "Dubrava kod Šibenika",
+    "slika": "slike/spomenici/dubrava-kod-sibenika.webp",
+    "slikaOdnos": 2.139,
+    "slikaAutor": "Google Maps",
     "naziv": "Spomenik Narodnooslobodilačkoj borbi (NOB)",
     "type": "lokalni",
     "drzava": "Croatia"
@@ -22802,6 +22891,9 @@
     },
     "googleCid": "10452354889077316368",
     "title": "Lavci",
+    "slika": "slike/spomenici/lavci.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "Google Maps",
     "naziv": "Споменик од НОБ „Дерков Кладенец”",
     "type": "lokalni",
     "drzava": "Macedonia"
@@ -22985,6 +23077,9 @@
     },
     "googleCid": "11706559803888277479",
     "title": "Radevići",
+    "slika": "slike/spomenici/radevici.webp",
+    "slikaOdnos": 0.75,
+    "slikaAutor": "Google Maps",
     "naziv": "Spomenik partizanima",
     "type": "lokalni",
     "drzava": "Montenegro"
@@ -23027,6 +23122,9 @@
     },
     "googleCid": "15490201629431624669",
     "title": "Ložišća",
+    "slika": "slike/spomenici/lozisca.webp",
+    "slikaOdnos": 0.563,
+    "slikaAutor": "Google Maps",
     "naziv": "Spomenik palim borcima u antifašističkom ratu",
     "type": "lokalni",
     "drzava": "Croatia"
@@ -23264,6 +23362,9 @@
     },
     "googleCid": "14357291275055913336",
     "title": "Ponijeri",
+    "slika": "slike/spomenici/ponijeri.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "Google Maps",
     "naziv": "Spomen-obilježje palim borcima narodnooslobodilačkog rata",
     "year": "1984",
     "type": "lokalni",
@@ -23551,6 +23652,9 @@
     },
     "googleCid": "8955464559789954580",
     "title": "Banoštor",
+    "slika": "slike/spomenici/banostor.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "Google Maps",
     "naziv": "Spomenik borcima narodnooslobodilačke borbe",
     "type": "lokalni",
     "drzava": "Serbia"
@@ -23924,6 +24028,9 @@
     },
     "googleCid": "16097619201011340112",
     "title": "Opatija",
+    "slika": "slike/spomenici/opatija.webp",
+    "slikaOdnos": 0.561,
+    "slikaAutor": "Google Maps",
     "naziv": "Spomenik žrtvama talijanskog fašizma i nacizma",
     "type": "lokalni",
     "drzava": "Croatia"
@@ -24776,6 +24883,9 @@
     },
     "googleCid": "6676856995884331382",
     "title": "Brežice",
+    "slika": "slike/spomenici/brezice.webp",
+    "slikaOdnos": 0.563,
+    "slikaAutor": "Google Maps",
     "naziv": "Spomenik Punt in revolucija",
     "type": "lokalni",
     "drzava": "Slovenia"
@@ -25573,6 +25683,9 @@
     },
     "googleCid": "9154884603018998102",
     "title": "Loka pri Mengšu",
+    "slika": "slike/spomenici/loka-pri-mengsu.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "Google Maps",
     "naziv": "Spomenik padlim borcem in žrtvam fašističnega nasilja",
     "type": "spomenik",
     "drzava": "Slovenia"
@@ -26036,6 +26149,9 @@
     },
     "googleCid": "13218559497438072145",
     "title": "Nanos",
+    "slika": "slike/spomenici/nanos.webp",
+    "slikaOdnos": 0.8,
+    "slikaAutor": "Google Maps",
     "naziv": "Spomenik padlim borcem na Nanosu",
     "type": "lokalni",
     "drzava": "Slovenia"
@@ -27548,6 +27664,9 @@
     "googleCid": "11832307611402063974",
     "title": "Tjentište",
     "info": "https://www.openstreetmap.org/node/1786227785",
+    "slika": "slike/spomenici/tjentiste-spomenik-2-dalmatinskoj-brigadi.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "Google Maps",
     "naziv": "Spomenik 2. dalmatinskoj brigadi",
     "name": "Monument to a Partisan Brigade",
     "posveta": [
@@ -27754,6 +27873,9 @@
     "googleCid": "3212644313451034411",
     "title": "Tjentište",
     "info": "https://www.openstreetmap.org/node/12073222861",
+    "slika": "slike/spomenici/tjentiste-spomenik-prvoj-dalmatinskoj-brigadi.webp",
+    "slikaOdnos": 0.749,
+    "slikaAutor": "Google Maps",
     "naziv": "Spomenik Prvoj dalmatinskoj brigadi",
     "name": "Monument to a Partisan Brigade",
     "posveta": [
@@ -28261,6 +28383,9 @@
     },
     "googleCid": "18102345574759142323",
     "title": "Beograd",
+    "slika": "slike/spomenici/beograd-spomenik-crvenoarmejcima.webp",
+    "slikaOdnos": 1.762,
+    "slikaAutor": "Google Maps",
     "naziv": "Spomenik crvenoarmejcima",
     "name": "Monument to Red Army Soldiers",
     "type": "spomenik",
@@ -28308,6 +28433,9 @@
     },
     "googleCid": "13083216313154081948",
     "title": "Crepaja",
+    "slika": "slike/spomenici/crepaja-spomenik-streljanim-crepajcima.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "Google Maps",
     "naziv": "Spomenik streljanim Crepajcima",
     "type": "lokalni",
     "drzava": "Serbia"
@@ -28332,6 +28460,9 @@
     },
     "googleCid": "6122653187072515761",
     "title": "Svilajnac",
+    "slika": "slike/spomenici/svilajnac-spomenik-streljanim-borcima.webp",
+    "slikaOdnos": 1.778,
+    "slikaAutor": "Google Maps",
     "naziv": "Spomenik streljanim borcima",
     "type": "lokalni",
     "drzava": "Serbia"
@@ -28344,6 +28475,9 @@
     },
     "googleCid": "5744730745648241898",
     "title": "Sremski Karlovci",
+    "slika": "slike/spomenici/sremski-karlovci-spomenik-streljanim-karlovcanima.webp",
+    "slikaOdnos": 2.222,
+    "slikaAutor": "Google Maps",
     "naziv": "Spomenik streljanim Karlovčanima",
     "type": "lokalni",
     "drzava": "Serbia"
@@ -28356,6 +28490,9 @@
     },
     "googleCid": "3305871890906189657",
     "title": "Šabac",
+    "slika": "slike/spomenici/sabac-spomenik-streljanim-partizanima.webp",
+    "slikaOdnos": 0.749,
+    "slikaAutor": "Google Maps",
     "naziv": "Spomenik streljanim partizanima",
     "type": "lokalni",
     "drzava": "Serbia"
@@ -28368,6 +28505,9 @@
     },
     "googleCid": "1110594799025313892",
     "title": "Babino Polje",
+    "slika": "slike/spomenici/babino-polje-spomenik-partizanima.webp",
+    "slikaOdnos": 0.749,
+    "slikaAutor": "Google Maps",
     "naziv": "Spomenik partizanima",
     "type": "lokalni",
     "drzava": "Croatia"
@@ -28395,6 +28535,9 @@
     },
     "googleCid": "4150168118361674494",
     "title": "Gakići",
+    "slika": "slike/spomenici/gakici-partizanski-spomenik.webp",
+    "slikaOdnos": 1.778,
+    "slikaAutor": "Google Maps",
     "naziv": "Partizanski spomenik",
     "type": "lokalni",
     "drzava": "Bosnia and Herzegovina"
@@ -28420,6 +28563,9 @@
     },
     "googleCid": "9609573909859039982",
     "title": "Bijela",
+    "slika": "slike/spomenici/bijela-partizanski-spomenik.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "Google Maps",
     "naziv": "Partizanski spomenik",
     "type": "lokalni",
     "drzava": "Croatia"
@@ -28447,6 +28593,9 @@
     },
     "googleCid": "12798198819651671806",
     "title": "Zagreb",
+    "slika": "slike/spomenici/zagreb-spomenik-13-proleterskoj-brigadi.webp",
+    "slikaOdnos": 1.026,
+    "slikaAutor": "Google Maps",
     "naziv": "Spomenik 13. proleterskoj brigadi",
     "posveta": [
       "Q402503"
@@ -28462,6 +28611,9 @@
     },
     "googleCid": "16359028104540156247",
     "title": "Ilirska Bistrica",
+    "slika": "slike/spomenici/ilirska-bistrica-spomenik-tretji-prekomorski-briga.webp",
+    "slikaOdnos": 0.818,
+    "slikaAutor": "Google Maps",
     "naziv": "Spomenik tretji prekomorski brigadi",
     "posveta": [
       "Q12782945"
@@ -28492,6 +28644,9 @@
     },
     "googleCid": "5430056385340633449",
     "title": "Popov Most",
+    "slika": "slike/spomenici/popov-most-spomenik-iv-proleterskoj-brigadi.webp",
+    "slikaOdnos": 0.749,
+    "slikaAutor": "Google Maps",
     "naziv": "Spomenik IV proleterskoj brigadi",
     "posveta": [
       "Q12761191"
@@ -28522,6 +28677,9 @@
     },
     "googleCid": "5839463198998040141",
     "title": "Brijeg",
+    "slika": "slike/spomenici/brijeg-spomenik-iii-sandzackoj-brigadi.webp",
+    "slikaOdnos": 0.749,
+    "slikaAutor": "Google Maps",
     "naziv": "Spomenik III sandžačkoj brigadi",
     "posveta": [
       "Q12760203"
@@ -28537,6 +28695,9 @@
     },
     "googleCid": "1547966602562177623",
     "title": "Goražde",
+    "slika": "slike/spomenici/gorazde-spomenik-xvi-muslimanskoj-brigadi.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "Google Maps",
     "naziv": "Spomenik XVI muslimanskoj brigadi",
     "posveta": [
       "Q12782563"
@@ -28568,6 +28729,9 @@
     },
     "googleCid": "6410033928923239449",
     "title": "Pančevo",
+    "slika": "slike/spomenici/pancevo-spomenik-crvenoarmejcima-na-trgu-margelova.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "Google Maps",
     "naziv": "Spomenik crvenoarmejcima na Trgu Margelova",
     "type": "lokalni",
     "drzava": "Serbia"
@@ -28580,6 +28744,9 @@
     },
     "googleCid": "12175826104498725297",
     "title": "Pančevo (Kotež)",
+    "slika": "slike/spomenici/pancevo-kotez-spomenik-crvenoarmejcima.webp",
+    "slikaOdnos": 1.333,
+    "slikaAutor": "Google Maps",
     "naziv": "Spomenik crvenoarmejcima na Kotežu",
     "type": "lokalni",
     "drzava": "Serbia"
@@ -28592,6 +28759,9 @@
     },
     "googleCid": "14936276091919215783",
     "title": "Starčevo",
+    "slika": "slike/spomenici/starcevo-spomenik-crvenoarmejcima.webp",
+    "slikaOdnos": 2.0,
+    "slikaAutor": "Google Maps",
     "naziv": "Spomenik crvenoarmejcima u Starčevu",
     "type": "lokalni",
     "drzava": "Serbia"
@@ -28604,6 +28774,9 @@
     },
     "googleCid": "5965155231808079001",
     "title": "Niš",
+    "slika": "slike/spomenici/nis-spomenik-poginulim-crvenoarmejcima.webp",
+    "slikaOdnos": 0.749,
+    "slikaAutor": "Google Maps",
     "naziv": "Spomenik poginulim crvenoarmejcima",
     "type": "lokalni",
     "drzava": "Serbia"
@@ -28621,6 +28794,9 @@
     "slikaAutor": "Photoshooterka, CC BY-SA 3.0",
     "naziv": "Partizan na večnoj straži",
     "author": "Radeta Stanković",
+    "posveta": [
+      "Q328357"
+    ],
     "type": "statua",
     "drzava": "Serbia"
   },
@@ -30564,6 +30740,9 @@
     },
     "googleCid": "1435404183766699205",
     "title": "Kosmaj",
+    "slika": "slike/spomenici/nemenikuce-spomen-ploca-ustanku.webp",
+    "slikaOdnos": 0.749,
+    "slikaAutor": "Google Maps",
     "naziv": "Spomen-ploča ustanku",
     "posveta": [
       "Q10459578"
@@ -30579,6 +30758,9 @@
     },
     "googleCid": "7419400227247181263",
     "title": "Aleksinac",
+    "slika": "slike/spomenici/aleksinac-spomen-park-nob.webp",
+    "slikaOdnos": 1.325,
+    "slikaAutor": "Google Maps",
     "naziv": "Spomen-park NOB",
     "type": "kompleks",
     "drzava": "Serbia"
@@ -55889,6 +56071,9 @@
     "title": "Tjentište",
     "info": "https://www.openstreetmap.org/node/12073100611",
     "naziv": "Mjesto ranjavanja Tita",
+    "posveta": [
+      "Q1419973"
+    ],
     "type": "lokalni",
     "drzava": "Bosnia and Herzegovina"
   },
@@ -55901,6 +56086,9 @@
     "title": "Tjentište",
     "info": "https://www.openstreetmap.org/node/12073244619",
     "naziv": "Spomenik Kragujevačkom bataljonu",
+    "posveta": [
+      "Q1419973"
+    ],
     "type": "lokalni",
     "drzava": "Bosnia and Herzegovina"
   },
@@ -61964,6 +62152,9 @@
     "slikaOdnos": 0.75,
     "slikaAutor": "Zavičajac, CC BY-SA 4.0",
     "naziv": "Spomenik Igmanskom maršu",
+    "posveta": [
+      "Q3467820"
+    ],
     "type": "lokalni",
     "drzava": "Bosnia and Herzegovina"
   },
@@ -61979,6 +62170,9 @@
     "slikaOdnos": 0.75,
     "slikaAutor": "Zavičajac, CC BY-SA 4.0",
     "naziv": "Spomenik Igmanskom maršu",
+    "posveta": [
+      "Q3467820"
+    ],
     "type": "lokalni",
     "drzava": "Bosnia and Herzegovina"
   },
@@ -61994,6 +62188,9 @@
     "slikaOdnos": 1.333,
     "slikaAutor": "Vanjagenije, CC BY-SA 4.0",
     "naziv": "Spomenik Igmanskom maršu",
+    "posveta": [
+      "Q3467820"
+    ],
     "type": "lokalni",
     "drzava": "Bosnia and Herzegovina"
   },

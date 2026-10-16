@@ -317,6 +317,11 @@ Spomenik je oko 4,18 km od prethodno dodatog obeležja Kosmajskom odredu i Drugo
 
 Provere unosa Drugovca: `slike_odnos.py` — 0 promena; `integritet.py` — samo 17 poznatih bliskih parova. Mobilna kartica vizuelno je pregledana: fotografija i kredit učitani, posveta vodi na traženi članak, 4.463 markera, bez JS izuzetaka. Poređenje sa snimkom pre upisa potvrđuje jedan novi spomenik i jednu novu posvetu, uz očuvane postojeće zapise; `git diff --check` prolazi.
 
+### 2026-10-15 — Google fotografije i posvete iz šablona „Drugi svjetski rat u Jugoslaviji“
+
+- **Google mape:** `alati/google_slike.mjs` je obišao svih 256 spomenika bez slike koji imaju `googleCid`, po jedno mesto na 8 s, bez provere (captcha). Glavnu fotografiju korisnika ima 91 mesto. Posle pregleda u montažama dodato je 56 fotografija (`slikaAutor`: „Google Maps“). Odbačene su fotografije bez vidljivog spomenika (pejzaž, zgrada, crkva, automobil, životinje), kolaži, ljudi u prvom planu, spomenik išaran ustaškim grafitima i jedna fotografija drugog mesta (park u Izoli).
+- **Šablon sh Vikipedije:** pregledano je oko 270 članaka o logorima, pokoljima, bitkama i operacijama, po jedan zahtev na 3 s. Postojećim spomenicima dodate su posvete, po 13 logora i pokolja i 10 bitaka (Kozara, Sutjeska, Neretva, Sremski front, Igmanski marš, Pljevlja, Bolman, Beogradska operacija, Desant na Drvar i Prozor). Kao nov spomenik dodata je spomen-kosturnica u Veljunu (žrtve pokolja u Blagaju; OSM čvor 10829129817, fotografija sa Commons-a). Za ostale događaje nije nađen spomenik sa pouzdanom lokacijom.
+
 ## Izvori koji su već obrađeni
 
 - **sr Wikipedija, „Списак споменика НОБ у Војводини“:** obrađen. Nazivi su uzeti po vajaru i godini.

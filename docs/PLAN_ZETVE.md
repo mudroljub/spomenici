@@ -48,6 +48,7 @@ Ažurirano 2026-10-15. Ovaj dokument je dovoljan za samostalan rad: šta se radi
 | `alati/male_slike.py` | Pravi `slike/male/<id>.webp` (visina 116 px, bez metapodataka) za nove ili izmenjene slike i briše male bez velike. Pokreni posle dodavanja slika. |
 | `alati/commons_dodaj.py <spisak.json> <fajlovi.json>` | Dodaje spomenike ili slike sa Commons-a: preuzima sliku, pravi webp, potpis i naslov iz najbližeg naselja. Spisak: `[{fajl,id,naziv,name,type,drzava,[title]}]` ili `[{fajl,postojeci}]`; `fajlovi.json`: `{fajl: {"k": [lat,lng]}}`. |
 | `$A/osm_dodaj.py <alati> <osm_kand.json> [--upisi]` | Primer filtera za NOB (`JEZGRO`, `NE`, `RUCNO`), naslova „Grad (deo)“ i vrste po imenu. Bez `--upisi` samo ispisuje. |
+| `node alati/google_slike.mjs <izlaz.json>` | Za spomenike bez slike sa `googleCid` pamti adresu glavne fotografije sa Google mapa (jedno mesto na 8 s, staje na captcha). Fotografije se preuzimaju sa `=w800-k-no` i pregledaju u montaži pre upisa. |
 | `alati/upisi_cid.py`, `alati/dodaj_google.py <vrsta> <link> <naziv> …`, `alati/proveri.py` | Rad sa Google linkovima koje šalje korisnik. |
 | `alati/snimi.mjs`, `$A/koraci.mjs` | Headless Chrome za proveru aplikacije (`python -m http.server 8765` u korenu repozitorijuma; `W`/`H` za desktop, `HASH=#<id>` za otvaranje spomenika). |
 | `$A/pregledac_json.mjs <url> <izlaz.json>` | Jedno učitavanje stranice uz čuvanje JSON odgovora koje ona sama povuče (Flickr, spomenikdatabase). |
