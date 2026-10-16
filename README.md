@@ -22,12 +22,6 @@ Provera fotografija za svih 132 tadašnja zapisa bez slike u Srbiji završena je
 
 ## TODO
 
-- analizirati knjige o spomenicima i izvući sve korisne podatke (dodati nove atribute ako treba) ([plan](docs/PLAN_KNJIGE.md)):
- - https://znaci.org/00003/736.php
- - https://znaci.org/00003/667.pdf
- - https://znaci.org/00003/679.pdf
- - https://znaci.org/00003/7xx.php?bk=905
- - https://znaci.org/00003/920.pdf
 - ponovo preći spisak bez lokacije i pokušati pronalaženje nekih (ne tražiti uklonjene naravno)
 - analizirati kako najlakše i kojim alatima napraviti mobilnu aplikaciju za android i iphone, i jel moguće zadržati deljeni kod.
 - proveriti kako izgleda spomenik sa natpisom

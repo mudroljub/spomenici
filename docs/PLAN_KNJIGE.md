@@ -44,12 +44,14 @@ Po odnosu koristi i truda:
 2. **D — Krapina (1966).** Obrađeno 2026-10-16: svih 50 strana, 35 sirovih zapisa u `data/knjige/krapina-1966.json`, godina dopunjena za Marince, 11 novih obeležja u `data/bez_lokacije.json`. Položaji novih nisu potvrđeni; sporna čitanja i izuzeci opisani su u `docs/BELESKE.md`.
 3. **B — Jokić (1986).** Obrađeno 2026-10-16: svih 454 PDF strana, 615 sirovih zapisa/pomena u `data/knjige/jokic-1986.json`; dopunjeno 25 postojećih zapisa (22 autora, 4 godine), dodata 103 obeležja bez potvrđene tačke. Ponavljanja i 84 sporna identiteta označeni su u sirovim zapisima; postupak i provere u `docs/BELESKE.md`.
 4. **E — Šibenik (1980).** Obrađeno 2026-10-16: svih 471 PDF strana, 199 sirovih zapisa u `data/knjige/sibenik-1980.json`; dopunjeno 7 postojećih zapisa (3 autora, 6 godina), dodato 80 obeležja bez potvrđene tačke. Devet nejasnih identiteta ostavljeno je za proveru; postupak, izuzeci i provere u `docs/BELESKE.md`.
-5. **C — Hrženjak.** Poslednja: uglavnom opisuje srušene spomenike, koji putniku ne trebaju; traži preuzimanje 436 slika, a korisni su samo spomenici koji i dalje stoje.
+5. **C — Hrženjak (2002).** Obrađeno 2026-10-16: svih 436 dostupnih skenova, 2.723 sirova zapisa/pomena u `data/knjige/hrzenjak-2002.json` (2.119 redova indeksa, od kojih je 519 spojeno sa opisima); dopunjeno 9 postojećih zapisa (8 autora, jedna godina), dodat jedan spomenik sa Lastova bez potvrđene tačke. Štampana strana 346 nedostaje u mrežnom izvoru; razlika između broja redova i uvodnog zbira 2.120, nejasni prepisi, istorijska stanja i sporni identiteti dokumentovani su u `docs/BELESKE.md` i sirovim zapisima.
 
 ## 5. Otvorene odluke (korisnik)
 
 Nema; odluke su upisane uz pravila (tekst i fotografije sa izvorom, polje `natpis`, stanje iz C).
 
-## 6. Kad je posao gotov
+## 6. Završeno 2026-10-16
 
 Svih pet knjiga je izvučeno u `data/knjige/`, upareni zapisi su upisani ili navedeni kao sporni u beleškama, `integritet.py`, `tsc` i `node --test alati/test.mjs` prolaze, a stavka je skinuta iz `## TODO` u `README.md`.
+
+Obrada dostupnog materijala je završena uz navedena ograničenja izvora; ovo ne znači da je svaki pomen zaseban spomenik ili da je potvrđeno današnje stanje svih obeležja. Lociranje radnog spiska i razrešavanje spornih identiteta ostaju zaseban posao.
