@@ -1,6 +1,6 @@
 # Spomeniks
 
-Yugoslav monuments travel app.
+Yugoslav WWII monuments travel app.
 
 Visit: [mudroljub.github.io/spomeniks](https://mudroljub.github.io/spomeniks/)
 
