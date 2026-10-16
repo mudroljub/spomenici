@@ -37,7 +37,7 @@ Dvosmislen engleski se ne tumači: „Martyrs Monument“ nije ni „palim borci
   - piši „Drugi svetski rat“, odnosno „Drugi svjetski rat“;
   - navodnici su „…“;
   - naziv počinje velikim slovom i nema tačku na kraju;
-  - ime mesta ne ide na kraj naziva, jer je mesto u polju `mesto`. Izuzetak je kad je deo vlastitog imena („Spomen-područje Jasenovac“).
+  - ime mesta ne ide na kraj naziva kad ostatak sam kaže o čemu je reč (osoba, jedinica, ustanova, tema), jer se mesto prikazuje posebno: „Spomenik Podunavskom partizanskom odredu“, ne „… u Inđiji“; „Bista Stojana Ljubića“, ne „… u Leskovcu“. Mesto ostaje kad bi bez njega naziv bio opšti, jer je to uobičajen naziv („Partizansko groblje u Mostaru“, „Spomen-kosturnica u Varaždinu“), kad je deo vlastitog imena („Spomen-područje Jasenovac“) i kad je deo onoga čemu je spomenik posvećen („Spomenik žrtvama prinudnog rada u Borskom rudniku“, bitke, pokolji).
 
 ## Kad se menja mnogo naziva
 

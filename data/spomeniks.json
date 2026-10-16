@@ -6696,7 +6696,7 @@
     "wiki": "https://sr.wikipedia.org/wiki/%D0%9C%D1%83%D0%B7%D0%B5%D1%98_%D0%9F%D1%80%D0%B2%D0%B5_%D0%BF%D1%80%D0%BE%D0%BB%D0%B5%D1%82%D0%B5%D1%80%D1%81%D0%BA%D0%B5_%D0%B1%D1%80%D0%B8%D0%B3%D0%B0%D0%B4%D0%B5_%D1%83_%D0%A0%D1%83%D0%B4%D0%BE%D0%BC",
     "slika": "slike/spomenici/museum-to-1st-prolet-brigade.webp",
     "slikaOdnos": 1.46,
-    "naziv": "Muzej Prve proleterske brigade u Rudom",
+    "naziv": "Muzej Prve proleterske brigade",
     "godina": "1976",
     "posveta": [
       "Q2190675"
@@ -7231,7 +7231,7 @@
     "wiki": "https://sh.wikipedia.org/wiki/Muzej_I_zasjedanja_ZAVNOBiH-a_u_Mrkonji%C4%87_Gradu",
     "slika": "slike/spomenici/mrkonjic-grad.webp",
     "slikaOdnos": 1.455,
-    "naziv": "Muzej I zasjedanja ZAVNOBiH-a u Mrkonjić Gradu",
+    "naziv": "Muzej I zasjedanja ZAVNOBiH-a",
     "nazivEn": "Mem. House to 1st Session of <a href=\"https://en.wikipedia.org/wiki/State_Anti-fascist_Council_for_the_National_Liberation_of_Bosnia_and_Herzegovina\" target=\"_blank\">ZAVNOBiH</a>",
     "godina": "1973",
     "autor": "Zdravko Karačić",
@@ -9678,7 +9678,7 @@
     "wiki": "https://sr.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%9F%D0%BE%D0%B4%D1%83%D0%BD%D0%B0%D0%B2%D1%81%D0%BA%D0%BE%D0%BC_%D0%BF%D0%B0%D1%80%D1%82%D0%B8%D0%B7%D0%B0%D0%BD%D1%81%D0%BA%D0%BE%D0%BC_%D0%BE%D0%B4%D1%80%D0%B5%D0%B4%D1%83_%D1%83_%D0%98%D0%BD%D1%92%D0%B8%D1%98%D0%B8",
     "slika": "slike/spomenici/indjija.webp",
     "slikaOdnos": 1.351,
-    "naziv": "Spomenik Podunavskom partizanskom odredu u Inđiji",
+    "naziv": "Spomenik Podunavskom partizanskom odredu",
     "nazivEn": "Monument to the Danube Partisan Detach.",
     "godina": "1975",
     "vrsta": "statua",
@@ -28356,7 +28356,7 @@
     "slika": "slike/spomenici/beograd-spomen-bista-nadi-puric-u-beogradu.webp",
     "slikaOdnos": 0.75,
     "slikaPotpis": "Pinki, Public domain",
-    "naziv": "Spomen-bista Nadi Purić u Beogradu",
+    "naziv": "Spomen-bista Nadi Purić",
     "nazivEn": "Bust of Nada Purić",
     "posveta": [
       "Q12755952"
@@ -38854,7 +38854,7 @@
     },
     "mesto": "Kolovec",
     "izvor": "https://eid.gov.si/S/15886",
-    "naziv": "Spomenik bolnišnici Triglav na Kolovcu",
+    "naziv": "Spomenik bolnišnici Triglav",
     "vrsta": "lokalni",
     "drzava": "Slovenia"
   },

@@ -42,6 +42,7 @@ Standard zapisa (polja, nazivi, vrste, obuhvat) je u `references/standard.md`. N
   - Q-id članka daje `prop=pageprops` (`wikibase_item`);
   - nazive i linkove daje `wbgetentities` sa `props=labels|sitelinks/urls`, po 50 id-ova;
   - `P31 = Q5` znači da je članak o osobi.
+- **Prolaz kroz `data/bez_lokacije.json`:** obavezno po verovatnoći uspeha, ne redom. Prednost imaju konkretni objekti (muzej, škola, dom), savremene adrese i precizne tačke; uklonjeni spomenici se preskaču. Hrvatski kandidati pre dodavanja prolaze [proveru opstanka](../../../docs/PLAN_KNJIGE.md#7-provera-opstanka-hrvatskih-spomenika--prioritet-pre-novih-unosa).
 - **Lokacija bez Google id-a**, redom:
   1. GPS fotografije na Commons-u;
   2. jedan Overpass upit `nwr(around:2000,lat,lon)[historic~"memorial|monument"]` oko sela iz `alati/naselja_osm.json`;
