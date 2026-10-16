@@ -67633,5 +67633,683 @@
     "autor": "Milica Ribnikar-Bogunović & Uglješa Bogunović",
     "vrsta": "spomenik",
     "drzava": "Serbia"
+  },
+  {
+    "id": "sentanel-spomenik-nob",
+    "koordinate": {
+      "lat": 46.5727166,
+      "lng": 14.8754416
+    },
+    "mesto": "Šentanel",
+    "izvor": "https://partizanstvo.si/sl/podrobno/partizanskispomenik/1596/",
+    "naziv": "Spomenik NOB",
+    "autor": "Andrej Grošelj",
+    "vrsta": "spomenik",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "andraz-nad-polzelo-lovce-spomenik-prvi-bitki-v",
+    "koordinate": {
+      "lat": 46.3432156,
+      "lng": 15.0659892
+    },
+    "mesto": "Andraž nad Polzelo (Lovče)",
+    "izvor": "https://partizanstvo.si/sl/podrobno/partizanskispomenik/1816/",
+    "naziv": "Spomenik prvi bitki v Andražu",
+    "vrsta": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "velike-vodenice-spomenik-antonu-kambicu-dusanu-in",
+    "koordinate": {
+      "lat": 45.8261121,
+      "lng": 15.3833847
+    },
+    "mesto": "Velike Vodenice",
+    "izvor": "https://partizanstvo.si/sl/podrobno/partizanskispomenik/2155/",
+    "naziv": "Spomenik Antonu Kambiču Dušanu in soborcem",
+    "vrsta": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "nova-stifta-grobisce-padlih-borcev-in-talcev",
+    "koordinate": {
+      "lat": 46.2704445,
+      "lng": 14.7437658
+    },
+    "mesto": "Nova Štifta",
+    "izvor": "https://partizanstvo.si/sl/podrobno/partizanskispomenik/2714/",
+    "naziv": "Grobišče padlih borcev in talcev",
+    "godina": "1975",
+    "vrsta": "groblje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "gaberke-spomenik-padlim-borcem-nob-in-zrtvam",
+    "koordinate": {
+      "lat": 46.399456,
+      "lng": 15.079659
+    },
+    "mesto": "Gaberke",
+    "izvor": "https://partizanstvo.si/sl/podrobno/partizanskispomenik/3994/",
+    "naziv": "Spomenik padlim borcem NOB in žrtvam fašističnega nasilja",
+    "godina": "1990",
+    "vrsta": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "radlek-spomenik-dvanajstim-talcem",
+    "koordinate": {
+      "lat": 45.7815591,
+      "lng": 14.4479207
+    },
+    "mesto": "Radlek",
+    "izvor": "https://partizanstvo.si/sl/podrobno/partizanskispomenik/4627/",
+    "naziv": "Spomenik dvanajstim talcem",
+    "autor": "Anton Skuk",
+    "vrsta": "spomenik",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "smolenja-vas-grobisce-padlih-borcev-in-zrtev-nob",
+    "koordinate": {
+      "lat": 45.8166294,
+      "lng": 15.2025389
+    },
+    "mesto": "Smolenja vas",
+    "izvor": "https://partizanstvo.si/sl/podrobno/partizanskispomenik/5094/",
+    "naziv": "Grobišče padlih borcev in žrtev NOB",
+    "godina": "1959",
+    "autor": "J. Zamljen",
+    "vrsta": "groblje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "ravne-pri-mlinsah-smucidol-grobisce-borcev",
+    "koordinate": {
+      "lat": 46.1384608,
+      "lng": 14.9027644
+    },
+    "mesto": "Ravne pri Mlinšah (Smučidol)",
+    "izvor": "https://partizanstvo.si/sl/podrobno/partizanskispomenik/5865/",
+    "naziv": "Grobišče borcev Tomšičeve brigade",
+    "vrsta": "groblje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "lendava-spomenik-padlim-borcem-rdece-armade",
+    "koordinate": {
+      "lat": 46.564505,
+      "lng": 16.4547248
+    },
+    "mesto": "Lendava",
+    "izvor": "https://partizanstvo.si/sl/podrobno/partizanskispomenik/5873/",
+    "naziv": "Spomenik padlim borcem Rdeče armade",
+    "vrsta": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "murska-sobota-spomenik-padlim-v-nov-in-zrtvam",
+    "koordinate": {
+      "lat": 46.6560151,
+      "lng": 16.1714279
+    },
+    "mesto": "Murska Sobota",
+    "izvor": "https://partizanstvo.si/sl/podrobno/partizanskispomenik/906/",
+    "naziv": "Spomenik padlim v NOV in žrtvam fašizma",
+    "godina": "1954",
+    "vrsta": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "crnotice-spomenik-padlim-borcem-in-zrtvam-nob",
+    "koordinate": {
+      "lat": 45.5535675,
+      "lng": 13.8961208
+    },
+    "mesto": "Črnotiče",
+    "izvor": "https://partizanstvo.si/sl/podrobno/partizanskispomenik/1357/",
+    "naziv": "Spomenik padlim borcem in žrtvam NOB",
+    "godina": "1982",
+    "vrsta": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "hrastovlje-spomenik-padlim-borcem-in-zrtvam",
+    "koordinate": {
+      "lat": 45.5015079,
+      "lng": 13.9004508
+    },
+    "mesto": "Hrastovlje",
+    "izvor": "https://partizanstvo.si/sl/podrobno/partizanskispomenik/1373/",
+    "naziv": "Spomenik padlim borcem in žrtvam fašizma",
+    "godina": "1990",
+    "vrsta": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "gornji-zemon-spomenik-padlim-v-nob-in-zrtvam",
+    "koordinate": {
+      "lat": 45.5343457,
+      "lng": 14.2814773
+    },
+    "mesto": "Gornji Zemon",
+    "izvor": "https://partizanstvo.si/sl/podrobno/partizanskispomenik/1974/",
+    "naziv": "Spomenik padlim v NOB in žrtvam vojnega nasilja",
+    "vrsta": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "sodrazica-grobisce-padlih-borcev-nov",
+    "koordinate": {
+      "lat": 45.7598809,
+      "lng": 14.6370748
+    },
+    "mesto": "Sodražica",
+    "izvor": "https://partizanstvo.si/sl/podrobno/partizanskispomenik/2000/",
+    "naziv": "Grobišče padlih borcev NOV",
+    "vrsta": "groblje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "ribnica-hrovaca-grobisce-padlih-borcev-nov",
+    "koordinate": {
+      "lat": 45.7357031,
+      "lng": 14.7365688
+    },
+    "mesto": "Ribnica (Hrovača)",
+    "izvor": "https://partizanstvo.si/sl/podrobno/partizanskispomenik/2412/",
+    "naziv": "Grobišče padlih borcev NOV",
+    "vrsta": "groblje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "mala-bukovica-spominska-plosca-padlim-borcem-in",
+    "koordinate": {
+      "lat": 45.5399683,
+      "lng": 14.2436981
+    },
+    "mesto": "Mala Bukovica",
+    "izvor": "https://partizanstvo.si/sl/podrobno/partizanskispomenik/2763/",
+    "naziv": "Spominska plošča padlim borcem in žrtvam fašističnega nasilja",
+    "vrsta": "ploca",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "veliki-cirnik-grob-borcev-xii-snoub",
+    "koordinate": {
+      "lat": 45.9923265,
+      "lng": 15.1363092
+    },
+    "mesto": "Veliki Cirnik",
+    "izvor": "https://partizanstvo.si/sl/podrobno/partizanskispomenik/2846/",
+    "naziv": "Grob borcev XII. SNOUB",
+    "vrsta": "groblje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "visoko-kurescek-grobisce-padlih-borcev-in-talcev",
+    "koordinate": {
+      "lat": 45.8844837,
+      "lng": 14.5602182
+    },
+    "mesto": "Visoko (Kurešček)",
+    "izvor": "https://partizanstvo.si/sl/podrobno/partizanskispomenik/3025/",
+    "naziv": "Grobišče padlih borcev in talcev",
+    "vrsta": "groblje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "zapotok-spomenik-talcem",
+    "koordinate": {
+      "lat": 45.8808929,
+      "lng": 14.5672556
+    },
+    "mesto": "Zapotok",
+    "izvor": "https://partizanstvo.si/sl/podrobno/partizanskispomenik/4646/",
+    "naziv": "Spomenik talcem",
+    "vrsta": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "vareje-spomenik-padlim-borcem-in-zrtvam",
+    "koordinate": {
+      "lat": 45.6277051,
+      "lng": 14.0318103
+    },
+    "mesto": "Vareje",
+    "izvor": "https://partizanstvo.si/sl/podrobno/partizanskispomenik/485/",
+    "naziv": "Spomenik padlim borcem in žrtvam fašističnega terorja",
+    "vrsta": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "markovci-grobisce-padlih-borcev",
+    "koordinate": {
+      "lat": 46.394708,
+      "lng": 15.933912
+    },
+    "mesto": "Markovci",
+    "izvor": "https://partizanstvo.si/sl/podrobno/partizanskispomenik/5451/",
+    "naziv": "Grobišče padlih borcev",
+    "godina": "1948",
+    "autor": "Gaiser",
+    "vrsta": "groblje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "radomerje-spominska-plosca-padlim-borcem-in-zrtvam",
+    "koordinate": {
+      "lat": 46.5026542,
+      "lng": 16.1852684
+    },
+    "mesto": "Radomerje",
+    "izvor": "https://partizanstvo.si/sl/podrobno/partizanskispomenik/5550/",
+    "naziv": "Spominska plošča padlim borcem in žrtvam fašizma",
+    "godina": "1955",
+    "vrsta": "ploca",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "bezovje-pri-sentjurju-spomenik-padlim-borcem",
+    "koordinate": {
+      "lat": 46.2170018,
+      "lng": 15.4103031
+    },
+    "mesto": "Bezovje pri Šentjurju",
+    "izvor": "https://partizanstvo.si/sl/podrobno/partizanskispomenik/6009/",
+    "naziv": "Spomenik padlim borcem",
+    "vrsta": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "brezno-spomenik-padlim-borcem-nob",
+    "koordinate": {
+      "lat": 46.5959257,
+      "lng": 15.3176075
+    },
+    "mesto": "Brezno",
+    "izvor": "https://partizanstvo.si/sl/podrobno/partizanskispomenik/6643/",
+    "naziv": "Spomenik padlim borcem NOB",
+    "vrsta": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "rogla-jurgovo-grobisce-dvanajstih-borcev-nov",
+    "koordinate": {
+      "lat": 46.4477296,
+      "lng": 15.3630843
+    },
+    "mesto": "Rogla (Jurgovo)",
+    "izvor": "https://partizanstvo.si/sl/podrobno/partizanskispomenik/7564/",
+    "naziv": "Grobišče dvanajstih borcev NOV",
+    "vrsta": "groblje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "cven-spominska-plosca-padlim-borcem-in-zrtvam",
+    "koordinate": {
+      "lat": 46.5495657,
+      "lng": 16.2115245
+    },
+    "mesto": "Cven",
+    "izvor": "https://partizanstvo.si/sl/podrobno/partizanskispomenik/8722/",
+    "naziv": "Spominska plošča padlim borcem in žrtvam fašističnega nasilja",
+    "vrsta": "ploca",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "vrhe-spomenik-padlim-borcem-na-vrhah",
+    "koordinate": {
+      "lat": 46.5255565,
+      "lng": 15.0266266
+    },
+    "mesto": "Vrhe",
+    "izvor": "https://partizanstvo.si/sl/podrobno/partizanskispomenik/2183/",
+    "naziv": "Spomenik padlim borcem na Vrhah",
+    "godina": "1982",
+    "autor": "Ferdo Fischer-Mojka",
+    "vrsta": "spomenik",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "selo-pri-mirni-spomenik-stirim-talcem",
+    "koordinate": {
+      "lat": 45.9707317,
+      "lng": 15.0285102
+    },
+    "mesto": "Selo pri Mirni",
+    "izvor": "https://partizanstvo.si/sl/podrobno/partizanskispomenik/2870/",
+    "naziv": "Spomenik štirim talcem",
+    "godina": "1980",
+    "vrsta": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "brezova-reber-grobisce-padlih-borcev",
+    "koordinate": {
+      "lat": 45.6909039,
+      "lng": 15.2143341
+    },
+    "mesto": "Brezova Reber",
+    "izvor": "https://partizanstvo.si/sl/podrobno/partizanskispomenik/3328/",
+    "naziv": "Grobišče padlih borcev",
+    "godina": "1967",
+    "vrsta": "groblje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "letenice-kamnjek-spomenik-trinajstim-borcem",
+    "koordinate": {
+      "lat": 46.3091652,
+      "lng": 14.3238741
+    },
+    "mesto": "Letenice (Kamnjek)",
+    "izvor": "https://partizanstvo.si/sl/podrobno/partizanskispomenik/338/",
+    "naziv": "Spomenik trinajstim borcem Kokrškega odreda",
+    "godina": "1984",
+    "autor": "Vojteh Ravnikar",
+    "vrsta": "spomenik",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "gabrovica-spomenik-padlim-borcem-nov-in-poj",
+    "koordinate": {
+      "lat": 45.836211,
+      "lng": 15.613336
+    },
+    "mesto": "Gabrovica",
+    "izvor": "https://partizanstvo.si/sl/podrobno/partizanskispomenik/3430/",
+    "naziv": "Spomenik padlim borcem NOV in POJ",
+    "vrsta": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "smihel-nad-mozirjem-grobisce-stirih-neznanih",
+    "koordinate": {
+      "lat": 46.3718796,
+      "lng": 14.9262691
+    },
+    "mesto": "Šmihel nad Mozirjem",
+    "izvor": "https://partizanstvo.si/sl/podrobno/partizanskispomenik/3556/",
+    "naziv": "Grobišče štirih neznanih borcev IV. operativne cone",
+    "autor": "Dušan Samec",
+    "vrsta": "groblje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "krizna-gora-spomenik-padlim-borcem-in-pozgani-vasi",
+    "koordinate": {
+      "lat": 46.2006674,
+      "lng": 14.2748229
+    },
+    "mesto": "Križna Gora",
+    "izvor": "https://partizanstvo.si/sl/podrobno/partizanskispomenik/382/",
+    "naziv": "Spomenik padlim borcem in požgani vasi",
+    "godina": "1966",
+    "vrsta": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "srednja-bela-spominska-plosca-padlim-borcem",
+    "koordinate": {
+      "lat": 46.2934713,
+      "lng": 14.3960895
+    },
+    "mesto": "Srednja Bela",
+    "izvor": "https://partizanstvo.si/sl/podrobno/partizanskispomenik/386/",
+    "naziv": "Spominska plošča padlim borcem",
+    "godina": "1956",
+    "vrsta": "ploca",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "dolsko-spominska-plosca-padlim-borcem-v-nov",
+    "koordinate": {
+      "lat": 46.0936847,
+      "lng": 14.6778821
+    },
+    "mesto": "Dolsko",
+    "izvor": "https://partizanstvo.si/sl/podrobno/partizanskispomenik/3919/",
+    "naziv": "Spominska plošča padlim borcem v NOV",
+    "godina": "1960",
+    "vrsta": "ploca",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "reka-pri-cerknem-spomenik-nob",
+    "koordinate": {
+      "lat": 46.1143842,
+      "lng": 13.9249691
+    },
+    "mesto": "Reka pri Cerknem",
+    "izvor": "https://partizanstvo.si/sl/podrobno/partizanskispomenik/4778/",
+    "naziv": "Spomenik NOB",
+    "godina": "1984",
+    "vrsta": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "crnice-grobnica-padlih-borcev-in-zrtev-nob",
+    "koordinate": {
+      "lat": 45.9048181,
+      "lng": 13.7769917
+    },
+    "mesto": "Črniče",
+    "izvor": "https://partizanstvo.si/sl/podrobno/partizanskispomenik/5967/",
+    "naziv": "Grobnica padlih borcev in žrtev NOB",
+    "godina": "1964",
+    "vrsta": "groblje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "ajdovscina-grobnica-triintridesetih-borcev-nov",
+    "koordinate": {
+      "lat": 45.8876493,
+      "lng": 13.8962585
+    },
+    "mesto": "Ajdovščina",
+    "izvor": "https://partizanstvo.si/sl/podrobno/partizanskispomenik/6158/",
+    "naziv": "Grobnica triintridesetih borcev NOV",
+    "godina": "1959",
+    "autor": "Teodor Lojk",
+    "vrsta": "groblje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "ravne-pri-ajdovscini-slejki-spomenik-padlim-borcem",
+    "koordinate": {
+      "lat": 45.913464,
+      "lng": 13.796451
+    },
+    "mesto": "Ravne pri Ajdovščini (Slejki)",
+    "izvor": "https://partizanstvo.si/sl/podrobno/partizanskispomenik/6181/",
+    "naziv": "Spomenik padlim borcem XXX. divizije",
+    "godina": "1982",
+    "vrsta": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "vipolze-spominska-plosca-padlim-v-nob",
+    "koordinate": {
+      "lat": 45.972747,
+      "lng": 13.5373139
+    },
+    "mesto": "Vipolže",
+    "izvor": "https://partizanstvo.si/sl/podrobno/partizanskispomenik/825/",
+    "naziv": "Spominska plošča padlim v NOB",
+    "vrsta": "ploca",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "brezovica-pri-ljubljani-grobisce-padlih-borcev-in",
+    "koordinate": {
+      "lat": 46.0239805,
+      "lng": 14.4072467
+    },
+    "mesto": "Brezovica pri Ljubljani",
+    "izvor": "https://partizanstvo.si/sl/podrobno/partizanskispomenik/1140/",
+    "naziv": "Grobišče padlih borcev in žrtev fašističnega nasilja",
+    "godina": "1950",
+    "vrsta": "groblje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "mohorje-spominska-plosca-padlim-borcem-in-zrtvam",
+    "koordinate": {
+      "lat": 45.82367,
+      "lng": 14.542719
+    },
+    "mesto": "Mohorje",
+    "izvor": "https://partizanstvo.si/sl/podrobno/partizanskispomenik/1228/",
+    "naziv": "Spominska plošča padlim borcem in žrtvam fašističnega nasilja",
+    "vrsta": "ploca",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "zerjav-spominska-plosca-padlim-borcem-in-zrtvam",
+    "koordinate": {
+      "lat": 46.485877,
+      "lng": 14.8719899
+    },
+    "mesto": "Žerjav",
+    "izvor": "https://partizanstvo.si/sl/podrobno/partizanskispomenik/1755/",
+    "naziv": "Spominska plošča padlim borcem in žrtvam fašističnega nasilja",
+    "godina": "1955",
+    "autor": "Jaroslav Černigoj",
+    "vrsta": "ploca",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "pamece-spominska-plosca-padlim-borcem-talcem-in",
+    "koordinate": {
+      "lat": 46.5296899,
+      "lng": 15.0821998
+    },
+    "mesto": "Pameče",
+    "izvor": "https://partizanstvo.si/sl/podrobno/partizanskispomenik/1984/",
+    "naziv": "Spominska plošča padlim borcem, talcem in internirancem",
+    "godina": "1963",
+    "vrsta": "ploca",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "gostece-spominska-plosca-sestim-borcem-nov",
+    "koordinate": {
+      "lat": 46.1530197,
+      "lng": 14.3443376
+    },
+    "mesto": "Gosteče",
+    "izvor": "https://partizanstvo.si/sl/podrobno/partizanskispomenik/2446/",
+    "naziv": "Spominska plošča šestim borcem NOV",
+    "godina": "1959",
+    "vrsta": "ploca",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "zabukovje-spominska-plosca-padlim-borcem-in-zrtvam",
+    "koordinate": {
+      "lat": 46.0539848,
+      "lng": 15.3671994
+    },
+    "mesto": "Zabukovje",
+    "izvor": "https://partizanstvo.si/sl/podrobno/partizanskispomenik/2829/",
+    "naziv": "Spominska plošča padlim borcem in žrtvam",
+    "vrsta": "ploca",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "blanca-spominska-plosca-padlim-borcem-nov-in",
+    "koordinate": {
+      "lat": 45.9924025,
+      "lng": 15.3901159
+    },
+    "mesto": "Blanca",
+    "izvor": "https://partizanstvo.si/sl/podrobno/partizanskispomenik/2840/",
+    "naziv": "Spominska plošča padlim borcem NOV in talcem",
+    "godina": "1982",
+    "autor": "Rudi Stopar",
+    "vrsta": "ploca",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "kranj-grobisce-padlih-borcev-talcev-in-zrtev",
+    "koordinate": {
+      "lat": 46.2351237,
+      "lng": 14.3686701
+    },
+    "mesto": "Kranj",
+    "izvor": "https://partizanstvo.si/sl/podrobno/partizanskispomenik/316/",
+    "naziv": "Grobišče padlih borcev, talcev in žrtev fašizma",
+    "godina": "1965",
+    "autor": "Nande Jocif",
+    "vrsta": "groblje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "ocizla-spomenik-padlim-v-nob-in-zrtvam-fasizma",
+    "koordinate": {
+      "lat": 45.5881087,
+      "lng": 13.9148191
+    },
+    "mesto": "Ocizla",
+    "izvor": "https://partizanstvo.si/sl/podrobno/partizanskispomenik/3386/",
+    "naziv": "Spomenik padlim v NOB in žrtvam fašizma",
+    "vrsta": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "mozirje-grobisce-neznanih-borcev",
+    "koordinate": {
+      "lat": 46.3447505,
+      "lng": 14.9595092
+    },
+    "mesto": "Mozirje",
+    "izvor": "https://partizanstvo.si/sl/podrobno/partizanskispomenik/3534/",
+    "naziv": "Grobišče neznanih borcev",
+    "godina": "1954",
+    "autor": "Jože Horvat - Jaki",
+    "vrsta": "groblje",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "mozirje-spominska-plosca-padlim-veterinarjem-v-nob",
+    "koordinate": {
+      "lat": 46.3410897,
+      "lng": 14.9704928
+    },
+    "mesto": "Mozirje",
+    "izvor": "https://partizanstvo.si/sl/podrobno/partizanskispomenik/3536/",
+    "naziv": "Spominska plošča padlim veterinarjem v NOB",
+    "godina": "1982",
+    "vrsta": "ploca",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "pevno-spomenik-osmim-talcem",
+    "koordinate": {
+      "lat": 46.1826957,
+      "lng": 14.3034686
+    },
+    "mesto": "Pevno",
+    "izvor": "https://partizanstvo.si/sl/podrobno/partizanskispomenik/378/",
+    "naziv": "Spomenik osmim talcem",
+    "godina": "1961",
+    "vrsta": "lokalni",
+    "drzava": "Slovenia"
+  },
+  {
+    "id": "cirkovce-spomenik-padlim-borcem-in-zrtvam-fasizma",
+    "koordinate": {
+      "lat": 46.3945886,
+      "lng": 15.7227201
+    },
+    "mesto": "Cirkovce",
+    "izvor": "https://partizanstvo.si/sl/podrobno/partizanskispomenik/3974/",
+    "naziv": "Spomenik padlim borcem in žrtvam fašizma",
+    "godina": "1964",
+    "autor": "Lojze Knafelc",
+    "vrsta": "lokalni",
+    "drzava": "Slovenia"
   }
 ]
