@@ -1,0 +1,113 @@
+# Izvori
+
+Ažurirano **2026-10-17**, prema sačuvanim izveštajima i lokalnim zapisima; bez nove mrežne provere. Svrha: pre rada proveriti šta je već obrađeno, šta je donelo rezultate i šta još ima smisla pokušati. Redosled rada bira se po verovatnoći uspeha, ne po redosledu izvora u tabelama.
+
+**Kako čitati obrađenost:** „završen prolaz“ važi samo za navedeni skup i vrstu posla, ne za ceo sajt. „Delimično“ znači da je obrađen poznat deo; „samo pronađen“ da podaci nisu obrađeni. Gde evidencija nije dovoljna piše „obim nepoznat“. Preuzimanje knjige nije obrada, a potpuni prepis knjige nije potvrda svih lokacija ili opstanka.
+
+Rezultati pretraga su istorijski, uglavnom od **2026-10-14–15**; ne sabiraju se jer se skupovi preklapaju. Brojevi knjiških zapisa provereni su u lokalnim JSON fajlovima **2026-10-17**. Ranije dodati kandidati mogli su kasnije biti locirani, spojeni ili povučeni; njihove istorijske brojke nisu današnji broj preostalih lokacija.
+
+## Gde su lokalne datoteke
+
+Preuzeti izvori su objedinjeni u **`izvori/`** (ne objavljuje se): `knjige/` sadrži PDF-ove, skenove, OCR i izdvojene tekstove; `cg/` crnogorske registre i kataloge; `spomenicinob/` ranije ulaze popisa BiH; `pretrage/` ostale sačuvane odgovore i fotografije. Pregled putanja je u `izvori/README.md`, a izvorna/nova putanja i kontrolni zbir u `izvori/KONSOLIDACIJA.json`.
+
+Pri pretrazi proveriti te foldere pre novog preuzimanja. Starije temp putanje u arhiviranim izveštajima označavaju tadašnje mesto rada; konsolidacija ih povezuje sa novim. Sirovi prepisi u `data/knjige/` i izveštaji u `data/provere/` ostaju na mestu, jer su obrađeni zapisi i evidencija, a ne duple kopije PDF-ova. Rezervni snimci i skripte nisu brisani.
+
+## Registri i OSM
+
+| Izvor | Obrađenost i obuhvat | Rezultat | Preostalo / kada ponoviti |
+|---|---|---|---|
+| OSM, sačuvani `spomenici_osm.json` | Završen prolaz kroz 858 izdvojenih kandidata | 447 dodatih | Novi OSM podaci ili ciljana provera konkretnog nejasnog objekta; nisu pregledani svi današnji OSM objekti. |
+| OSM, `biste_osm.json` | Završen prolaz kroz izdvojene biste i statue | 63 dodatih posle uparivanja sa herojima | Novi skup ili nov pouzdan identitet. |
+| OSM, `tri_vrste_osm.json` i `brigade_osm.json` | Zabeleženo kao obrađeno; broj kandidata i pojedinačni rezultati nisu sačuvani u ovoj evidenciji | Groblja, bratstvo i jedinstvo, parkovi i brigade | Obim proveriti u sačuvanim ulazima pre nove pretrage; ne tvrditi da je ceo OSM iscrpljen. |
+| Slovenački RNPD, CSV sa podatki.gov.si | Završen prolaz za izbor NOB iz 3.859 jedinica „memorialna dediščina“; 2.686 izdvojenih | 1.781 dodatih pre naknadnog čišćenja; preuzeto svih 697 dostupnih stvarnih fotografija; dopunjena 33 autora | Izostavljena bliska/nejasna dela i autori parkova sa više dela; koristiti konkretan novi dokaz ili novi izvoz. Fotografije su obrađene, uprkos staroj belešci da nisu preuzete. |
+| Srpski registar, data.gov.rs / opendata.geosrbija.rs | Završen pregled tada objavljenih dobara velikog i izuzetnog značaja, oko 500 | NOB objekti iz tog skupa već su bili u bazi | Novi objavljeni obuhvat ili nove stavke; nema osnova za ponavljanje istog skupa. |
+| SANU „Споменици културе у Србији“ | Zatvoren tadašnji pregled 33 relevantna dobra | Sva su već bila u bazi | Samo novi sadržaj. |
+| Wiki Loves Monuments Srbija | Delimično dokumentovan pregled; ukupan obim nije zabeležen | 7 novih mesta NOB-a | Pre nastavka proveriti pregledane liste; rodne kuće bez spomen-obeležja nisu cilj. |
+| Hrvatski Registar kulturnih dobara, CSV data.gov.hr | Pregledan izvoz od 7.950 dobara; oko 30 NOB | 3 nova lokaliteta (Prkos Lasinjski, Lipik, Sisak); dopunjeno autorstvo „Zastave“ | Tada bez tačke: Pučišća, Gornje Dubrave, Požega, Lipovljani, Noskovačka Dubrava, Kamanje i Kordun. Pre rada proveriti kasnije unose i opstanak. |
+| KONS, BiH | Samo pronađene pojedinačne odluke; sistematski obim nije potvrđen | Tragovi za npr. Lukavac i Husinskog rudara | Ciljano čitati odluku za konkretan objekat; nije potvrđen pregled celog registra. |
+| Službeni list Crne Gore | Samo pronađene pojedinačne odluke | Nema dokumentovanog zbirnog unosa | Za konkretne zaštitne odluke; opštinski registri takođe postoje, vidi [Crnu Goru](#crna-gora). |
+
+## Vikipedija, Wikidata i tematski sajtovi
+
+| Izvor | Obrađenost i obuhvat | Rezultat | Preostalo / kada ponoviti |
+|---|---|---|---|
+| sr spiskovi „Списак споменика НОБ у …“ | Završen prolaz kroz sačuvanih 458 redova | 112 pouzdano uparenih | Neupareni redovi uglavnom bez potvrđene tačke; koristiti nov konkretan dokaz. |
+| sr spisak spomenika NOB u Vojvodini | Zabeležen kao obrađen, bez posebnog broja redova | Nazivi dopunjavani po autoru i godini | Poređenje novih izmena spiska, ne ponovno čitanje bez razloga. |
+| sr kategorija „Споменици НОБ у Србији“ | Pregled tadašnjih 126 članaka | Tri ture od 19, 23 i 6 spomenika/veza; nisu sve nove lokacije | Oko 45 članaka tada nije imalo lokaciju. Pre ponavljanja proveriti `kat_srbija*.json` i kasnije lociranje. |
+| sr kategorija „Споменици и музеји Народноослободилачке борбе“ | Završen tadašnji rekurzivni prolaz: 16 kategorija, 275 članaka | 104 ranije povezana, 43 veze preko drugih jezika, još 8 veza i 8 novih | 92 članka tada bez lokacije; to nije današnje stanje tih članaka. |
+| sh „Lista antifašističkih spomenika u Zagrebu“ | Zabeležena kao obrađena pre pronalaženja Hrženjakove knjige; obim i prinos nisu razdvojeno evidentirani | Nije sačuvan zaseban obračun | Ne mešati tu listu sa naknadno završenim prepisom Hrženjaka; pre novog rada proveriti već prenete unose. |
+| Hrvatski sr/hr popisi | Završen prolaz kroz državni i 6 dostupnih popisa: Primorsko-goranska, Osječko-baranjska, Splitsko-dalmatinska, Istarska, Dubrovačko-neretvanska, Zagreb | Kandidati obrađeni/sačuvani u radnom spisku; 13 drugih popisa tada vraćalo 404 | Stari spisak 15 ne lociranih sela nije aktuelan: Peroj, Drivenik i Bobota imaju kasnije nalaze. Današnji otvoreni skup proveriti u `data/bez_lokacije.json`, a odluke u `data/provere/`; ne ponavljati taj stari spisak. |
+| Wikidata, spomen-obeležja sa koordinatama | Završen tadašnji upit za 7 država; 1.654 objekta | 977 kandidata dalje od 150 m; samo 3 nova (Beška, Borča/Pančevo, Zlatare); slovenački uvoz već pokriven RNPD-om | Za Bor, Obrenovac, Zlatibor i Valjevo/Filipovića zabeležena odstupanja tačaka 1–4 km; nove tačke ne prepisivati bez potvrde. |
+| Narodni heroji — Wikidata i wiki kategorije | Delimično: oko 800 imena prema tadašnjem pregledu, bez potvrde potpunog spiska | Dopunjene posvete, završni prolaz: 438 spomenika / 272 posvete | Potpunost liste i ostale posvete nisu rešene; [konkretni otvoreni slučajevi](DOPUNA_PODATAKA.md#posvete-2026-10-15). |
+| spomenicinob.info, BiH | Završen prolaz lociranja po adresama i OSM objektima za sačuvani skup od 4.324 spomenika | 35 novih i 29 dopunjenih | Ostatak u `data/bez_lokacije.json`; ciljano sa novom adresom/tačkom. Izvor nema koordinate za zbirni uvoz. |
+| Kultura sjećanja, Documenta | Samo pronađen; nema dokaza sistematske obrade | Stranice o spomenicima Hrvatske/BiH, bez koordinata | Proveriti konkretne stranice pre procene koristi. |
+| Spomenik Database | Delimično; poznat katalog 235 stranica, pojedinačne stranice korišćene u više tura | Nema potpunog obračuna obrađenih stranica | Koordinate u tekstu pojedinačnih stranica; ciljati određeni objekat i ranije nalaze. Ne tretirati 235 kao broj pročitanih stranica. |
+| Hronologija izlaganja skulpture u Srbiji | Pregledani mapa 80 objekata, kategorija 83 objave i imenik 795 umetnika; detaljno samo 34 potrebna zapisa | 21 dopuna, 4 nova spomenika, 20 veza autora | Ostale objave nisu sve pročitane. Pogrešna veza Miše Popovića vodi na Slavoljuba Stankovića; ne preuzimati je. Dalje samo nepokrivena NOB dela. |
+
+## Commons i fotografije
+
+Završene su navedene ture, ne celokupan Commons. GPS ili kategorija daju kandidata; rezultati ispod uključuju vizuelno odbacivanje pogrešnih objekata.
+
+| Obrađen skup | Obrađenost i rezultat | Preostalo / kada ponoviti |
+|---|---|---|
+| Početne geotagovane fotografije, 369 mesta (14.10) | Završen prolaz; 244 dodata lokaliteta | Ne preuzimati iste rezultate ponovo. |
+| EŠD šabloni za Sloveniju | Završen pokušaj na tadašnjih 1.066 spomenika bez slike: 13 pogodaka; Wikidata P1587/P18 još 2 | Slab prinos tog postupka; novi materijal ili konkretan fajl. |
+| Kategorije drugih država, 243 kategorije / 1.586 GPS fajlova | Završen prolaz: 17 bliskih kandidata, 11 prihvaćenih fotografija | Pogrešne slike parkova i susednih spomenika vraćene; ne ponavljati iste parove. |
+| Geosearch oko 456 spomenika bez slike, HR/BiH/MK/CG/Kosovo (15.10) | Završen prolaz: 70 sa fajlom u blizini, 8 prihvaćenih | Oko 2% prinosa; tadašnjih 156 srpskih unosa nije obrađeno ovim putem. Nema preporuke da se to radi bez boljeg razloga. |
+| Slike iz članaka i OSM/Wikidata veza (15.10) | Završen zabeleženi prolaz; 23 fotografije (6 iz članaka, 16 OSM, 1 Wikidata) | Potpun obuhvat mogućih veza nije zabeležen; proveravati nepokrivene konkretne zapise. |
+| Napredna Commons pretraga Slovenije, oko 18.000 fajlova | Završen tadašnji prolaz: 113 bliskih kandidata, 12 prihvaćenih fotografija | Isti rezultati već pregledani; nov ili ranije nepokriven skup. |
+| Napredna pretraga HR/Srbije/BiH/juga, 46.761 fajl | Završen prolaz: 45 bliskih kandidata, 17 fotografija | Upit oko Kraljeva (43.7113, 20.6924) nije uspeo; nije završen deo te pretrage. |
+| Novi spomenici iz obe napredne pretrage, 64.515 fajlova | Završen ponovni pregled sačuvanih rezultata: 322 fajla / 123 mesta → 48 kandidata → 25 novih | Bez novih mrežnih pretraga. Nesaglasan GPS Metković/Labin, nepoznata bista u Kuštilju i duplikati odbačeni; ne vraćati bez novog dokaza. |
+
+## Obrada knjiga
+
+**Čitanje dostupnog obima svih pet knjiga je završeno 2026-10-16.** Preostala lociranja i sporni identiteti ne zahtevaju ponovno prepisivanje cele knjige. Veze vode na trajne sirove zapise; oznaka „bez lokacije“ u njima nije nužno aktuelan broj preostalih zadataka.
+
+| Knjiga i izvor | Obrađen obim | Rezultat prvog unosa | Preostalo / ograničenje |
+|---|---|---|---|
+| A — [Zagreb 1981](https://znaci.org/00003/679.pdf) | Svih 537 PDF strana; [237 zapisa](../data/knjige/zagreb-1981.json) | 16 dopuna mape, 2 dopune radnog spiska, 2 nova na mapi i 51 bez lokacije | Nema oznaka `izbor` za zbirni obračun trenutnog uparivanja; sporne adrese, identiteti i zaštitne kategorije. |
+| D — [Kozina, Krapina 1966](https://znaci.org/00003/667.pdf) | Svih 50 strana; [35 zapisa](../data/knjige/krapina-1966.json) | 1 dopuna (Marinci), 11 novih bez lokacije | 11 sirovih oznaka `bez-lokacije`; njihov današnji položaj proveriti u radnom spisku. |
+| B — [Jokić, Jugoslavija 1986](https://znaci.org/00003/920.pdf) | Svih 454 PDF strana; [615 pomena](../data/knjige/jokic-1986.json), ne jedinstvenih objekata | 25 dopunjenih zapisa (22 autora, 4 godine), 103 nova bez lokacije | Sadašnje sirove oznake: 285 `upareno`, 86 `bez-lokacije`, 84 `sporno`, 158 preskočenih i 2 ponovljena. |
+| E — [Šibenik 1980](https://znaci.org/00003/905.pdf) | Svih 471 PDF strana; [199 zapisa](../data/knjige/sibenik-1980.json) | 7 dopunjenih zapisa (3 autora, 6 godina), 80 novih bez lokacije | Sirove oznake: 9 uparenih, 80 dodatih bez lokacije, 9 spornih, 101 preskočenih; ne računati ih kao sveže preostale lokacije. |
+| C — [Hrženjak 2002, drugo izdanje](https://znaci.org/00003/736.php) | Svih 436 dostupnih skenova; [2.724 zapisa/pomena](../data/knjige/hrzenjak-2002.json), uključujući kasniju dopunu | 9 dopunjenih zapisa, 1 novi kandidat (Lastovo) | 28 sirovih `sporno`, 916 bez potvrde opstanka; 844 istorijski srušena, 851 obična ploča, 83 uparena, 1 kandidat, 1 van obuhvata. Šira provera je obustavljena. |
+
+Samo pronađen, bez sistematske obrade: katalog „Преглед на спомениците и спомен-обележјата во СР Македонија“ (1986), ranije naveden kao 260 skeniranih PDF strana u biblioteci Spomenik Database. Nema sirovog prepisa u `data/knjige/`; pun obuhvat i dostupnost proveriti pre obrade.
+
+### Šta sačuvati pri ciljanom povratku u knjige
+
+- **Zagreb:** Rade Končar ima više obeležja kod tvornice i u Voltinom naselju (2.1.30–32); sjedeći Moša Pijade (2.1.35, Proleterskih brigada 68) nije potvrđen par sa `zagreb-pijade`. Za 15 ploča nije pouzdano pročitana zaštitna kategorija; obične ploče ostaju van izbora. Preimenovane ulice ograničavaju lociranje po adresama iz 1981.
+- **Krapina:** Jesenje iz knjige (obelisk, 1952, pred zadružnim domom) nije `cerje-jesenjsko` (skulptura, 1973). Nominativ „Nede Grdenić“ nije potvrđen; nejasni Šemnica, Krničar/str. 34 i natpis Marinaca ostaju u sirovim zapisima. Vinagora: 1946 je stradanje, 1962 podizanje. Istorijska zbirka u Krapini nije potvrđena kao današnja postavka; prvi Overpass pokušaj nije uspeo.
+- **Jokić:** proveriti konkretne sporne zapise, posebno faze Kadinjače, godine Batine/Grahova, muzejske namene i generičke opise Skoplja, Tetova, Drežnice i Topole. Kapino polje je poređeno sa `niksic-aerodrom` i dopunjen je Vukajlović; 1969/1971 ostaje nerazrešeno. Osnivanje ustanove nije datum podizanja dela.
+- **Šibenik:** devet spornih pomena uključuje Pisak/Dubravu, TEF u Crnici, tri objekta u Bilicama, Podorljak, Račiće, Zablaće i školsku ploču na Žirju. Autorski oblici „Alojz Kogavšek“ i „Stevo Bodnarev“ nisu proširivani. Vodice 1965/1971 i monolit/park Šubićevac 1961/1962 nisu izjednačeni. `natpisPotpun: false` nije ceo pročitan natpis.
+- **Hrženjak:** štampana strana 346 nedostaje; skenovi 23/24 ponavljaju str. 1, 118/119 str. 95, do štampane 345 pomeraj je +24, a od skena 370/str. 347 +23. Indeks je na skenovima 377–414, dodatak 419–436; koristiti stvarni `scanBroj`. Iz indeksa je izdvojeno 2.119 redova naspram uvodnih 2.120; razlika nije razrešena. Dodatak sadrži 39 ispravki, uključujući Makarsku i Ivana Ribara; stanje glavnog teksta ne prenositi bez dodatka.
+
+Kasnije hrvatske provere: [49 unosa](../data/provere/hrvatska-49-2026-10-16.json), [70 povezanih](../data/provere/hrvatska-povezani-70-2026-10-16.json) i [pilot 20](../data/provere/hrvatska-pilot-20-2026-10-16.json). One nisu obrada cele trijaže 792 niti potvrda današnjeg opstanka svih zapisa. Lastovo ima kasniji dokaz iz 2014; Posedarje i Pijavičino imaju protivrečne istorijske nalaze i kasnije izveštaje, pa se zaključci proveravaju za svaki objekat posebno.
+
+## Crna Gora
+
+Stanje pretrage **2026-10-16**: izvori su pronađeni/provereni za dostupnost, ali nije izvršena sistematska žetva. Puni opisi, veze, datumi i ograničenja su u [planu Crne Gore](ZETVA_CRNA_GORA.md); ta stranica je merodavna za nove rezultate ako se žetva nastavi. Preuzeti fajlovi su u `izvori/cg/`.
+
+| Izvor | Obrađenost i obuhvat | Preostalo |
+|---|---|---|
+| Registar Herceg Novog, 2016 | Preuzet pun PDF, 85 strana; proveren uzorak/mikrolokacije; poslednji broj 64, ne 64 NOB objekta | Izdvajanje NOB, uparivanje i lociranje. |
+| Danilovgrad 2017, Šaletić i Knežević (priredili) | Preuzet pun PDF, 94 skena / 92 štampane strane; proveren impresum i uzorci | Nije sistematski izvučen/unesen; beleži i ukradene ili pohranjene biste. |
+| Registar Budve, 2014/2015 | Preuzet pun PDF, 37 skenova, OCR; proveren naslov/obim | Izdvajanje NOB i provera tačaka; 2023 u URL-u nije datum popisa. |
+| EXPEDITIO, Spomenici II svjetskog rata u Crnoj Gori, 2020 | Preuzet i pregledan odlomak, samo 17 PDF strana | Cela knjiga nije pribavljena; sadržaj do str. 60 ne znači da je pun PDF dostupan. |
+| Narodni heroji Crne Gore, katalog | Pregledan katalog i primer Đurkovića: 115 zapisa/19 opština, 59 označenih registrom | Nije urađen zbirni uvoz; tačke su često centri opština. Koristiti izvorne registre. |
+| Znamenja slobode, Pljevlja, 2020 | Potvrđena bibliografija, ne preuzeta knjiga; predstavljanje navodi 73 obeležja | Pun tekst nije pronađen; različiti navodi obima 109/114 strana. |
+| Spomenici ne umiru, Kotor, 2025 | Potvrđeno izdanje Jova M. Bećira, 104 strane | Pun tekst nije pronađen. |
+| Spomenici NOR-a u opštini Kolašin, 2021 | Potvrđeno izdanje od 124 strane | Pun tekst nije pronađen. |
+| Antifašističke mape Nikšića i Bara, 2017 | Potvrđeno postojanje i izdavači; čitljivi puni skenovi nisu pribavljeni | Pribavljanje mapa i razlikovanje događaja od fizičkog obeležja. |
+| Vijesti, „Mapa spomenika u Crnoj Gori: probudimo dobre priče“ | Samo korisnikova veza, nepregledano | Pročitati članak i utvrditi izvor podataka. |
+| Knightlab StoryMap, mapa NOB | Završeno 2026-10-17: `published.json` sa 28 tačaka i fotografijama (kopija u `izvori/cg/storymap/`) | 18 već postoji; 1 nov na mapi (Podgorica, žrtve bombardovanja), 5 novih i 1 dopuna u spisku bez lokacije, sve sa fotografijom. Tačke su približne; Krstac na Goliji i Stravče nerazrešeni. |
+| Tragovima maršala, Crna Gora | Samo korisnikova veza, nepregledano | Utvrditi obim, novinu i proverljivost podataka. |
+| Facebook „Spomenici NOB u Crnoj Gori“ | Bez prijave nedostupno (2026-10-16, odgovor 400) | Korisnik će ručno sačuvati stranicu; tada čitati lokalno. |
+| CdM forum, Spomenici NOB | Samo korisnikova veza, nepregledano | Proveriti objave, fotografije, mesta i datume. |
+
+Stariji dodatni tragovi, **obim nepoznat**: studija o cetinjskim obeležjima iz 1992. (bibliografski identitet i pun tekst nisu potvrđeni) i [Spomenica antifašistima opštine Plav, 2012](https://plus.cobiss.net/cobiss/cg/en/bib/19950608) (bibliografski zapis; nije potvrđeno da je katalog spomenika). Jokićeva knjiga pokriva i Crnu Goru i već je obrađena u [knjigama](#obrada-knjiga).
+
+## Održavanje evidencije
+
+Posle sledećeg odobrenog rada ažurirati red izvora: datum i obuhvat, rezultat, šta ostaje i uslov za ponavljanje. Ne dodavati novi dnevnički pasus koji ostavlja stari status kao da još važi. Za poznati deo bez sačuvane evidencije navesti „obim nepoznat“; broj obrađenih zapisa ne pretvarati u procenat bez poznatog ukupnog skupa.
+
+Postupci pretrage, mrežni limiti, fotografije i provera knjige su u [skilu žetve](../.claude/skills/spomenici-zetva/SKILL.md) i njegovim [referencama](../.claude/skills/spomenici-zetva/references/pretrage-i-fotografije.md). Integritet, testovi i brojke pojedinačnih nekadašnjih pokretanja nisu status obrađenosti izvora.

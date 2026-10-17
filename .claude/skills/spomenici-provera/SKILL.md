@@ -22,8 +22,6 @@ python -I alati/integritet.py
 
 Prolazi kad ispiše samo 17 poznatih parova „manje od 30 m“ (park i spomenik u njemu, grobnica i ploča na Senjaku) i `spomenika N`. Svaka druga kategorija je nova greška koju si uneo.
 
-Nove slike idu ovim redom, jer svaki korak čita rezultat prethodnog: `alati/bez_metapodataka.py --upisi`, `alati/male_slike.py`, `alati/slike_odnos.py`, pa ponovo `integritet.py`.
-
 JSON se upisuje u formatu koji čuva čiste razlike u gitu (UTF-8, CRLF, uvlačenje 2):
 
 ```python
@@ -31,6 +29,25 @@ open(P, 'w', encoding='utf8', newline='').write(json.dumps(d, ensure_ascii=False
 ```
 
 Posle upisa `git diff --stat` treba da pokaže samo redove koje si menjao; hiljade izmenjenih redova znače da je format pokvaren.
+
+### Obrada novih slika
+
+Pre uklanjanja metapodataka zabeleži izvor, autora, licencu i datum dokaza. Sliku pravilno orijentiši i iseci pre umanjivanja na 400 px i WebP; zatim iz korena repozitorijuma pokreni:
+
+```powershell
+python -I alati/bez_metapodataka.py --upisi
+python -I alati/male_slike.py
+python -I alati/slike_odnos.py
+python -I alati/integritet.py
+```
+
+Prvi alat menja velike slike bez ponovnog sažimanja; čuva ICC profil i EXIF potreban za orijentaciju. Drugi pravi male slike iz konačnih velikih slika i prati njihovo vreme izmene, pa ide posle čišćenja. Treći upisuje `slikaOdnos` iz dimenzija velikih slika; integritet proverava konačne podatke. Ovo je zajednički redosled za žetvu, standard i dokumentaciju alata; ne održavati različite redoslede na drugim mestima.
+
+### Veze radnih zapisa i knjiga
+
+Kad brišeš, spajaš ili prebacuješ stavke iz `data/bez_lokacije.json`, proveri `uparivanje` u svim `data/knjige/*.json` i aktivne `radniIndeks` pokazivače u `data/provere/`. Numeričke indekse pomeri tako da i dalje označavaju isti objekat; istorijske pokazivače poput `radniIndeksPre` sačuvaj. Ciljevi ka ID-jevima moraju i dalje postojati ili biti dokumentovano prevezani na postojeći unos.
+
+Uporedi rezultat sa snimkom pre promene: broj dodatih i uklonjenih stavki, ID-jeve, koordinate, GoogleCID, izvore i stanja. Promene moraju odgovarati odobrenom obimu i izveštaju. Integritet i testovi aplikacije ne potvrđuju identitet ili današnji opstanak spomenika; za to proveri pojedinačni dokaz i njegov datum po [postupku žetve](../spomenici-zetva/references/lociranje-i-stanje.md).
 
 ## 2. Tipovi
 

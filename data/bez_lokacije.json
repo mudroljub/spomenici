@@ -415,9 +415,18 @@
         "lng": 18.826528,
         "izvor": "https://www.openstreetmap.org/node/12438572329",
         "opis": "OSM memorial=plaque, bez imena"
+      },
+      {
+        "lat": 42.35291,
+        "lng": 18.83654,
+        "izvor": "https://uploads.knightlab.com/storymapjs/d68e44a5a6fd5fe5aa97d31f7b027ae3/mapa-spomenika-narodnooslobodilacke-borbe/index.html",
+        "opis": "StoryMap „Mapa spomenika NOB“ (Vijesti, čitaoci): „Spomenik u selu Majstori blizu Cetinja“; približna tačka, oko 186 m od OSM n10805070203"
       }
     ],
-    "vrsta": "groblje"
+    "vrsta": "groblje",
+    "slika": "slike/bez-lokacije/cg-majstori.webp",
+    "slikaOdnos": 0.749,
+    "slikaPotpis": "Vijesti, StoryMap Mapa spomenika NOB"
   },
   {
     "naziv": "Spomenik palim borcima",
@@ -44578,7 +44587,7 @@
       "prethodniId": "ljubosina-spomenik-ustanka-i-nor-a",
       "ishod": "nepotvrđen",
       "razlog": "Jedina slika je crno-bela reprodukcija stare štampane strane. Opšti prostorni plan iz 2019. ne potvrđuje opstanak baš ove statue. Potrebna nova potvrda opstanka i tačne tačke; stanje ostaje neizvesno.",
-      "izvestaj": "docs/BELESKE.md#provera-49-hrvatskih-unosa-2026-10-16"
+      "izvestaj": "docs/PROVERA_RUSENJA_HRVATSKA.md#provera-49-hrvatskih-unosa-2026-10-16"
     }
   },
   {
@@ -44600,7 +44609,7 @@
       "prethodniId": "skrad-spomenik-palim-borcima-i-zrtvama-fasizma",
       "ishod": "nepotvrđen",
       "razlog": "Nedatirane reprodukcije i nedovoljno potvrđena tačka parka naspram škole. Potrebna nova potvrda opstanka i tačne tačke; stanje ostaje neizvesno.",
-      "izvestaj": "docs/BELESKE.md#provera-49-hrvatskih-unosa-2026-10-16"
+      "izvestaj": "docs/PROVERA_RUSENJA_HRVATSKA.md#provera-49-hrvatskih-unosa-2026-10-16"
     }
   },
   {
@@ -44624,7 +44633,7 @@
       "prethodniId": "zagreb-horvati-spomenik-palim-borcima-i-zrtvama",
       "ishod": "nepotvrđen",
       "razlog": "Nije utvrđen datum stvarnog snimanja prenete fotografije; datum datoteke iz 2024. nije prihvaćen kao terenski obilazak. Potrebna nova potvrda opstanka i tačne tačke; stanje ostaje neizvesno.",
-      "izvestaj": "docs/BELESKE.md#provera-49-hrvatskih-unosa-2026-10-16"
+      "izvestaj": "docs/PROVERA_RUSENJA_HRVATSKA.md#provera-49-hrvatskih-unosa-2026-10-16"
     }
   },
   {
@@ -44646,7 +44655,7 @@
       "prethodniId": "gerovo-mladje-spomenik-diverzantskoj-akciji-1941",
       "ishod": "nepotvrđen",
       "razlog": "Sken stare štampane fotografije, bez kasnijeg dokaza opstanka. Potrebna nova potvrda opstanka i tačne tačke; stanje ostaje neizvesno.",
-      "izvestaj": "docs/BELESKE.md#provera-49-hrvatskih-unosa-2026-10-16"
+      "izvestaj": "docs/PROVERA_RUSENJA_HRVATSKA.md#provera-49-hrvatskih-unosa-2026-10-16"
     }
   },
   {
@@ -44669,7 +44678,7 @@
       "prethodniId": "tajcari-spomenik-prvom-zboru-za-odlazak-u",
       "ishod": "nepotvrđen",
       "razlog": "Nedatirana reprodukcija štampane fotografije. Potrebna nova potvrda opstanka i tačne tačke; stanje ostaje neizvesno.",
-      "izvestaj": "docs/BELESKE.md#provera-49-hrvatskih-unosa-2026-10-16"
+      "izvestaj": "docs/PROVERA_RUSENJA_HRVATSKA.md#provera-49-hrvatskih-unosa-2026-10-16"
     }
   },
   {
@@ -44691,7 +44700,7 @@
       "prethodniId": "prezid-zbitke-spomenik-danijelu-ozboltu",
       "ishod": "nepotvrđen",
       "razlog": "Nedatirana reprodukcija fotografije i natpisa iz štampe. Potrebna nova potvrda opstanka i tačne tačke; stanje ostaje neizvesno.",
-      "izvestaj": "docs/BELESKE.md#provera-49-hrvatskih-unosa-2026-10-16"
+      "izvestaj": "docs/PROVERA_RUSENJA_HRVATSKA.md#provera-49-hrvatskih-unosa-2026-10-16"
     }
   },
   {
@@ -44713,7 +44722,7 @@
       "prethodniId": "prezid-zbitke-spomenik-jakovu-kovacu",
       "ishod": "nepotvrđen",
       "razlog": "Nedatirana reprodukcija fotografije i natpisa iz štampe. Potrebna nova potvrda opstanka i tačne tačke; stanje ostaje neizvesno.",
-      "izvestaj": "docs/BELESKE.md#provera-49-hrvatskih-unosa-2026-10-16"
+      "izvestaj": "docs/PROVERA_RUSENJA_HRVATSKA.md#provera-49-hrvatskih-unosa-2026-10-16"
     }
   },
   {
@@ -44736,7 +44745,7 @@
       "prethodniId": "prezid-zbitke-spomenik-strijeljanim-partizanima",
       "ishod": "nepotvrđen",
       "razlog": "Obe slike su nedatirane reprodukcije; godina podizanja 1983. ne datira kasnije stanje. Potrebna nova potvrda opstanka i tačne tačke; stanje ostaje neizvesno.",
-      "izvestaj": "docs/BELESKE.md#provera-49-hrvatskih-unosa-2026-10-16"
+      "izvestaj": "docs/PROVERA_RUSENJA_HRVATSKA.md#provera-49-hrvatskih-unosa-2026-10-16"
     }
   },
   {
@@ -44758,7 +44767,7 @@
       "prethodniId": "kavaliri-spomenik-strijeljanim-zrtvama-fasizma",
       "ishod": "nepotvrđen",
       "razlog": "Nedatirana reprodukcija štampane fotografije. Potrebna nova potvrda opstanka i tačne tačke; stanje ostaje neizvesno.",
-      "izvestaj": "docs/BELESKE.md#provera-49-hrvatskih-unosa-2026-10-16"
+      "izvestaj": "docs/PROVERA_RUSENJA_HRVATSKA.md#provera-49-hrvatskih-unosa-2026-10-16"
     }
   },
   {
@@ -44780,7 +44789,7 @@
       "prethodniId": "muhovci-spomenik-strijeljanim-partizanima",
       "ishod": "nepotvrđen",
       "razlog": "Nedatirana reprodukcija štampane fotografije. Potrebna nova potvrda opstanka i tačne tačke; stanje ostaje neizvesno.",
-      "izvestaj": "docs/BELESKE.md#provera-49-hrvatskih-unosa-2026-10-16"
+      "izvestaj": "docs/PROVERA_RUSENJA_HRVATSKA.md#provera-49-hrvatskih-unosa-2026-10-16"
     }
   },
   {
@@ -44802,7 +44811,7 @@
       "prethodniId": "hrib-spomenik-strijeljanim-aktivistima-nop-a",
       "ishod": "nepotvrđen",
       "razlog": "Nedatirana reprodukcija grobljanskog spomenika. Potrebna nova potvrda opstanka i tačne tačke; stanje ostaje neizvesno.",
-      "izvestaj": "docs/BELESKE.md#provera-49-hrvatskih-unosa-2026-10-16"
+      "izvestaj": "docs/PROVERA_RUSENJA_HRVATSKA.md#provera-49-hrvatskih-unosa-2026-10-16"
     }
   },
   {
@@ -44825,7 +44834,7 @@
       "prethodniId": "gerovski-kraj-spomenik-ubijenim-prvoborcima",
       "ishod": "nepotvrđen",
       "razlog": "Nedatirana reprodukcija fotografije i natpisa iz štampe. Potrebna nova potvrda opstanka i tačne tačke; stanje ostaje neizvesno.",
-      "izvestaj": "docs/BELESKE.md#provera-49-hrvatskih-unosa-2026-10-16"
+      "izvestaj": "docs/PROVERA_RUSENJA_HRVATSKA.md#provera-49-hrvatskih-unosa-2026-10-16"
     }
   },
   {
@@ -44848,7 +44857,7 @@
       "prethodniId": "sokoli-spomenik-formiranju-prve-istarske",
       "ishod": "nepotvrđen",
       "razlog": "Nedatirana reprodukcija; 1982. je godina podizanja, ne noviji obilazak. Potrebna nova potvrda opstanka i tačne tačke; stanje ostaje neizvesno.",
-      "izvestaj": "docs/BELESKE.md#provera-49-hrvatskih-unosa-2026-10-16"
+      "izvestaj": "docs/PROVERA_RUSENJA_HRVATSKA.md#provera-49-hrvatskih-unosa-2026-10-16"
     }
   },
   {
@@ -44870,7 +44879,7 @@
       "prethodniId": "parg-spomenik-ubijenim-partizanima",
       "ishod": "nepotvrđen",
       "razlog": "Nedatirana reprodukcija štampane fotografije. Potrebna nova potvrda opstanka i tačne tačke; stanje ostaje neizvesno.",
-      "izvestaj": "docs/BELESKE.md#provera-49-hrvatskih-unosa-2026-10-16"
+      "izvestaj": "docs/PROVERA_RUSENJA_HRVATSKA.md#provera-49-hrvatskih-unosa-2026-10-16"
     }
   },
   {
@@ -44893,7 +44902,7 @@
       "prethodniId": "celovci-spomenik-vinku-ozboltu",
       "ishod": "nepotvrđen",
       "razlog": "Nedatirana reprodukcija fotografije i natpisa iz štampe. Potrebna nova potvrda opstanka i tačne tačke; stanje ostaje neizvesno.",
-      "izvestaj": "docs/BELESKE.md#provera-49-hrvatskih-unosa-2026-10-16"
+      "izvestaj": "docs/PROVERA_RUSENJA_HRVATSKA.md#provera-49-hrvatskih-unosa-2026-10-16"
     }
   },
   {
@@ -44915,7 +44924,7 @@
       "prethodniId": "gerovski-kraj-jurjev-laz-spomenik-partizanskom",
       "ishod": "nepotvrđen",
       "razlog": "Nedatirana reprodukcija; nije nađen zaseban noviji dokaz opstanka. Potrebna nova potvrda opstanka i tačne tačke; stanje ostaje neizvesno.",
-      "izvestaj": "docs/BELESKE.md#provera-49-hrvatskih-unosa-2026-10-16"
+      "izvestaj": "docs/PROVERA_RUSENJA_HRVATSKA.md#provera-49-hrvatskih-unosa-2026-10-16"
     }
   },
   {
@@ -44937,7 +44946,7 @@
       "prethodniId": "jazbine-spomenik-partizanskom-stozeru",
       "ishod": "nepotvrđen",
       "razlog": "Nedatirana reprodukcija; knjiški nalaz o drugim Jazbinama nije dokaz rušenja ovoga objekta. Potrebna nova potvrda opstanka i tačne tačke; stanje ostaje neizvesno.",
-      "izvestaj": "docs/BELESKE.md#provera-49-hrvatskih-unosa-2026-10-16"
+      "izvestaj": "docs/PROVERA_RUSENJA_HRVATSKA.md#provera-49-hrvatskih-unosa-2026-10-16"
     }
   },
   {
@@ -44961,7 +44970,7 @@
       "prethodniId": "vinkovci",
       "ishod": "nepotvrđen-identitet",
       "razlog": "Knjiga razlikuje uklonjeni spomenik Mirku Romčeviću kod stanice od uklonjenog spomenika oslobodiocima i tenkistima na prilazu gradu. Naša fotografija odgovara drugom objektu (sl. 762), a naziv i godina prvom. Kasniji dokaz povratka i pouzdan identitet tačke nisu pronađeni. Povučeno kao nepotvrđeno, bez tvrdnje o stanju u 2026. Fotografije su sačuvane u arhivi.",
-      "izvestaj": "docs/BELESKE.md#nastavak-provere-hrvatske-prvi-rizicni-slucajevi-2026-10-16"
+      "izvestaj": "docs/PROVERA_RUSENJA_HRVATSKA.md#nastavak-provere-hrvatske-prvi-rizični-slučajevi-2026-10-16"
     }
   },
   {
@@ -44983,7 +44992,7 @@
       "prethodniId": "zupanja-bivsi-spomenik-nob",
       "ishod": "nepotvrđena-destinacija",
       "razlog": "Postojeći naziv izričito označava bivši spomenik i nema fotografije preostalog objekta. Knjiga opisuje miniranje 28.11.1992. spomenika sa kriptom iz 1957; dodatak ispravlja položaj na park J. J. Strossmayera pored Kolodvorske ulice. Nije pronađen kasniji dokaz povratka ili postojećeg obeležja na našoj tački. Sa javne mape povučeno kao nepotvrđena destinacija, uz očuvan istorijski trag; bez tvrdnje o novom rušenju 2026.",
-      "izvestaj": "docs/BELESKE.md#nastavak-provere-hrvatske-identiteti-i-kasniji-dokazi-2026-10-16"
+      "izvestaj": "docs/PROVERA_RUSENJA_HRVATSKA.md#nastavak-provere-hrvatske-identiteti-i-kasniji-dokazi-2026-10-16"
     }
   },
   {
@@ -45005,7 +45014,7 @@
       "prethodniId": "djeletovci-spomenik-nob",
       "ishod": "nepotvrđena-destinacija",
       "razlog": "Naziv i opis Commons fotografije govore Borovo Naselje, a ugrađeni EXIF GPS i naš marker vode u Đeletovce. Datum snimanja je 10.4.2021. Fotografija obeliska sa zvezdom i srpom/čekićem odgovara opisu borovskog obeležja, ali nezavisna precizna tačka nije potvrđena. Izveštaj iz jula 2020. potvrđuje obnovu spomenika u Borovu naselju, ne ovu GPS tačku. Povučeno zbog nesaglasne lokacije, a ne zbog rušenja; zapis i fotografije ostaju sačuvani.",
-      "izvestaj": "docs/BELESKE.md#nastavak-provere-hrvatske-identiteti-i-kasniji-dokazi-2026-10-16"
+      "izvestaj": "docs/PROVERA_RUSENJA_HRVATSKA.md#nastavak-provere-hrvatske-identiteti-i-kasniji-dokazi-2026-10-16"
     }
   },
   {
@@ -45027,7 +45036,7 @@
       "prethodniId": "badljevina-nob",
       "ishod": "nepotvrđena-destinacija",
       "razlog": "Sken176 navodi spomenik poginulim stanovnicima u parku usred sela, srušen 1991/92. Naš unos nema fotografiju, posvetu ili kasniji datirani dokaz obnove; aktivan OSM marker nije dovoljan. Ciljana pretraga je dala opšte planove i druge građevine, ne potvrdu ove destinacije.",
-      "izvestaj": "docs/BELESKE.md#nastavak-provere-hrvatske-sistematsko-razdvajanje-identiteta-2026-10-16"
+      "izvestaj": "docs/PROVERA_RUSENJA_HRVATSKA.md#nastavak-provere-hrvatske-sistematsko-razdvajanje-identiteta-2026-10-16"
     }
   },
   {
@@ -45049,7 +45058,7 @@
       "prethodniId": "jaksic-spomenik-nob",
       "ishod": "nepotvrđena-destinacija",
       "razlog": "Indeks navodi srušen spomenik 20 boraca i civilnih žrtava. Naš marker ima samo opšti naziv NOB, bez slike ili natpisa; nije sigurno utvrđen identitet današnjeg objekta niti kasnija obnova. Ne proglašava se srušenim samo po zajedničkom naselju; privremeno je povučen kao nepotvrđena destinacija.",
-      "izvestaj": "docs/BELESKE.md#nastavak-provere-hrvatske-sistematsko-razdvajanje-identiteta-2026-10-16"
+      "izvestaj": "docs/PROVERA_RUSENJA_HRVATSKA.md#nastavak-provere-hrvatske-sistematsko-razdvajanje-identiteta-2026-10-16"
     }
   },
   {
@@ -45071,7 +45080,7 @@
       "prethodniId": "susine-spomenik-palim-borcima-nob-a",
       "ishod": "nepotvrđena-destinacija",
       "razlog": "Indeks navodi rušenje spomenika borcima i civilnim žrtvama. OSM sadrži njegovu posvetu, ali bez datirane fotografije; nedatirani Fotoport spisak nema fotografsku galeriju ovog objekta. Posle ciljane pretrage nije potvrđena obnova ili današnji izgled. Povučeno radi provere, ne kao novo utvrđeno rušenje.",
-      "izvestaj": "docs/BELESKE.md#nastavak-provere-hrvatske-sistematsko-razdvajanje-identiteta-2026-10-16"
+      "izvestaj": "docs/PROVERA_RUSENJA_HRVATSKA.md#nastavak-provere-hrvatske-sistematsko-razdvajanje-identiteta-2026-10-16"
     }
   },
   {
@@ -45093,7 +45102,7 @@
       "prethodniId": "scitarjevo-spomenik-palim-borcima",
       "ishod": "nepotvrđena-destinacija",
       "razlog": "Sken334 / sl852 prikazuje preostalo prazno postolje spomenika palim borcima. Naš marker nema fotografiju niti datirani dokaz povratka. Noviji prostorni plan samo ponavlja naziv u evidenciji; tekst iz 2023. o Dragutinu Jesihu opisuje njegov grob i crkvenu ploču, druge objekte. Povučeno kao nepotvrđena destinacija.",
-      "izvestaj": "docs/BELESKE.md#nastavak-provere-hrvatske-sistematsko-razdvajanje-identiteta-2026-10-16"
+      "izvestaj": "docs/PROVERA_RUSENJA_HRVATSKA.md#nastavak-provere-hrvatske-sistematsko-razdvajanje-identiteta-2026-10-16"
     }
   },
   {
@@ -45115,7 +45124,7 @@
       "prethodniId": "novi-pavljani-spomenik-nob-ostecen",
       "ishod": "nepotvrđena-destinacija",
       "razlog": "Knjiga prikazuje rušenje spomenika sedmorici boraca i jedanaest civilnih žrtava. Naš marker nema sliku, a njegovo OSM ime kaže oštećen i oznaka destroyed=yes je saglasna riziku, ali ne datira sadašnje stanje. Nije pronađen kasniji dokaz obnove; vesti o parohu i hramu nisu ovaj spomenik. Povučeno uz očuvan trag.",
-      "izvestaj": "docs/BELESKE.md#nastavak-provere-hrvatske-sistematsko-razdvajanje-identiteta-2026-10-16"
+      "izvestaj": "docs/PROVERA_RUSENJA_HRVATSKA.md#nastavak-provere-hrvatske-sistematsko-razdvajanje-identiteta-2026-10-16"
     }
   },
   {
@@ -45139,7 +45148,89 @@
       "prethodniId": "slobostina",
       "ishod": "nepotvrđena-destinacija",
       "razlog": "Potrebno je razlikovati Kečaninovu figuru majke s detetom iz 1951. od Kolacijeve kosturnice iz 1959. Naš zapis navodi prvi objekat. Izveštaj 30.7.2018. opisuje njegove ostatke na privatnom posedu, dok je 2014. obnavljana ploča druge kosturnice. Policijska vest o oštećenju ploče u maju2026 ne dokazuje povratak figure iz1951. Bez dokaza vraćene figure ili pouzdano predstavljene dostupne celine, povučeno kao nepotvrđena destinacija.",
-      "izvestaj": "docs/BELESKE.md#nastavak-provere-hrvatske-sistematsko-razdvajanje-identiteta-2026-10-16"
+      "izvestaj": "docs/PROVERA_RUSENJA_HRVATSKA.md#nastavak-provere-hrvatske-sistematsko-razdvajanje-identiteta-2026-10-16"
     }
+  },
+  {
+    "naziv": "Spomenik palim borcima sa terena Šekulara",
+    "mesto": "Šekulari",
+    "drzava": "Montenegro",
+    "izvor": "https://uploads.knightlab.com/storymapjs/d68e44a5a6fd5fe5aa97d31f7b027ae3/mapa-spomenika-narodnooslobodilacke-borbe/index.html",
+    "vrsta": "lokalni",
+    "kandidati": [
+      {
+        "lat": 42.740464,
+        "lng": 19.8343559,
+        "izvor": "https://uploads.knightlab.com/storymapjs/d68e44a5a6fd5fe5aa97d31f7b027ae3/mapa-spomenika-narodnooslobodilacke-borbe/index.html",
+        "opis": "StoryMap (Vijesti, čitaoci): „Spomenik palim borcima sa terena Šekulara“, opština Berane; tačka nepotvrđena"
+      }
+    ],
+    "slika": "slike/bez-lokacije/cg-sekulari.webp",
+    "slikaOdnos": 0.75,
+    "slikaPotpis": "Čitalac Vijesti, StoryMap Mapa spomenika NOB"
+  },
+  {
+    "naziv": "Spomenik u Dolima",
+    "mesto": "Doli (Piva)",
+    "drzava": "Montenegro",
+    "izvor": "https://uploads.knightlab.com/storymapjs/d68e44a5a6fd5fe5aa97d31f7b027ae3/mapa-spomenika-narodnooslobodilacke-borbe/index.html",
+    "vrsta": "lokalni",
+    "kandidati": [
+      {
+        "lat": 42.99417,
+        "lng": 18.82306,
+        "izvor": "https://uploads.knightlab.com/storymapjs/d68e44a5a6fd5fe5aa97d31f7b027ae3/mapa-spomenika-narodnooslobodilacke-borbe/index.html",
+        "opis": "StoryMap (Vijesti, čitaoci): „Spomenik u Dolima, Piva“: mesto stradanja 7. juna 1943; tačka nepotvrđena"
+      }
+    ],
+    "slika": "slike/bez-lokacije/cg-doli-piva.webp",
+    "slikaOdnos": 1.504,
+    "slikaPotpis": "Marija Nikčević, StoryMap Mapa spomenika NOB"
+  },
+  {
+    "naziv": "Spomenik u Trubjeli",
+    "mesto": "Trubjela",
+    "drzava": "Montenegro",
+    "izvor": "https://uploads.knightlab.com/storymapjs/d68e44a5a6fd5fe5aa97d31f7b027ae3/mapa-spomenika-narodnooslobodilacke-borbe/index.html",
+    "vrsta": "lokalni",
+    "slika": "slike/bez-lokacije/cg-trubjela.webp",
+    "slikaOdnos": 1.504,
+    "slikaPotpis": "Marija Nikčević, StoryMap Mapa spomenika NOB"
+  },
+  {
+    "naziv": "Spomenik braći Radulović",
+    "mesto": "Milojevići",
+    "drzava": "Montenegro",
+    "izvor": "https://uploads.knightlab.com/storymapjs/d68e44a5a6fd5fe5aa97d31f7b027ae3/mapa-spomenika-narodnooslobodilacke-borbe/index.html",
+    "vrsta": "lokalni",
+    "kandidati": [
+      {
+        "lat": 42.63595,
+        "lng": 18.98839,
+        "izvor": "https://uploads.knightlab.com/storymapjs/d68e44a5a6fd5fe5aa97d31f7b027ae3/mapa-spomenika-narodnooslobodilacke-borbe/index.html",
+        "opis": "StoryMap (Vijesti, čitaoci): „Spomenik braći Radulović u selu Milojevići“; tačka nepotvrđena"
+      }
+    ],
+    "slika": "slike/bez-lokacije/cg-milojevici.webp",
+    "slikaOdnos": 0.615,
+    "slikaPotpis": "Vijesti, StoryMap Mapa spomenika NOB"
+  },
+  {
+    "naziv": "Spomenik u Donjim Crkvicama",
+    "mesto": "Donje Crkvice",
+    "drzava": "Montenegro",
+    "izvor": "https://uploads.knightlab.com/storymapjs/d68e44a5a6fd5fe5aa97d31f7b027ae3/mapa-spomenika-narodnooslobodilacke-borbe/index.html",
+    "vrsta": "lokalni",
+    "kandidati": [
+      {
+        "lat": 42.95587,
+        "lng": 18.53964,
+        "izvor": "https://uploads.knightlab.com/storymapjs/d68e44a5a6fd5fe5aa97d31f7b027ae3/mapa-spomenika-narodnooslobodilacke-borbe/index.html",
+        "opis": "StoryMap (Vijesti, čitaoci): „Spomenik u selu Donje Crkvice“; tačka nepotvrđena"
+      }
+    ],
+    "slika": "slike/bez-lokacije/cg-donje-crkvice.webp",
+    "slikaOdnos": 0.664,
+    "slikaPotpis": "Vijesti, StoryMap Mapa spomenika NOB"
   }
 ]

@@ -11,7 +11,7 @@ Pokreću se iz korena repozitorijuma: Python sa `python -I alati/<alat>.py`, a N
 | `upisi_cid.py <id> <link>` | Upisuje Google id i lokaciju postojećem spomeniku. |
 | `dodaj_google.py <vrsta> <link> <naziv> …` | Dodaje nove spomenike sa Google linkova. |
 | `google_slike.mjs <izlaz.json>` | Za spomenike bez slike sa Google id-om pamti adresu glavne fotografije sa Google mapa. |
-| `slike_odnos.py`, `bez_metapodataka.py --upisi`, `male_slike.py` | Posle dodavanja slika, ovim redom: odnos širine i visine, izbacivanje EXIF-a i XMP-a, male slike za traku. |
+| `bez_metapodataka.py`, `male_slike.py`, `slike_odnos.py` | Čišćenje metapodataka, male slike i odnos širine/visine; redosled i komande su u [skilu provere](../.claude/skills/spomenici-provera/SKILL.md#obrada-novih-slika). |
 | `naselja_osm.json` | Naselja iz OSM-a, za polje `mesto`. |
 | `test.mjs` | `node --test alati/test.mjs`: glavni tokovi aplikacije u Chrome-u bez prozora. |
 | `snimi.mjs <izlaz.png> [js] [ms]` | Snimak aplikacije na ekranu telefona. |

@@ -68331,5 +68331,20 @@
     ],
     "vrsta": "bista",
     "drzava": "Serbia"
+  },
+  {
+    "id": "podgorica-spomenik-zrtvama-bombardovanja",
+    "koordinate": {
+      "lat": 42.4404216,
+      "lng": 19.2661132
+    },
+    "mesto": "Podgorica",
+    "izvor": "https://www.openstreetmap.org/node/5494528889",
+    "slika": "slike/spomenici/podgorica-spomenik-zrtvama-bombardovanja.webp",
+    "slikaOdnos": 1.015,
+    "slikaPotpis": "Čitalac Vijesti, StoryMap Mapa spomenika NOB",
+    "naziv": "Spomenik žrtvama bombardovanja u Drugom svjetskom ratu",
+    "vrsta": "lokalni",
+    "drzava": "Montenegro"
   }
 ]

@@ -7,6 +7,12 @@ description: Dobavljanje podataka za projekat Spomenici iz spoljnih izvora — n
 
 Standard zapisa (polja, nazivi, vrste, obuhvat) je u `references/standard.md`. Nazive određuje skil `spomenici-nazivi`, a posle svake izmene proveru radi skil `spomenici-provera`. Zapis se upisuje preko `poredaj` iz `alati/zapis.py`. Obrađeni izvori i nalazi se zapisuju u beleške projekta, da se posao ne ponavlja.
 
+Pregled obrađenosti je u [IZVORI.md](../../../docs/IZVORI.md), a rezultati i otvoreni tragovi u [LOCIRANJE_SPOMENIKA.md](../../../docs/LOCIRANJE_SPOMENIKA.md), [PROVERA_RUSENJA_HRVATSKA.md](../../../docs/PROVERA_RUSENJA_HRVATSKA.md) i [DOPUNA_PODATAKA.md](../../../docs/DOPUNA_PODATAKA.md). Preuzeti izvori (knjige, registri, skenovi) čuvaju se u `izvori/` u korenu repozitorijuma, koja je u `.gitignore` (ne objavljuje se): `izvori/knjige/` (Zagreb 1981, Krapina 1966, Jokić 1986, Šibenik 1980, Hrženjak 2002 sa skenovima strana i indeks NOB) i `izvori/cg/`; tu idu i svi novi preuzeti izvori. Ranije jednokratne skripte su u `~/.claude/projects/<putanja repozitorijuma>/nazivi-alati`; otvori samo temu potrebnu za zadatak. Naziv dokumentacionog Markdown fajla prati naslov; pri promeni naslova preimenuj fajl i ažuriraj veze. Ponovljive postupke čitaj po potrebi:
+
+- [Lociranje, identitet i stanje](references/lociranje-i-stanje.md): pre prebacivanja radnog unosa na mapu ili razrešavanja starih podataka.
+- [Zbirne pretrage i fotografije](references/pretrage-i-fotografije.md): pri radu sa Partizanstvo API-jem, drugim izvorima, licencama i poreklom koordinata ili datumom snimka.
+- [Autori i posvete](references/autori-i-posvete.md): pri dopunjavanju autora i povezivanju sa Wikidatom.
+
 ## Pravila prema serverima
 
 - **Zahtevi:**
@@ -42,7 +48,12 @@ Standard zapisa (polja, nazivi, vrste, obuhvat) je u `references/standard.md`. N
   - Q-id članka daje `prop=pageprops` (`wikibase_item`);
   - nazive i linkove daje `wbgetentities` sa `props=labels|sitelinks/urls`, po 50 id-ova;
   - `P31 = Q5` znači da je članak o osobi.
-- **Prolaz kroz `data/bez_lokacije.json`:** obavezno po verovatnoći uspeha, ne redom. Prednost imaju konkretni objekti (muzej, škola, dom), savremene adrese i precizne tačke; uklonjeni spomenici se preskaču. Hrvatski kandidati pre dodavanja prolaze [proveru opstanka](../../../docs/PLAN_KNJIGE.md#7-provera-opstanka-hrvatskih-spomenika--prioritet-pre-novih-unosa).
+- **Prolaz kroz `data/bez_lokacije.json`:** obavezno po verovatnoći uspeha, ne redom. Prednost imaju konkretni objekti (muzej, škola, dom), savremene adrese i precizne tačke; uklonjeni spomenici se preskaču.
+- **Opstanak, posebno u Hrvatskoj** (mnogo je srušeno i uklonjeno 1990–2000):
+  - razlikuj godinu podizanja, datum opisanog stanja, datum fotografije ili obilaska i godinu izdanja izvora; noviji sajt koji prenosi vodič iz 1978. nije noviji dokaz od Hrženjaka (2002, `data/knjige/hrzenjak-2002.json`);
+  - Hrženjakov nalaz o rušenju ili uklanjanju ima prednost nad starijim opisom; promeniti ga može samo konkretan kasniji dokaz obnove ili premeštanja (šta, kada, gde). Izostanak iz Hrženjaka ne znači da spomenik stoji;
+  - nedatirana fotografija, aktivan marker na karti i OSM objekat ne potvrđuju da spomenik danas postoji;
+  - izvorni `izvor` zapisa se čuva; kasniji dokaz opstanka ne zamenjuje ga.
 - **Lokacija bez Google id-a**, redom:
   1. GPS fotografije na Commons-u;
   2. jedan Overpass upit `nwr(around:2000,lat,lon)[historic~"memorial|monument"]` oko sela iz `alati/naselja_osm.json`;
@@ -60,8 +71,9 @@ Standard zapisa (polja, nazivi, vrste, obuhvat) je u `references/standard.md`. N
   - spomenik išaran grafitima;
   - drugo mesto;
   - natpis koji pokazuje drugi rat, npr. ploča udruženja solunskih dobrovoljaca.
-- **Redosled alata posle upisa:** `slike_odnos.py`, `bez_metapodataka.py --upisi`, `male_slike.py`.
-- Potpis u stavci je „Autor, licenca“, bez posebnih fajlova sa licencama.
+- **Obrada posle upisa:** prati [zajednički redosled iz skila provere](../spomenici-provera/SKILL.md#obrada-novih-slika).
+- **Fotografija se uvek kopira kod nas, nikad samo link** (korisnik, 2026-10-17): u bazi u `slike/spomenici/<id>.webp`, a za spisak bez lokacije u `slike/bez-lokacije/<ime>.webp`, sa `slikaPotpis` i `slikaOdnos`; original ide u `izvori/`.
+- **Spomenik se nikad ne dodaje bez fotografije ako fotografija postoji** (korisnik, 2026-10-17). Uzima se i kad licenca nije poznata (čitaoci novina, forum, knjiga, sajt): mala rezolucija (400 px) uz navođenje izvora je poštena upotreba. Potpis je „Autor, licenca“, a bez poznate licence „Autor, izvor“ (npr. „Čitalac Vijesti, StoryMap Mapa spomenika NOB“); bez posebnih fajlova sa licencama.
 - Prazno nebo i višak se seku pre umanjivanja na 400 px.
 
 ## Posvete
