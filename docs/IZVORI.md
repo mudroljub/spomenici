@@ -2,6 +2,8 @@
 
 Ažurirano **2026-10-17**, prema sačuvanim izveštajima i lokalnim zapisima; bez nove mrežne provere. Svrha: pre rada proveriti šta je već obrađeno, šta je donelo rezultate i šta još ima smisla pokušati. Redosled rada bira se po verovatnoći uspeha, ne po redosledu izvora u tabelama.
 
+**Lokalne kopije:** preuzeti izvori (knjige, registri, skenovi, fotografije, odgovori API-ja) su u `izvori/` u korenu repozitorijuma, van gita; sadržaj fascikle opisuje `izvori/README.md`. Pre novog preuzimanja proveri tamo.
+
 **Kako čitati obrađenost:** „završen prolaz“ važi samo za navedeni skup i vrstu posla, ne za ceo sajt. „Delimično“ znači da je obrađen poznat deo; „samo pronađen“ da podaci nisu obrađeni. Gde evidencija nije dovoljna piše „obim nepoznat“. Preuzimanje knjige nije obrada, a potpuni prepis knjige nije potvrda svih lokacija ili opstanka.
 
 Rezultati pretraga su istorijski, uglavnom od **2026-10-14–15**; ne sabiraju se jer se skupovi preklapaju. Brojevi knjiških zapisa provereni su u lokalnim JSON fajlovima **2026-10-17**. Ranije dodati kandidati mogli su kasnije biti locirani, spojeni ili povučeni; njihove istorijske brojke nisu današnji broj preostalih lokacija.
